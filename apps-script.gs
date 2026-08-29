@@ -5,7 +5,8 @@
 var SHEETS = {
   ratings: ['recipe_id', 'stars', 'voter', 'created_at'],
   submissions: ['name', 'by_name', 'category', 'kosher', 'ingredients', 'instructions', 'notes', 'created_at'],
-  requests: ['dish', 'by_name', 'notes', 'status', 'recipe_id', 'created_at']
+  requests: ['dish', 'by_name', 'notes', 'status', 'recipe_id', 'created_at'],
+  photos: ['recipe_id', 'url', 'file_id', 'by_name', 'status', 'created_at']
 };
 
 function getSheet(name) {
@@ -36,6 +37,21 @@ function doPost(e) {
   if (!SHEETS[name]) {
     return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad table' })).setMimeType(ContentService.MimeType.JSON);
   }
+  // photo uploads: save the image into Drive, share view-only, store its URL
+  if (name === 'photos' && body.image) {
+    var m = String(body.image).match(/^data:(image\/[\w.+-]+);base64,(.+)$/);
+    if (!m) {
+      return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad image' })).setMimeType(ContentService.MimeType.JSON);
+    }
+    var blob = Utilities.newBlob(Utilities.base64Decode(m[2]), m[1], 'recipe-photo-' + Date.now() + '.jpg');
+    var it = DriveApp.getFoldersByName('Recipe Book Photos');
+    var folder = it.hasNext() ? it.next() : DriveApp.createFolder('Recipe Book Photos');
+    var file = folder.createFile(blob);
+    file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+    body.file_id = file.getId();
+    body.url = 'https://drive.google.com/thumbnail?id=' + file.getId() + '&sz=w1000';
+  }
+
   var sh = getSheet(name);
   var row = SHEETS[name].map(function (h) {
     if (h === 'created_at') return new Date().toISOString();

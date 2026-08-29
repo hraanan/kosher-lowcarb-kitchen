@@ -246,6 +246,12 @@ article.recipe{
 .form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
 .form-actions{display:flex;gap:10px}
 .fam-by{font-size:12.5px;color:var(--ink-soft)}
+.card .illus.photo{padding:0;overflow:hidden}
+.card .illus.photo img{width:100%;height:104px;object-fit:cover;display:block}
+.photo-strip{display:flex;gap:10px;flex-wrap:wrap;margin-block:6px 14px}
+.photo-strip figure{margin:0}
+.photo-strip img{max-height:190px;max-width:100%;border-radius:10px;display:block;background:var(--panel-2)}
+.photo-strip figcaption{font-size:11.5px;color:var(--ink-soft);text-align:center;padding-block-start:3px}
 .req-list{display:flex;flex-direction:column;gap:8px;padding-block:2px 30px}
 .req-item{display:flex;gap:10px;align-items:baseline;padding:9px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;flex-wrap:wrap}
 .req-item b{font-size:15px}
@@ -339,6 +345,7 @@ const COMMUNITY = (()=>{ try{ const d = JSON.parse(document.getElementById("comm
 COMMUNITY.ratings = COMMUNITY.ratings || {};
 COMMUNITY.submissions = COMMUNITY.submissions || [];
 COMMUNITY.requests = COMMUNITY.requests || [];
+COMMUNITY.photos = COMMUNITY.photos || [];
 
 const RECIPES = /*__DATA__*/[];
 
@@ -390,6 +397,7 @@ const T = {
     reqThanks:"Request sent! It will be researched and added to the book.",
     reqFill:"Please write which recipe you'd like.",
     saveErr:"Couldn't save — check your internet connection and try again.",
+    photoBtn:"📷 I made it — add a photo", photoSent:"Photo sent! It will appear after approval.",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -431,6 +439,7 @@ const T = {
     reqThanks:"הבקשה נשלחה! המתכון ייחקר ויתווסף לספר.",
     reqFill:"נא לכתוב איזה מתכון תרצו.",
     saveErr:"השמירה נכשלה — בדקו את חיבור האינטרנט ונסו שוב.",
+    photoBtn:"📷 הכנתי! הוספת תמונה", photoSent:"התמונה נשלחה! תופיע אחרי אישור.",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -545,8 +554,12 @@ function cardHTML(r){
   const totalMin = (r.prepTimeMin||0)+(r.cookTimeMin||0);
   const ingLine = (rIngs(r)||[]).map(i=>shortItem(i.item)).filter(Boolean).join(" · ");
   const av = avgOf(r.id);
+  const ph = photosFor(r.id);
+  const visual = ph.length
+    ? `<div class="illus photo" aria-hidden="true"><img src="${esc(ph[0].url)}" alt="" loading="lazy"></div>`
+    : illusFor(r);
   return `<button class="card" data-id="${esc(r.id)}" aria-label="${esc(rName(r))}">
-    ${illusFor(r)}
+    ${visual}
     <div class="badges">${badges(r,false)}${av?`<span class="star-badge">★ ${av.avg.toFixed(1)}</span>`:""}</div>
     <h3>${esc(rName(r))}</h3>
     <p class="card-ings">${esc(ingLine)}</p>
@@ -606,7 +619,7 @@ function recipeHTML(r){
   <article class="recipe">
     <div class="badges">${badges(r,true)}<span class="badge lowcarb">${esc(catName(r.category))}</span></div>
     <h2>${esc(rName(r))}</h2>
-    ${illusFor(r)}
+    ${photosFor(r.id).length ? photoStripHTML(r.id) : illusFor(r)}
     <div class="meta-row">
       <div class="meta-cell"><b>${t("prep")}</b>${r.prepTimeMin} ${t("min")}</div>
       <div class="meta-cell"><b>${t("cook")}</b>${r.cookTimeMin} ${t("min")}</div>
@@ -633,6 +646,7 @@ function recipeHTML(r){
       </div>
     </div>
     ${rateBoxHTML(r.id)}
+    ${document.body.classList.contains("can-community") ? `<div style="margin-block-start:10px"><button class="ghost-btn no-print" id="photoBtn">${t("photoBtn")}</button></div>` : ""}
     <div class="src-row">
       ${srcs?`${t("adapted")}: ${srcs}`:""}
       ${rOpt(r,"comparedVersions")?`<div class="why">${t("why")} ${esc(rOpt(r,"comparedVersions"))}</div>`:""}
@@ -651,6 +665,8 @@ function showRecipe(id){
   v.innerHTML = recipeHTML(r);
   $("backBtn").onclick = ()=>{ location.hash=""; };
   $("printOneBtn").onclick = ()=>printRecipes([r], false);
+  const pb = $("photoBtn");
+  if(pb) pb.onclick = ()=>pickPhoto(r.id);
   window.scrollTo(0,0);
 }
 
@@ -689,6 +705,7 @@ async function dbLoad(){
     const d = await r.json();
     const parse = v => { if(typeof v === "string" && v.charAt(0) === "["){ try{ return JSON.parse(v); }catch(e){} } return Array.isArray(v) ? v : String(v||"").split("\n").filter(Boolean); };
     (d.submissions||[]).forEach(s => { s.ingredients = parse(s.ingredients); s.instructions = parse(s.instructions); });
+    COMMUNITY.photos = (d.photos||[]).filter(p => String(p.status||"").trim().toLowerCase() === "approved");
     return [d.ratings||[], d.submissions||[], d.requests||[]];
   }
   const q = p => fetch(SUPA.url + "/rest/v1/" + p, {headers:{apikey:SUPA.key, "Authorization":"Bearer "+SUPA.key}}).then(r=>{ if(!r.ok) throw new Error("db "+r.status); return r.json(); });
@@ -770,6 +787,51 @@ async function rate(id, stars){
     if(b2) b2.outerHTML = rateBoxHTML(id);
     toast(t("saveErr"));
   }
+}
+
+/* photos of dishes the family made (approved by Hagai in the Sheet) */
+function photosFor(id){ return (COMMUNITY.photos||[]).filter(p => p.recipe_id === id); }
+
+function photoStripHTML(id){
+  const ph = photosFor(id);
+  if(!ph.length) return "";
+  return `<div class="photo-strip">` + ph.map(p =>
+    `<figure><img src="${esc(p.url)}" alt="" loading="lazy">${p.by_name?`<figcaption>📷 ${esc(p.by_name)}</figcaption>`:""}</figure>`
+  ).join("") + `</div>`;
+}
+
+function resizeImage(file, max, q){
+  return new Promise((res, rej)=>{
+    const img = new Image();
+    img.onload = ()=>{
+      const sc = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(img.width*sc); c.height = Math.round(img.height*sc);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      res(c.toDataURL("image/jpeg", q));
+    };
+    img.onerror = rej;
+    img.src = URL.createObjectURL(file);
+  });
+}
+
+function pickPhoto(recipeId){
+  const inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "image/*";
+  inp.onchange = async ()=>{
+    const f = inp.files[0];
+    if(!f) return;
+    let by = "";
+    try{ by = localStorage.getItem("klk-name") || ""; }catch(e){}
+    if(!by){ by = (prompt(t("formYourName")) || "").trim(); try{ if(by) localStorage.setItem("klk-name", by); }catch(e){} }
+    toast("⏳ …");
+    try{
+      const dataUrl = await resizeImage(f, 1200, 0.82);
+      await dbInsert("photos", {recipe_id: recipeId, by_name: by, image: dataUrl});
+      toast(t("photoSent"));
+    }catch(err){ toast(t("saveErr")); }
+  };
+  inp.click();
 }
 
 /* family-submitted recipes */
