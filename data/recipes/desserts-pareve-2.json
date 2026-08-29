@@ -1,0 +1,594 @@
+[
+  {
+    "id": "aquafaba-chocolate-mousse",
+    "name": "Aquafaba Chocolate Mousse",
+    "nameHe": "מוס שוקולד ממי חומוס (אקוופבה)",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 20,
+    "cookTimeMin": 5,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "3/4 cup / 180 ml", "item": "aquafaba (liquid drained from one 400 g can of chickpeas)", "israelNote": "mei humus - the liquid from canned chickpeas"},
+      {"amount": "1/4 tsp", "item": "cream of tartar (or 1/2 tsp lemon juice)"},
+      {"amount": "150 g / 5 oz", "item": "sugar-free pareve dark chocolate, chopped (check pareve label; 85% dark also works)", "israelNote": "sugar-free or 85% dark chocolate marked parve - health-food stores"},
+      {"amount": "2 tbsp / 24 g", "item": "powdered erythritol-monk fruit blend", "israelNote": "erythritol/Sukrin - health-food stores (chanuyot teva)"},
+      {"amount": "1 tsp", "item": "vanilla extract"},
+      {"amount": "1 pinch", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3/4 כוס / 180 מ\"ל", "item": "מי חומוס (הנוזל המסונן מקופסת שימורים של 400 גרם גרגירי חומוס)"},
+      {"amount": "1/4 כפית", "item": "קרם טרטר (או 1/2 כפית מיץ לימון)"},
+      {"amount": "150 גרם", "item": "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה; גם 85% עובד)", "israelNote": "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"},
+      {"amount": "2 כפות / 24 גרם", "item": "תערובת אריתריטול ומונק פרוט אבקתית", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "1 כפית", "item": "תמצית וניל"},
+      {"amount": "קורט", "item": "מלח"}
+    ],
+    "instructions": [
+      "Melt the chopped chocolate gently in a bowl set over barely simmering water (or in 20-second microwave bursts). Set aside to cool until it is room temperature but still fluid.",
+      "Pour the aquafaba into a spotlessly clean, completely grease-free metal or glass bowl - any trace of fat will stop it whipping.",
+      "Add the cream of tartar and salt and beat with an electric mixer on high until stiff, glossy peaks form, about 7-10 minutes. You cannot overwhip aquafaba, so err on the long side.",
+      "Beat in the powdered sweetener and vanilla for another minute.",
+      "Add the cooled chocolate in three additions, folding gently with a spatula each time. Fold just until no streaks remain - the foam will deflate slightly, which is normal.",
+      "Divide between 4 small glasses and refrigerate at least 3 hours until set."
+    ],
+    "instructionsHe": [
+      "ממיסים בעדינות את השוקולד הקצוץ בקערה מעל מים רותחים קלות (או בפולסים של 20 שניות במיקרוגל). מניחים בצד להתקרר עד טמפרטורת החדר, כשהוא עדיין נוזלי.",
+      "מוזגים את מי החומוס לקערת מתכת או זכוכית נקייה לחלוטין ונטולת שומן — כל שמץ שומן ימנע את ההקצפה.",
+      "מוסיפים את קרם הטרטר והמלח ומקציפים במיקסר חשמלי במהירות גבוהה עד לקבלת קצף יציב ומבריק, כ-7-10 דקות. אי אפשר להקציף מי חומוס יותר מדי, אז עדיף להאריך.",
+      "מקציפים פנימה את הממתיק האבקתי והווניל עוד דקה.",
+      "מוסיפים את השוקולד המצונן בשלוש פעמים, ומקפלים בעדינות עם מרית בכל פעם. מקפלים רק עד שלא נשארים פסים — הקצף ישקע מעט, וזה נורמלי.",
+      "מחלקים בין 4 כוסות קטנות ומקררים לפחות 3 שעות עד להתייצבות."
+    ],
+    "nutrition": {"calories": 195, "fatG": 15.5, "satFatG": 9.5, "proteinG": 3.5, "carbsG": 14.8, "fiberG": 5.5, "netCarbsG": 2.3, "sugarG": 0.5, "sodiumMg": 55},
+    "lowCarbVariant": "Use regular 85% dark chocolate instead of sugar-free: about 7 g net carbs per serving.",
+    "lowCarbVariantHe": "משתמשים בשוקולד מריר 85% רגיל במקום ללא סוכר: כ-7 גרם פחמימות נטו למנה.",
+    "tips": "If the chocolate is even slightly warm it will collapse the foam - test it on your lip before folding. Top with a few raspberries.",
+    "tipsHe": "אם השוקולד אפילו מעט חם הוא ימוטט את הקצף — בודקים אותו על השפה לפני הקיפול. מקשטים בכמה פטל.",
+    "sources": [
+      {"creator": "Cinnamon & Coriander", "url": "https://cinnamonandcoriander.com/en/aquafaba-chocolate-mousse-vegan-sugar-free/"},
+      {"creator": "MomSecrets", "url": "https://momsecrets.co/vegan-low-carb-chocolate-mousse/"},
+      {"creator": "Detoxinista", "url": "https://detoxinista.com/aquafaba-mousse/"}
+    ],
+    "comparedVersions": "Compared Cinnamon & Coriander (sugar-free, stabilized with cream of tartar), MomSecrets (bare 3-ingredient keto version) and Detoxinista. Went with the straight chocolate-into-foam method (no coconut-milk ganache) for the shortest ingredient list and lightest texture, keeping cream of tartar for a reliably stable foam and erythritol for a keto sweet level.",
+    "comparedVersionsHe": "השווינו בין Cinnamon & Coriander (ללא סוכר, מיוצב בקרם טרטר), MomSecrets (גרסת קיטו בסיסית מ-3 מצרכים) ו-Detoxinista. בחרנו בשיטה הישירה של קיפול שוקולד לתוך הקצף (בלי גנאש חלב קוקוס) בשביל רשימת המצרכים הקצרה ביותר והמרקם הקליל ביותר, עם קרם טרטר לקצף יציב באמינות ואריתריטול לרמת מתיקות קיטו."
+  },
+  {
+    "id": "flourless-chocolate-cake-pareve",
+    "name": "Flourless Chocolate Cake",
+    "nameHe": "עוגת שוקולד ללא קמח",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 12,
+    "prepTimeMin": 15,
+    "cookTimeMin": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "115 g / 4 oz", "item": "unsweetened baking chocolate (100% cacao), chopped - check pareve label", "israelNote": "100% cacao chocolate marked parve - health-food stores"},
+      {"amount": "1/3 cup / 80 ml", "item": "coconut oil (refined, for a neutral taste)", "israelNote": "shemen kokos mezukak (refined)"},
+      {"amount": "3/4 cup / 150 g", "item": "granulated erythritol-monk fruit blend", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "3", "item": "large eggs, room temperature"},
+      {"amount": "1/4 cup / 60 ml", "item": "coconut cream", "israelNote": "kremet kokos 22%+"},
+      {"amount": "1/2 cup / 50 g", "item": "unsweetened cocoa powder, sifted"},
+      {"amount": "1 tsp", "item": "vanilla extract"},
+      {"amount": "1 tsp", "item": "instant espresso powder (optional, deepens the chocolate flavor)"},
+      {"amount": "1/4 tsp", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "115 גרם", "item": "שוקולד אפייה לא ממותק (100% קקאו), קצוץ — לבדוק סימון פרווה", "israelNote": "שוקולד 100% קקאו בסימון פרווה — חנויות טבע"},
+      {"amount": "1/3 כוס / 80 מ\"ל", "item": "שמן קוקוס (מזוקק, לטעם ניטרלי)", "israelNote": "שמן קוקוס מזוקק"},
+      {"amount": "3/4 כוס / 150 גרם", "item": "תערובת אריתריטול ומונק פרוט גרגירית", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "3", "item": "ביצים גדולות, בטמפרטורת החדר"},
+      {"amount": "1/4 כוס / 60 מ\"ל", "item": "קרם קוקוס", "israelNote": "קרם קוקוס 22% ומעלה"},
+      {"amount": "1/2 כוס / 50 גרם", "item": "אבקת קקאו לא ממותקת, מנופה"},
+      {"amount": "1 כפית", "item": "תמצית וניל"},
+      {"amount": "1 כפית", "item": "אבקת אספרסו נמס (לא חובה, מעמיקה את טעם השוקולד)"},
+      {"amount": "1/4 כפית", "item": "מלח"}
+    ],
+    "instructions": [
+      "Heat the oven to 175 C / 350 F. Grease a 20 cm round pan and line the bottom with parchment.",
+      "Melt the chocolate and coconut oil together in a bowl set over simmering water, stirring until smooth. Remove from the heat.",
+      "Whisk in the sweetener, vanilla, espresso powder and salt.",
+      "Beat in the eggs one at a time - the batter may stiffen, which is fine.",
+      "Stir in the coconut cream, then the sifted cocoa powder, until the batter is thick and glossy.",
+      "Spread evenly in the pan and bake 18-20 minutes, until the top is just set but the center still looks slightly moist.",
+      "Cool completely in the pan - it firms up as it cools. Dust with powdered sweetener before serving."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-175 מעלות. משמנים תבנית עגולה בקוטר 20 ס\"מ ומרפדים את התחתית בנייר אפייה.",
+      "ממיסים יחד את השוקולד ושמן הקוקוס בקערה מעל מים רותחים, ומערבבים עד לקבלת תערובת חלקה. מסירים מהאש.",
+      "טורפים פנימה את הממתיק, הווניל, אבקת האספרסו והמלח.",
+      "טורפים פנימה את הביצים אחת אחת — הבלילה עשויה להסמיך, וזה בסדר.",
+      "מערבבים פנימה את קרם הקוקוס, ואז את אבקת הקקאו המנופה, עד שהבלילה סמיכה ומבריקה.",
+      "משטחים באופן אחיד בתבנית ואופים 18-20 דקות, עד שהחלק העליון בדיוק מתייצב אבל המרכז עדיין נראה מעט לח.",
+      "מצננים לגמרי בתבנית — העוגה מתייצבת כשהיא מתקררת. מאבקים בממתיק אבקתי לפני ההגשה."
+    ],
+    "nutrition": {"calories": 214, "fatG": 19.4, "satFatG": 12.5, "proteinG": 4.1, "carbsG": 6.2, "fiberG": 3.5, "netCarbsG": 2.7, "sugarG": 1.0, "sodiumMg": 85},
+    "tips": "For a glaze, melt 45 g pareve dark chocolate with 1/3 cup coconut cream and 3 tbsp powdered sweetener and pour over the cooled cake.",
+    "tipsHe": "לגלזורה, ממיסים 45 גרם שוקולד מריר פרווה עם 1/3 כוס קרם קוקוס ו-3 כפות ממתיק אבקתי ויוצקים על העוגה המצוננת.",
+    "sources": [
+      {"creator": "All Day I Dream About Food (Carolyn Ketchum)", "url": "https://alldayidreamaboutfood.com/keto-flourless-chocolate-cake/"},
+      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/keto-flourless-chocolate-cake/"},
+      {"creator": "The Roasted Root", "url": "https://www.theroastedroot.net/flourless-keto-chocolate-cake/"}
+    ],
+    "comparedVersions": "Compared All Day I Dream About Food, Sweet As Honey and The Roasted Root. ADIDAF won because it is written entirely dairy-free (coconut oil + coconut cream), uses unsweetened chocolate plus cocoa for a dense fudge crumb, and comes together in one bowl over the melting pot.",
+    "comparedVersionsHe": "השווינו בין All Day I Dream About Food, Sweet As Honey ו-The Roasted Root. הגרסה של ADIDAF ניצחה כי היא כתובה מלכתחילה ללא חלב (שמן קוקוס + קרם קוקוס), משתמשת בשוקולד לא ממותק ובקקאו לפירורי פאדג' צפופים, ומתגבשת בקערה אחת מעל סיר ההמסה."
+  },
+  {
+    "id": "chocolate-almond-cookies-pareve",
+    "name": "Chocolate Almond Flour Cookies",
+    "nameHe": "עוגיות שוקולד מקמח שקדים",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 9,
+    "prepTimeMin": 10,
+    "cookTimeMin": 12,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 cup / 100 g", "item": "almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "3 tbsp / 21 g", "item": "unsweetened cocoa powder"},
+      {"amount": "4 tbsp / 48 g", "item": "granulated erythritol-monk fruit blend", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "1/2 tsp", "item": "baking powder"},
+      {"amount": "1 pinch", "item": "salt"},
+      {"amount": "4 tbsp / 55 g", "item": "coconut oil, softened but not melted (refined for a neutral taste)", "israelNote": "shemen kokos mezukak"},
+      {"amount": "1", "item": "medium egg"},
+      {"amount": "1/4 cup / 30 g", "item": "sugar-free pareve dark chocolate, chopped (check pareve label)", "israelNote": "sugar-free or 85% dark chocolate marked parve"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 כוס / 100 גרם", "item": "קמח שקדים"},
+      {"amount": "3 כפות / 21 גרם", "item": "אבקת קקאו לא ממותקת"},
+      {"amount": "4 כפות / 48 גרם", "item": "תערובת אריתריטול ומונק פרוט גרגירית", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "1/2 כפית", "item": "אבקת אפייה"},
+      {"amount": "קורט", "item": "מלח"},
+      {"amount": "4 כפות / 55 גרם", "item": "שמן קוקוס, מרוכך אך לא מומס (מזוקק לטעם ניטרלי)", "israelNote": "שמן קוקוס מזוקק"},
+      {"amount": "1", "item": "ביצה בינונית"},
+      {"amount": "1/4 כוס / 30 גרם", "item": "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה)", "israelNote": "שוקולד ללא סוכר או מריר 85% בסימון פרווה"}
+    ],
+    "instructions": [
+      "Heat the oven to 175 C / 350 F and line a baking sheet with parchment.",
+      "Stir the almond flour, cocoa, sweetener, baking powder and salt together in a bowl.",
+      "Add the softened coconut oil and the egg and work them in with a fork until a smooth, soft dough forms.",
+      "Fold in the chopped chocolate.",
+      "Shape into 9 balls, place on the sheet and flatten to about 1 cm thick - they barely spread on their own.",
+      "Bake about 12 minutes until the tops look dry.",
+      "Cool completely on the tray before lifting - they are fragile while warm and firm up as they cool."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-175 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מערבבים בקערה את קמח השקדים, הקקאו, הממתיק, אבקת האפייה והמלח.",
+      "מוסיפים את שמן הקוקוס המרוכך ואת הביצה ומעבדים במזלג עד לקבלת בצק רך וחלק.",
+      "מקפלים פנימה את השוקולד הקצוץ.",
+      "מגלגלים ל-9 כדורים, מניחים על התבנית ומשטחים לעובי של כ-1 ס\"מ — הן בקושי מתפשטות לבד.",
+      "אופים כ-12 דקות עד שהחלק העליון נראה יבש.",
+      "מצננים לגמרי על התבנית לפני ההרמה — הן שבירות כשהן חמות ומתייצבות כשהן מתקררות."
+    ],
+    "nutrition": {"calories": 140, "fatG": 13.5, "satFatG": 7.0, "proteinG": 3.5, "carbsG": 3.9, "fiberG": 2.0, "netCarbsG": 1.9, "sugarG": 0.4, "sodiumMg": 45},
+    "tips": "Press a few extra chocolate pieces on top before baking for a bakery look. Store airtight up to a week.",
+    "tipsHe": "לוחצים כמה חתיכות שוקולד נוספות מלמעלה לפני האפייה למראה של מאפייה. שומרים בכלי אטום עד שבוע.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nurnberger)", "url": "https://sugarfreelondoner.com/keto-chocolate-cookies/"},
+      {"creator": "Joy Filled Eats", "url": "https://joyfilledeats.com/chocolate-almond-flour-cookies/"},
+      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/keto-chocolate-chip-cookies/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner, Joy Filled Eats and KetoFocus. Sugar Free Londoner won for its one-bowl fork-mixed dough and lowest carb count; its own dairy-free note (swap the butter for coconut oil) makes it fully pareve without changing anything else.",
+    "comparedVersionsHe": "השווינו בין Sugar Free Londoner, Joy Filled Eats ו-KetoFocus. הגרסה של Sugar Free Londoner ניצחה עם בצק של קערה אחת המעורבב במזלג ומספר הפחמימות הנמוך ביותר; ההערה שלה עצמה לגרסה ללא חלב (מחליפים את החמאה בשמן קוקוס) הופכת אותה לפרווה לגמרי בלי לשנות שום דבר אחר."
+  },
+  {
+    "id": "keto-pecan-pie-bars-pareve",
+    "name": "Keto Pecan Pie Bars",
+    "nameHe": "חטיפי פאי פקאן קיטו",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 12,
+    "prepTimeMin": 15,
+    "cookTimeMin": 40,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "2 cups / 200 g", "item": "almond flour (crust)", "israelNote": "kemach shkedim"},
+      {"amount": "2 tbsp + 2/3 cup / 155 g total", "item": "golden erythritol (brown-sugar style), divided: 2 tbsp for crust, 2/3 cup for filling", "israelNote": "Sukrin Gold - health-food stores"},
+      {"amount": "1/4 tsp", "item": "salt (crust)"},
+      {"amount": "3 tbsp / 40 g", "item": "coconut oil, softened (crust)", "israelNote": "shemen kokos"},
+      {"amount": "2 + 1 yolk", "item": "large eggs, room temperature: 1 for crust, 1 egg + 1 yolk for filling"},
+      {"amount": "1/2 cup / 110 g", "item": "coconut oil, melted (filling)"},
+      {"amount": "2 cups / 200 g", "item": "pecan halves, most roughly chopped, some left whole for the top"},
+      {"amount": "1 tsp", "item": "cinnamon"},
+      {"amount": "1 tsp", "item": "vanilla extract"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים (לבסיס)"},
+      {"amount": "2 כפות + 2/3 כוס / 155 גרם סך הכול", "item": "אריתריטול זהוב (בסגנון סוכר חום), מחולק: 2 כפות לבסיס, 2/3 כוס למילוי", "israelNote": "סוכרין גולד (Sukrin Gold) — חנויות טבע"},
+      {"amount": "1/4 כפית", "item": "מלח (לבסיס)"},
+      {"amount": "3 כפות / 40 גרם", "item": "שמן קוקוס, מרוכך (לבסיס)"},
+      {"amount": "2 + חלמון", "item": "ביצים גדולות, בטמפרטורת החדר: 1 לבסיס, ביצה + חלמון למילוי"},
+      {"amount": "1/2 כוס / 110 גרם", "item": "שמן קוקוס, מומס (למילוי)"},
+      {"amount": "2 כוסות / 200 גרם", "item": "חצאי פקאן, רובם קצוצים גס, חלקם שלמים לקישוט מלמעלה"},
+      {"amount": "1 כפית", "item": "קינמון"},
+      {"amount": "1 כפית", "item": "תמצית וניל"}
+    ],
+    "instructions": [
+      "Heat the oven to 180 C / 350 F and line a 20 cm square pan with parchment.",
+      "Mix the almond flour, 2 tbsp golden erythritol and salt; work in the softened coconut oil and 1 egg until a dough forms. Press evenly into the pan.",
+      "Pre-bake the crust 10 minutes, then let it cool a few minutes.",
+      "Whisk the melted (but not hot) coconut oil with 2/3 cup golden erythritol, then whisk in the egg, yolk, vanilla and cinnamon until emulsified.",
+      "Stir in the chopped pecans and pour the filling over the crust. Arrange the whole pecan halves on top.",
+      "Bake 25-30 minutes, until the edges are set and the center has only a slight jiggle. Tent with foil if the nuts brown too fast.",
+      "Cool completely, then chill at least 1 hour before slicing into 12 bars - they slice cleanly only when cold."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית מרובעת 20 ס\"מ בנייר אפייה.",
+      "מערבבים את קמח השקדים, 2 כפות אריתריטול זהוב והמלח; מעבדים פנימה את שמן הקוקוס המרוכך וביצה אחת עד לקבלת בצק. מהדקים באופן אחיד לתבנית.",
+      "אופים את הבסיס אפייה מוקדמת של 10 דקות, ונותנים לו להתקרר כמה דקות.",
+      "טורפים את שמן הקוקוס המומס (אך לא חם) עם 2/3 כוס אריתריטול זהוב, ואז טורפים פנימה את הביצה, החלמון, הווניל והקינמון עד לקבלת תערובת אחידה.",
+      "מערבבים פנימה את הפקאנים הקצוצים ויוצקים את המילוי על הבסיס. מסדרים מלמעלה את חצאי הפקאן השלמים.",
+      "אופים 25-30 דקות, עד שהשוליים מיוצבים ובמרכז נשאר רק רעד קל. מכסים ברפיון בנייר אלומיניום אם האגוזים משחימים מהר מדי.",
+      "מצננים לגמרי, ואז מקררים לפחות שעה לפני חיתוך ל-12 חטיפים — הם נחתכים נקי רק כשהם קרים."
+    ],
+    "nutrition": {"calories": 320, "fatG": 32.0, "satFatG": 12.0, "proteinG": 6.0, "carbsG": 6.0, "fiberG": 3.5, "netCarbsG": 2.5, "sugarG": 1.2, "sodiumMg": 55},
+    "tips": "If you can find allulose, use it in the filling - it stays gooey when chilled, while erythritol firms up more (still delicious, just fudgier).",
+    "tipsHe": "אם משיגים אלולוז, משתמשים בו במילוי — הוא נשאר דביק ונימוח גם בקירור, בעוד אריתריטול מתייצב יותר (עדיין טעים, רק פאדג'י יותר).",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nurnberger)", "url": "https://sugarfreelondoner.com/keto-pecan-pie-bars/"},
+      {"creator": "The Roasted Root", "url": "https://www.theroastedroot.net/dairy-free-keto-pecan-pie-with-a-paleo-option/"},
+      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-pecan-pie-bars/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's bars, The Roasted Root's dairy-free keto pecan pie and The Big Man's World. Kept Sugar Free Londoner's crust and filling ratios (best texture, real shortbread base) and applied its own dairy-free swap of coconut oil for butter, which The Roasted Root's fully dairy-free pie confirms works well.",
+    "comparedVersionsHe": "השווינו בין החטיפים של Sugar Free Londoner, פאי הפקאן הקיטו ללא חלב של The Roasted Root ו-The Big Man's World. שמרנו על יחסי הבסיס והמילוי של Sugar Free Londoner (המרקם הטוב ביותר, בסיס שורטברד אמיתי) ויישמנו את ההחלפה שלה עצמה לגרסה ללא חלב — שמן קוקוס במקום חמאה — שהפאי הנטול-חלב לגמרי של The Roasted Root מאשר שהיא עובדת היטב."
+  },
+  {
+    "id": "pareve-nut-butter-cups",
+    "name": "Nut Butter Cups",
+    "nameHe": "כוסיות שוקולד במילוי חמאת אגוזים",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 12,
+    "prepTimeMin": 15,
+    "cookTimeMin": 5,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "200 g / 7 oz", "item": "sugar-free pareve dark chocolate, chopped (check pareve label - most chocolate chips contain milk solids)", "israelNote": "sugar-free or 85% dark chocolate marked parve - health-food stores"},
+      {"amount": "2 tbsp / 28 g", "item": "coconut oil, divided", "israelNote": "shemen kokos"},
+      {"amount": "1/2 cup / 130 g", "item": "natural peanut butter, unsweetened (or almond butter / tahini)", "israelNote": "100% natural peanut butter (chemat botnim tivit)"},
+      {"amount": "2 tbsp / 16 g", "item": "powdered erythritol-monk fruit blend", "israelNote": "grind granulated erythritol in a spice grinder if powdered is unavailable"},
+      {"amount": "1/4 tsp", "item": "vanilla extract"},
+      {"amount": "1 pinch", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "200 גרם", "item": "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה — רוב שבבי השוקולד מכילים מוצקי חלב)", "israelNote": "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"},
+      {"amount": "2 כפות / 28 גרם", "item": "שמן קוקוס, מחולק"},
+      {"amount": "1/2 כוס / 130 גרם", "item": "חמאת בוטנים טבעית 100%, ללא סוכר (או חמאת שקדים / טחינה)"},
+      {"amount": "2 כפות / 16 גרם", "item": "תערובת אריתריטול ומונק פרוט אבקתית", "israelNote": "טוחנים אריתריטול גרגירי במטחנת תבלינים אם אין אבקתי"},
+      {"amount": "1/4 כפית", "item": "תמצית וניל"},
+      {"amount": "קורט", "item": "מלח"}
+    ],
+    "instructions": [
+      "Line a 12-hole muffin tin with paper or silicone liners.",
+      "Melt half the chocolate with half the coconut oil in short microwave bursts, stirring until smooth.",
+      "Spoon about 2 teaspoons into the bottom of each liner and freeze 10 minutes until firm.",
+      "Stir the nut butter with the powdered sweetener, vanilla and salt; warm it briefly if it is too stiff to stir.",
+      "Drop a teaspoon of filling onto each chocolate base and flatten it slightly, leaving a rim of chocolate visible. Freeze 10 minutes.",
+      "Melt the remaining chocolate and coconut oil, spoon over the filling to cover, and freeze 20-30 minutes until set.",
+      "Store in the fridge (they soften at room temperature because of the coconut oil)."
+    ],
+    "instructionsHe": [
+      "מרפדים תבנית מאפינס של 12 שקעים במנג'טים מנייר או מסיליקון.",
+      "ממיסים חצי מהשוקולד עם חצי משמן הקוקוס בפולסים קצרים במיקרוגל, ומערבבים עד לקבלת תערובת חלקה.",
+      "יוצקים כ-2 כפיות לתחתית כל מנג'ט ומקפיאים 10 דקות עד להתייצבות.",
+      "מערבבים את חמאת האגוזים עם הממתיק האבקתי, הווניל והמלח; מחממים אותה קצרות אם היא קשה מדי לערבוב.",
+      "מניחים כפית מילוי על כל בסיס שוקולד ומשטחים מעט, ומשאירים שוליים של שוקולד גלויים. מקפיאים 10 דקות.",
+      "ממיסים את שארית השוקולד ושמן הקוקוס, יוצקים על המילוי לכיסוי, ומקפיאים 20-30 דקות עד להתייצבות.",
+      "שומרים במקרר (הן מתרככות בטמפרטורת החדר בגלל שמן הקוקוס)."
+    ],
+    "nutrition": {"calories": 168, "fatG": 14.5, "satFatG": 7.2, "proteinG": 3.7, "carbsG": 8.4, "fiberG": 3.0, "netCarbsG": 2.1, "sugarG": 0.4, "sodiumMg": 55},
+    "tips": "A flaky-salt pinch on top before the final freeze makes them taste like the candy-store version. Tahini filling makes them nut-free and very Israeli.",
+    "tipsHe": "קורט מלח גס מלמעלה לפני ההקפאה האחרונה נותן להן טעם של ממתק קנוי. מילוי טחינה הופך אותן לנטולות אגוזים ומאוד ישראליות.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/recipes/sugar-free-keto-peanut-butter-cups/"},
+      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-peanut-butter-cups/"},
+      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/keto-peanut-butter-cups-reeses/"}
+    ],
+    "comparedVersions": "Compared Wholesome Yum (5 ingredients, three-layer freeze method), The Big Man's World (3 ingredients but no sweetened filling) and Sugar Free Londoner. Kept Wholesome Yum's layer-and-freeze technique for the cleanest look but dropped its peanut flour, sweetening the filling with powdered erythritol instead.",
+    "comparedVersionsHe": "השווינו בין Wholesome Yum (5 מצרכים, שיטת שלוש שכבות והקפאה), The Big Man's World (3 מצרכים אבל בלי מילוי ממותק) ו-Sugar Free Londoner. שמרנו על טכניקת השכבות וההקפאה של Wholesome Yum למראה הנקי ביותר, אבל ויתרנו על קמח הבוטנים שלה והמתקנו את המילוי באריתריטול אבקתי במקום."
+  },
+  {
+    "id": "warm-berry-nut-crumble",
+    "name": "Warm Berry Crumble with Nut Topping",
+    "nameHe": "קראמבל פירות יער חם עם שטרויזל אגוזים",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 10,
+    "cookTimeMin": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "3 cups / 450 g", "item": "mixed berries, fresh or frozen (strawberries, raspberries, blueberries)", "israelNote": "Sunfrost frozen berry mix"},
+      {"amount": "2 tbsp / 24 g", "item": "granulated erythritol-monk fruit blend (filling)", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "1 tsp", "item": "lemon juice"},
+      {"amount": "1 tsp", "item": "cinnamon, divided (1/2 tsp filling, 1/2 tsp topping)"},
+      {"amount": "1 cup / 100 g", "item": "almond flour (topping)", "israelNote": "kemach shkedim"},
+      {"amount": "1/2 cup / 55 g", "item": "pecans or walnuts, chopped (topping)"},
+      {"amount": "3 tbsp / 36 g", "item": "granulated erythritol-monk fruit blend (topping)"},
+      {"amount": "3 tbsp / 40 g", "item": "coconut oil, melted (topping)", "israelNote": "shemen kokos"},
+      {"amount": "1 pinch", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3 כוסות / 450 גרם", "item": "פירות יער מעורבים, טריים או קפואים (תותים, פטל, אוכמניות)", "israelNote": "תערובת פירות יער קפואה של סנפרוסט"},
+      {"amount": "2 כפות / 24 גרם", "item": "תערובת אריתריטול ומונק פרוט גרגירית (למילוי)", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "1 כפית", "item": "מיץ לימון"},
+      {"amount": "1 כפית", "item": "קינמון, מחולק (1/2 כפית למילוי, 1/2 כפית לשטרויזל)"},
+      {"amount": "1 כוס / 100 גרם", "item": "קמח שקדים (לשטרויזל)"},
+      {"amount": "1/2 כוס / 55 גרם", "item": "פקאנים או אגוזי מלך, קצוצים (לשטרויזל)"},
+      {"amount": "3 כפות / 36 גרם", "item": "תערובת אריתריטול ומונק פרוט גרגירית (לשטרויזל)"},
+      {"amount": "3 כפות / 40 גרם", "item": "שמן קוקוס, מומס (לשטרויזל)"},
+      {"amount": "קורט", "item": "מלח"}
+    ],
+    "instructions": [
+      "Heat the oven to 175 C / 350 F.",
+      "Toss the berries with 2 tbsp sweetener, lemon juice and 1/2 tsp cinnamon directly in a 20 cm baking dish. No thickener needed - the juices reduce as it bakes.",
+      "In a bowl, mix the almond flour, chopped nuts, 3 tbsp sweetener, 1/2 tsp cinnamon and salt, then stir in the melted coconut oil and pinch the mixture into clumps.",
+      "Scatter the topping over the berries.",
+      "Bake 25-30 minutes, until the fruit bubbles at the edges and the topping is golden. Cover loosely with foil if it browns too fast.",
+      "Rest 10 minutes and serve warm."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-175 מעלות.",
+      "מערבבים את פירות היער עם 2 כפות ממתיק, מיץ הלימון ו-1/2 כפית קינמון ישירות בתבנית אפייה בקוטר 20 ס\"מ. אין צורך במסמיך — המיצים מצטמצמים באפייה.",
+      "בקערה מערבבים את קמח השקדים, האגוזים הקצוצים, 3 כפות ממתיק, 1/2 כפית קינמון והמלח, ואז מערבבים פנימה את שמן הקוקוס המומס וצובטים את התערובת לגושים.",
+      "מפזרים את השטרויזל על פירות היער.",
+      "אופים 25-30 דקות, עד שהפרי מבעבע בשוליים והשטרויזל זהוב. מכסים ברפיון בנייר אלומיניום אם משחים מהר מדי.",
+      "ממתינים 10 דקות ומגישים חם."
+    ],
+    "nutrition": {"calories": 263, "fatG": 23.3, "satFatG": 7.3, "proteinG": 5.5, "carbsG": 13.5, "fiberG": 6.0, "netCarbsG": 7.5, "sugarG": 4.3, "sodiumMg": 55},
+    "ketoVariant": "Use mostly raspberries and blackberries for about 5 g net carbs per serving.",
+    "ketoVariantHe": "משתמשים בעיקר בפטל ובפטל שחור לכ-5 גרם פחמימות נטו למנה.",
+    "tips": "Frozen berries go straight in without thawing - just add about 5 minutes to the bake. Lovely with pareve coconut whipped cream.",
+    "tipsHe": "פירות יער קפואים נכנסים ישר בלי הפשרה — רק מוסיפים כ-5 דקות לאפייה. נהדר עם קצפת קוקוס פרווה.",
+    "sources": [
+      {"creator": "The Roasted Root", "url": "https://www.theroastedroot.net/keto-blueberry-crumble-vegan/"},
+      {"creator": "Life Made Sweeter", "url": "https://lifemadesweeter.com/triple-berry-crisp/"},
+      {"creator": "Divalicious Recipes", "url": "https://divaliciousrecipes.com/berry-crumble-with-coconut-almond-flour/"}
+    ],
+    "comparedVersions": "Compared The Roasted Root's vegan keto blueberry crumble (coconut oil + almond flour makes a shortbread-like topping), Life Made Sweeter's berry crisp (adds pecans for crunch) and Divalicious. Merged the first two - Roasted Root's dairy-free topping ratio with pecans folded in - and switched all-blueberry to a mixed-berry filling to cut net carbs by roughly a third.",
+    "comparedVersionsHe": "השווינו בין קראמבל האוכמניות הטבעוני-קיטו של The Roasted Root (שמן קוקוס + קמח שקדים נותנים שטרויזל דמוי שורטברד), הקריספ של Life Made Sweeter (מוסיף פקאנים לפריכות) ו-Divalicious. מיזגנו את השניים הראשונים — יחס השטרויזל ללא חלב של Roasted Root עם פקאנים מקופלים פנימה — והחלפנו מילוי אוכמניות בלבד בתערובת פירות יער כדי לחתוך כשליש מהפחמימות נטו."
+  },
+  {
+    "id": "coconut-macaroon-bars",
+    "name": "Chocolate-Dipped Coconut Macaroon Bars",
+    "nameHe": "חטיפי קוקוס מצופים שוקולד",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 14,
+    "prepTimeMin": 15,
+    "cookTimeMin": 18,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "3", "item": "large egg whites"},
+      {"amount": "1 pinch", "item": "salt"},
+      {"amount": "3 tbsp / 24 g", "item": "powdered erythritol-monk fruit blend", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "3 tbsp / 40 g", "item": "coconut butter or very thick coconut cream, melted", "israelNote": "kremet kokos 22%+ (the thick part) or coconut butter from health-food stores"},
+      {"amount": "2 cups / 200 g", "item": "unsweetened desiccated coconut", "israelNote": "kokos tachun, unsweetened"},
+      {"amount": "1 tsp", "item": "vanilla extract"},
+      {"amount": "60 g / 2 oz", "item": "sugar-free pareve dark chocolate (check pareve label)", "israelNote": "sugar-free or 85% dark chocolate marked parve"},
+      {"amount": "1 tsp", "item": "coconut oil", "israelNote": "shemen kokos"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3", "item": "חלבוני ביצה גדולה"},
+      {"amount": "קורט", "item": "מלח"},
+      {"amount": "3 כפות / 24 גרם", "item": "תערובת אריתריטול ומונק פרוט אבקתית", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "3 כפות / 40 גרם", "item": "חמאת קוקוס או קרם קוקוס סמיך מאוד, מומס", "israelNote": "קרם קוקוס 22% ומעלה (החלק הסמיך) או חמאת קוקוס מחנויות טבע"},
+      {"amount": "2 כוסות / 200 גרם", "item": "קוקוס טחון לא ממותק"},
+      {"amount": "1 כפית", "item": "תמצית וניל"},
+      {"amount": "60 גרם", "item": "שוקולד מריר פרווה ללא סוכר (לבדוק סימון פרווה)", "israelNote": "שוקולד ללא סוכר או מריר 85% בסימון פרווה"},
+      {"amount": "1 כפית", "item": "שמן קוקוס"}
+    ],
+    "instructions": [
+      "Heat the oven to 170 C / 340 F and line a baking sheet with parchment.",
+      "Whip the egg whites with the salt in a clean, grease-free bowl until stiff peaks form.",
+      "Fold in the powdered sweetener, melted coconut butter and vanilla, then the desiccated coconut, until evenly moistened.",
+      "With damp hands, press the mixture firmly into 14 small bars (about 6 x 2 cm) and place on the sheet.",
+      "Bake 15-18 minutes until golden at the edges. Cool completely on the tray - they set as they cool.",
+      "Melt the chocolate with the coconut oil in short bursts, dip the base of each bar (or drizzle over the tops), and chill until the chocolate sets."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-170 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מקציפים את החלבונים עם המלח בקערה נקייה ונטולת שומן עד לקבלת קצף יציב.",
+      "מקפלים פנימה את הממתיק האבקתי, חמאת הקוקוס המומסת והווניל, ואז את הקוקוס הטחון, עד שהכול לח באופן אחיד.",
+      "בידיים לחות מהדקים את התערובת היטב ל-14 חטיפים קטנים (כ-6x2 ס\"מ) ומניחים על התבנית.",
+      "אופים 15-18 דקות עד להזהבה בשוליים. מצננים לגמרי על התבנית — הם מתייצבים כשהם מתקררים.",
+      "ממיסים את השוקולד עם שמן הקוקוס בפולסים קצרים, טובלים את תחתית כל חטיף (או מזלפים מעל), ומקררים עד שהשוקולד מתייצב."
+    ],
+    "nutrition": {"calories": 138, "fatG": 12.9, "satFatG": 10.9, "proteinG": 2.1, "carbsG": 5.6, "fiberG": 3.4, "netCarbsG": 1.3, "sugarG": 1.2, "sodiumMg": 35},
+    "tips": "Press the bars together firmly - the meringue is the only glue. They keep a week in an airtight tin.",
+    "tipsHe": "מהדקים את החטיפים היטב — המרנג הוא הדבק היחיד. הם נשמרים שבוע בקופסה אטומה.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nurnberger)", "url": "https://sugarfreelondoner.com/keto-macaroons-sugar-free/"},
+      {"creator": "Sugar-Free Mom", "url": "https://www.sugarfreemom.com/recipes/coconut-macaroons-gluten-sugar-dairy-free/"},
+      {"creator": "The Best Keto Recipes", "url": "https://thebestketorecipes.com/chocolate-coconut-macaroons/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner (whipped-egg-white meringue base, crisp outside and chewy inside), Sugar-Free Mom's dairy-free macaroons and The Best Keto Recipes' dipping method. The meringue technique won on texture; shaped as bars for the book's format and finished with the chocolate-dip step, using coconut oil to thin the chocolate.",
+    "comparedVersionsHe": "השווינו בין Sugar Free Londoner (בסיס מרנג של חלבונים מוקצפים, פריך מבחוץ ולעיס מבפנים), עוגיות הקוקוס ללא חלב של Sugar-Free Mom ושיטת הטבילה של The Best Keto Recipes. טכניקת המרנג ניצחה במרקם; עיצבנו כחטיפים לפורמט הספר וסיימנו בשלב טבילת השוקולד, עם שמן קוקוס לדילול השוקולד."
+  },
+  {
+    "id": "berry-coconut-nice-cream",
+    "name": "Frozen Berry Coconut Nice Cream",
+    "nameHe": "גלידת קוקוס ופירות יער (נייס קרים)",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 10,
+    "cookTimeMin": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 can (400 ml)", "item": "full-fat coconut milk, refrigerated overnight", "israelNote": "coconut milk 17%+ fat or kremet kokos 22%+"},
+      {"amount": "2 cups / 300 g", "item": "frozen mixed berries (do not thaw)", "israelNote": "Sunfrost frozen berry mix"},
+      {"amount": "1/3 cup / 55 g", "item": "powdered erythritol-monk fruit blend", "israelNote": "grind granulated erythritol in a spice grinder if powdered is unavailable"},
+      {"amount": "1 tbsp / 15 ml", "item": "lemon juice"},
+      {"amount": "1 tsp", "item": "vanilla extract"},
+      {"amount": "1 pinch", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 פחית (400 מ\"ל)", "item": "חלב קוקוס עתיר שומן, מקורר לילה במקרר", "israelNote": "חלב קוקוס 17% שומן ומעלה או קרם קוקוס 22% ומעלה"},
+      {"amount": "2 כוסות / 300 גרם", "item": "פירות יער קפואים מעורבים (לא מפשירים)", "israelNote": "תערובת פירות יער קפואה של סנפרוסט"},
+      {"amount": "1/3 כוס / 55 גרם", "item": "תערובת אריתריטול ומונק פרוט אבקתית", "israelNote": "טוחנים אריתריטול גרגירי במטחנת תבלינים אם אין אבקתי"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון"},
+      {"amount": "1 כפית", "item": "תמצית וניל"},
+      {"amount": "קורט", "item": "מלח"}
+    ],
+    "instructions": [
+      "Chill the coconut milk can in the fridge overnight so the cream thickens.",
+      "Pulse the frozen berries in a food processor until they look like coarse rubble.",
+      "Add the coconut milk (thick cream plus liquid), powdered sweetener, lemon juice, vanilla and salt.",
+      "Process 1-2 minutes, scraping down the sides once or twice, until completely smooth - it should look like soft-serve.",
+      "Serve immediately as soft-serve, or spread into a loaf pan and freeze 30-60 minutes for scoopable texture.",
+      "If frozen solid later, let it stand 15 minutes at room temperature before scooping."
+    ],
+    "instructionsHe": [
+      "מקררים את פחית חלב הקוקוס במקרר לילה שלם כדי שהקרם יסמיך.",
+      "טוחנים בפולסים את פירות היער הקפואים במעבד מזון עד שהם נראים כמו פירורים גסים.",
+      "מוסיפים את חלב הקוקוס (הקרם הסמיך והנוזל), הממתיק האבקתי, מיץ הלימון, הווניל והמלח.",
+      "מעבדים 1-2 דקות, מגרדים את הדפנות פעם או פעמיים, עד לקבלת תערובת חלקה לגמרי — היא צריכה להיראות כמו גלידה אמריקאית רכה.",
+      "מגישים מיד כגלידה רכה, או משטחים בתבנית אינגליש קייק ומקפיאים 30-60 דקות למרקם שאפשר לגלגל בכף גלידה.",
+      "אם הגלידה קפאה לגמרי בהמשך, נותנים לה לעמוד 15 דקות בטמפרטורת החדר לפני ההגשה."
+    ],
+    "nutrition": {"calories": 213, "fatG": 18.3, "satFatG": 16.2, "proteinG": 2.3, "carbsG": 11.3, "fiberG": 3.0, "netCarbsG": 8.3, "sugarG": 4.4, "sodiumMg": 25},
+    "ketoVariant": "Use only raspberries and reduce to 1.5 cups: about 5.5 g net carbs per serving.",
+    "ketoVariantHe": "משתמשים רק בפטל ומפחיתים לכוס וחצי: כ-5.5 גרם פחמימות נטו למנה.",
+    "tips": "Powdered (not granulated) sweetener is essential here - granules stay gritty in a frozen dessert.",
+    "tipsHe": "ממתיק אבקתי (לא גרגירי) הכרחי כאן — גרגירים נשארים חצציים בקינוח קפוא.",
+    "sources": [
+      {"creator": "Fit To Serve Group", "url": "https://www.fittoservegroup.com/low-carb-ice-cream-in-under-5-minutes/"},
+      {"creator": "Low Carb Yum", "url": "https://lowcarbyum.com/dairy-free-blueberry-coconut-lime-ice-cream/"},
+      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/coconut-milk-ice-cream/"}
+    ],
+    "comparedVersions": "Compared Fit To Serve's 5-minute freezer-bag method, Low Carb Yum's whipped coconut cream version (more steps, stovetop stage) and Low Carb Spark's blender base. Chose a food-processor method that borrows Fit To Serve's insight - frozen berries chill the base instantly - but blends it smooth, giving real soft-serve texture with no ice-cream maker and no cooking.",
+    "comparedVersionsHe": "השווינו בין שיטת שקית ההקפאה של 5 דקות של Fit To Serve, גרסת קרם הקוקוס המוקצף של Low Carb Yum (יותר שלבים, שלב בישול) ובסיס הבלנדר של Low Carb Spark. בחרנו בשיטת מעבד מזון שלוקחת את התובנה של Fit To Serve — פירות יער קפואים מצננים את הבסיס מיידית — אבל טוחנת הכול חלק, ונותנת מרקם גלידה רכה אמיתי בלי מכונת גלידה ובלי בישול."
+  },
+  {
+    "id": "keto-sesame-halva",
+    "name": "Halva-Style Sesame Candy",
+    "nameHe": "חלבה שומשום קיטו",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 15,
+    "cookTimeMin": 5,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "1/2 cup / 140 g", "item": "raw tahini (100% sesame), well stirred", "israelNote": "raw tahini (Har Bracha/Achva)"},
+      {"amount": "1/2 cup / 100 g", "item": "erythritol", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "3 tbsp / 40 ml", "item": "water"},
+      {"amount": "1 tbsp / 15 ml", "item": "lemon juice"},
+      {"amount": "1/4 tsp", "item": "xanthan gum", "israelNote": "xanthan gum - health-food stores"},
+      {"amount": "1 pinch", "item": "salt"},
+      {"amount": "1/2 tsp", "item": "vanilla extract"},
+      {"amount": "4 tsp / 10 g", "item": "coconut flour, sifted", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp", "item": "toasted pistachios, chopped (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1/2 כוס / 140 גרם", "item": "טחינה גולמית (100% שומשום), מעורבבת היטב", "israelNote": "טחינה גולמית (הר ברכה/אחוה)"},
+      {"amount": "1/2 כוס / 100 גרם", "item": "אריתריטול", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "3 כפות / 40 מ\"ל", "item": "מים"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון"},
+      {"amount": "1/4 כפית", "item": "קסנטן גאם", "israelNote": "קסנטן גאם — חנויות טבע"},
+      {"amount": "קורט", "item": "מלח"},
+      {"amount": "1/2 כפית", "item": "תמצית וניל"},
+      {"amount": "4 כפיות / 10 גרם", "item": "קמח קוקוס, מנופה"},
+      {"amount": "2 כפות", "item": "פיסטוקים קלויים, קצוצים (לא חובה)"}
+    ],
+    "instructions": [
+      "Whisk the water, lemon juice, erythritol, xanthan gum and salt in a small saucepan.",
+      "Bring to a boil over medium heat and boil about 3 minutes, whisking often, until it becomes a slightly thickened syrup. Turn off the heat.",
+      "Stir in the vanilla.",
+      "Add the tahini and sifted coconut flour and fold with a spatula just until a uniform paste forms - overworking makes it oily.",
+      "Fold in the pistachios if using, then press the mixture into a small parchment-lined container in an even layer about 2 cm thick.",
+      "Cool to room temperature, then refrigerate 24 hours - the long rest is what turns it firm and characteristically crumbly.",
+      "Lift out and cut into 8 pieces. Keep refrigerated."
+    ],
+    "instructionsHe": [
+      "טורפים בסיר קטן את המים, מיץ הלימון, האריתריטול, הקסנטן גאם והמלח.",
+      "מביאים לרתיחה על אש בינונית ומרתיחים כ-3 דקות, טורפים לעיתים קרובות, עד לקבלת סירופ מעט סמיך. מכבים את האש.",
+      "מערבבים פנימה את הווניל.",
+      "מוסיפים את הטחינה וקמח הקוקוס המנופה ומקפלים עם מרית רק עד לקבלת משחה אחידה — עיבוד יתר הופך אותה לשמנונית.",
+      "מקפלים פנימה את הפיסטוקים אם משתמשים, ואז מהדקים את התערובת לתוך כלי קטן מרופד בנייר אפייה בשכבה אחידה בעובי כ-2 ס\"מ.",
+      "מצננים לטמפרטורת החדר, ואז מקררים 24 שעות — המנוחה הארוכה היא מה שהופך את החלבה למוצקה ופריכה באופן אופייני.",
+      "מחלצים מהכלי וחותכים ל-8 חתיכות. שומרים במקרר."
+    ],
+    "nutrition": {"calories": 115, "fatG": 10.0, "satFatG": 1.5, "proteinG": 3.1, "carbsG": 16.9, "fiberG": 2.1, "netCarbsG": 2.3, "sugarG": 0.2, "sodiumMg": 20},
+    "tips": "For marbled halva, swirl in 1 tsp cocoa powder mixed with 1 tsp tahini before pressing into the container.",
+    "tipsHe": "לחלבה משוישת, מערבלים פנימה כפית אבקת קקאו מעורבבת עם כפית טחינה לפני ההידוק לכלי.",
+    "sources": [
+      {"creator": "Queen Keto", "url": "https://queenketo.com/sugar-free-dairy-free-low-carb-halva/"},
+      {"creator": "Low-Carb, So Simple", "url": "https://www.lowcarbsosimple.com/5-ingredient-sugar-free-keto-halva/"},
+      {"creator": "Meat Free Keto", "url": "https://meatfreeketo.com/sugar-free-low-carb-halvah-cups/"}
+    ],
+    "comparedVersions": "Compared Queen Keto (erythritol syrup folded into tahini - the closest to real halva technique), Low-Carb So Simple (simpler but relies on whey protein, which is dairy and disqualifies it for a pareve book) and Meat Free Keto's cocoa-butter fudge cups. Queen Keto won: fully pareve as written and its boiled-syrup method plus a 24-hour rest is what produces the authentic crumbly texture.",
+    "comparedVersionsHe": "השווינו בין Queen Keto (סירופ אריתריטול מקופל לתוך טחינה — הכי קרוב לטכניקת חלבה אמיתית), Low-Carb So Simple (פשוטה יותר אבל נשענת על חלבון מי גבינה, שהוא חלבי ופוסל אותה לספר פרווה) וכוסיות הפאדג' על בסיס חמאת קקאו של Meat Free Keto. Queen Keto ניצחה: פרווה לגמרי כפי שהיא כתובה, ושיטת הסירופ המורתח שלה עם מנוחה של 24 שעות היא מה שמייצר את המרקם הפריך האותנטי."
+  },
+  {
+    "id": "chocolate-salami-pareve",
+    "name": "Chocolate Salami with Nuts",
+    "nameHe": "סלמי שוקולד עם אגוזים",
+    "category": "desserts-pareve",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 16,
+    "prepTimeMin": 20,
+    "cookTimeMin": 10,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "200 g / 7 oz", "item": "sugar-free pareve dark chocolate, chopped (check pareve label; 85% dark also works)", "israelNote": "sugar-free or 85% dark chocolate marked parve - health-food stores"},
+      {"amount": "1/2 cup / 120 ml", "item": "coconut cream", "israelNote": "kremet kokos 22%+"},
+      {"amount": "2 tbsp / 16 g", "item": "powdered erythritol-monk fruit blend, plus more for dusting", "israelNote": "erythritol/Sukrin - health-food stores"},
+      {"amount": "1 cup / 140 g", "item": "mixed nuts (walnuts, almonds, pistachios), toasted and roughly chopped"},
+      {"amount": "1/4 cup / 20 g", "item": "unsweetened shredded coconut", "israelNote": "kokos tachun"},
+      {"amount": "1 tsp", "item": "vanilla extract (or 1 tsp rum extract)"},
+      {"amount": "1 pinch", "item": "salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "200 גרם", "item": "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה; גם 85% עובד)", "israelNote": "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"},
+      {"amount": "1/2 כוס / 120 מ\"ל", "item": "קרם קוקוס", "israelNote": "קרם קוקוס 22% ומעלה"},
+      {"amount": "2 כפות / 16 גרם", "item": "תערובת אריתריטול ומונק פרוט אבקתית, ועוד לאיבוק", "israelNote": "אריתריטול/סוכרין — חנויות טבע"},
+      {"amount": "1 כוס / 140 גרם", "item": "אגוזים מעורבים (אגוזי מלך, שקדים, פיסטוקים), קלויים וקצוצים גס"},
+      {"amount": "1/4 כוס / 20 גרם", "item": "קוקוס טחון לא ממותק"},
+      {"amount": "1 כפית", "item": "תמצית וניל (או כפית תמצית רום)"},
+      {"amount": "קורט", "item": "מלח"}
+    ],
+    "instructions": [
+      "Toast the nuts in a 160 C / 320 F oven for about 8 minutes until fragrant; cool and chop roughly - you want visible chunks for the 'salami' cross-section.",
+      "Heat the coconut cream until steaming (not boiling), pour it over the chopped chocolate, wait 2 minutes, then stir into a smooth ganache.",
+      "Stir in the powdered sweetener, vanilla and salt.",
+      "Fold in the nuts and shredded coconut.",
+      "Chill 45-60 minutes, stirring once, until thick enough to shape.",
+      "Scrape onto a sheet of parchment, roll into a tight log about 25 cm long and 5 cm thick, twist the ends like a candy wrapper, and refrigerate overnight.",
+      "Unwrap and rub powdered sweetener over the surface for the classic dusty 'salami rind' look, then slice into 16 rounds with a sharp knife."
+    ],
+    "instructionsHe": [
+      "קולים את האגוזים בתנור בחום 160 מעלות כ-8 דקות עד שהם ריחניים; מצננים וקוצצים גס — רוצים חתיכות נראות לעין בחתך ה'סלמי'.",
+      "מחממים את קרם הקוקוס עד שהוא מהביל (לא רותח), יוצקים על השוקולד הקצוץ, ממתינים 2 דקות, ואז מערבבים לגנאש חלק.",
+      "מערבבים פנימה את הממתיק האבקתי, הווניל והמלח.",
+      "מקפלים פנימה את האגוזים והקוקוס הטחון.",
+      "מקררים 45-60 דקות, מערבבים פעם אחת, עד שהתערובת סמיכה מספיק לעיצוב.",
+      "מעבירים לגיליון נייר אפייה, מגלגלים לנקניק הדוק באורך כ-25 ס\"מ ובעובי 5 ס\"מ, מסובבים את הקצוות כמו עטיפת סוכריה, ומקררים לילה שלם.",
+      "פותחים את העטיפה ומשפשפים ממתיק אבקתי על פני השטח למראה 'קליפת הסלמי' המאובקת הקלאסית, ואז פורסים ל-16 פרוסות בסכין חדה."
+    ],
+    "nutrition": {"calories": 143, "fatG": 12.8, "satFatG": 5.8, "proteinG": 2.7, "carbsG": 7.1, "fiberG": 2.8, "netCarbsG": 1.8, "sugarG": 0.5, "sodiumMg": 20},
+    "tips": "Tie the log with kitchen string after chilling for a convincing salami look on a holiday platter. Keeps 2 weeks refrigerated.",
+    "tipsHe": "קושרים את הנקניק בחוט מטבח אחרי הקירור למראה סלמי משכנע במגש חג. נשמר שבועיים במקרר.",
+    "sources": [
+      {"creator": "The Delicious Life", "url": "https://thedeliciouslife.com/chocolate-salami/"},
+      {"creator": "Have Butter Will Travel", "url": "https://havebutterwilltravel.com/keto-chocolate-salami-recipe/"},
+      {"creator": "Creative in My Kitchen", "url": "https://creativeinmykitchen.com/sugar-free-chocolate-salami-gluten-free/"}
+    ],
+    "comparedVersions": "Compared Have Butter Will Travel (great rolling technique but built on butter, raw egg and pork rinds - unusable for kosher pareve), Creative in My Kitchen (dairy-optional but biscuit-based) and The Delicious Life's no-butter no-dairy approach. Synthesized a coconut-cream ganache bound with toasted nuts only: no biscuits, no butter, no egg, keeping the log-rolling and sweetener-dusted 'rind' from the keto versions.",
+    "comparedVersionsHe": "השווינו בין Have Butter Will Travel (טכניקת גלגול מצוינת אבל בנויה על חמאה, ביצה חיה וחזיר מיובש — לא שמיש לספר כשר פרווה), Creative in My Kitchen (חלבי-אופציונלי אבל מבוסס ביסקוויטים) והגישה ללא חמאה וללא חלב של The Delicious Life. הרכבנו גנאש קרם קוקוס שנקשר באגוזים קלויים בלבד: בלי ביסקוויטים, בלי חמאה, בלי ביצה, ושמרנו את גלגול הנקניק ואת ה'קליפה' המאובקת בממתיק מהגרסאות הקיטו."
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "id": "keto-pocket-pita",
+    "name": "Keto Pocket Pita",
+    "nameHe": "פיתה קטו עם כיס",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 60,
+    "cookTimeMin": 10,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "1½ cups / 150 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "3 tbsp / 24 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "2 tsp", "item": "instant dry yeast"},
+      {"amount": "1 tsp", "item": "sugar (feeds the yeast and is mostly consumed during rising)"},
+      {"amount": "2 tsp", "item": "baking powder"},
+      {"amount": "½ tsp", "item": "fine salt"},
+      {"amount": "¾ cup / 180 ml", "item": "warm water (about 40°C)"},
+      {"amount": "3", "item": "egg whites"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
+      {"amount": "1 tsp", "item": "apple cider vinegar"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1½ כוסות / 150 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "3 כפות / 24 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "2 כפיות", "item": "שמרים יבשים"},
+      {"amount": "1 כפית", "item": "סוכר (מזין את השמרים ונצרך ברובו בזמן ההתפחה)"},
+      {"amount": "2 כפיות", "item": "אבקת אפייה"},
+      {"amount": "½ כפית", "item": "מלח דק"},
+      {"amount": "¾ כוס / 180 מ\"ל", "item": "מים פושרים (בערך 40 מעלות)"},
+      {"amount": "3", "item": "חלבוני ביצה"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
+      {"amount": "1 כפית", "item": "חומץ תפוחים"}
+    ],
+    "instructions": [
+      "Stir the yeast and sugar into the warm water and let stand 10 minutes until foamy.",
+      "Whisk the almond flour, psyllium, baking powder, and salt in a large bowl.",
+      "Add the yeast mixture, egg whites, olive oil, and vinegar; mix about 1 minute to a sticky dough, then rest 10 minutes so the psyllium firms it up.",
+      "Divide into 6 balls and roll each between parchment sheets into a 15 cm round about 7 mm thick.",
+      "Cover and let rise in a warm spot 30–40 minutes, until slightly puffy.",
+      "Meanwhile heat the oven to 250°C with a sturdy baking sheet inside.",
+      "Slide the pitas (on their parchment) onto the hot sheet and bake 8–10 minutes, until puffed with golden spots.",
+      "Stack under a clean towel for 5 minutes to soften, then split with a serrated knife to open the pocket."
+    ],
+    "instructionsHe": [
+      "מערבבים את השמרים והסוכר במים הפושרים ומניחים 10 דקות עד להיווצרות קצף.",
+      "טורפים בקערה גדולה את קמח השקדים, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את תערובת השמרים, החלבונים, שמן הזית והחומץ; מערבבים כדקה לבצק דביק ומניחים 10 דקות עד שהפסיליום מייצב אותו.",
+      "מחלקים ל-6 כדורים ומרדדים כל אחד בין שני ניירות אפייה לעיגול בקוטר 15 ס\"מ ובעובי כ-7 מ\"מ.",
+      "מכסים ומתפיחים במקום חמים 30–40 דקות, עד שהפיתות תופחות מעט.",
+      "בינתיים מחממים תנור ל-250 מעלות עם תבנית אפייה יציבה בפנים.",
+      "מחליקים את הפיתות (עם הנייר) אל התבנית הלוהטת ואופים 8–10 דקות, עד שהן תפוחות עם כתמים זהובים.",
+      "עורמים מתחת למגבת נקייה ל-5 דקות לריכוך, ואז פותחים כיס בעזרת סכין משוננת."
+    ],
+    "nutrition": {"calories": 200, "fatG": 15.9, "satFatG": 1.3, "proteinG": 8.1, "carbsG": 9.2, "fiberG": 6.3, "netCarbsG": 2.9, "sugarG": 0.7, "sodiumMg": 380},
+    "tips": "The blazing-hot preheated sheet is what makes them puff — do not skip it. Roll to an even thickness so steam collects in one bubble. If a pita doesn't balloon fully, the crumb is still soft and opens into a pocket with a knife.",
+    "tipsHe": "התבנית הלוהטת שחוממה מראש היא מה שגורם לפיתה לתפוח — לא לדלג על השלב הזה. מרדדים לעובי אחיד כדי שהאדים ייאספו לבועה אחת. גם אם פיתה לא תפחה לגמרי, הפנים נשאר רך ואפשר לפתוח כיס עם סכין.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/keto-flatbread/"},
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-flatbread/"},
+      {"creator": "Keto Vegetarian Recipes", "url": "https://ketovegetarianrecipes.com/keto-pita-bread-low-carb/"}
+    ],
+    "comparedVersions": "Compared Wholesome Yum's pita (uses whey protein isolate — a dairy ingredient, replaced here with extra almond flour and egg whites to keep it pareve), Sugar Free Londoner's baking-powder-only flatbread, and a yeasted approach. Kept the simple almond-psyllium base, added real yeast, a short rise, and a very hot preheated tray — the closest thing to an Israeli pita that low-carb allows.",
+    "comparedVersionsHe": "הושוו הפיתה של Wholesome Yum (מכילה אבקת חלבון מי-גבינה חלבית — הוחלפה כאן בתוספת קמח שקדים וחלבוני ביצה כדי להישאר פרווה), הפיתה של Sugar Free Londoner על בסיס אבקת אפייה בלבד, וגישה עם שמרים. שמרנו על בסיס השקדים-פסיליום הפשוט והוספנו שמרים אמיתיים, התפחה קצרה ותבנית לוהטת — הכי קרוב לפיתה ישראלית שקטו מאפשר."
+  },
+  {
+    "id": "laffa-style-wraps",
+    "name": "Laffa-Style Soft Wraps",
+    "nameHe": "לאפה רכה דלת פחמימות",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 20,
+    "cookTimeMin": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "¾ cup / 75 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "½ cup / 50 g", "item": "ground golden flaxseed", "israelNote": "pishtan tachun (ground flax)"},
+      {"amount": "3 tbsp / 24 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "1 tsp", "item": "baking powder"},
+      {"amount": "¾ tsp", "item": "fine salt"},
+      {"amount": "3 tbsp / 45 ml", "item": "olive oil"},
+      {"amount": "1¾ cups / 420 ml", "item": "warm water"}
+    ],
+    "ingredientsHe": [
+      {"amount": "¾ כוס / 75 גרם", "item": "קמח קוקוס", "israelNote": "קמח קוקוס"},
+      {"amount": "½ כוס / 50 גרם", "item": "זרעי פשתן זהוב טחונים", "israelNote": "פשתן טחון"},
+      {"amount": "3 כפות / 24 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "1 כפית", "item": "אבקת אפייה"},
+      {"amount": "¾ כפית", "item": "מלח דק"},
+      {"amount": "3 כפות / 45 מ\"ל", "item": "שמן זית"},
+      {"amount": "1¾ כוסות / 420 מ\"ל", "item": "מים פושרים"}
+    ],
+    "instructions": [
+      "Whisk the coconut flour, flax, psyllium, baking powder, and salt.",
+      "Add the olive oil and warm water; stir into a soft dough and rest 10 minutes until the water is fully absorbed.",
+      "Divide into 6 balls and roll each between parchment sheets into a thin round, 22–25 cm across (1–2 mm).",
+      "Heat a dry nonstick or cast-iron pan over medium-high heat.",
+      "Cook each laffa 1½–2 minutes until brown spots appear, flip, and cook 1–1½ minutes more, pressing gently with a towel for char spots.",
+      "Stack the finished laffas under a towel so they stay warm and pliable.",
+      "Serve warm; reheat briefly in the pan to restore flexibility before rolling shawarma."
+    ],
+    "instructionsHe": [
+      "טורפים יחד את קמח הקוקוס, הפשתן, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את שמן הזית והמים הפושרים; מערבבים לבצק רך ומניחים 10 דקות עד שהמים נספגים לגמרי.",
+      "מחלקים ל-6 כדורים ומרדדים כל אחד בין ניירות אפייה לעיגול דק בקוטר 22–25 ס\"מ (1–2 מ\"מ).",
+      "מחממים מחבת יבשה (נון-סטיק או ברזל יצוק) על אש בינונית-גבוהה.",
+      "צורבים כל לאפה 1½–2 דקות עד להופעת כתמים חומים, הופכים וצורבים עוד 1–1½ דקות, תוך לחיצה עדינה עם מגבת לקבלת חריכה.",
+      "עורמים את הלאפות המוכנות מתחת למגבת כדי שיישארו חמות וגמישות.",
+      "מגישים חם; לפני גלגול שווארמה מחממים שוב קצרות במחבת להחזרת הגמישות."
+    ],
+    "nutrition": {"calories": 168, "fatG": 12.7, "satFatG": 3.0, "proteinG": 4.0, "carbsG": 13.4, "fiberG": 10.1, "netCarbsG": 3.3, "sugarG": 0.9, "sodiumMg": 370},
+    "tips": "Egg-free, so the wraps stay neutral in flavor and won't turn rubbery. Roll truly thin — that is what makes them pliable enough to wrap shawarma without cracking. They keep 3 days refrigerated; refresh in a hot pan.",
+    "tipsHe": "ללא ביצים, ולכן הטעם נייטרלי והמרקם לא גומי. חשוב לרדד ממש דק — זה מה שמאפשר לגלגל שווארמה בלי שהלאפה תיסדק. נשמרות 3 ימים במקרר; מרעננים במחבת חמה.",
+    "sources": [
+      {"creator": "KETohh", "url": "https://ketohh.com/easy-flatbread-wrap-recipe/"},
+      {"creator": "Cassidy's Craveable Creations", "url": "https://cassidyscraveablecreations.com/flatbread-and-psyllium-husks/"},
+      {"creator": "Nutrition Refined", "url": "https://nutritionrefined.com/flaxseed-wraps/"}
+    ],
+    "comparedVersions": "Compared KETohh's flatbread wraps (made with butter — converted to olive oil for pareve, and the chia powder dropped to simplify), Cassidy's dairy-free psyllium flatbread, and Nutrition Refined's pure flax wraps. The coconut-flax-psyllium trio gave the most laffa-like chew and the best rollability of the three.",
+    "comparedVersionsHe": "הושוו הטורטיות של KETohh (עם חמאה — הומרה לשמן זית כדי להישאר פרווה, ואבקת הצ'יה הושמטה לפישוט), הלחם השטוח ללא חלב של Cassidy's, וטורטיות הפשתן של Nutrition Refined. שילוב הקוקוס-פשתן-פסיליום נתן את הלעיסות הכי דומה ללאפה ואת הגמישות הטובה ביותר לגלגול."
+  },
+  {
+    "id": "pareve-keto-bagels",
+    "name": "Pareve Keto Bagels",
+    "nameHe": "בייגל קטו פרווה",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 15,
+    "cookTimeMin": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "2 tbsp / 14 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp / 16 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "2 tsp", "item": "baking powder"},
+      {"amount": "½ tsp", "item": "fine salt"},
+      {"amount": "3", "item": "large eggs"},
+      {"amount": "3 tbsp / 45 ml", "item": "thick coconut cream", "israelNote": "kremet kokos 22%+"},
+      {"amount": "1 tsp", "item": "apple cider vinegar"},
+      {"amount": "2 tbsp", "item": "everything bagel seasoning (sesame, poppy seeds, dried garlic and onion, coarse salt)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "2 כפות / 14 גרם", "item": "קמח קוקוס", "israelNote": "קמח קוקוס"},
+      {"amount": "2 כפות / 16 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "2 כפיות", "item": "אבקת אפייה"},
+      {"amount": "½ כפית", "item": "מלח דק"},
+      {"amount": "3", "item": "ביצים גדולות"},
+      {"amount": "3 כפות / 45 מ\"ל", "item": "קרם קוקוס סמיך", "israelNote": "קרמת קוקוס 22% ומעלה"},
+      {"amount": "1 כפית", "item": "חומץ תפוחים"},
+      {"amount": "2 כפות", "item": "תערובת תיבול לבייגל (שומשום, פרג, שום ובצל מיובשים, מלח גס)"}
+    ],
+    "instructions": [
+      "Heat the oven to 180°C and line a tray with parchment.",
+      "Whisk the almond flour, coconut flour, psyllium, baking powder, and salt.",
+      "Whisk the eggs, coconut cream, and vinegar; fold into the dry mix and rest 5 minutes to thicken.",
+      "With wet hands, divide into 6, roll each into a 15 cm rope, and pinch the ends into a ring.",
+      "Brush the tops lightly with water, sprinkle generously with the seasoning, and press gently so it sticks.",
+      "Bake 22–25 minutes until golden and firm.",
+      "Cool at least 15 minutes before slicing — the crumb sets as it cools."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית בנייר אפייה.",
+      "טורפים את קמח השקדים, קמח הקוקוס, הפסיליום, אבקת האפייה והמלח.",
+      "טורפים את הביצים, קרם הקוקוס והחומץ; מקפלים אל היבשים ומניחים 5 דקות להסמכה.",
+      "בידיים רטובות מחלקים ל-6, מגלגלים כל חלק לנקניק באורך 15 ס\"מ ומצמידים את הקצוות לטבעת.",
+      "מברישים את החלק העליון במעט מים, מפזרים בנדיבות את תערובת התיבול ולוחצים קלות שתידבק.",
+      "אופים 22–25 דקות עד שהבייגלים זהובים ויציבים.",
+      "מצננים לפחות 15 דקות לפני פריסה — הפנים מתייצב בזמן הצינון."
+    ],
+    "nutrition": {"calories": 302, "fatG": 23.9, "satFatG": 4.7, "proteinG": 12.1, "carbsG": 11.6, "fiberG": 7.0, "netCarbsG": 4.6, "sugarG": 1.6, "sodiumMg": 460},
+    "tips": "Deliberately not a fathead dough — no cheese means these are truly pareve and taste like bread, not pizza. Sliced and toasted they hold up to any spread; freeze pre-sliced for easy weekday breakfasts.",
+    "tipsHe": "בכוונה לא בצק פאטהד — בלי גבינה הבייגלים באמת פרווה וטעמם של לחם, לא של פיצה. פרוסים וקלויים הם מחזיקים כל ממרח; אפשר להקפיא פרוסים לארוחות בוקר מהירות.",
+    "sources": [
+      {"creator": "Low Carb with Jennifer (Jennifer Banz)", "url": "https://jenniferbanz.com/keto-bagels-no-cheese"},
+      {"creator": "Real Balanced", "url": "https://realbalanced.com/recipe/nut-free-keto-bagels/"},
+      {"creator": "The Conscious Plant Kitchen", "url": "https://www.theconsciousplantkitchen.com/almond-flour-bagels/"}
+    ],
+    "comparedVersions": "Compared Jennifer Banz's no-cheese bagels (uses Greek yogurt — swapped for thick coconut cream plus a splash of vinegar for the same tang, making it pareve), Real Balanced's dairy-free nut-free bagels, and The Conscious Plant Kitchen's dairy-free almond bagels. Fathead/mozzarella bagels were rejected outright. Banz's psyllium-bound formula was the simplest and chewiest, so it is the backbone here.",
+    "comparedVersionsHe": "הושוו הבייגלים ללא גבינה של Jennifer Banz (עם יוגורט יווני — הוחלף בקרם קוקוס סמיך ומעט חומץ לאותה חמצמצות, כך שהמתכון פרווה), הבייגלים ללא חלב של Real Balanced, ואלה של The Conscious Plant Kitchen. גרסאות פאטהד עם מוצרלה נפסלו מראש. הנוסחה של Banz עם פסיליום הייתה הפשוטה והלעיסה ביותר, והיא הבסיס כאן."
+  },
+  {
+    "id": "crusty-keto-baguette-rolls",
+    "name": "Crusty Keto Baguette Rolls",
+    "nameHe": "לחמניות באגט פריכות",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 55,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "5 tbsp / 40 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "2 tsp", "item": "baking powder"},
+      {"amount": "¾ tsp", "item": "fine salt"},
+      {"amount": "3", "item": "egg whites"},
+      {"amount": "2 tsp", "item": "apple cider vinegar"},
+      {"amount": "1 cup / 240 ml", "item": "boiling water"},
+      {"amount": "1 tbsp", "item": "sesame seeds (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "5 כפות / 40 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "2 כפיות", "item": "אבקת אפייה"},
+      {"amount": "¾ כפית", "item": "מלח דק"},
+      {"amount": "3", "item": "חלבוני ביצה"},
+      {"amount": "2 כפיות", "item": "חומץ תפוחים"},
+      {"amount": "1 כוס / 240 מ\"ל", "item": "מים רותחים"},
+      {"amount": "1 כף", "item": "שומשום (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 180°C and line a tray with parchment.",
+      "Whisk the almond flour, psyllium, baking powder, and salt.",
+      "Add the egg whites and vinegar, then pour in the boiling water while beating about 1 minute — a thick, elastic dough forms.",
+      "Rest 5 minutes; with wet hands shape 4 mini-baguettes about 15 cm long and place well apart.",
+      "Score 3 shallow diagonal slashes on each and sprinkle with sesame.",
+      "Bake 50–55 minutes until deep golden and hollow-sounding when tapped.",
+      "Cool completely on a rack — the crumb finishes setting as it cools."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית בנייר אפייה.",
+      "טורפים את קמח השקדים, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את החלבונים והחומץ, ואז מוזגים את המים הרותחים תוך כדי הקצפה כדקה — נוצר בצק סמיך וגמיש.",
+      "מניחים 5 דקות; בידיים רטובות מעצבים 4 מיני-באגטים באורך כ-15 ס\"מ ומניחים במרווחים.",
+      "חורצים 3 חריצים אלכסוניים רדודים בכל באגט ומפזרים שומשום.",
+      "אופים 50–55 דקות עד לצבע זהוב עמוק וצליל חלול בהקשה.",
+      "מצננים לגמרי על רשת — הפנים ממשיך להתייצב בזמן הצינון."
+    ],
+    "nutrition": {"calories": 368, "fatG": 28.3, "satFatG": 2.2, "proteinG": 15.1, "carbsG": 19.3, "fiberG": 14.0, "netCarbsG": 5.3, "sugarG": 1.2, "sodiumMg": 710},
+    "tips": "Boiling water plus vinegar activates the psyllium — that is the whole secret to the airy crumb and crackly crust. Do not underbake; a soft middle means gummy bread. A purple-grey tint comes from some psyllium brands and is harmless.",
+    "tipsHe": "מים רותחים עם חומץ מפעילים את הפסיליום — זה כל הסוד של הפנים האוורירי והקראסט הפריך. לא לקצר את האפייה; אמצע רך יוצא דביק. גוון סגלגל-אפור נובע מסוגי פסיליום מסוימים ואינו מזיק.",
+    "lowCarbVariant": "For sandwich-size rolls, divide into 6 shorter rolls and bake 40–45 minutes.",
+    "lowCarbVariantHe": "ללחמניות סנדוויץ' מחלקים ל-6 לחמניות קצרות יותר ואופים 40–45 דקות.",
+    "sources": [
+      {"creator": "Sweet As Honey (Carine Claudepierre)", "url": "https://www.sweetashoney.co/keto-french-baguette-recipe/"},
+      {"creator": "Cooking LSL", "url": "https://cookinglsl.com/psyllium-husk-bread-rolls/"},
+      {"creator": "Naturally Balanced Eats", "url": "https://naturallybalancedeats.com/keto-almond-flour-baguette-thats-shockingly-crusty/"}
+    ],
+    "comparedVersions": "Compared Sweet As Honey's keto French baguette, Cooking LSL's psyllium husk rolls, and Naturally Balanced Eats' crusty baguette — all already pareve. All three share the almond flour + psyllium + egg whites + boiling water formula; this version uses a mid-range psyllium dose for real chew without gumminess, and the long bake all three agree is non-negotiable for crust.",
+    "comparedVersionsHe": "הושוו הבאגט הצרפתי של Sweet As Honey, לחמניות הפסיליום של Cooking LSL והבאגט הפריך של Naturally Balanced Eats — כולם פרווה מלכתחילה. שלושתם חולקים את הנוסחה קמח שקדים + פסיליום + חלבונים + מים רותחים; הגרסה הזו עם כמות פסיליום בינונית ללעיסות אמיתית בלי דביקות, והאפייה הארוכה שכולם מסכימים שהיא הכרחית לקראסט."
+  },
+  {
+    "id": "zaatar-manakish-flatbread",
+    "name": "Za'atar Manakish Flatbread",
+    "nameHe": "מנקיש זעתר",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 45,
+    "cookTimeMin": 15,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "1 cup / 100 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "¼ cup / 30 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp / 16 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "1 tsp", "item": "instant dry yeast"},
+      {"amount": "2 tsp", "item": "baking powder"},
+      {"amount": "½ tsp", "item": "fine salt"},
+      {"amount": "1 cup / 240 ml", "item": "warm water (about 40°C)"},
+      {"amount": "3 tbsp", "item": "za'atar", "israelNote": "za'atar blend"},
+      {"amount": "3 tbsp / 45 ml", "item": "olive oil"},
+      {"amount": "1 tsp", "item": "sesame seeds (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 כוס / 100 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "¼ כוס / 30 גרם", "item": "קמח קוקוס", "israelNote": "קמח קוקוס"},
+      {"amount": "2 כפות / 16 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "1 כפית", "item": "שמרים יבשים"},
+      {"amount": "2 כפיות", "item": "אבקת אפייה"},
+      {"amount": "½ כפית", "item": "מלח דק"},
+      {"amount": "1 כוס / 240 מ\"ל", "item": "מים פושרים (בערך 40 מעלות)"},
+      {"amount": "3 כפות", "item": "זעתר", "israelNote": "תערובת זעתר"},
+      {"amount": "3 כפות / 45 מ\"ל", "item": "שמן זית"},
+      {"amount": "1 כפית", "item": "שומשום (לא חובה)"}
+    ],
+    "instructions": [
+      "Stir the yeast into the warm water and let stand 10 minutes.",
+      "Whisk the almond flour, coconut flour, psyllium, baking powder, and salt.",
+      "Add the yeast water, mix to a soft dough, and rest 10 minutes.",
+      "Divide into 4 and press each on parchment into a 15 cm round with a slightly raised rim.",
+      "Cover and rise 20 minutes; meanwhile heat the oven to 200°C.",
+      "Mix the za'atar with the olive oil, spread generously over each round, dimple with your fingertips, and scatter sesame on the rims.",
+      "Bake 12–15 minutes until the edges are golden.",
+      "Serve warm, straight off the tray."
+    ],
+    "instructionsHe": [
+      "מערבבים את השמרים במים הפושרים ומניחים 10 דקות.",
+      "טורפים את קמח השקדים, קמח הקוקוס, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את מי השמרים, מערבבים לבצק רך ומניחים 10 דקות.",
+      "מחלקים ל-4 ומשטחים כל חלק על נייר אפייה לעיגול בקוטר 15 ס\"מ עם שוליים מעט מורמים.",
+      "מכסים ומתפיחים 20 דקות; בינתיים מחממים תנור ל-200 מעלות.",
+      "מערבבים את הזעתר עם שמן הזית, מורחים בנדיבות על כל עיגול, מבצעים גומות עם קצות האצבעות ומפזרים שומשום על השוליים.",
+      "אופים 12–15 דקות עד שהשוליים זהובים.",
+      "מגישים חם, ישר מהתבנית."
+    ],
+    "nutrition": {"calories": 319, "fatG": 27.4, "satFatG": 3.5, "proteinG": 8.3, "carbsG": 15.8, "fiberG": 10.2, "netCarbsG": 5.6, "sugarG": 1.4, "sodiumMg": 600},
+    "tips": "The dimples hold little pools of za'atar oil, just like at the bakery. Buy a za'atar blend that lists hyssop first, not wheat — some cheap blends add roasted wheat as filler.",
+    "tipsHe": "הגומות אוצרות שלוליות קטנות של שמן זעתר, בדיוק כמו במאפייה. כדאי לקנות תערובת זעתר שבה אזוב (זעתר) הוא הרכיב הראשון ולא חיטה — תערובות זולות לפעמים ממולאות בחיטה קלויה.",
+    "sources": [
+      {"creator": "Low Carb Hoser", "url": "https://lowcarbhoser.com/keto-manakish/"},
+      {"creator": "Carb Manager", "url": "https://www.carbmanager.com/recipe-detail/ug:a85cad9162f64921b04281f8b174e079/low-carb-manakeesh"},
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-flatbread/"}
+    ],
+    "comparedVersions": "Low Carb Hoser's keto manakish is built on mozzarella, sour cream, and egg (fathead-style) — completely rebuilt here on a pareve almond-coconut-psyllium dough, keeping their yeast step and their 1:1 za'atar-to-olive-oil topping ratio (made more generous). Cross-checked against Carb Manager's low-carb manakeesh and Sugar Free Londoner's water-based flatbread for the dough hydration.",
+    "comparedVersionsHe": "המנקיש של Low Carb Hoser בנוי על מוצרלה, שמנת חמוצה וביצה (סגנון פאטהד) — כאן נבנה מחדש לגמרי על בצק פרווה של שקדים-קוקוס-פסיליום, תוך שמירה על שלב השמרים שלהם ועל יחס 1:1 של זעתר לשמן זית בציפוי (בנדיבות רבה יותר). הוצלב מול המנקיש של Carb Manager והבצק על בסיס מים של Sugar Free Londoner לכיול הנוזלים."
+  },
+  {
+    "id": "quick-english-muffin-rounds",
+    "name": "Quick English-Muffin Rounds",
+    "nameHe": "אינגליש מאפין מהיר",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 2,
+    "prepTimeMin": 5,
+    "cookTimeMin": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "6 tbsp / 42 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "1 tbsp / 7 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "1 tsp", "item": "baking powder"},
+      {"amount": "1 pinch", "item": "fine salt"},
+      {"amount": "2", "item": "large eggs"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil or melted coconut oil"}
+    ],
+    "ingredientsHe": [
+      {"amount": "6 כפות / 42 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "1 כף / 7 גרם", "item": "קמח קוקוס", "israelNote": "קמח קוקוס"},
+      {"amount": "1 כפית", "item": "אבקת אפייה"},
+      {"amount": "קורט", "item": "מלח דק"},
+      {"amount": "2", "item": "ביצים גדולות"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית או שמן קוקוס מומס"}
+    ],
+    "instructions": [
+      "Grease two ramekins or wide mugs (about 9 cm across).",
+      "Whisk the eggs with the oil; stir in the almond flour, coconut flour, baking powder, and salt until smooth.",
+      "Divide the batter between the ramekins and level the tops.",
+      "Microwave each 90 seconds until springy (or bake both 12 minutes at 180°C).",
+      "Cool 2 minutes, loosen the edges with a knife, and turn out.",
+      "Slice in half and toast until golden."
+    ],
+    "instructionsHe": [
+      "משמנים שני רמקינים או ספלים רחבים (בקוטר כ-9 ס\"מ).",
+      "טורפים את הביצים עם השמן; מערבבים פנימה את קמח השקדים, קמח הקוקוס, אבקת האפייה והמלח עד לתערובת חלקה.",
+      "מחלקים את הבלילה בין הרמקינים ומיישרים את פני השטח.",
+      "מחממים כל אחד במיקרוגל 90 שניות עד שהמאפין קפיצי (או אופים את שניהם 12 דקות ב-180 מעלות).",
+      "מצננים 2 דקות, משחררים את השוליים עם סכין והופכים החוצה.",
+      "פורסים לשניים וקולים עד להזהבה."
+    ],
+    "nutrition": {"calories": 282, "fatG": 23.3, "satFatG": 3.7, "proteinG": 12.0, "carbsG": 6.7, "fiberG": 3.6, "netCarbsG": 3.1, "sugarG": 0.6, "sodiumMg": 390},
+    "tips": "Toasting is not optional — that is where the English-muffin character comes from. Use a toaster oven or bagel mode; a fresh untoasted round is soft and eggy, a toasted one has crisp edges and nooks.",
+    "tipsHe": "הקלייה אינה אופציונלית — משם מגיע האופי של אינגליש מאפין. עדיף טוסטר-אובן או מצב בייגל; מאפין טרי לא קלוי הוא רך וביצתי, וקלוי מקבל שוליים פריכים וחורים יפים.",
+    "sources": [
+      {"creator": "Kirbie's Cravings", "url": "https://kirbiecravings.com/keto-microwave-english-muffin/"},
+      {"creator": "The Big Man's World (Arman Liew)", "url": "https://thebigmansworld.com/keto-english-muffin/"},
+      {"creator": "Sweet As Honey (Carine Claudepierre)", "url": "https://www.sweetashoney.co/keto-english-muffin-recipe/"}
+    ],
+    "comparedVersions": "Compared Kirbie's Cravings 90-second muffin (made with butter — converted to olive/coconut oil for pareve), The Big Man's World's version, and Sweet As Honey's 1-minute muffin. Added a spoon of coconut flour to the almond base, which all comparisons suggest gives the drier, nook-and-cranny crumb that toasts best.",
+    "comparedVersionsHe": "הושוו המאפין של Kirbie's Cravings ב-90 שניות (עם חמאה — הומר לשמן זית/קוקוס כדי להישאר פרווה), הגרסה של The Big Man's World, והמאפין של Sweet As Honey. נוספה כף קמח קוקוס לבסיס השקדים — לפי כל ההשוואות זה מה שנותן את הפנים היבש והמחורר שנקלה הכי טוב."
+  },
+  {
+    "id": "keto-matzah-crackers",
+    "name": "Keto Matzah-Style Crackers",
+    "nameHe": "קרקרים בסגנון מצה",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1½ cups / 150 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "1", "item": "large egg"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
+      {"amount": "¼ tsp", "item": "fine salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1½ כוסות / 150 גרם", "item": "קמח שקדים מולבן", "israelNote": "קמח שקדים"},
+      {"amount": "1", "item": "ביצה גדולה"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
+      {"amount": "¼ כפית", "item": "מלח דק"}
+    ],
+    "instructions": [
+      "Heat the oven to 175°C.",
+      "Mix all the ingredients into a smooth dough ball.",
+      "Divide into 4 and roll each between parchment sheets paper-thin (about 1.5 mm), into a rough rectangle.",
+      "Prick all over in rows with a fork — the classic matzah perforation keeps the sheets flat and crisp.",
+      "Slide the sheets, on their parchment, onto trays and bake 12–15 minutes until golden at the edges; watch closely near the end.",
+      "Cool completely on a rack — they crisp fully as they cool.",
+      "Store airtight up to a week."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-175 מעלות.",
+      "מערבבים את כל הרכיבים לכדור בצק חלק.",
+      "מחלקים ל-4 ומרדדים כל חלק בין ניירות אפייה לעלה דק כנייר (כ-1.5 מ\"מ), בצורת מלבן גס.",
+      "מנקבים שורות-שורות עם מזלג — הניקוב הקלאסי של מצה שומר על העלים שטוחים ופריכים.",
+      "מחליקים את העלים עם הנייר לתבניות ואופים 12–15 דקות עד להזהבה בשוליים; משגיחים היטב לקראת הסוף.",
+      "מצננים לגמרי על רשת — הפריכות המלאה מגיעה עם הצינון.",
+      "שומרים בכלי אטום עד שבוע."
+    ],
+    "nutrition": {"calories": 292, "fatG": 24.8, "satFatG": 2.4, "proteinG": 10.6, "carbsG": 7.6, "fiberG": 4.1, "netCarbsG": 3.5, "sugarG": 1.2, "sodiumMg": 160},
+    "tips": "Passover note: this dough contains no leavening at all — not even baking powder — so the kosher-for-Passover baking powder question never comes up. Almond flour is widely used on Pesach (check your community's kitniyot customs), but remember this is a matzah-style cracker, not halachic matzah, and does not fulfill the seder obligation.",
+    "tipsHe": "הערה לפסח: הבצק אינו מכיל שום חומר התפחה — אפילו לא אבקת אפייה — כך ששאלת אבקת אפייה כשרה לפסח כלל לא עולה. קמח שקדים מקובל מאוד בפסח (בדקו את מנהג הקטניות שלכם), אבל חשוב לזכור: זהו קרקר בסגנון מצה ולא מצה כשרה הלכתית, והוא אינו יוצא ידי חובת מצה בליל הסדר.",
+    "sources": [
+      {"creator": "Savory Tooth", "url": "https://www.savorytooth.com/low-carb-crackers/"},
+      {"creator": "Plant Based with Amy", "url": "https://plantbasedwithamy.com/gluten-free-matzah/"},
+      {"creator": "Blissfully Low Carb", "url": "https://blissfullylowcarb.com/keto-almond-flour-crackers/"}
+    ],
+    "comparedVersions": "Compared Savory Tooth's almond flour crackers (made with parmesan — removed entirely and replaced with olive oil and a bit more salt, making them pareve), Plant Based with Amy's gluten-free matzah for the thin-roll-and-perforate technique, and Blissfully Low Carb's minimal-ingredient crackers. Kept the shortest possible ingredient list.",
+    "comparedVersionsHe": "הושוו הקרקרים של Savory Tooth (עם פרמזן — הוסר לגמרי והוחלף בשמן זית ומעט יותר מלח, כך שהם פרווה), המצה ללא גלוטן של Plant Based with Amy לטכניקת הרידוד הדק והניקוב, והקרקרים המינימליסטיים של Blissfully Low Carb. נשמרה רשימת הרכיבים הקצרה ביותר האפשרית."
+  },
+  {
+    "id": "dairy-free-keto-naan",
+    "name": "Dairy-Free Keto Naan",
+    "nameHe": "נאן רך ללא חלב",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 20,
+    "cookTimeMin": 18,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "⅔ cup / 75 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp / 16 g", "item": "psyllium husk powder", "israelNote": "psyllium (SuperPharm/health stores)"},
+      {"amount": "1 tsp", "item": "baking powder"},
+      {"amount": "½ tsp", "item": "fine salt"},
+      {"amount": "¼ cup / 60 ml", "item": "thick coconut cream", "israelNote": "kremet kokos 22%+"},
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil (for the dough)"},
+      {"amount": "1 cup / 240 ml", "item": "hot water"},
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil (for the garlic brush)"},
+      {"amount": "1 clove", "item": "garlic, crushed"},
+      {"amount": "1 tbsp", "item": "chopped parsley or cilantro (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "⅔ כוס / 75 גרם", "item": "קמח קוקוס", "israelNote": "קמח קוקוס"},
+      {"amount": "2 כפות / 16 גרם", "item": "אבקת פסיליום", "israelNote": "פסיליום (סופר-פארם/חנויות טבע)"},
+      {"amount": "1 כפית", "item": "אבקת אפייה"},
+      {"amount": "½ כפית", "item": "מלח דק"},
+      {"amount": "¼ כוס / 60 מ\"ל", "item": "קרם קוקוס סמיך", "israelNote": "קרמת קוקוס 22% ומעלה"},
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית (לבצק)"},
+      {"amount": "1 כוס / 240 מ\"ל", "item": "מים חמים"},
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית (למשיחת השום)"},
+      {"amount": "1 שן", "item": "שום כתוש"},
+      {"amount": "1 כף", "item": "פטרוזיליה או כוסברה קצוצה (לא חובה)"}
+    ],
+    "instructions": [
+      "Whisk the coconut flour, psyllium, baking powder, and salt.",
+      "Add the coconut cream, 2 tbsp olive oil, and hot water; stir to a dough and rest 10 minutes until no longer sticky.",
+      "Divide into 6 and pat or roll each between parchment into a teardrop oval about 5 mm thick.",
+      "Heat a nonstick pan over medium heat and cook each naan 2–3 minutes per side, until puffed with brown spots (or bake 12–15 minutes at 180°C).",
+      "Meanwhile warm the remaining 2 tbsp olive oil gently with the crushed garlic.",
+      "Brush the hot naan with the garlic oil and sprinkle with salt and herbs.",
+      "Serve warm."
+    ],
+    "instructionsHe": [
+      "טורפים את קמח הקוקוס, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את קרם הקוקוס, 2 כפות שמן זית והמים החמים; מערבבים לבצק ומניחים 10 דקות עד שאינו דביק.",
+      "מחלקים ל-6 ומשטחים או מרדדים כל חלק בין ניירות אפייה לצורת טיפה בעובי כ-5 מ\"מ.",
+      "מחממים מחבת נון-סטיק על אש בינונית ומטגנים כל נאן 2–3 דקות מכל צד, עד שהוא תפוח עם כתמים חומים (או אופים 12–15 דקות ב-180 מעלות).",
+      "בינתיים מחממים בעדינות את 2 כפות שמן הזית הנותרות עם השום הכתוש.",
+      "מברישים את הנאן החם בשמן השום ומפזרים מלח ועשבי תיבול.",
+      "מגישים חם."
+    ],
+    "nutrition": {"calories": 168, "fatG": 14.0, "satFatG": 5.8, "proteinG": 2.6, "carbsG": 10.0, "fiberG": 6.7, "netCarbsG": 3.3, "sugarG": 0.5, "sodiumMg": 270},
+    "tips": "Coconut cream stands in for the yogurt — it brings the same richness and slight tang with zero dairy, so this naan can sit next to a curry made with meat. The garlic-oil brush at the end is what makes it taste like restaurant naan.",
+    "tipsHe": "קרם הקוקוס מחליף את היוגורט — אותה עשירות וחמצמצות עדינה בלי טיפת חלב, כך שהנאן יכול להיות מוגש לצד קארי בשרי. משיחת שמן השום בסוף היא מה שנותן טעם של נאן ממסעדה.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-naan-low-carb-flatbread/"},
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/low-carb-keto-naan-bread-recipe/"},
+      {"creator": "Sweet As Honey (Carine Claudepierre)", "url": "https://www.sweetashoney.co/low-carb-naan-bread-vegan-keto/"}
+    ],
+    "comparedVersions": "Based on Sugar Free Londoner's no-mozzarella keto naan (uses ¼ cup dairy yogurt — swapped for thick coconut cream, a substitution the author herself endorses; the xanthan gum was dropped since psyllium alone binds fine). Cross-checked with Wholesome Yum's naan and Sweet As Honey's vegan naan, and finished with the garlic-oil brush common to all three.",
+    "comparedVersionsHe": "מבוסס על הנאן ללא מוצרלה של Sugar Free Londoner (עם ¼ כוס יוגורט חלבי — הוחלף בקרם קוקוס סמיך, החלפה שהמחברת עצמה ממליצה עליה; הקסנטן גאם הושמט כי הפסיליום לבדו קושר היטב). הוצלב עם הנאן של Wholesome Yum והנאן הטבעוני של Sweet As Honey, וסיום במשיחת שמן שום המשותפת לשלושתם."
+  }
+]

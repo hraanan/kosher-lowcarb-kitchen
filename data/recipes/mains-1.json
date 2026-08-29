@@ -1,0 +1,588 @@
+[
+  {
+    "id": "low-carb-shakshuka-feta",
+    "name": "Low-Carb Shakshuka with Feta",
+    "nameHe": "שקשוקה דלת-פחמימות עם גבינה בולגרית",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 3,
+    "prepTimeMin": 10,
+    "cookTimeMin": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil"},
+      {"amount": "1 medium", "item": "red bell pepper, diced"},
+      {"amount": "3 cloves", "item": "garlic, minced"},
+      {"amount": "1 tsp", "item": "sweet paprika"},
+      {"amount": "1 tsp", "item": "ground cumin"},
+      {"amount": "1/4 tsp", "item": "chili flakes (optional)"},
+      {"amount": "1 can / 400 g", "item": "crushed tomatoes", "israelNote": "agvaniyot mepuletzet (canned crushed tomatoes)"},
+      {"amount": "6 large", "item": "eggs"},
+      {"amount": "1/2 cup / 75 g", "item": "crumbled feta", "israelNote": "gvinat tzfatit/Bulgarit"},
+      {"amount": "2 tbsp", "item": "chopped fresh parsley or cilantro"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית"},
+      {"amount": "1 בינוני", "item": "פלפל אדום, חתוך לקוביות"},
+      {"amount": "3 שיניים", "item": "שום, קצוץ"},
+      {"amount": "1 כפית", "item": "פפריקה מתוקה"},
+      {"amount": "1 כפית", "item": "כמון טחון"},
+      {"amount": "1/4 כפית", "item": "פתיתי צ'ילי (לא חובה)"},
+      {"amount": "1 קופסה / 400 גרם", "item": "עגבניות מרוסקות", "israelNote": "עגבניות מרוסקות משומרות, בלי סוכר מוסף"},
+      {"amount": "6 גדולות", "item": "ביצים"},
+      {"amount": "1/2 כוס / 75 גרם", "item": "גבינה צפתית או בולגרית, מפוררת"},
+      {"amount": "2 כפות", "item": "פטרוזיליה או כוסברה טרייה, קצוצה"}
+    ],
+    "instructions": [
+      "Heat the olive oil in a wide deep skillet over medium heat. Saute the diced pepper for 4-5 minutes until it softens.",
+      "Add the garlic, paprika, cumin, and chili flakes and stir for about 30 seconds until fragrant.",
+      "Pour in the crushed tomatoes, season with salt and pepper, and simmer uncovered for 10 minutes until the sauce thickens noticeably.",
+      "Make 6 small wells in the sauce with a spoon and crack an egg into each one.",
+      "Cover and cook 5-8 minutes, until the whites are set but the yolks are still soft.",
+      "Scatter the feta and herbs on top and serve straight from the pan."
+    ],
+    "instructionsHe": [
+      "מחממים את שמן הזית במחבת רחבה ועמוקה על אש בינונית ומטגנים את קוביות הפלפל 4-5 דקות עד שהן מתרככות.",
+      "מוסיפים את השום, הפפריקה, הכמון ופתיתי הצ'ילי ומערבבים כ-30 שניות עד שעולה הריח.",
+      "יוצקים את העגבניות המרוסקות, מתבלים במלח ופלפל ומבשלים ללא מכסה 10 דקות, עד שהרוטב מסמיך היטב.",
+      "יוצרים בעזרת כף 6 גומות ברוטב ושוברים ביצה לתוך כל אחת.",
+      "מכסים ומבשלים 5-8 דקות, עד שהחלבון מתייצב והחלמון עדיין רך.",
+      "מפזרים מעל את הגבינה ואת עשבי התיבול ומגישים ישר מהמחבת."
+    ],
+    "nutrition": {"calories": 346, "fatG": 24.7, "satFatG": 8.3, "proteinG": 17.0, "carbsG": 12.6, "fiberG": 3.1, "netCarbsG": 9.5, "sugarG": 6.8, "sodiumMg": 550},
+    "tips": "Skipping the onion used in classic shakshuka is what keeps this keto; the bell pepper carries the sweetness instead.",
+    "tipsHe": "הוויתור על הבצל של השקשוקה הקלאסית הוא ששומר על המתכון קיטו; הפלפל האדום מספק את המתיקות במקומו.",
+    "sources": [
+      {"creator": "Low Carb with Jennifer (Jennifer Banz)", "url": "https://jenniferbanz.com/keto-shakshuka"},
+      {"creator": "KETohh", "url": "https://ketohh.com/low-carb-shakshuka/"},
+      {"creator": "Hungry For Inspiration", "url": "https://hungryforinspiration.com/keto-shakshuka/"}
+    ],
+    "comparedVersions": "Compared three keto shakshukas: all cut the onion and rely on pepper plus canned tomatoes, differing mainly in spice load and whether feta is added. This version uses Jennifer Banz's simple one-pan method with KETohh's feta finish, which adds protein and fat for a true main dish at under 10 g net carbs.",
+    "comparedVersionsHe": "השווינו שלוש שקשוקות קיטו: כולן מוותרות על הבצל ונשענות על פלפל ועגבניות משומרות, וההבדל העיקרי הוא בכמות התבלינים ובתוספת הגבינה. הגרסה הזו משלבת את שיטת המחבת האחת הפשוטה של ג'ניפר בנז עם סיום הגבינה של KETohh, שמוסיף חלבון ושומן והופך את המנה לעיקרית אמיתית עם פחות מ-10 גרם פחמימות נטו."
+  },
+  {
+    "id": "keto-eggplant-parmesan",
+    "name": "Baked Keto Eggplant Parmesan",
+    "nameHe": "פרמז'ן חצילים קיטו בתנור",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 25,
+    "cookTimeMin": 45,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "2 medium / 900 g", "item": "eggplants, sliced into 1 cm rounds", "israelNote": "chatzilim"},
+      {"amount": "1 cup / 96 g", "item": "almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "3/4 cup / 80 g", "item": "grated parmesan, divided", "israelNote": "parmesan or kashkaval"},
+      {"amount": "1 tsp", "item": "Italian herb seasoning (or dried oregano + basil)"},
+      {"amount": "2 large", "item": "eggs, beaten"},
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil, for brushing"},
+      {"amount": "1.5 cups / 375 g", "item": "marinara or thick tomato sauce (no added sugar)", "israelNote": "rotev agvaniyot without added sugar"},
+      {"amount": "2 cups / 200 g", "item": "shredded mozzarella", "israelNote": "shredded mozzarella (Tara/Gad)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 בינוניים / 900 גרם", "item": "חצילים, פרוסים לעיגולים בעובי 1 ס\"מ"},
+      {"amount": "1 כוס / 96 גרם", "item": "קמח שקדים"},
+      {"amount": "3/4 כוס / 80 גרם", "item": "גבינת פרמז'ן מגוררת, מחולקת", "israelNote": "אפשר להחליף בקשקבל"},
+      {"amount": "1 כפית", "item": "תערובת תבלינים איטלקית (או אורגנו ובזיליקום מיובשים)"},
+      {"amount": "2 גדולות", "item": "ביצים, טרופות"},
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית, להברשה"},
+      {"amount": "1.5 כוסות / 375 גרם", "item": "רוטב עגבניות סמיך ללא סוכר מוסף"},
+      {"amount": "2 כוסות / 200 גרם", "item": "גבינת מוצרלה מגוררת", "israelNote": "למשל של טרה או גד"}
+    ],
+    "instructions": [
+      "Salt the eggplant rounds and let them sit in a colander for 15 minutes, then pat dry. Preheat the oven to 200C (400F).",
+      "Mix the almond flour, 50 g of the parmesan, Italian seasoning, and a pinch of salt and pepper in a shallow bowl.",
+      "Dip each eggplant slice in beaten egg, then press both sides into the almond flour mixture.",
+      "Arrange on a parchment-lined baking sheet, brush lightly with olive oil, and bake 20 minutes, flipping halfway, until golden.",
+      "Spread a thin layer of sauce in a baking dish. Add half the eggplant, half the remaining sauce, and half the mozzarella; repeat the layers.",
+      "Sprinkle the remaining parmesan on top and bake 20-25 minutes until bubbling and browned.",
+      "Rest 10 minutes before serving so the layers hold together."
+    ],
+    "instructionsHe": [
+      "ממליחים את פרוסות החציל ומניחים במסננת 15 דקות, ואז מייבשים היטב. מחממים תנור ל-200 מעלות.",
+      "מערבבים בקערה שטוחה את קמח השקדים, 50 גרם מהפרמז'ן, התבלינים האיטלקיים וקורט מלח ופלפל.",
+      "טובלים כל פרוסת חציל בביצה הטרופה ומצפים היטב משני הצדדים בתערובת קמח השקדים.",
+      "מסדרים על תבנית מרופדת בנייר אפייה, מברישים קלות בשמן זית ואופים 20 דקות, בהפיכה באמצע, עד להזהבה.",
+      "מורחים שכבה דקה של רוטב בתבנית אפייה. מסדרים חצי מהחצילים, חצי מהרוטב הנותר וחצי מהמוצרלה; חוזרים על השכבות.",
+      "מפזרים מעל את שארית הפרמז'ן ואופים 20-25 דקות עד שהמאפה מבעבע ומזהיב.",
+      "ממתינים 10 דקות לפני ההגשה כדי שהשכבות יתייצבו."
+    ],
+    "nutrition": {"calories": 386, "fatG": 27.3, "satFatG": 8.3, "proteinG": 20.0, "carbsG": 16.4, "fiberG": 7.0, "netCarbsG": 9.4, "sugarG": 6.7, "sodiumMg": 780},
+    "tips": "Baking the breaded slices until fully golden before layering is what keeps the dish from turning soggy.",
+    "tipsHe": "אפיית פרוסות החציל המצופות עד הזהבה מלאה לפני הרכבת השכבות היא שמונעת מהמנה להפוך לספוגית ורטובה.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/eggplant-parmesan-recipe/"},
+      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/eggplant-parmesan/"},
+      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-eggplant-parmesan/"}
+    ],
+    "comparedVersions": "Compared breading approaches: pork rinds are out (not kosher), so the almond flour + parmesan coating used by Wholesome Yum and Healthy Recipes Blog won on both kashrut and simplicity. Baking instead of frying (all three sources agree) saves work and oil without hurting the crust.",
+    "comparedVersionsHe": "השווינו שיטות ציפוי: ציפוי על בסיס חזיר ירד מהפרק (לא כשר), ולכן ציפוי קמח השקדים והפרמז'ן של Wholesome Yum ו-Healthy Recipes Blog ניצח גם בכשרות וגם בפשטות. אפייה במקום טיגון (כל שלושת המקורות מסכימים) חוסכת עבודה ושמן בלי לפגוע בפריכות."
+  },
+  {
+    "id": "cheese-zucchini-lasagna",
+    "name": "Cheese Zucchini Lasagna",
+    "nameHe": "לזניית קישואים גבינתית",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 30,
+    "cookTimeMin": 50,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "3 medium / 700 g", "item": "zucchini, sliced lengthwise into 5 mm strips", "israelNote": "kishuim"},
+      {"amount": "1 cup / 250 g", "item": "ricotta", "israelNote": "gvina levana 5% or ricotta"},
+      {"amount": "1 large", "item": "egg"},
+      {"amount": "1/4 cup / 30 g", "item": "grated parmesan", "israelNote": "parmesan or kashkaval"},
+      {"amount": "2 cups / 500 g", "item": "thick marinara sauce (no added sugar)", "israelNote": "rotev agvaniyot without added sugar, simmered until thick"},
+      {"amount": "2.5 cups / 250 g", "item": "shredded mozzarella", "israelNote": "shredded mozzarella (Tara/Gad)"},
+      {"amount": "1 tsp", "item": "dried oregano or basil"},
+      {"amount": "1/2 tsp each", "item": "salt and black pepper"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3 בינוניים / 700 גרם", "item": "קישואים, פרוסים לאורך לרצועות בעובי 5 מ\"מ"},
+      {"amount": "1 כוס / 250 גרם", "item": "גבינת ריקוטה", "israelNote": "אפשר להחליף בגבינה לבנה 5%"},
+      {"amount": "1 גדולה", "item": "ביצה"},
+      {"amount": "1/4 כוס / 30 גרם", "item": "גבינת פרמז'ן מגוררת", "israelNote": "אפשר להחליף בקשקבל"},
+      {"amount": "2 כוסות / 500 גרם", "item": "רוטב עגבניות סמיך ללא סוכר מוסף", "israelNote": "מצמצמים מראש על אש קטנה עד שהרוטב סמיך היטב"},
+      {"amount": "2.5 כוסות / 250 גרם", "item": "גבינת מוצרלה מגוררת", "israelNote": "למשל של טרה או גד"},
+      {"amount": "1 כפית", "item": "אורגנו או בזיליקום מיובש"},
+      {"amount": "1/2 כפית מכל אחד", "item": "מלח ופלפל שחור"}
+    ],
+    "instructions": [
+      "Salt the zucchini strips and lay them on paper towels for 15 minutes, then blot dry. Preheat the oven to 200C (400F).",
+      "Roast the strips on lined baking sheets for 10 minutes to drive off moisture, then blot again. This is the key step against a watery lasagna.",
+      "Stir together the ricotta, egg, parmesan, oregano, salt, and pepper.",
+      "In a baking dish, layer: a little sauce, a third of the zucchini, half the ricotta mixture, a third of the mozzarella. Repeat, then finish with zucchini, sauce, and the last of the mozzarella.",
+      "Bake uncovered at 190C (375F) for 35-40 minutes until bubbling and golden.",
+      "Rest at least 10 minutes before cutting so the slices hold their shape."
+    ],
+    "instructionsHe": [
+      "ממליחים את רצועות הקישוא ומניחים על נייר סופג 15 דקות, ואז מייבשים היטב. מחממים תנור ל-200 מעלות.",
+      "צולים את הרצועות על תבניות מרופדות 10 דקות כדי להוציא נוזלים, ומייבשים שוב. זה השלב הקריטי נגד לזניה מימית.",
+      "מערבבים את הריקוטה, הביצה, הפרמז'ן, האורגנו, המלח והפלפל.",
+      "מרכיבים בתבנית אפייה: מעט רוטב, שליש מהקישואים, חצי מתערובת הריקוטה, שליש מהמוצרלה. חוזרים על הסדר, ומסיימים בקישואים, רוטב ושארית המוצרלה.",
+      "אופים ללא כיסוי ב-190 מעלות 35-40 דקות עד שהלזניה מבעבעת ומזהיבה.",
+      "ממתינים לפחות 10 דקות לפני החיתוך כדי שהפרוסות ישמרו על צורתן."
+    ],
+    "nutrition": {"calories": 283, "fatG": 17.0, "satFatG": 9.5, "proteinG": 18.5, "carbsG": 10.1, "fiberG": 2.3, "netCarbsG": 7.8, "sugarG": 5.3, "sodiumMg": 700},
+    "tips": "If any liquid pools after baking, spoon it off before resting; it will not reabsorb.",
+    "tipsHe": "אם מצטברים נוזלים אחרי האפייה, מוציאים אותם בכף לפני ההמתנה - הם לא ייספגו בחזרה.",
+    "sources": [
+      {"creator": "Downshiftology (Lisa Bryan)", "url": "https://downshiftology.com/recipes/zucchini-lasagna/"},
+      {"creator": "A Simple Palate", "url": "https://asimplepalate.com/blog/easy-zucchini-lasagna/"},
+      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-zucchini-lasagna/"}
+    ],
+    "comparedVersions": "Compared three 'not watery' methods: salting only, sauteing, and salt-plus-pre-roast. Downshiftology's salt + pre-bake combination won as the most reliable with the least hands-on work. Source recipes use meat sauce; this version is all-cheese to fit the vegetarian category, borrowing the ricotta-egg-parmesan filling common to all three.",
+    "comparedVersionsHe": "השווינו שלוש שיטות נגד לזניה מימית: המלחה בלבד, הקפצה במחבת, והמלחה בתוספת צלייה מקדימה. השילוב של Downshiftology - מלח ואפייה מקדימה - ניצח כאמין ביותר עם הכי פחות עבודה. מתכוני המקור משתמשים ברוטב בשר; הגרסה הזו כולה גבינות כדי להתאים לקטגוריה הצמחונית-חלבית, עם מלית הריקוטה-ביצה-פרמז'ן המשותפת לשלושתם."
+  },
+  {
+    "id": "cauliflower-crust-pizza",
+    "name": "Cauliflower-Crust Pizza",
+    "nameHe": "פיצה על בסיס כרובית",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 3,
+    "prepTimeMin": 20,
+    "cookTimeMin": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "1 medium head / 500 g riced", "item": "cauliflower, riced in a food processor (or frozen cauliflower rice, thawed)", "israelNote": "kruvit; frozen orez kruvit works well"},
+      {"amount": "2 large", "item": "eggs"},
+      {"amount": "1 cup / 100 g", "item": "shredded mozzarella, for the crust", "israelNote": "shredded mozzarella (Tara/Gad)"},
+      {"amount": "1/4 cup / 30 g", "item": "grated parmesan", "israelNote": "parmesan or kashkaval"},
+      {"amount": "1 tsp", "item": "dried oregano"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "1/2 cup / 125 g", "item": "marinara or pizza sauce (no added sugar)", "israelNote": "rotev pizza without added sugar"},
+      {"amount": "1 cup / 100 g", "item": "shredded mozzarella, for topping"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 ראש בינוני / 500 גרם מגורר", "item": "כרובית, מגוררת במעבד מזון (או אורז כרובית קפוא, מופשר)", "israelNote": "אורז כרובית קפוא מהסופר עובד מצוין"},
+      {"amount": "2 גדולות", "item": "ביצים"},
+      {"amount": "1 כוס / 100 גרם", "item": "גבינת מוצרלה מגוררת, לבסיס", "israelNote": "למשל של טרה או גד"},
+      {"amount": "1/4 כוס / 30 גרם", "item": "גבינת פרמז'ן מגוררת", "israelNote": "אפשר להחליף בקשקבל"},
+      {"amount": "1 כפית", "item": "אורגנו מיובש"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "1/2 כוס / 125 גרם", "item": "רוטב פיצה או עגבניות ללא סוכר מוסף"},
+      {"amount": "1 כוס / 100 גרם", "item": "גבינת מוצרלה מגוררת, לציפוי"}
+    ],
+    "instructions": [
+      "Preheat the oven to 220C (425F). Microwave the riced cauliflower 4-5 minutes (or steam), then cool slightly.",
+      "Wrap the cauliflower in a clean kitchen towel and squeeze hard, in batches, until no more liquid comes out. Aim to remove at least half a cup of water.",
+      "Mix the dry cauliflower with the eggs, 100 g mozzarella, parmesan, oregano, garlic powder, and a pinch of salt.",
+      "Press into a 25-28 cm circle about 1 cm thick on parchment paper. Bake 15-20 minutes until golden and set.",
+      "Spread the sauce over the crust, top with the remaining mozzarella, and bake another 8-10 minutes until the cheese bubbles.",
+      "Cool 2-3 minutes before slicing; the crust firms as it stands."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-220 מעלות. מחממים את הכרובית המגוררת במיקרוגל 4-5 דקות (או מאדים), ומצננים מעט.",
+      "עוטפים את הכרובית במגבת מטבח נקייה וסוחטים חזק, במנות, עד שלא יוצאים עוד נוזלים. המטרה: להוציא לפחות חצי כוס מים.",
+      "מערבבים את הכרובית היבשה עם הביצים, 100 גרם מוצרלה, הפרמז'ן, האורגנו, אבקת השום וקורט מלח.",
+      "משטחים לעיגול בקוטר 25-28 ס\"מ בעובי כ-1 ס\"מ על נייר אפייה. אופים 15-20 דקות עד שהבסיס זהוב ויציב.",
+      "מורחים את הרוטב על הבסיס, מפזרים את שארית המוצרלה ואופים עוד 8-10 דקות עד שהגבינה מבעבעת.",
+      "מצננים 2-3 דקות לפני החיתוך; הבסיס מתייצב תוך כדי עמידה."
+    ],
+    "nutrition": {"calories": 346, "fatG": 20.7, "satFatG": 11.3, "proteinG": 26.0, "carbsG": 12.2, "fiberG": 3.8, "netCarbsG": 8.4, "sugarG": 5.1, "sodiumMg": 730},
+    "tips": "The crust is only as sturdy as the cauliflower is dry - squeeze until your hands ache, then squeeze once more.",
+    "tipsHe": "הבסיס יציב בדיוק כמו שהכרובית יבשה - סוחטים עד שהידיים כואבות, ואז סוחטים עוד פעם אחת.",
+    "sources": [
+      {"creator": "Downshiftology (Lisa Bryan)", "url": "https://downshiftology.com/recipes/cauliflower-pizza-crust/"},
+      {"creator": "Low Carb Maven", "url": "https://www.lowcarbmaven.com/cauliflower-pizza-crust-keto/"},
+      {"creator": "That Low Carb Life", "url": "https://thatlowcarblife.com/keto-cauliflower-pizza-crust/"}
+    ],
+    "comparedVersions": "Compared crust binders: Downshiftology's minimal cauliflower-egg-cheese base, Low Carb Maven's cream-cheese version, and That Low Carb Life's coconut-flour version. The minimal base won for simplicity and common ingredients; adding parmesan (all three use hard cheese) gives the crispness the extra flours were there for.",
+    "comparedVersionsHe": "השווינו מקשרים לבסיס: הבסיס המינימלי של Downshiftology מכרובית-ביצה-גבינה, גרסת גבינת השמנת של Low Carb Maven, וגרסת קמח הקוקוס של That Low Carb Life. הבסיס המינימלי ניצח בזכות פשטות ומצרכים זמינים; תוספת הפרמז'ן (שלושתם משתמשים בגבינה קשה) נותנת את הפריכות שהקמחים הנוספים נועדו לספק."
+  },
+  {
+    "id": "spinach-feta-frittata",
+    "name": "Spinach & Feta Frittata",
+    "nameHe": "פריטטת תרד ובולגרית",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 10,
+    "cookTimeMin": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "8 large", "item": "eggs"},
+      {"amount": "1/4 cup / 60 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
+      {"amount": "3", "item": "scallions (or 1/2 small onion), sliced"},
+      {"amount": "5 cups fresh / 150 g", "item": "spinach (or 200 g frozen, thawed and squeezed dry)", "israelNote": "tered; frozen spinach cubes work well"},
+      {"amount": "3/4 cup / 100 g", "item": "crumbled feta", "israelNote": "gvinat tzfatit/Bulgarit"},
+      {"amount": "1/4 tsp each", "item": "salt and black pepper"},
+      {"amount": "pinch", "item": "grated nutmeg (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "8 גדולות", "item": "ביצים"},
+      {"amount": "1/4 כוס / 60 מ\"ל", "item": "שמנת מתוקה 38%"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
+      {"amount": "3", "item": "בצל ירוק (או 1/2 בצל קטן), פרוס"},
+      {"amount": "5 כוסות טרי / 150 גרם", "item": "תרד (או 200 גרם קפוא, מופשר וסחוט היטב)", "israelNote": "קוביות תרד קפוא עובדות מצוין"},
+      {"amount": "3/4 כוס / 100 גרם", "item": "גבינה צפתית או בולגרית, מפוררת"},
+      {"amount": "1/4 כפית מכל אחד", "item": "מלח ופלפל שחור"},
+      {"amount": "קורט", "item": "אגוז מוסקט מגורר (לא חובה)"}
+    ],
+    "instructions": [
+      "Preheat the oven to 200C (400F). Whisk the eggs with the cream, salt, pepper, and nutmeg.",
+      "Heat the olive oil in a 23-25 cm ovenproof skillet over medium heat and soften the scallions for 2 minutes.",
+      "Add the spinach and cook until wilted and any liquid has evaporated, 2-3 minutes.",
+      "Pour in the egg mixture, scatter the feta over the top, and cook undisturbed 3-4 minutes until the edges begin to set.",
+      "Transfer the skillet to the oven and bake 10-12 minutes, until the center is just set and puffed.",
+      "Cool a few minutes, then cut into wedges. Good warm or at room temperature."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-200 מעלות. טורפים את הביצים עם השמנת, המלח, הפלפל והמוסקט.",
+      "מחממים את שמן הזית במחבת בקוטר 23-25 ס\"מ שמתאימה לתנור על אש בינונית ומרככים את הבצל הירוק 2 דקות.",
+      "מוסיפים את התרד ומבשלים עד שהוא קמל וכל הנוזלים התאדו, 2-3 דקות.",
+      "יוצקים את תערובת הביצים, מפזרים מעל את הגבינה ומבשלים בלי לערבב 3-4 דקות עד שהשוליים מתחילים להתייצב.",
+      "מעבירים את המחבת לתנור ואופים 10-12 דקות, עד שהמרכז בדיוק מתייצב ותופח.",
+      "מצננים כמה דקות וחותכים למשולשים. טעים חם וגם בטמפרטורת החדר."
+    ],
+    "nutrition": {"calories": 303, "fatG": 23.8, "satFatG": 10.7, "proteinG": 17.0, "carbsG": 4.3, "fiberG": 0.9, "netCarbsG": 3.4, "sugarG": 1.5, "sodiumMg": 490},
+    "tips": "Pull it from the oven while the center still has a slight wobble - carryover heat finishes it without drying the eggs.",
+    "tipsHe": "מוציאים מהתנור כשהמרכז עוד רועד מעט - החום האצור משלים את הבישול בלי לייבש את הביצים.",
+    "sources": [
+      {"creator": "Skinnytaste (Gina Homolka)", "url": "https://www.skinnytaste.com/lighter-spinach-frittata-235-pts/"},
+      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/keto-frittata-recipe/"},
+      {"creator": "The Daring Gourmet", "url": "https://www.daringgourmet.com/spinach-and-feta-frittata/"}
+    ],
+    "comparedVersions": "Compared stovetop-to-oven versions against long-baked casserole versions; the skillet start (Skinnytaste, Daring Gourmet) wins on time and gives a better browned base. A modest amount of cream (Sweet As Honey) makes it noticeably more tender than milk or none.",
+    "comparedVersionsHe": "השווינו גרסאות שמתחילות על הכיריים ועוברות לתנור מול גרסאות פשטידה באפייה ארוכה; ההתחלה במחבת (Skinnytaste, Daring Gourmet) חוסכת זמן ונותנת תחתית מושחמת יותר. מעט שמנת (כמו אצל Sweet As Honey) הופכת את הפריטטה לרכה בהרבה לעומת חלב או בלי כלום."
+  },
+  {
+    "id": "cauliflower-mac-and-cheese",
+    "name": "Cauliflower Mac & Cheese",
+    "nameHe": "מק אנד צ'יז כרובית",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 10,
+    "cookTimeMin": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 large head / 800 g", "item": "cauliflower, cut into small florets", "israelNote": "kruvit"},
+      {"amount": "1/2 cup / 120 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
+      {"amount": "1/4 cup / 60 g", "item": "cream cheese", "israelNote": "gvinat shamenet (e.g. Napoleon/Ski)"},
+      {"amount": "2 cups / 200 g", "item": "shredded sharp cheddar", "israelNote": "cheddar or Emek/kashkaval"},
+      {"amount": "1/2 tsp", "item": "mustard powder (or 1 tsp Dijon)"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "1/4 tsp each", "item": "salt and black pepper"},
+      {"amount": "pinch", "item": "paprika, for the top (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 ראש גדול / 800 גרם", "item": "כרובית, מחולקת לפרחים קטנים"},
+      {"amount": "1/2 כוס / 120 מ\"ל", "item": "שמנת מתוקה 38%"},
+      {"amount": "1/4 כוס / 60 גרם", "item": "גבינת שמנת", "israelNote": "למשל נפוליאון או סקי"},
+      {"amount": "2 כוסות / 200 גרם", "item": "גבינת צ'דר חריפה מגוררת", "israelNote": "אפשר להחליף בגבינת עמק או קשקבל"},
+      {"amount": "1/2 כפית", "item": "אבקת חרדל (או 1 כפית חרדל דיז'ון)"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "1/4 כפית מכל אחד", "item": "מלח ופלפל שחור"},
+      {"amount": "קורט", "item": "פפריקה, לפיזור מעל (לא חובה)"}
+    ],
+    "instructions": [
+      "Steam or microwave the cauliflower florets until just tender, 5-6 minutes. They should still hold their shape.",
+      "Drain very well and pat dry - wet cauliflower thins the sauce.",
+      "In a saucepan over medium-low heat, warm the cream with the cream cheese, whisking until smooth.",
+      "Off the heat, whisk in the cheddar a handful at a time until the sauce is glossy, then season with mustard powder, garlic powder, salt, and pepper.",
+      "Fold in the cauliflower until every floret is coated.",
+      "Serve as is, or spread into a baking dish, dust with paprika, and grill (broil) 3-4 minutes for a browned top."
+    ],
+    "instructionsHe": [
+      "מאדים או מחממים במיקרוגל את פרחי הכרובית עד שהם רק מתרככים, 5-6 דקות. הם צריכים עדיין לשמור על צורתם.",
+      "מסננים היטב ומייבשים - כרובית רטובה מדללת את הרוטב.",
+      "בקלחת על אש בינונית-נמוכה מחממים את השמנת עם גבינת השמנת, בטריפה, עד שהתערובת חלקה.",
+      "מחוץ לאש טורפים פנימה את הצ'דר בהדרגה, חופן בכל פעם, עד שהרוטב מבריק; מתבלים באבקת חרדל, אבקת שום, מלח ופלפל.",
+      "מקפלים פנימה את הכרובית עד שכל פרח מצופה ברוטב.",
+      "מגישים כמו שזה, או מעבירים לתבנית, מאבקים בפפריקה וצולים בגריל התנור 3-4 דקות לציפוי מושחם."
+    ],
+    "nutrition": {"calories": 405, "fatG": 32.8, "satFatG": 20.8, "proteinG": 16.8, "carbsG": 12.1, "fiberG": 4.0, "netCarbsG": 8.1, "sugarG": 4.3, "sodiumMg": 525},
+    "tips": "Add the cheddar off the heat - boiling a cheese sauce makes it grainy.",
+    "tipsHe": "מוסיפים את הצ'דר מחוץ לאש - הרתחת רוטב גבינה הופכת אותו לגרגירי.",
+    "sources": [
+      {"creator": "Low Carb with Jennifer (Jennifer Banz)", "url": "https://jenniferbanz.com/ultimate-cheesy-cauliflower"},
+      {"creator": "KetoConnect", "url": "https://www.ketoconnect.net/cauliflower-mac-cheese/"},
+      {"creator": "Kicking Carbs", "url": "https://kicking-carbs.com/keto-cauliflower-mac-and-cheese/"}
+    ],
+    "comparedVersions": "Compared Jennifer Banz's stovetop cream-cheese sauce, KetoConnect's pan-roasted version (uses bacon - dropped for this vegetarian/kosher-dairy category), and Kicking Carbs' multi-cheese bake. The stovetop method won for speed and a reliably smooth sauce; the optional broiled finish recovers the baked-casserole appeal.",
+    "comparedVersionsHe": "השווינו את רוטב גבינת השמנת של ג'ניפר בנז על הכיריים, את הגרסה הצלויה של KetoConnect (עם בייקון - ירד בגלל הקטגוריה הצמחונית-חלבית), ואת מאפה הגבינות של Kicking Carbs. השיטה על הכיריים ניצחה במהירות וברוטב חלק ואמין; הסיום האופציונלי בגריל התנור מחזיר את הקסם של מאפה אפוי."
+  },
+  {
+    "id": "zucchini-noodles-alfredo",
+    "name": "Zucchini Noodles Alfredo",
+    "nameHe": "אטריות קישואים ברוטב אלפרדו",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 2,
+    "prepTimeMin": 15,
+    "cookTimeMin": 10,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 large / 500 g", "item": "zucchini, spiralized into noodles", "israelNote": "kishuim; a julienne peeler works if you have no spiralizer"},
+      {"amount": "1/2 tsp", "item": "salt, for sweating the noodles"},
+      {"amount": "2 tbsp / 28 g", "item": "butter"},
+      {"amount": "2 cloves", "item": "garlic, minced"},
+      {"amount": "3/4 cup / 180 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
+      {"amount": "1/2 cup / 50 g", "item": "finely grated parmesan, plus extra to serve", "israelNote": "parmesan or kashkaval"},
+      {"amount": "1/4 tsp", "item": "black pepper"},
+      {"amount": "pinch", "item": "grated nutmeg (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 גדולים / 500 גרם", "item": "קישואים, מגולגלים לאטריות בספירלייזר", "israelNote": "אם אין ספירלייזר, קולפן ז'וליין עובד יפה"},
+      {"amount": "1/2 כפית", "item": "מלח, להזעת האטריות"},
+      {"amount": "2 כפות / 28 גרם", "item": "חמאה"},
+      {"amount": "2 שיניים", "item": "שום, קצוץ"},
+      {"amount": "3/4 כוס / 180 מ\"ל", "item": "שמנת מתוקה 38%"},
+      {"amount": "1/2 כוס / 50 גרם", "item": "גבינת פרמז'ן מגוררת דק, ועוד קצת להגשה", "israelNote": "אפשר להחליף בקשקבל"},
+      {"amount": "1/4 כפית", "item": "פלפל שחור"},
+      {"amount": "קורט", "item": "אגוז מוסקט מגורר (לא חובה)"}
+    ],
+    "instructions": [
+      "Toss the zucchini noodles with the salt in a colander and let them drain 15-20 minutes, then squeeze gently and pat very dry.",
+      "Melt the butter in a large skillet over medium heat and cook the garlic 30 seconds until fragrant.",
+      "Pour in the cream and simmer 3-4 minutes until it thickens slightly and coats a spoon.",
+      "Off the heat, whisk in the parmesan, pepper, and nutmeg until the sauce is smooth.",
+      "Return the pan to medium heat, add the zoodles, and toss just 1-2 minutes to heat through - no longer, or they weep water.",
+      "Serve immediately with extra parmesan."
+    ],
+    "instructionsHe": [
+      "מערבבים את אטריות הקישוא עם המלח במסננת ומניחים לנקז 15-20 דקות, ואז סוחטים בעדינות ומייבשים היטב.",
+      "ממיסים את החמאה במחבת גדולה על אש בינונית ומבשלים את השום 30 שניות עד שעולה הריח.",
+      "יוצקים את השמנת ומבשלים 3-4 דקות עד שהיא מסמיכה מעט ומצפה גב של כף.",
+      "מחוץ לאש טורפים פנימה את הפרמז'ן, הפלפל והמוסקט עד שהרוטב חלק.",
+      "מחזירים את המחבת לאש בינונית, מוסיפים את האטריות ומערבבים רק 1-2 דקות לחימום - לא יותר, אחרת הן מפרישות מים.",
+      "מגישים מיד עם עוד פרמז'ן."
+    ],
+    "nutrition": {"calories": 540, "fatG": 49.0, "satFatG": 29.0, "proteinG": 13.6, "carbsG": 12.3, "fiberG": 2.6, "netCarbsG": 9.7, "sugarG": 7.0, "sodiumMg": 600},
+    "tips": "Eat this one fresh - zoodles in sauce do not keep. If cooking for one, sauce half and store the rest of the sauce and raw zoodles separately.",
+    "tipsHe": "את המנה הזו אוכלים טרייה - אטריות קישוא ברוטב לא נשמרות. אם מבשלים לסועד אחד, מצפים ברוטב רק חצי ושומרים את שאר הרוטב והאטריות הלא מבושלות בנפרד.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/recipes/zucchini-noodles-alfredo/"},
+      {"creator": "KetoDiet Blog", "url": "https://ketodietapp.com/Blog/lchf/keto-zucchini-noodle-alfredo"},
+      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/keto-alfredo-creamy-zucchini-noodles/"}
+    ],
+    "comparedVersions": "Compared sauces (cream-only vs cream-cheese-thickened) and zoodle handling. The classic butter-cream-parmesan sauce won on ingredient count; the salt-and-drain step plus a very brief toss - the consistent advice across all three sources - matters more than any sauce tweak for avoiding watery alfredo.",
+    "comparedVersionsHe": "השווינו רטבים (שמנת בלבד מול הסמכה בגבינת שמנת) ושיטות טיפול באטריות הקישוא. רוטב החמאה-שמנת-פרמז'ן הקלאסי ניצח במספר המצרכים; שלב ההמלחה והניקוז יחד עם ערבוב קצרצר במחבת - העצה העקבית בשלושת המקורות - חשוב יותר מכל שדרוג רוטב למניעת אלפרדו מימי."
+  },
+  {
+    "id": "broccoli-cheese-casserole",
+    "name": "Broccoli-Cheese Casserole",
+    "nameHe": "מאפה ברוקולי גבינתי",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 large head / 600 g", "item": "broccoli, cut into bite-size florets"},
+      {"amount": "1/2 cup / 120 g", "item": "cream cheese, softened", "israelNote": "gvinat shamenet (e.g. Napoleon/Ski)"},
+      {"amount": "1/2 cup / 120 g", "item": "sour cream", "israelNote": "shamenet chamutza 15-27%"},
+      {"amount": "2 cups / 200 g", "item": "shredded cheddar, divided", "israelNote": "cheddar or Emek/kashkaval"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "1/2 tsp", "item": "onion powder"},
+      {"amount": "1/4 tsp each", "item": "salt and black pepper"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 ראש גדול / 600 גרם", "item": "ברוקולי, מחולק לפרחים בגודל ביס"},
+      {"amount": "1/2 כוס / 120 גרם", "item": "גבינת שמנת, רכה", "israelNote": "למשל נפוליאון או סקי"},
+      {"amount": "1/2 כוס / 120 גרם", "item": "שמנת חמוצה 15%-27%"},
+      {"amount": "2 כוסות / 200 גרם", "item": "גבינת צ'דר מגוררת, מחולקת", "israelNote": "אפשר להחליף בגבינת עמק או קשקבל"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "1/2 כפית", "item": "אבקת בצל"},
+      {"amount": "1/4 כפית מכל אחד", "item": "מלח ופלפל שחור"}
+    ],
+    "instructions": [
+      "Preheat the oven to 190C (375F). Steam or microwave the broccoli 3-4 minutes until bright green and barely tender, then drain and pat dry.",
+      "Stir together the cream cheese, sour cream, half the cheddar, garlic powder, onion powder, salt, and pepper in a large bowl.",
+      "Fold in the broccoli until well coated and spread into a greased baking dish.",
+      "Top with the remaining cheddar.",
+      "Bake 20-25 minutes until bubbling at the edges and golden on top.",
+      "Rest 5 minutes before serving."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-190 מעלות. מאדים או מחממים את הברוקולי במיקרוגל 3-4 דקות עד שהוא ירוק בוהק ורק מתחיל להתרכך, ואז מסננים ומייבשים.",
+      "מערבבים בקערה גדולה את גבינת השמנת, השמנת החמוצה, חצי מהצ'דר, אבקת השום, אבקת הבצל, המלח והפלפל.",
+      "מקפלים פנימה את הברוקולי עד שהוא מצופה היטב ומשטחים בתבנית משומנת.",
+      "מפזרים מעל את שארית הצ'דר.",
+      "אופים 20-25 דקות עד שהשוליים מבעבעים והציפוי מזהיב.",
+      "ממתינים 5 דקות לפני ההגשה."
+    ],
+    "nutrition": {"calories": 416, "fatG": 33.0, "satFatG": 20.0, "proteinG": 18.3, "carbsG": 12.9, "fiberG": 3.9, "netCarbsG": 9.0, "sugarG": 3.0, "sodiumMg": 610},
+    "tips": "Undercook the broccoli at the steaming stage - it finishes softening in the oven and keeps a little bite.",
+    "tipsHe": "משאירים את הברוקולי חצי-נא בשלב האידוי - הוא משלים את הריכוך בתנור ושומר על מעט נגיסה.",
+    "sources": [
+      {"creator": "That Low Carb Life", "url": "https://thatlowcarblife.com/broccoli-cheese-casserole/"},
+      {"creator": "Joy Filled Eats", "url": "https://joyfilledeats.com/keto-broccoli-casserole/"},
+      {"creator": "My Keto Kitchen", "url": "https://www.myketokitchen.com/keto-recipes/keto-broccoli-cheese/"}
+    ],
+    "comparedVersions": "Compared binders: cream-cheese + sour-cream (That Low Carb Life), mayonnaise-based (Joy Filled Eats), and a cooked cream sauce (My Keto Kitchen). The no-cook cream-cheese/sour-cream mix won - fewest steps, no roux-like fussing, and a tangier result; bacon toppings in the sources were dropped for this vegetarian category.",
+    "comparedVersionsHe": "השווינו מקשרים: גבינת שמנת ושמנת חמוצה (That Low Carb Life), בסיס מיונז (Joy Filled Eats), ורוטב שמנת מבושל (My Keto Kitchen). תערובת גבינת השמנת והשמנת החמוצה ללא בישול ניצחה - הכי מעט שלבים, בלי התעסקות ברביכה, ותוצאה חמצמצה יותר; תוספות הבייקון שבמקורות ירדו בגלל הקטגוריה הצמחונית."
+  },
+  {
+    "id": "halloumi-vegetable-stir-fry",
+    "name": "Halloumi & Vegetable Stir-Fry",
+    "nameHe": "מוקפץ חלומי וירקות",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 3,
+    "prepTimeMin": 15,
+    "cookTimeMin": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 block / 250 g", "item": "halloumi, sliced 1 cm thick", "israelNote": "halloumi (widely sold in Israeli supermarkets)"},
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil, divided"},
+      {"amount": "1 small head / 200 g", "item": "broccoli, in small florets"},
+      {"amount": "1 medium / 200 g", "item": "zucchini, in half-moons", "israelNote": "kishuim"},
+      {"amount": "1 medium / 150 g", "item": "red bell pepper, in strips"},
+      {"amount": "2 cloves", "item": "garlic, minced"},
+      {"amount": "1.5 tbsp / 22 ml", "item": "soy sauce (reduced-sodium if possible)"},
+      {"amount": "1 tbsp / 15 ml", "item": "lemon juice"},
+      {"amount": "1/4 tsp", "item": "chili flakes (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 חבילה / 250 גרם", "item": "גבינת חלומי, פרוסה בעובי 1 ס\"מ", "israelNote": "נמכרת ברוב רשתות השיווק בישראל"},
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית, מחולק"},
+      {"amount": "1 ראש קטן / 200 גרם", "item": "ברוקולי, בפרחים קטנים"},
+      {"amount": "1 בינוני / 200 גרם", "item": "קישוא, בחצאי סהר"},
+      {"amount": "1 בינוני / 150 גרם", "item": "פלפל אדום, ברצועות"},
+      {"amount": "2 שיניים", "item": "שום, קצוץ"},
+      {"amount": "1.5 כפות / 22 מ\"ל", "item": "רוטב סויה (עדיף מופחת נתרן)"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון"},
+      {"amount": "1/4 כפית", "item": "פתיתי צ'ילי (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat 1 tablespoon of the oil in a large skillet or wok over medium-high heat. Fry the halloumi slices 2 minutes per side until golden, then set aside.",
+      "Add the remaining oil and stir-fry the broccoli for 3 minutes.",
+      "Add the zucchini and pepper and stir-fry another 3-4 minutes, until the vegetables are crisp-tender.",
+      "Stir in the garlic and chili flakes for 30 seconds.",
+      "Return the halloumi to the pan, add the soy sauce and lemon juice, and toss for a minute until everything is glossed and hot.",
+      "Serve immediately, on its own or over cauliflower rice."
+    ],
+    "instructionsHe": [
+      "מחממים כף אחת מהשמן במחבת גדולה או ווק על אש בינונית-גבוהה. מטגנים את פרוסות החלומי 2 דקות מכל צד עד הזהבה ומעבירים לצלחת.",
+      "מוסיפים את שארית השמן ומקפיצים את הברוקולי 3 דקות.",
+      "מוסיפים את הקישוא והפלפל ומקפיצים עוד 3-4 דקות, עד שהירקות פריכים-רכים.",
+      "מוסיפים את השום ופתיתי הצ'ילי ומערבבים 30 שניות.",
+      "מחזירים את החלומי למחבת, מוסיפים את רוטב הסויה ומיץ הלימון ומערבבים כדקה עד שהכול מבריק וחם.",
+      "מגישים מיד, לבד או על אורז כרובית."
+    ],
+    "nutrition": {"calories": 400, "fatG": 31.0, "satFatG": 15.3, "proteinG": 21.0, "carbsG": 12.5, "fiberG": 3.4, "netCarbsG": 9.1, "sugarG": 4.7, "sodiumMg": 1250},
+    "tips": "Halloumi is very salty, so taste before adding any salt - the soy sauce is usually all the seasoning it needs. Fry the cheese first and it stays squeaky-crisp instead of melting.",
+    "tipsHe": "חלומי מלוח מאוד, אז טועמים לפני שמוסיפים מלח - רוטב הסויה הוא בדרך כלל כל התיבול הדרוש. מטגנים את הגבינה קודם והיא נשארת פריכה במקום להימס.",
+    "sources": [
+      {"creator": "Hint of Healthy", "url": "https://www.hintofhealthy.com/halloumi-stir-fry/"},
+      {"creator": "Donna Dundas", "url": "https://donnadundas.co.uk/halloumi-stir-fry/"},
+      {"creator": "Ciara Ryan Nutrition", "url": "https://www.ciararyannutrition.com/post/halloumi-courgette-stir-fry"}
+    ],
+    "comparedVersions": "Compared a Mediterranean courgette version, a soy-based version, and a miso version. The soy-lemon profile won as the best balance of pantry simplicity and flavor (miso is harder to find in Israel); the fry-the-halloumi-first, hard-veg-before-soft-veg sequencing is common to all three.",
+    "comparedVersionsHe": "השווינו גרסה ים-תיכונית עם קישואים, גרסה על בסיס סויה וגרסת מיסו. פרופיל הסויה-לימון ניצח כאיזון הטוב ביותר בין מצרכים פשוטים לטעם (מיסו קשה יותר להשיג בישראל); הרצף של טיגון החלומי קודם וירקות קשים לפני רכים משותף לשלושת המקורות."
+  },
+  {
+    "id": "caprese-stuffed-portobellos",
+    "name": "Caprese Stuffed Portobello Mushrooms",
+    "nameHe": "פטריות פורטובלו ממולאות בסגנון קפרזה",
+    "category": "dairy-vegetarian-mains",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 2,
+    "prepTimeMin": 10,
+    "cookTimeMin": 18,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "4 large / 320 g", "item": "portobello mushroom caps, stems removed", "israelNote": "pitriyot portobello"},
+      {"amount": "2 tbsp / 30 ml", "item": "olive oil"},
+      {"amount": "2 cloves", "item": "garlic, minced"},
+      {"amount": "150 g", "item": "fresh mozzarella, sliced (or shredded mozzarella)", "israelNote": "mozzarella tarya (fresh ball) or shredded Tara/Gad"},
+      {"amount": "1 cup / 150 g", "item": "cherry tomatoes, halved"},
+      {"amount": "8-10 leaves", "item": "fresh basil, torn"},
+      {"amount": "2 tsp / 10 ml", "item": "balsamic vinegar"},
+      {"amount": "1/4 tsp each", "item": "salt and black pepper"}
+    ],
+    "ingredientsHe": [
+      {"amount": "4 גדולות / 320 גרם", "item": "כיפות פטריות פורטובלו, ללא הרגליות"},
+      {"amount": "2 כפות / 30 מ\"ל", "item": "שמן זית"},
+      {"amount": "2 שיניים", "item": "שום, קצוץ"},
+      {"amount": "150 גרם", "item": "מוצרלה טרייה, פרוסה (או מוצרלה מגוררת)", "israelNote": "כדור מוצרלה טרי, או מגוררת של טרה/גד"},
+      {"amount": "1 כוס / 150 גרם", "item": "עגבניות שרי, חצויות"},
+      {"amount": "8-10 עלים", "item": "בזיליקום טרי, קרוע"},
+      {"amount": "2 כפיות / 10 מ\"ל", "item": "חומץ בלסמי"},
+      {"amount": "1/4 כפית מכל אחד", "item": "מלח ופלפל שחור"}
+    ],
+    "instructions": [
+      "Preheat the oven to 200C (400F). Wipe the mushroom caps clean with a paper towel (do not rinse) and scrape out the dark gills with a spoon.",
+      "Mix the olive oil with the garlic, salt, and pepper and brush it over both sides of the caps.",
+      "Place the caps hollow-side up on a lined baking sheet and roast 8 minutes to draw out their moisture; pour off any liquid.",
+      "Fill each cap with mozzarella and top with the halved cherry tomatoes.",
+      "Bake 8-10 minutes until the cheese is melted and blistered; broil 1-2 minutes at the end for color if you like.",
+      "Scatter the basil over the top and finish each mushroom with a few drops of balsamic vinegar."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-200 מעלות. מנגבים את כיפות הפטריות במגבת נייר (לא שוטפים) ומגרדים החוצה את הזימים הכהים בעזרת כף.",
+      "מערבבים את שמן הזית עם השום, המלח והפלפל ומברישים משני צידי הכיפות.",
+      "מניחים את הכיפות עם הצד החלול כלפי מעלה על תבנית מרופדת וצולים 8 דקות להוצאת הנוזלים; שופכים את הנוזלים שהצטברו.",
+      "ממלאים כל כיפה במוצרלה ומניחים מעל את חצאי עגבניות השרי.",
+      "אופים 8-10 דקות עד שהגבינה נמסה ומקבלת שלפוחיות; מי שרוצה צבע מסיים ב-1-2 דקות בגריל התנור.",
+      "מפזרים מעל את הבזיליקום ומטפטפים על כל פטרייה כמה טיפות חומץ בלסמי."
+    ],
+    "nutrition": {"calories": 410, "fatG": 31.0, "satFatG": 12.0, "proteinG": 20.0, "carbsG": 12.4, "fiberG": 2.9, "netCarbsG": 9.5, "sugarG": 5.2, "sodiumMg": 500},
+    "tips": "Pre-roasting the empty caps and draining them keeps the caprese filling from swimming; commercial balsamic glaze often has added sugar, so a few drops of plain balsamic do the job.",
+    "tipsHe": "צלייה מקדימה של הכיפות הריקות וניקוזן מונעת ממלית הקפרזה לשחות בנוזלים; גלייז בלסמי קנוי מכיל לרוב סוכר מוסף, ולכן כמה טיפות חומץ בלסמי רגיל עושות את העבודה.",
+    "sources": [
+      {"creator": "Cafe Delites (Karina Carrel)", "url": "https://cafedelites.com/caprese-stuffed-garlic-butter-portobellos/"},
+      {"creator": "Dizzy Busy and Hungry", "url": "https://dizzybusyandhungry.com/mozzarella-portabellas/"},
+      {"creator": "Our Zesty Life", "url": "https://ourzestylife.com/caprese-stuffed-portobello-mushrooms/"}
+    ],
+    "comparedVersions": "Compared garlic-butter (Cafe Delites), pesto-lined (Our Zesty Life), and minimal (Dizzy Busy and Hungry) versions. Garlic oil plus a pre-roast/drain step won: pesto adds an ingredient without changing the character, and undrained caps were the common complaint. Plain balsamic replaces sugary glaze to keep it keto.",
+    "comparedVersionsHe": "השווינו גרסת חמאת שום (Cafe Delites), גרסה עם שכבת פסטו (Our Zesty Life) וגרסה מינימלית (Dizzy Busy and Hungry). שמן שום עם שלב צלייה וניקוז מקדים ניצח: הפסטו מוסיף מצרך בלי לשנות את האופי, וכיפות לא מנוקזות היו התלונה הנפוצה. חומץ בלסמי רגיל מחליף גלייז ממותק כדי להישאר קיטו."
+  }
+]

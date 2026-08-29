@@ -1,0 +1,773 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kosher Low-Carb Kitchen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=Heebo:wght@400;500;700&display=swap">
+<style>
+:root{
+  --ground:#F7F8F3;
+  --panel:#FFFFFF;
+  --panel-2:#EFF2E8;
+  --ink:#232819;
+  --ink-soft:#5A614C;
+  --line:#DDE2D0;
+  --accent:#55742F;
+  --accent-ink:#FFFFFF;
+  --accent-soft:#E4EBD6;
+  --dairy:#3E6B8C;
+  --dairy-bg:#E3EDF5;
+  --pareve:#4A7A52;
+  --pareve-bg:#E2F0E4;
+  --keto:#8C5A2E;
+  --keto-bg:#F3E9DC;
+  --shadow:0 1px 3px rgba(35,40,25,.08),0 6px 18px rgba(35,40,25,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#15170F;
+    --panel:#1E2216;
+    --panel-2:#262B1D;
+    --ink:#E7EADC;
+    --ink-soft:#A8AF97;
+    --line:#363D2A;
+    --accent:#9DBB68;
+    --accent-ink:#1A2010;
+    --accent-soft:#2E3620;
+    --dairy:#8FB8D6;
+    --dairy-bg:#22303B;
+    --pareve:#8FC69A;
+    --pareve-bg:#213526;
+    --keto:#D6A972;
+    --keto-bg:#382C1D;
+    --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#15170F;
+  --panel:#1E2216;
+  --panel-2:#262B1D;
+  --ink:#E7EADC;
+  --ink-soft:#A8AF97;
+  --line:#363D2A;
+  --accent:#9DBB68;
+  --accent-ink:#1A2010;
+  --accent-soft:#2E3620;
+  --dairy:#8FB8D6;
+  --dairy-bg:#22303B;
+  --pareve:#8FC69A;
+  --pareve-bg:#213526;
+  --keto:#D6A972;
+  --keto-bg:#382C1D;
+  --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:'Karla','Heebo',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;
+  line-height:1.55;
+}
+[dir="rtl"] body, body[dir="rtl"]{font-family:'Heebo','Karla',system-ui,sans-serif}
+h1,h2,h3{font-family:'Fraunces','Heebo',Georgia,serif;line-height:1.15;text-wrap:balance;margin:0}
+[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3{font-family:'Heebo',Georgia,serif}
+a{color:var(--accent)}
+button{font:inherit;cursor:pointer}
+
+.wrap{max-width:1060px;margin-inline:auto;padding-inline:20px}
+
+/* ---------- header ---------- */
+header.site{
+  padding-block:26px 14px;
+  border-block-end:1px solid var(--line);
+  background:var(--panel);
+}
+.site-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.site h1{font-size:clamp(26px,4.5vw,38px);font-weight:700}
+.site h1 .leaf{color:var(--accent)}
+.tagline{color:var(--ink-soft);margin-block:4px 0;font-size:14.5px}
+.header-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ghost-btn{
+  background:transparent;border:1px solid var(--line);color:var(--ink);
+  border-radius:8px;padding:7px 13px;font-weight:500;font-size:14px;
+}
+.ghost-btn:hover{border-color:var(--accent);color:var(--accent)}
+.solid-btn{
+  background:var(--accent);color:var(--accent-ink);border:1px solid var(--accent);
+  border-radius:8px;padding:7px 14px;font-weight:700;font-size:14px;
+}
+
+/* ---------- controls ---------- */
+.controls{padding-block:16px;display:flex;flex-direction:column;gap:12px}
+.search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search-row input[type=search]{
+  flex:1;min-width:220px;
+  background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  border-radius:10px;padding:10px 14px;font:inherit;
+}
+.search-row input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.chip-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:700;margin-inline-end:2px}
+.chip{
+  border:1px solid var(--line);background:var(--panel);color:var(--ink);
+  border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;
+}
+.chip:hover{border-color:var(--accent)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.cat-row{display:flex;gap:8px;flex-wrap:wrap}
+.count-note{color:var(--ink-soft);font-size:13.5px}
+
+/* ---------- badges ---------- */
+.badge{display:inline-flex;align-items:center;gap:5px;border-radius:6px;padding:2px 9px;font-size:12px;font-weight:700;letter-spacing:.03em}
+.badge.dairy{background:var(--dairy-bg);color:var(--dairy)}
+.badge.pareve{background:var(--pareve-bg);color:var(--pareve)}
+.badge.keto{background:var(--keto-bg);color:var(--keto)}
+.badge.lowcarb{background:var(--accent-soft);color:var(--accent)}
+.badge .dot{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
+
+/* ---------- illustrations ---------- */
+.illus{display:flex;justify-content:center;align-items:center;background:var(--panel-2);border-radius:9px}
+.card .illus{padding:4px 0;margin-block-end:2px}
+.card .illus svg{height:72px}
+.recipe .illus{padding:10px 0;margin-block:4px 16px;border-radius:12px}
+.recipe .illus svg{height:112px}
+.illus .st{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.illus .sf{stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.illus .f0{fill:var(--panel)}
+.illus .f1{fill:var(--accent-soft)}
+.illus .f2{fill:var(--keto-bg)}
+.illus .f3{fill:var(--pareve-bg)}
+.illus .f4{fill:var(--dairy-bg)}
+.illus .a{fill:var(--accent)}
+.illus .k{fill:var(--keto)}
+
+/* ---------- cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;padding-block:6px 40px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:16px 16px 14px;display:flex;flex-direction:column;gap:9px;
+  text-align:start;color:var(--ink);box-shadow:var(--shadow);
+  transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card h3{font-size:19px;font-weight:600}
+.card-ings{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .badges{display:flex;gap:6px;flex-wrap:wrap}
+.card .meta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-block-start:auto;padding-block-start:6px;border-block-start:1px dashed var(--line)}
+.card .carbs{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.card .carbs small{font-family:'Karla','Heebo',sans-serif;font-size:11px;font-weight:500;color:var(--ink-soft);display:block;letter-spacing:.05em;text-transform:uppercase}
+.card .time{color:var(--ink-soft);font-size:13px;text-align:end}
+.section-head{display:flex;align-items:baseline;gap:10px;margin-block:18px 10px}
+.section-head h2{font-size:22px}
+.section-head .n{color:var(--ink-soft);font-size:14px}
+.empty{color:var(--ink-soft);padding-block:40px;text-align:center}
+
+/* ---------- recipe view ---------- */
+.recipe-view{padding-block:18px 60px}
+.back-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-block-end:14px}
+article.recipe{
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:clamp(18px,4vw,34px);box-shadow:var(--shadow);
+}
+.recipe .badges{display:flex;gap:7px;flex-wrap:wrap;margin-block-end:10px}
+.recipe h2{font-size:clamp(24px,4vw,32px);font-weight:700}
+.meta-row{
+  display:flex;gap:0;flex-wrap:wrap;margin-block:16px 20px;
+  border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel-2);
+}
+.meta-cell{padding:9px 16px;border-inline-end:1px solid var(--line);font-size:13.5px}
+.meta-cell:last-child{border-inline-end:none}
+.meta-cell b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft)}
+.recipe-cols{display:grid;grid-template-columns:290px 1fr;gap:28px}
+@media (max-width:720px){.recipe-cols{grid-template-columns:1fr}}
+.recipe h4{
+  font-size:12.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--accent);
+  margin:0 0 8px;font-weight:700;font-family:'Karla','Heebo',sans-serif;
+}
+.ing-list{list-style:none;margin:0;padding:0}
+.ing-list li{padding-block:7px;border-block-end:1px dashed var(--line);font-size:15px}
+.ing-list li b{font-weight:700}
+.ing-list .il-note{display:block;font-size:12.5px;color:var(--ink-soft)}
+.ing-list .il-note::before{content:"🇮🇱 "}
+.steps{margin:0;padding-inline-start:22px;display:flex;flex-direction:column;gap:10px;font-size:15.5px}
+.steps li::marker{color:var(--accent);font-weight:700}
+.variant-box{
+  margin-block-start:18px;background:var(--accent-soft);border-radius:10px;padding:13px 16px;font-size:14.5px;
+}
+.variant-box b{color:var(--accent)}
+.tip-box{margin-block-start:12px;border-inline-start:3px solid var(--keto);padding:4px 14px;color:var(--ink-soft);font-size:14.5px}
+
+/* nutrition label */
+.nutri{
+  margin-block-start:20px;border:2px solid var(--ink);border-radius:8px;padding:12px 14px;max-width:290px;
+  font-variant-numeric:tabular-nums;background:var(--panel);
+}
+.nutri h5{margin:0;font-family:'Fraunces',Georgia,serif;font-size:17px;border-block-end:4px solid var(--ink);padding-block-end:6px}
+.nutri .per{font-size:12px;color:var(--ink-soft);padding-block:4px;border-block-end:1px solid var(--line)}
+.nutri table{width:100%;border-collapse:collapse;font-size:13.5px}
+.nutri td{padding-block:4px;border-block-end:1px solid var(--line)}
+.nutri td:last-child{text-align:end;font-weight:700}
+.nutri tr.big td{font-weight:700;font-size:14.5px}
+.nutri tr.net td{color:var(--accent);font-weight:700}
+.nutri tr:last-child td{border-block-end:none}
+.nutri .sub td:first-child{padding-inline-start:16px;font-weight:400}
+
+.src-row{margin-block-start:22px;padding-block-start:12px;border-block-start:1px solid var(--line);font-size:13px;color:var(--ink-soft)}
+.src-row a{color:var(--ink-soft);text-decoration:underline}
+.src-row a:hover{color:var(--accent)}
+.why{font-style:italic;margin-block-start:6px}
+
+/* ---------- pantry ---------- */
+.pantry{padding-block:18px 60px}
+.pantry-head{margin-block-end:6px}
+.pantry-head h2{font-size:clamp(22px,4vw,30px)}
+.pantry-sub{color:var(--ink-soft);font-size:14.5px;margin-block:6px 18px}
+.ing-cloud{display:flex;flex-wrap:wrap;gap:8px;padding-block:2px 20px}
+.ing-chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 13px;font-size:13.5px;color:var(--ink);display:inline-flex;align-items:baseline;gap:6px}
+.ing-chip:hover{border-color:var(--accent);color:var(--accent)}
+.ing-chip .n{color:var(--ink-soft);font-size:11.5px;font-variant-numeric:tabular-nums}
+
+/* ---------- print root ---------- */
+#printRoot{display:none}
+
+@media print{
+  body{background:#fff;color:#000}
+  #app,header.site{display:none !important}
+  #printRoot{display:block;font-size:12pt}
+  #printRoot .print-recipe{break-before:page;padding-block-start:0}
+  #printRoot .print-recipe:first-of-type,#printRoot .toc + .print-recipe{break-before:auto}
+  #printRoot h2{font-size:20pt;margin:0 0 4pt}
+  #printRoot h3{font-size:15pt;margin:14pt 0 6pt}
+  #printRoot .pbadges{font-size:9.5pt;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-block-end:6pt}
+  #printRoot .pmeta{font-size:10pt;margin-block-end:10pt;color:#333}
+  #printRoot ul,#printRoot ol{margin:4pt 0 10pt;padding-inline-start:18pt}
+  #printRoot li{margin-block-end:3pt}
+  #printRoot .pnote{font-size:9.5pt;color:#444}
+  #printRoot .pnutri{font-size:9.5pt;border:1pt solid #000;padding:6pt 8pt;margin-block-start:8pt;display:inline-block}
+  #printRoot .psrc{font-size:8.5pt;color:#555;margin-block-start:8pt}
+  #printRoot .toc{break-after:page}
+  #printRoot .toc li{margin-block-end:2pt}
+  #printRoot .book-title{font-size:28pt;text-align:center;margin-block:60pt 8pt}
+  #printRoot .book-sub{text-align:center;font-size:12pt;color:#444;margin-block-end:40pt}
+  .no-print{display:none !important}
+}
+
+/* footer */
+footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;color:var(--ink-soft);font-size:13px}
+
+@media (prefers-reduced-motion: reduce){
+  *{transition:none !important;animation:none !important}
+}
+</style>
+
+<header class="site">
+  <div class="wrap">
+    <div class="site-top">
+      <div>
+        <h1 id="bookTitle"><span class="leaf">●</span> Kosher Low-Carb Kitchen</h1>
+        <p class="tagline" id="tagline">120+ simple keto &amp; low-carb recipes · every one kosher · Israeli-pantry friendly</p>
+      </div>
+      <div class="header-actions">
+        <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
+        <button class="ghost-btn no-print" id="pantryBtn">🧺 Ingredients</button>
+        <button class="ghost-btn no-print" id="printBookBtn">🖨 Print book</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="app">
+  <div class="wrap">
+    <div class="controls" id="controls">
+      <div class="search-row">
+        <input type="search" id="searchBox" placeholder="Search recipes or ingredients…" aria-label="Search recipes">
+        <span class="count-note" id="countNote"></span>
+      </div>
+      <div class="cat-row" id="catRow"></div>
+      <div class="chip-row" id="kosherRow"><span class="chip-label" id="kosherLbl">Kosher</span></div>
+    </div>
+    <div id="listView"></div>
+    <div id="recipeView" class="recipe-view" hidden></div>
+    <div id="pantryView" class="pantry" hidden></div>
+  </div>
+</div>
+
+<div id="printRoot" aria-hidden="true"></div>
+
+<footer class="site">
+  <div class="wrap" id="footerNote">
+    Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols.
+  </div>
+</footer>
+
+<script>
+const RECIPES = /*__DATA__*/[];
+
+/* ---------- i18n ---------- */
+const CATS = [
+  {id:"dairy-vegetarian-mains", en:"Dairy & Vegetarian Mains", he:"מנות עיקריות חלביות וצמחוניות"},
+  {id:"legumes-grains", en:"Low-Carb Legumes & Grains", he:"קטניות ודגנים דלי-פחמימה"},
+  {id:"snacks", en:"Snacks", he:"נשנושים"},
+  {id:"baking-savory", en:"Savory Baking", he:"מאפים מלוחים"},
+  {id:"baking-sweet", en:"Sweet Baking", he:"מאפים מתוקים"},
+  {id:"desserts-dairy", en:"Dairy Desserts", he:"קינוחים חלביים"},
+  {id:"desserts-pareve", en:"Pareve Desserts (after meat)", he:"קינוחים פרווה (אחרי בשרי)"}
+];
+const T = {
+  en:{
+    title:"Kosher Low-Carb Kitchen",
+    tagline:"120+ simple keto & low-carb recipes · every one kosher · Israeli-pantry friendly",
+    search:"Search recipes or ingredients…",
+    all:"All", kosher:"Kosher", diet:"Diet",
+    dairy:"Dairy", pareve:"Pareve", keto:"Keto", lowcarb:"Low-carb",
+    ketoFull:"Keto · ≤10g net", lowcarbFull:"Low-carb · 10–20g net",
+    netCarbs:"net carbs", perServing:"per serving",
+    recipes:"recipes", noResults:"No recipes match — try clearing a filter.",
+    back:"← All recipes", print:"🖨 Print recipe", printBook:"🖨 Print book",
+    prep:"Prep", cook:"Cook", total:"Total", servings:"Servings", difficulty:"Difficulty",
+    easy:"easy", medium:"medium", min:"min",
+    ingredients:"Ingredients", instructions:"Instructions",
+    ketoVariant:"Keto version", lowCarbVariant:"Flexible version", tip:"Tip",
+    nutrition:"Nutrition Facts", calories:"Calories", fat:"Fat", satFat:"of which saturated",
+    protein:"Protein", carbs:"Carbs", fiber:"Fiber", net:"Net carbs", sugar:"Sugar", sodium:"Sodium",
+    adapted:"Adapted from", why:"Why this version:",
+    pantryBtn:"🧺 Ingredients", pantryTitle:"The Pantry",
+    pantrySub:"Every ingredient used in the book. Click one to see the recipes that use it.",
+    usedIn:"recipes",
+    sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
+    sec_nuts:"Nuts, Seeds & Coconut", sec_dairy:"Dairy & Eggs", sec_produce:"Vegetables & Fruit",
+    sec_oils:"Oils & Condiments", sec_spice:"Spices & Flavorings", sec_other:"Other",
+    bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
+    contents:"Contents",
+    footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
+  },
+  he:{
+    title:"המטבח הכשר דל-הפחמימות",
+    tagline:"מעל 120 מתכונים פשוטים בסגנון קיטו ודל-פחמימות · הכול כשר · מותאם לסופר הישראלי",
+    search:"חיפוש מתכון או מרכיב…",
+    all:"הכול", kosher:"כשרות", diet:"תזונה",
+    dairy:"חלבי", pareve:"פרווה", keto:"קיטו", lowcarb:"דל-פחמימות",
+    ketoFull:"קיטו · עד 10 ג׳ נטו", lowcarbFull:"דל-פחמימות · 10–20 ג׳ נטו",
+    netCarbs:"פחמימות נטו", perServing:"למנה",
+    recipes:"מתכונים", noResults:"אין מתכונים מתאימים — נסו לנקות סינון.",
+    back:"→ כל המתכונים", print:"🖨 הדפסת מתכון", printBook:"🖨 הדפסת הספר",
+    prep:"הכנה", cook:"בישול", total:"סה\"כ", servings:"מנות", difficulty:"דרגת קושי",
+    easy:"קל", medium:"בינוני", min:"דק'",
+    ingredients:"מרכיבים", instructions:"אופן ההכנה",
+    ketoVariant:"גרסת קיטו", lowCarbVariant:"גרסה גמישה", tip:"טיפ",
+    nutrition:"ערכים תזונתיים", calories:"קלוריות", fat:"שומן", satFat:"מתוכו רווי",
+    protein:"חלבון", carbs:"פחמימות", fiber:"סיבים", net:"פחמימות נטו", sugar:"סוכר", sodium:"נתרן",
+    adapted:"בהשראת", why:"למה הגרסה הזו:",
+    pantryBtn:"🧺 מצרכים", pantryTitle:"המצרכים",
+    pantrySub:"כל המצרכים שבספר. לחיצה על מצרך תציג את המתכונים שבהם הוא מופיע.",
+    usedIn:"מתכונים",
+    sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
+    sec_nuts:"אגוזים, זרעים וקוקוס", sec_dairy:"מוצרי חלב וביצים", sec_produce:"ירקות ופירות",
+    sec_oils:"שמנים ורטבים", sec_spice:"תבלינים", sec_other:"שונות",
+    bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
+    contents:"תוכן העניינים",
+    footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
+  }
+};
+
+/* ---------- state ---------- */
+let lang = "en";
+try{ const s = localStorage.getItem("klk-lang"); if(s==="he"||s==="en") lang=s; }catch(e){}
+let filters = {cat:"all", kosher:"all", q:""};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function t(k){ return T[lang][k] || T.en[k] || k; }
+function catName(id){ const c = CATS.find(c=>c.id===id); return c ? (lang==="he"?c.he:c.en) : id; }
+function rName(r){ return (lang==="he" && r.nameHe) ? r.nameHe : r.name; }
+function rIngs(r){ return (lang==="he" && Array.isArray(r.ingredientsHe) && r.ingredientsHe.length) ? r.ingredientsHe : r.ingredients; }
+function rSteps(r){ return (lang==="he" && Array.isArray(r.instructionsHe) && r.instructionsHe.length) ? r.instructionsHe : r.instructions; }
+function rOpt(r, base){ const heKey = base+"He"; return (lang==="he" && r[heKey]) ? r[heKey] : r[base]; }
+function fmt(n){ return (n==null||isNaN(n)) ? "–" : (Math.round(n*10)/10).toLocaleString(); }
+
+/* ---------- dish illustrations ---------- */
+const ICONS = {
+ skillet:`<circle class="sf f2" cx="52" cy="48" r="26"/><rect class="sf f2" x="78" y="36" width="32" height="7" rx="3.5" transform="rotate(-10 78 36)"/><circle class="sf f0" cx="43" cy="43" r="9"/><circle class="k" cx="43" cy="43" r="4"/><circle class="sf f0" cx="61" cy="55" r="9"/><circle class="k" cx="61" cy="55" r="4"/>`,
+ casserole:`<rect class="sf f2" x="24" y="38" width="72" height="28" rx="8"/><path class="st" d="M32 38 q7 -9 14 0 q7 -9 14 0 q7 -9 14 0 q7 -9 14 0"/><rect class="sf f2" x="13" y="46" width="10" height="8" rx="4"/><rect class="sf f2" x="97" y="46" width="10" height="8" rx="4"/>`,
+ pizza:`<circle class="sf f2" cx="60" cy="45" r="28"/><circle class="st" cx="60" cy="45" r="20"/><circle class="a" cx="52" cy="38" r="4"/><circle class="a" cx="68" cy="50" r="4"/><circle class="a" cx="58" cy="56" r="3"/><circle class="a" cx="67" cy="35" r="3"/>`,
+ bowl:`<path class="sf f3" d="M32 46 a28 20 0 0 0 56 0 Z"/><rect class="sf f1" x="46" y="18" width="5" height="26" rx="2.5" transform="rotate(-12 48 30)"/><rect class="sf f1" x="58" y="14" width="5" height="30" rx="2.5"/><rect class="sf f1" x="70" y="18" width="5" height="26" rx="2.5" transform="rotate(12 72 30)"/>`,
+ noodles:`<path class="sf f2" d="M30 46 a30 20 0 0 0 60 0 Z"/><path class="st" d="M38 38 q6 -8 12 0 t12 0 t12 0 t8 0"/><path class="st" d="M44 30 q6 -8 12 0 t12 0 t10 0"/>`,
+ loaf:`<path class="sf f2" d="M24 64 v-14 a14 14 0 0 1 14 -14 h44 a14 14 0 0 1 14 14 v14 z"/><path class="st" d="M42 42 q4 6 0 12 M58 40 q4 6 0 12 M74 42 q4 6 0 12"/>`,
+ braid:`<ellipse class="sf f2" cx="60" cy="48" rx="38" ry="15"/><path class="st" d="M34 41 l10 14 M48 38 l11 17 M63 37 l11 17 M78 39 l9 13"/>`,
+ flatbread:`<ellipse class="sf f2" cx="60" cy="46" rx="34" ry="18"/><circle class="k" cx="48" cy="42" r="2.5"/><circle class="k" cx="64" cy="51" r="2.5"/><circle class="k" cx="72" cy="40" r="2.5"/><circle class="k" cx="54" cy="53" r="2"/>`,
+ bagel:`<circle class="sf f2" cx="60" cy="46" r="26"/><circle class="sf f0" cx="60" cy="46" r="9"/><path class="st" d="M44 30 l3 4 M60 25 l0 5 M76 31 l-3 4"/>`,
+ bun:`<path class="sf f2" d="M26 56 a34 26 0 0 1 68 0 z"/><line class="st" x1="26" y1="56" x2="94" y2="56"/><path class="st" d="M46 42 l6 3 M60 37 l0 6 M74 42 l-6 3"/>`,
+ cracker:`<rect class="sf f2" x="34" y="20" width="52" height="52" rx="8"/><circle class="k" cx="48" cy="34" r="2"/><circle class="k" cx="72" cy="34" r="2"/><circle class="k" cx="48" cy="58" r="2"/><circle class="k" cx="72" cy="58" r="2"/><circle class="k" cx="60" cy="46" r="2"/>`,
+ sticks:`<rect class="sf f2" x="32" y="16" width="9" height="58" rx="4.5" transform="rotate(-14 36 45)"/><rect class="sf f2" x="55" y="14" width="9" height="62" rx="4.5"/><rect class="sf f2" x="78" y="16" width="9" height="58" rx="4.5" transform="rotate(14 82 45)"/>`,
+ cookie:`<circle class="sf f2" cx="60" cy="45" r="26"/><circle class="k" cx="50" cy="38" r="3.5"/><circle class="k" cx="68" cy="44" r="3.5"/><circle class="k" cx="56" cy="56" r="3.5"/><circle class="k" cx="70" cy="56" r="2.5"/><circle class="k" cx="62" cy="30" r="2.5"/>`,
+ cupcake:`<path class="sf f4" d="M40 50 h40 l-6 24 h-28 z"/><path class="st" d="M50 52 l-2 20 M60 52 l0 20 M70 52 l2 20"/><path class="sf f1" d="M38 50 a11 11 0 0 1 8 -18 a14 12 0 0 1 28 0 a11 11 0 0 1 8 18 z"/>`,
+ cakeslice:`<rect class="sf f2" x="36" y="34" width="48" height="28" rx="3"/><line class="st" x1="36" y1="44" x2="84" y2="44"/><line class="st" x1="36" y1="53" x2="84" y2="53"/><circle class="a" cx="60" cy="26" r="4"/>`,
+ bars:`<rect class="sf f2" x="30" y="28" width="34" height="34" rx="5"/><rect class="sf f2" x="56" y="38" width="34" height="34" rx="5"/>`,
+ spiral:`<circle class="sf f2" cx="60" cy="45" r="26"/><path class="st" d="M60 29 a16 16 0 1 1 -16 16 a11 11 0 1 0 11 -11 a6 6 0 1 1 -6 6"/>`,
+ wedge:`<path class="sf f0" d="M28 60 L90 34 L90 60 Z"/><path class="sf f2" d="M28 60 L90 52 L90 60 Z"/><circle class="a" cx="78" cy="28" r="4"/>`,
+ cup:`<path class="sf f4" d="M42 20 h36 l-2.5 24 h-31 z"/><path class="sf f2" d="M44.5 44 h31 l-2.5 24 h-26 z"/>`,
+ popsicle:`<rect class="sf f3" x="44" y="12" width="32" height="46" rx="14"/><rect class="sf f2" x="56" y="58" width="8" height="18" rx="4"/><line class="st" x1="54" y1="24" x2="54" y2="44"/>`,
+ icecream:`<path class="sf f4" d="M34 48 a26 18 0 0 0 52 0 z"/><circle class="sf f0" cx="48" cy="40" r="11"/><circle class="sf f2" cx="68" cy="37" r="12"/>`,
+ shake:`<path class="sf f4" d="M42 26 h36 l-5 44 h-26 z"/><line class="st" x1="68" y1="10" x2="59" y2="32"/><line class="st" x1="42" y1="26" x2="78" y2="26"/>`,
+ bonbons:`<circle class="sf f2" cx="42" cy="52" r="12"/><circle class="sf f4" cx="64" cy="42" r="14"/><circle class="sf f2" cx="85" cy="53" r="10"/>`,
+ bark:`<rect class="sf f2" x="30" y="26" width="60" height="40" rx="4"/><line class="st" x1="50" y1="26" x2="50" y2="66"/><line class="st" x1="70" y1="26" x2="70" y2="66"/><line class="st" x1="30" y1="46" x2="90" y2="46"/><circle class="a" cx="40" cy="36" r="2.5"/><circle class="a" cx="80" cy="56" r="2.5"/>`,
+ nuts:`<ellipse class="sf f2" cx="42" cy="38" rx="9" ry="7" transform="rotate(-20 42 38)"/><ellipse class="sf f2" cx="66" cy="31" rx="9" ry="7" transform="rotate(15 66 31)"/><ellipse class="sf f2" cx="55" cy="53" rx="9" ry="7"/><ellipse class="sf f2" cx="79" cy="50" rx="9" ry="7" transform="rotate(-12 79 50)"/>`,
+ chips:`<path class="sf f2" d="M36 64 q-6 -26 10 -38 q8 14 4 38 z"/><path class="sf f2" d="M58 66 q-2 -30 14 -40 q10 16 0 40 z"/><path class="sf f2" d="M82 64 q0 -24 12 -32 q6 12 0 32 z"/>`,
+ olives:`<path class="sf f3" d="M34 48 a26 16 0 0 0 52 0 z"/><circle class="sf f1" cx="48" cy="38" r="7"/><circle class="a" cx="48" cy="38" r="2.5"/><circle class="sf f1" cx="64" cy="34" r="7"/><circle class="a" cx="64" cy="34" r="2.5"/><circle class="sf f1" cx="77" cy="42" r="6"/>`,
+ eggs:`<ellipse class="sf f0" cx="44" cy="46" rx="16" ry="11"/><circle class="k" cx="44" cy="44" r="5"/><ellipse class="sf f0" cx="76" cy="46" rx="16" ry="11"/><circle class="k" cx="76" cy="44" r="5"/>`,
+ jar:`<rect class="sf f3" x="42" y="28" width="36" height="44" rx="6"/><rect class="sf f1" x="40" y="18" width="40" height="10" rx="4"/><line class="st" x1="52" y1="40" x2="52" y2="62"/><line class="st" x1="68" y1="40" x2="68" y2="62"/>`,
+ avocado:`<path class="sf f3" d="M60 14 c14 0 22 12 22 24 a22 26 0 0 1 -44 0 c0 -12 8 -24 22 -24 z"/><circle class="sf f2" cx="60" cy="48" r="10"/>`,
+ cloche:`<path class="sf f1" d="M28 58 a32 30 0 0 1 64 0 z"/><circle class="sf f1" cx="60" cy="23" r="4"/><line class="st" x1="20" y1="58" x2="100" y2="58"/>`
+};
+const ILLUS_RULES = [
+ [/popper/,"bonbons"],[/challah/,"braid"],[/bagel/,"bagel"],[/breadstick|cheese sticks|mozzarella sticks/,"sticks"],
+ [/pizza/,"pizza"],[/pita|laffa|tortilla|flatbread|naan|manakish|focaccia|taco/,"flatbread"],
+ [/cracker|matzah|matzo/,"cracker"],[/cinnamon roll/,"spiral"],[/english.muffin|bun|dinner roll|biscuit/,"bun"],
+ [/bread|loaf|baguette/,"loaf"],[/milkshake|shake|smoothie|frappe/,"shake"],[/popsicle|ice pop/,"popsicle"],
+ [/bark/,"bark"],[/ice cream|nice cream|sorbet|gelato|granita/,"icecream"],
+ [/shakshuka|frittata|florentine|baked egg|omelet|egg muffin|fritter|latke/,"skillet"],[/deviled/,"eggs"],
+ [/labneh|celery|guacamole|avocado/, "bowl"],
+ [/falafel/,"bonbons"],
+ [/quinoa|lentil|edamame|lupini|turmus|buckwheat|kasha|hummus|majadra|porridge|soup|stew|bean|snow pea|tabbouleh|couscous|pilaf/,"noodles"],
+ [/lasagna|moussaka|casserole|gratin|mac &|mac and|rollatini|stuffed|boats|baked feta|parmesan|crumble|quiche/,"casserole"],
+ [/stir-fry|zoodle|noodle|alfredo|stroganoff/,"noodles"],
+ [/brownie|blondie|bars|fudge|halva|salami/,"bars"],[/cheesecake|tart|\bpie\b/,"wedge"],
+ [/mousse|parfait|pudding|panna|malabi|brulee|brûlée|curd|tiramisu|creme|crème|berry cups/,"cup"],
+ [/truffle|bonbon|balls|bites|macaroon|nut butter cup|strawberries/,"bonbons"],
+ [/cookie|biscotti|snickerdoodle|shortbread|thumbprint/,"cookie"],[/muffin|cupcake/,"cupcake"],[/cake/,"cakeslice"],
+ [/chips|crisps|kale/,"chips"],[/almond|nuts|seeds|trail|granola/,"nuts"],[/olive/,"olives"],[/pickle/,"jar"],
+ [/cottage|bowl|dip|tahini|yogurt|salmon|cucumber|lettuce/,"bowl"]
+];
+function illusFor(r){
+  const hay = (r.id+" "+r.name).toLowerCase();
+  let key = "cloche";
+  for(const [re,k] of ILLUS_RULES){ if(re.test(hay)){ key = k; break; } }
+  if(key==="bowl" && /avocado|guacamole/.test(hay)) key = "avocado";
+  return `<div class="illus" aria-hidden="true"><svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">${ICONS[key]||ICONS.cloche}</svg></div>`;
+}
+
+/* ---------- badges ---------- */
+function badges(r, full){
+  const k = r.kosherType==="dairy"
+    ? `<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`
+    : `<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`;
+  const d = r.dietTags==="keto"
+    ? `<span class="badge keto">${full?t("ketoFull"):t("keto")}</span>`
+    : `<span class="badge lowcarb">${full?t("lowcarbFull"):t("lowcarb")}</span>`;
+  return k + d;
+}
+
+/* ---------- list view ---------- */
+function applyFilters(){
+  const q = filters.q.trim().toLowerCase();
+  return RECIPES.filter(r=>{
+    if(filters.cat!=="all" && r.category!==filters.cat) return false;
+    if(filters.kosher!=="all" && r.kosherType!==filters.kosher) return false;
+    if(q){
+      const hay = (rName(r)+" "+r.name+" "+(r.nameHe||"")+" "+(rIngs(r)||[]).map(i=>i.item).join(" ")).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function shortItem(s){ return String(s||"").replace(/\(.*?\)/g,"").split(",")[0].trim(); }
+
+function cardHTML(r){
+  const totalMin = (r.prepTimeMin||0)+(r.cookTimeMin||0);
+  const ingLine = (rIngs(r)||[]).map(i=>shortItem(i.item)).filter(Boolean).join(" · ");
+  return `<button class="card" data-id="${esc(r.id)}" aria-label="${esc(rName(r))}">
+    ${illusFor(r)}
+    <div class="badges">${badges(r,false)}</div>
+    <h3>${esc(rName(r))}</h3>
+    <p class="card-ings">${esc(ingLine)}</p>
+    <div class="meta">
+      <span class="carbs">${fmt(r.nutrition&&r.nutrition.netCarbsG)}g<small>${t("netCarbs")}</small></span>
+      <span class="time">${totalMin} ${t("min")}<br>${r.servings} ${t("servings").toLowerCase()}</span>
+    </div>
+  </button>`;
+}
+
+function renderList(){
+  const list = applyFilters();
+  $("countNote").textContent = list.length + " " + t("recipes");
+  let html = "";
+  if(!list.length){
+    html = `<p class="empty">${t("noResults")}</p>`;
+  } else if(filters.cat==="all"){
+    for(const c of CATS){
+      const sub = list.filter(r=>r.category===c.id);
+      if(!sub.length) continue;
+      html += `<div class="section-head"><h2>${esc(catName(c.id))}</h2><span class="n">${sub.length}</span></div>`;
+      html += `<div class="grid">` + sub.map(cardHTML).join("") + `</div>`;
+    }
+  } else {
+    html = `<div class="grid" style="padding-block-start:14px">` + list.map(cardHTML).join("") + `</div>`;
+  }
+  $("listView").innerHTML = html;
+}
+
+/* ---------- recipe view ---------- */
+function nutriRows(n){
+  return `
+   <tr class="big"><td>${t("calories")}</td><td>${fmt(n.calories)}</td></tr>
+   <tr class="big"><td>${t("fat")}</td><td>${fmt(n.fatG)} g</td></tr>
+   <tr class="sub"><td>${t("satFat")}</td><td>${fmt(n.satFatG)} g</td></tr>
+   <tr class="big"><td>${t("carbs")}</td><td>${fmt(n.carbsG)} g</td></tr>
+   <tr class="sub"><td>${t("fiber")}</td><td>${fmt(n.fiberG)} g</td></tr>
+   <tr class="sub"><td>${t("sugar")}</td><td>${fmt(n.sugarG)} g</td></tr>
+   <tr class="net"><td>${t("net")}</td><td>${fmt(n.netCarbsG)} g</td></tr>
+   <tr class="big"><td>${t("protein")}</td><td>${fmt(n.proteinG)} g</td></tr>
+   <tr><td>${t("sodium")}</td><td>${fmt(n.sodiumMg)} mg</td></tr>`;
+}
+
+function recipeHTML(r){
+  const n = r.nutrition||{};
+  const ings = (rIngs(r)||[]).map(i=>
+    `<li><b>${esc(i.amount)}</b> ${esc(i.item)}${i.israelNote?`<span class="il-note">${esc(i.israelNote)}</span>`:""}</li>`).join("");
+  const steps = (rSteps(r)||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const kv = rOpt(r,"ketoVariant"), lv = rOpt(r,"lowCarbVariant"), tip = rOpt(r,"tips");
+  const srcs = (r.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.creator)}</a>`).join(" · ");
+  return `
+  <div class="back-row no-print">
+    <button class="ghost-btn" id="backBtn">${t("back")}</button>
+    <button class="solid-btn" id="printOneBtn">${t("print")}</button>
+  </div>
+  <article class="recipe">
+    <div class="badges">${badges(r,true)}<span class="badge lowcarb">${esc(catName(r.category))}</span></div>
+    <h2>${esc(rName(r))}</h2>
+    ${illusFor(r)}
+    <div class="meta-row">
+      <div class="meta-cell"><b>${t("prep")}</b>${r.prepTimeMin} ${t("min")}</div>
+      <div class="meta-cell"><b>${t("cook")}</b>${r.cookTimeMin} ${t("min")}</div>
+      <div class="meta-cell"><b>${t("total")}</b>${(r.prepTimeMin||0)+(r.cookTimeMin||0)} ${t("min")}</div>
+      <div class="meta-cell"><b>${t("servings")}</b>${r.servings}</div>
+      <div class="meta-cell"><b>${t("difficulty")}</b>${t(r.difficulty)||esc(r.difficulty)}</div>
+    </div>
+    <div class="recipe-cols">
+      <div>
+        <h4>${t("ingredients")}</h4>
+        <ul class="ing-list">${ings}</ul>
+        <div class="nutri">
+          <h5>${t("nutrition")}</h5>
+          <div class="per">${t("perServing")}</div>
+          <table>${nutriRows(n)}</table>
+        </div>
+      </div>
+      <div>
+        <h4>${t("instructions")}</h4>
+        <ol class="steps">${steps}</ol>
+        ${kv?`<div class="variant-box"><b>${t("ketoVariant")}:</b> ${esc(kv)}</div>`:""}
+        ${lv?`<div class="variant-box"><b>${t("lowCarbVariant")}:</b> ${esc(lv)}</div>`:""}
+        ${tip?`<div class="tip-box"><b>${t("tip")}:</b> ${esc(tip)}</div>`:""}
+      </div>
+    </div>
+    <div class="src-row">
+      ${srcs?`${t("adapted")}: ${srcs}`:""}
+      ${rOpt(r,"comparedVersions")?`<div class="why">${t("why")} ${esc(rOpt(r,"comparedVersions"))}</div>`:""}
+    </div>
+  </article>`;
+}
+
+function showRecipe(id){
+  const r = RECIPES.find(x=>x.id===id);
+  if(!r) return showList();
+  $("listView").hidden = true;
+  $("pantryView").hidden = true;
+  $("controls").hidden = true;
+  const v = $("recipeView");
+  v.hidden = false;
+  v.innerHTML = recipeHTML(r);
+  $("backBtn").onclick = ()=>{ location.hash=""; };
+  $("printOneBtn").onclick = ()=>printRecipes([r], false);
+  window.scrollTo(0,0);
+}
+
+function showList(){
+  $("recipeView").hidden = true;
+  $("pantryView").hidden = true;
+  $("listView").hidden = false;
+  $("controls").hidden = false;
+  renderList();
+}
+
+/* ---------- pantry ---------- */
+const PANTRY_RULES = [
+ ["sec_sweet", /erythritol|stevia|monk|allulose|sweetener|sukrin/],
+ ["sec_flour", /flour|psyllium|xanthan|baking powder|baking soda|yeast|cocoa|cacao|vanilla|gelatin|agar|extract|protein powder|konjac/],
+ ["sec_choc", /chocolate|cocoa butter/],
+ ["sec_nuts", /almond|pecan|walnut|hazelnut|peanut|cashew|pistachio|macadamia|sesame|tahini|chia|flax|sunflower|pumpkin seed|poppy|coconut|nut|aquafaba/],
+ ["sec_dairy", /cheese|cream|butter|milk|yogurt|labneh|labaneh|egg|mascarpone|ricotta|mozzarella|parmesan|feta|halloumi|cottage|kashkaval|gvina/],
+ ["sec_spice", /salt|black pepper|white pepper|cayenne|chili flakes|cinnamon|paprika|cumin|oregano|za'?atar|caraway|cardamom|nutmeg|ginger|turmeric|onion powder|garlic powder|everything|seasoning|spice|rose water|coffee|espresso|bay leaf|dill seed/],
+ ["sec_produce", /zucchini|cauliflower|broccoli|spinach|kale|pepper|tomato|onion|garlic|cucumber|celery|lettuce|cabbage|mushroom|portobello|eggplant|avocado|berr|lemon|lime|orange|apple|basil|parsley|cilantro|dill|rosemary|thyme|mint|chive|scallion|leek|radish|kohlrabi|pumpkin|olive|carrot|herb|tofu|salmon|tuna/],
+ ["sec_oils", /oil|vinegar|mayonnaise|mustard|soy sauce|tamari|aminos|tomato paste|broth|stock|wine|pickle|caper|water/]
+];
+function pantrySection(key){
+  for(const [sec,re] of PANTRY_RULES){ if(re.test(key)) return sec; }
+  return "sec_other";
+}
+function pantryHTML(){
+  const map = new Map();
+  for(const r of RECIPES){
+    const en = r.ingredients||[], he = r.ingredientsHe||[];
+    const seen = new Set();
+    en.forEach((ing,i)=>{
+      const key = shortItem(ing.item).toLowerCase();
+      if(!key || seen.has(key)) return;
+      seen.add(key);
+      const disp = (lang==="he" && he[i] && he[i].item) ? shortItem(he[i].item) : shortItem(ing.item);
+      const e = map.get(key) || {key, display:disp, count:0};
+      e.count++;
+      if(lang==="he" && /[א-ת]/.test(disp)) e.display = disp;
+      map.set(key, e);
+    });
+  }
+  const bySec = {};
+  for(const e of map.values()){
+    const sec = pantrySection(e.key);
+    (bySec[sec] = bySec[sec] || []).push(e);
+  }
+  const order = ["sec_produce","sec_dairy","sec_nuts","sec_flour","sec_sweet","sec_choc","sec_oils","sec_spice","sec_other"];
+  let html = `<div class="back-row no-print"><button class="ghost-btn" id="pantryBackBtn">${t("back")}</button></div>
+    <div class="pantry-head"><h2>${t("pantryTitle")}</h2><p class="pantry-sub">${t("pantrySub")}</p></div>`;
+  for(const sec of order){
+    const list = bySec[sec];
+    if(!list || !list.length) continue;
+    list.sort((a,b)=> b.count-a.count || a.display.localeCompare(b.display, lang==="he"?"he":"en"));
+    html += `<div class="section-head"><h2>${t(sec)}</h2><span class="n">${list.length}</span></div><div class="ing-cloud">`;
+    html += list.map(e=>`<button class="ing-chip" data-q="${esc(e.display)}">${esc(e.display)}<span class="n">×${e.count}</span></button>`).join("");
+    html += `</div>`;
+  }
+  return html;
+}
+function showPantry(){
+  $("listView").hidden = true;
+  $("recipeView").hidden = true;
+  $("controls").hidden = true;
+  const v = $("pantryView");
+  v.hidden = false;
+  v.innerHTML = pantryHTML();
+  $("pantryBackBtn").onclick = ()=>{ location.hash=""; };
+  window.scrollTo(0,0);
+}
+
+/* ---------- printing ---------- */
+function printRecipeBlock(r){
+  const n = r.nutrition||{};
+  const ings = (rIngs(r)||[]).map(i=>`<li><b>${esc(i.amount)}</b> ${esc(i.item)}${i.israelNote?` <span class="pnote">(${esc(i.israelNote)})</span>`:""}</li>`).join("");
+  const steps = (rSteps(r)||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const kv = rOpt(r,"ketoVariant"), lv = rOpt(r,"lowCarbVariant"), tip = rOpt(r,"tips");
+  const srcs = (r.sources||[]).map(s=>`${esc(s.creator)} — ${esc(s.url)}`).join(" · ");
+  return `<section class="print-recipe">
+    <div class="pbadges">${r.kosherType==="dairy"?t("dairy"):t("pareve")} · ${r.dietTags==="keto"?t("keto"):t("lowcarb")} · ${esc(catName(r.category))}</div>
+    <h2>${esc(rName(r))}</h2>
+    <div class="pmeta">${t("prep")} ${r.prepTimeMin} ${t("min")} · ${t("cook")} ${r.cookTimeMin} ${t("min")} · ${r.servings} ${t("servings")} · ${fmt(n.netCarbsG)}g ${t("netCarbs")} ${t("perServing")}</div>
+    <h3>${t("ingredients")}</h3><ul>${ings}</ul>
+    <h3>${t("instructions")}</h3><ol>${steps}</ol>
+    ${kv?`<p class="pnote"><b>${t("ketoVariant")}:</b> ${esc(kv)}</p>`:""}
+    ${lv?`<p class="pnote"><b>${t("lowCarbVariant")}:</b> ${esc(lv)}</p>`:""}
+    ${tip?`<p class="pnote"><b>${t("tip")}:</b> ${esc(tip)}</p>`:""}
+    <div class="pnutri">${t("nutrition")} (${t("perServing")}): ${t("calories")} ${fmt(n.calories)} · ${t("fat")} ${fmt(n.fatG)}g (${t("satFat")} ${fmt(n.satFatG)}g) · ${t("carbs")} ${fmt(n.carbsG)}g · ${t("fiber")} ${fmt(n.fiberG)}g · <b>${t("net")} ${fmt(n.netCarbsG)}g</b> · ${t("protein")} ${fmt(n.proteinG)}g · ${t("sodium")} ${fmt(n.sodiumMg)}mg</div>
+    ${srcs?`<div class="psrc">${t("adapted")}: ${srcs}</div>`:""}
+  </section>`;
+}
+
+function printRecipes(list, withCover){
+  const root = $("printRoot");
+  let html = "";
+  if(withCover){
+    html += `<div class="book-title">${t("title")}</div><div class="book-sub">${t("bookSub")}</div>`;
+    html += `<div class="toc"><h3>${t("contents")}</h3>`;
+    for(const c of CATS){
+      const sub = list.filter(r=>r.category===c.id);
+      if(!sub.length) continue;
+      html += `<h4>${esc(catName(c.id))}</h4><ul>` + sub.map(r=>`<li>${esc(rName(r))} — ${fmt(r.nutrition&&r.nutrition.netCarbsG)}g</li>`).join("") + `</ul>`;
+    }
+    html += `</div>`;
+    for(const c of CATS){
+      for(const r of list.filter(r=>r.category===c.id)) html += printRecipeBlock(r);
+    }
+  } else {
+    html = list.map(printRecipeBlock).join("");
+  }
+  root.innerHTML = html;
+  window.print();
+}
+window.onafterprint = ()=>{ $("printRoot").innerHTML=""; };
+
+/* ---------- controls ---------- */
+function chip(label, on, cb){
+  const b = document.createElement("button");
+  b.className = "chip" + (on?" on":"");
+  b.textContent = label;
+  b.onclick = cb;
+  return b;
+}
+
+function renderControls(){
+  const catRow = $("catRow"); catRow.innerHTML="";
+  catRow.appendChild(chip(t("all"), filters.cat==="all", ()=>{filters.cat="all";renderControls();renderList();}));
+  for(const c of CATS)
+    catRow.appendChild(chip(catName(c.id), filters.cat===c.id, ()=>{filters.cat=c.id;renderControls();renderList();}));
+
+  const kRow = $("kosherRow");
+  kRow.innerHTML = `<span class="chip-label">${t("kosher")}</span>`;
+  for(const [val,lbl] of [["all",t("all")],["dairy",t("dairy")],["pareve",t("pareve")]])
+    kRow.appendChild(chip(lbl, filters.kosher===val, ()=>{filters.kosher=val;renderControls();renderList();}));
+
+}
+
+/* ---------- language ---------- */
+function applyLang(){
+  document.documentElement.setAttribute("dir", lang==="he"?"rtl":"ltr");
+  document.documentElement.setAttribute("lang", lang);
+  document.title = t("title");
+  $("bookTitle").innerHTML = `<span class="leaf">●</span> ${t("title")}`;
+  $("tagline").textContent = t("tagline");
+  $("searchBox").placeholder = t("search");
+  $("langBtn").textContent = lang==="he" ? "English" : "עברית";
+  $("pantryBtn").textContent = t("pantryBtn");
+  $("printBookBtn").textContent = t("printBook");
+  $("footerNote").textContent = t("footer");
+  renderControls();
+  route();
+}
+
+/* ---------- routing & events ---------- */
+function route(){
+  const h = location.hash;
+  if(h.startsWith("#r/")) showRecipe(decodeURIComponent(h.slice(3)));
+  else if(h==="#pantry") showPantry();
+  else showList();
+}
+window.addEventListener("hashchange", route);
+
+document.addEventListener("click", e=>{
+  const card = e.target.closest(".card[data-id]");
+  if(card){ location.hash = "r/"+encodeURIComponent(card.dataset.id); return; }
+  const chip = e.target.closest(".ing-chip[data-q]");
+  if(chip){
+    filters.q = chip.dataset.q;
+    filters.cat = "all"; filters.kosher = "all";
+    if(location.hash) location.hash = "";
+    showList();
+    $("searchBox").value = filters.q;
+    renderControls();
+    window.scrollTo(0,0);
+  }
+});
+$("pantryBtn").onclick = ()=>{ location.hash = "pantry"; };
+$("searchBox").addEventListener("input", e=>{ filters.q = e.target.value; renderList(); });
+$("langBtn").onclick = ()=>{
+  lang = lang==="he" ? "en" : "he";
+  try{ localStorage.setItem("klk-lang", lang); }catch(e){}
+  applyLang();
+};
+$("printBookBtn").onclick = ()=>printRecipes(applyFilters(), true);
+
+applyLang();
+</script>

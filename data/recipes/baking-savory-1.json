@@ -1,0 +1,565 @@
+[
+  {
+    "id": "almond-flour-sandwich-bread",
+    "name": "Almond Flour Sandwich Bread",
+    "nameHe": "לחם כריכים מקמח שקדים",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 12,
+    "prepTimeMin": 10,
+    "cookTimeMin": 45,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "4 tbsp / 20 g", "item": "whole psyllium husks (or 2 tbsp psyllium husk powder)", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
+      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "0.5 tsp", "item": "xanthan gum (optional, for a springier crumb)", "israelNote": "health-food stores"},
+      {"amount": "0.25 tsp", "item": "fine salt"},
+      {"amount": "2", "item": "large eggs, room temperature"},
+      {"amount": "2", "item": "large egg whites, room temperature"},
+      {"amount": "2 tbsp / 30 g", "item": "olive oil (keeps it pareve; butter works for a dairy meal)"},
+      {"amount": "0.5 cup / 120 ml", "item": "warm water"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "4 כפות / 20 גרם", "item": "פסיליום שלם (או 2 כפות אבקת פסיליום)", "israelNote": "סופר-פארם / חנויות טבע / iHerb"},
+      {"amount": "1.5 כפית", "item": "אבקת אפייה", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "חצי כפית", "item": "קסנטן גאם (לא חובה, לפריכות גמישה יותר)", "israelNote": "חנויות טבע"},
+      {"amount": "רבע כפית", "item": "מלח דק"},
+      {"amount": "2", "item": "ביצים גדולות, בטמפרטורת החדר"},
+      {"amount": "2", "item": "חלבוני ביצה גדולים, בטמפרטורת החדר"},
+      {"amount": "2 כפות / 30 גרם", "item": "שמן זית (שומר על הלחם פרווה; חמאה מתאימה לארוחה חלבית)"},
+      {"amount": "חצי כוס / 120 מ\"ל", "item": "מים חמימים"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C and line a small loaf pan (about 20x10 cm) with baking paper.",
+      "Beat the eggs and egg whites with an electric mixer for about 2 minutes until pale and frothy - this air is what lifts the loaf.",
+      "In a second bowl stir together the almond flour, psyllium, baking powder, xanthan gum and salt.",
+      "Beat the olive oil and warm water into the eggs, then mix in the dry ingredients until you have a smooth, thick batter.",
+      "Scrape the batter into the pan, smooth the top, and bake 40-45 minutes until the top is browned and a skewer comes out clean.",
+      "Cool completely in the pan before slicing into 12 slices - warm psyllium bread gums up if cut early."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית אינגליש קייק קטנה (כ-20x10 ס\"מ) בנייר אפייה.",
+      "מקציפים את הביצים והחלבונים במיקסר חשמלי כ-2 דקות עד שהם בהירים ואווריריים – האוויר הזה הוא שמתפיח את הלחם.",
+      "בקערה שנייה מערבבים את קמח השקדים, הפסיליום, אבקת האפייה, הקסנטן גאם והמלח.",
+      "מוסיפים לביצים את שמן הזית והמים החמימים תוך הקצפה, ואז מערבבים פנימה את היבשים עד לקבלת בלילה חלקה וסמיכה.",
+      "מעבירים את הבלילה לתבנית, מיישרים את החלק העליון ואופים 40-45 דקות עד שהלחם משחים למעלה וקיסם יוצא נקי.",
+      "מצננים לגמרי בתוך התבנית לפני שפורסים ל-12 פרוסות – לחם פסיליום חם נעשה דביק אם פורסים מוקדם מדי."
+    ],
+    "nutrition": {"calories": 148, "fatG": 12.4, "satFatG": 1.4, "proteinG": 5.2, "carbsG": 4.7, "fiberG": 3.0, "netCarbsG": 1.7, "sugarG": 0.9, "sodiumMg": 180},
+    "tips": "Slices toast beautifully and freeze well; freeze pre-sliced with baking paper between slices.",
+    "tipsHe": "הפרוסות מצוינות בטוסטר ומוקפאות היטב; מקפיאים פרוס מראש עם נייר אפייה בין הפרוסות.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/almond-flour-bread-keto-bread-recipe/"},
+      {"creator": "Healthy Recipes Blog (Vered DeLeeuw)", "url": "https://healthyrecipesblogs.com/gluten-free-bread/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's psyllium-and-egg-white loaf (200 g almond flour, 12 slices, 1.4 g net) with Healthy Recipes Blog's simpler 5-egg butter loaf. The psyllium version won: it slices thinner, holds sandwich fillings without crumbling, and swaps butter for olive oil so it stays pareve for meat meals.",
+    "comparedVersionsHe": "השווינו את הלחם של Sugar Free Londoner על בסיס פסיליום וחלבוני ביצה (200 גרם קמח שקדים, 12 פרוסות, 1.4 גרם פחמימות נטו) עם גרסת החמאה הפשוטה יותר של Healthy Recipes Blog עם 5 ביצים. גרסת הפסיליום ניצחה: היא נפרסת דק יותר, מחזיקה מילויי כריך בלי להתפורר, ובזכות החלפת החמאה בשמן זית היא נשארת פרווה ומתאימה לארוחות בשריות."
+  },
+  {
+    "id": "fathead-dinner-rolls",
+    "name": "Keto Dinner Rolls (Fathead Dough)",
+    "nameHe": "לחמניות קיטו (בצק פאטהד)",
+    "category": "baking-savory",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 15,
+    "cookTimeMin": 22,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1.5 cups / 170 g", "item": "shredded low-moisture mozzarella", "israelNote": "shredded mozzarella (Tara/Gad)"},
+      {"amount": "2 oz / 56 g", "item": "cream cheese", "israelNote": "gevinat shamenet levana, e.g. Napoleon/Philadelphia style"},
+      {"amount": "1.33 cups / 133 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "2 tbsp / 14 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "1.5 tbsp", "item": "baking powder (yes, tablespoons - it is what makes them fluffy)", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "3", "item": "large eggs (1 reserved for egg wash)"},
+      {"amount": "1 tsp", "item": "sesame seeds (optional topping)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1.5 כוסות / 170 גרם", "item": "מוצרלה מגוררת (דלת לחות)", "israelNote": "מוצרלה מגוררת של טרה/גד"},
+      {"amount": "56 גרם", "item": "גבינת שמנת", "israelNote": "גבינת שמנת לבנה, למשל נפוליאון או בסגנון פילדלפיה"},
+      {"amount": "1 ושליש כוסות / 133 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "2 כפות / 14 גרם", "item": "קמח קוקוס"},
+      {"amount": "1.5 כפות", "item": "אבקת אפייה (כן, כפות – זה מה שעושה אותן אווריריות)", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "3", "item": "ביצים גדולות (אחת שמורה להברשה)"},
+      {"amount": "1 כפית", "item": "שומשום (לפיזור, לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C and line a baking sheet with baking paper.",
+      "Whisk the almond flour, coconut flour and baking powder together in a small bowl.",
+      "Melt the mozzarella and cream cheese together in the microwave in 30-second bursts, stirring until smooth.",
+      "Combine the melted cheese, 2 eggs and the dry mix in a food processor (or knead by hand) until an even dough forms - if sticky, chill 10 minutes.",
+      "Divide into 8 balls and roll each smooth between damp palms; place on the sheet.",
+      "Brush with the remaining beaten egg, sprinkle with sesame seeds, and bake 20-23 minutes until deep golden.",
+      "Cool a few minutes before serving; reheat leftovers briefly - they are best warm."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מערבבים בקערה קטנה את קמח השקדים, קמח הקוקוס ואבקת האפייה.",
+      "ממיסים יחד את המוצרלה וגבינת השמנת במיקרוגל בפולסים של 30 שניות, תוך ערבוב, עד שהתערובת חלקה.",
+      "מאחדים במעבד מזון (או בלישה ידנית) את הגבינה המומסת, 2 ביצים והתערובת היבשה עד לקבלת בצק אחיד – אם הבצק דביק, מצננים 10 דקות במקרר.",
+      "מחלקים ל-8 כדורים ומגלגלים כל אחד לכדור חלק בין כפות ידיים לחות; מניחים על התבנית.",
+      "מברישים בביצה הטרופה הנותרת, מפזרים שומשום ואופים 20-23 דקות עד לגוון זהוב עמוק.",
+      "מצננים כמה דקות לפני ההגשה; שאריות מחממים קצרות – הן הכי טעימות חמות."
+    ],
+    "nutrition": {"calories": 214, "fatG": 16.7, "satFatG": 4.9, "proteinG": 10.8, "carbsG": 6.1, "fiberG": 2.4, "netCarbsG": 3.7, "sugarG": 0.6, "sodiumMg": 440},
+    "ketoVariant": "Add 2 tsp dried yeast bloomed in 2 tbsp warm water with a pinch of inulin for a real bread aroma (Wholesome Yum's trick) - the yeast is for flavor only.",
+    "ketoVariantHe": "מוסיפים 2 כפיות שמרים יבשים שהותפחו ב-2 כפות מים חמימים עם קורט אינולין לניחוח לחם אמיתי (הטריק של Wholesome Yum) – השמרים לטעם בלבד.",
+    "tips": "Use pre-shredded low-moisture mozzarella; fresh mozzarella balls carry too much water and the dough will not hold shape.",
+    "tipsHe": "משתמשים במוצרלה מגוררת דלת לחות; כדורי מוצרלה טרייה מכילים יותר מדי מים והבצק לא ישמור על צורתו.",
+    "sources": [
+      {"creator": "Kirbie's Cravings", "url": "https://kirbiecravings.com/keto-bread-rolls/"},
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/fathead-keto-dinner-rolls-recipe/"}
+    ],
+    "comparedVersions": "Compared Kirbie's Cravings' straightforward fathead rolls (no yeast, food-processor method, 4 g net) with Wholesome Yum's yeast-boosted version. Kirbie's ratio of almond + a little coconut flour with extra baking powder gave the fluffiest crumb with fewer steps; the yeast step is kept only as an optional flavor variant.",
+    "comparedVersionsHe": "השווינו את לחמניות הפאטהד הפשוטות של Kirbie's Cravings (בלי שמרים, שיטת מעבד מזון, 4 גרם פחמימות נטו) עם הגרסה מועשרת השמרים של Wholesome Yum. היחס של Kirbie – קמח שקדים עם מעט קמח קוקוס ותוספת אבקת אפייה – נתן את המרקם האוורירי ביותר בפחות שלבים; שלב השמרים נשמר רק כווריאציה לא חובה לטעם."
+  },
+  {
+    "id": "nordic-seed-crackers",
+    "name": "Nordic Seed Crackers",
+    "nameHe": "קרקרים נורדיים מזרעים",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 10,
+    "cookTimeMin": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "0.75 cup / 105 g", "item": "sunflower seeds", "israelNote": "garinei chamania (kalufim/shelled)"},
+      {"amount": "0.5 cup / 65 g", "item": "pumpkin seeds", "israelNote": "garinei dla'at"},
+      {"amount": "0.5 cup / 72 g", "item": "sesame seeds"},
+      {"amount": "3 tbsp / 24 g", "item": "chia seeds", "israelNote": "health-food stores/supermarket health aisle"},
+      {"amount": "1 tbsp", "item": "psyllium husk powder (or 2 tbsp whole husks)", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
+      {"amount": "0.5 tsp", "item": "coarse salt, plus flakes for the top"},
+      {"amount": "0.75 cup / 180 ml", "item": "water"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3/4 כוס / 105 גרם", "item": "גרעיני חמנייה קלופים"},
+      {"amount": "חצי כוס / 65 גרם", "item": "גרעיני דלעת"},
+      {"amount": "חצי כוס / 72 גרם", "item": "שומשום"},
+      {"amount": "3 כפות / 24 גרם", "item": "זרעי צ'יה", "israelNote": "חנויות טבע / מדף הבריאות בסופר"},
+      {"amount": "1 כף", "item": "אבקת פסיליום (או 2 כפות פסיליום שלם)", "israelNote": "סופר-פארם / חנויות טבע / iHerb"},
+      {"amount": "חצי כפית", "item": "מלח גס, ועוד מלח אטלנטי לפיזור מעל"},
+      {"amount": "3/4 כוס / 180 מ\"ל", "item": "מים"}
+    ],
+    "instructions": [
+      "Heat the oven to 300°F / 150°C.",
+      "Stir all the seeds, psyllium and salt together, add the water, and let the mixture sit 20 minutes until it turns into a thick, spoonable gel.",
+      "Spread the mixture on baking paper, cover with a second sheet, and roll as thin as you can - a few millimeters, in one even layer.",
+      "Peel off the top paper and pre-cut the sheet into about 24 squares with a pizza cutter.",
+      "Bake about 60 minutes until crisp and lightly browned; if the center is still soft, break away the crisp edges and give it 5-10 more minutes.",
+      "Cool completely, then snap along the cut lines. Serving = 4 crackers."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-150 מעלות.",
+      "מערבבים את כל הזרעים, הפסיליום והמלח, מוסיפים את המים ומניחים לתערובת לעמוד 20 דקות עד שהיא הופכת לג'ל סמיך.",
+      "מורחים את התערובת על נייר אפייה, מכסים בנייר נוסף ומרדדים דק ככל האפשר – מילימטרים ספורים, בשכבה אחידה אחת.",
+      "מסירים את הנייר העליון וחורצים מראש בעזרת גלגלת פיצה לכ-24 ריבועים.",
+      "אופים כ-60 דקות עד שהקרקרים פריכים ומזהיבים קלות; אם המרכז עדיין רך, שוברים את השוליים הפריכים ומחזירים לתנור ל-5-10 דקות נוספות.",
+      "מצננים לגמרי ואז שוברים לאורך קווי החריצה. מנה = 4 קרקרים."
+    ],
+    "nutrition": {"calories": 253, "fatG": 21.5, "satFatG": 2.6, "proteinG": 9.7, "carbsG": 9.8, "fiberG": 5.6, "netCarbsG": 4.2, "sugarG": 0.7, "sodiumMg": 190},
+    "tips": "They keep 3 weeks in an airtight tin. Excellent pareve stand-in for bread at a meat meal - top with tahini or avocado.",
+    "tipsHe": "נשמרים 3 שבועות בקופסה אטומה. תחליף פרווה מצוין ללחם בארוחה בשרית – מגישים עם טחינה או אבוקדו.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-seed-crackers-recipe/"},
+      {"creator": "Hilda's Kitchen Blog", "url": "https://hildaskitchenblog.com/recipe/healthy-low-carb-seed-crackers/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's 5-ingredient psyllium-bound crackers with Hilda's Kitchen version that adds collagen powder and coconut oil plus boiling water. The Londoner ratio won on simplicity - no protein powder or added fat needed, since chia plus psyllium bind on their own - with the same crispness and about 1 g net carb per cracker.",
+    "comparedVersionsHe": "השווינו את הקרקרים של Sugar Free Londoner מ-5 מרכיבים על בסיס פסיליום עם הגרסה של Hilda's Kitchen שמוסיפה אבקת קולגן, שמן קוקוס ומים רותחים. היחס של Sugar Free Londoner ניצח בזכות הפשטות – אין צורך באבקת חלבון או בשומן נוסף, כי הצ'יה והפסיליום נקשרים בעצמם – עם אותה פריכות וכ-1 גרם פחמימות נטו לקרקר."
+  },
+  {
+    "id": "cloud-bread",
+    "name": "Cloud Bread (Oopsie Rolls)",
+    "nameHe": "לחם ענן (לחמניות אופסי)",
+    "category": "baking-savory",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 28,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "3", "item": "large eggs, room temperature, separated"},
+      {"amount": "3 oz / 85 g", "item": "cream cheese, softened", "israelNote": "gevina levana 30% or Napoleon/Philadelphia-style spread"},
+      {"amount": "0.25 tsp", "item": "cream of tartar", "israelNote": "baking aisle or health-food stores; 0.5 tsp lemon juice works instead"},
+      {"amount": "0.25 tsp", "item": "salt"},
+      {"amount": "0.25 tsp", "item": "garlic powder or za'atar (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3", "item": "ביצים גדולות, בטמפרטורת החדר, מופרדות"},
+      {"amount": "85 גרם", "item": "גבינת שמנת, רכה", "israelNote": "גבינה לבנה 30% או ממרח בסגנון נפוליאון/פילדלפיה"},
+      {"amount": "רבע כפית", "item": "קרם טרטר (אבקת טרטר)", "israelNote": "מדף האפייה או חנויות טבע; חצי כפית מיץ לימון מחליפה יפה"},
+      {"amount": "רבע כפית", "item": "מלח"},
+      {"amount": "רבע כפית", "item": "אבקת שום או זעתר (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 300°F / 150°C and line a baking sheet with baking paper.",
+      "Whip the egg whites with the cream of tartar to stiff peaks - the bowl must be grease-free or they will not whip.",
+      "In another bowl beat the softened cream cheese, yolks, salt and seasoning until completely smooth.",
+      "Fold the whites into the yolk mixture in two additions, gently, keeping as much air as possible.",
+      "Spoon 8 rounds (about 10 cm each) onto the sheet, spacing them apart.",
+      "Bake 25-30 minutes until golden and set; cool a few minutes before lifting off the paper. Serving = 2 rounds."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-150 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מקציפים את החלבונים עם קרם הטרטר לקצף יציב – הקערה חייבת להיות נקייה משומן, אחרת הקצף לא יתפוס.",
+      "בקערה אחרת מערבבים את גבינת השמנת הרכה, החלמונים, המלח והתיבול עד לתערובת חלקה לגמרי.",
+      "מקפלים את הקצף לתערובת החלמונים בשתי פעמים, בעדינות, תוך שמירה על כמה שיותר אוויר.",
+      "יוצרים בכף 8 עיגולים (כ-10 ס\"מ כל אחד) על התבנית, במרווחים.",
+      "אופים 25-30 דקות עד שהעיגולים זהובים ויציבים; מצננים כמה דקות לפני שמרימים מהנייר. מנה = 2 עיגולים."
+    ],
+    "nutrition": {"calories": 128, "fatG": 11.0, "satFatG": 5.5, "proteinG": 6.1, "carbsG": 1.5, "fiberG": 0, "netCarbsG": 1.5, "sugarG": 1.0, "sodiumMg": 263},
+    "tips": "Best the day they are baked - they soften overnight. Use two rounds as burger-style buns or as a base for open sandwiches.",
+    "tipsHe": "הכי טובים ביום האפייה – הם מתרככים במהלך הלילה. שני עיגולים משמשים כלחמניית המבורגר או כבסיס לכריכים פתוחים.",
+    "sources": [
+      {"creator": "MyKetoPlate", "url": "https://myketoplate.com/cloud-bread/"},
+      {"creator": "WonkyWonderful (Nicole Harris)", "url": "https://wonkywonderful.com/cloud-bread-recipe/"},
+      {"creator": "Sweet As Honey (Carine Claudepierre)", "url": "https://www.sweetashoney.co/cloud-bread/"}
+    ],
+    "comparedVersions": "Compared three near-identical 3-ingredient versions (MyKetoPlate, WonkyWonderful, Sweet As Honey). All agree on 3 eggs to ~85-115 g cream cheese at 300°F; this version takes the middle cream-cheese amount for stability, WonkyWonderful's two-stage folding for maximum loft, and cream of tartar (with a lemon-juice fallback) as the whip stabilizer.",
+    "comparedVersionsHe": "השווינו שלוש גרסאות כמעט זהות מ-3 מרכיבים (MyKetoPlate, WonkyWonderful, Sweet As Honey). כולן מסכימות על 3 ביצים לכ-85-115 גרם גבינת שמנת ב-150 מעלות; הגרסה הזו לוקחת את כמות הגבינה האמצעית ליציבות, את הקיפול הדו-שלבי של WonkyWonderful לנפח מרבי, ואת קרם הטרטר (עם מיץ לימון כגיבוי) כמייצב הקצפה."
+  },
+  {
+    "id": "fathead-pizza-dough",
+    "name": "Fathead Pizza Dough Base",
+    "nameHe": "בסיס בצק פיצה פאטהד",
+    "category": "baking-savory",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 10,
+    "cookTimeMin": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1.5 cups / 170 g", "item": "shredded low-moisture mozzarella", "israelNote": "shredded mozzarella (Tara/Gad)"},
+      {"amount": "2 tbsp / 28 g", "item": "cream cheese"},
+      {"amount": "0.75 cup / 75 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "1", "item": "large egg, beaten"},
+      {"amount": "0.25 tsp", "item": "salt"},
+      {"amount": "0.5 tsp", "item": "dried oregano or Italian herbs (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1.5 כוסות / 170 גרם", "item": "מוצרלה מגוררת (דלת לחות)", "israelNote": "מוצרלה מגוררת של טרה/גד"},
+      {"amount": "2 כפות / 28 גרם", "item": "גבינת שמנת"},
+      {"amount": "3/4 כוס / 75 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "1", "item": "ביצה גדולה, טרופה"},
+      {"amount": "רבע כפית", "item": "מלח"},
+      {"amount": "חצי כפית", "item": "אורגנו מיובש או תערובת עשבי תיבול איטלקית (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 425°F / 220°C with a baking sheet inside.",
+      "Melt the mozzarella and cream cheese together (microwave ~90 seconds in bursts, stirring), until fully smooth.",
+      "Working while the cheese is warm, mix in the almond flour, egg, salt and herbs until an even dough forms - knead briefly with oiled hands.",
+      "Roll the dough between two sheets of baking paper into a 25-30 cm circle, about 0.5 cm thick.",
+      "Prick all over with a fork, slide onto the hot sheet, and pre-bake 6-8 minutes until golden; pop any bubbles.",
+      "Add sauce and toppings and return to the oven 5-8 minutes. Cut into 8 slices."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-220 מעלות עם תבנית אפייה בפנים.",
+      "ממיסים יחד את המוצרלה וגבינת השמנת (במיקרוגל כ-90 שניות בפולסים, תוך ערבוב) עד שהתערובת חלקה לגמרי.",
+      "בעוד הגבינה חמה, מערבבים פנימה את קמח השקדים, הביצה, המלח ועשבי התיבול עד לקבלת בצק אחיד – לשים קצרות בידיים משומנות.",
+      "מרדדים את הבצק בין שני ניירות אפייה לעיגול של 25-30 ס\"מ, בעובי כחצי ס\"מ.",
+      "מנקבים בכל השטח במזלג, מחליקים על התבנית החמה ואופים אפייה מקדימה 6-8 דקות עד להזהבה; מפוצצים בועות אם נוצרות.",
+      "מוסיפים רוטב ותוספות ומחזירים לתנור ל-5-8 דקות. חותכים ל-8 משולשים."
+    ],
+    "nutrition": {"calories": 140, "fatG": 11.0, "satFatG": 3.8, "proteinG": 8.3, "carbsG": 2.7, "fiberG": 1.0, "netCarbsG": 1.7, "sugarG": 0.5, "sodiumMg": 220},
+    "tips": "The pre-bake plus fork-pricking is what keeps the crust crisp instead of soggy - do not skip either. Dough freezes well after the pre-bake.",
+    "tipsHe": "האפייה המקדימה והניקוב במזלג הם ששומרים על בסיס פריך במקום ספוגי – לא מדלגים על אף אחד מהם. הבצק מוקפא היטב אחרי האפייה המקדימה.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/recipes/fathead-pizza-crust-low-carb-keto-gluten-free-nut-free/"},
+      {"creator": "The Big Man's World (Arman Liew)", "url": "https://thebigmansworld.com/keto-fathead-pizza-dough/"}
+    ],
+    "comparedVersions": "Compared Wholesome Yum's classic cream-cheese fathead crust (425°F, double-bake, fork-pricked) with The Big Man's World's Greek-yogurt shortcut at 350°F. Both use the identical 1.5 cups mozzarella to 3/4 cup almond flour ratio; Wholesome Yum's hotter oven and pre-bake produced the crispier base, so that technique won.",
+    "comparedVersionsHe": "השווינו את בסיס הפאטהד הקלאסי עם גבינת שמנת של Wholesome Yum (220 מעלות, אפייה כפולה, ניקוב במזלג) עם קיצור הדרך של The Big Man's World עם יוגורט יווני ב-180 מעלות. שניהם משתמשים ביחס זהה של 1.5 כוסות מוצרלה ל-3/4 כוס קמח שקדים; התנור החם יותר והאפייה המקדימה של Wholesome Yum נתנו את הבסיס הפריך יותר, ולכן הטכניקה הזו ניצחה."
+  },
+  {
+    "id": "coconut-flour-tortillas",
+    "name": "Coconut Flour Tortillas",
+    "nameHe": "טורטיות מקמח קוקוס",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 15,
+    "cookTimeMin": 15,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "0.5 cup / 60 g", "item": "coconut flour, sifted", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp / 10 g", "item": "whole psyllium husks (or 1 tbsp powder)", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
+      {"amount": "0.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "0.25 tsp each", "item": "salt, garlic powder, cumin (optional spices)"},
+      {"amount": "1", "item": "large egg (or 1 egg white for a paler tortilla)"},
+      {"amount": "1 tbsp", "item": "olive oil, plus more for the pan"},
+      {"amount": "0.67 cup / 160 ml", "item": "warm water"}
+    ],
+    "ingredientsHe": [
+      {"amount": "חצי כוס / 60 גרם", "item": "קמח קוקוס, מנופה"},
+      {"amount": "2 כפות / 10 גרם", "item": "פסיליום שלם (או 1 כף אבקה)", "israelNote": "סופר-פארם / חנויות טבע / iHerb"},
+      {"amount": "חצי כפית", "item": "אבקת אפייה", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "רבע כפית מכל אחד", "item": "מלח, אבקת שום, כמון (תבלינים – לא חובה)"},
+      {"amount": "1", "item": "ביצה גדולה (או חלבון אחד לטורטייה בהירה יותר)"},
+      {"amount": "1 כף", "item": "שמן זית, ועוד קצת למחבת"},
+      {"amount": "2/3 כוס / 160 מ\"ל", "item": "מים חמימים"}
+    ],
+    "instructions": [
+      "Stir the coconut flour, psyllium, baking powder, salt and spices together.",
+      "Add the egg, olive oil and warm water and mix with a fork, then knead about 2 minutes until a soft, pliable dough forms; rest 10 minutes so the fibers hydrate.",
+      "Divide into 6 balls. Flatten each between two sheets of baking paper and roll thin; trim to a neat 15 cm circle using a pot lid as a guide.",
+      "Heat a lightly oiled skillet over medium heat.",
+      "Cook each tortilla about 45-60 seconds per side until golden-spotted and flexible.",
+      "Stack under a towel to keep soft; they roll without cracking while warm."
+    ],
+    "instructionsHe": [
+      "מערבבים את קמח הקוקוס, הפסיליום, אבקת האפייה, המלח והתבלינים.",
+      "מוסיפים את הביצה, שמן הזית והמים החמימים ומערבבים במזלג, ואז לשים כ-2 דקות עד לקבלת בצק רך וגמיש; מניחים למנוחה 10 דקות כדי שהסיבים יספגו את הנוזלים.",
+      "מחלקים ל-6 כדורים. משטחים כל אחד בין שני ניירות אפייה ומרדדים דק; חותכים לעיגול מסודר של 15 ס\"מ בעזרת מכסה סיר כשבלונה.",
+      "מחממים מחבת משומנת קלות על אש בינונית.",
+      "מטגנים כל טורטייה כ-45-60 שניות מכל צד עד שמופיעים כתמים זהובים והיא נשארת גמישה.",
+      "עורמים מתחת למגבת כדי לשמור על רכות; כשהן חמות הן נגללות בלי להיסדק."
+    ],
+    "nutrition": {"calories": 72, "fatG": 4.6, "satFatG": 2.0, "proteinG": 2.9, "carbsG": 4.3, "fiberG": 2.8, "netCarbsG": 1.5, "sugarG": 0.7, "sodiumMg": 150},
+    "tips": "The rest step is essential - coconut flour and psyllium need 10 minutes to absorb the water or the dough will crack when rolled.",
+    "tipsHe": "שלב המנוחה הכרחי – קמח קוקוס ופסיליום צריכים 10 דקות לספוג את המים, אחרת הבצק ייסדק ברידוד.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/coconut-flour-tortillas/"},
+      {"creator": "My PCOS Kitchen (Mira)", "url": "https://www.mypcoskitchen.com/coconut-flour-tortillas-recipe/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's small-batch tortillas (60 g coconut flour, 1 egg, warm water) with My PCOS Kitchen's larger 4-egg boiling-water batch. The Londoner ratio won for a home batch: fewer eggs means a less eggy taste, the warm-water knead is simpler, and per-tortilla macros are lighter (1.5 g net). Fully pareve - fried in olive oil.",
+    "comparedVersionsHe": "השווינו את הטורטיות של Sugar Free Londoner בכמות קטנה (60 גרם קמח קוקוס, ביצה אחת, מים חמימים) עם הגרסה הגדולה של My PCOS Kitchen עם 4 ביצים ומים רותחים. היחס של Sugar Free Londoner ניצח למנה ביתית: פחות ביצים – פחות טעם ביצתי, הלישה במים חמימים פשוטה יותר, והערכים לטורטייה קלים יותר (1.5 גרם פחמימות נטו). פרווה לחלוטין – מטוגנות בשמן זית."
+  },
+  {
+    "id": "flaxseed-crackers",
+    "name": "Flaxseed Crackers",
+    "nameHe": "קרקרים מזרעי פשתן",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 10,
+    "cookTimeMin": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 cup / 120 g", "item": "ground flaxseed (flax meal)", "israelNote": "pishtan tachun - supermarket health aisle or health-food stores; grind whole seeds fresh if possible"},
+      {"amount": "0.33 cup / 80 ml", "item": "water"},
+      {"amount": "1 tsp", "item": "olive oil"},
+      {"amount": "0.75 tsp", "item": "salt"},
+      {"amount": "0.5 tsp", "item": "black pepper, za'atar, or garlic powder"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 כוס / 120 גרם", "item": "פשתן טחון", "israelNote": "מדף הבריאות בסופר או חנויות טבע; עדיף לטחון זרעים שלמים טרי"},
+      {"amount": "שליש כוס / 80 מ\"ל", "item": "מים"},
+      {"amount": "1 כפית", "item": "שמן זית"},
+      {"amount": "3/4 כפית", "item": "מלח"},
+      {"amount": "חצי כפית", "item": "פלפל שחור, זעתר או אבקת שום"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C.",
+      "Mix everything to a paste, wait 2 minutes for the flax to bind, then gather into a ball.",
+      "Roll between two sheets of baking paper into a thin rectangle, about 3 mm - the thinner, the crispier.",
+      "Peel off the top paper and pre-cut into ~32 squares (4-5 cm) with a pizza cutter.",
+      "Bake 22-25 minutes until the edges brown; watch the last minutes, flax burns fast.",
+      "Cool completely on the tray - they crisp as they cool - then snap apart. Serving = 4 crackers."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות.",
+      "מערבבים הכול למשחה, ממתינים 2 דקות עד שהפשתן נקשר, ואז מגבשים לכדור.",
+      "מרדדים בין שני ניירות אפייה למלבן דק, כ-3 מ\"מ – ככל שדק יותר, פריך יותר.",
+      "מסירים את הנייר העליון וחורצים מראש בגלגלת פיצה לכ-32 ריבועים (4-5 ס\"מ).",
+      "אופים 22-25 דקות עד שהשוליים משחימים; משגיחים בדקות האחרונות – פשתן נשרף מהר.",
+      "מצננים לגמרי על התבנית – הם נעשים פריכים תוך כדי הצינון – ואז שוברים לריבועים. מנה = 4 קרקרים."
+    ],
+    "nutrition": {"calories": 86, "fatG": 6.9, "satFatG": 0.6, "proteinG": 2.8, "carbsG": 4.5, "fiberG": 4.2, "netCarbsG": 0.3, "sugarG": 0.2, "sodiumMg": 290},
+    "lowCarbVariant": "Knead in 2 tbsp grated parmesan for cheese crackers (makes them dairy).",
+    "lowCarbVariantHe": "לושים פנימה 2 כפות פרמזן מגורר לקרקרים גבינתיים (הופך אותם לחלביים).",
+    "tips": "Practically zero net carbs - the most keto-friendly cracker there is. Store airtight up to 2 weeks.",
+    "tipsHe": "כמעט אפס פחמימות נטו – הקרקר הכי ידידותי לקיטו שיש. נשמרים בכלי אטום עד שבועיים.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-flaxseed-crackers/"},
+      {"creator": "KetoConnect", "url": "https://www.ketoconnect.net/flax-seed-crackers-recipe/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's 30-minute ground-flax method with KetoConnect's whole-seed version that needs a 12-18 hour soak and a slow 275°F bake. Ground flax won decisively: same crunch, no overnight wait, and it rolls into an even sheet that snaps into clean squares.",
+    "comparedVersionsHe": "השווינו את שיטת הפשתן הטחון של Sugar Free Londoner (30 דקות) עם גרסת הזרעים השלמים של KetoConnect שדורשת השריה של 12-18 שעות ואפייה איטית ב-135 מעלות. הפשתן הטחון ניצח בגדול: אותה פריכות, בלי המתנה של לילה, והוא מתרדד ליריעה אחידה שנשברת לריבועים נקיים."
+  },
+  {
+    "id": "cheddar-cheese-biscuits",
+    "name": "Cheddar Cheese Biscuits",
+    "nameHe": "ביסקוויטים (סקונס) עם גבינת צ'דר",
+    "category": "baking-savory",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 12,
+    "prepTimeMin": 10,
+    "cookTimeMin": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "2 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "2 tsp", "item": "garlic powder (divided: 1.5 tsp dough, 0.5 tsp topping)"},
+      {"amount": "0.5 tsp", "item": "salt"},
+      {"amount": "1", "item": "large egg, whisked"},
+      {"amount": "0.33 cup / 80 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
+      {"amount": "0.33 cup + 3 tbsp / 115 g", "item": "butter, melted (divided: 75 g dough, 40 g topping)"},
+      {"amount": "1.5 cups / 170 g", "item": "shredded cheddar", "israelNote": "cheddar (Tara/imported); Emek works in a pinch"},
+      {"amount": "1 tbsp", "item": "chopped parsley (for the topping)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "2 כפיות", "item": "אבקת אפייה", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "2 כפיות", "item": "אבקת שום (מחולק: 1.5 כפית לבצק, חצי כפית לציפוי)"},
+      {"amount": "חצי כפית", "item": "מלח"},
+      {"amount": "1", "item": "ביצה גדולה, טרופה"},
+      {"amount": "שליש כוס / 80 מ\"ל", "item": "שמנת מתוקה 38%"},
+      {"amount": "שליש כוס + 3 כפות / 115 גרם", "item": "חמאה מומסת (מחולק: 75 גרם לבצק, 40 גרם לציפוי)"},
+      {"amount": "1.5 כוסות / 170 גרם", "item": "צ'דר מגורר", "israelNote": "צ'דר של טרה או מיובא; עמק עובד בלית ברירה"},
+      {"amount": "1 כף", "item": "פטרוזיליה קצוצה (לציפוי)"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C and line a baking sheet with baking paper.",
+      "Whisk the almond flour, baking powder, 1.5 tsp garlic powder and salt.",
+      "Stir in the egg, cream and 75 g melted butter until evenly combined, then fold in the cheddar.",
+      "Scoop 12 mounds onto the sheet with an ice-cream scoop, spacing them 5 cm apart; round the tops lightly.",
+      "Bake 12-16 minutes until golden and just firm.",
+      "Mix the remaining 40 g melted butter with 0.5 tsp garlic powder and the parsley; brush over the hot biscuits.",
+      "Cool 10 minutes on the tray before moving - they set as they cool."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מערבבים את קמח השקדים, אבקת האפייה, 1.5 כפית אבקת שום והמלח.",
+      "מוסיפים את הביצה, השמנת ו-75 גרם חמאה מומסת ומערבבים לתערובת אחידה, ואז מקפלים פנימה את הצ'דר.",
+      "יוצרים 12 תלוליות על התבנית בעזרת כף גלידה, במרווחים של 5 ס\"מ; מעגלים קלות את החלק העליון.",
+      "אופים 12-16 דקות עד שהביסקוויטים זהובים ורק מתייצבים.",
+      "מערבבים את 40 גרם החמאה המומסת הנותרת עם חצי כפית אבקת שום והפטרוזיליה; מברישים על הביסקוויטים החמים.",
+      "מצננים 10 דקות על התבנית לפני שמזיזים – הם מתייצבים תוך כדי הצינון."
+    ],
+    "nutrition": {"calories": 258, "fatG": 24.4, "satFatG": 8.7, "proteinG": 7.5, "carbsG": 4.2, "fiberG": 1.8, "netCarbsG": 2.4, "sugarG": 0.6, "sodiumMg": 275},
+    "tips": "The garlic-butter brush at the end is what gives the Red Lobster character - do not skip it.",
+    "tipsHe": "ההברשה בחמאת השום בסוף היא שנותנת את האופי של רד לובסטר – לא מדלגים עליה.",
+    "sources": [
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/keto-cheddar-bay-biscuits-recipe/"},
+      {"creator": "Maebells (Annie Holmes)", "url": "https://www.maebells.com/keto-cheddar-garlic-biscuits-low-carb-red-lobster-biscuit-copycat/"}
+    ],
+    "comparedVersions": "Compared Wholesome Yum's drop-biscuit method (butter + cream + 1 egg, 12 biscuits) with Maebells' cream-cheese-based dough (2 eggs, chill step). Wholesome Yum's ratio won - no chilling needed, a taller fluffier biscuit, and one bowl - while Maebells confirmed the 350°F bake and garlic-butter finish.",
+    "comparedVersionsHe": "השווינו את שיטת ה-drop biscuits של Wholesome Yum (חמאה + שמנת + ביצה אחת, 12 ביסקוויטים) עם הבצק על בסיס גבינת שמנת של Maebells (2 ביצים, שלב צינון). היחס של Wholesome Yum ניצח – בלי צורך בצינון, ביסקוויט גבוה ואוורירי יותר, והכול בקערה אחת – בעוד Maebells אישרה את האפייה ב-180 מעלות ואת סיומת חמאת השום."
+  },
+  {
+    "id": "psyllium-husk-sandwich-bread",
+    "name": "Psyllium-Husk Sandwich Bread",
+    "nameHe": "לחם כריכים מפסיליום",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 16,
+    "prepTimeMin": 10,
+    "cookTimeMin": 45,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "2.5 cups / 250 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "0.5 cup / 56 g", "item": "coconut flour", "israelNote": "kemach kokos"},
+      {"amount": "0.5 cup / 44 g", "item": "psyllium husk powder", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm); halve amount if substituting whole husks is reversed - powder is double-strength"},
+      {"amount": "3 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "0.5 tsp", "item": "salt"},
+      {"amount": "6", "item": "egg whites (about 200 g)"},
+      {"amount": "4 tbsp / 60 ml", "item": "apple cider vinegar", "israelNote": "chometz tapuchim"},
+      {"amount": "1 cup / 240 ml", "item": "warm water"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2.5 כוסות / 250 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "חצי כוס / 56 גרם", "item": "קמח קוקוס"},
+      {"amount": "חצי כוס / 44 גרם", "item": "אבקת פסיליום", "israelNote": "סופר-פארם / חנויות טבע / iHerb; אם מחליפים בפסיליום שלם – מכפילים את הכמות (האבקה חזקה פי שניים)"},
+      {"amount": "3 כפיות", "item": "אבקת אפייה", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "חצי כפית", "item": "מלח"},
+      {"amount": "6", "item": "חלבוני ביצה (כ-200 גרם)"},
+      {"amount": "4 כפות / 60 מ\"ל", "item": "חומץ תפוחים"},
+      {"amount": "1 כוס / 240 מ\"ל", "item": "מים חמימים"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C and line a loaf pan with baking paper.",
+      "Whip the egg whites with the vinegar briefly until foamy.",
+      "In a separate bowl whisk the almond flour, coconut flour, psyllium powder, baking powder and salt.",
+      "Fold the dry mix into the whites with a spatula, add the warm water, and stir gently just until a thick, elastic dough forms - do not overmix.",
+      "Transfer to the pan, shape a rounded top with wet hands, and bake 40-45 minutes until deep golden and firm.",
+      "Cool completely before slicing into 16 slices; psyllium bread firms up as it cools."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית אינגליש קייק בנייר אפייה.",
+      "מקציפים קצרות את החלבונים עם החומץ עד שהם קצפיים.",
+      "בקערה נפרדת מערבבים את קמח השקדים, קמח הקוקוס, אבקת הפסיליום, אבקת האפייה והמלח.",
+      "מקפלים את התערובת היבשה לחלבונים בעזרת מרית, מוסיפים את המים החמימים ומערבבים בעדינות רק עד לקבלת בצק סמיך וגמיש – לא מערבבים יותר מדי.",
+      "מעבירים לתבנית, מעצבים חלק עליון מעוגל בידיים רטובות ואופים 40-45 דקות עד שהלחם זהוב עמוק ויציב.",
+      "מצננים לגמרי לפני שפורסים ל-16 פרוסות; לחם פסיליום מתייצב תוך כדי הצינון."
+    ],
+    "nutrition": {"calories": 122, "fatG": 8.9, "satFatG": 1.1, "proteinG": 5.4, "carbsG": 7.6, "fiberG": 5.0, "netCarbsG": 2.6, "sugarG": 0.9, "sodiumMg": 148},
+    "tips": "Fully pareve - the go-to sandwich loaf for meat meals. If the crumb ever looks purple-grey, it is a harmless quirk of some psyllium brands; blonde psyllium avoids it.",
+    "tipsHe": "פרווה לחלוטין – לחם הכריכים המושלם לארוחות בשריות. אם הפנים נראה סגלגל-אפור, זו תופעה לא מזיקה של חלק ממותגי הפסיליום; פסיליום בהיר (blonde) מונע אותה.",
+    "sources": [
+      {"creator": "Healthy Life Trainer", "url": "https://www.healthylifetrainer.com/psyllium-husk-keto-bread-recipe/"},
+      {"creator": "My PCOS Kitchen (Mira)", "url": "https://www.mypcoskitchen.com/keto-psyllium-buns-2/"}
+    ],
+    "comparedVersions": "Compared Healthy Life Trainer's egg-white loaf (almond + coconut + psyllium, 16 slices, dairy-free) with My PCOS Kitchen's coconut-oil psyllium buns. The loaf format won for sandwich duty and avoids added fat entirely - egg whites plus vinegar give lift and a chewy, wheat-like crumb; the buns recipe validated the psyllium-to-flour ratio and the boiling/warm water technique.",
+    "comparedVersionsHe": "השווינו את לחם החלבונים של Healthy Life Trainer (שקדים + קוקוס + פסיליום, 16 פרוסות, ללא חלב) עם לחמניות הפסיליום עם שמן קוקוס של My PCOS Kitchen. פורמט הכיכר ניצח לצורכי כריכים ונמנע לגמרי משומן נוסף – חלבוני ביצה עם חומץ נותנים תפיחה ומרקם לעיס דמוי חיטה; מתכון הלחמניות אימת את יחס הפסיליום לקמח ואת טכניקת המים הרותחים/חמימים."
+  },
+  {
+    "id": "almond-flour-pita-flatbread",
+    "name": "Almond Flour Pita-Style Flatbread",
+    "nameHe": "לחם שטוח בסגנון פיתה מקמח שקדים",
+    "category": "baking-savory",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 10,
+    "cookTimeMin": 22,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "0.5 cup / 65 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
+      {"amount": "0.25 cup / 35 g", "item": "coconut flour, sifted", "israelNote": "kemach kokos"},
+      {"amount": "2 tbsp / 20 g", "item": "psyllium husk powder", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
+      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "0.25 tsp", "item": "salt"},
+      {"amount": "1 tbsp", "item": "olive oil"},
+      {"amount": "1 cup / 240 ml", "item": "warm water"},
+      {"amount": "1 tsp", "item": "sesame seeds for sprinkling (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "חצי כוס / 65 גרם", "item": "קמח שקדים מולבן"},
+      {"amount": "רבע כוס / 35 גרם", "item": "קמח קוקוס, מנופה"},
+      {"amount": "2 כפות / 20 גרם", "item": "אבקת פסיליום", "israelNote": "סופר-פארם / חנויות טבע / iHerb"},
+      {"amount": "1.5 כפית", "item": "אבקת אפייה", "israelNote": "אם רלוונטי – לוודא כשרות לפסח"},
+      {"amount": "רבע כפית", "item": "מלח"},
+      {"amount": "1 כף", "item": "שמן זית"},
+      {"amount": "1 כוס / 240 מ\"ל", "item": "מים חמימים"},
+      {"amount": "1 כפית", "item": "שומשום לפיזור (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 350°F / 180°C and line a baking sheet with baking paper.",
+      "Whisk the almond flour, coconut flour, psyllium, baking powder and salt.",
+      "Add the olive oil and warm water and knead briefly until a soft dough forms; rest 5 minutes to hydrate.",
+      "Divide into 4 balls and roll each into a ~15 cm round about 0.5 cm thick; sprinkle with sesame.",
+      "Bake 20-25 minutes until golden and puffed in places.",
+      "Serve warm - split for pockets, fold as a wrap, or cut into wedges for dips. Egg-free, so leftovers stay flexible."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-180 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+      "מערבבים את קמח השקדים, קמח הקוקוס, הפסיליום, אבקת האפייה והמלח.",
+      "מוסיפים את שמן הזית והמים החמימים ולשים קצרות עד לקבלת בצק רך; מניחים למנוחה 5 דקות לספיגת הנוזלים.",
+      "מחלקים ל-4 כדורים ומרדדים כל אחד לעיגול של כ-15 ס\"מ בעובי כחצי ס\"מ; מפזרים שומשום.",
+      "אופים 20-25 דקות עד שהפיתות זהובות ותפוחות פה ושם.",
+      "מגישים חם – פותחים לכיס, מקפלים כראפ או חותכים למשולשים למטבלים. ללא ביצים, כך שהשאריות נשארות גמישות."
+    ],
+    "nutrition": {"calories": 170, "fatG": 13.1, "satFatG": 2.2, "proteinG": 5.4, "carbsG": 12.9, "fiberG": 8.9, "netCarbsG": 4.0, "sugarG": 1.1, "sodiumMg": 160},
+    "ketoVariant": "Pan-fry 2 minutes per side in a dry skillet instead of baking for softer, shawarma-style wraps.",
+    "ketoVariantHe": "במקום לאפות, מטגנים 2 דקות מכל צד במחבת יבשה לראפים רכים יותר בסגנון שווארמה.",
+    "tips": "No eggs and no dairy - ideal alongside grilled meat with tahini and salad.",
+    "tipsHe": "בלי ביצים ובלי חלב – אידיאלי לצד בשר על האש עם טחינה וסלט.",
+    "sources": [
+      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/keto-flatbread/"},
+      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/keto-flatbread/"}
+    ],
+    "comparedVersions": "Compared Sugar Free Londoner's egg-free 6-ingredient pita (almond + coconut + psyllium + water) with Wholesome Yum's version that adds whey protein isolate and egg whites. The Londoner recipe won: fewer ingredients, no whey means it stays pareve for meat meals, and the psyllium-water dough still puffs and folds like real pita.",
+    "comparedVersionsHe": "השווינו את הפיתה ללא ביצים מ-6 מרכיבים של Sugar Free Londoner (שקדים + קוקוס + פסיליום + מים) עם הגרסה של Wholesome Yum שמוסיפה אבקת חלבון מי-גבינה וחלבוני ביצה. המתכון של Sugar Free Londoner ניצח: פחות מרכיבים, בלי מי-גבינה – כך שהוא נשאר פרווה לארוחות בשריות, ובצק הפסיליום-מים עדיין תופח ומתקפל כמו פיתה אמיתית."
+  }
+]

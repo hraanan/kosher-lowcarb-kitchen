@@ -1,0 +1,576 @@
+[
+  {
+    "id": "parmesan-crisps",
+    "name": "Parmesan Crisps",
+    "nameHe": "צ'יפס פרמזן פריך",
+    "category": "snacks",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 5,
+    "cookTimeMin": 7,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 cup / 100 g", "item": "freshly grated parmesan cheese", "israelNote": "parmesan or kashkaval — grate from a block, not pre-shredded"},
+      {"amount": "1/4 tsp", "item": "sweet or smoked paprika (optional)"},
+      {"amount": "1/4 tsp", "item": "dried oregano or za'atar (optional)", "israelNote": "za'atar blend is widely available in Israel"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 כוס / 100 גרם", "item": "פרמזן מגורר טרי", "israelNote": "פרמזן או קשקבל — מגררים מגוש, לא קונים מגורר מראש"},
+      {"amount": "1/4 כפית", "item": "פפריקה מתוקה או מעושנת (לא חובה)"},
+      {"amount": "1/4 כפית", "item": "אורגנו מיובש או זעתר (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 200°C / 400°F and line a baking tray with baking paper.",
+      "Grate the parmesan on the medium holes of a grater — freshly grated cheese melts into lacy, even crisps.",
+      "Drop level tablespoons of cheese onto the tray, about 3 cm apart, and flatten each mound gently into a thin round.",
+      "Sprinkle with paprika or oregano if using.",
+      "Bake 5–7 minutes, until the edges are golden and the centers are bubbling.",
+      "Cool completely on the tray — the crisps firm up and turn crunchy only as they cool.",
+      "Store in an airtight container at room temperature for up to 2 weeks."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-200 מעלות ומרפדים תבנית בנייר אפייה.",
+      "מגררים את הפרמזן על החורים הבינוניים של פומפייה — גבינה מגוררת טרי נמסה לצ'יפסים אחידים ותחרתיים.",
+      "מניחים על התבנית כפות שטוחות של גבינה במרווחים של כ-3 ס\"מ, ומשטחים כל תלולית בעדינות לעיגול דק.",
+      "מפזרים פפריקה או אורגנו, למי שרוצה.",
+      "אופים 5–7 דקות, עד שהשוליים זהובים והמרכז מבעבע.",
+      "מצננים לגמרי על התבנית — הצ'יפסים מתייצבים ונהיים פריכים רק כשהם מתקררים.",
+      "שומרים בכלי אטום בטמפרטורת החדר עד שבועיים."
+    ],
+    "nutrition": {"calories": 105, "fatG": 7, "satFatG": 4.5, "proteinG": 9.5, "carbsG": 1, "fiberG": 0, "netCarbsG": 1, "sugarG": 0, "sodiumMg": 400},
+    "tips": "Do not use pre-grated bagged cheese — anti-caking starch keeps it from melting into a crisp. Kashkaval works but gives a chewier, less brittle crisp than parmesan.",
+    "tipsHe": "לא משתמשים בגבינה מגוררת מראש בשקית — עמילן נגד התגיישות מונע ממנה להימס לצ'יפס. קשקבל עובד, אבל נותן צ'יפס לעיס ופחות שביר מפרמזן.",
+    "sources": [
+      {"creator": "Alphafoodie", "url": "https://www.alphafoodie.com/how-to-make-parmesan-crisps/"},
+      {"creator": "Savory Tooth", "url": "https://www.savorytooth.com/parmesan-crisps/"},
+      {"creator": "Low Carb Yum", "url": "https://lowcarbyum.com/easy-parmesan-crisps/"}
+    ],
+    "comparedVersions": "Compared oven temperatures (175–200°C) and portioning across three versions; all agree on one ingredient and cooling on the tray for crispness. Chose the hotter, faster 200°C bake with a 2-tablespoon portion, which browns evenly without extra fat, plus optional seasoning from the Low Carb Yum variations.",
+    "comparedVersionsHe": "השווינו טמפרטורות אפייה (175–200 מעלות) וגדלי מנות בשלוש גרסאות; כולן מסכימות על מרכיב אחד בלבד ועל צינון על התבנית לפריכות. בחרנו באפייה החמה והמהירה של 200 מעלות עם מנות של 2 כפות, שמשחימה אחיד בלי שומן נוסף, בתוספת התיבול האופציונלי מהווריאציות של Low Carb Yum."
+  },
+  {
+    "id": "classic-deviled-eggs",
+    "name": "Classic Deviled Eggs",
+    "nameHe": "ביצים ממולאות קלאסיות",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 15,
+    "cookTimeMin": 13,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "6", "item": "large eggs"},
+      {"amount": "1/4 cup / 55 g", "item": "mayonnaise", "israelNote": "mayonnaise (e.g., Mayonez Telma — check kosher label)"},
+      {"amount": "1 tsp", "item": "Dijon mustard", "israelNote": "any smooth mustard (chardal) works"},
+      {"amount": "1 tsp", "item": "white or apple cider vinegar"},
+      {"amount": "1/8 tsp", "item": "garlic powder"},
+      {"amount": "to taste", "item": "salt and black pepper"},
+      {"amount": "for garnish", "item": "sweet or smoked paprika"}
+    ],
+    "ingredientsHe": [
+      {"amount": "6", "item": "ביצים גדולות"},
+      {"amount": "1/4 כוס / 55 גרם", "item": "מיונז", "israelNote": "למשל מיונז תלמה — בודקים הכשר"},
+      {"amount": "1 כפית", "item": "חרדל דיז'ון", "israelNote": "כל חרדל חלק עובד"},
+      {"amount": "1 כפית", "item": "חומץ לבן או חומץ תפוחים"},
+      {"amount": "1/8 כפית", "item": "אבקת שום"},
+      {"amount": "לפי הטעם", "item": "מלח ופלפל שחור"},
+      {"amount": "לקישוט", "item": "פפריקה מתוקה או מעושנת"}
+    ],
+    "instructions": [
+      "Place the eggs in a pot, cover with cold water by 3 cm, and bring to a rolling boil. Turn off the heat, cover, and let stand 13 minutes.",
+      "Move the eggs to a bowl of ice water for 5 minutes, then peel.",
+      "Halve the eggs lengthwise and pop the yolks into a bowl.",
+      "Mash the yolks with the mayonnaise, mustard, vinegar, garlic powder, salt, and pepper until completely smooth.",
+      "Spoon or pipe the filling back into the egg-white halves.",
+      "Dust with paprika and chill until serving. Keeps 4 days refrigerated."
+    ],
+    "instructionsHe": [
+      "מניחים את הביצים בסיר, מכסים במים קרים 3 ס\"מ מעליהן ומביאים לרתיחה מלאה. מכבים את האש, מכסים ומשאירים 13 דקות.",
+      "מעבירים את הביצים לקערת מי קרח ל-5 דקות, ואז מקלפים.",
+      "חוצים את הביצים לאורכן ומוציאים את החלמונים לקערה.",
+      "מועכים את החלמונים עם המיונז, החרדל, החומץ, אבקת השום, מלח ופלפל עד לקבלת תערובת חלקה לגמרי.",
+      "ממלאים את חצאי החלבונים במילוי בעזרת כפית או שקית זילוף.",
+      "מפזרים פפריקה ומקררים עד ההגשה. נשמר 4 ימים במקרר."
+    ],
+    "nutrition": {"calories": 135, "fatG": 11.5, "satFatG": 2.6, "proteinG": 6.5, "carbsG": 0.6, "fiberG": 0, "netCarbsG": 0.6, "sugarG": 0.3, "sodiumMg": 160},
+    "lowCarbVariant": "Fold a tablespoon of finely chopped pickles or chives into the filling for crunch.",
+    "lowCarbVariantHe": "מקפלים לתוך המילוי כף מלפפון חמוץ קצוץ דק או עירית לקראנץ'.",
+    "tips": "Older eggs (a week in the fridge) peel much more easily than very fresh ones. For an ultra-smooth filling, press the yolks through a sieve or blitz with a stick blender.",
+    "tipsHe": "ביצים פחות טריות (שבוע במקרר) מתקלפות הרבה יותר בקלות מטריות מאוד. למילוי חלק במיוחד, מעבירים את החלמונים דרך מסננת או טוחנים בבלנדר מוט.",
+    "sources": [
+      {"creator": "Drive Me Hungry", "url": "https://drivemehungry.com/easy-classic-keto-deviled-eggs/"},
+      {"creator": "KetoConnect", "url": "https://www.ketoconnect.net/simple-deviled-eggs/"},
+      {"creator": "Easy Low Carb", "url": "https://easylowcarb.com/keto-deviled-eggs/"}
+    ],
+    "comparedVersions": "Compared filling ratios and acid choices across three keto versions; Drive Me Hungry's 6-egg to 1/4-cup mayo ratio with both vinegar and Dijon gave the best balance of creaminess and tang, and its off-heat boiling method is the most reliable for clean peeling. Skipped bacon-loaded versions to keep the recipe simple and broadly usable.",
+    "comparedVersionsHe": "השווינו יחסי מילוי ובחירות חומציות בשלוש גרסאות קיטו; היחס של Drive Me Hungry — 6 ביצים ל-1/4 כוס מיונז עם גם חומץ וגם דיז'ון — נתן את האיזון הטוב ביותר בין קרמיות לחמצמצות, ושיטת הבישול שלה מחוץ לאש היא האמינה ביותר לקילוף נקי. דילגנו על גרסאות עמוסות בייקון כדי לשמור על מתכון פשוט ושמיש לכולם."
+  },
+  {
+    "id": "spiced-roasted-almonds",
+    "name": "Smoky Spiced Roasted Almonds",
+    "nameHe": "שקדים קלויים בתיבול מעושן",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 5,
+    "cookTimeMin": 12,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cups / 280 g", "item": "raw whole almonds", "israelNote": "shkedim tiv'iyim — sold in every supermarket nut aisle"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
+      {"amount": "1 tsp", "item": "smoked paprika", "israelNote": "paprika me'usheneth; sweet paprika works too"},
+      {"amount": "1 tsp", "item": "ground cumin"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "1/4 tsp", "item": "cayenne pepper (optional, for heat)"},
+      {"amount": "3/4 tsp", "item": "fine salt"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 280 גרם", "item": "שקדים טבעיים שלמים", "israelNote": "נמכרים בכל מדף פיצוחים בסופר"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
+      {"amount": "1 כפית", "item": "פפריקה מעושנת", "israelNote": "גם פפריקה מתוקה עובדת"},
+      {"amount": "1 כפית", "item": "כמון טחון"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "1/4 כפית", "item": "פלפל קאיין (לא חובה, לחריפות)"},
+      {"amount": "3/4 כפית", "item": "מלח דק"}
+    ],
+    "instructions": [
+      "Heat the oven to 160°C / 325°F and line a baking tray with baking paper.",
+      "Stir the paprika, cumin, garlic powder, cayenne, and salt together in a large bowl.",
+      "Add the almonds and olive oil and toss until every almond is evenly coated in spices.",
+      "Spread in a single layer on the tray.",
+      "Roast 10–12 minutes, stirring once halfway, until fragrant and lightly darkened — do not let them brown deeply, they keep cooking as they cool.",
+      "Cool completely on the tray (they crisp as they cool), then store airtight for up to 2 weeks."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-160 מעלות ומרפדים תבנית בנייר אפייה.",
+      "מערבבים בקערה גדולה את הפפריקה, הכמון, אבקת השום, הקאיין והמלח.",
+      "מוסיפים את השקדים ושמן הזית ומערבבים עד שכל שקד מצופה בתבלינים באופן אחיד.",
+      "מפזרים בשכבה אחת על התבנית.",
+      "קולים 10–12 דקות, מערבבים פעם אחת באמצע, עד שעולה ריח והשקדים מתכהים קלות — לא נותנים להם להשחים חזק, הם ממשיכים להיקלות גם כשהם מתקררים.",
+      "מצננים לגמרי על התבנית (הם נהיים פריכים תוך כדי הצינון), ושומרים בכלי אטום עד שבועיים."
+    ],
+    "nutrition": {"calories": 215, "fatG": 19, "satFatG": 1.5, "proteinG": 7.4, "carbsG": 7.6, "fiberG": 4.4, "netCarbsG": 3.2, "sugarG": 1.5, "sodiumMg": 225},
+    "ketoVariant": "Add 1/2 tsp of powdered sweetener (erythritol) to the spice mix for a sweet-smoky coating without carbs.",
+    "ketoVariantHe": "מוסיפים לתערובת התבלינים 1/2 כפית ממתיק אבקתי (אריתריטול) לציפוי מתוק-מעושן בלי פחמימות.",
+    "tips": "Watch closely in the last 2 minutes — almonds go from toasted to burnt fast. A serving is a small handful (about 35 g); nuts are keto-friendly but calorie-dense.",
+    "tipsHe": "משגיחים היטב בשתי הדקות האחרונות — שקדים עוברים מקלויים לשרופים מהר. מנה היא חופן קטן (כ-35 גרם); אגוזים ידידותיים לקיטו אבל עתירי קלוריות.",
+    "sources": [
+      {"creator": "Savory Tooth", "url": "https://www.savorytooth.com/spiced-almonds/"},
+      {"creator": "An Oregon Cottage", "url": "https://anoregoncottage.com/spicy-roasted-almonds-recipe/"},
+      {"creator": "The Gracious Pantry", "url": "https://www.thegraciouspantry.com/clean-eating-spicy-roasted-almonds/"}
+    ],
+    "comparedVersions": "Compared a 5-minute stovetop version (Savory Tooth) against oven-roasted versions; the oven method won because it toasts a double batch evenly with no stirring at the stove and starts from cheaper raw almonds. Kept Savory Tooth's smoked paprika–cumin–garlic profile, which had the best flavor balance, and dropped sriracha to keep the ingredient list to pantry spices.",
+    "comparedVersionsHe": "השווינו גרסת מחבת של 5 דקות (Savory Tooth) מול גרסאות קלייה בתנור; שיטת התנור ניצחה כי היא קולה מנה כפולה באופן אחיד בלי ערבוב ליד הכיריים, ומתחילה משקדים טבעיים זולים יותר. שמרנו על פרופיל הפפריקה המעושנת-כמון-שום של Savory Tooth, שנתן את איזון הטעמים הטוב ביותר, וויתרנו על הסריראצ'ה כדי להישאר עם תבלינים שיש בכל מטבח."
+  },
+  {
+    "id": "crispy-kale-chips",
+    "name": "Crispy Kale Chips",
+    "nameHe": "צ'יפס קייל פריך",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 10,
+    "cookTimeMin": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1 large bunch / 200 g leaves", "item": "kale", "israelNote": "kale (keil) — sold fresh at supermarkets and shuk stalls; check leaves carefully for insects per kosher practice"},
+      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
+      {"amount": "1/4 tsp", "item": "fine salt"},
+      {"amount": "1/4 tsp", "item": "garlic powder (optional)"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1 צרור גדול / 200 גרם עלים", "item": "קייל", "israelNote": "נמכר טרי בסופרים ובשוק; בודקים היטב מחרקים לפי כללי הכשרות"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
+      {"amount": "1/4 כפית", "item": "מלח דק"},
+      {"amount": "1/4 כפית", "item": "אבקת שום (לא חובה)"}
+    ],
+    "instructions": [
+      "Heat the oven to 150°C / 300°F and line two baking trays with baking paper.",
+      "Strip the leaves off the tough stems and tear into chip-sized pieces.",
+      "Wash well and dry completely — a salad spinner plus a towel; any moisture makes them steam instead of crisp.",
+      "Drizzle with the olive oil and massage it into every leaf with your hands, using no more oil than listed.",
+      "Spread in a single layer with space between leaves and sprinkle lightly with salt and garlic powder.",
+      "Bake 18–22 minutes until crisp but still green, rotating trays halfway and pulling out any leaves that finish early.",
+      "Cool a few minutes on the tray before eating; best the same day."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-150 מעלות ומרפדים שתי תבניות בנייר אפייה.",
+      "מפרידים את העלים מהגבעולים הקשים וקורעים לחתיכות בגודל צ'יפס.",
+      "שוטפים היטב ומייבשים לגמרי — מסובבת סלט ואחריה מגבת; כל לחות תגרום להם להתאדות במקום להשתפרך.",
+      "מזליפים את שמן הזית ומעסים אותו לתוך כל עלה בידיים, בלי יותר שמן מהכמות הרשומה.",
+      "מפזרים בשכבה אחת עם רווח בין העלים ומפזרים מעט מלח ואבקת שום.",
+      "אופים 18–22 דקות עד שהעלים פריכים אך עדיין ירוקים, מסובבים את התבניות באמצע ומוציאים עלים שמוכנים מוקדם.",
+      "מצננים כמה דקות על התבנית לפני האכילה; הכי טעים באותו יום."
+    ],
+    "nutrition": {"calories": 55, "fatG": 3.8, "satFatG": 0.5, "proteinG": 1.5, "carbsG": 4.5, "fiberG": 2, "netCarbsG": 2.5, "sugarG": 1, "sodiumMg": 170},
+    "lowCarbVariant": "Dust with 2 tbsp grated parmesan before baking (makes the recipe dairy).",
+    "lowCarbVariantHe": "מפזרים 2 כפות פרמזן מגורר לפני האפייה (הופך את המתכון לחלבי).",
+    "tips": "Salt lightly before baking — the leaves shrink a lot and over-salting is the most common mistake. Low and slow beats hot and fast: high heat scorches the thin edges before the centers dry.",
+    "tipsHe": "ממליחים מעט לפני האפייה — העלים מצטמקים מאוד והמלחת-יתר היא הטעות הנפוצה ביותר. נמוך ואיטי מנצח חם ומהיר: חום גבוה חורך את הקצוות הדקים לפני שהמרכז מתייבש.",
+    "sources": [
+      {"creator": "Minimalist Baker", "url": "https://minimalistbaker.com/how-to-make-kale-chips/"},
+      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/kale-chips/"},
+      {"creator": "The Busy Baker", "url": "https://thebusybaker.ca/sea-salt-and-garlic-kale-chips/"}
+    ],
+    "comparedVersions": "Compared bake temperatures from 150°C to 165°C and oil amounts across three versions; the lower-temperature bake with minimal oil won because every source agrees excess oil and heat are what make kale chips soggy or bitter. Merged the universal drying and single-layer tips into the steps since they are the actual keys to crispness.",
+    "comparedVersionsHe": "השווינו טמפרטורות אפייה מ-150 עד 165 מעלות וכמויות שמן בשלוש גרסאות; האפייה בטמפרטורה הנמוכה עם מינימום שמן ניצחה, כי כל המקורות מסכימים שעודף שמן וחום הם מה שהופך צ'יפס קייל לרך או מריר. שילבנו את טיפי הייבוש והשכבה האחת, שחוזרים בכל הגרסאות, לתוך השלבים עצמם — כי הם המפתח האמיתי לפריכות."
+  },
+  {
+    "id": "baked-zucchini-chips",
+    "name": "Crispy Parmesan Zucchini Chips",
+    "nameHe": "צ'יפס קישואים פריך עם פרמזן",
+    "category": "snacks",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 2,
+    "prepTimeMin": 25,
+    "cookTimeMin": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {"amount": "2 medium / 350 g", "item": "zucchini, firm", "israelNote": "kishu'im — the light-green Israeli variety works well"},
+      {"amount": "1 tsp / 5 ml", "item": "olive oil, or olive oil spray"},
+      {"amount": "1/2 tsp", "item": "fine salt"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "1/4 tsp", "item": "black pepper"},
+      {"amount": "1/4 cup / 25 g", "item": "finely grated parmesan", "israelNote": "parmesan or kashkaval"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 בינוניים / 350 גרם", "item": "קישואים מוצקים", "israelNote": "הזן הישראלי הבהיר עובד מצוין"},
+      {"amount": "1 כפית / 5 מ\"ל", "item": "שמן זית, או ספריי שמן זית"},
+      {"amount": "1/2 כפית", "item": "מלח דק"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "1/4 כפית", "item": "פלפל שחור"},
+      {"amount": "1/4 כוס / 25 גרם", "item": "פרמזן מגורר דק", "israelNote": "אפשר גם קשקבל"}
+    ],
+    "instructions": [
+      "Slice the zucchini into thin, even rounds about 3 mm thick — a mandoline gives the most even chips.",
+      "Lay the slices on paper towels, sprinkle lightly with half the salt, and let sit 20 minutes; blot the released moisture very well.",
+      "Heat the oven to 220°C / 425°F and line two trays with baking paper.",
+      "Toss the dried slices with the oil, remaining salt, garlic powder, and pepper, and arrange in a single layer without overlapping.",
+      "Bake 15 minutes, then sprinkle the parmesan over the slices.",
+      "Bake another 12–18 minutes until deeply golden and crisp at the edges, removing thinner chips as they finish.",
+      "Cool 5 minutes on the tray to crisp up further and serve the same day."
+    ],
+    "instructionsHe": [
+      "פורסים את הקישואים לעיגולים דקים ואחידים בעובי כ-3 מ\"מ — מנדולינה נותנת את הצ'יפסים הכי אחידים.",
+      "מסדרים את הפרוסות על נייר סופג, מפזרים מעט מחצי כמות המלח ומניחים 20 דקות; מנגבים היטב את הנוזלים שיצאו.",
+      "מחממים תנור ל-220 מעלות ומרפדים שתי תבניות בנייר אפייה.",
+      "מערבבים את הפרוסות המיובשות עם השמן, שארית המלח, אבקת השום והפלפל, ומסדרים בשכבה אחת ללא חפיפה.",
+      "אופים 15 דקות, ואז מפזרים את הפרמזן על הפרוסות.",
+      "אופים עוד 12–18 דקות עד שהצ'יפסים זהובים עמוק ופריכים בקצוות, ומוציאים את הדקים יותר כשהם מוכנים.",
+      "מצננים 5 דקות על התבנית לפריכות נוספת ומגישים באותו יום."
+    ],
+    "nutrition": {"calories": 140, "fatG": 9.5, "satFatG": 3, "proteinG": 7, "carbsG": 6.5, "fiberG": 2, "netCarbsG": 4.5, "sugarG": 4, "sodiumMg": 500},
+    "ketoVariant": "Skip the parmesan and dust with smoked paprika for a pareve, dairy-free chip (nutrition drops by roughly 40 calories and 4 g protein per serving).",
+    "ketoVariantHe": "מוותרים על הפרמזן ומפזרים פפריקה מעושנת לצ'יפס פרווה ללא חלב (הערכים יורדים בכ-40 קלוריות ו-4 גרם חלבון למנה).",
+    "tips": "Zucchini is 95% water — the salting-and-blotting step is what separates crisp chips from limp ones. Do not stack chips when storing; they soften overnight.",
+    "tipsHe": "קישוא הוא 95% מים — שלב ההמלחה והניגוב הוא מה שמבדיל בין צ'יפס פריך לרך. לא מערימים צ'יפסים באחסון; הם מתרככים במהלך הלילה.",
+    "sources": [
+      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/zucchini-chips/"},
+      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-zucchini-chips/"},
+      {"creator": "Low Carb No Carb", "url": "https://www.lowcarb-nocarb.com/baked-zucchini-chips/"}
+    ],
+    "comparedVersions": "Compared a slow 110°C dehydrating bake against a hot 220°C bake; the hot method from Healthy Recipes Blog won for finishing in half an hour with better browning, and its mid-bake parmesan addition keeps the cheese golden rather than burnt. Adopted the pre-salting step that the breading-free versions all use to pull moisture.",
+    "comparedVersionsHe": "השווינו אפיית ייבוש איטית ב-110 מעלות מול אפייה חמה ב-220 מעלות; השיטה החמה של Healthy Recipes Blog ניצחה כי היא מסתיימת בחצי שעה עם השחמה טובה יותר, והוספת הפרמזן באמצע האפייה שומרת על הגבינה זהובה ולא שרופה. אימצנו את שלב ההמלחה המקדימה שכל הגרסאות ללא ציפוי משתמשות בו להוצאת הנוזלים."
+  },
+  {
+    "id": "guacamole-veggie-sticks",
+    "name": "Guacamole with Vegetable Sticks",
+    "nameHe": "גוואקמולי עם מקלות ירקות",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "3 ripe / 450 g", "item": "avocados", "israelNote": "Hass avocados, in season roughly October–May in Israel; Ettinger/Fuerte also work"},
+      {"amount": "1/2 small / 40 g", "item": "onion, finely diced", "israelNote": "white or purple onion"},
+      {"amount": "1 medium / 80 g", "item": "tomato, deseeded and diced"},
+      {"amount": "2 tbsp", "item": "chopped fresh cilantro", "israelNote": "kusbara"},
+      {"amount": "1", "item": "small hot green pepper, deseeded and minced (optional)", "israelNote": "pilpel harif yarok; jalapeño if available"},
+      {"amount": "1 clove", "item": "garlic, minced"},
+      {"amount": "1 / 2 tbsp juice", "item": "lime, juiced", "israelNote": "lime or fresh lemon"},
+      {"amount": "1/2 tsp", "item": "fine salt"},
+      {"amount": "2 cucumbers + 1 red bell pepper", "item": "cut into sticks, for dipping", "israelNote": "melafefonim and gamba"}
+    ],
+    "ingredientsHe": [
+      {"amount": "3 בשלים / 450 גרם", "item": "אבוקדו", "israelNote": "זן האס, בעונה בישראל בערך מאוקטובר עד מאי; אטינגר/פוארטה עובדים גם"},
+      {"amount": "1/2 קטן / 40 גרם", "item": "בצל, קצוץ דק", "israelNote": "בצל לבן או סגול"},
+      {"amount": "1 בינונית / 80 גרם", "item": "עגבנייה, מרוקנת מגרעינים וקצוצה"},
+      {"amount": "2 כפות", "item": "כוסברה טרייה קצוצה"},
+      {"amount": "1", "item": "פלפל חריף ירוק קטן, מנוקה מגרעינים וקצוץ דק (לא חובה)", "israelNote": "או חלפיניו אם משיגים"},
+      {"amount": "1 שן", "item": "שום, קצוצה"},
+      {"amount": "1 / 2 כפות מיץ", "item": "ליים, סחוט", "israelNote": "ליים או לימון טרי"},
+      {"amount": "1/2 כפית", "item": "מלח דק"},
+      {"amount": "2 מלפפונים + 1 פלפל אדום (גמבה)", "item": "חתוכים למקלות, לטבילה"}
+    ],
+    "instructions": [
+      "Halve the avocados, remove the pits, and scoop the flesh into a bowl.",
+      "Add the lime juice and salt and mash with a fork, leaving the texture slightly chunky.",
+      "Fold in the onion, tomato, cilantro, hot pepper, and garlic.",
+      "Taste and adjust the salt and lime.",
+      "Cut the cucumbers and bell pepper into sticks and serve alongside for dipping.",
+      "If making ahead, press plastic wrap directly onto the surface to slow browning; best within a few hours."
+    ],
+    "instructionsHe": [
+      "חוצים את האבוקדו, מוציאים את הגלעינים ומגרדים את הבשר לקערה.",
+      "מוסיפים את מיץ הליים והמלח ומועכים במזלג, משאירים מרקם מעט גס.",
+      "מקפלים פנימה את הבצל, העגבנייה, הכוסברה, הפלפל החריף והשום.",
+      "טועמים ומתקנים מלח וליים.",
+      "חותכים את המלפפונים והגמבה למקלות ומגישים לצד הגוואקמולי לטבילה.",
+      "אם מכינים מראש, מצמידים ניילון נצמד ישירות לפני השטח כדי להאט השחמה; הכי טוב תוך כמה שעות."
+    ],
+    "nutrition": {"calories": 200, "fatG": 15.9, "satFatG": 2.3, "proteinG": 3, "carbsG": 15.5, "fiberG": 8.6, "netCarbsG": 6.9, "sugarG": 3.5, "sodiumMg": 310},
+    "ketoVariant": "Dip with cucumber only and skip the tomato to shave about 2 g net carbs per serving.",
+    "ketoVariantHe": "טובלים רק מלפפון ומוותרים על העגבנייה כדי לחסוך כ-2 גרם פחמימות נטו למנה.",
+    "tips": "Use avocados that yield slightly to gentle pressure. Bottled lemon/lime juice flattens the flavor — fresh makes the dish.",
+    "tipsHe": "בוחרים אבוקדו שנכנע מעט ללחיצה עדינה. מיץ לימון/ליים מבקבוק משטח את הטעם — סחוט טרי עושה את המנה.",
+    "sources": [
+      {"creator": "Downshiftology", "url": "https://downshiftology.com/recipes/best-ever-guacamole/"},
+      {"creator": "Love and Lemons", "url": "https://www.loveandlemons.com/guacamole-recipe/"},
+      {"creator": "Isabel Eats", "url": "https://www.isabeleats.com/simple-guacamole-recipe/"}
+    ],
+    "comparedVersions": "Compared classic 7-ingredient formulas; all agree on avocado-lime-salt as the base with no dairy fillers. Used Downshiftology's proportions (3 avocados, half an onion, 1 lime) as the most balanced, mashing lime and salt in first per Love and Lemons so the seasoning distributes evenly, and swapped tortilla chips for vegetable sticks to keep it keto.",
+    "comparedVersionsHe": "השווינו נוסחאות קלאסיות של 7 מרכיבים; כולן מסכימות על בסיס של אבוקדו-ליים-מלח בלי תוספות חלביות. השתמשנו בפרופורציות של Downshiftology (3 אבוקדו, חצי בצל, ליים אחד) כמאוזנות ביותר, מועכים קודם עם הליים והמלח לפי Love and Lemons כדי שהתיבול יתפזר אחיד, והחלפנו את צ'יפס הטורטייה במקלות ירקות כדי להישאר בקיטו."
+  },
+  {
+    "id": "tahini-dip-crudites",
+    "name": "Lemon-Garlic Tahini Dip with Crudités",
+    "nameHe": "מטבל טחינה לימון-שום עם ירקות טריים",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 10,
+    "cookTimeMin": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "1/2 cup / 120 g", "item": "raw tahini, well stirred", "israelNote": "raw tahini (Har Bracha/Achva)"},
+      {"amount": "3 tbsp / 45 ml", "item": "fresh lemon juice"},
+      {"amount": "1 clove", "item": "garlic, finely grated"},
+      {"amount": "1/2 tsp", "item": "fine salt"},
+      {"amount": "1/4 tsp", "item": "ground cumin (optional)"},
+      {"amount": "4–8 tbsp / 60–120 ml", "item": "cold water"},
+      {"amount": "1 tbsp", "item": "chopped parsley, for serving"},
+      {"amount": "assorted / ~500 g", "item": "crudités: cucumber, pepper strips, celery, cherry tomatoes, kohlrabi", "israelNote": "kohlrabi (kolrabi) is excellent and cheap in Israel"}
+    ],
+    "ingredientsHe": [
+      {"amount": "1/2 כוס / 120 גרם", "item": "טחינה גולמית, מעורבבת היטב", "israelNote": "למשל הר ברכה או אחוה"},
+      {"amount": "3 כפות / 45 מ\"ל", "item": "מיץ לימון טרי"},
+      {"amount": "1 שן", "item": "שום, מגוררת דק"},
+      {"amount": "1/2 כפית", "item": "מלח דק"},
+      {"amount": "1/4 כפית", "item": "כמון טחון (לא חובה)"},
+      {"amount": "4–8 כפות / 60–120 מ\"ל", "item": "מים קרים"},
+      {"amount": "1 כף", "item": "פטרוזיליה קצוצה, להגשה"},
+      {"amount": "מגוון / כ-500 גרם", "item": "ירקות טריים: מלפפון, רצועות פלפל, סלרי, עגבניות שרי, קולורבי", "israelNote": "קולורבי מצוין וזול בישראל"}
+    ],
+    "instructions": [
+      "Whisk the tahini, lemon juice, grated garlic, salt, and cumin in a bowl — the mixture will seize and thicken; this is normal.",
+      "Whisk in water a tablespoon at a time until the dip loosens, turns pale, and becomes creamy. For a thick dip stop early; for a sauce keep going.",
+      "Taste and adjust the salt and lemon.",
+      "Spoon into a bowl, swirl the top, and scatter with parsley (and a drizzle of olive oil if you like).",
+      "Cut the vegetables into sticks and serve around the dip. Keeps refrigerated up to 5 days; re-loosen with a splash of water."
+    ],
+    "instructionsHe": [
+      "טורפים בקערה את הטחינה, מיץ הלימון, השום המגורר, המלח והכמון — התערובת תיתפס ותסמיך; זה נורמלי.",
+      "טורפים פנימה מים כף אחר כף עד שהמטבל משתחרר, מחוויר ונהיה קרמי. למטבל סמיך עוצרים מוקדם; לרוטב ממשיכים.",
+      "טועמים ומתקנים מלח ולימון.",
+      "מעבירים לקערה, יוצרים מערבולת על פני השטח ומפזרים פטרוזיליה (וזרזיף שמן זית למי שאוהב).",
+      "חותכים את הירקות למקלות ומגישים סביב המטבל. נשמר במקרר עד 5 ימים; מרעננים במעט מים."
+    ],
+    "nutrition": {"calories": 140, "fatG": 11, "satFatG": 1.6, "proteinG": 3.8, "carbsG": 6, "fiberG": 2.8, "netCarbsG": 3.2, "sugarG": 1.5, "sodiumMg": 220},
+    "ketoVariant": "Stick to cucumber, celery, and pepper for dipping; carrots roughly double the carbs per stick.",
+    "ketoVariantHe": "נשארים עם מלפפון, סלרי ופלפל לטבילה; גזר בערך מכפיל את הפחמימות למקל.",
+    "tips": "Grate the garlic and let it sit in the lemon juice for 10 minutes before whisking for a mellower, rounder garlic flavor.",
+    "tipsHe": "מגררים את השום ומשרים אותו במיץ הלימון 10 דקות לפני הטריפה — מקבלים טעם שום עדין ועגול יותר.",
+    "sources": [
+      {"creator": "Inspired Taste", "url": "https://www.inspiredtaste.net/27791/tahini-sauce-recipe/"},
+      {"creator": "All the Healthy Things", "url": "https://allthehealthythings.com/lemon-garlic-tahini-sauce/"},
+      {"creator": "The Yellow Table", "url": "https://www.theyellowtable.com/recipes/best-crudites-lemon-parsley-tahini-dip-recipe"}
+    ],
+    "comparedVersions": "Compared tahini-to-lemon-to-water ratios across three versions; Inspired Taste's gradual-water whisking technique won because it reliably takes the tahini through the seized stage to creamy, and grating the garlic (All the Healthy Things) avoids raw garlic chunks. Scaled to a 1/2-cup batch sized for six with vegetables.",
+    "comparedVersionsHe": "השווינו יחסי טחינה-לימון-מים בשלוש גרסאות; טכניקת הוספת המים ההדרגתית של Inspired Taste ניצחה כי היא מעבירה את הטחינה באמינות דרך שלב ההיתפסות אל הקרמיות, וגירור השום (All the Healthy Things) מונע חתיכות שום חי. הותאם לכמות של חצי כוס, שמספיקה לשישה עם ירקות."
+  },
+  {
+    "id": "citrus-herb-marinated-olives",
+    "name": "Warm Citrus & Herb Marinated Olives",
+    "nameHe": "זיתים חמימים במרינדת הדרים ועשבי תיבול",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 8,
+    "prepTimeMin": 10,
+    "cookTimeMin": 5,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cups / 300 g", "item": "mixed olives with pits (green and black)", "israelNote": "Israeli deli-counter olives — Syrian, Kalamata, or cracked green"},
+      {"amount": "1/4 cup / 60 ml", "item": "extra-virgin olive oil"},
+      {"amount": "2 cloves", "item": "garlic, smashed and sliced"},
+      {"amount": "2 sprigs", "item": "fresh rosemary"},
+      {"amount": "1", "item": "bay leaf"},
+      {"amount": "3–4 wide strips", "item": "orange zest, peeled with a vegetable peeler"},
+      {"amount": "2 strips", "item": "lemon zest"},
+      {"amount": "1/4 tsp", "item": "chili flakes"},
+      {"amount": "1 tbsp / 15 ml", "item": "fresh orange juice"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 כוסות / 300 גרם", "item": "תערובת זיתים עם גלעינים (ירוקים ושחורים)", "israelNote": "זיתים מהמעדנייה — סורי, קלמטה או ירוק מבוקע"},
+      {"amount": "1/4 כוס / 60 מ\"ל", "item": "שמן זית כתית מעולה"},
+      {"amount": "2 שיניים", "item": "שום, מעוך ופרוס"},
+      {"amount": "2 ענפים", "item": "רוזמרין טרי"},
+      {"amount": "1", "item": "עלה דפנה"},
+      {"amount": "3–4 רצועות רחבות", "item": "גרידת תפוז, מקולפת בקולפן ירקות"},
+      {"amount": "2 רצועות", "item": "גרידת לימון"},
+      {"amount": "1/4 כפית", "item": "פתיתי צ'ילי"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ תפוזים טרי"}
+    ],
+    "instructions": [
+      "Drain and rinse the olives and pat them dry.",
+      "Warm the olive oil in a small pan over low heat with the garlic, rosemary, bay leaf, citrus zests, and chili flakes until fragrant and gently bubbling, 1–2 minutes — do not brown the garlic.",
+      "Take the pan off the heat and stir in the olives and orange juice, tossing to coat.",
+      "Let stand at least 30 minutes at room temperature, or refrigerate overnight — the flavor improves with time.",
+      "Serve at room temperature or gently rewarmed. Keeps refrigerated up to 4 days."
+    ],
+    "instructionsHe": [
+      "מסננים ושוטפים את הזיתים ומייבשים אותם.",
+      "מחממים את שמן הזית במחבת קטנה על אש נמוכה עם השום, הרוזמרין, עלה הדפנה, גרידות ההדרים ופתיתי הצ'ילי עד שעולה ריח והשמן מבעבע בעדינות, 1–2 דקות — לא נותנים לשום להשחים.",
+      "מורידים את המחבת מהאש ומערבבים פנימה את הזיתים ומיץ התפוזים, מערבבים לציפוי אחיד.",
+      "משאירים לפחות 30 דקות בטמפרטורת החדר, או מקררים ללילה — הטעם משתבח עם הזמן.",
+      "מגישים בטמפרטורת החדר או מחוממים קלות. נשמר במקרר עד 4 ימים."
+    ],
+    "nutrition": {"calories": 95, "fatG": 9.5, "satFatG": 1.3, "proteinG": 0.8, "carbsG": 3.5, "fiberG": 1.5, "netCarbsG": 2, "sugarG": 0.5, "sodiumMg": 480},
+    "tips": "The leftover infused oil is excellent spooned over salads or roasted vegetables. Rinsing brined olives first keeps the dish from being overwhelmingly salty.",
+    "tipsHe": "השמן המתובל שנשאר מצוין על סלטים או ירקות צלויים. שטיפת הזיתים מהציר קודם שומרת על המנה מלהיות מלוחה מדי.",
+    "sources": [
+      {"creator": "Gourmande in the Kitchen", "url": "https://gourmandeinthekitchen.com/marinated-olives-recipe/"},
+      {"creator": "Giada De Laurentiis (Food Network)", "url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/warm-citrus-marinated-olives-4552731"},
+      {"creator": "Well Seasoned Studio", "url": "https://www.wellseasonedstudio.com/marinated-olives/"}
+    ],
+    "comparedVersions": "Compared cold-marinated versions against warm-infusion versions; warming the oil with the aromatics (Gourmande in the Kitchen, Giada) won because it extracts the garlic, herb, and zest flavors in minutes instead of days. Trimmed the aromatics to items found in any Israeli supermarket, dropping grapefruit and fennel seed.",
+    "comparedVersionsHe": "השווינו גרסאות מרינדה קרה מול גרסאות חליטה חמה; חימום השמן עם התיבולים (Gourmande in the Kitchen, ג'אדה) ניצח כי הוא מחלץ את טעמי השום, עשבי התיבול והגרידה בדקות במקום בימים. צמצמנו את התיבולים למה שנמצא בכל סופר ישראלי, וויתרנו על אשכולית וזרעי שומר."
+  },
+  {
+    "id": "spinach-cheese-egg-muffins",
+    "name": "Spinach & Cheese Egg Muffins",
+    "nameHe": "מאפינס ביצים עם תרד וגבינה",
+    "category": "snacks",
+    "kosherType": "dairy",
+    "dietTags": "keto",
+    "servings": 6,
+    "prepTimeMin": 10,
+    "cookTimeMin": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "8", "item": "large eggs"},
+      {"amount": "2 cups / 60 g", "item": "fresh spinach, chopped", "israelNote": "tered (chard) leaves also work; check leaves for insects"},
+      {"amount": "1 cup / 100 g", "item": "grated hard cheese", "israelNote": "parmesan or kashkaval; Bulgarian feta (crumbled) is a good salty option"},
+      {"amount": "2", "item": "green onions, thinly sliced"},
+      {"amount": "1/2 tsp", "item": "salt"},
+      {"amount": "1/4 tsp", "item": "black pepper"},
+      {"amount": "1/2 tsp", "item": "garlic powder"},
+      {"amount": "for greasing", "item": "olive oil or butter"}
+    ],
+    "ingredientsHe": [
+      {"amount": "8", "item": "ביצים גדולות"},
+      {"amount": "2 כוסות / 60 גרם", "item": "תרד טרי, קצוץ", "israelNote": "גם עלי מנגולד עובדים; בודקים את העלים מחרקים"},
+      {"amount": "1 כוס / 100 גרם", "item": "גבינה קשה מגוררת", "israelNote": "פרמזן או קשקבל; גם בולגרית מפוררת היא אופציה מלוחה וטובה"},
+      {"amount": "2", "item": "בצלים ירוקים, פרוסים דק"},
+      {"amount": "1/2 כפית", "item": "מלח"},
+      {"amount": "1/4 כפית", "item": "פלפל שחור"},
+      {"amount": "1/2 כפית", "item": "אבקת שום"},
+      {"amount": "לשימון", "item": "שמן זית או חמאה"}
+    ],
+    "instructions": [
+      "Heat the oven to 200°C / 400°F and grease a 12-cup muffin tin very well (or use silicone liners).",
+      "Whisk the eggs with the salt, pepper, and garlic powder until fully blended.",
+      "Stir in the chopped spinach, green onions, and most of the cheese.",
+      "Divide the mixture among the 12 cups, filling each about three-quarters full, and top with the remaining cheese.",
+      "Bake 12–15 minutes, until puffed and just set in the center.",
+      "Cool 5 minutes before removing from the tin. Serve warm, or refrigerate up to 4 days; two muffins per serving."
+    ],
+    "instructionsHe": [
+      "מחממים תנור ל-200 מעלות ומשמנים היטב תבנית 12 שקעים למאפינס (או משתמשים במנג'טים מסיליקון).",
+      "טורפים את הביצים עם המלח, הפלפל ואבקת השום עד שהתערובת אחידה.",
+      "מוסיפים את התרד הקצוץ, הבצל הירוק ורוב הגבינה ומערבבים.",
+      "מחלקים את התערובת בין 12 השקעים, ממלאים כל אחד עד כשלושה רבעים, ומפזרים מעל את שארית הגבינה.",
+      "אופים 12–15 דקות, עד שהמאפינס תופחים ומתייצבים בדיוק במרכז.",
+      "מצננים 5 דקות לפני שמוציאים מהתבנית. מגישים חמים, או שומרים במקרר עד 4 ימים; שני מאפינס למנה."
+    ],
+    "nutrition": {"calories": 165, "fatG": 12, "satFatG": 5, "proteinG": 13, "carbsG": 1.5, "fiberG": 0.3, "netCarbsG": 1.2, "sugarG": 0.8, "sodiumMg": 420},
+    "lowCarbVariant": "Fold in 1/2 cup diced red pepper or sautéed mushrooms for variety (adds about 1 g net carbs per serving).",
+    "lowCarbVariantHe": "מקפלים פנימה 1/2 כוס פלפל אדום קצוץ או פטריות מוקפצות לגיוון (מוסיף כ-1 גרם פחמימות נטו למנה).",
+    "tips": "The muffins deflate slightly as they cool — normal. They freeze well; reheat 20–30 seconds in the microwave. Chop the spinach finely so it disperses instead of sinking.",
+    "tipsHe": "המאפינס שוקעים מעט כשהם מתקררים — זה נורמלי. הם מקפיאים היטב; מחממים 20–30 שניות במיקרוגל. קוצצים את התרד דק כדי שיתפזר במקום לשקוע.",
+    "sources": [
+      {"creator": "Life Made Sweeter", "url": "https://lifemadesweeter.com/spinach-and-cheese-egg-muffins/"},
+      {"creator": "Low-Carb, So Simple", "url": "https://www.lowcarbsosimple.com/spinach-and-feta-egg-muffins-or-frittata/"},
+      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/mini-frittatas/"}
+    ],
+    "comparedVersions": "Compared egg-to-cheese ratios and add-ins (cream, cottage cheese, bacon) across three versions; chose Life Made Sweeter's simple no-milk formula at 200°C for 12–15 minutes because it sets fastest and needs no dairy beyond the cheese itself. Dropped meat add-ins and scaled to 8 eggs so a serving of two muffins stays under 170 calories.",
+    "comparedVersionsHe": "השווינו יחסי ביצים-גבינה ותוספות (שמנת, קוטג', בייקון) בשלוש גרסאות; בחרנו בנוסחה הפשוטה ללא חלב של Life Made Sweeter ב-200 מעלות ל-12–15 דקות, כי היא מתייצבת הכי מהר ולא צריכה מוצרי חלב מעבר לגבינה עצמה. ויתרנו על תוספות בשריות והתאמנו ל-8 ביצים, כך שמנה של שני מאפינס נשארת מתחת ל-170 קלוריות."
+  },
+  {
+    "id": "tuna-salad-lettuce-cups",
+    "name": "Tuna Salad Lettuce Cups",
+    "nameHe": "סלט טונה בגביעי חסה",
+    "category": "snacks",
+    "kosherType": "pareve",
+    "dietTags": "keto",
+    "servings": 4,
+    "prepTimeMin": 15,
+    "cookTimeMin": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {"amount": "2 cans / 280 g drained", "item": "tuna in water, drained and flaked", "israelNote": "canned tuna (Starkist/Wili Food) — in water for lighter, in oil for richer"},
+      {"amount": "1/3 cup / 75 g", "item": "mayonnaise", "israelNote": "mayonnaise (e.g., Mayonez Telma — check kosher label)"},
+      {"amount": "1 tsp", "item": "Dijon mustard"},
+      {"amount": "2 stalks / 80 g", "item": "celery, finely diced", "israelNote": "selery — sold with leaves; use the crisp stalks"},
+      {"amount": "1/4 / 30 g", "item": "small red onion, finely chopped"},
+      {"amount": "1 tbsp / 15 ml", "item": "fresh lemon juice"},
+      {"amount": "to taste", "item": "salt and black pepper"},
+      {"amount": "8 leaves", "item": "romaine or iceberg lettuce, kept whole as cups", "israelNote": "hasa — wash and check leaves per kosher practice"}
+    ],
+    "ingredientsHe": [
+      {"amount": "2 קופסאות / 280 גרם מסונן", "item": "טונה במים, מסוננת ומפוררת", "israelNote": "טונה בקופסה (סטארקיסט/וילי פוד) — במים לגרסה קלה, בשמן לעשירה יותר"},
+      {"amount": "1/3 כוס / 75 גרם", "item": "מיונז", "israelNote": "למשל מיונז תלמה — בודקים הכשר"},
+      {"amount": "1 כפית", "item": "חרדל דיז'ון"},
+      {"amount": "2 גבעולים / 80 גרם", "item": "סלרי, קצוץ דק", "israelNote": "נמכר עם העלים; משתמשים בגבעולים הפריכים"},
+      {"amount": "1/4 / 30 גרם", "item": "בצל סגול קטן, קצוץ דק"},
+      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון טרי"},
+      {"amount": "לפי הטעם", "item": "מלח ופלפל שחור"},
+      {"amount": "8 עלים", "item": "חסה רומית או אייסברג, עלים שלמים כגביעים", "israelNote": "שוטפים ובודקים את העלים לפי כללי הכשרות"}
+    ],
+    "instructions": [
+      "Stir the mayonnaise, mustard, and lemon juice together in a bowl.",
+      "Fold in the flaked tuna, celery, and red onion; season with salt and pepper.",
+      "Wash and dry the lettuce leaves, keeping their natural cup shape.",
+      "Spoon the tuna salad into the leaves just before serving so they stay crisp.",
+      "Top with extra black pepper or chopped dill if you like."
+    ],
+    "instructionsHe": [
+      "מערבבים בקערה את המיונז, החרדל ומיץ הלימון.",
+      "מקפלים פנימה את הטונה המפוררת, הסלרי והבצל הסגול; מתבלים במלח ופלפל.",
+      "שוטפים ומייבשים את עלי החסה, שומרים על צורת הגביע הטבעית שלהם.",
+      "ממלאים את העלים בסלט הטונה ממש לפני ההגשה, כדי שיישארו פריכים.",
+      "מוסיפים מעל עוד פלפל שחור או שמיר קצוץ, למי שאוהב."
+    ],
+    "nutrition": {"calories": 220, "fatG": 16, "satFatG": 2.5, "proteinG": 17, "carbsG": 2.5, "fiberG": 0.8, "netCarbsG": 1.7, "sugarG": 1.2, "sodiumMg": 380},
+    "ketoVariant": "Swap half the mayo for mashed avocado for extra fiber and a creamier texture.",
+    "ketoVariantHe": "מחליפים חצי מהמיונז באבוקדו מעוך לתוספת סיבים ומרקם קרמי יותר.",
+    "tips": "Tuna is fish — pareve for kosher labeling, but many observe the custom of not eating fish and meat together at the same course. The salad keeps 2 days refrigerated; fill the leaves only at serving time.",
+    "tipsHe": "טונה היא דג — פרווה לעניין הכשרות, אבל רבים נוהגים שלא לאכול דגים ובשר יחד באותה מנה. הסלט נשמר יומיים במקרר; ממלאים את העלים רק בזמן ההגשה.",
+    "sources": [
+      {"creator": "Healthy Fitness Meals", "url": "https://healthyfitnessmeals.com/keto-tuna-salad/"},
+      {"creator": "Kalyn's Kitchen", "url": "https://kalynskitchen.com/recipe-for-tuna-salad-lettuce-wraps/"},
+      {"creator": "That Low Carb Life", "url": "https://thatlowcarblife.com/keto-tuna-salad/"}
+    ],
+    "comparedVersions": "Compared bindings (Greek yogurt, mayo, avocado) and add-ins (eggs, radishes, pickles) across three versions; settled on a classic mayo-mustard-lemon binding with celery and red onion for crunch, which is the simplest crowd-pleasing formula, and borrowed the sturdy-leaf cup presentation the wrap versions all recommend.",
+    "comparedVersionsHe": "השווינו חומרי קישור (יוגורט יווני, מיונז, אבוקדו) ותוספות (ביצים, צנוניות, מלפפונים חמוצים) בשלוש גרסאות; התיישבנו על קישור קלאסי של מיונז-חרדל-לימון עם סלרי ובצל סגול לקראנץ' — הנוסחה הפשוטה שכולם אוהבים — ואימצנו את הגשת גביעי העלים היציבים שכל גרסאות הראפ ממליצות עליה."
+  }
+]
