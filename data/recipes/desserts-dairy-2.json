@@ -1346,12 +1346,12 @@
                             },
                             {
                                 "amount":  "1/4 cup / 60 ml",
-                                "item":  "water"
+                                "item":  "cold water (for blooming the gelatin)"
                             },
                             {
-                                "amount":  "1/4 tsp",
-                                "item":  "xanthan gum",
-                                "israelNote":  "health-food stores; for a firmer slice use 1/2 tsp agar-agar boiled in the lemon juice instead"
+                                "amount":  "2 tsp",
+                                "item":  "kosher gelatin powder",
+                                "israelNote":  "gelatin with a hechsher; no gelatin? whisk in 1/4 tsp xanthan gum instead"
                             },
                             {
                                 "amount":  "3 tbsp / 45 g",
@@ -1390,12 +1390,12 @@
                               },
                               {
                                   "amount":  "1/4 כוס / 60 מ\"ל",
-                                  "item":  "מים"
+                                  "item":  "מים קרים (להשריית הג\u0027לטין)"
                               },
                               {
-                                  "amount":  "1/4 כפית",
-                                  "item":  "קסנטן גאם",
-                                  "israelNote":  "חנויות טבע; לפרוסה יציבה יותר אפשר 1/2 כפית אגר-אגר מורתח במיץ הלימון"
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת ג\u0027לטין כשר",
+                                  "israelNote":  "ג\u0027לטין עם הכשר; אין ג\u0027לטין? אפשר 1/4 כפית קסנטן גאם במקום"
                               },
                               {
                                   "amount":  "3 כפות / 45 גרם",
@@ -1408,27 +1408,29 @@
                           ],
         "instructions":  [
                              "Heat the oven to 175°C. Mix the almond flour, melted butter, 2 tbsp of the sweetener and a pinch of salt; press into a 23 cm pie dish and bake 10-12 minutes until the edges turn golden. Cool.",
-                             "Whisk the yolks, lemon juice, zest, water and 3/4 cup sweetener in a saucepan. Cook over medium-low heat, whisking constantly, 4-6 minutes until the curd visibly thickens and coats a spoon — do not let it boil.",
-                             "Off the heat, whisk in the xanthan gum (sprinkle while whisking) and the cubed butter until smooth.",
-                             "Pour the curd into the cooled crust and refrigerate at least 4 hours (or overnight) until set.",
+                             "Sprinkle the gelatin over the cold water and let it bloom 5 minutes.",
+                             "Whisk the yolks, lemon juice, zest and 3/4 cup sweetener in a saucepan. Cook over medium-low heat, whisking constantly, 4-6 minutes until the curd visibly thickens and coats a spoon — do not let it boil.",
+                             "Off the heat, whisk the bloomed gelatin into the hot curd until fully dissolved, then whisk in the cubed butter until smooth.",
+                             "Pour the curd into the cooled crust and refrigerate at least 4 hours (or overnight) until fully set.",
                              "Beat the 4 reserved egg whites with the cream of tartar to soft peaks; add the remaining 1/4 cup sweetener gradually and beat to stiff, glossy peaks.",
                              "Spread the meringue over the chilled filling, sealing it to the crust edge; swirl peaks with the back of a spoon.",
                              "Brown under a hot grill (broiler) 1-2 minutes — watch constantly — or torch until golden. Chill until serving."
                          ],
         "instructionsHe":  [
                                "מחממים תנור ל-175 מעלות. מערבבים קמח שקדים, חמאה מומסת, 2 כפות מהממתיק וקורט מלח; מהדקים לתבנית פאי 23 ס\"מ ואופים 10-12 דקות עד שהשוליים מזהיבים. מצננים.",
-                               "טורפים בסיר את החלמונים, מיץ הלימון, הגרידה, המים ו-3/4 כוס ממתיק. מבשלים על אש בינונית-נמוכה תוך טריפה מתמדת 4-6 דקות, עד שהקרם מסמיך ומצפה כף — לא מרתיחים.",
-                               "מחוץ לאש טורפים פנימה את הקסנטן גאם (מפזרים תוך כדי טריפה) ואת קוביות החמאה עד לקרם חלק.",
-                               "יוצקים את קרם הלימון לקלתית הצוננת ומקררים לפחות 4 שעות (או לילה) עד שמתייצב.",
+                               "מפזרים את הג\u0027לטין על המים הקרים ומניחים להשרות 5 דקות.",
+                               "טורפים בסיר את החלמונים, מיץ הלימון, הגרידה ו-3/4 כוס ממתיק. מבשלים על אש בינונית-נמוכה תוך טריפה מתמדת 4-6 דקות, עד שהקרם מסמיך ומצפה כף — לא מרתיחים.",
+                               "מחוץ לאש טורפים את הג\u0027לטין המושרה לתוך הקרם החם עד שנמס לגמרי, ואז טורפים פנימה את קוביות החמאה עד לקרם חלק.",
+                               "יוצקים את קרם הלימון לקלתית הצוננת ומקררים לפחות 4 שעות (או לילה) עד להתייצבות מלאה.",
                                "מקציפים את 4 החלבונים ששמרנו עם קרם הטרטר לקצף רך; מוסיפים בהדרגה את 1/4 הכוס ממתיק שנותרה ומקציפים לקצף יציב ומבריק.",
                                "מורחים את המרנג על המלית הקרה עד לשולי הקלתית; יוצרים עיטורים עם גב כף.",
                                "משחימים מתחת לגריל תנור לוהט 1-2 דקות — משגיחים כל הזמן — או צורבים בברנר עד הזהבה. מקררים עד ההגשה."
                            ],
         "nutrition":  {
-                          "calories":  231,
+                          "calories":  233,
                           "fatG":  20.5,
                           "satFatG":  7.6,
-                          "proteinG":  7.9,
+                          "proteinG":  8.4,
                           "carbsG":  6.1,
                           "fiberG":  2.8,
                           "netCarbsG":  3.3,
@@ -1455,7 +1457,7 @@
                             "url":  "https://thebigmansworld.com/keto-lemon-meringue-pie/"
                         }
                     ],
-        "comparedVersions":  "Compared Wholesome Yum (gelatin + xanthan set, almond crust), Sugar-Free Mom (gelatin curd, Swiss meringue, coconut crust) and The Big Man\u0027s World\u0027s minimal version. Both leading recipes set the curd with gelatin — replaced here with a yolk-thickened curd plus xanthan (agar option in notes) to keep it kosher without specialty kosher gelatin, on Wholesome Yum\u0027s almond crust with a simple French meringue.",
-        "comparedVersionsHe":  "הושוו הגרסאות של Wholesome Yum, Sugar-Free Mom ו-The Big Man\u0027s World. שתי המובילות מייצבות את הקרם בג\u0027לטין — כאן הוחלף בקרם מסמיך על בסיס חלמונים וקסנטן (אופציית אגר בהערות) כדי להישאר כשרים ללא ג\u0027לטין מיוחד, על קלתית השקדים של Wholesome Yum עם מרנג צרפתי פשוט."
+        "comparedVersions":  "Compared Wholesome Yum (gelatin + xanthan set, almond crust), Sugar-Free Mom (gelatin curd, Swiss meringue, coconut crust) and The Big Man\u0027s World\u0027s minimal version. Kept the classic gelatin set (kosher gelatin) from the leading recipes on Wholesome Yum\u0027s almond crust, with a simple French meringue; a xanthan-only fallback is noted for when gelatin isn\u0027t on hand.",
+        "comparedVersionsHe":  "הושוו הגרסאות של Wholesome Yum, Sugar-Free Mom ו-The Big Man\u0027s World. נשמרה ההתייצבות הקלאסית בג\u0027לטין (כשר) מהמתכונים המובילים, על קלתית השקדים של Wholesome Yum ועם מרנג צרפתי פשוט; חלופת קסנטן מצוינת בהערות למי שאין ג\u0027לטין בבית."
     }
 ]
