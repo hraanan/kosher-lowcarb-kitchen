@@ -230,6 +230,25 @@ article.recipe{
 .ing-chip:hover{border-color:var(--accent);color:var(--accent)}
 .ing-chip .n{color:var(--ink-soft);font-size:11.5px;font-variant-numeric:tabular-nums}
 
+/* ---------- community: ratings & submissions ---------- */
+.rate-box{margin-block-start:18px;padding:12px 16px;background:var(--panel-2);border-radius:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.rate-box .lbl{font-size:12.5px;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.06em}
+.stars{display:inline-flex}
+.stars button{background:none;border:none;padding:0 3px;font-size:24px;line-height:1;color:var(--line);cursor:pointer}
+.stars button.on{color:var(--keto)}
+.stars button:focus-visible{outline:2px solid var(--accent);border-radius:4px}
+.avg-note{font-size:13px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.star-badge{color:var(--keto);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+.form-grid{display:grid;gap:14px;max-width:560px;margin-block-start:14px}
+.form-grid label{font-size:12px;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.06em;display:block;margin-block-end:4px}
+.form-grid input,.form-grid select,.form-grid textarea{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font:inherit;color:var(--ink)}
+.form-grid textarea{min-height:110px;resize:vertical}
+.form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+.form-actions{display:flex;gap:10px}
+.fam-by{font-size:12.5px;color:var(--ink-soft)}
+.toast{position:fixed;inset-block-end:18px;inset-inline-start:0;inset-inline-end:0;margin-inline:auto;width:fit-content;max-width:85vw;background:var(--ink);color:var(--ground);padding:10px 18px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}
+.toast.show{opacity:1}
+
 /* ---------- print root ---------- */
 #printRoot{display:none}
 
@@ -274,6 +293,7 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
         <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
         <button class="ghost-btn no-print" id="pantryBtn">🧺 Ingredients</button>
         <button class="ghost-btn no-print" id="printBookBtn">🖨 Print book</button>
+        <button class="solid-btn no-print" id="addBtn" hidden>➕ Add a recipe</button>
       </div>
     </div>
   </div>
@@ -296,6 +316,8 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
 </div>
 
 <div id="printRoot" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status"></div>
+<script type="application/json" id="communityData">{"ratings":{},"submissions":[]}</script>
 
 <footer class="site">
   <div class="wrap" id="footerNote">
@@ -304,6 +326,12 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
 </footer>
 
 <script>
+/* Snapshot of the page's own source, captured before any rendering — used to publish new versions of itself (ratings / added recipes). */
+const PAGE_SNAPSHOT = "<!doctype html>\n" + document.documentElement.outerHTML;
+const COMMUNITY = (()=>{ try{ const d = JSON.parse(document.getElementById("communityData").textContent); return d && typeof d==="object" ? d : {}; }catch(e){ return {}; } })();
+COMMUNITY.ratings = COMMUNITY.ratings || {};
+COMMUNITY.submissions = COMMUNITY.submissions || [];
+
 const RECIPES = /*__DATA__*/[];
 
 /* ---------- i18n ---------- */
@@ -340,6 +368,14 @@ const T = {
     sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
     sec_nuts:"Nuts, Seeds & Coconut", sec_dairy:"Dairy & Eggs", sec_produce:"Vegetables & Fruit",
     sec_oils:"Oils & Condiments", sec_spice:"Spices & Flavorings", sec_other:"Other",
+    rate:"Rate this recipe", votes:"ratings", addRecipe:"➕ Add a recipe",
+    familyRecipes:"Family Recipes", by:"by", notes:"Notes",
+    formName:"Recipe name", formYourName:"Your name", formCategory:"Category", formKosher:"Kosher type",
+    formIngs:"Ingredients — one per line, with amounts", formSteps:"Instructions — one step per line", formNotes:"Notes (optional)",
+    submit:"Add to the book", cancel:"Cancel", fillAll:"Please fill the recipe name, ingredients and instructions.",
+    thanks:"Added! Everyone can see it now.",
+    readOnlyNote:"Rating didn't save — you need edit access to this page (ask Hagai).",
+    conflictNote:"Someone else just updated the book — it will refresh.",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -367,6 +403,14 @@ const T = {
     sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
     sec_nuts:"אגוזים, זרעים וקוקוס", sec_dairy:"מוצרי חלב וביצים", sec_produce:"ירקות ופירות",
     sec_oils:"שמנים ורטבים", sec_spice:"תבלינים", sec_other:"שונות",
+    rate:"דרגו את המתכון", votes:"דירוגים", addRecipe:"➕ הוספת מתכון",
+    familyRecipes:"מתכונים מהמשפחה", by:"מאת", notes:"הערות",
+    formName:"שם המתכון", formYourName:"השם שלכם", formCategory:"קטגוריה", formKosher:"כשרות",
+    formIngs:"מרכיבים — אחד בכל שורה, כולל כמויות", formSteps:"אופן ההכנה — שלב בכל שורה", formNotes:"הערות (לא חובה)",
+    submit:"הוספה לספר", cancel:"ביטול", fillAll:"נא למלא שם מתכון, מרכיבים ואופן הכנה.",
+    thanks:"נוסף! כולם יכולים לראות עכשיו.",
+    readOnlyNote:"הדירוג לא נשמר — צריך הרשאת עריכה לדף (בקשו מחגי).",
+    conflictNote:"מישהו אחר עדכן הרגע את הספר — הדף יתרענן.",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -480,9 +524,10 @@ function shortItem(s){ return String(s||"").replace(/\(.*?\)/g,"").split(",")[0]
 function cardHTML(r){
   const totalMin = (r.prepTimeMin||0)+(r.cookTimeMin||0);
   const ingLine = (rIngs(r)||[]).map(i=>shortItem(i.item)).filter(Boolean).join(" · ");
+  const av = avgOf(r.id);
   return `<button class="card" data-id="${esc(r.id)}" aria-label="${esc(rName(r))}">
     ${illusFor(r)}
-    <div class="badges">${badges(r,false)}</div>
+    <div class="badges">${badges(r,false)}${av?`<span class="star-badge">★ ${av.avg.toFixed(1)}</span>`:""}</div>
     <h3>${esc(rName(r))}</h3>
     <p class="card-ings">${esc(ingLine)}</p>
     <div class="meta">
@@ -508,6 +553,7 @@ function renderList(){
   } else {
     html = `<div class="grid" style="padding-block-start:14px">` + list.map(cardHTML).join("") + `</div>`;
   }
+  if(filters.cat==="all" && !filters.q.trim()) html += familySectionHTML();
   $("listView").innerHTML = html;
 }
 
@@ -566,6 +612,7 @@ function recipeHTML(r){
         ${tip?`<div class="tip-box"><b>${t("tip")}:</b> ${esc(tip)}</div>`:""}
       </div>
     </div>
+    ${rateBoxHTML(r.id)}
     <div class="src-row">
       ${srcs?`${t("adapted")}: ${srcs}`:""}
       ${rOpt(r,"comparedVersions")?`<div class="why">${t("why")} ${esc(rOpt(r,"comparedVersions"))}</div>`:""}
@@ -593,6 +640,163 @@ function showList(){
   $("listView").hidden = false;
   $("controls").hidden = false;
   renderList();
+}
+
+/* ---------- community: shared ratings & family recipes ---------- */
+let artifactCap = null, capResolved = false;
+async function getCap(){
+  if(capResolved) return artifactCap;
+  capResolved = true;
+  try{
+    if(window.claude && window.claude.use){
+      artifactCap = (await window.claude.use("artifact")) || (await window.claude.use("self"));
+    }
+  }catch(e){ artifactCap = null; }
+  return artifactCap;
+}
+getCap().then(c=>{ if(c){ document.body.classList.add("can-community"); $("addBtn").hidden = false; route(); } });
+
+function toast(msg){
+  const el = $("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(el._h);
+  el._h = setTimeout(()=>el.classList.remove("show"), 3500);
+}
+
+async function publishCommunity(){
+  const cap = await getCap();
+  if(!cap){ toast(t("readOnlyNote")); return false; }
+  const json = JSON.stringify(COMMUNITY).replace(/</g, "\\u003c");
+  const html = PAGE_SNAPSHOT.replace(
+    /(<script[^>]*id="communityData"[^>]*>)[\s\S]*?(<\/script>)/,
+    (m, a, b) => a + json + b
+  );
+  try{
+    await cap.publish(html);
+    return true;
+  }catch(e){
+    const code = String((e && (e.code || e.message)) || e);
+    if(/conflict/i.test(code)) toast(t("conflictNote"));
+    else if(/not_granted|not_writer/i.test(code)) toast(t("readOnlyNote"));
+    else toast("Error: " + code.slice(0,90));
+    return false;
+  }
+}
+
+function myRating(id){ try{ return (JSON.parse(localStorage.getItem("klk-rated")||"{}"))[id] || 0; }catch(e){ return 0; } }
+function setMyRating(id, s){ try{ const m = JSON.parse(localStorage.getItem("klk-rated")||"{}"); m[id]=s; localStorage.setItem("klk-rated", JSON.stringify(m)); }catch(e){} }
+function avgOf(id){ const e = COMMUNITY.ratings[id]; return (e && e.count) ? {avg:(e.sum/e.count), count:e.count} : null; }
+
+function rateBoxHTML(id){
+  const a = avgOf(id);
+  const avgTxt = a ? `★ ${a.avg.toFixed(1)} · ${a.count} ${t("votes")}` : "";
+  if(!document.body.classList.contains("can-community"))
+    return a ? `<div class="rate-box"><span class="avg-note">${avgTxt}</span></div>` : "";
+  const mine = myRating(id);
+  let stars = "";
+  for(let s=1; s<=5; s++) stars += `<button data-rs="${s}" data-rid="${esc(id)}" class="${s<=mine?"on":""}" aria-label="${s}★">★</button>`;
+  return `<div class="rate-box" id="rateBox"><span class="lbl">${t("rate")}</span><span class="stars">${stars}</span><span class="avg-note">${avgTxt}</span></div>`;
+}
+
+async function rate(id, stars){
+  const prev = myRating(id);
+  const e = COMMUNITY.ratings[id] || (COMMUNITY.ratings[id] = {sum:0, count:0});
+  if(prev) e.sum += stars - prev; else { e.sum += stars; e.count++; }
+  setMyRating(id, stars);
+  const box = $("rateBox");
+  if(box) box.outerHTML = rateBoxHTML(id);
+  const ok = await publishCommunity();
+  if(!ok){
+    if(prev) e.sum -= stars - prev;
+    else { e.sum -= stars; e.count--; }
+    setMyRating(id, prev);
+    const b2 = $("rateBox");
+    if(b2) b2.outerHTML = rateBoxHTML(id);
+  }
+}
+
+/* family-submitted recipes */
+function famCardHTML(s, i){
+  const ings = (s.ingredients||[]).slice(0,6).join(" · ");
+  return `<button class="card" data-f="${i}">
+    <div class="illus" aria-hidden="true"><svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">${ICONS.cloche}</svg></div>
+    <div class="badges">${s.kosherType==="dairy"?`<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`:`<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`}</div>
+    <h3>${esc(s.name)}</h3>
+    <p class="card-ings">${esc(ings)}</p>
+    <div class="meta"><span class="fam-by">${t("by")} ${esc(s.by||"?")}</span><span class="time">${esc(s.date||"")}</span></div>
+  </button>`;
+}
+
+function familySectionHTML(){
+  if(!COMMUNITY.submissions.length) return "";
+  return `<div class="section-head"><h2>👨‍👩‍👧‍👦 ${t("familyRecipes")}</h2><span class="n">${COMMUNITY.submissions.length}</span></div>
+    <div class="grid">${COMMUNITY.submissions.map(famCardHTML).join("")}</div>`;
+}
+
+function showFamily(i){
+  const s = COMMUNITY.submissions[i];
+  if(!s) return showList();
+  $("listView").hidden = true; $("pantryView").hidden = true; $("controls").hidden = true;
+  const v = $("recipeView");
+  v.hidden = false;
+  v.innerHTML = `
+  <div class="back-row no-print"><button class="ghost-btn" id="backBtn">${t("back")}</button></div>
+  <article class="recipe">
+    <div class="badges">${s.kosherType==="dairy"?`<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`:`<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`}<span class="badge lowcarb">${t("familyRecipes")}</span></div>
+    <h2>${esc(s.name)}</h2>
+    <p class="fam-by">${t("by")} ${esc(s.by||"?")} · ${esc(s.date||"")}</p>
+    <div class="recipe-cols">
+      <div><h4>${t("ingredients")}</h4><ul class="ing-list">${(s.ingredients||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div><h4>${t("instructions")}</h4><ol class="steps">${(s.instructions||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
+      ${s.notes?`<div class="tip-box"><b>${t("notes")}:</b> ${esc(s.notes)}</div>`:""}</div>
+    </div>
+  </article>`;
+  $("backBtn").onclick = ()=>{ location.hash=""; };
+  window.scrollTo(0,0);
+}
+
+function showAddForm(){
+  $("listView").hidden = true; $("pantryView").hidden = true; $("controls").hidden = true;
+  const v = $("recipeView");
+  v.hidden = false;
+  const cats = CATS.map(c=>`<option value="${c.id}">${esc(catName(c.id))}</option>`).join("");
+  v.innerHTML = `
+  <div class="back-row no-print"><button class="ghost-btn" id="backBtn">${t("back")}</button></div>
+  <article class="recipe">
+    <h2>${t("addRecipe").replace("➕ ","")}</h2>
+    <div class="form-grid">
+      <div><label for="fName">${t("formName")}</label><input id="fName" type="text"></div>
+      <div><label for="fBy">${t("formYourName")}</label><input id="fBy" type="text"></div>
+      <div><label for="fCat">${t("formCategory")}</label><select id="fCat">${cats}</select></div>
+      <div><label for="fKosher">${t("formKosher")}</label><select id="fKosher"><option value="pareve">${t("pareve")}</option><option value="dairy">${t("dairy")}</option></select></div>
+      <div><label for="fIngs">${t("formIngs")}</label><textarea id="fIngs"></textarea></div>
+      <div><label for="fSteps">${t("formSteps")}</label><textarea id="fSteps"></textarea></div>
+      <div><label for="fNotes">${t("formNotes")}</label><input id="fNotes" type="text"></div>
+      <div class="form-actions">
+        <button class="solid-btn" id="fSubmit">${t("submit")}</button>
+        <button class="ghost-btn" id="fCancel">${t("cancel")}</button>
+      </div>
+    </div>
+  </article>`;
+  $("backBtn").onclick = $("fCancel").onclick = ()=>{ location.hash=""; };
+  $("fSubmit").onclick = async ()=>{
+    const lines = id => $(id).value.split("\n").map(x=>x.trim()).filter(Boolean);
+    const name = $("fName").value.trim(), ings = lines("fIngs"), steps = lines("fSteps");
+    if(!name || !ings.length || !steps.length){ toast(t("fillAll")); return; }
+    COMMUNITY.submissions.push({
+      name, by: $("fBy").value.trim(), category: $("fCat").value, kosherType: $("fKosher").value,
+      ingredients: ings, instructions: steps, notes: $("fNotes").value.trim(),
+      date: new Date().toISOString().slice(0,10)
+    });
+    $("fSubmit").disabled = true;
+    location.hash = "";
+    toast(t("thanks"));
+    const ok = await publishCommunity();
+    if(!ok) COMMUNITY.submissions.pop();
+    renderList();
+  };
+  window.scrollTo(0,0);
 }
 
 /* ---------- pantry ---------- */
@@ -732,6 +936,7 @@ function applyLang(){
   $("langBtn").textContent = lang==="he" ? "English" : "עברית";
   $("pantryBtn").textContent = t("pantryBtn");
   $("printBookBtn").textContent = t("printBook");
+  $("addBtn").textContent = t("addRecipe");
   $("footerNote").textContent = t("footer");
   renderControls();
   route();
@@ -742,11 +947,17 @@ function route(){
   const h = location.hash;
   if(h.startsWith("#r/")) showRecipe(decodeURIComponent(h.slice(3)));
   else if(h==="#pantry") showPantry();
+  else if(h==="#add") showAddForm();
+  else if(h.startsWith("#f/")) showFamily(parseInt(h.slice(3),10));
   else showList();
 }
 window.addEventListener("hashchange", route);
 
 document.addEventListener("click", e=>{
+  const star = e.target.closest("button[data-rs]");
+  if(star){ rate(star.dataset.rid, parseInt(star.dataset.rs,10)); return; }
+  const fam = e.target.closest(".card[data-f]");
+  if(fam){ location.hash = "f/"+fam.dataset.f; return; }
   const card = e.target.closest(".card[data-id]");
   if(card){ location.hash = "r/"+encodeURIComponent(card.dataset.id); return; }
   const chip = e.target.closest(".ing-chip[data-q]");
@@ -761,6 +972,7 @@ document.addEventListener("click", e=>{
   }
 });
 $("pantryBtn").onclick = ()=>{ location.hash = "pantry"; };
+$("addBtn").onclick = ()=>{ location.hash = "add"; };
 $("searchBox").addEventListener("input", e=>{ filters.q = e.target.value; renderList(); });
 $("langBtn").onclick = ()=>{
   lang = lang==="he" ? "en" : "he";
