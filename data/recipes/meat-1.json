@@ -1,0 +1,1258 @@
+﻿[
+    {
+        "id":  "stuffed-peppers-cauliflower-rice",
+        "name":  "Stuffed Peppers with Meat and Cauliflower Rice",
+        "nameHe":  "פלפלים ממולאים בבשר ו\"אורז\" כרובית",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  40,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "4 large / 800 g",
+                                "item":  "bell peppers, halved lengthwise and seeded",
+                                "israelNote":  "Red \u0027gamba\u0027 peppers are sweetest; any color works"
+                            },
+                            {
+                                "amount":  "1 lb / 500 g",
+                                "item":  "ground beef",
+                                "israelNote":  "בשר טחון, around 15% fat, from any kosher butcher"
+                            },
+                            {
+                                "amount":  "2 cups / 200 g",
+                                "item":  "cauliflower rice, fresh or frozen",
+                                "israelNote":  "Sold frozen in Israel as אורז כרובית"
+                            },
+                            {
+                                "amount":  "1 medium / 150 g",
+                                "item":  "onion, finely diced"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 cup / 240 g",
+                                "item":  "crushed tomatoes, no added sugar"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "chopped fresh parsley"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "4 פלפלים גדולים (כ-800 גרם), חצויים לאורך ומנוקים מגרעינים",
+                              "500 גרם בשר בקר טחון (כ-15% שומן)",
+                              "2 כוסות (200 גרם) אורז כרובית, טרי או קפוא",
+                              "בצל בינוני אחד (150 גרם), קצוץ דק",
+                              "3 שיני שום, קצוצות",
+                              "2 כפות שמן זית",
+                              "כוס (240 גרם) עגבניות מרוסקות ללא תוספת סוכר",
+                              "כפית פפריקה מתוקה",
+                              "כפית כמון טחון",
+                              "כפית מלח",
+                              "חצי כפית פלפל שחור",
+                              "2 כפות פטרוזיליה טרייה קצוצה"
+                          ],
+        "instructions":  [
+                             "Heat the oven to 190°C / 375°F. Arrange the pepper halves cut side up in a baking dish.",
+                             "Heat the olive oil in a large skillet over medium heat and cook the onion for 4-5 minutes until soft. Add the garlic and cook 1 minute more.",
+                             "Add the ground beef, breaking it up, and cook until no longer pink, about 6 minutes.",
+                             "Stir in the cauliflower rice, half the crushed tomatoes, paprika, cumin, salt, and pepper. Cook 3-4 minutes until the cauliflower softens slightly.",
+                             "Spoon the filling into the pepper halves and spoon the remaining crushed tomatoes over the top.",
+                             "Cover the dish with foil and bake 25 minutes, then uncover and bake 10 minutes more until the peppers are tender.",
+                             "Scatter with parsley and serve hot."
+                         ],
+        "instructionsHe":  [
+                               "חממו תנור ל-190 מעלות. סדרו את חצאי הפלפלים בתבנית אפייה כשהצד החתוך כלפי מעלה.",
+                               "חממו את שמן הזית במחבת גדולה על אש בינונית וטגנו את הבצל 4-5 דקות עד שיתרכך. הוסיפו את השום ובשלו עוד דקה.",
+                               "הוסיפו את הבשר הטחון תוך פירור, ובשלו עד שמאבד את צבעו הוורוד, כ-6 דקות.",
+                               "ערבבו פנימה את אורז הכרובית, מחצית מהעגבניות המרוסקות, פפריקה, כמון, מלח ופלפל. בשלו 3-4 דקות עד שהכרובית מתרככת מעט.",
+                               "מלאו את חצאי הפלפלים בתערובת ויצקו מעל את שארית העגבניות המרוסקות.",
+                               "כסו את התבנית בנייר אלומיניום ואפו 25 דקות, ואז גלו ואפו עוד 10 דקות עד שהפלפלים רכים.",
+                               "פזרו פטרוזיליה והגישו חם."
+                           ],
+        "nutrition":  {
+                          "calories":  420,
+                          "fatG":  28,
+                          "satFatG":  9,
+                          "proteinG":  27,
+                          "carbsG":  13,
+                          "fiberG":  4,
+                          "netCarbsG":  9,
+                          "sugarG":  6,
+                          "sodiumMg":  680
+                      },
+        "ketoVariant":  "Use only 2 peppers (8 servings of one half each) and serve with a green salad to drop net carbs to about 5 g per serving.",
+        "ketoVariantHe":  "השתמשו רק ב-2 פלפלים (8 מנות של חצי פלפל) והגישו עם סלט ירוק כדי לרדת לכ-5 גרם פחמימות נטו למנה.",
+        "tips":  "Do not overcook the cauliflower rice in the skillet — it finishes cooking in the oven and should stay slightly firm, just like real rice in the traditional dish.",
+        "tipsHe":  "אל תבשלו יתר על המידה את אורז הכרובית במחבת — הוא ממשיך להתבשל בתנור וצריך להישאר מעט קשה, בדיוק כמו אורז אמיתי בגרסה המסורתית.",
+        "sources":  [
+                        {
+                            "creator":  "The Big Man\u0027s World",
+                            "url":  "https://thebigmansworld.com/keto-stuffed-peppers/"
+                        },
+                        {
+                            "creator":  "Cooking LSL",
+                            "url":  "https://cookinglsl.com/keto-stuffed-peppers-with-cauliflower-rice-recipe/"
+                        },
+                        {
+                            "creator":  "Easy Chef Ideas",
+                            "url":  "https://easychefideas.com/recipes/keto-stuffed-peppers/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: classic Israeli stuffed peppers are filled with white rice mixed into the meat, adding 30+ g of carbs per serving. The fix: cauliflower rice folded into spiced beef gives the same grainy texture inside the pepper. Most American keto versions bury the peppers in cheese, which is forbidden in a meat dish — this version, closest to Cooking LSL\u0027s cheese-optional method, builds flavor with cumin, paprika, and a tomato topping instead, and won for staying true to the Israeli Friday-table original.",
+        "comparedVersionsHe":  "בעיית הפחמימות: פלפלים ממולאים ישראליים קלאסיים ממולאים באורז לבן מעורבב בבשר, שמוסיף מעל 30 גרם פחמימות למנה. הפתרון: אורז כרובית מקופל לתוך בשר מתובל נותן את אותו מרקם גרגירי בתוך הפלפל. רוב הגרסאות הקטוגניות האמריקאיות קוברות את הפלפלים בגבינה — אסור בתבשיל בשרי. הגרסה הזו בונה טעם עם כמון, פפריקה ורוטב עגבניות במקום, ונבחרה כי היא הכי נאמנה למקור של שולחן שישי ישראלי."
+    },
+    {
+        "id":  "holishkes-cabbage-rolls",
+        "name":  "Stuffed Cabbage Rolls (Holishkes)",
+        "nameHe":  "כרוב ממולא (חולישקס)",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  30,
+        "cookTimeMin":  90,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1 large / 1.2 kg",
+                                "item":  "green cabbage",
+                                "israelNote":  "Freeze the whole cabbage 2 days ahead and thaw — the leaves peel off soft, no boiling needed"
+                            },
+                            {
+                                "amount":  "1.5 lb / 700 g",
+                                "item":  "ground beef",
+                                "israelNote":  "בשר טחון; a beef-lamb mix is also traditional"
+                            },
+                            {
+                                "amount":  "2 cups / 200 g",
+                                "item":  "cauliflower rice"
+                            },
+                            {
+                                "amount":  "1 medium / 150 g",
+                                "item":  "onion, grated"
+                            },
+                            {
+                                "amount":  "2 large",
+                                "item":  "eggs"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "3 cups / 700 g",
+                                "item":  "crushed tomatoes, no added sugar"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "2 tbsp / 24 g",
+                                "item":  "erythritol or other sugar-free sweetener",
+                                "israelNote":  "Sucralose-free erythritol is sold in Israeli health sections as אריתריטול"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "כרוב ירוק גדול אחד (כ-1.2 ק\"ג)",
+                              "700 גרם בשר בקר טחון",
+                              "2 כוסות (200 גרם) אורז כרובית",
+                              "בצל בינוני אחד (150 גרם), מגורר",
+                              "2 ביצים גדולות",
+                              "כף וחצי כפית מלח (1.5 כפיות)",
+                              "כפית פפריקה מתוקה",
+                              "חצי כפית פלפל שחור",
+                              "3 כוסות (700 גרם) עגבניות מרוסקות ללא תוספת סוכר",
+                              "2 כפות מיץ לימון טרי",
+                              "2 כפות (24 גרם) אריתריטול או ממתיק אחר ללא סוכר",
+                              "2 שיני שום, קצוצות"
+                          ],
+        "instructions":  [
+                             "Core the cabbage and boil it whole in a large pot for 8-10 minutes, peeling off leaves as they soften (or use the freezer trick in the ingredient note). You need about 12 large leaves; shave down the thick center rib of each leaf.",
+                             "Mix the ground beef, cauliflower rice, grated onion, eggs, 1 tsp of the salt, paprika, and pepper in a bowl until just combined.",
+                             "Place about 1/3 cup of filling near the base of each leaf, fold in the sides, and roll up snugly.",
+                             "Stir together the crushed tomatoes, lemon juice, sweetener, garlic, and remaining 1/2 tsp salt.",
+                             "Spread a little sauce in a wide heavy pot, arrange the rolls seam side down in tight layers, and pour the rest of the sauce over.",
+                             "Cover and simmer on low heat for 80-90 minutes, until the cabbage is completely tender and the filling is cooked through.",
+                             "Rest 10 minutes before serving; spoon the sweet-and-sour sauce over each roll."
+                         ],
+        "instructionsHe":  [
+                               "הוציאו את ליבת הכרוב ובשלו אותו שלם בסיר גדול 8-10 דקות, תוך קילוף העלים כשהם מתרככים (או השתמשו בטריק ההקפאה שבהערת המרכיבים). צריך כ-12 עלים גדולים; דקקו את העורק המרכזי העבה של כל עלה.",
+                               "ערבבו בקערה את הבשר הטחון, אורז הכרובית, הבצל המגורר, הביצים, כפית מלח, הפפריקה והפלפל עד לאיחוד.",
+                               "הניחו כשליש כוס מלית בבסיס כל עלה, קפלו את הצדדים פנימה וגלגלו בחוזקה.",
+                               "ערבבו את העגבניות המרוסקות, מיץ הלימון, הממתיק, השום וחצי כפית המלח הנותרת.",
+                               "מרחו מעט רוטב בסיר רחב וכבד, סדרו את הגלילות בשכבות צפופות כשהתפר כלפי מטה, ויצקו מעל את שאר הרוטב.",
+                               "כסו ובשלו על אש נמוכה 80-90 דקות, עד שהכרוב רך לגמרי והמלית מבושלת.",
+                               "השהו 10 דקות לפני ההגשה; יצקו מהרוטב החמוץ-מתוק על כל גלילה."
+                           ],
+        "nutrition":  {
+                          "calories":  380,
+                          "fatG":  22,
+                          "satFatG":  8,
+                          "proteinG":  28,
+                          "carbsG":  14,
+                          "fiberG":  5,
+                          "netCarbsG":  9,
+                          "sugarG":  7,
+                          "sodiumMg":  720
+                      },
+        "lowCarbVariant":  "Short on time? Make it \u0027unstuffed\u0027: brown the meat, stir in shredded cabbage, cauliflower rice, and the sauce, and simmer 25 minutes in one skillet.",
+        "lowCarbVariantHe":  "קצרים בזמן? הכינו גרסה \u0027לא ממולאת\u0027: השחימו את הבשר, הוסיפו כרוב מגורר, אורז כרובית והרוטב, ובשלו 25 דקות במחבת אחת.",
+        "tips":  "The freezer trick saves the messiest step: freezing and thawing the whole cabbage collapses the leaf cell walls so they roll like fabric without any boiling.",
+        "tipsHe":  "טריק ההקפאה חוסך את השלב הכי מלוכלך: הקפאה והפשרה של הכרוב השלם מרככת את דפנות התאים בעלים, והם מתגלגלים כמו בד בלי שום הרתחה.",
+        "sources":  [
+                        {
+                            "creator":  "Gluten Free Homestead",
+                            "url":  "https://glutenfreehomestead.com/2019/02/stuffed-cabbage/"
+                        },
+                        {
+                            "creator":  "Low Carb No Carb",
+                            "url":  "https://www.lowcarb-nocarb.com/stuffed-cabbage-rolls/"
+                        },
+                        {
+                            "creator":  "That Low Carb Life",
+                            "url":  "https://thatlowcarblife.com/unstuffed-cabbage-rolls/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: holishkes traditionally carry a double hit — white rice inside the filling and a sauce sweetened with sugar or raisins. The fix: cauliflower rice replaces the grain one-for-one, and lemon juice plus erythritol rebuilds the signature Ashkenazi sweet-and-sour sauce with zero sugar. This synthesis won over skillet-only \u0027unstuffed\u0027 versions because rolling real leaves keeps the holiday-table look, while borrowing the low-boil leaf technique that makes rolling manageable.",
+        "comparedVersionsHe":  "בעיית הפחמימות: חולישקס מסורתי סובל ממכה כפולה — אורז לבן במלית ורוטב ממותק בסוכר או צימוקים. הפתרון: אורז כרובית מחליף את הדגן אחד-לאחד, ומיץ לימון עם אריתריטול בונה מחדש את הרוטב החמוץ-מתוק האשכנזי המסורתי בלי גרם סוכר. הגרסה הזו נבחרה על פני גרסאות \u0027לא ממולאות\u0027 במחבת כי גלגול עלים אמיתיים שומר על מראה שולחן החג, תוך אימוץ טכניקת ריכוך העלים שהופכת את הגלגול לפשוט."
+    },
+    {
+        "id":  "low-carb-cholent",
+        "name":  "Low-Carb Cholent (Hamin)",
+        "nameHe":  "חמין דל-פחמימות",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  25,
+        "cookTimeMin":  720,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "3 lb / 1.4 kg",
+                                "item":  "fatty beef roast, cut into large chunks",
+                                "israelNote":  "צלי כתף (מס\u0027 5), אסאדו עם עצם או בריסקט — the fat keeps the meat moist for 12+ hours"
+                            },
+                            {
+                                "amount":  "2 medium / 300 g",
+                                "item":  "onions, peeled and quartered"
+                            },
+                            {
+                                "amount":  "3 medium / 400 g",
+                                "item":  "turnips, peeled and halved",
+                                "israelNote":  "לפת — the closest thing to a potato after 12 hours in the pot"
+                            },
+                            {
+                                "amount":  "2 medium / 300 g",
+                                "item":  "kohlrabi, peeled and quartered",
+                                "israelNote":  "קולרבי, cheap and available year-round in Israel"
+                            },
+                            {
+                                "amount":  "250 g",
+                                "item":  "whole button mushrooms"
+                            },
+                            {
+                                "amount":  "3 stalks / 150 g",
+                                "item":  "celery, cut into chunks"
+                            },
+                            {
+                                "amount":  "8",
+                                "item":  "eggs in shell, rinsed well",
+                                "israelNote":  "They become brown huevos haminados overnight"
+                            },
+                            {
+                                "amount":  "4 cloves",
+                                "item":  "garlic, whole"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "2 cups / 480 ml",
+                                "item":  "water, or just enough to barely cover"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "1.4 ק\"ג צלי בקר שמן, חתוך לנתחים גדולים",
+                              "2 בצלים בינוניים (300 גרם), מקולפים וחתוכים לרבעים",
+                              "3 לפתות בינוניות (400 גרם), מקולפות וחצויות",
+                              "2 קולרבי בינוניים (300 גרם), מקולפים וחתוכים לרבעים",
+                              "250 גרם פטריות שמפיניון שלמות",
+                              "3 גבעולי סלרי (150 גרם), חתוכים לחתיכות",
+                              "8 ביצים בקליפתן, שטופות היטב",
+                              "4 שיני שום שלמות",
+                              "כף פפריקה מתוקה",
+                              "כף מלח",
+                              "כפית פלפל שחור",
+                              "2 כוסות (480 מ\"ל) מים, או רק כדי כיסוי בקושי"
+                          ],
+        "instructions":  [
+                             "Scatter the onions over the bottom of a slow cooker (crockpot).",
+                             "Season the meat chunks all over with the salt, pepper, and paprika, and nestle them on top of the onions with the garlic cloves.",
+                             "Arrange the turnips, kohlrabi, mushrooms, and celery around and over the meat.",
+                             "Tuck the rinsed whole eggs into the gaps between the vegetables.",
+                             "Pour in the water — it should barely reach the top layer; low-carb vegetables release plenty of their own liquid.",
+                             "Cook on high for 2-3 hours before Shabbat begins, then switch to low and cook overnight, 10 or more hours.",
+                             "To serve, peel the eggs and ladle out meat, vegetables, and gravy together."
+                         ],
+        "instructionsHe":  [
+                               "פזרו את הבצלים בתחתית סיר בישול איטי (קרוקפוט).",
+                               "תבלו את נתחי הבשר מכל הצדדים במלח, בפלפל ובפפריקה, והניחו אותם על הבצלים יחד עם שיני השום.",
+                               "סדרו את הלפת, הקולרבי, הפטריות והסלרי סביב הבשר ומעליו.",
+                               "השחילו את הביצים השטופות בשלמותן לרווחים שבין הירקות.",
+                               "יצקו את המים — הם צריכים בקושי להגיע לשכבה העליונה; ירקות דלי-פחמימות משחררים הרבה נוזלים משלהם.",
+                               "בשלו על חום גבוה 2-3 שעות לפני כניסת השבת, ואז העבירו לחום נמוך ובשלו לילה שלם, 10 שעות או יותר.",
+                               "להגשה, קלפו את הביצים והגישו בשר, ירקות ורוטב יחד."
+                           ],
+        "nutrition":  {
+                          "calories":  480,
+                          "fatG":  32,
+                          "satFatG":  12,
+                          "proteinG":  38,
+                          "carbsG":  10,
+                          "fiberG":  3,
+                          "netCarbsG":  7,
+                          "sugarG":  5,
+                          "sodiumMg":  890
+                      },
+        "ketoVariant":  "Skip the turnips and double the mushrooms and celery for roughly 4 g net carbs per serving.",
+        "ketoVariantHe":  "וותרו על הלפת והכפילו את הפטריות והסלרי — כ-4 גרם פחמימות נטו למנה.",
+        "lowCarbVariant":  "Feeding mixed company? Add potatoes and barley in a cooking bag inside the same pot — the low-carbers simply serve themselves around it.",
+        "lowCarbVariantHe":  "מאכילים חברה מעורבת? הוסיפו תפוחי אדמה וגריסים בשקית בישול בתוך אותו סיר — שומרי הדיאטה פשוט יתעלמו ממנה בהגשה.",
+        "tips":  "Turnip is the hero here: after 12 hours it absorbs the meat gravy and turns soft and savory, and most guests will swear it is potato.",
+        "tipsHe":  "הלפת היא הגיבורה כאן: אחרי 12 שעות היא סופגת את רוטב הבשר והופכת רכה ועשירה, ורוב האורחים יישבעו שזה תפוח אדמה.",
+        "sources":  [
+                        {
+                            "creator":  "Simple to Wow",
+                            "url":  "https://simpletowow.com/2016/05/27/simply-the-best-cholent-with-low-carb-ingredients-for-the-dieters-among-us/"
+                        },
+                        {
+                            "creator":  "Levana Cooks",
+                            "url":  "https://levanacooks.com/recipe/cholent-variations-ashkenazi-sephardi/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: cholent is practically defined by barley, potatoes, and beans — a bowl can top 60 g of carbs before you reach the meat. The fix: turnip and kohlrabi stand in for potatoes, mushrooms and celery add body, extra fatty meat and whole eggs (huevos haminados) supply the richness the starches used to. Simple to Wow\u0027s crockpot method won for its no-water-wasted technique and family-friendly flexibility; we added the traditional overnight eggs from Sephardi hamin, which the base version omitted.",
+        "comparedVersionsHe":  "בעיית הפחמימות: חמין מוגדר כמעט על ידי גריסים, תפוחי אדמה ושעועית — קערה יכולה לעבור 60 גרם פחמימות עוד לפני הבשר. הפתרון: לפת וקולרבי במקום תפוחי אדמה, פטריות וסלרי מוסיפים גוף, ובשר שמן יותר וביצים שלמות (חמינדוס) מספקים את העושר שהעמילנים סיפקו. שיטת הקרוקפוט של Simple to Wow נבחרה בזכות טכניקת מעט-המים והגמישות המשפחתית; הוספנו את ביצי הלילה המסורתיות מהחמין הספרדי, שחסרו בגרסת הבסיס."
+    },
+    {
+        "id":  "almond-sesame-schnitzel",
+        "name":  "Crispy Almond-Sesame Chicken Schnitzel",
+        "nameHe":  "שניצל עוף פריך בציפוי שקדים ושומשום",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "4 cutlets / 600 g",
+                                "item":  "boneless chicken, pounded 1 cm thin",
+                                "israelNote":  "פרגית (boneless thigh) stays juicier than חזה עוף; both work"
+                            },
+                            {
+                                "amount":  "1 cup / 100 g",
+                                "item":  "almond flour",
+                                "israelNote":  "קמח שקדים — cheapest in bulk at Israeli spice shops"
+                            },
+                            {
+                                "amount":  "1/3 cup / 50 g",
+                                "item":  "sesame seeds"
+                            },
+                            {
+                                "amount":  "2 large",
+                                "item":  "eggs"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "garlic powder"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "1/2 cup / 120 ml",
+                                "item":  "avocado or light olive oil, for shallow frying"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "4 שניצלים (600 גרם) עוף ללא עצם, רדודים לעובי 1 ס\"מ",
+                              "כוס (100 גרם) קמח שקדים",
+                              "שליש כוס (50 גרם) שומשום",
+                              "2 ביצים גדולות",
+                              "כפית פפריקה מתוקה",
+                              "חצי כפית אבקת שום",
+                              "כפית מלח",
+                              "חצי כפית פלפל שחור",
+                              "חצי כוס (120 מ\"ל) שמן אבוקדו או שמן זית עדין, לטיגון רדוד"
+                          ],
+        "instructions":  [
+                             "Pat the cutlets dry and season both sides with half the salt and pepper.",
+                             "Beat the eggs in a shallow bowl. In a second shallow bowl, mix the almond flour, sesame seeds, paprika, garlic powder, and remaining salt and pepper.",
+                             "Dip each cutlet in egg, letting the excess drip off, then press firmly into the almond-sesame mixture to coat both sides.",
+                             "Rest the coated cutlets 5 minutes so the crust sets — this stops it falling off in the pan.",
+                             "Heat the oil in a wide skillet over medium heat until it shimmers.",
+                             "Fry the schnitzels 3-4 minutes per side until deep golden and cooked through; work in batches, do not crowd the pan.",
+                             "Drain on a rack or paper towels and serve hot with lemon wedges."
+                         ],
+        "instructionsHe":  [
+                               "יבשו את השניצלים במגבת נייר ותבלו משני הצדדים בחצי מהמלח והפלפל.",
+                               "טרפו את הביצים בקערה שטוחה. בקערה שטוחה שנייה ערבבו את קמח השקדים, השומשום, הפפריקה, אבקת השום ושארית המלח והפלפל.",
+                               "טבלו כל שניצל בביצה, תנו לעודף לטפטף, ואז הדקו היטב לתערובת השקדים-שומשום לציפוי משני הצדדים.",
+                               "השהו את השניצלים המצופים 5 דקות כדי שהציפוי יתייצב — כך הוא לא יתפרק במחבת.",
+                               "חממו את השמן במחבת רחבה על אש בינונית עד שהוא מנצנץ.",
+                               "טגנו את השניצלים 3-4 דקות מכל צד עד להזהבה עמוקה ולבישול מלא; עבדו במנות, אל תצופפו את המחבת.",
+                               "סננו על רשת או נייר סופג והגישו חם עם פלחי לימון."
+                           ],
+        "nutrition":  {
+                          "calories":  520,
+                          "fatG":  38,
+                          "satFatG":  6,
+                          "proteinG":  38,
+                          "carbsG":  6,
+                          "fiberG":  3,
+                          "netCarbsG":  3,
+                          "sugarG":  1,
+                          "sodiumMg":  640
+                      },
+        "ketoVariant":  "Air-fry at 200°C for 6 minutes per side with a light spray of oil to cut the fat by about a third.",
+        "ketoVariantHe":  "אפו במחבת אוויר ב-200 מעלות 6 דקות מכל צד עם ריסוס קל של שמן כדי לחתוך כשליש מהשומן.",
+        "tips":  "Keep the heat at medium, not high — almond flour browns faster than breadcrumbs and can scorch before the chicken cooks through. Add a teaspoon of za\u0027atar to the coating for an Israeli twist.",
+        "tipsHe":  "שמרו על אש בינונית, לא גבוהה — קמח שקדים משחים מהר יותר מפירורי לחם ועלול להישרף לפני שהעוף מוכן. הוסיפו כפית זעתר לציפוי לטוויסט ישראלי.",
+        "sources":  [
+                        {
+                            "creator":  "Consciously Kosher",
+                            "url":  "https://www.consciouslykosher.com/blog/almond-flour-schnitzel"
+                        },
+                        {
+                            "creator":  "Keto Focus",
+                            "url":  "https://www.ketofocus.com/recipes/keto-chicken-schnitzel/"
+                        },
+                        {
+                            "creator":  "Tori Avey",
+                            "url":  "https://toriavey.com/gluten-free-chicken-schnitzel/"
+                        },
+                        {
+                            "creator":  "Healthy Little Peach",
+                            "url":  "https://healthylittlepeach.com/crispy-keto-chicken-schnitzel-whole30/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: the national dish of every Israeli kid runs on flour plus breadcrumb coating — about 15-20 g of carbs per cutlet before it hits the oil. The fix: almond flour gives the golden crust and sesame seeds bring the crunch (and the classic Israeli schnitzel look, since sesame-coated schnitzel is already a mainstream Israeli variant). Several keto versions add parmesan for crispness — impossible in a kosher meat dish — so this synthesis follows the kosher-native Consciously Kosher approach and gets its crunch from sesame and a proper 5-minute crust rest instead.",
+        "comparedVersionsHe":  "בעיית הפחמימות: המאכל הלאומי של כל ילד ישראלי בנוי על קמח ופירורי לחם — כ-15-20 גרם פחמימות לשניצל עוד לפני השמן. הפתרון: קמח שקדים נותן את הקראסט הזהוב והשומשום מביא את הפריכות (ואת המראה הישראלי הקלאסי — שניצל בציפוי שומשום הוא ממילא גרסה ישראלית מוכרת). כמה גרסאות קטו מוסיפות פרמזן לפריכות — בלתי אפשרי במנה בשרית כשרה — ולכן הגרסה הזו הולכת בדרך הכשרה של Consciously Kosher ומשיגה פריכות משומשום ומ-5 דקות מנוחה של הציפוי."
+    },
+    {
+        "id":  "moroccan-meat-cigars",
+        "name":  "Moroccan Meat Cigars in Egg Wraps",
+        "nameHe":  "סיגרים מרוקאיים בעטיפת ביצה",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  25,
+        "cookTimeMin":  20,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "6 large",
+                                "item":  "eggs (for the wrappers)"
+                            },
+                            {
+                                "amount":  "1 tbsp / 8 g",
+                                "item":  "coconut flour (optional, firms the wraps)",
+                                "israelNote":  "קמח קוקוס, in every Israeli health-food aisle"
+                            },
+                            {
+                                "amount":  "14 oz / 400 g",
+                                "item":  "ground beef",
+                                "israelNote":  "בשר טחון; half beef, half lamb is the classic Moroccan mix"
+                            },
+                            {
+                                "amount":  "1 small / 100 g",
+                                "item":  "onion, finely diced"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cinnamon"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "turmeric"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "3/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "chopped parsley or cilantro"
+                            },
+                            {
+                                "amount":  "3 tbsp / 45 ml",
+                                "item":  "olive oil"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "6 ביצים גדולות (לעטיפות)",
+                              "כף (8 גרם) קמח קוקוס (לא חובה, מייצב את העטיפות)",
+                              "400 גרם בשר בקר טחון",
+                              "בצל קטן אחד (100 גרם), קצוץ דק",
+                              "2 שיני שום, קצוצות",
+                              "כפית כמון טחון",
+                              "חצי כפית קינמון טחון",
+                              "חצי כפית כורכום",
+                              "כפית פפריקה מתוקה",
+                              "3/4 כפית מלח",
+                              "2 כפות פטרוזיליה או כוסברה קצוצה",
+                              "3 כפות שמן זית"
+                          ],
+        "instructions":  [
+                             "Heat 1 tbsp of the oil in a skillet over medium heat and cook the onion 4 minutes until soft. Add the garlic, then the ground beef, breaking it up well.",
+                             "Season with the cumin, cinnamon, turmeric, paprika, and salt, and cook until the meat is browned and fairly dry, 7-8 minutes. Stir in the herbs and let the filling cool slightly.",
+                             "Whisk the eggs with the coconut flour and a pinch of salt until smooth. Rest 3 minutes so the flour hydrates.",
+                             "Heat a lightly oiled 20 cm nonstick pan over medium-low heat. Pour in a thin layer of egg (about 3 tbsp), swirl, and cook 1-2 minutes until set; flip for 10 seconds. Repeat to make 8 thin wraps.",
+                             "Spoon a line of filling along the edge of each wrap, fold in the ends, and roll into a tight cigar.",
+                             "Heat the remaining oil in the skillet and fry the cigars seam side down, turning, 2-3 minutes until golden all over.",
+                             "Serve hot with tahini or a spicy tomato dip (matbucha-style, no sugar)."
+                         ],
+        "instructionsHe":  [
+                               "חממו כף שמן במחבת על אש בינונית וטגנו את הבצל 4 דקות עד שיתרכך. הוסיפו את השום, ואז את הבשר הטחון תוך פירור היטב.",
+                               "תבלו בכמון, קינמון, כורכום, פפריקה ומלח, ובשלו עד שהבשר משחים ויבש יחסית, 7-8 דקות. ערבבו פנימה את עשבי התיבול ותנו למלית להצטנן מעט.",
+                               "טרפו את הביצים עם קמח הקוקוס וקורט מלח עד לתערובת חלקה. השהו 3 דקות כדי שהקמח יספח נוזלים.",
+                               "חממו מחבת נון-סטיק 20 ס\"מ משומנת קלות על אש בינונית-נמוכה. יצקו שכבה דקה של ביצה (כ-3 כפות), סובבו את המחבת, ובשלו 1-2 דקות עד להתייצבות; הפכו ל-10 שניות. חזרו על הפעולה להכנת 8 עטיפות דקות.",
+                               "הניחו פס מלית לאורך שולי כל עטיפה, קפלו את הקצוות וגלגלו לסיגר הדוק.",
+                               "חממו את שארית השמן במחבת וטגנו את הסיגרים כשהתפר כלפי מטה, תוך סיבוב, 2-3 דקות עד הזהבה מכל הצדדים.",
+                               "הגישו חם עם טחינה או מטבוחה חריפה ללא סוכר."
+                           ],
+        "nutrition":  {
+                          "calories":  430,
+                          "fatG":  32,
+                          "satFatG":  9,
+                          "proteinG":  30,
+                          "carbsG":  5,
+                          "fiberG":  1,
+                          "netCarbsG":  4,
+                          "sugarG":  2,
+                          "sodiumMg":  560
+                      },
+        "lowCarbVariant":  "Store-bought low-carb tortillas or coconut wraps can replace the egg wraps — check labels for under 6 g net carbs per wrap and bake instead of fry so they crisp without cracking.",
+        "lowCarbVariantHe":  "טורטיות דלות-פחמימות קנויות או עטיפות קוקוס יכולות להחליף את עטיפות הביצה — בדקו שבתווית פחות מ-6 גרם פחמימות נטו לעטיפה, ואפו במקום לטגן כדי שיישארו פריכות בלי להיסדק.",
+        "tips":  "The filling must be cool and dry before rolling — hot, wet filling tears the delicate egg wraps. Cigars freeze well before the final fry.",
+        "tipsHe":  "המלית חייבת להיות קרירה ויבשה לפני הגלגול — מלית חמה ורטובה קורעת את עטיפות הביצה העדינות. הסיגרים מקפיאים היטב לפני הטיגון הסופי.",
+        "sources":  [
+                        {
+                            "creator":  "NUCO (Moroccan Cigars, AIP/Paleo/Keto)",
+                            "url":  "https://shop.nucoconut.com/blogs/recipes/moroccan-cigars-aip-paleo-keto"
+                        },
+                        {
+                            "creator":  "A Saucy Kitchen",
+                            "url":  "https://www.asaucykitchen.com/keto-egg-wraps/"
+                        },
+                        {
+                            "creator":  "A Spicy Perspective",
+                            "url":  "https://www.aspicyperspective.com/keto-egg-roll-wrap-recipe/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: the beloved Moroccan-Israeli cigars are rolled in filo or sigar leaves — pure wheat starch, roughly 15 g of carbs per serving in the wrapper alone. The fix: thin savory egg crepes (stabilized with a spoon of coconut flour) roll just like filo and crisp in the pan. Coconut-wrap versions exist but taste noticeably sweet against the cumin-cinnamon beef; the egg-wrap approach won on flavor neutrality and on using ingredients from any Israeli makolet.",
+        "comparedVersionsHe":  "בעיית הפחמימות: הסיגרים המרוקאים-ישראליים האהובים מגולגלים בעלי פילו או עלי סיגר — עמילן חיטה טהור, כ-15 גרם פחמימות למנה בעטיפה בלבד. הפתרון: קרפים דקים ומלוחים מביצה (מיוצבים בכף קמח קוקוס) מתגלגלים בדיוק כמו פילו ומשחימים במחבת. קיימות גרסאות עטיפת קוקוס, אבל הן מתוקות מדי מול בשר הכמון-קינמון; גישת עטיפת הביצה ניצחה בזכות טעם ניטרלי ומרכיבים מכל מכולת ישראלית."
+    },
+    {
+        "id":  "meatballs-cauliflower-rice-tomato",
+        "name":  "Meatballs with Cauliflower \u0027Rice\u0027 in Tomato Sauce",
+        "nameHe":  "קציצות בשר עם \"אורז\" ברוטב עגבניות",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  35,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 lb / 500 g",
+                                "item":  "ground beef",
+                                "israelNote":  "בשר טחון; turkey (הודו טחון) works and is cheaper in Israel"
+                            },
+                            {
+                                "amount":  "1 1/2 cups / 150 g",
+                                "item":  "cauliflower rice"
+                            },
+                            {
+                                "amount":  "1 large",
+                                "item":  "egg"
+                            },
+                            {
+                                "amount":  "1 small / 100 g",
+                                "item":  "onion, grated"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced (divided)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "3 cups / 700 g",
+                                "item":  "tomato passata or crushed tomatoes, no added sugar",
+                                "israelNote":  "Check Israeli רסק/פסטה brands — many add sugar"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "dried oregano"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "chopped parsley"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "500 גרם בשר בקר טחון",
+                              "כוס וחצי (150 גרם) אורז כרובית",
+                              "ביצה גדולה אחת",
+                              "בצל קטן אחד (100 גרם), מגורר",
+                              "3 שיני שום, קצוצות (בחלוקה)",
+                              "כפית מלח",
+                              "חצי כפית פלפל שחור",
+                              "כפית פפריקה מתוקה",
+                              "3 כוסות (700 גרם) פסטת עגבניות (פסאטה) או עגבניות מרוסקות ללא תוספת סוכר",
+                              "2 כפות שמן זית",
+                              "כפית אורגנו יבש",
+                              "2 כפות פטרוזיליה קצוצה"
+                          ],
+        "instructions":  [
+                             "Squeeze the cauliflower rice in a clean towel to remove excess moisture.",
+                             "Mix the beef, cauliflower rice, egg, grated onion, one third of the garlic, salt, pepper, and paprika until just combined — do not overwork.",
+                             "With wet hands, roll into 16 meatballs about 4 cm across.",
+                             "Heat the oil in a deep skillet over medium-high heat and brown the meatballs on two sides, about 5 minutes total; they need not be cooked through.",
+                             "Push the meatballs aside, add the remaining garlic to the oil for 30 seconds, then pour in the passata and add the oregano.",
+                             "Cover and simmer on low for 20-25 minutes, until the meatballs are cooked through and the sauce has thickened.",
+                             "Scatter with parsley and serve — over extra sautéed cauliflower rice if you like."
+                         ],
+        "instructionsHe":  [
+                               "סחטו את אורז הכרובית במגבת נקייה להוצאת עודפי נוזלים.",
+                               "ערבבו את הבשר, אורז הכרובית, הביצה, הבצל המגורר, שליש מהשום, המלח, הפלפל והפפריקה עד לאיחוד — אל תעבדו יותר מדי את התערובת.",
+                               "בידיים רטובות גלגלו 16 קציצות בקוטר כ-4 ס\"מ.",
+                               "חממו את השמן במחבת עמוקה על אש בינונית-גבוהה והשחימו את הקציצות משני צדדים, כ-5 דקות סך הכל; הן לא צריכות להיות מבושלות עד הסוף.",
+                               "הזיזו את הקציצות הצידה, הוסיפו את שארית השום לשמן ל-30 שניות, ואז יצקו את הפסאטה והוסיפו את האורגנו.",
+                               "כסו ובשלו על אש נמוכה 20-25 דקות, עד שהקציצות מבושלות והרוטב הסמיך.",
+                               "פזרו פטרוזיליה והגישו — על אורז כרובית מוקפץ נוסף אם תרצו."
+                           ],
+        "nutrition":  {
+                          "calories":  400,
+                          "fatG":  27,
+                          "satFatG":  9,
+                          "proteinG":  27,
+                          "carbsG":  12,
+                          "fiberG":  4,
+                          "netCarbsG":  8,
+                          "sugarG":  7,
+                          "sodiumMg":  750
+                      },
+        "ketoVariant":  "Halve the passata and loosen the sauce with 1/2 cup water or stock for about 5 g net carbs per serving.",
+        "ketoVariantHe":  "הפחיתו את הפסאטה בחצי ודללו את הרוטב בחצי כוס מים או ציר — כ-5 גרם פחמימות נטו למנה.",
+        "tips":  "Squeezing the cauliflower dry is the make-or-break step: wet cauliflower makes meatballs that fall apart in the sauce.",
+        "tipsHe":  "סחיטת הכרובית היא השלב הקריטי: כרובית רטובה יוצרת קציצות שמתפרקות ברוטב.",
+        "sources":  [
+                        {
+                            "creator":  "Simply So Healthy",
+                            "url":  "https://simplysohealthy.com/low-carb-porcupine-meatballs/"
+                        },
+                        {
+                            "creator":  "My Montana Kitchen",
+                            "url":  "https://mymontanakitchen.com/instant-pot-low-carb-porcupine-meatballs/"
+                        },
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/best-italian-keto-meatballs/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: Israeli-style meatballs in red sauce hide two carb sources — rice mixed into the meat (as in ktzitzot im orez) and sugar stirred into the tomato sauce. The fix: cauliflower rice inside the meatballs gives the \u0027porcupine\u0027 texture with none of the starch, and an unsweetened passata simmered down concentrates its own natural sweetness. Simply So Healthy\u0027s stovetop porcupine method won for one-pan simplicity; the passata label-checking habit comes from Sugar Free Londoner, because many Israeli tomato products quietly add sugar.",
+        "comparedVersionsHe":  "בעיית הפחמימות: קציצות ברוטב אדום בסגנון ישראלי מסתירות שני מקורות פחמימה — אורז מעורבב בבשר (כמו בקציצות עם אורז) וסוכר ברוטב העגבניות. הפתרון: אורז כרובית בתוך הקציצות נותן את מרקם ה\u0027קיפוד\u0027 בלי העמילן, ופסאטה לא ממותקת שמצטמצמת מרכזת את המתיקות הטבעית שלה. שיטת הסיר-אחד של Simply So Healthy נבחרה בזכות הפשטות; הרגל בדיקת התוויות על הפסאטה מגיע מ-Sugar Free Londoner, כי מוצרי עגבניות ישראליים רבים מוסיפים סוכר בשקט."
+    },
+    {
+        "id":  "shawarma-plate",
+        "name":  "Shawarma Plate with Tahini and Chopped Salad",
+        "nameHe":  "צלחת שווארמה עם טחינה וסלט קצוץ",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 lb / 900 g",
+                                "item":  "boneless skinless chicken thighs, cut into strips",
+                                "israelNote":  "פרגית — the authentic Israeli shawarma cut; dark meat is essential"
+                            },
+                            {
+                                "amount":  "3 tbsp / 45 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "turmeric"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground coriander"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "ground cinnamon"
+                            },
+                            {
+                                "amount":  "1 1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1 medium / 150 g",
+                                "item":  "onion, thickly sliced"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 g",
+                                "item":  "raw tahini",
+                                "israelNote":  "טחינה גולמית — Har Bracha or Achva; whisk with water and lemon"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "2 cucumbers + 2 tomatoes / 400 g",
+                                "item":  "diced for Israeli chopped salad"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "900 גרם פרגית ללא עור, חתוכה לרצועות",
+                              "3 כפות שמן זית",
+                              "2 כפיות כמון טחון",
+                              "2 כפיות פפריקה מתוקה",
+                              "כפית כורכום",
+                              "חצי כפית כוסברה טחונה",
+                              "רבע כפית קינמון טחון",
+                              "כפית ורבע מלח",
+                              "בצל בינוני אחד (150 גרם), פרוס עבה",
+                              "רבע כוס (60 גרם) טחינה גולמית",
+                              "2 כפות מיץ לימון טרי",
+                              "2 מלפפונים ו-2 עגבניות (400 גרם), קצוצים לסלט ישראלי"
+                          ],
+        "instructions":  [
+                             "Toss the chicken strips with the olive oil, cumin, paprika, turmeric, coriander, cinnamon, 1 tsp of the salt, and the sliced onion. Marinate 30 minutes (or overnight).",
+                             "Whisk the tahini with half the lemon juice, the remaining 1/4 tsp salt, and 4-6 tbsp cold water until pale and pourable.",
+                             "Toss the diced cucumbers and tomatoes with the remaining lemon juice and a pinch of salt.",
+                             "Heat a large cast-iron pan or plancha over high heat until smoking.",
+                             "Spread the chicken and onions in a single layer and cook undisturbed 3-4 minutes to char, then toss and cook 6-8 minutes more until browned at the edges and cooked through.",
+                             "Pile the shawarma on plates with the chopped salad, drizzle generously with the tahini, and add pickles or amba if you have them.",
+                             "For the full experience, wrap it in the pareve keto laffa from this book (see the \u0027laffa-style-wraps\u0027 recipe)."
+                         ],
+        "instructionsHe":  [
+                               "ערבבו את רצועות הפרגית עם שמן הזית, הכמון, הפפריקה, הכורכום, הכוסברה, הקינמון, כפית מלח והבצל הפרוס. השרו 30 דקות (או לילה במקרר).",
+                               "טרפו את הטחינה עם מחצית מיץ הלימון, רבע כפית המלח הנותרת ו-4-6 כפות מים קרים עד לרוטב בהיר ונוזלי.",
+                               "ערבבו את המלפפונים והעגבניות הקצוצים עם שארית מיץ הלימון וקורט מלח.",
+                               "חממו מחבת ברזל גדולה או פלנצ\u0027ה על אש גבוהה עד שמעשנת.",
+                               "פזרו את העוף והבצל בשכבה אחת ובשלו בלי לגעת 3-4 דקות לחריכה, ואז ערבבו ובשלו עוד 6-8 דקות עד השחמה בקצוות ובישול מלא.",
+                               "ערמו את השווארמה בצלחות עם הסלט הקצוץ, זלפו טחינה בנדיבות, והוסיפו חמוצים או עמבה אם יש.",
+                               "לחוויה המלאה, גלגלו בלאפה הקטוגנית הפרווה מהספר הזה (ראו מתכון \u0027laffa-style-wraps\u0027)."
+                           ],
+        "nutrition":  {
+                          "calories":  520,
+                          "fatG":  36,
+                          "satFatG":  7,
+                          "proteinG":  42,
+                          "carbsG":  10,
+                          "fiberG":  3,
+                          "netCarbsG":  7,
+                          "sugarG":  4,
+                          "sodiumMg":  720
+                      },
+        "tips":  "The char is the shawarma: a screaming-hot, crowded-free pan mimics the crisp edges of the rotating spit. Cook in two batches rather than steaming it all in one.",
+        "tipsHe":  "החריכה היא השווארמה: מחבת לוהטת ולא צפופה מחקה את הקצוות הפריכים של השיפוד המסתובב. בשלו בשתי מנות במקום לאדות הכל בבת אחת.",
+        "sources":  [
+                        {
+                            "creator":  "I Breathe I\u0027m Hungry",
+                            "url":  "https://www.ibreatheimhungry.com/easy-keto-chicken-shawarma-low-carb/"
+                        },
+                        {
+                            "creator":  "Stem and Spoon",
+                            "url":  "https://stemandspoon.com/low-carb-chicken-shawarma-plate-keto-dairy-free/"
+                        },
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/easy-chicken-shawarma/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: shawarma meat is naturally keto — the 40+ g of carbs come from the laffa or pita it is stuffed into (plus sugary amba and chips). The fix: serve it as an Israeli-style plate over chopped salad with lemony tahini, or roll it in this book\u0027s pareve keto laffa (\u0027laffa-style-wraps\u0027). Stem and Spoon\u0027s dairy-free plate concept won as the base because many keto shawarma bowls default to yogurt sauce — forbidden with meat — while tahini is the authentically Israeli, naturally pareve choice anyway.",
+        "comparedVersionsHe":  "בעיית הפחמימות: בשר השווארמה עצמו קטוגני באופן טבעי — 40+ גרם הפחמימות מגיעים מהלאפה או הפיתה שעוטפות אותו (ועוד עמבה ממותקת וצ\u0027יפס). הפתרון: הגישו כצלחת ישראלית על סלט קצוץ עם טחינה לימונית, או גלגלו בלאפה הקטוגנית הפרווה של הספר (\u0027laffa-style-wraps\u0027). הקונספט ללא-חלב של Stem and Spoon נבחר כבסיס כי הרבה קערות שווארמה קטו הולכות אוטומטית על רוטב יוגורט — אסור עם בשר — בעוד שטחינה היא ממילא הבחירה הישראלית האותנטית והפרווה."
+    },
+    {
+        "id":  "stuffed-zucchini-memulaim",
+        "name":  "Meat-Stuffed Zucchini (Memula\u0027im)",
+        "nameHe":  "קישואים ממולאים בבשר",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  45,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "4 medium / 800 g",
+                                "item":  "zucchini",
+                                "israelNote":  "Light-green Israeli קישואים are ideal for coring; dark courgettes work halved as boats"
+                            },
+                            {
+                                "amount":  "1 lb / 500 g",
+                                "item":  "ground beef or lamb",
+                                "israelNote":  "בשר טחון; lamb (טלה) gives the deeper Levantine flavor"
+                            },
+                            {
+                                "amount":  "1 cup / 100 g",
+                                "item":  "cauliflower rice"
+                            },
+                            {
+                                "amount":  "1 small / 100 g",
+                                "item":  "onion, grated"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "baharat or allspice",
+                                "israelNote":  "בהרט at any Israeli spice stall"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "salt, plus more for the sauce"
+                            },
+                            {
+                                "amount":  "2 cups / 480 g",
+                                "item":  "crushed tomatoes, no added sugar"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "lemon juice"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "chopped mint or parsley"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "4 קישואים בינוניים (800 גרם)",
+                              "500 גרם בשר בקר או טלה טחון",
+                              "כוס (100 גרם) אורז כרובית",
+                              "בצל קטן אחד (100 גרם), מגורר",
+                              "3 שיני שום, קצוצות",
+                              "כפית כמון טחון",
+                              "חצי כפית בהרט או פלפל אנגלי",
+                              "כפית מלח, ועוד מעט לרוטב",
+                              "2 כוסות (480 גרם) עגבניות מרוסקות ללא תוספת סוכר",
+                              "כף מיץ לימון",
+                              "2 כפות שמן זית",
+                              "2 כפות נענע או פטרוזיליה קצוצה"
+                          ],
+        "instructions":  [
+                             "Trim the zucchini ends. Core each one with a corer (or halve lengthwise and scoop with a spoon), leaving 1/2 cm walls. Chop and reserve a handful of the flesh.",
+                             "Mix the meat, cauliflower rice, grated onion, half the garlic, cumin, baharat, and 1 tsp salt.",
+                             "Fill the zucchini loosely with the meat mixture — the filling swells as it cooks.",
+                             "Heat the olive oil in a wide pot, cook the remaining garlic and reserved zucchini flesh for 2 minutes, then add the crushed tomatoes, lemon juice, a pinch of salt, and 1/2 cup / 120 ml water.",
+                             "Lay the stuffed zucchini in the sauce in a single layer.",
+                             "Cover and simmer gently 40-45 minutes, turning once, until the zucchini are tender and the filling is cooked through.",
+                             "Shower with mint or parsley and serve with the sauce spooned over."
+                         ],
+        "instructionsHe":  [
+                               "חתכו את קצות הקישואים. חצבו כל אחד במקדח קישואים (או חצו לאורך ורוקנו בכף), והשאירו דפנות בעובי חצי ס\"מ. קצצו ושמרו חופן מהתוכן.",
+                               "ערבבו את הבשר, אורז הכרובית, הבצל המגורר, מחצית השום, הכמון, הבהרט וכפית מלח.",
+                               "מלאו את הקישואים ברפיון בתערובת הבשר — המלית תופחת בבישול.",
+                               "חממו את שמן הזית בסיר רחב, טגנו את שארית השום ותוכן הקישואים השמור 2 דקות, ואז הוסיפו את העגבניות המרוסקות, מיץ הלימון, קורט מלח וחצי כוס (120 מ\"ל) מים.",
+                               "הניחו את הקישואים הממולאים ברוטב בשכבה אחת.",
+                               "כסו ובשלו על אש עדינה 40-45 דקות, תוך הפיכה פעם אחת, עד שהקישואים רכים והמלית מבושלת.",
+                               "פזרו נענע או פטרוזיליה והגישו עם הרוטב מעל."
+                           ],
+        "nutrition":  {
+                          "calories":  390,
+                          "fatG":  26,
+                          "satFatG":  9,
+                          "proteinG":  26,
+                          "carbsG":  13,
+                          "fiberG":  4,
+                          "netCarbsG":  9,
+                          "sugarG":  8,
+                          "sodiumMg":  640
+                      },
+        "tips":  "Fill loosely, never pack: the classic mistake with memula\u0027im is stuffing them tight, which bursts the zucchini as the meat expands. Leftover filling makes excellent small meatballs poached in the same sauce.",
+        "tipsHe":  "מלאו ברפיון, לעולם אל תדחסו: הטעות הקלאסית בממולאים היא מילוי צפוף שמפוצץ את הקישוא כשהבשר תופח. שאריות מלית הופכות לקציצות קטנות מצוינות ברוטב עצמו.",
+        "sources":  [
+                        {
+                            "creator":  "My Life Cookbook",
+                            "url":  "https://mylifecookbook.com/middle-eastern-stuffed-zucchini/"
+                        },
+                        {
+                            "creator":  "Sugar-Free Mom",
+                            "url":  "https://www.sugarfreemom.com/recipes/low-carb-taco-stuffed-zucchini-boats/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/keto-stuffed-zucchini-ground-beef/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: Israeli memula\u0027im filling is traditionally half rice, half meat — 20-30 g of carbs per serving before the sweetened tomato sauce. The fix: cauliflower rice keeps the filling\u0027s loose, grainy character, and the sauce leans on lemon and the zucchini\u0027s own trimmings instead of sugar. My Life Cookbook\u0027s Middle Eastern spicing (cumin-allspice) won over American \u0027zucchini boat\u0027 versions, which pile on cheese and taco seasoning and lose the dish entirely; coring whole zucchini, as done in Israel, keeps the presentation authentic.",
+        "comparedVersionsHe":  "בעיית הפחמימות: מלית ממולאים ישראלית היא מסורתית חצי אורז חצי בשר — 20-30 גרם פחמימות למנה עוד לפני רוטב העגבניות הממותק. הפתרון: אורז כרובית שומר על האופי הגרגירי והאוורירי של המלית, והרוטב נשען על לימון ותוכן הקישואים במקום סוכר. התיבול המזרח-תיכוני (כמון-בהרט) של My Life Cookbook ניצח גרסאות \u0027סירות קישוא\u0027 אמריקאיות שעמוסות גבינה ותיבול טאקו ומאבדות את המנה לגמרי; חציבת קישואים שלמים, כמקובל בישראל, שומרת על ההגשה האותנטית."
+    },
+    {
+        "id":  "chicken-sofrito-kohlrabi",
+        "name":  "Jerusalem Chicken Sofrito with Kohlrabi",
+        "nameHe":  "סופריטו ירושלמי עם קולרבי",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  20,
+        "cookTimeMin":  75,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "8 pieces / 1.5 kg",
+                                "item":  "chicken thighs and drumsticks, bone-in, skin-on",
+                                "israelNote":  "שוקיים וכרעיים — bone-in dark meat is essential for the gravy"
+                            },
+                            {
+                                "amount":  "3 medium / 600 g",
+                                "item":  "kohlrabi, peeled and cut into thick chunks",
+                                "israelNote":  "קולרבי; turnip (לפת) works the same way"
+                            },
+                            {
+                                "amount":  "2 medium / 300 g",
+                                "item":  "onions, sliced"
+                            },
+                            {
+                                "amount":  "3 tbsp / 45 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 1/2 cups / 360 ml",
+                                "item":  "chicken stock or water"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "turmeric"
+                            },
+                            {
+                                "amount":  "4 cloves",
+                                "item":  "garlic, crushed"
+                            },
+                            {
+                                "amount":  "3",
+                                "item":  "bay leaves"
+                            },
+                            {
+                                "amount":  "1 1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "ground cardamom (optional but very Jerusalem)"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "8 חלקים (1.5 ק\"ג) שוקיים וכרעיים עוף, עם עצם ועור",
+                              "3 קולרבי בינוניים (600 גרם), מקולפים וחתוכים לנתחים עבים",
+                              "2 בצלים בינוניים (300 גרם), פרוסים",
+                              "3 כפות שמן זית",
+                              "כוס וחצי (360 מ\"ל) ציר עוף או מים",
+                              "כפית וחצי פפריקה מתוקה",
+                              "כפית כורכום",
+                              "4 שיני שום, מעוכות",
+                              "3 עלי דפנה",
+                              "כפית ורבע מלח",
+                              "חצי כפית פלפל שחור",
+                              "קורט הל טחון (לא חובה, אבל מאוד ירושלמי)"
+                          ],
+        "instructions":  [
+                             "Heat 2 tbsp of the oil in a wide heavy pot over medium-high heat. Brown the chicken skin side down 7-8 minutes until deep golden, then flip for 3-4 minutes. Remove to a plate.",
+                             "Brown the kohlrabi chunks in the same fat about 8 minutes, until golden at the edges. Remove.",
+                             "Add the remaining oil and the onions and cook 6-8 minutes until deeply caramelized; add the garlic for the last minute.",
+                             "Stir the paprika, turmeric, salt, pepper, and cardamom into the stock and pour over the onions. Return the chicken with the bay leaves.",
+                             "Cover and braise on low heat for 45 minutes.",
+                             "Return the kohlrabi to the pot, nestling it into the gravy, and simmer uncovered 15-20 minutes more until the chicken falls off the bone and the liquid reduces to a glossy gravy.",
+                             "Serve straight from the pot, spooning the onion gravy over the kohlrabi \u0027potatoes\u0027."
+                         ],
+        "instructionsHe":  [
+                               "חממו 2 כפות שמן בסיר רחב וכבד על אש בינונית-גבוהה. השחימו את העוף כשהעור כלפי מטה 7-8 דקות עד זהוב עמוק, ואז הפכו ל-3-4 דקות. העבירו לצלחת.",
+                               "השחימו את נתחי הקולרבי באותו שומן כ-8 דקות, עד הזהבה בקצוות. הוציאו.",
+                               "הוסיפו את שארית השמן והבצלים ובשלו 6-8 דקות עד קרמול עמוק; הוסיפו את השום בדקה האחרונה.",
+                               "ערבבו את הפפריקה, הכורכום, המלח, הפלפל וההל לתוך הציר ויצקו על הבצלים. החזירו את העוף עם עלי הדפנה.",
+                               "כסו ובשלו בכיסוי על אש נמוכה 45 דקות.",
+                               "החזירו את הקולרבי לסיר, שקעו אותו ברוטב, ובשלו ללא מכסה עוד 15-20 דקות עד שהעוף נופל מהעצם והנוזלים מצטמצמים לרוטב מבריק.",
+                               "הגישו ישר מהסיר, עם רוטב הבצל מעל \u0027תפוחי האדמה\u0027 מקולרבי."
+                           ],
+        "nutrition":  {
+                          "calories":  460,
+                          "fatG":  32,
+                          "satFatG":  8,
+                          "proteinG":  32,
+                          "carbsG":  9,
+                          "fiberG":  4,
+                          "netCarbsG":  5,
+                          "sugarG":  4,
+                          "sodiumMg":  730
+                      },
+        "tips":  "Browning the kohlrabi in the chicken fat before braising is the sofrito soul of the dish — do not skip it, or the kohlrabi tastes boiled instead of fried-then-steamed.",
+        "tipsHe":  "השחמת הקולרבי בשומן העוף לפני הבישול היא נשמת הסופריטו — אל תדלגו עליה, אחרת הקולרבי יטעם מבושל במקום מטוגן-ואז-מאודה.",
+        "sources":  [
+                        {
+                            "creator":  "Tori Avey",
+                            "url":  "https://toriavey.com/israeli-chicken-sofrito/"
+                        },
+                        {
+                            "creator":  "The Nosher (My Jewish Learning)",
+                            "url":  "https://www.myjewishlearning.com/the-nosher/4-ingredient-jerusalem-chicken-sofrito-recipe/"
+                        },
+                        {
+                            "creator":  "Vered\u0027s Israeli Cooking",
+                            "url":  "https://veredguttman.com/sephardi-chicken-and-potato-stew-sofrito/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: sofrito, the Sephardi Jerusalem classic, is meat and fried potatoes slow-steamed together — the potatoes are the dish\u0027s second star and its 30 g carb load. The fix: kohlrabi chunks, browned in the chicken fat exactly as the potatoes would be, absorb the turmeric-paprika gravy and soften to a near-identical bite. Tori Avey\u0027s fry-first family technique won for authenticity (that pre-frying IS sofrito, from the Ladino for \u0027fried\u0027); no published keto sofrito existed among the sources, so this is the traditional method with a straight vegetable swap — the technique, not the potato, carries the dish.",
+        "comparedVersionsHe":  "בעיית הפחמימות: סופריטו, הקלאסיקה הספרדית-ירושלמית, הוא בשר ותפוחי אדמה מטוגנים שמתאדים יחד באיטיות — תפוחי האדמה הם הכוכב השני של המנה וגם 30 גרם הפחמימות שלה. הפתרון: נתחי קולרבי, מושחמים בשומן העוף בדיוק כמו תפוחי האדמה, סופגים את רוטב הכורכום-פפריקה ומתרככים לביס כמעט זהה. טכניקת הטיגון-תחילה המשפחתית של טורי אייבי נבחרה בזכות האותנטיות (הטיגון המקדים הוא-הוא הסופריטו, מלדינו \u0027מטוגן\u0027); לא נמצא סופריטו קטו מפורסם במקורות, ולכן זו השיטה המסורתית עם החלפת ירק ישירה — הטכניקה, לא תפוח האדמה, נושאת את המנה."
+    },
+    {
+        "id":  "albondigas-vegetable-noodle-soup",
+        "name":  "Albondigas Meatball Soup with Vegetable Noodles",
+        "nameHe":  "מרק קציצות (אלבונדיגס) עם אטריות ירקות",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  25,
+        "cookTimeMin":  40,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1.5 lb / 700 g",
+                                "item":  "ground beef",
+                                "israelNote":  "בשר טחון; half turkey lightens it nicely"
+                            },
+                            {
+                                "amount":  "1 large",
+                                "item":  "egg"
+                            },
+                            {
+                                "amount":  "3 tbsp / 21 g",
+                                "item":  "almond flour"
+                            },
+                            {
+                                "amount":  "1/4 cup",
+                                "item":  "chopped cilantro or parsley, divided"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "ground cumin and dried oregano"
+                            },
+                            {
+                                "amount":  "1 1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1 medium / 150 g",
+                                "item":  "onion, diced"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "8 cups / 2 L",
+                                "item":  "beef or chicken stock",
+                                "israelNote":  "Israeli powdered soup mixes are full of starch — use real stock or a clean paste"
+                            },
+                            {
+                                "amount":  "1 cup / 240 g",
+                                "item":  "diced tomatoes, canned or fresh"
+                            },
+                            {
+                                "amount":  "2 medium / 400 g",
+                                "item":  "zucchini, spiralized into noodles"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "700 גרם בשר בקר טחון",
+                              "ביצה גדולה אחת",
+                              "3 כפות (21 גרם) קמח שקדים",
+                              "רבע כוס כוסברה או פטרוזיליה קצוצה, בחלוקה",
+                              "כפית כמון טחון וכפית אורגנו יבש",
+                              "כפית ורבע מלח",
+                              "בצל בינוני אחד (150 גרם), קצוץ",
+                              "3 שיני שום, קצוצות",
+                              "2 כפות שמן זית",
+                              "8 כוסות (2 ליטר) ציר בקר או עוף",
+                              "כוס (240 גרם) עגבניות חתוכות, משימורים או טריות",
+                              "2 קישואים בינוניים (400 גרם), מגולגלים לאטריות בספירלייזר"
+                          ],
+        "instructions":  [
+                             "Mix the beef, egg, almond flour, half the cilantro, cumin, oregano, and 1 tsp of the salt. Roll into about 24 small meatballs and chill while you start the soup.",
+                             "Heat the olive oil in a soup pot over medium heat and cook the onion 5 minutes until translucent; add the garlic for 1 minute.",
+                             "Add the stock, diced tomatoes, and remaining 1/4 tsp salt, and bring to a gentle boil.",
+                             "Lower to a simmer and drop in the meatballs one by one. Do not stir for the first 5 minutes so they set.",
+                             "Simmer uncovered 20 minutes, skimming any foam, until the meatballs are cooked through.",
+                             "Stir in the zucchini noodles and simmer 2-3 minutes only — they should stay slightly firm.",
+                             "Ladle into bowls and finish with the remaining cilantro and a squeeze of lime or lemon."
+                         ],
+        "instructionsHe":  [
+                               "ערבבו את הבשר, הביצה, קמח השקדים, מחצית הכוסברה, הכמון, האורגנו וכפית מלח. גלגלו כ-24 קציצות קטנות וקררו בזמן שמתחילים את המרק.",
+                               "חממו את שמן הזית בסיר מרק על אש בינונית ובשלו את הבצל 5 דקות עד שקיפות; הוסיפו את השום לדקה.",
+                               "הוסיפו את הציר, העגבניות החתוכות ורבע כפית המלח הנותרת, והביאו לרתיחה עדינה.",
+                               "הנמיכו לבעבוע עדין והכניסו את הקציצות אחת-אחת. אל תערבבו ב-5 הדקות הראשונות כדי שיתייצבו.",
+                               "בשלו ללא מכסה 20 דקות, תוך קיפוי הקצף, עד שהקציצות מבושלות.",
+                               "הוסיפו את אטריות הקישוא ובשלו 2-3 דקות בלבד — הן צריכות להישאר מעט קשות.",
+                               "מזגו לקערות וסיימו בשארית הכוסברה ובסחיטת ליים או לימון."
+                           ],
+        "nutrition":  {
+                          "calories":  380,
+                          "fatG":  26,
+                          "satFatG":  8,
+                          "proteinG":  28,
+                          "carbsG":  9,
+                          "fiberG":  2,
+                          "netCarbsG":  7,
+                          "sugarG":  5,
+                          "sodiumMg":  850
+                      },
+        "lowCarbVariant":  "Add 1 cup diced turnip with the stock for a heartier, stew-like soup — about 10 g net carbs per serving.",
+        "lowCarbVariantHe":  "הוסיפו כוס לפת חתוכה עם הציר למרק סמיך יותר בסגנון תבשיל — כ-10 גרם פחמימות נטו למנה.",
+        "tips":  "Add the zucchini noodles only at the very end, and to leftovers only when reheating — they turn to mush if they sit in hot soup.",
+        "tipsHe":  "הוסיפו את אטריות הקישוא רק ממש בסוף, ולשאריות רק בחימום מחדש — הן הופכות לדייסה אם הן יושבות במרק חם.",
+        "sources":  [
+                        {
+                            "creator":  "I Hacked Diabetes",
+                            "url":  "https://ihackeddiabetes.com/mexican-meatball-soup/"
+                        },
+                        {
+                            "creator":  "Farm to Jar",
+                            "url":  "https://farmtojar.com/low-carb-mexican-meatball-soup-albondigas/"
+                        },
+                        {
+                            "creator":  "Low Carb with Jennifer",
+                            "url":  "https://jenniferbanz.com/albondigas-soup-mexican-meatball-soup"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem: albondigas — a Sephardi word and dish long before it was a Mexican one — traditionally binds the meatballs with rice or breadcrumbs and floats potatoes or rice in the broth. The fix: almond flour and egg bind the meatballs, and quick-simmered zucchini noodles replace the rice in the bowl. This dish was chosen over the meorav yerushalmi option because it had far better low-carb sourcing (three dedicated low-carb versions vs. none); the synthesis follows I Hacked Diabetes\u0027s no-rice broth with Farm to Jar\u0027s veggie-loading approach, seasoned to sit comfortably next to the Sephardi table.",
+        "comparedVersionsHe":  "בעיית הפחמימות: אלבונדיגס — מילה ומאכל ספרדיים הרבה לפני שהיו מקסיקניים — נקשרות מסורתית באורז או פירורי לחם, ובמרק צפים תפוחי אדמה או אורז. הפתרון: קמח שקדים וביצה קושרים את הקציצות, ואטריות קישוא בבישול קצר מחליפות את האורז בקערה. המנה הזו נבחרה על פני מעורב ירושלמי כי היו לה מקורות דלי-פחמימות טובים בהרבה (שלוש גרסאות ייעודיות מול אפס); הסינתזה הולכת עם ציר ללא-אורז של I Hacked Diabetes ועם העמסת הירקות של Farm to Jar, בתיבול שמתיישב בנוח ליד השולחן הספרדי."
+    }
+]

@@ -5,7 +5,7 @@ $dataDir = Join-Path $root "data\recipes"
 $template = Join-Path $root "template.html"
 $out = Join-Path $root "book.html"
 
-$catOrder = @("dairy-vegetarian-mains","legumes-grains","snacks","baking-savory","baking-sweet","desserts-dairy","desserts-pareve")
+$catOrder = @("dairy-vegetarian-mains","meat-mains","legumes-grains","snacks","baking-savory","baking-sweet","desserts-dairy","desserts-pareve")
 
 $all = @()
 $problems = @()
@@ -34,7 +34,9 @@ foreach ($r in $all) {
     if (-not $r.id) { $problems += "missing id: $($r.name)"; continue }
     if ($ids.ContainsKey($r.id)) { $problems += "duplicate id: $($r.id)" } else { $ids[$r.id] = 1 }
     if ($catOrder -notcontains $r.category) { $problems += "${tag}: bad category" }
-    if (@("dairy","pareve") -notcontains $r.kosherType) { $problems += "${tag}: bad kosherType '$($r.kosherType)'" }
+    if (@("dairy","pareve","meat") -notcontains $r.kosherType) { $problems += "${tag}: bad kosherType '$($r.kosherType)'" }
+    if ($r.kosherType -eq "meat" -and $r.category -ne "meat-mains") { $problems += "${tag}: meat recipe outside meat-mains" }
+    if ($r.category -eq "meat-mains" -and $r.kosherType -ne "meat") { $problems += "${tag}: meat-mains recipe not labeled meat" }
     if (@("keto","lowcarb") -notcontains $r.dietTags) { $problems += "${tag}: bad dietTags '$($r.dietTags)'" }
     if (-not $r.nutrition) { $problems += "${tag}: missing nutrition" }
     else {
@@ -51,12 +53,12 @@ foreach ($r in $all) {
     if (-not $r.sources -or @($r.sources).Count -lt 1) { $warnings += "${tag}: no sources" }
     if (-not $r.servings -or $r.servings -lt 1) { $problems += "${tag}: bad servings" }
 
-    # kosher audit: pareve recipes must not contain dairy-ish ingredients
-    if ($r.kosherType -eq "pareve") {
+    # kosher audit: pareve and MEAT recipes must not contain dairy-ish ingredients
+    if ($r.kosherType -eq "pareve" -or $r.kosherType -eq "meat") {
         foreach ($ing in $r.ingredients) {
             $it = "$($ing.item)".ToLower()
             if ($it -match $dairyWords -and $it -notmatch $dairyOk) {
-                $warnings += "${tag}: PAREVE but ingredient looks dairy: '$($ing.item)'"
+                $warnings += "${tag}: $($r.kosherType.ToUpper()) but ingredient looks dairy: '$($ing.item)'"
             }
         }
     }

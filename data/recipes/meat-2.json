@@ -1,0 +1,1636 @@
+﻿[
+    {
+        "id":  "sweet-and-sour-chicken-lc",
+        "name":  "Sweet \u0026 Sour Chicken (No Sugar, No Cornstarch)",
+        "nameHe":  "עוף חמוץ-מתוק (בלי סוכר ובלי קורנפלור)",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "700 g / 1.5 lb",
+                                "item":  "chicken breast, cut into bite-size cubes"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "avocado or light olive oil"
+                            },
+                            {
+                                "amount":  "1 each",
+                                "item":  "red and yellow bell pepper, cut into squares"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "tomato paste"
+                            },
+                            {
+                                "amount":  "4 tbsp",
+                                "item":  "apple cider vinegar"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "soy sauce",
+                                "israelNote":  "רוטב סויה (לבדוק כשרות)"
+                            },
+                            {
+                                "amount":  "4 tbsp",
+                                "item":  "golden erythritol or allulose sweetener",
+                                "israelNote":  "אריתריטול/אלולוז — רשתות טבע או אינטרנט"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "grated fresh ginger"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "xanthan gum",
+                                "israelNote":  "קסנטן גאם — חנויות טבע/אפייה"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "toasted sesame oil"
+                            },
+                            {
+                                "amount":  "4 cups",
+                                "item":  "cauliflower rice, for serving"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "700 גרם",
+                                  "item":  "חזה עוף חתוך לקוביות"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמן אבוקדו או זית עדין"
+                              },
+                              {
+                                  "amount":  "1 מכל צבע",
+                                  "item":  "פלפל אדום וצהוב חתוכים לריבועים"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "רסק עגבניות"
+                              },
+                              {
+                                  "amount":  "4 כפות",
+                                  "item":  "חומץ תפוחים"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "רוטב סויה (לבדוק כשרות)"
+                              },
+                              {
+                                  "amount":  "4 כפות",
+                                  "item":  "אריתריטול זהוב או אלולוז (רשתות טבע/אינטרנט)"
+                              },
+                              {
+                                  "amount":  "2 שיניים",
+                                  "item":  "שום כתוש"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "ג\u0027ינג\u0027ר טרי מגורר"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "קסנטן גאם (חנויות טבע/אפייה)"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "שמן שומשום קלוי"
+                              },
+                              {
+                                  "amount":  "4 כוסות",
+                                  "item":  "אורז כרובית להגשה"
+                              }
+                          ],
+        "instructions":  [
+                             "Whisk the tomato paste, vinegar, soy sauce, sweetener, garlic, ginger and 1/2 cup water into a smooth sauce.",
+                             "Heat the oil in a large skillet or wok over high heat. Sear the chicken cubes in a single layer, 5-6 minutes, until golden and just cooked. Remove to a plate.",
+                             "In the same pan, stir-fry the pepper squares 3 minutes — they should stay crisp.",
+                             "Pour in the sauce and simmer 3-4 minutes until it darkens slightly.",
+                             "Sprinkle the xanthan gum evenly over the sauce while whisking, and simmer 1 minute more until glossy and thick — this replaces the cornstarch slurry.",
+                             "Return the chicken, add the sesame oil, and toss to coat every piece.",
+                             "Meanwhile, sauté the cauliflower rice in a dry pan 4-5 minutes with a pinch of salt.",
+                             "Serve the chicken and peppers over the cauliflower rice."
+                         ],
+        "instructionsHe":  [
+                               "טרפו את רסק העגבניות, החומץ, הסויה, הממתיק, השום, הג\u0027ינג\u0027ר ו-1/2 כוס מים לרוטב חלק.",
+                               "חממו את השמן במחבת גדולה או ווק על אש גבוהה. צרבו את קוביות העוף בשכבה אחת 5-6 דקות עד הזהבה ובישול מלא. העבירו לצלחת.",
+                               "באותה מחבת הקפיצו את ריבועי הפלפל 3 דקות — שיישארו פריכים.",
+                               "שפכו פנימה את הרוטב ובשלו 3-4 דקות עד שהוא מתכהה מעט.",
+                               "פזרו את הקסנטן גאם על הרוטב תוך כדי טריפה ובשלו עוד דקה עד שהרוטב מבריק וסמיך — זה התחליף לקורנפלור.",
+                               "החזירו את העוף, הוסיפו את שמן השומשום וערבבו לציפוי אחיד.",
+                               "במקביל, הקפיצו את אורז הכרובית במחבת יבשה 4-5 דקות עם קורט מלח.",
+                               "הגישו את העוף והפלפלים על אורז הכרובית."
+                           ],
+        "nutrition":  {
+                          "calories":  320,
+                          "fatG":  13,
+                          "satFatG":  2.5,
+                          "proteinG":  40,
+                          "carbsG":  11,
+                          "fiberG":  3,
+                          "netCarbsG":  8,
+                          "sugarG":  5,
+                          "sodiumMg":  780
+                      },
+        "ketoVariant":  "Skip the peppers and use 2 cups sliced green cabbage instead to drop to about 6 g net carbs; use allulose for the smoothest glaze.",
+        "ketoVariantHe":  "ותרו על הפלפלים והשתמשו ב-2 כוסות כרוב לבן פרוס כדי לרדת לכ-6 גרם פחמימה נטו; אלולוז נותן את הזיגוג החלק ביותר.",
+        "tips":  "For a crispy \u0027takeout\u0027 texture, toss the raw chicken cubes in 3 tbsp almond flour before searing. Allulose caramelizes like sugar; erythritol may crystallize when cold — reheat gently.",
+        "tipsHe":  "לטקסטורה פריכה בסגנון טייק-אאוט, גלגלו את קוביות העוף ב-3 כפות קמח שקדים לפני הצריבה. אלולוז מתקרמל כמו סוכר; אריתריטול עלול להתגבש בקירור — חממו בעדינות.",
+        "sources":  [
+                        {
+                            "creator":  "Low Carb with Jennifer (Jennifer Banz)",
+                            "url":  "https://jenniferbanz.com/keto-sweet-and-sour-chicken-no-frying"
+                        },
+                        {
+                            "creator":  "Ruled.me",
+                            "url":  "https://www.ruled.me/low-carb-sweet-sour-chicken/"
+                        },
+                        {
+                            "creator":  "Low Carb Yum",
+                            "url":  "https://lowcarbyum.com/baked-sweet-sour-chicken/"
+                        }
+                    ],
+        "comparedVersions":  "The takeout classic is a triple carb bomb: a sugar-heavy sauce (often 1/2 cup sugar plus pineapple juice), a cornstarch-battered deep fry, and white rice — easily 80+ g carbs a plate. We compared a no-fry skillet version (Jennifer Banz), a breaded-and-fried version (Ruled.me) and a baked one (Low Carb Yum). The winner is the no-fry method for simplicity: tomato paste + apple cider vinegar + golden sweetener recreates the red sweet-sour profile, xanthan gum replaces the cornstarch slurry, and cauliflower rice replaces the white rice. The breaded version tastes closer to takeout but doubles the work — we left it as a tip.",
+        "comparedVersionsHe":  "הקלאסיקה מהמסעדה הסינית היא פצצת פחמימות משולשת: רוטב עמוס סוכר (לרוב חצי כוס סוכר ומיץ אננס), עוף מצופה קורנפלור בטיגון עמוק, ואורז לבן — בקלות 80+ גרם פחמימה למנה. השווינו גרסה ללא טיגון (Jennifer Banz), גרסה מצופה ומטוגנת (Ruled.me) וגרסה אפויה (Low Carb Yum). הזוכה היא שיטת המחבת ללא ציפוי בזכות הפשטות: רסק עגבניות + חומץ תפוחים + ממתיק זהוב משחזרים את הפרופיל האדום חמוץ-מתוק, קסנטן גאם מחליף את הקורנפלור, ואורז כרובית מחליף את האורז הלבן. הגרסה המצופה קרובה יותר לטייק-אאוט אבל מכפילה את העבודה — השארנו אותה כטיפ."
+    },
+    {
+        "id":  "teriyaki-chicken-bowls-lc",
+        "name":  "Teriyaki Chicken Bowls over Cauliflower Rice",
+        "nameHe":  "קערות עוף טריאקי על אורז כרובית",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "700 g / 1.5 lb",
+                                "item":  "boneless chicken thighs, cut into strips"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "avocado oil"
+                            },
+                            {
+                                "amount":  "1/3 cup",
+                                "item":  "soy sauce",
+                                "israelNote":  "רוטב סויה (לבדוק כשרות); אפשר קוקוס אמינוס מ-iHerb"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "golden erythritol or allulose",
+                                "israelNote":  "רשתות טבע/אינטרנט"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "rice vinegar or apple cider vinegar"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "grated fresh ginger"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "toasted sesame oil"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "xanthan gum"
+                            },
+                            {
+                                "amount":  "4 cups",
+                                "item":  "cauliflower rice"
+                            },
+                            {
+                                "amount":  "300 g",
+                                "item":  "broccoli florets, steamed"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "sesame seeds + 2 sliced green onions, to top"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "700 גרם",
+                                  "item":  "פרגיות (ירכיים ללא עצם) חתוכות לרצועות"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמן אבוקדו"
+                              },
+                              {
+                                  "amount":  "1/3 כוס",
+                                  "item":  "רוטב סויה (לבדוק כשרות); אפשר קוקוס אמינוס מ-iHerb"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "אריתריטול זהוב או אלולוז (רשתות טבע/אינטרנט)"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "חומץ אורז או חומץ תפוחים"
+                              },
+                              {
+                                  "amount":  "2 שיניים",
+                                  "item":  "שום כתוש"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "ג\u0027ינג\u0027ר טרי מגורר"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "שמן שומשום קלוי"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "קסנטן גאם"
+                              },
+                              {
+                                  "amount":  "4 כוסות",
+                                  "item":  "אורז כרובית"
+                              },
+                              {
+                                  "amount":  "300 גרם",
+                                  "item":  "פרחי ברוקולי מאודים"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שומשום + 2 בצל ירוק פרוס לפיזור"
+                              }
+                          ],
+        "instructions":  [
+                             "Whisk the soy sauce, sweetener, vinegar, garlic, ginger, sesame oil and 1/4 cup water — this is the teriyaki sauce, no mirin or sugar needed.",
+                             "Heat the avocado oil in a wide skillet over medium-high heat and sear the chicken strips 6-7 minutes until golden and cooked through.",
+                             "Pour the sauce over the chicken and simmer 2-3 minutes.",
+                             "Sprinkle in the xanthan gum while stirring; simmer 1 minute until the sauce turns into a sticky glaze that coats the chicken.",
+                             "Sauté the cauliflower rice in a separate dry pan 4-5 minutes; season with salt.",
+                             "Build the bowls: cauliflower rice on the bottom, steamed broccoli and glazed chicken on top.",
+                             "Spoon extra glaze from the pan over each bowl and finish with sesame seeds and green onion."
+                         ],
+        "instructionsHe":  [
+                               "טרפו את הסויה, הממתיק, החומץ, השום, הג\u0027ינג\u0027ר, שמן השומשום ו-1/4 כוס מים — זה רוטב הטריאקי, בלי מירין ובלי סוכר.",
+                               "חממו את שמן האבוקדו במחבת רחבה על אש בינונית-גבוהה וצרבו את רצועות העוף 6-7 דקות עד הזהבה ובישול מלא.",
+                               "שפכו את הרוטב על העוף ובשלו 2-3 דקות.",
+                               "פזרו את הקסנטן גאם תוך ערבוב; בשלו דקה עד שהרוטב הופך לזיגוג דביק שעוטף את העוף.",
+                               "הקפיצו את אורז הכרובית במחבת נפרדת ויבשה 4-5 דקות; תבלו במלח.",
+                               "הרכיבו את הקערות: אורז כרובית בתחתית, ברוקולי מאודה והעוף המזוגג מעל.",
+                               "יצקו על כל קערה עוד זיגוג מהמחבת ופזרו שומשום ובצל ירוק."
+                           ],
+        "nutrition":  {
+                          "calories":  400,
+                          "fatG":  22,
+                          "satFatG":  5,
+                          "proteinG":  36,
+                          "carbsG":  11,
+                          "fiberG":  4,
+                          "netCarbsG":  7,
+                          "sugarG":  4,
+                          "sodiumMg":  950
+                      },
+        "ketoVariant":  "Use coconut aminos instead of soy for a rounder, slightly sweet flavor and drop the sweetener to 2 tbsp.",
+        "ketoVariantHe":  "השתמשו בקוקוס אמינוס במקום סויה לטעם עגול ומעט מתוק, והפחיתו את הממתיק ל-2 כפות.",
+        "tips":  "Thighs stay juicier than breast under a glaze. Make a double batch of the sauce and keep it in the fridge up to 2 weeks — it doubles as a marinade.",
+        "tipsHe":  "פרגיות נשארות עסיסיות יותר מחזה עוף מתחת לזיגוג. הכינו כמות כפולה של רוטב ושמרו במקרר עד שבועיים — הוא מצוין גם כמרינדה.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/teriyaki-chicken-and-cauliflower-rice/"
+                        },
+                        {
+                            "creator":  "Sugar Free Londoner (Katrin Nürnberger)",
+                            "url":  "https://sugarfreelondoner.com/keto-teriyaki-chicken-stir-fry/"
+                        },
+                        {
+                            "creator":  "Sugar-Free Mom (Brenda Bennett)",
+                            "url":  "https://www.sugarfreemom.com/recipes/keto-teriyaki-chicken/"
+                        }
+                    ],
+        "comparedVersions":  "Real teriyaki is glazed with sugar, mirin (sweet rice wine) and sake, then served on white rice — 60-70 g carbs a bowl before the toppings. We compared Wholesome Yum\u0027s bowl, Sugar Free Londoner\u0027s stir-fry and Sugar-Free Mom\u0027s quick skillet. All three agree on the same fix: soy sauce (or coconut aminos) + a golden brown-sugar-style sweetener + ginger and garlic recreates the glaze, xanthan gum gives it the sticky cling that reduced sugar normally provides, and cauliflower rice takes the bowl under 10 g net. We took the bowl format from Wholesome Yum and the one-pan glaze technique from Sugar Free Londoner because it needs no separate saucepan.",
+        "comparedVersionsHe":  "טריאקי אמיתי מזוגג בסוכר, מירין (יין אורז מתוק) וסאקה, ומוגש על אורז לבן — 60-70 גרם פחמימה לקערה עוד לפני התוספות. השווינו את הקערה של Wholesome Yum, המוקפץ של Sugar Free Londoner והמחבת המהירה של Sugar-Free Mom. שלושתם מסכימים על אותו תיקון: סויה (או קוקוס אמינוס) + ממתיק זהוב בסגנון סוכר חום + ג\u0027ינג\u0027ר ושום משחזרים את הזיגוג, קסנטן גאם נותן את הדביקות שסוכר מצומצם נותן בדרך כלל, ואורז כרובית מוריד את הקערה מתחת ל-10 גרם נטו. לקחנו את פורמט הקערה מ-Wholesome Yum ואת טכניקת הזיגוג במחבת אחת מ-Sugar Free Londoner כי היא לא דורשת סיר נפרד."
+    },
+    {
+        "id":  "zucchini-meat-lasagna-pareve",
+        "name":  "Meat Lasagna with Zucchini Sheets \u0026 Cashew \u0027Béchamel\u0027",
+        "nameHe":  "לזניית בשר עם דפי זוקיני ו\u0027בשמל\u0027 קשיו",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  30,
+        "cookTimeMin":  50,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "700 g / 1.5 lb",
+                                "item":  "ground beef"
+                            },
+                            {
+                                "amount":  "3 large",
+                                "item":  "zucchini, sliced lengthwise into 5 mm sheets"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "onion, finely chopped"
+                            },
+                            {
+                                "amount":  "4 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1 can (400 g)",
+                                "item":  "crushed tomatoes"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "tomato paste"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "dried oregano + basil"
+                            },
+                            {
+                                "amount":  "150 g / 1 cup",
+                                "item":  "raw cashews, soaked 2 hours in hot water",
+                                "israelNote":  "קשיו טבעי — כל סופרמרקט"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "nutritional yeast",
+                                "israelNote":  "שמרי בירה תזונתיים — חנויות טבע"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "lemon juice"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground nutmeg + salt and pepper"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "700 גרם",
+                                  "item":  "בשר בקר טחון"
+                              },
+                              {
+                                  "amount":  "3 גדולים",
+                                  "item":  "זוקיני פרוס לאורך לדפים בעובי 5 מ\"מ"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמן זית"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "בצל קצוץ דק"
+                              },
+                              {
+                                  "amount":  "4 שיניים",
+                                  "item":  "שום כתוש"
+                              },
+                              {
+                                  "amount":  "1 קופסה (400 גרם)",
+                                  "item":  "עגבניות מרוסקות"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "רסק עגבניות"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אורגנו ובזיליקום מיובשים"
+                              },
+                              {
+                                  "amount":  "150 גרם / 1 כוס",
+                                  "item":  "קשיו טבעי מושרה שעתיים במים חמים (כל סופרמרקט)"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "שמרי בירה תזונתיים (חנויות טבע)"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "מיץ לימון"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אגוז מוסקט טחון + מלח ופלפל"
+                              }
+                          ],
+        "instructions":  [
+                             "Salt the zucchini sheets and lay them on paper towels 20 minutes, then pat very dry — this is the key to a lasagna that isn\u0027t watery. (Or grill/roast them 5 minutes.)",
+                             "Heat the oven to 190°C / 375°F.",
+                             "Brown the ground beef with the olive oil, onion and garlic, breaking it up, about 8 minutes. Add crushed tomatoes, tomato paste and herbs; simmer 10 minutes to a thick ragù.",
+                             "Blend the drained cashews with 3/4 cup water, nutritional yeast, lemon juice, nutmeg and 1 tsp salt until completely smooth — this pareve \u0027béchamel\u0027 replaces both the white sauce and the cheese.",
+                             "Layer in a baking dish: 1/3 of the ragù, a layer of zucchini sheets, 1/3 of the cashew cream; repeat twice, ending with cashew cream on top.",
+                             "Bake uncovered 35-40 minutes until the top is golden-spotted and the edges bubble.",
+                             "Rest 15 minutes before slicing — the layers set as it cools."
+                         ],
+        "instructionsHe":  [
+                               "מלחו את דפי הזוקיני והניחו על נייר סופג 20 דקות, ואז ייבשו היטב בטפיחות — זה הסוד ללזניה שאינה מימית. (אפשר גם לצלות אותם 5 דקות בגריל/תנור.)",
+                               "חממו תנור ל-190 מעלות.",
+                               "השחימו את הבשר הטחון עם שמן הזית, הבצל והשום תוך פירור, כ-8 דקות. הוסיפו עגבניות מרוסקות, רסק ותבלינים; בשלו 10 דקות לראגו סמיך.",
+                               "טחנו בבלנדר את הקשיו המסונן עם 3/4 כוס מים, שמרי הבירה, מיץ הלימון, המוסקט וכפית מלח עד חלקות מוחלטת — ה\u0027בשמל\u0027 הפרווה הזה מחליף גם את הרוטב הלבן וגם את הגבינה.",
+                               "רבדו בתבנית: שליש מהראגו, שכבת דפי זוקיני, שליש מקרם הקשיו; חזרו פעמיים, וסיימו בקרם קשיו למעלה.",
+                               "אפו ללא כיסוי 35-40 דקות עד שהחלק העליון מנומר בזהוב והשוליים מבעבעים.",
+                               "המתינו 15 דקות לפני החיתוך — השכבות מתייצבות בהצטננות."
+                           ],
+        "nutrition":  {
+                          "calories":  430,
+                          "fatG":  30,
+                          "satFatG":  8,
+                          "proteinG":  28,
+                          "carbsG":  14,
+                          "fiberG":  4,
+                          "netCarbsG":  10,
+                          "sugarG":  7,
+                          "sodiumMg":  620
+                      },
+        "lowCarbVariant":  "For a firmer \u0027pasta\u0027 bite, swap one zucchini layer for thin roasted eggplant slices (adds about 1 g net per serving).",
+        "lowCarbVariantHe":  "לנגיסה \u0027פסטתית\u0027 יותר, החליפו שכבת זוקיני אחת בפרוסות חציל קלויות דקות (מוסיף כ-1 גרם נטו למנה).",
+        "tips":  "The cashew cream thickens as it bakes; if blending ahead, thin with a splash of water. Freezes beautifully in portions.",
+        "tipsHe":  "קרם הקשיו מסמיך באפייה; אם מכינים מראש, דללו במעט מים. מקפיא מצוין במנות.",
+        "sources":  [
+                        {
+                            "creator":  "Tastes Lovely (Natalie Gregory)",
+                            "url":  "https://www.tasteslovely.com/dairy-free-keto-lasagna/"
+                        },
+                        {
+                            "creator":  "Paleo Running Momma (Michele Rosen)",
+                            "url":  "https://www.paleorunningmomma.com/paleo-zucchini-lasagna-with-sausage-whole30-low-carb/"
+                        },
+                        {
+                            "creator":  "Sugar-Free Mom (Brenda Bennett)",
+                            "url":  "https://www.sugarfreemom.com/recipes/low-carb-grain-free-zucchini-lasagna/"
+                        }
+                    ],
+        "comparedVersions":  "Lasagna has two problems for this book: pasta sheets (about 40 g carbs a portion) and a dairy core — béchamel, ricotta, mozzarella — that can never sit in a meat lasagna in a kosher kitchen. We compared Tastes Lovely\u0027s dairy-free keto lasagna, Paleo Running Momma\u0027s cashew-sauce zucchini lasagna and Sugar-Free Mom\u0027s classic zucchini version (which still uses cheese). The fix: salted-and-dried zucchini sheets replace the pasta, and a blended cashew cream with nutritional yeast and nutmeg replaces the béchamel and the cheese in one move — it browns and sets like the real thing. We followed Paleo Running Momma\u0027s cashew-sauce approach for the pareve layer and took the moisture-control technique (salt, rest, dry) that all three insist on.",
+        "comparedVersionsHe":  "ללזניה שתי בעיות בספר הזה: דפי פסטה (כ-40 גרם פחמימה למנה) וליבה חלבית — בשמל, ריקוטה, מוצרלה — שלעולם לא יכולה לשבת בלזניית בשר במטבח כשר. השווינו את הלזניה נטולת החלב של Tastes Lovely, את לזניית הזוקיני עם רוטב הקשיו של Paleo Running Momma ואת הגרסה הקלאסית של Sugar-Free Mom (שעדיין משתמשת בגבינה). התיקון: דפי זוקיני מומלחים ומיובשים מחליפים את הפסטה, וקרם קשיו טחון עם שמרי בירה ומוסקט מחליף את הבשמל ואת הגבינה במהלך אחד — הוא משחים ומתייצב כמו המקור. הלכנו עם גישת רוטב הקשיו של Paleo Running Momma לשכבה הפרווה, ואימצנו את טכניקת שליטת הנוזלים (מלח, המתנה, ייבוש) ששלושתם מתעקשים עליה."
+    },
+    {
+        "id":  "double-burger-meal-lc",
+        "name":  "Double Burger Meal with Special Sauce \u0026 Homemade Sugar-Free Ketchup",
+        "nameHe":  "ארוחת המבורגר כפול עם רוטב מיוחד וקטשופ ביתי ללא סוכר",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "800 g / 1.75 lb",
+                                "item":  "ground beef (20% fat), formed into 8 thin patties"
+                            },
+                            {
+                                "amount":  "4",
+                                "item":  "keto burger buns (see the pareve keto buns recipe in this book)"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "salt, black pepper, garlic powder (for the patties)"
+                            },
+                            {
+                                "amount":  "8 leaves",
+                                "item":  "iceberg or romaine lettuce + 4 tomato slices + thin red onion rings"
+                            },
+                            {
+                                "amount":  "4 tbsp",
+                                "item":  "tomato paste (for the ketchup)"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "apple cider vinegar (for the ketchup)"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "erythritol or allulose (for the ketchup)",
+                                "israelNote":  "רשתות טבע/אינטרנט; קטשופ ללא סוכר תוצרת בית — במתכון"
+                            },
+                            {
+                                "amount":  "1/4 tsp each",
+                                "item":  "onion powder, smoked paprika, salt (for the ketchup)"
+                            },
+                            {
+                                "amount":  "1/2 cup",
+                                "item":  "mayonnaise (pareve, egg-based)"
+                            },
+                            {
+                                "amount":  "3",
+                                "item":  "sour pickles, finely chopped + 1 tsp pickle brine"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "yellow mustard"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "sweet paprika (for the sauce)"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "800 גרם",
+                                  "item":  "בשר בקר טחון (20% שומן) מעוצב ל-8 קציצות דקות"
+                              },
+                              {
+                                  "amount":  "4",
+                                  "item":  "לחמניות המבורגר קיטו (ראו מתכון לחמניות קיטו פרווה בספר)"
+                              },
+                              {
+                                  "amount":  "1 כפית מכל אחד",
+                                  "item":  "מלח, פלפל שחור, אבקת שום (לקציצות)"
+                              },
+                              {
+                                  "amount":  "8 עלים",
+                                  "item":  "חסה אייסברג או ערבית + 4 פרוסות עגבנייה + טבעות בצל סגול דקות"
+                              },
+                              {
+                                  "amount":  "4 כפות",
+                                  "item":  "רסק עגבניות (לקטשופ)"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "חומץ תפוחים (לקטשופ)"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "אריתריטול או אלולוז (לקטשופ) — רשתות טבע/אינטרנט; קטשופ ללא סוכר תוצרת בית — במתכון"
+                              },
+                              {
+                                  "amount":  "1/4 כפית מכל אחד",
+                                  "item":  "אבקת בצל, פפריקה מעושנת, מלח (לקטשופ)"
+                              },
+                              {
+                                  "amount":  "1/2 כוס",
+                                  "item":  "מיונז (פרווה, על בסיס ביצים)"
+                              },
+                              {
+                                  "amount":  "3",
+                                  "item":  "מלפפונים חמוצים קצוצים דק + כפית מי חמוצים"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "חרדל צהוב"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "פפריקה מתוקה (לרוטב)"
+                              }
+                          ],
+        "instructions":  [
+                             "Make the ketchup: whisk tomato paste, vinegar, sweetener, onion powder, smoked paprika, salt and 4-5 tbsp water until smooth. Taste — it should be tangy first, sweet second.",
+                             "Make the special sauce: stir together the mayonnaise, 2 tbsp of the ketchup, chopped pickles, brine, mustard and paprika. Chill.",
+                             "Season the meat gently, form 8 thin patties slightly wider than the buns (they shrink), and press a dimple in the center of each.",
+                             "Sear the patties on a screaming-hot skillet or grill, 2-3 minutes per side; smash-press for lacy crisp edges.",
+                             "Split and toast the keto buns cut-side down in the meat pan for 1 minute.",
+                             "Build each burger: bun, sauce, lettuce, patty, onion, second patty, tomato, more sauce, bun.",
+                             "Serve with the leftover ketchup for dipping — jicama or kohlrabi oven fries are the book\u0027s side of choice."
+                         ],
+        "instructionsHe":  [
+                               "הכינו את הקטשופ: טרפו רסק עגבניות, חומץ, ממתיק, אבקת בצל, פפריקה מעושנת, מלח ו-4-5 כפות מים עד חלקות. טעמו — קודם חמצמץ, אחר כך מתוק.",
+                               "הכינו את הרוטב המיוחד: ערבבו את המיונז, 2 כפות מהקטשופ, החמוצים הקצוצים, מי החמוצים, החרדל והפפריקה. צננו.",
+                               "תבלו את הבשר בעדינות, עצבו 8 קציצות דקות מעט רחבות מהלחמניות (הן מתכווצות), והטביעו גומה במרכז כל אחת.",
+                               "צרבו את הקציצות על מחבת או גריל לוהטים, 2-3 דקות מכל צד; מעכו לקבלת שוליים פריכים ותחרתיים.",
+                               "חצו וקלו את לחמניות הקיטו עם הצד החתוך כלפי מטה במחבת הבשר במשך דקה.",
+                               "הרכיבו כל המבורגר: לחמנייה, רוטב, חסה, קציצה, בצל, קציצה שנייה, עגבנייה, עוד רוטב, לחמנייה.",
+                               "הגישו עם שארית הקטשופ לטבילה — צ\u0027יפס תנור מקולרבי הוא התוספת המומלצת של הספר."
+                           ],
+        "nutrition":  {
+                          "calories":  680,
+                          "fatG":  52,
+                          "satFatG":  15,
+                          "proteinG":  44,
+                          "carbsG":  12,
+                          "fiberG":  6,
+                          "netCarbsG":  6,
+                          "sugarG":  4,
+                          "sodiumMg":  920
+                      },
+        "ketoVariant":  "Skip the bun entirely and wrap in double iceberg leaves (\u0027protein style\u0027) for about 3 g net carbs.",
+        "ketoVariantHe":  "ותרו לגמרי על הלחמנייה ועטפו בעלי אייסברג כפולים (סגנון \u0027פרוטאין סטייל\u0027) — כ-3 גרם נטו.",
+        "tips":  "The ketchup keeps 2 weeks refrigerated and the sauce 1 week — make both ahead. Because the meal is meat, the sauce must be built on pareve egg mayonnaise, never yogurt-based \u0027lightened\u0027 versions.",
+        "tipsHe":  "הקטשופ נשמר שבועיים במקרר והרוטב שבוע — הכינו מראש. מכיוון שהארוחה בשרית, הרוטב חייב להיות על בסיס מיונז ביצים פרווה, לעולם לא גרסאות \u0027מוקלות\u0027 על בסיס יוגורט.",
+        "sources":  [
+                        {
+                            "creator":  "Bonappeteach (Lauren Nagel)",
+                            "url":  "https://www.bonappeteach.com/the-best-keto-burger-sauce/"
+                        },
+                        {
+                            "creator":  "Seeking Good Eats",
+                            "url":  "https://seekinggoodeats.com/big-mac-sauce-recipe-keto-big-mac-sauce/"
+                        },
+                        {
+                            "creator":  "Peace Love and Low Carb (Kyndra Holley)",
+                            "url":  "https://peaceloveandlowcarb.com/not-so-secret-burger-sauce/"
+                        }
+                    ],
+        "comparedVersions":  "A fast-food double burger meal hides carbs in three places: the bun (25-30 g), commercial ketchup (about 4 g sugar per tablespoon) and the \u0027special sauce\u0027 (sweetened with sugar and made on dairy-adjacent bases in some copycats). We compared Bonappeteach\u0027s keto burger sauce, Seeking Good Eats\u0027 Big Mac copycat and Kyndra Holley\u0027s Not So Secret sauce — all agree the base is mayo + sugar-free ketchup + pickles + vinegar tang, differing mainly in mustard and paprika. Since Israeli sugar-free ketchup is hit-or-miss on kosher certification, we built a 5-minute tomato-paste ketchup into the recipe itself, and the bun problem is solved by the book\u0027s own pareve keto buns.",
+        "comparedVersionsHe":  "ארוחת המבורגר כפול ממסעדת מזון מהיר מסתירה פחמימות בשלושה מקומות: הלחמנייה (25-30 גרם), קטשופ מסחרי (כ-4 גרם סוכר לכף) וה\u0027רוטב המיוחד\u0027 (ממותק בסוכר ולעיתים על בסיסים חלביים בחיקויים). השווינו את רוטב ההמבורגר של Bonappeteach, חיקוי הביג מק של Seeking Good Eats ואת הרוטב של Kyndra Holley — כולם מסכימים שהבסיס הוא מיונז + קטשופ ללא סוכר + חמוצים + חמיצות חומץ, עם הבדלים בעיקר בחרדל ובפפריקה. מכיוון שקטשופ ללא סוכר בישראל לא תמיד עם כשרות טובה, בנינו קטשופ רסק עגבניות של 5 דקות לתוך המתכון עצמו, ובעיית הלחמנייה נפתרת עם לחמניות הקיטו הפרווה של הספר."
+    },
+    {
+        "id":  "crispy-fried-chicken-kfc-style-lc",
+        "name":  "Crispy \u0027KFC-Style\u0027 Fried Chicken (Flourless, Pareve Coating)",
+        "nameHe":  "עוף מטוגן פריך בסגנון KFC (בלי קמח, ציפוי פרווה)",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  30,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1.2 kg",
+                                "item":  "chicken drumsticks and thighs, bone-in, skin-on"
+                            },
+                            {
+                                "amount":  "1 cup",
+                                "item":  "canned coconut milk + 1 tbsp lemon juice (\u0027buttermilk\u0027 soak)",
+                                "israelNote":  "חלב קוקוס משומר — כל סופרמרקט"
+                            },
+                            {
+                                "amount":  "1.5 cups",
+                                "item":  "blanched almond flour",
+                                "israelNote":  "קמח שקדים — כל סופרמרקט/רשתות טבע"
+                            },
+                            {
+                                "amount":  "1/4 cup",
+                                "item":  "coconut flour"
+                            },
+                            {
+                                "amount":  "1/4 cup",
+                                "item":  "ground golden flaxseed or sesame seeds (for crunch)"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "eggs"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "garlic powder + 1 tsp onion powder"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "dried thyme, dried oregano, ground ginger"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "white pepper + 1/2 tsp celery salt + 1.5 tsp salt"
+                            },
+                            {
+                                "amount":  "3-4 cups",
+                                "item":  "avocado or refined coconut oil, for frying"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1.2 ק\"ג",
+                                  "item":  "שוקיים וירכיים עוף עם עצם ועור"
+                              },
+                              {
+                                  "amount":  "1 כוס",
+                                  "item":  "חלב קוקוס משומר + כף מיץ לימון (השריית \u0027חובצה\u0027) — כל סופרמרקט"
+                              },
+                              {
+                                  "amount":  "1.5 כוסות",
+                                  "item":  "קמח שקדים מולבן (כל סופרמרקט/רשתות טבע)"
+                              },
+                              {
+                                  "amount":  "1/4 כוס",
+                                  "item":  "קמח קוקוס"
+                              },
+                              {
+                                  "amount":  "1/4 כוס",
+                                  "item":  "פשתן זהוב טחון או שומשום טחון (לפריכות)"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "פפריקה מתוקה"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת שום + כפית אבקת בצל"
+                              },
+                              {
+                                  "amount":  "1 כפית מכל אחד",
+                                  "item":  "טימין מיובש, אורגנו מיובש, ג\u0027ינג\u0027ר טחון"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "פלפל לבן + 1/2 כפית מלח סלרי + 1.5 כפיות מלח"
+                              },
+                              {
+                                  "amount":  "3-4 כוסות",
+                                  "item":  "שמן אבוקדו או קוקוס מזוקק לטיגון"
+                              }
+                          ],
+        "instructions":  [
+                             "Soak the chicken pieces in the coconut milk + lemon juice mixture, 30 minutes at room temperature (or overnight refrigerated) — the pareve stand-in for a buttermilk brine.",
+                             "Whisk the almond flour, coconut flour, ground flax/sesame, and all eleven-ish spices in a wide bowl. Beat the eggs in a second bowl.",
+                             "Lift the chicken from the soak, dip in egg, then press firmly into the spiced flour mix. For an extra-craggy crust, dip in egg and coat a second time.",
+                             "Rest the coated pieces on a rack 10 minutes so the crust glues on — do not skip this.",
+                             "Heat 3 cm of oil to 170°C / 340°F in a deep, heavy pot.",
+                             "Fry in batches, 6-7 minutes per side, until deep golden and 74°C / 165°F inside. Almond flour browns faster than wheat — lower the heat if it darkens too fast.",
+                             "Drain on a rack, never on paper (steam kills the crunch). Salt lightly while hot.",
+                             "Oven option: spray coated pieces with oil and bake at 200°C / 400°F on a rack, 40-45 minutes."
+                         ],
+        "instructionsHe":  [
+                               "השרו את חלקי העוף בתערובת חלב הקוקוס ומיץ הלימון 30 דקות בטמפרטורת החדר (או לילה במקרר) — התחליף הפרווה להשריית חובצה.",
+                               "טרפו בקערה רחבה את קמח השקדים, קמח הקוקוס, הפשתן/שומשום הטחון וכל התבלינים. טרפו את הביצים בקערה שנייה.",
+                               "הוציאו את העוף מההשריה, טבלו בביצה, ולחצו היטב לתוך תערובת הקמח המתובלת. לקראסט מחוספס במיוחד — טבלו שוב בביצה וצפו פעם שנייה.",
+                               "הניחו את החתיכות המצופות על רשת 10 דקות כדי שהציפוי יידבק — לא לדלג על השלב הזה.",
+                               "חממו 3 ס\"מ שמן ל-170 מעלות בסיר כבד ועמוק.",
+                               "טגנו במנות, 6-7 דקות מכל צד, עד זהוב עמוק ו-74 מעלות בפנים. קמח שקדים משחים מהר מחיטה — הנמיכו את האש אם הוא מתכהה מדי.",
+                               "סננו על רשת, לעולם לא על נייר (האדים הורגים את הפריכות). המליחו קלות בעודו חם.",
+                               "אפשרות תנור: רססו את החתיכות המצופות בשמן ואפו ב-200 מעלות על רשת 40-45 דקות."
+                           ],
+        "nutrition":  {
+                          "calories":  520,
+                          "fatG":  38,
+                          "satFatG":  9,
+                          "proteinG":  38,
+                          "carbsG":  8,
+                          "fiberG":  4,
+                          "netCarbsG":  4,
+                          "sugarG":  1,
+                          "sodiumMg":  760
+                      },
+        "ketoVariant":  "Already deep keto at 4 g net; for stricter macros use skin-on thighs only and fry rather than bake (no coating absorbed carbs).",
+        "ketoVariantHe":  "כבר קיטו עמוק עם 4 גרם נטו; למקרו קפדני יותר השתמשו רק בירכיים עם עור וטגנו במקום לאפות.",
+        "tips":  "Most American keto versions use crushed pork rinds and Parmesan — both impossible here. The flax/sesame + double-dip trick restores the crunch they provide. Strain and reuse the frying oil once.",
+        "tipsHe":  "רוב הגרסאות הקיטו האמריקאיות משתמשות בחזיר מרוסק ופרמזן — שניהם בלתי אפשריים כאן. הטריק של פשתן/שומשום + ציפוי כפול מחזיר את הפריכות שהם נותנים. סננו את שמן הטיגון והשתמשו בו פעם נוספת.",
+        "sources":  [
+                        {
+                            "creator":  "The Big Man\u0027s World (Arman Liew)",
+                            "url":  "https://thebigmansworld.com/keto-fried-chicken/"
+                        },
+                        {
+                            "creator":  "Thinlicious",
+                            "url":  "https://thinlicious.com/grain-free-kfc/"
+                        },
+                        {
+                            "creator":  "Sizzle and Salt",
+                            "url":  "https://sizzleandsalt.com/low-carb-kfc-chicken-copycat/"
+                        }
+                    ],
+        "comparedVersions":  "The original problem is the crust: wheat flour dredge (plus a sugar-laced seasoning) adds 15-20 g carbs and is off the table. But the standard keto fix has its own kosher problem — nearly every copycat (Taste of Home, Healthy Recipes Blog, Big Man\u0027s World) leans on crushed pork rinds and/or Parmesan for crunch, which are impossible in a kosher meat dish. We compared the Big Man\u0027s World double-coat method, Thinlicious\u0027s grain-free KFC spice blend and Sizzle \u0026 Salt\u0027s baked-or-fried approach, then rebuilt the coating pareve: almond + coconut flour for body, ground golden flax or sesame for the shattery crunch pork rinds normally give, a condensed 11-spice blend, and a coconut-milk \u0027buttermilk\u0027 soak instead of dairy buttermilk. The double dip and the 10-minute rest are what make it actually crackle.",
+        "comparedVersionsHe":  "הבעיה המקורית היא הציפוי: קמח חיטה (בתוספת תיבול עם סוכר) מוסיף 15-20 גרם פחמימה וירד מהשולחן. אבל לתיקון הקיטו הסטנדרטי יש בעיית כשרות משלו — כמעט כל חיקוי (Taste of Home, Healthy Recipes Blog, Big Man\u0027s World) נשען על חזיר מרוסק ו/או פרמזן לפריכות, שניהם בלתי אפשריים במנה בשרית כשרה. השווינו את שיטת הציפוי הכפול של Big Man\u0027s World, את תערובת התבלינים של Thinlicious ואת גישת האפוי-או-מטוגן של Sizzle \u0026 Salt, ובנינו מחדש ציפוי פרווה: קמח שקדים וקוקוס לגוף, פשתן זהוב או שומשום טחון לפריכות המתנפצת שחזיר מרוסק נותן בדרך כלל, תערובת 11 תבלינים מרוכזת, והשריית \u0027חובצה\u0027 מחלב קוקוס במקום חובצה חלבית. הציפוי הכפול והמנוחה של 10 דקות הם מה שגורם לזה באמת להתפצח."
+    },
+    {
+        "id":  "chicken-pad-thai-shirataki",
+        "name":  "Chicken Pad Thai with Shirataki Noodles",
+        "nameHe":  "פאד תאי עוף עם אטריות שירטקי",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  20,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "2 packs (400 g)",
+                                "item":  "shirataki fettuccine noodles",
+                                "israelNote":  "אטריות שירטקי — חנויות טבע/אינטרנט; אפשר להחליף בנודלס זוקיני"
+                            },
+                            {
+                                "amount":  "500 g",
+                                "item":  "chicken breast or thighs, thinly sliced"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "avocado oil"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "eggs, lightly beaten"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "natural peanut butter (unsweetened)"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "soy sauce or coconut aminos",
+                                "israelNote":  "רוטב סויה (לבדוק כשרות); קוקוס אמינוס — iHerb"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "lime juice + wedges to serve"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "golden erythritol or allulose",
+                                "israelNote":  "רשתות טבע/אינטרנט"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced + 1/2 tsp chili flakes"
+                            },
+                            {
+                                "amount":  "2 cups",
+                                "item":  "bean sprouts",
+                                "israelNote":  "נבטי מש — כל סופרמרקט"
+                            },
+                            {
+                                "amount":  "3",
+                                "item":  "green onions, cut into batons"
+                            },
+                            {
+                                "amount":  "1/4 cup",
+                                "item":  "roasted peanuts, chopped, plus cilantro to top"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 אריזות (400 גרם)",
+                                  "item":  "אטריות שירטקי פטוצ\u0027יני — חנויות טבע/אינטרנט; אפשר להחליף בנודלס זוקיני"
+                              },
+                              {
+                                  "amount":  "500 גרם",
+                                  "item":  "חזה עוף או פרגית פרוסים דק"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "שמן אבוקדו"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים טרופות קלות"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "חמאת בוטנים טבעית (ללא סוכר)"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "רוטב סויה (לבדוק כשרות) או קוקוס אמינוס (iHerb)"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "מיץ ליים + פלחים להגשה"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "אריתריטול זהוב או אלולוז (רשתות טבע/אינטרנט)"
+                              },
+                              {
+                                  "amount":  "2 שיניים",
+                                  "item":  "שום כתוש + 1/2 כפית פתיתי צ\u0027ילי"
+                              },
+                              {
+                                  "amount":  "2 כוסות",
+                                  "item":  "נבטי מש (כל סופרמרקט)"
+                              },
+                              {
+                                  "amount":  "3",
+                                  "item":  "בצל ירוק חתוך למקלות"
+                              },
+                              {
+                                  "amount":  "1/4 כוס",
+                                  "item":  "בוטנים קלויים קצוצים + כוסברה לפיזור"
+                              }
+                          ],
+        "instructions":  [
+                             "Drain and rinse the shirataki noodles well under running water, then dry-fry them in a hot pan 5-6 minutes until they squeak and no steam rises — this removes the smell and gives them bite.",
+                             "Whisk the peanut butter, soy sauce, lime juice, sweetener, garlic, chili and 3 tbsp hot water into a pourable sauce.",
+                             "Heat 2 tbsp oil in a wok over high heat; stir-fry the chicken 4-5 minutes until golden. Push to one side.",
+                             "Add the remaining oil and scramble the eggs on the empty side, then chop through them.",
+                             "Add the noodles and the sauce; toss 2 minutes until everything is coated and hot.",
+                             "Fold in the bean sprouts and green onion; cook 1 minute only — they must stay crunchy.",
+                             "Serve topped with peanuts, cilantro and lime wedges."
+                         ],
+        "instructionsHe":  [
+                               "סננו ושטפו היטב את אטריות השירטקי תחת מים זורמים, ואז טגנו אותן במחבת חמה ויבשה 5-6 דקות עד שהן \u0027חורקות\u0027 ולא עולה אד — זה מסלק את הריח ונותן להן נגיסה.",
+                               "טרפו את חמאת הבוטנים, הסויה, מיץ הליים, הממתיק, השום, הצ\u0027ילי ו-3 כפות מים חמים לרוטב נוזלי.",
+                               "חממו 2 כפות שמן בווק על אש גבוהה; הקפיצו את העוף 4-5 דקות עד הזהבה. דחפו לצד.",
+                               "הוסיפו את יתרת השמן וטרפו את הביצים בצד הריק, ואז קצצו אותן עם הכף.",
+                               "הוסיפו את האטריות והרוטב; ערבבו 2 דקות עד שהכול עטוף וחם.",
+                               "קפלו פנימה את הנבטים והבצל הירוק; בשלו דקה בלבד — הם חייבים להישאר פריכים.",
+                               "הגישו עם בוטנים, כוסברה ופלחי ליים."
+                           ],
+        "nutrition":  {
+                          "calories":  390,
+                          "fatG":  24,
+                          "satFatG":  4.5,
+                          "proteinG":  34,
+                          "carbsG":  12,
+                          "fiberG":  5,
+                          "netCarbsG":  7,
+                          "sugarG":  4,
+                          "sodiumMg":  940
+                      },
+        "ketoVariant":  "Use almond butter and coconut aminos, and skip the bean sprouts, for about 5 g net carbs.",
+        "ketoVariantHe":  "השתמשו בחמאת שקדים וקוקוס אמינוס וותרו על הנבטים — כ-5 גרם נטו.",
+        "lowCarbVariant":  "No shirataki? Spiralized zucchini works: salt it 10 minutes, squeeze dry, and add in the last 2 minutes only.",
+        "lowCarbVariantHe":  "אין שירטקי? נודלס זוקיני עובד: המליחו 10 דקות, סחטו היטב, והוסיפו רק ב-2 הדקות האחרונות.",
+        "tips":  "Traditional pad thai uses fish sauce and tamarind; kosher-certified fish sauce is nearly impossible to find in Israel, so the sauce here builds its funk-sour-sweet balance from soy, lime and peanut butter instead — and it works.",
+        "tipsHe":  "פאד תאי מסורתי משתמש ברוטב דגים וטמרינד; רוטב דגים בהשגחה כמעט בלתי אפשרי להשיג בארץ, ולכן הרוטב כאן בונה את איזון המלוח-חמוץ-מתוק מסויה, ליים וחמאת בוטנים — וזה עובד.",
+        "sources":  [
+                        {
+                            "creator":  "Peace Love and Low Carb (Kyndra Holley)",
+                            "url":  "https://peaceloveandlowcarb.com/keto-chicken-pad-thai/"
+                        },
+                        {
+                            "creator":  "gnom-gnom (Paola van der Hulst)",
+                            "url":  "https://www.gnom-gnom.com/paleo-keto-pad-thai-shirataki-noodles/"
+                        },
+                        {
+                            "creator":  "The Big Man\u0027s World (Arman Liew)",
+                            "url":  "https://thebigmansworld.com/keto-pad-thai/"
+                        }
+                    ],
+        "comparedVersions":  "Pad thai\u0027s carbs come from flat rice noodles (about 45 g a plate) and a sauce sweetened with palm sugar and tamarind paste. We compared Kyndra Holley\u0027s keto chicken pad thai, gnom-gnom\u0027s 15-minute shirataki version and Big Man\u0027s World\u0027s 10-minute one. The consensus fix is shirataki noodles — near-zero carbs and the right slippery-chewy texture once dry-fried (gnom-gnom\u0027s technique, which we adopted, is non-negotiable for texture). The sauce swaps palm sugar for a golden sweetener and, in our kosher rebuild, drops the fish sauce for soy-lime-peanut balance. Peace Love and Low Carb contributed the scramble-the-eggs-in-the-wok sequence that makes it feel authentic.",
+        "comparedVersionsHe":  "הפחמימות בפאד תאי מגיעות מאטריות אורז שטוחות (כ-45 גרם לצלחת) ומרוטב ממותק בסוכר דקלים וטמרינד. השווינו את הפאד תאי של Kyndra Holley, את גרסת ה-15 דקות של gnom-gnom ואת גרסת ה-10 דקות של Big Man\u0027s World. התיקון המוסכם הוא אטריות שירטקי — כמעט אפס פחמימות והמרקם החלקלק-לעיס הנכון אחרי טיגון יבש (הטכניקה של gnom-gnom, שאימצנו, היא חובה למרקם). הרוטב מחליף סוכר דקלים בממתיק זהוב, ובגרסה הכשרה שלנו מוותר על רוטב הדגים לטובת איזון סויה-ליים-בוטנים. מ-Peace Love and Low Carb לקחנו את רצף טריפת הביצים בווק שנותן אותנטיות."
+    },
+    {
+        "id":  "shepherds-pie-cauliflower-lc",
+        "name":  "Shepherd\u0027s Pie with Cauliflower Mash (Dairy-Free)",
+        "nameHe":  "פאי רועים עם מחית כרובית (ללא חלב)",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  25,
+        "cookTimeMin":  45,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "700 g / 1.5 lb",
+                                "item":  "ground beef or lamb"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "onion, diced"
+                            },
+                            {
+                                "amount":  "1 small",
+                                "item":  "carrot, finely diced (flavor only — kept small for carbs)"
+                            },
+                            {
+                                "amount":  "2 stalks",
+                                "item":  "celery, diced"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "tomato paste"
+                            },
+                            {
+                                "amount":  "3/4 cup",
+                                "item":  "beef broth",
+                                "israelNote":  "אבקת/ציר בקר בהשגחה"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "dried thyme and rosemary + salt and pepper"
+                            },
+                            {
+                                "amount":  "1 large head (1.2 kg)",
+                                "item":  "cauliflower, cut into florets"
+                            },
+                            {
+                                "amount":  "1/3 cup",
+                                "item":  "coconut cream (thick part of the can)",
+                                "israelNote":  "קרם קוקוס 22%+ — כל סופרמרקט"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "nutritional yeast (optional, for a \u0027buttery\u0027 note)",
+                                "israelNote":  "שמרי בירה תזונתיים — חנויות טבע"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "700 גרם",
+                                  "item":  "בשר בקר או כבש טחון"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמן זית"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "בצל חתוך לקוביות"
+                              },
+                              {
+                                  "amount":  "1 קטן",
+                                  "item":  "גזר בקוביות דקות (לטעם בלבד — כמות קטנה בגלל הפחמימות)"
+                              },
+                              {
+                                  "amount":  "2 גבעולים",
+                                  "item":  "סלרי חתוך לקוביות"
+                              },
+                              {
+                                  "amount":  "3 שיניים",
+                                  "item":  "שום כתוש"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "רסק עגבניות"
+                              },
+                              {
+                                  "amount":  "3/4 כוס",
+                                  "item":  "ציר בקר (אבקת/ציר בקר בהשגחה)"
+                              },
+                              {
+                                  "amount":  "1 כפית מכל אחד",
+                                  "item":  "טימין ורוזמרין מיובשים + מלח ופלפל"
+                              },
+                              {
+                                  "amount":  "1 ראש גדול (1.2 ק\"ג)",
+                                  "item":  "כרובית מחולקת לפרחים"
+                              },
+                              {
+                                  "amount":  "1/3 כוס",
+                                  "item":  "קרם קוקוס (החלק הסמיך בפחית) 22%+ — כל סופרמרקט"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמרי בירה תזונתיים (אופציונלי, לנופך \u0027חמאתי\u0027) — חנויות טבע"
+                              }
+                          ],
+        "instructions":  [
+                             "Steam or boil the cauliflower florets 10-12 minutes until completely tender; drain and let them steam-dry in the colander 5 minutes (wet cauliflower = wet mash).",
+                             "Blend the hot cauliflower with the coconut cream, nutritional yeast, 1 tsp salt and a little pepper until silky. Set aside.",
+                             "Heat the oven to 200°C / 400°F.",
+                             "In an ovenproof skillet, sauté the onion, carrot and celery in the olive oil 5 minutes; add garlic for 1 minute more.",
+                             "Add the meat and brown well, breaking it up, 7-8 minutes. Stir in the tomato paste, broth and herbs; simmer 5-7 minutes until thick and gravy-like.",
+                             "Spread the cauliflower mash over the meat, sealing to the edges; rough up the surface with a fork so peaks can brown.",
+                             "Bake 20 minutes, then broil 2-3 minutes for a golden top. Rest 10 minutes before serving."
+                         ],
+        "instructionsHe":  [
+                               "אדו או בשלו את פרחי הכרובית 10-12 דקות עד ריכוך מלא; סננו והניחו להתאדות במסננת 5 דקות (כרובית רטובה = מחית מימית).",
+                               "טחנו את הכרובית החמה עם קרם הקוקוס, שמרי הבירה, כפית מלח ומעט פלפל עד מרקם משיי. הניחו בצד.",
+                               "חממו תנור ל-200 מעלות.",
+                               "במחבת שנכנסת לתנור, טגנו את הבצל, הגזר והסלרי בשמן הזית 5 דקות; הוסיפו את השום לעוד דקה.",
+                               "הוסיפו את הבשר והשחימו היטב תוך פירור, 7-8 דקות. ערבבו פנימה את הרסק, הציר והתבלינים; בשלו 5-7 דקות עד סמיכות רוטב.",
+                               "מרחו את מחית הכרובית על הבשר עד לשוליים; חספסו את פני השטח במזלג כדי שהפסגות ישחימו.",
+                               "אפו 20 דקות, ואז גרילו 2-3 דקות לחלק עליון זהוב. המתינו 10 דקות לפני ההגשה."
+                           ],
+        "nutrition":  {
+                          "calories":  390,
+                          "fatG":  26,
+                          "satFatG":  10,
+                          "proteinG":  26,
+                          "carbsG":  13,
+                          "fiberG":  4,
+                          "netCarbsG":  9,
+                          "sugarG":  5,
+                          "sodiumMg":  560
+                      },
+        "ketoVariant":  "Drop the carrot and use ground lamb (the original \u0027shepherd\u0027s\u0027 meat) — about 7 g net and richer flavor.",
+        "ketoVariantHe":  "ותרו על הגזר והשתמשו בכבש טחון (הבשר המקורי של \u0027פאי הרועים\u0027) — כ-7 גרם נטו וטעם עשיר יותר.",
+        "tips":  "The classic mash is potatoes whipped with butter and milk; here coconut cream gives the silkiness and nutritional yeast fakes the buttery note without any dairy. Assembles a day ahead — just bake before dinner.",
+        "tipsHe":  "המחית הקלאסית היא תפוחי אדמה מוקצפים עם חמאה וחלב; כאן קרם קוקוס נותן את המשיות ושמרי הבירה מזייפים את הנופך החמאתי בלי שום חלב. אפשר להרכיב יום מראש — רק לאפות לפני הארוחה.",
+        "sources":  [
+                        {
+                            "creator":  "Paleo Running Momma (Michele Rosen)",
+                            "url":  "https://www.paleorunningmomma.com/low-carb-shepherds-pie-whole30/"
+                        },
+                        {
+                            "creator":  "Healthy Little Peach (Mac Griffith)",
+                            "url":  "https://healthylittlepeach.com/keto-shepards-pie-whole30-dairy-free/"
+                        },
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/keto-shepherds-pie-recipe/"
+                        }
+                    ],
+        "comparedVersions":  "The carb problem is the entire top layer: a butter-and-milk potato mash worth 30-35 g carbs a serving, plus peas and corn in the filling. We compared Paleo Running Momma\u0027s Whole30 version, Healthy Little Peach\u0027s dairy-free keto version and Wholesome Yum\u0027s keto version (which uses butter and cheese — not kosher-viable over meat). The dairy-free Whole30 camp wins for this book: cauliflower mash enriched with coconut cream is silky without butter, and nutritional yeast supplies the savory \u0027buttery\u0027 depth. We kept a single small carrot for the classic sweetness (Healthy Little Peach\u0027s call), skipped peas and corn entirely, and used the fork-ridges + broil trick for the browned top that makes the dish.",
+        "comparedVersionsHe":  "בעיית הפחמימות היא כל השכבה העליונה: מחית תפוחי אדמה עם חמאה וחלב ששווה 30-35 גרם פחמימה למנה, ועוד אפונה ותירס במילוי. השווינו את גרסת ה-Whole30 של Paleo Running Momma, את הגרסה נטולת החלב של Healthy Little Peach ואת הגרסה של Wholesome Yum (שמשתמשת בחמאה וגבינה — לא ישים בכשרות מעל בשר). מחנה ה-Whole30 נטול החלב מנצח בספר הזה: מחית כרובית מועשרת בקרם קוקוס משיית גם בלי חמאה, ושמרי הבירה מספקים את העומק ה\u0027חמאתי\u0027. השארנו גזר קטן אחד למתיקות הקלאסית (ההחלטה של Healthy Little Peach), ויתרנו לגמרי על אפונה ותירס, והשתמשנו בטריק של פסי מזלג + גריל לחלק העליון המושחם שעושה את המנה."
+    },
+    {
+        "id":  "sticky-sesame-orange-chicken-lc",
+        "name":  "Sticky Sesame-Orange Chicken (Sugar-Free Glaze)",
+        "nameHe":  "עוף שומשום-תפוז דביק (זיגוג ללא סוכר)",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "700 g / 1.5 lb",
+                                "item":  "boneless chicken thighs, cut into bite-size pieces"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "almond flour (light dusting)"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "avocado oil"
+                            },
+                            {
+                                "amount":  "1/4 cup",
+                                "item":  "soy sauce",
+                                "israelNote":  "רוטב סויה (לבדוק כשרות)"
+                            },
+                            {
+                                "amount":  "4 tbsp",
+                                "item":  "golden erythritol or allulose",
+                                "israelNote":  "רשתות טבע/אינטרנט"
+                            },
+                            {
+                                "amount":  "zest of 1 + 3 tbsp juice",
+                                "item":  "orange (zest carries the flavor, juice stays minimal)"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "rice vinegar or apple cider vinegar"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced + 2 tsp grated ginger"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "chili flakes (optional)"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "xanthan gum"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "toasted sesame oil + 2 tbsp sesame seeds"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "green onions, sliced, to serve"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "700 גרם",
+                                  "item":  "פרגיות ללא עצם חתוכות לחתיכות ביס"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "קמח שקדים (אבקה קלה)"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "שמן אבוקדו"
+                              },
+                              {
+                                  "amount":  "1/4 כוס",
+                                  "item":  "רוטב סויה (לבדוק כשרות)"
+                              },
+                              {
+                                  "amount":  "4 כפות",
+                                  "item":  "אריתריטול זהוב או אלולוז (רשתות טבע/אינטרנט)"
+                              },
+                              {
+                                  "amount":  "גרידה מ-1 + 3 כפות מיץ",
+                                  "item":  "תפוז (הגרידה נושאת את הטעם, המיץ נשאר מינימלי)"
+                              },
+                              {
+                                  "amount":  "2 כפות",
+                                  "item":  "חומץ אורז או חומץ תפוחים"
+                              },
+                              {
+                                  "amount":  "3 שיניים",
+                                  "item":  "שום כתוש + 2 כפיות ג\u0027ינג\u0027ר מגורר"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "פתיתי צ\u0027ילי (אופציונלי)"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "קסנטן גאם"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "שמן שומשום קלוי + 2 כפות שומשום"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "בצל ירוק פרוס להגשה"
+                              }
+                          ],
+        "instructions":  [
+                             "Toss the chicken pieces with the almond flour, a pinch of salt and pepper — a light dusting only, for browning and sauce-grip.",
+                             "Heat the avocado oil in a wide skillet over medium-high heat; sear the chicken in a single layer 6-8 minutes, turning, until golden on all sides. Remove.",
+                             "In the same pan, combine soy sauce, sweetener, orange zest and juice, vinegar, garlic, ginger and chili; simmer 3-4 minutes.",
+                             "Whisk in the xanthan gum and simmer 1 minute until the glaze coats a spoon.",
+                             "Return the chicken and toss 1-2 minutes on low until every piece is lacquered and sticky.",
+                             "Off the heat, stir in the sesame oil and half the sesame seeds.",
+                             "Serve over cauliflower rice, topped with green onion and the remaining sesame seeds."
+                         ],
+        "instructionsHe":  [
+                               "ערבבו את חתיכות העוף עם קמח השקדים, קורט מלח ופלפל — אבקה קלה בלבד, להשחמה ולאחיזת הרוטב.",
+                               "חממו את שמן האבוקדו במחבת רחבה על אש בינונית-גבוהה; צרבו את העוף בשכבה אחת 6-8 דקות תוך היפוך עד הזהבה מכל הצדדים. הוציאו.",
+                               "באותה מחבת ערבבו סויה, ממתיק, גרידת תפוז ומיץ, חומץ, שום, ג\u0027ינג\u0027ר וצ\u0027ילי; בשלו 3-4 דקות.",
+                               "טרפו פנימה את הקסנטן גאם ובשלו דקה עד שהזיגוג עוטף כף.",
+                               "החזירו את העוף וערבבו 1-2 דקות על אש נמוכה עד שכל חתיכה מצופה ודביקה.",
+                               "מחוץ לאש, ערבבו פנימה את שמן השומשום וחצי מהשומשום.",
+                               "הגישו על אורז כרובית עם בצל ירוק ויתרת השומשום."
+                           ],
+        "nutrition":  {
+                          "calories":  410,
+                          "fatG":  26,
+                          "satFatG":  5,
+                          "proteinG":  36,
+                          "carbsG":  9,
+                          "fiberG":  3,
+                          "netCarbsG":  6,
+                          "sugarG":  3,
+                          "sodiumMg":  870
+                      },
+        "ketoVariant":  "Skip the orange juice and use zest only plus 2 drops of orange extract — about 4 g net with the full citrus aroma.",
+        "ketoVariantHe":  "ותרו על מיץ התפוז והשתמשו בגרידה בלבד עם 2 טיפות תמצית תפוז — כ-4 גרם נטו עם כל ארומת ההדר.",
+        "tips":  "Zest carries almost all the orange flavor with almost no sugar — the 3 tbsp of juice cost only ~2 g net per serving. Allulose makes the stickiest glaze; erythritol works but stiffens when cold.",
+        "tipsHe":  "הגרידה נושאת כמעט את כל טעם התפוז כמעט בלי סוכר — 3 כפות המיץ עולות רק כ-2 גרם נטו למנה. אלולוז נותן את הזיגוג הדביק ביותר; אריתריטול עובד אך מתקשה בקירור.",
+        "sources":  [
+                        {
+                            "creator":  "The Big Man\u0027s World (Arman Liew)",
+                            "url":  "https://thebigmansworld.com/keto-orange-chicken/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey (Carine Claudepierre)",
+                            "url":  "https://www.sweetashoney.co/keto-orange-chicken/"
+                        },
+                        {
+                            "creator":  "The Sugar Free Diva",
+                            "url":  "https://thesugarfreediva.com/sugar-free-sesame-chicken/"
+                        }
+                    ],
+        "comparedVersions":  "Takeout sesame/orange chicken is deep-fried in a cornstarch batter and drowned in a glaze that is essentially sugar syrup with orange juice — 25-30 g sugar a serving before the rice. We compared Big Man\u0027s World\u0027s 20-minute orange chicken, Sweet As Honey\u0027s version (minimal juice, zest-forward) and Sugar Free Diva\u0027s sesame chicken. The shared fix: golden sweetener + vinegar + soy simmered to a lacquer, thickened with xanthan instead of cornstarch, with orange zest doing the flavor work so only a splash of real juice is needed. We merged the two dishes into one glaze (they\u0027re the same sauce family) and kept Sweet As Honey\u0027s zest-over-juice principle, plus a light almond-flour dusting instead of the deep-fried batter.",
+        "comparedVersionsHe":  "עוף שומשום/תפוז ממסעדה מטוגן בבלילת קורנפלור וטובל בזיגוג שהוא בעצם סירופ סוכר עם מיץ תפוזים — 25-30 גרם סוכר למנה עוד לפני האורז. השווינו את עוף התפוז של Big Man\u0027s World, את הגרסה של Sweet As Honey (מינימום מיץ, דגש על גרידה) ואת עוף השומשום של Sugar Free Diva. התיקון המשותף: ממתיק זהוב + חומץ + סויה מבושלים ללכה, מוסמכים בקסנטן במקום קורנפלור, כשגרידת התפוז עושה את עבודת הטעם כך שנדרש רק שפריץ מיץ אמיתי. מיזגנו את שתי המנות לזיגוג אחד (אותה משפחת רוטב) ושמרנו על עקרון הגרידה-לפני-מיץ של Sweet As Honey, בתוספת אבקת קמח שקדים קלה במקום הבלילה המטוגנת."
+    },
+    {
+        "id":  "beef-broccoli-fried-rice-lc",
+        "name":  "Beef \u0026 Broccoli Stir-Fry with Cauliflower \u0027Fried Rice\u0027",
+        "nameHe":  "מוקפץ בקר וברוקולי עם \u0027אורז מוקפץ\u0027 מכרובית",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "600 g",
+                                "item":  "sirloin or flank steak, sliced thin against the grain"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "avocado oil, divided"
+                            },
+                            {
+                                "amount":  "400 g",
+                                "item":  "broccoli florets"
+                            },
+                            {
+                                "amount":  "1/3 cup",
+                                "item":  "soy sauce",
+                                "israelNote":  "רוטב סויה (לבדוק כשרות)"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "golden erythritol",
+                                "israelNote":  "רשתות טבע/אינטרנט"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced + 1 tbsp grated ginger"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "toasted sesame oil"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "xanthan gum"
+                            },
+                            {
+                                "amount":  "4 cups",
+                                "item":  "cauliflower rice"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "eggs, beaten (for the \u0027fried rice\u0027)"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "green onions, sliced"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "sesame seeds"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "600 גרם",
+                                  "item":  "סינטה או פלאנק פרוסים דק נגד כיוון הסיבים"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "שמן אבוקדו, מחולק"
+                              },
+                              {
+                                  "amount":  "400 גרם",
+                                  "item":  "פרחי ברוקולי"
+                              },
+                              {
+                                  "amount":  "1/3 כוס",
+                                  "item":  "רוטב סויה (לבדוק כשרות)"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "אריתריטול זהוב (רשתות טבע/אינטרנט)"
+                              },
+                              {
+                                  "amount":  "3 שיניים",
+                                  "item":  "שום כתוש + כף ג\u0027ינג\u0027ר מגורר"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "שמן שומשום קלוי"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "קסנטן גאם"
+                              },
+                              {
+                                  "amount":  "4 כוסות",
+                                  "item":  "אורז כרובית"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים טרופות (ל\u0027אורז המוקפץ\u0027)"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "בצל ירוק פרוס"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "שומשום"
+                              }
+                          ],
+        "instructions":  [
+                             "Whisk the soy sauce, sweetener, garlic, ginger, sesame oil and 1/4 cup water for the stir-fry sauce.",
+                             "Heat 1 tbsp oil in a wok over the highest heat. Sear the beef slices in two batches, 1-2 minutes per batch — just browned, still pink inside. Remove.",
+                             "Stir-fry the broccoli with 1 tbsp oil and 3 tbsp water, covered, 3 minutes, until bright green and crisp-tender.",
+                             "Pour in the sauce, sprinkle over the xanthan gum while stirring, and simmer 1 minute until glossy. Return the beef and toss; keep warm.",
+                             "For the \u0027fried rice\u0027: heat the last 1 tbsp oil in a second pan on high, scramble the eggs 30 seconds, add the cauliflower rice and stir-fry 4-5 minutes until it picks up toasty spots.",
+                             "Season the rice with a splash of soy and the green onions.",
+                             "Serve the beef and broccoli over the fried \u0027rice\u0027, topped with sesame seeds."
+                         ],
+        "instructionsHe":  [
+                               "טרפו את הסויה, הממתיק, השום, הג\u0027ינג\u0027ר, שמן השומשום ו-1/4 כוס מים לרוטב ההקפצה.",
+                               "חממו כף שמן בווק על האש הגבוהה ביותר. צרבו את פרוסות הבקר בשתי מנות, 1-2 דקות למנה — רק השחמה, עדיין ורוד בפנים. הוציאו.",
+                               "הקפיצו את הברוקולי עם כף שמן ו-3 כפות מים, מכוסה, 3 דקות, עד ירוק בוהק ופריך-רך.",
+                               "שפכו את הרוטב, פזרו את הקסנטן גאם תוך ערבוב, ובשלו דקה עד ברק. החזירו את הבקר וערבבו; שמרו חם.",
+                               "ל\u0027אורז המוקפץ\u0027: חממו את הכף האחרונה של שמן במחבת שנייה על אש גבוהה, טרפו את הביצים 30 שניות, הוסיפו את אורז הכרובית והקפיצו 4-5 דקות עד שמופיעים כתמים קלויים.",
+                               "תבלו את האורז בשפריץ סויה ובבצל הירוק.",
+                               "הגישו את הבקר והברוקולי על ה\u0027אורז\u0027 המוקפץ, עם שומשום מעל."
+                           ],
+        "nutrition":  {
+                          "calories":  430,
+                          "fatG":  25,
+                          "satFatG":  6,
+                          "proteinG":  38,
+                          "carbsG":  13,
+                          "fiberG":  4,
+                          "netCarbsG":  9,
+                          "sugarG":  4,
+                          "sodiumMg":  1050
+                      },
+        "ketoVariant":  "Use ribeye instead of sirloin and halve the cauliflower rice portion — about 6 g net and higher fat macros.",
+        "ketoVariantHe":  "השתמשו באנטריקוט במקום סינטה וחצו את מנת אורז הכרובית — כ-6 גרם נטו ומקרו שומן גבוה יותר.",
+        "tips":  "Freeze the steak 30 minutes before slicing — paper-thin slices are what make it feel like takeout. Restaurant versions \u0027velvet\u0027 the beef in baking soda; a 15-minute toss in 1/2 tsp baking soda (rinsed off) tenderizes cheaper cuts.",
+        "tipsHe":  "הקפיאו את הסטייק 30 דקות לפני הפריסה — פרוסות דקיקות הן מה שנותן תחושת טייק-אאוט. מסעדות \u0027מקטפות\u0027 את הבקר בסודה לשתייה; ערבוב של 15 דקות ב-1/2 כפית סודה לשתייה (ונשטף) מרכך נתחים זולים.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/easy-paleo-keto-beef-and-broccoli-stir-fry-recipe/"
+                        },
+                        {
+                            "creator":  "Simply So Healthy",
+                            "url":  "https://simplysohealthy.com/keto-beef-and-broccoli/"
+                        },
+                        {
+                            "creator":  "Mind Over Munch (Alyssia Sheikh)",
+                            "url":  "https://mindovermunch.com/recipes/keto-beef-and-broccoli/"
+                        }
+                    ],
+        "comparedVersions":  "Restaurant beef \u0026 broccoli hides sugar and cornstarch in the brown sauce, and the meal rides on a mound of white or fried rice — 55-65 g carbs a plate. We compared Wholesome Yum\u0027s paleo-keto stir-fry, Simply So Healthy\u0027s version and Mind Over Munch\u0027s bowl with cauliflower rice. The fix is identical across all three: drop the sugar to a spoon of golden sweetener, thicken with xanthan instead of cornstarch, and stir-fry riced cauliflower with egg and soy so it eats like fried rice, not like a vegetable side. We took Wholesome Yum\u0027s sauce ratios, Mind Over Munch\u0027s egg-in-the-rice move, and added the freezer-slicing and baking-soda velveting tips that make cheap Israeli cuts work.",
+        "comparedVersionsHe":  "בקר וברוקולי של מסעדה מסתיר סוכר וקורנפלור ברוטב החום, והארוחה רוכבת על ערימת אורז לבן או מוקפץ — 55-65 גרם פחמימה לצלחת. השווינו את המוקפץ של Wholesome Yum, את הגרסה של Simply So Healthy ואת הקערה של Mind Over Munch עם אורז כרובית. התיקון זהה אצל שלושתם: מורידים את הסוכר לכף ממתיק זהוב, מסמיכים בקסנטן במקום קורנפלור, ומקפיצים אורז כרובית עם ביצה וסויה כך שהוא נאכל כמו אורז מוקפץ ולא כמו תוספת ירק. לקחנו את יחסי הרוטב של Wholesome Yum, את מהלך הביצה-באורז של Mind Over Munch, והוספנו את טיפי ההקפאה-לפריסה והריכוך בסודה לשתייה שגורמים לנתחים ישראליים זולים לעבוד."
+    },
+    {
+        "id":  "chicken-pot-pie-pareve-crust",
+        "name":  "Chicken Pot Pie with Pareve Almond-Flour Crust",
+        "nameHe":  "פאי עוף עם בצק שקדים פרווה",
+        "category":  "meat-mains",
+        "kosherType":  "meat",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  30,
+        "cookTimeMin":  45,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "600 g",
+                                "item":  "boneless chicken thighs, diced"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "olive oil, divided"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "onion, diced + 2 stalks celery, diced"
+                            },
+                            {
+                                "amount":  "200 g",
+                                "item":  "mushrooms, quartered"
+                            },
+                            {
+                                "amount":  "150 g",
+                                "item":  "green beans, cut short (instead of peas)"
+                            },
+                            {
+                                "amount":  "1 cup",
+                                "item":  "chicken broth",
+                                "israelNote":  "ציר/אבקת מרק עוף בהשגחה"
+                            },
+                            {
+                                "amount":  "3/4 cup",
+                                "item":  "coconut cream",
+                                "israelNote":  "קרם קוקוס 22%+ — כל סופרמרקט"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "dried thyme + salt and pepper"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "xanthan gum"
+                            },
+                            {
+                                "amount":  "2 cups",
+                                "item":  "blanched almond flour (for the crust)"
+                            },
+                            {
+                                "amount":  "60 g",
+                                "item":  "cold coconut oil, in bits (for the crust)",
+                                "israelNote":  "שמן קוקוס מוצק מהמקרר"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "eggs — 1 for the dough, 1 beaten for glazing"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "600 גרם",
+                                  "item":  "פרגיות ללא עצם בקוביות"
+                              },
+                              {
+                                  "amount":  "3 כפות",
+                                  "item":  "שמן זית, מחולק"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "בצל בקוביות + 2 גבעולי סלרי בקוביות"
+                              },
+                              {
+                                  "amount":  "200 גרם",
+                                  "item":  "פטריות ברבעים"
+                              },
+                              {
+                                  "amount":  "150 גרם",
+                                  "item":  "שעועית ירוקה חתוכה קצר (במקום אפונה)"
+                              },
+                              {
+                                  "amount":  "1 כוס",
+                                  "item":  "ציר עוף (ציר/אבקת מרק עוף בהשגחה)"
+                              },
+                              {
+                                  "amount":  "3/4 כוס",
+                                  "item":  "קרם קוקוס 22%+ — כל סופרמרקט"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "טימין מיובש + מלח ופלפל"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "קסנטן גאם"
+                              },
+                              {
+                                  "amount":  "2 כוסות",
+                                  "item":  "קמח שקדים מולבן (לבצק)"
+                              },
+                              {
+                                  "amount":  "60 גרם",
+                                  "item":  "שמן קוקוס קר בחתיכות (לבצק) — מוצק מהמקרר"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים — 1 לבצק, 1 טרופה להברשה"
+                              }
+                          ],
+        "instructions":  [
+                             "Make the crust: pulse the almond flour with 1/2 tsp salt and the cold coconut oil bits to coarse crumbs, add 1 egg and pulse to a dough. Press into a disc, wrap and chill 20 minutes.",
+                             "Heat the oven to 190°C / 375°F.",
+                             "Sear the diced chicken in 2 tbsp olive oil over high heat, 5 minutes, until golden. Remove.",
+                             "Soften the onion, celery and mushrooms in the remaining oil, 6-7 minutes, until the mushroom liquid evaporates. Add the green beans and thyme.",
+                             "Pour in the broth and coconut cream; simmer 3 minutes. Whisk in the xanthan gum and simmer 1-2 minutes until it coats a spoon like a cream sauce. Return the chicken, season, and fill a pie dish.",
+                             "Roll the chilled dough between two sheets of parchment to the size of the dish; peel one sheet, flip the crust over the filling and peel off the second. Pinch the edges, cut vents, brush with beaten egg.",
+                             "Bake 25-30 minutes until deep golden. Cover the edges with foil if they brown early. Rest 10 minutes.",
+                             "Empanada option: cut the same dough into 10 cm rounds, fill with a spoon of cooled filling, fold, crimp, glaze, and bake 18-20 minutes."
+                         ],
+        "instructionsHe":  [
+                               "הכינו את הבצק: רסקו במעבד את קמח השקדים עם 1/2 כפית מלח וחתיכות שמן הקוקוס הקר לפירורים גסים, הוסיפו ביצה ורסקו לבצק. שטחו לדיסקית, עטפו וצננו 20 דקות.",
+                               "חממו תנור ל-190 מעלות.",
+                               "צרבו את קוביות העוף ב-2 כפות שמן זית על אש גבוהה, 5 דקות, עד הזהבה. הוציאו.",
+                               "רככו את הבצל, הסלרי והפטריות ביתרת השמן, 6-7 דקות, עד שנוזלי הפטריות מתאדים. הוסיפו את השעועית והטימין.",
+                               "שפכו את הציר וקרם הקוקוס; בשלו 3 דקות. טרפו פנימה את הקסנטן גאם ובשלו 1-2 דקות עד שהרוטב עוטף כף כמו רוטב שמנת. החזירו את העוף, תבלו, ומלאו תבנית פאי.",
+                               "רדדו את הבצק המצונן בין שני ניירות אפייה לגודל התבנית; קלפו נייר אחד, הפכו את הבצק על המילוי וקלפו את השני. צבטו שוליים, חתכו פתחי אוורור, הברישו בביצה טרופה.",
+                               "אפו 25-30 דקות עד זהוב עמוק. כסו שוליים בנייר כסף אם משחימים מוקדם. המתינו 10 דקות.",
+                               "אפשרות אמפנדס: קרצו מאותו בצק עיגולים של 10 ס\"מ, מלאו בכף מילוי מצונן, קפלו, צבטו, הברישו, ואפו 18-20 דקות."
+                           ],
+        "nutrition":  {
+                          "calories":  520,
+                          "fatG":  42,
+                          "satFatG":  14,
+                          "proteinG":  27,
+                          "carbsG":  12,
+                          "fiberG":  5,
+                          "netCarbsG":  7,
+                          "sugarG":  3,
+                          "sodiumMg":  640
+                      },
+        "ketoVariant":  "Top-crust-only (as written) is already the keto choice — a double crust would double the almond flour; keep it single and it stays around 7 g net.",
+        "ketoVariantHe":  "בצק עליון בלבד (כמו במתכון) הוא כבר הבחירה הקיטוגנית — בצק כפול היה מכפיל את קמח השקדים; השאירו יחיד וזה נשאר סביב 7 גרם נטו.",
+        "tips":  "Classic pot pie filling is a butter-flour roux with cream — here coconut cream plus xanthan builds the same velvet without dairy, and the thyme keeps it tasting \u0027pot pie\u0027, not \u0027coconut\u0027. The filling can be made 2 days ahead.",
+        "tipsHe":  "מילוי פאי קלאסי הוא רביכת חמאה-קמח עם שמנת — כאן קרם קוקוס עם קסנטן בונה את אותה קטיפתיות בלי חלב, והטימין שומר על טעם של \u0027פאי\u0027 ולא של \u0027קוקוס\u0027. את המילוי אפשר להכין יומיים מראש.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/keto-chicken-pot-pie/"
+                        },
+                        {
+                            "creator":  "Cassidy\u0027s Craveable Creations",
+                            "url":  "https://cassidyscraveablecreations.com/chicken-pot-pie/"
+                        },
+                        {
+                            "creator":  "gnom-gnom (Paola van der Hulst)",
+                            "url":  "https://www.gnom-gnom.com/gluten-free-keto-empanadas/"
+                        }
+                    ],
+        "comparedVersions":  "Pot pie fails twice for this book: a wheat crust (about 30 g carbs a slice) and a butter-cream-roux filling that is dairy over chicken. We compared Wholesome Yum\u0027s keto pot pie (biscuit-style topping, uses butter), Cassidy\u0027s dairy-free-adaptable version and gnom-gnom\u0027s flaky keto empanada dough (fathead-style, uses mozzarella — not kosher-viable here). The rebuild: an almond-flour crust cut with cold coconut oil in true pâte-brisée style stays flaky with zero dairy, and the filling gets its velvet from coconut cream thickened with xanthan (Cassidy\u0027s substitution, which she explicitly recommends). Green beans stand in for the traditional peas at a third of the carbs. The same dough folds into empanadas — step 8.",
+        "comparedVersionsHe":  "פאי עוף נכשל פעמיים בספר הזה: בצק חיטה (כ-30 גרם פחמימה לפרוסה) ומילוי רביכת חמאה-שמנת שהוא חלב על עוף. השווינו את הפאי של Wholesome Yum (טופינג בסגנון ביסקוויט, עם חמאה), את הגרסה הניתנת להתאמה ללא חלב של Cassidy ואת בצק האמפנדס הקיטו של gnom-gnom (סגנון פאטהד עם מוצרלה — לא ישים בכשרות כאן). הבנייה מחדש: בצק קמח שקדים עם שמן קוקוס קר בסגנון פאט בריזה אמיתי נשאר פריך בלי טיפת חלב, והמילוי מקבל את הקטיפתיות מקרם קוקוס מוסמך בקסנטן (ההחלפה של Cassidy, שהיא ממליצה עליה במפורש). שעועית ירוקה מחליפה את האפונה המסורתית בשליש מהפחמימות. אותו בצק מתקפל לאמפנדס — שלב 8."
+    }
+]

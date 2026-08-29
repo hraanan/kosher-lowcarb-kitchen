@@ -17,6 +17,8 @@
   --dairy-bg:#E3EDF5;
   --pareve:#4A7A52;
   --pareve-bg:#E2F0E4;
+  --meat:#9C4038;
+  --meat-bg:#F6E4E1;
   --keto:#8C5A2E;
   --keto-bg:#F3E9DC;
   --shadow:0 1px 3px rgba(35,40,25,.08),0 6px 18px rgba(35,40,25,.06);
@@ -36,6 +38,8 @@
     --dairy-bg:#22303B;
     --pareve:#8FC69A;
     --pareve-bg:#213526;
+    --meat:#D89890;
+    --meat-bg:#3A2523;
     --keto:#D6A972;
     --keto-bg:#382C1D;
     --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.3);
@@ -55,6 +59,8 @@
   --dairy-bg:#22303B;
   --pareve:#8FC69A;
   --pareve-bg:#213526;
+  --meat:#D89890;
+  --meat-bg:#3A2523;
   --keto:#D6A972;
   --keto-bg:#382C1D;
   --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.3);
@@ -123,6 +129,7 @@ header.site{
 .badge{display:inline-flex;align-items:center;gap:5px;border-radius:6px;padding:2px 9px;font-size:12px;font-weight:700;letter-spacing:.03em}
 .badge.dairy{background:var(--dairy-bg);color:var(--dairy)}
 .badge.pareve{background:var(--pareve-bg);color:var(--pareve)}
+.badge.meat{background:var(--meat-bg);color:var(--meat)}
 .badge.keto{background:var(--keto-bg);color:var(--keto)}
 .badge.lowcarb{background:var(--accent-soft);color:var(--accent)}
 .badge .dot{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
@@ -356,6 +363,7 @@ const RECIPES = /*__DATA__*/[];
 /* ---------- i18n ---------- */
 const CATS = [
   {id:"dairy-vegetarian-mains", en:"Dairy & Vegetarian Mains", he:"מנות עיקריות חלביות וצמחוניות"},
+  {id:"meat-mains", en:"Meat & Poultry Classics", he:"בשרי — הקלאסיקות"},
   {id:"legumes-grains", en:"Low-Carb Legumes & Grains", he:"קטניות ודגנים דלי-פחמימה"},
   {id:"snacks", en:"Snacks", he:"נשנושים"},
   {id:"baking-savory", en:"Savory Baking", he:"מאפים מלוחים"},
@@ -366,10 +374,10 @@ const CATS = [
 const T = {
   en:{
     title:"Kitush",
-    tagline:"149 simple keto & low-carb recipes · every one kosher · Israeli-pantry friendly",
+    tagline:"{n} simple keto & low-carb recipes · every one kosher · Israeli-pantry friendly",
     search:"Search recipes or ingredients…",
     all:"All", kosher:"Kosher", diet:"Diet",
-    dairy:"Dairy", pareve:"Pareve", keto:"Keto", lowcarb:"Low-carb",
+    dairy:"Dairy", pareve:"Pareve", meat:"Meat", keto:"Keto", lowcarb:"Low-carb",
     ketoFull:"Keto · ≤10g net", lowcarbFull:"Low-carb · 10–20g net",
     netCarbs:"net carbs", perServing:"per serving",
     recipes:"recipes", noResults:"No recipes match — try clearing a filter.",
@@ -384,7 +392,7 @@ const T = {
     pantryBtn:"🧺 Ingredients", pantryTitle:"The Pantry",
     pantrySub:"Every ingredient used in the book. Click one to see the recipes that use it.",
     usedIn:"recipes",
-    sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
+    sec_meat:"Meat & Poultry", sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
     sec_nuts:"Nuts, Seeds & Coconut", sec_dairy:"Dairy & Eggs", sec_produce:"Vegetables & Fruit",
     sec_oils:"Oils & Condiments", sec_spice:"Spices & Flavorings", sec_other:"Other",
     rate:"Rate this recipe", votes:"ratings", addRecipe:"➕ Add a recipe",
@@ -408,10 +416,10 @@ const T = {
   },
   he:{
     title:"קיטוש",
-    tagline:"149 מתכונים פשוטים בסגנון קיטו ודל-פחמימות · הכול כשר · מותאם לסופר הישראלי",
+    tagline:"{n} מתכונים פשוטים בסגנון קיטו ודל-פחמימות · הכול כשר · מותאם לסופר הישראלי",
     search:"חיפוש מתכון או מרכיב…",
     all:"הכול", kosher:"כשרות", diet:"תזונה",
-    dairy:"חלבי", pareve:"פרווה", keto:"קיטו", lowcarb:"דל-פחמימות",
+    dairy:"חלבי", pareve:"פרווה", meat:"בשרי", keto:"קיטו", lowcarb:"דל-פחמימות",
     ketoFull:"קיטו · עד 10 ג׳ נטו", lowcarbFull:"דל-פחמימות · 10–20 ג׳ נטו",
     netCarbs:"פחמימות נטו", perServing:"למנה",
     recipes:"מתכונים", noResults:"אין מתכונים מתאימים — נסו לנקות סינון.",
@@ -426,7 +434,7 @@ const T = {
     pantryBtn:"🧺 מצרכים", pantryTitle:"המצרכים",
     pantrySub:"כל המצרכים שבספר. לחיצה על מצרך תציג את המתכונים שבהם הוא מופיע.",
     usedIn:"מתכונים",
-    sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
+    sec_meat:"בשר ועוף", sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
     sec_nuts:"אגוזים, זרעים וקוקוס", sec_dairy:"מוצרי חלב וביצים", sec_produce:"ירקות ופירות",
     sec_oils:"שמנים ורטבים", sec_spice:"תבלינים", sec_other:"שונות",
     rate:"דרגו את המתכון", votes:"דירוגים", addRecipe:"➕ הוספת מתכון",
@@ -509,6 +517,9 @@ const ILLUS_RULES = [
  [/shakshuka|frittata|florentine|baked egg|omelet|egg muffin|fritter|latke/,"skillet"],[/deviled/,"eggs"],
  [/labneh|celery|guacamole|avocado/, "bowl"],
  [/falafel/,"bonbons"],
+ [/cigar/,"sticks"],[/burger/,"bun"],[/schnitzel|fried chicken/,"skillet"],
+ [/cholent|hamin|shepherd|pot pie|empanada|holishkes/,"casserole"],
+ [/teriyaki|sweet.*sour|sesame chicken|orange chicken|pad thai|shawarma|meorav|fried rice/,"noodles"],
  [/quinoa|lentil|edamame|lupini|turmus|buckwheat|kasha|hummus|majadra|porridge|soup|stew|bean|snow pea|tabbouleh|couscous|pilaf/,"noodles"],
  [/lasagna|moussaka|casserole|gratin|mac &|mac and|rollatini|stuffed|boats|baked feta|parmesan|crumble|quiche/,"casserole"],
  [/stir-fry|zoodle|noodle|alfredo|stroganoff/,"noodles"],
@@ -528,10 +539,12 @@ function illusFor(r){
 }
 
 /* ---------- badges ---------- */
+function kosherBadge(kt){
+  const cls = kt==="dairy" ? "dairy" : kt==="meat" ? "meat" : "pareve";
+  return `<span class="badge ${cls}"><span class="dot"></span>${t(cls)}</span>`;
+}
 function badges(r, full){
-  const k = r.kosherType==="dairy"
-    ? `<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`
-    : `<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`;
+  const k = kosherBadge(r.kosherType);
   const d = r.dietTags==="keto"
     ? `<span class="badge keto">${full?t("ketoFull"):t("keto")}</span>`
     : `<span class="badge lowcarb">${full?t("lowcarbFull"):t("lowcarb")}</span>`;
@@ -851,7 +864,7 @@ function famCardHTML(s, i){
   const ings = (s.ingredients||[]).slice(0,6).join(" · ");
   return `<button class="card" data-f="${i}">
     <div class="illus" aria-hidden="true"><svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">${ICONS.cloche}</svg></div>
-    <div class="badges">${s.kosherType==="dairy"?`<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`:`<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`}</div>
+    <div class="badges">${kosherBadge(s.kosherType)}</div>
     <h3>${esc(s.name)}</h3>
     <p class="card-ings">${esc(ings)}</p>
     <div class="meta"><span class="fam-by">${t("by")} ${esc(s.by||"?")}</span><span class="time">${esc(s.date||"")}</span></div>
@@ -873,7 +886,7 @@ function showFamily(i){
   v.innerHTML = `
   <div class="back-row no-print"><button class="ghost-btn" id="backBtn">${t("back")}</button></div>
   <article class="recipe">
-    <div class="badges">${s.kosherType==="dairy"?`<span class="badge dairy"><span class="dot"></span>${t("dairy")}</span>`:`<span class="badge pareve"><span class="dot"></span>${t("pareve")}</span>`}<span class="badge lowcarb">${t("familyRecipes")}</span></div>
+    <div class="badges">${kosherBadge(s.kosherType)}<span class="badge lowcarb">${t("familyRecipes")}</span></div>
     <h2>${esc(s.name)}</h2>
     <p class="fam-by">${t("by")} ${esc(s.by||"?")} · ${esc(s.date||"")}</p>
     <div class="recipe-cols">
@@ -899,7 +912,7 @@ function showAddForm(){
       <div><label for="fName">${t("formName")}</label><input id="fName" type="text"></div>
       <div><label for="fBy">${t("formYourName")}</label><input id="fBy" type="text"></div>
       <div><label for="fCat">${t("formCategory")}</label><select id="fCat">${cats}</select></div>
-      <div><label for="fKosher">${t("formKosher")}</label><select id="fKosher"><option value="pareve">${t("pareve")}</option><option value="dairy">${t("dairy")}</option></select></div>
+      <div><label for="fKosher">${t("formKosher")}</label><select id="fKosher"><option value="pareve">${t("pareve")}</option><option value="dairy">${t("dairy")}</option><option value="meat">${t("meat")}</option></select></div>
       <div><label for="fIngs">${t("formIngs")}</label><textarea id="fIngs"></textarea></div>
       <div><label for="fSteps">${t("formSteps")}</label><textarea id="fSteps"></textarea></div>
       <div><label for="fNotes">${t("formNotes")}</label><input id="fNotes" type="text"></div>
@@ -996,6 +1009,7 @@ const PANTRY_RULES = [
  ["sec_flour", /flour|psyllium|xanthan|baking powder|baking soda|yeast|cocoa|cacao|vanilla|gelatin|agar|extract|protein powder|konjac/],
  ["sec_choc", /chocolate|cocoa butter/],
  ["sec_nuts", /almond|pecan|walnut|hazelnut|peanut|cashew|pistachio|macadamia|sesame|tahini|chia|flax|sunflower|pumpkin seed|poppy|coconut|nut|aquafaba/],
+ ["sec_meat", /chicken|beef|turkey|lamb|minced|ground (beef|chicken|turkey|lamb|meat)|steak|drumstick|thigh|schnitzel|pargit|brisket|roast/],
  ["sec_dairy", /cheese|cream|butter|milk|yogurt|labneh|labaneh|egg|mascarpone|ricotta|mozzarella|parmesan|feta|halloumi|cottage|kashkaval|gvina/],
  ["sec_spice", /salt|black pepper|white pepper|cayenne|chili flakes|cinnamon|paprika|cumin|oregano|za'?atar|caraway|cardamom|nutmeg|ginger|turmeric|onion powder|garlic powder|everything|seasoning|spice|rose water|coffee|espresso|bay leaf|dill seed/],
  ["sec_produce", /zucchini|cauliflower|broccoli|spinach|kale|pepper|tomato|onion|garlic|cucumber|celery|lettuce|cabbage|mushroom|portobello|eggplant|avocado|berr|lemon|lime|orange|apple|basil|parsley|cilantro|dill|rosemary|thyme|mint|chive|scallion|leek|radish|kohlrabi|pumpkin|olive|carrot|herb|tofu|salmon|tuna/],
@@ -1026,7 +1040,7 @@ function pantryHTML(){
     const sec = pantrySection(e.key);
     (bySec[sec] = bySec[sec] || []).push(e);
   }
-  const order = ["sec_produce","sec_dairy","sec_nuts","sec_flour","sec_sweet","sec_choc","sec_oils","sec_spice","sec_other"];
+  const order = ["sec_produce","sec_meat","sec_dairy","sec_nuts","sec_flour","sec_sweet","sec_choc","sec_oils","sec_spice","sec_other"];
   let html = `<div class="back-row no-print"><button class="ghost-btn" id="pantryBackBtn">${t("back")}</button></div>
     <div class="pantry-head"><h2>${t("pantryTitle")}</h2><p class="pantry-sub">${t("pantrySub")}</p></div>`;
   for(const sec of order){
@@ -1058,7 +1072,7 @@ function printRecipeBlock(r){
   const kv = rOpt(r,"ketoVariant"), lv = rOpt(r,"lowCarbVariant"), tip = rOpt(r,"tips");
   const srcs = (r.sources||[]).map(s=>`${esc(s.creator)} — ${esc(s.url)}`).join(" · ");
   return `<section class="print-recipe">
-    <div class="pbadges">${r.kosherType==="dairy"?t("dairy"):t("pareve")} · ${r.dietTags==="keto"?t("keto"):t("lowcarb")} · ${esc(catName(r.category))}</div>
+    <div class="pbadges">${t(r.kosherType==="dairy"?"dairy":r.kosherType==="meat"?"meat":"pareve")} · ${r.dietTags==="keto"?t("keto"):t("lowcarb")} · ${esc(catName(r.category))}</div>
     <h2>${esc(rName(r))}</h2>
     <div class="pmeta">${t("prep")} ${r.prepTimeMin} ${t("min")} · ${t("cook")} ${r.cookTimeMin} ${t("min")} · ${r.servings} ${t("servings")} · ${fmt(n.netCarbsG)}g ${t("netCarbs")} ${t("perServing")}</div>
     <h3>${t("ingredients")}</h3><ul>${ings}</ul>
@@ -1111,7 +1125,7 @@ function renderControls(){
 
   const kRow = $("kosherRow");
   kRow.innerHTML = `<span class="chip-label">${t("kosher")}</span>`;
-  for(const [val,lbl] of [["all",t("all")],["dairy",t("dairy")],["pareve",t("pareve")]])
+  for(const [val,lbl] of [["all",t("all")],["meat",t("meat")],["dairy",t("dairy")],["pareve",t("pareve")]])
     kRow.appendChild(chip(lbl, filters.kosher===val, ()=>{filters.kosher=val;renderControls();renderList();}));
 
 }
@@ -1122,7 +1136,7 @@ function applyLang(){
   document.documentElement.setAttribute("lang", lang);
   document.title = t("title");
   $("bookTitle").innerHTML = `<span class="leaf">●</span> ${t("title")}`;
-  $("tagline").textContent = t("tagline");
+  $("tagline").textContent = t("tagline").replace("{n}", RECIPES.length);
   $("searchBox").placeholder = t("search");
   $("langBtn").textContent = lang==="he" ? "English" : "עברית";
   $("pantryBtn").textContent = t("pantryBtn");
