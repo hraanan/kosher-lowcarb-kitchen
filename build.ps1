@@ -97,5 +97,13 @@ $json = ConvertTo-Json -InputObject $ordered -Depth 10 -Compress
 $tpl = Get-Content -Raw -Encoding UTF8 $template
 if ($tpl -notmatch [regex]::Escape("/*__DATA__*/[]")) { Write-Output "template marker missing!"; exit 1 }
 $html = $tpl.Replace("/*__DATA__*/[]", $json)
+
+# bake latest community data (ratings/family recipes synced from the artifact) into the static build
+$communityFile = Join-Path $root "data\community.json"
+if (Test-Path $communityFile) {
+    $cjson = (Get-Content -Raw -Encoding UTF8 $communityFile).Trim()
+    $html = $html.Replace('id="communityData">{"ratings":{},"submissions":[]}</script>', 'id="communityData">' + $cjson + '</script>')
+    Write-Output "Baked community data ($($cjson.Length) chars)"
+}
 [System.IO.File]::WriteAllText($out, $html, (New-Object System.Text.UTF8Encoding($false)))
 Write-Output ("`nWrote {0} ({1:n0} KB)" -f $out, ((Get-Item $out).Length/1KB))
