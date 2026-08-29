@@ -681,30 +681,46 @@ function voterId(){
   }catch(e){ return "anon"; }
 }
 
-async function supa(path, opts){
-  const o = opts || {};
-  const headers = {apikey: SUPA.key, "Authorization": "Bearer " + SUPA.key, "Content-Type": "application/json"};
-  if(o.prefer) headers["Prefer"] = o.prefer;
-  const r = await fetch(SUPA.url + "/rest/v1/" + path, {
-    method: o.method || "GET",
-    headers,
-    body: o.body ? JSON.stringify(o.body) : undefined
+/* backend adapter: SUPA.kind "gsheet" (Google Sheet web app) or "supabase" */
+async function dbLoad(){
+  if(SUPA.kind === "gsheet"){
+    const r = await fetch(SUPA.url);
+    if(!r.ok) throw new Error("db " + r.status);
+    const d = await r.json();
+    const parse = v => { if(typeof v === "string" && v.charAt(0) === "["){ try{ return JSON.parse(v); }catch(e){} } return Array.isArray(v) ? v : String(v||"").split("\n").filter(Boolean); };
+    (d.submissions||[]).forEach(s => { s.ingredients = parse(s.ingredients); s.instructions = parse(s.instructions); });
+    return [d.ratings||[], d.submissions||[], d.requests||[]];
+  }
+  const q = p => fetch(SUPA.url + "/rest/v1/" + p, {headers:{apikey:SUPA.key, "Authorization":"Bearer "+SUPA.key}}).then(r=>{ if(!r.ok) throw new Error("db "+r.status); return r.json(); });
+  return Promise.all([
+    q("ratings?select=recipe_id,stars,voter,created_at&order=created_at.asc"),
+    q("submissions?select=*&order=created_at.asc"),
+    q("requests?select=*&order=created_at.asc")
+  ]);
+}
+
+async function dbInsert(table, obj){
+  if(SUPA.kind === "gsheet"){
+    const r = await fetch(SUPA.url, {method:"POST", body: JSON.stringify(Object.assign({table}, obj))});
+    if(!r.ok) throw new Error("db " + r.status);
+    const d = await r.json().catch(()=>({ok:true}));
+    if(d && d.ok === false) throw new Error("db rejected");
+    return;
+  }
+  const r = await fetch(SUPA.url + "/rest/v1/" + table, {
+    method:"POST",
+    headers:{apikey:SUPA.key, "Authorization":"Bearer "+SUPA.key, "Content-Type":"application/json", "Prefer":"return=minimal"},
+    body: JSON.stringify(obj)
   });
-  if(!r.ok) throw new Error("supa " + r.status);
-  const txt = await r.text();
-  return txt ? JSON.parse(txt) : null;
+  if(!r.ok) throw new Error("db " + r.status);
 }
 
 async function loadCommunity(){
   if(!SUPA || !SUPA.url) return;
   try{
-    const [rats, subs, reqs] = await Promise.all([
-      supa("ratings?select=recipe_id,stars,voter,created_at&order=created_at.asc"),
-      supa("submissions?select=*&order=created_at.asc"),
-      supa("requests?select=*&order=created_at.asc")
-    ]);
+    const [rats, subs, reqs] = await dbLoad();
     const latest = {};
-    for(const row of rats) latest[row.recipe_id + "|" + row.voter] = row.stars;
+    for(const row of rats){ const s = parseInt(row.stars,10); if(s>=1 && s<=5) latest[row.recipe_id + "|" + row.voter] = s; }
     const agg = {};
     for(const k in latest){
       const id = k.split("|")[0];
@@ -746,7 +762,7 @@ async function rate(id, stars){
   const box = $("rateBox");
   if(box) box.outerHTML = rateBoxHTML(id);
   try{
-    await supa("ratings", {method:"POST", prefer:"return=minimal", body:{recipe_id:id, stars, voter:voterId()}});
+    await dbInsert("ratings", {recipe_id:id, stars, voter:voterId()});
   }catch(err){
     if(prev) e.sum -= stars - prev; else { e.sum -= stars; e.count--; }
     setMyRating(id, prev);
@@ -831,10 +847,10 @@ function showAddForm(){
     };
     $("fSubmit").disabled = true;
     try{
-      await supa("submissions", {method:"POST", prefer:"return=minimal", body:{
+      await dbInsert("submissions", {
         name: sub.name, by_name: sub.by, category: sub.category, kosher: sub.kosherType,
         ingredients: sub.ingredients, instructions: sub.instructions, notes: sub.notes
-      }});
+      });
       COMMUNITY.submissions.push(sub);
       location.hash = "";
       toast(t("thanks"));
@@ -890,7 +906,7 @@ function showRequestForm(){
     };
     $("qSubmit").disabled = true;
     try{
-      await supa("requests", {method:"POST", prefer:"return=minimal", body:{dish: req.dish, by_name: req.by, notes: req.notes}});
+      await dbInsert("requests", {dish: req.dish, by_name: req.by, notes: req.notes});
       COMMUNITY.requests.push(req);
       location.hash = "";
       toast(t("reqThanks"));
