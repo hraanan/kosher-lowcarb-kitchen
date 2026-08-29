@@ -239,6 +239,10 @@ article.recipe{
 .stars button:focus-visible{outline:2px solid var(--accent);border-radius:4px}
 .avg-note{font-size:13px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
 .star-badge{color:var(--keto);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+.card-stars{display:flex;align-items:center;font-size:16px;line-height:1;color:var(--line);letter-spacing:1px}
+.card-stars .f{color:var(--keto)}
+.card-stars .cs-num{font-weight:700;color:var(--keto);font-size:13.5px;margin-inline-start:6px;font-variant-numeric:tabular-nums}
+.card-stars .cs-n{color:var(--ink-soft);font-size:12px;margin-inline-start:3px;font-variant-numeric:tabular-nums}
 .form-grid{display:grid;gap:14px;max-width:560px;margin-block-start:14px}
 .form-grid label{font-size:12px;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.06em;display:block;margin-block-end:4px}
 .form-grid input,.form-grid select,.form-grid textarea{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font:inherit;color:var(--ink)}
@@ -558,10 +562,18 @@ function cardHTML(r){
   const visual = ph.length
     ? `<div class="illus photo" aria-hidden="true"><img src="${esc(ph[0].url)}" alt="" loading="lazy"></div>`
     : illusFor(r);
+  let starsRow = "";
+  if(av){
+    const full = Math.round(av.avg);
+    let s = "";
+    for(let i=1; i<=5; i++) s += `<span class="${i<=full?"f":""}">★</span>`;
+    starsRow = `<div class="card-stars" aria-label="${av.avg.toFixed(1)} of 5">${s}<span class="cs-num">${av.avg.toFixed(1)}</span><span class="cs-n">(${av.count})</span></div>`;
+  }
   return `<button class="card" data-id="${esc(r.id)}" aria-label="${esc(rName(r))}">
     ${visual}
-    <div class="badges">${badges(r,false)}${av?`<span class="star-badge">★ ${av.avg.toFixed(1)}</span>`:""}</div>
+    <div class="badges">${badges(r,false)}</div>
     <h3>${esc(rName(r))}</h3>
+    ${starsRow}
     <p class="card-ings">${esc(ingLine)}</p>
     <div class="meta">
       <span class="carbs">${fmt(r.nutrition&&r.nutrition.netCarbsG)}g<small>${t("netCarbs")}</small></span>
