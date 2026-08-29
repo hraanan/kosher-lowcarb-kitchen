@@ -246,6 +246,12 @@ article.recipe{
 .form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
 .form-actions{display:flex;gap:10px}
 .fam-by{font-size:12.5px;color:var(--ink-soft)}
+.req-list{display:flex;flex-direction:column;gap:8px;padding-block:2px 30px}
+.req-item{display:flex;gap:10px;align-items:baseline;padding:9px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;flex-wrap:wrap}
+.req-item b{font-size:15px}
+.req-by{font-size:12.5px;color:var(--ink-soft)}
+.req-status{font-size:12px;font-weight:700;color:var(--keto);margin-inline-start:auto}
+.req-status.added{color:var(--pareve)}
 .toast{position:fixed;inset-block-end:18px;inset-inline-start:0;inset-inline-end:0;margin-inline:auto;width:fit-content;max-width:85vw;background:var(--ink);color:var(--ground);padding:10px 18px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}
 .toast.show{opacity:1}
 
@@ -293,6 +299,7 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
         <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
         <button class="ghost-btn no-print" id="pantryBtn">🧺 Ingredients</button>
         <button class="ghost-btn no-print" id="printBookBtn">🖨 Print book</button>
+        <button class="ghost-btn no-print" id="reqBtn" hidden>🙋 Request a recipe</button>
         <button class="solid-btn no-print" id="addBtn" hidden>➕ Add a recipe</button>
       </div>
     </div>
@@ -331,6 +338,7 @@ const PAGE_SNAPSHOT = "<!doctype html>\n" + document.documentElement.outerHTML;
 const COMMUNITY = (()=>{ try{ const d = JSON.parse(document.getElementById("communityData").textContent); return d && typeof d==="object" ? d : {}; }catch(e){ return {}; } })();
 COMMUNITY.ratings = COMMUNITY.ratings || {};
 COMMUNITY.submissions = COMMUNITY.submissions || [];
+COMMUNITY.requests = COMMUNITY.requests || [];
 
 const RECIPES = /*__DATA__*/[];
 
@@ -376,6 +384,11 @@ const T = {
     thanks:"Added! Everyone can see it now.",
     readOnlyNote:"Rating didn't save — you need edit access to this page (ask Hagai).",
     conflictNote:"Someone else just updated the book — it will refresh.",
+    reqBtn:"🙋 Request a recipe", reqTitle:"Request a recipe",
+    reqDish:"What recipe would you like in the book?", reqNotes:"Anything specific? (optional)",
+    reqSection:"Recipe Requests", reqPending:"waiting for the chef 👨‍🍳", reqAdded:"added ✓",
+    reqThanks:"Request sent! It will be researched and added to the book.",
+    reqFill:"Please write which recipe you'd like.",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -411,6 +424,11 @@ const T = {
     thanks:"נוסף! כולם יכולים לראות עכשיו.",
     readOnlyNote:"הדירוג לא נשמר — צריך הרשאת עריכה לדף (בקשו מחגי).",
     conflictNote:"מישהו אחר עדכן הרגע את הספר — הדף יתרענן.",
+    reqBtn:"🙋 בקשת מתכון", reqTitle:"בקשת מתכון",
+    reqDish:"איזה מתכון תרצו שיתווסף לספר?", reqNotes:"משהו ספציפי? (לא חובה)",
+    reqSection:"בקשות מתכונים", reqPending:"ממתין לשף 👨‍🍳", reqAdded:"נוסף ✓",
+    reqThanks:"הבקשה נשלחה! המתכון ייחקר ויתווסף לספר.",
+    reqFill:"נא לכתוב איזה מתכון תרצו.",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -553,7 +571,7 @@ function renderList(){
   } else {
     html = `<div class="grid" style="padding-block-start:14px">` + list.map(cardHTML).join("") + `</div>`;
   }
-  if(filters.cat==="all" && !filters.q.trim()) html += familySectionHTML();
+  if(filters.cat==="all" && !filters.q.trim()) html += familySectionHTML() + requestsSectionHTML();
   $("listView").innerHTML = html;
 }
 
@@ -654,7 +672,7 @@ async function getCap(){
   }catch(e){ artifactCap = null; }
   return artifactCap;
 }
-getCap().then(c=>{ if(c){ document.body.classList.add("can-community"); $("addBtn").hidden = false; route(); } });
+getCap().then(c=>{ if(c){ document.body.classList.add("can-community"); $("addBtn").hidden = false; $("reqBtn").hidden = false; route(); } });
 
 function toast(msg){
   const el = $("toast");
@@ -799,6 +817,60 @@ function showAddForm(){
   window.scrollTo(0,0);
 }
 
+/* recipe requests */
+function requestsSectionHTML(){
+  if(!COMMUNITY.requests.length) return "";
+  const items = COMMUNITY.requests.map(q=>{
+    const added = q.status==="added";
+    const dish = added && q.recipeId
+      ? `<b><a href="#r/${encodeURIComponent(q.recipeId)}" style="color:inherit">${esc(q.dish)}</a></b>`
+      : `<b>${esc(q.dish)}</b>`;
+    return `<div class="req-item">${dish}
+      ${q.notes?`<span class="req-by">— ${esc(q.notes)}</span>`:""}
+      <span class="req-by">${t("by")} ${esc(q.by||"?")} · ${esc(q.date||"")}</span>
+      <span class="req-status ${added?"added":""}">${added?t("reqAdded"):t("reqPending")}</span>
+    </div>`;
+  }).join("");
+  return `<div class="section-head"><h2>🙋 ${t("reqSection")}</h2><span class="n">${COMMUNITY.requests.length}</span></div>
+    <div class="req-list">${items}</div>`;
+}
+
+function showRequestForm(){
+  $("listView").hidden = true; $("pantryView").hidden = true; $("controls").hidden = true;
+  const v = $("recipeView");
+  v.hidden = false;
+  v.innerHTML = `
+  <div class="back-row no-print"><button class="ghost-btn" id="backBtn">${t("back")}</button></div>
+  <article class="recipe">
+    <h2>${t("reqTitle")}</h2>
+    <div class="form-grid">
+      <div><label for="qDish">${t("reqDish")}</label><input id="qDish" type="text"></div>
+      <div><label for="qBy">${t("formYourName")}</label><input id="qBy" type="text"></div>
+      <div><label for="qNotes">${t("reqNotes")}</label><input id="qNotes" type="text"></div>
+      <div class="form-actions">
+        <button class="solid-btn" id="qSubmit">${t("submit")}</button>
+        <button class="ghost-btn" id="qCancel">${t("cancel")}</button>
+      </div>
+    </div>
+  </article>`;
+  $("backBtn").onclick = $("qCancel").onclick = ()=>{ location.hash=""; };
+  $("qSubmit").onclick = async ()=>{
+    const dish = $("qDish").value.trim();
+    if(!dish){ toast(t("reqFill")); return; }
+    COMMUNITY.requests.push({
+      dish, by: $("qBy").value.trim(), notes: $("qNotes").value.trim(),
+      status: "pending", date: new Date().toISOString().slice(0,10)
+    });
+    $("qSubmit").disabled = true;
+    location.hash = "";
+    toast(t("reqThanks"));
+    const ok = await publishCommunity();
+    if(!ok) COMMUNITY.requests.pop();
+    renderList();
+  };
+  window.scrollTo(0,0);
+}
+
 /* ---------- pantry ---------- */
 const PANTRY_RULES = [
  ["sec_sweet", /erythritol|stevia|monk|allulose|sweetener|sukrin/],
@@ -937,6 +1009,7 @@ function applyLang(){
   $("pantryBtn").textContent = t("pantryBtn");
   $("printBookBtn").textContent = t("printBook");
   $("addBtn").textContent = t("addRecipe");
+  $("reqBtn").textContent = t("reqBtn");
   $("footerNote").textContent = t("footer");
   renderControls();
   route();
@@ -948,6 +1021,7 @@ function route(){
   if(h.startsWith("#r/")) showRecipe(decodeURIComponent(h.slice(3)));
   else if(h==="#pantry") showPantry();
   else if(h==="#add") showAddForm();
+  else if(h==="#req") showRequestForm();
   else if(h.startsWith("#f/")) showFamily(parseInt(h.slice(3),10));
   else showList();
 }
@@ -973,6 +1047,7 @@ document.addEventListener("click", e=>{
 });
 $("pantryBtn").onclick = ()=>{ location.hash = "pantry"; };
 $("addBtn").onclick = ()=>{ location.hash = "add"; };
+$("reqBtn").onclick = ()=>{ location.hash = "req"; };
 $("searchBox").addEventListener("input", e=>{ filters.q = e.target.value; renderList(); });
 $("langBtn").onclick = ()=>{
   lang = lang==="he" ? "en" : "he";
