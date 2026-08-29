@@ -98,6 +98,14 @@ $tpl = Get-Content -Raw -Encoding UTF8 $template
 if ($tpl -notmatch [regex]::Escape("/*__DATA__*/[]")) { Write-Output "template marker missing!"; exit 1 }
 $html = $tpl.Replace("/*__DATA__*/[]", $json)
 
+# inject Supabase config (public anon key) if configured
+$supaFile = Join-Path $root "data\supabase-config.json"
+if (Test-Path $supaFile) {
+    $sjson = (Get-Content -Raw -Encoding UTF8 $supaFile).Trim()
+    $html = $html.Replace("/*__SUPA__*/null", $sjson)
+    Write-Output "Injected Supabase config"
+}
+
 # bake latest community data (ratings/family recipes synced from the artifact) into the static build
 $communityFile = Join-Path $root "data\community.json"
 if (Test-Path $communityFile) {

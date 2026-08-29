@@ -333,8 +333,8 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
 </footer>
 
 <script>
-/* Snapshot of the page's own source, captured before any rendering — used to publish new versions of itself (ratings / added recipes). */
-const PAGE_SNAPSHOT = "<!doctype html>\n" + document.documentElement.outerHTML;
+/* Shared community backend (Supabase) — injected at build time; null = not configured, page falls back to the baked snapshot below. */
+const SUPA = /*__SUPA__*/null;
 const COMMUNITY = (()=>{ try{ const d = JSON.parse(document.getElementById("communityData").textContent); return d && typeof d==="object" ? d : {}; }catch(e){ return {}; } })();
 COMMUNITY.ratings = COMMUNITY.ratings || {};
 COMMUNITY.submissions = COMMUNITY.submissions || [];
@@ -389,6 +389,7 @@ const T = {
     reqSection:"Recipe Requests", reqPending:"waiting for the chef 👨‍🍳", reqAdded:"added ✓",
     reqThanks:"Request sent! It will be researched and added to the book.",
     reqFill:"Please write which recipe you'd like.",
+    saveErr:"Couldn't save — check your internet connection and try again.",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -429,6 +430,7 @@ const T = {
     reqSection:"בקשות מתכונים", reqPending:"ממתין לשף 👨‍🍳", reqAdded:"נוסף ✓",
     reqThanks:"הבקשה נשלחה! המתכון ייחקר ויתווסף לספר.",
     reqFill:"נא לכתוב איזה מתכון תרצו.",
+    saveErr:"השמירה נכשלה — בדקו את חיבור האינטרנט ונסו שוב.",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -660,19 +662,8 @@ function showList(){
   renderList();
 }
 
-/* ---------- community: shared ratings & family recipes ---------- */
-let artifactCap = null, capResolved = false;
-async function getCap(){
-  if(capResolved) return artifactCap;
-  capResolved = true;
-  try{
-    if(window.claude && window.claude.use){
-      artifactCap = (await window.claude.use("artifact")) || (await window.claude.use("self"));
-    }
-  }catch(e){ artifactCap = null; }
-  return artifactCap;
-}
-getCap().then(c=>{ if(c){ document.body.classList.add("can-community"); $("addBtn").hidden = false; $("reqBtn").hidden = false; route(); } });
+/* ---------- community: shared ratings & family recipes (Supabase) ---------- */
+let liveMode = false;
 
 function toast(msg){
   const el = $("toast");
@@ -682,25 +673,55 @@ function toast(msg){
   el._h = setTimeout(()=>el.classList.remove("show"), 3500);
 }
 
-async function publishCommunity(){
-  const cap = await getCap();
-  if(!cap){ toast(t("readOnlyNote")); return false; }
-  const json = JSON.stringify(COMMUNITY).replace(/</g, "\\u003c");
-  const html = PAGE_SNAPSHOT.replace(
-    /(<script[^>]*id="communityData"[^>]*>)[\s\S]*?(<\/script>)/,
-    (m, a, b) => a + json + b
-  );
+function voterId(){
   try{
-    await cap.publish(html);
-    return true;
-  }catch(e){
-    const code = String((e && (e.code || e.message)) || e);
-    if(/conflict/i.test(code)) toast(t("conflictNote"));
-    else if(/not_granted|not_writer/i.test(code)) toast(t("readOnlyNote"));
-    else toast("Error: " + code.slice(0,90));
-    return false;
-  }
+    let v = localStorage.getItem("klk-voter");
+    if(!v){ v = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("klk-voter", v); }
+    return v;
+  }catch(e){ return "anon"; }
 }
+
+async function supa(path, opts){
+  const o = opts || {};
+  const headers = {apikey: SUPA.key, "Authorization": "Bearer " + SUPA.key, "Content-Type": "application/json"};
+  if(o.prefer) headers["Prefer"] = o.prefer;
+  const r = await fetch(SUPA.url + "/rest/v1/" + path, {
+    method: o.method || "GET",
+    headers,
+    body: o.body ? JSON.stringify(o.body) : undefined
+  });
+  if(!r.ok) throw new Error("supa " + r.status);
+  const txt = await r.text();
+  return txt ? JSON.parse(txt) : null;
+}
+
+async function loadCommunity(){
+  if(!SUPA || !SUPA.url) return;
+  try{
+    const [rats, subs, reqs] = await Promise.all([
+      supa("ratings?select=recipe_id,stars,voter,created_at&order=created_at.asc"),
+      supa("submissions?select=*&order=created_at.asc"),
+      supa("requests?select=*&order=created_at.asc")
+    ]);
+    const latest = {};
+    for(const row of rats) latest[row.recipe_id + "|" + row.voter] = row.stars;
+    const agg = {};
+    for(const k in latest){
+      const id = k.split("|")[0];
+      const e = agg[id] || (agg[id] = {sum:0, count:0});
+      e.sum += latest[k]; e.count++;
+    }
+    COMMUNITY.ratings = agg;
+    COMMUNITY.submissions = subs.map(s => ({name:s.name, by:s.by_name, category:s.category, kosherType:s.kosher, ingredients:s.ingredients, instructions:s.instructions, notes:s.notes, date:String(s.created_at||"").slice(0,10)}));
+    COMMUNITY.requests = reqs.map(q => ({dish:q.dish, by:q.by_name, notes:q.notes, status:q.status, recipeId:q.recipe_id, date:String(q.created_at||"").slice(0,10)}));
+    liveMode = true;
+    document.body.classList.add("can-community");
+    $("addBtn").hidden = false;
+    $("reqBtn").hidden = false;
+    route();
+  }catch(e){ /* stay on the baked snapshot, read-only */ }
+}
+loadCommunity();
 
 function myRating(id){ try{ return (JSON.parse(localStorage.getItem("klk-rated")||"{}"))[id] || 0; }catch(e){ return 0; } }
 function setMyRating(id, s){ try{ const m = JSON.parse(localStorage.getItem("klk-rated")||"{}"); m[id]=s; localStorage.setItem("klk-rated", JSON.stringify(m)); }catch(e){} }
@@ -724,13 +745,14 @@ async function rate(id, stars){
   setMyRating(id, stars);
   const box = $("rateBox");
   if(box) box.outerHTML = rateBoxHTML(id);
-  const ok = await publishCommunity();
-  if(!ok){
-    if(prev) e.sum -= stars - prev;
-    else { e.sum -= stars; e.count--; }
+  try{
+    await supa("ratings", {method:"POST", prefer:"return=minimal", body:{recipe_id:id, stars, voter:voterId()}});
+  }catch(err){
+    if(prev) e.sum -= stars - prev; else { e.sum -= stars; e.count--; }
     setMyRating(id, prev);
     const b2 = $("rateBox");
     if(b2) b2.outerHTML = rateBoxHTML(id);
+    toast(t("saveErr"));
   }
 }
 
@@ -802,17 +824,22 @@ function showAddForm(){
     const lines = id => $(id).value.split("\n").map(x=>x.trim()).filter(Boolean);
     const name = $("fName").value.trim(), ings = lines("fIngs"), steps = lines("fSteps");
     if(!name || !ings.length || !steps.length){ toast(t("fillAll")); return; }
-    COMMUNITY.submissions.push({
+    const sub = {
       name, by: $("fBy").value.trim(), category: $("fCat").value, kosherType: $("fKosher").value,
       ingredients: ings, instructions: steps, notes: $("fNotes").value.trim(),
       date: new Date().toISOString().slice(0,10)
-    });
+    };
     $("fSubmit").disabled = true;
-    location.hash = "";
-    toast(t("thanks"));
-    const ok = await publishCommunity();
-    if(!ok) COMMUNITY.submissions.pop();
-    renderList();
+    try{
+      await supa("submissions", {method:"POST", prefer:"return=minimal", body:{
+        name: sub.name, by_name: sub.by, category: sub.category, kosher: sub.kosherType,
+        ingredients: sub.ingredients, instructions: sub.instructions, notes: sub.notes
+      }});
+      COMMUNITY.submissions.push(sub);
+      location.hash = "";
+      toast(t("thanks"));
+      renderList();
+    }catch(err){ $("fSubmit").disabled = false; toast(t("saveErr")); }
   };
   window.scrollTo(0,0);
 }
@@ -857,16 +884,18 @@ function showRequestForm(){
   $("qSubmit").onclick = async ()=>{
     const dish = $("qDish").value.trim();
     if(!dish){ toast(t("reqFill")); return; }
-    COMMUNITY.requests.push({
+    const req = {
       dish, by: $("qBy").value.trim(), notes: $("qNotes").value.trim(),
       status: "pending", date: new Date().toISOString().slice(0,10)
-    });
+    };
     $("qSubmit").disabled = true;
-    location.hash = "";
-    toast(t("reqThanks"));
-    const ok = await publishCommunity();
-    if(!ok) COMMUNITY.requests.pop();
-    renderList();
+    try{
+      await supa("requests", {method:"POST", prefer:"return=minimal", body:{dish: req.dish, by_name: req.by, notes: req.notes}});
+      COMMUNITY.requests.push(req);
+      location.hash = "";
+      toast(t("reqThanks"));
+      renderList();
+    }catch(err){ $("qSubmit").disabled = false; toast(t("saveErr")); }
   };
   window.scrollTo(0,0);
 }
