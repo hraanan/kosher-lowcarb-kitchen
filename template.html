@@ -440,6 +440,7 @@ const T = {
     photoOfRecipe:"Recipe photo (to transcribe)",
     comments:"Comments", writeComment:"Made it? Tips, tweaks, how it came out…", send:"Post comment",
     commentSent:"Posted!", recentComments:"Recent comments", hide:"Hide",
+    askFix:"🛠 Ask Claude to fix", fixPending:"fix queued for Claude",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -491,6 +492,7 @@ const T = {
     photoOfRecipe:"צילום מתכון (לפענוח)",
     comments:"תגובות", writeComment:"הכנתם? טיפים, שינויים, איך יצא…", send:"פרסום תגובה",
     commentSent:"פורסם!", recentComments:"תגובות אחרונות", hide:"הסתרה",
+    askFix:"🛠 בקש תיקון מקלוד", fixPending:"ממתין לתיקון של קלוד",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -1195,9 +1197,10 @@ async function showAdmin(){
     html += `<div class="section-head"><h2>${t("recentComments")}</h2><span class="n">${cs.length}</span></div><div class="req-list">`;
     for(const c of cs){
       const rn = RECIPES.find(r=>r.id===c.recipe_id);
+      const fixReq = String(c.status||"").trim().toLowerCase() === "fix-requested";
       html += adminItemHTML("comments", c.created_at,
-        `<b>${esc(rn?rName(rn):c.recipe_id)}</b><span class="req-by">${esc(c.by_name||"?")}: ${esc(String(c.text).slice(0,80))}</span>`,
-        [[t("hide"), {status:"rejected"}]]);
+        `<b>${esc(rn?rName(rn):c.recipe_id)}</b><span class="req-by">${esc(c.by_name||"?")}: ${esc(String(c.text).slice(0,80))}${fixReq?` · <b>🛠 ${t("fixPending")}</b>`:""}</span>`,
+        fixReq ? [[t("hide"), {status:"rejected"}]] : [[t("askFix"), {status:"fix-requested"}, "solid-btn"], [t("hide"), {status:"rejected"}]]);
     }
     html += cs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
   }
