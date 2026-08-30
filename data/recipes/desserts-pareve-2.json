@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "aquafaba-chocolate-mousse",
         "name":  "Aquafaba Chocolate Mousse",
@@ -22,7 +22,7 @@
                             },
                             {
                                 "amount":  "150 g / 5 oz",
-                                "item":  "sugar-free pareve dark chocolate, chopped (check pareve label; 85% dark also works)",
+                                "item":  "sugar-free pareve dark chocolate, chopped (85% dark also works)",
                                 "israelNote":  "sugar-free or 85% dark chocolate marked parve - health-food stores"
                             },
                             {
@@ -50,7 +50,7 @@
                               },
                               {
                                   "amount":  "150 גרם",
-                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה; גם 85% עובד)",
+                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (גם 85% עובד)",
                                   "israelNote":  "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"
                               },
                               {
@@ -129,7 +129,7 @@
         "ingredients":  [
                             {
                                 "amount":  "115 g / 4 oz",
-                                "item":  "unsweetened baking chocolate (100% cacao), chopped - check pareve label",
+                                "item":  "unsweetened baking chocolate (100% cacao), chopped",
                                 "israelNote":  "100% cacao chocolate marked parve - health-food stores"
                             },
                             {
@@ -171,7 +171,7 @@
         "ingredientsHe":  [
                               {
                                   "amount":  "115 גרם",
-                                  "item":  "שוקולד אפייה לא ממותק (100% קקאו), קצוץ — לבדוק סימון פרווה",
+                                  "item":  "שוקולד אפייה לא ממותק (100% קקאו), קצוץ",
                                   "israelNote":  "שוקולד 100% קקאו בסימון פרווה — חנויות טבע"
                               },
                               {
@@ -303,7 +303,7 @@
                             },
                             {
                                 "amount":  "1/4 cup / 30 g",
-                                "item":  "sugar-free pareve dark chocolate, chopped (check pareve label)",
+                                "item":  "sugar-free pareve dark chocolate, chopped",
                                 "israelNote":  "sugar-free or 85% dark chocolate marked parve"
                             }
                         ],
@@ -340,7 +340,7 @@
                               },
                               {
                                   "amount":  "1/4 כוס / 30 גרם",
-                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה)",
+                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ",
                                   "israelNote":  "שוקולד ללא סוכר או מריר 85% בסימון פרווה"
                               }
                           ],
@@ -545,7 +545,7 @@
         "ingredients":  [
                             {
                                 "amount":  "200 g / 7 oz",
-                                "item":  "sugar-free pareve dark chocolate, chopped (check pareve label - most chocolate chips contain milk solids)",
+                                "item":  "sugar-free pareve dark chocolate, chopped",
                                 "israelNote":  "sugar-free or 85% dark chocolate marked parve - health-food stores"
                             },
                             {
@@ -575,7 +575,7 @@
         "ingredientsHe":  [
                               {
                                   "amount":  "200 גרם",
-                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה — רוב שבבי השוקולד מכילים מוצקי חלב)",
+                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ",
                                   "israelNote":  "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"
                               },
                               {
@@ -830,7 +830,7 @@
                             },
                             {
                                 "amount":  "60 g / 2 oz",
-                                "item":  "sugar-free pareve dark chocolate (check pareve label)",
+                                "item":  "sugar-free pareve dark chocolate",
                                 "israelNote":  "sugar-free or 85% dark chocolate marked parve"
                             },
                             {
@@ -868,7 +868,7 @@
                               },
                               {
                                   "amount":  "60 גרם",
-                                  "item":  "שוקולד מריר פרווה ללא סוכר (לבדוק סימון פרווה)",
+                                  "item":  "שוקולד מריר פרווה ללא סוכר",
                                   "israelNote":  "שוקולד ללא סוכר או מריר 85% בסימון פרווה"
                               },
                               {
@@ -1195,7 +1195,7 @@
         "ingredients":  [
                             {
                                 "amount":  "200 g / 7 oz",
-                                "item":  "sugar-free pareve dark chocolate, chopped (check pareve label; 85% dark also works)",
+                                "item":  "sugar-free pareve dark chocolate, chopped (85% dark also works)",
                                 "israelNote":  "sugar-free or 85% dark chocolate marked parve - health-food stores"
                             },
                             {
@@ -1229,7 +1229,7 @@
         "ingredientsHe":  [
                               {
                                   "amount":  "200 גרם",
-                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (לבדוק סימון פרווה; גם 85% עובד)",
+                                  "item":  "שוקולד מריר פרווה ללא סוכר, קצוץ (גם 85% עובד)",
                                   "israelNote":  "שוקולד ללא סוכר או מריר 85% בסימון פרווה — חנויות טבע"
                               },
                               {

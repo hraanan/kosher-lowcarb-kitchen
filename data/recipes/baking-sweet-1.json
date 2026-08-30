@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "almond-flour-chocolate-chip-cookies",
         "nameHe":  "עוגיות שוקולד צ\u0027יפס מקמח שקדים",
@@ -35,7 +35,7 @@
                               {
                                   "amount":  "1/2 כוס / 90 גרם",
                                   "item":  "שוקולד צ\u0027יפס ללא סוכר",
-                                  "israelNote":  "אם אין, מחליפים בשוקולד מריר 85% קצוץ (לבדוק אם מסומן פרווה או חלבי)"
+                                  "israelNote":  "אם אין, מחליפים בשוקולד מריר 85% קצוץ"
                               }
                           ],
         "instructionsHe":  [
@@ -92,7 +92,7 @@
                             {
                                 "amount":  "1/2 cup / 90 g",
                                 "item":  "sugar-free chocolate chips",
-                                "israelNote":  "use chopped 85% dark chocolate if unavailable (check pareve/dairy label)"
+                                "israelNote":  "use chopped 85% dark chocolate if unavailable"
                             }
                         ],
         "instructions":  [
@@ -549,7 +549,7 @@
                             {
                                 "amount":  "50 g",
                                 "item":  "dark chocolate 85%, melted, for a simple glaze (optional)",
-                                "israelNote":  "check pareve label"
+                                "israelNote":  ""
                             }
                         ],
         "instructions":  [
@@ -928,7 +928,7 @@
                               {
                                   "amount":  "115 גרם",
                                   "item":  "שוקולד אפייה ללא סוכר (100% קקאו), קצוץ",
-                                  "israelNote":  "אם אין 100%, משתמשים בשוקולד מריר 85% ומפחיתים שליש מהממתיק (לבדוק סימון פרווה)"
+                                  "israelNote":  "אם אין 100%, משתמשים בשוקולד מריר 85% ומפחיתים שליש מהממתיק"
                               },
                               {
                                   "amount":  "2/3 כוס / 80 גרם",
@@ -984,7 +984,7 @@
                             {
                                 "amount":  "115 g",
                                 "item":  "unsweetened baking chocolate (100% cacao), chopped",
-                                "israelNote":  "shokolad meridim 100%; if unavailable use 85% dark and cut the sweetener by a third (check pareve label)"
+                                "israelNote":  "shokolad meridim 100%; if unavailable use 85% dark and cut the sweetener by a third"
                             },
                             {
                                 "amount":  "2/3 cup / 80 g",
@@ -1220,7 +1220,7 @@
                             {
                                 "amount":  "40 g",
                                 "item":  "dark chocolate 85%, melted, for dipping (optional)",
-                                "israelNote":  "check pareve label"
+                                "israelNote":  ""
                             }
                         ],
         "instructions":  [

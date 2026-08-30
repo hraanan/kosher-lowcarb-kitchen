@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "chocolate-avocado-mousse",
         "name":  "Chocolate Avocado Mousse",
@@ -355,7 +355,7 @@
         "ingredients":  [
                             {
                                 "amount":  "200 g / 7 oz",
-                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate",
                                 "israelNote":  "look for \u0027parve\u0027 certification on 85% bars (e.g. Splendid/Carmit parve lines)"
                             },
                             {
@@ -411,7 +411,7 @@
         "ingredientsHe":  [
                               {
                                   "amount":  "200 גרם",
-                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)",
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב",
                                   "israelNote":  "מחפשים סימון \u0027פרווה\u0027 על חפיסות 85% (למשל סדרות הפרווה של ספלנדיד/כרמית)"
                               },
                               {
@@ -667,7 +667,7 @@
         "ingredients":  [
                             {
                                 "amount":  "200 g / 7 oz",
-                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate, finely chopped (check pareve label)",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate, finely chopped",
                                 "israelNote":  "check for \u0027parve\u0027 certification - most chocolate chips contain milk solids"
                             },
                             {
@@ -732,8 +732,8 @@
         "ingredientsHe":  [
                               {
                                   "amount":  "200 גרם",
-                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב, קצוץ דק (לבדוק סימון פרווה)",
-                                  "israelNote":  "לבדוק סימון \u0027פרווה\u0027 - רוב שבבי השוקולד מכילים רכיבי חלב"
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב, קצוץ דק",
+                                  "israelNote":  "רוב שבבי השוקולד מכילים רכיבי חלב"
                               },
                               {
                                   "amount":  "100 מ\"ל / 7 כפות",
@@ -1030,7 +1030,7 @@
                             },
                             {
                                 "amount":  "120 g / 4 oz",
-                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate",
                                 "israelNote":  "look for \u0027parve\u0027 certification on the wrapper"
                             },
                             {
@@ -1086,7 +1086,7 @@
                               },
                               {
                                   "amount":  "120 גרם",
-                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)",
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב",
                                   "israelNote":  "מחפשים סימון \u0027פרווה\u0027 על העטיפה"
                               },
                               {

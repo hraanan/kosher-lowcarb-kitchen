@@ -213,7 +213,7 @@
       {"amount": "1 small / 120 g", "item": "cucumber, diced"},
       {"amount": "2", "item": "green onions, thinly sliced"},
       {"amount": "1 tbsp", "item": "toasted sesame oil"},
-      {"amount": "1 tbsp", "item": "soy sauce", "israelNote": "check for kosher certification"},
+      {"amount": "1 tbsp", "item": "soy sauce", "israelNote": ""},
       {"amount": "2 tbsp", "item": "fresh lemon juice"},
       {"amount": "1 tsp", "item": "grated fresh ginger"},
       {"amount": "1 clove", "item": "garlic, grated"},
@@ -399,7 +399,7 @@
       {"amount": "1 tbsp", "item": "toasted sesame oil"},
       {"amount": "2 cloves", "item": "garlic, thinly sliced"},
       {"amount": "1 tsp", "item": "grated fresh ginger"},
-      {"amount": "1 tbsp", "item": "soy sauce", "israelNote": "check for kosher certification"},
+      {"amount": "1 tbsp", "item": "soy sauce", "israelNote": ""},
       {"amount": "1 tbsp", "item": "toasted sesame seeds"},
       {"amount": "pinch", "item": "chili flakes (optional)"}
     ],

@@ -13,7 +13,7 @@
     "ingredients": [
       {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
       {"amount": "4 tbsp / 20 g", "item": "whole psyllium husks (or 2 tbsp psyllium husk powder)", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
-      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": ""},
       {"amount": "0.5 tsp", "item": "xanthan gum (optional, for a springier crumb)", "israelNote": "health-food stores"},
       {"amount": "0.25 tsp", "item": "fine salt"},
       {"amount": "2", "item": "large eggs, room temperature"},
@@ -74,7 +74,7 @@
       {"amount": "2 oz / 56 g", "item": "cream cheese", "israelNote": "gevinat shamenet levana, e.g. Napoleon/Philadelphia style"},
       {"amount": "1.33 cups / 133 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
       {"amount": "2 tbsp / 14 g", "item": "coconut flour", "israelNote": "kemach kokos"},
-      {"amount": "1.5 tbsp", "item": "baking powder (yes, tablespoons - it is what makes them fluffy)", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "1.5 tbsp", "item": "baking powder (yes, tablespoons - it is what makes them fluffy)", "israelNote": ""},
       {"amount": "3", "item": "large eggs (1 reserved for egg wash)"},
       {"amount": "1 tsp", "item": "sesame seeds (optional topping)"}
     ],
@@ -291,7 +291,7 @@
     "ingredients": [
       {"amount": "0.5 cup / 60 g", "item": "coconut flour, sifted", "israelNote": "kemach kokos"},
       {"amount": "2 tbsp / 10 g", "item": "whole psyllium husks (or 1 tbsp powder)", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
-      {"amount": "0.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "0.5 tsp", "item": "baking powder", "israelNote": ""},
       {"amount": "0.25 tsp each", "item": "salt, garlic powder, cumin (optional spices)"},
       {"amount": "1", "item": "large egg (or 1 egg white for a paler tortilla)"},
       {"amount": "1 tbsp", "item": "olive oil, plus more for the pan"},
@@ -398,7 +398,7 @@
     "difficulty": "easy",
     "ingredients": [
       {"amount": "2 cups / 200 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "2 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "2 tsp", "item": "baking powder", "israelNote": ""},
       {"amount": "2 tsp", "item": "garlic powder (divided: 1.5 tsp dough, 0.5 tsp topping)"},
       {"amount": "0.5 tsp", "item": "salt"},
       {"amount": "1", "item": "large egg, whisked"},
@@ -461,7 +461,7 @@
       {"amount": "2.5 cups / 250 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
       {"amount": "0.5 cup / 56 g", "item": "coconut flour", "israelNote": "kemach kokos"},
       {"amount": "0.5 cup / 44 g", "item": "psyllium husk powder", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm); halve amount if substituting whole husks is reversed - powder is double-strength"},
-      {"amount": "3 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "3 tsp", "item": "baking powder", "israelNote": ""},
       {"amount": "0.5 tsp", "item": "salt"},
       {"amount": "6", "item": "egg whites (about 200 g)"},
       {"amount": "4 tbsp / 60 ml", "item": "apple cider vinegar", "israelNote": "chometz tapuchim"},
@@ -518,7 +518,7 @@
       {"amount": "0.5 cup / 65 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
       {"amount": "0.25 cup / 35 g", "item": "coconut flour, sifted", "israelNote": "kemach kokos"},
       {"amount": "2 tbsp / 20 g", "item": "psyllium husk powder", "israelNote": "psyllium (pharma/health stores, e.g. iHerb/SuperPharm)"},
-      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": "check kosher-for-passover if relevant"},
+      {"amount": "1.5 tsp", "item": "baking powder", "israelNote": ""},
       {"amount": "0.25 tsp", "item": "salt"},
       {"amount": "1 tbsp", "item": "olive oil"},
       {"amount": "1 cup / 240 ml", "item": "warm water"},

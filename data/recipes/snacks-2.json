@@ -418,7 +418,7 @@
       {"amount": "1/2 cup / 65 g", "item": "shelled pumpkin seeds", "israelNote": "garinei dla'at kelufim"},
       {"amount": "1/4 cup / 35 g", "item": "sunflower seeds", "israelNote": "garinei chamania kelufim"},
       {"amount": "3/4 cup / 45 g", "item": "unsweetened coconut chips", "israelNote": "shvavei kokos lo mumtakim (health-food aisle)"},
-      {"amount": "50 g", "item": "85% dark chocolate, chopped into chunks", "israelNote": "shokolad marir 85% - check for pareve certification (e.g. Splendid 85%)"},
+      {"amount": "50 g", "item": "85% dark chocolate, chopped into chunks", "israelNote": "shokolad marir 85% (e.g. Splendid 85%)"},
       {"amount": "1/4 tsp", "item": "flaky salt (optional)"}
     ],
     "instructions": [
@@ -447,7 +447,7 @@
       {"amount": "1/2 כוס / 65 גרם", "item": "גרעיני דלעת קלופים"},
       {"amount": "1/4 כוס / 35 גרם", "item": "גרעיני חמנייה קלופים"},
       {"amount": "3/4 כוס / 45 גרם", "item": "שבבי קוקוס לא ממותקים", "israelNote": "מדף הבריאות / חנויות טבע"},
-      {"amount": "50 גרם", "item": "שוקולד מריר 85% קצוץ לחתיכות", "israelNote": "לבדוק הכשר פרווה (למשל ספלנדיד 85%)"},
+      {"amount": "50 גרם", "item": "שוקולד מריר 85% קצוץ לחתיכות", "israelNote": "(למשל ספלנדיד 85%)"},
       {"amount": "1/4 כפית", "item": "מלח בפתיתים (לא חובה)"}
     ],
     "instructionsHe": [
@@ -478,7 +478,7 @@
       {"amount": "4 tbsp / 64 g", "item": "natural almond butter (100% almonds, no added sugar)", "israelNote": "chemat shkedim tiv'it (health-food aisle)"},
       {"amount": "1 tbsp / 12 g", "item": "chia or hemp seeds", "israelNote": "zir'ei chia"},
       {"amount": "1 pinch", "item": "cinnamon or flaky salt"},
-      {"amount": "1 tbsp (optional)", "item": "sugar-free or 85% dark chocolate chips", "israelNote": "check pareve certification"}
+      {"amount": "1 tbsp (optional)", "item": "sugar-free or 85% dark chocolate chips", "israelNote": ""}
     ],
     "instructions": [
       "Wash the celery, trim the ends and pull off any tough outer strings with a peeler.",
@@ -502,7 +502,7 @@
       {"amount": "4 כפות / 64 גרם", "item": "חמאת שקדים טבעית (100% שקדים, ללא סוכר מוסף)", "israelNote": "מדף הבריאות / חנויות טבע"},
       {"amount": "1 כף / 12 גרם", "item": "זרעי צ'יה או המפ"},
       {"amount": "קורט", "item": "קינמון או מלח בפתיתים"},
-      {"amount": "1 כף (לא חובה)", "item": "שבבי שוקולד ללא סוכר או מריר 85%", "israelNote": "לבדוק הכשר פרווה"}
+      {"amount": "1 כף (לא חובה)", "item": "שבבי שוקולד ללא סוכר או מריר 85%", "israelNote": ""}
     ],
     "instructionsHe": [
       "שוטפים את הסלרי, חותכים את הקצוות ומושכים סיבים קשים מהצד החיצוני בעזרת קולפן.",

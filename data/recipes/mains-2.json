@@ -394,7 +394,7 @@
       {"amount": "150 g", "item": "mushrooms, sliced"},
       {"amount": "3 cloves", "item": "garlic, minced"},
       {"amount": "1 tbsp / 10 g", "item": "fresh ginger, grated"},
-      {"amount": "3 tbsp / 45 ml", "item": "soy sauce", "israelNote": "regular or gluten-free/tamari; check hechsher"},
+      {"amount": "3 tbsp / 45 ml", "item": "soy sauce", "israelNote": "regular or gluten-free/tamari"},
       {"amount": "1 tbsp / 15 ml", "item": "toasted sesame oil"},
       {"amount": "1 tbsp", "item": "sesame seeds, plus 1 tbsp rice vinegar (optional)"}
     ],

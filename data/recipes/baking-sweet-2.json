@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "israeli-tahini-cookies",
         "nameHe":  "עוגיות טחינה",
@@ -52,7 +52,7 @@
                                "אופים 12-15 דקות עד שהשוליים מזהיבים.",
                                "מצננים לגמרי על התבנית - העוגיות מתייצבות ונעשות פריכות רק אחרי צינון מלא."
                            ],
-        "lowCarbVariantHe":  "מקפלים פנימה 2 כפות שוקולד צ\u0027יפס ללא סוכר או שוקולד מריר 85% קצוץ (לבדוק סימון פרווה) לגרסת טחינה-שוקולד, תוספת של כ-0.3 גרם פחמימות נטו לעוגייה.",
+        "lowCarbVariantHe":  "מקפלים פנימה 2 כפות שוקולד צ\u0027יפס ללא סוכר או שוקולד מריר 85% קצוץ לגרסת טחינה-שוקולד, תוספת של כ-0.3 גרם פחמימות נטו לעוגייה.",
         "tipsHe":  "הבצק עובד רק עם טחינה נוזלית - אם הטחינה שלכם סמיכה ויבשה מתחתית הצנצנת, מחממים אותה מעט ומערבבים לפני המדידה.",
         "comparedVersionsHe":  "הושוותה גרסת הקערה האחת עם פשתן וקמח קוקוס של Sugar Free Londoner מול גרסאות קמח שקדים וחמאה של Life Made Sweeter ו-Stem and Spoon. היחס של Sugar Free Londoner ניצח בזכות היותו פרווה וללא אגוזים באופן טבעי, קערה אחת, רק 1.3 גרם פחמימות נטו והמרקם הפריך ביותר; פיזור השומשום נוסף למראה הישראלי הקלאסי.",
         "name":  "Israeli Tahini Cookies",
@@ -125,7 +125,7 @@
                           "sugarG":  0.1,
                           "sodiumMg":  28
                       },
-        "lowCarbVariant":  "Fold in 2 tbsp sugar-free or 85% dark chocolate chips (check pareve label) for a tahini-chocolate version, about 0.3 g net carbs more per cookie.",
+        "lowCarbVariant":  "Fold in 2 tbsp sugar-free or 85% dark chocolate chips for a tahini-chocolate version, about 0.3 g net carbs more per cookie.",
         "tips":  "The dough works only with runny tahini - if yours is thick and dry from the bottom of the jar, warm it slightly and stir before measuring.",
         "sources":  [
                         {
@@ -328,7 +328,7 @@
                               {
                                   "amount":  "1/3 כוס / 60 גרם",
                                   "item":  "שוקולד צ\u0027יפס מריר 60% ומעלה (לא חובה)",
-                                  "israelNote":  "לבדוק סימון פרווה; גם שוקולד מריר 85% קצוץ עובד"
+                                  "israelNote":  "גם שוקולד מריר 85% קצוץ עובד"
                               }
                           ],
         "instructionsHe":  [
@@ -398,7 +398,7 @@
                             {
                                 "amount":  "1/3 cup / 60 g",
                                 "item":  "dark chocolate chips, 60%+ (optional)",
-                                "israelNote":  "check pareve label; chopped 85% dark chocolate works"
+                                "israelNote":  "chopped 85% dark chocolate works"
                             }
                         ],
         "instructions":  [
@@ -748,7 +748,7 @@
                               {
                                   "amount":  "1/3 כוס / 60 גרם",
                                   "item":  "שוקולד צ\u0027יפס ללא סוכר או שוקולד מריר 85%",
-                                  "israelNote":  "שוקולד מריר 85% קצוץ עובד; לבדוק סימון פרווה"
+                                  "israelNote":  "שוקולד מריר 85% קצוץ עובד"
                               }
                           ],
         "instructionsHe":  [
@@ -817,7 +817,7 @@
                             {
                                 "amount":  "1/3 cup / 60 g",
                                 "item":  "sugar-free or 85% dark chocolate chips",
-                                "israelNote":  "chopped 85% dark chocolate works; check pareve label"
+                                "israelNote":  "chopped 85% dark chocolate works"
                             }
                         ],
         "instructions":  [
@@ -1202,7 +1202,7 @@
                                "אופים 8-10 דקות עד שהשוליים מזהיבים - משגיחים מקרוב, אגוזי לוז משחימים מהר.",
                                "מצננים לגמרי על התבנית לפני ההרמה; הן שבירות מאוד כשהן חמות ופריכות אחרי הצינון."
                            ],
-        "ketoVariantHe":  "מזלפים על העוגיות המצוננות שוקולד מריר 85% מומס (לבדוק סימון פרווה) לטעם בסגנון נוטלה, תוספת של כ-0.5 גרם פחמימות נטו.",
+        "ketoVariantHe":  "מזלפים על העוגיות המצוננות שוקולד מריר 85% מומס לטעם בסגנון נוטלה, תוספת של כ-0.5 גרם פחמימות נטו.",
         "lowCarbVariantHe":  "גרסת חמאה (חלבית): מחליפים את שמן הקוקוס בחמאה מלוחה לעשירות הנמסה-בפה המקורית.",
         "tipsHe":  "להכנת קמח אגוזי לוז בבית: קולים אגוזי לוז שלמים 8 דקות ב-180 מעלות, משפשפים את הקליפות במגבת, מצננים וטוחנים בפולסים קצרים - עוצרים לפני שזה הופך לממרח.",
         "comparedVersionsHe":  "הושוו עוגיות החמאה מ-5 מרכיבים של Low-Carb So Simple, עוגיות ה\u0027ברוטי מה בוני\u0027 האיטלקיות על בסיס חלבונים של Low Carb Yum וגרסת 3 המרכיבים של LikeHotKeto. היחסים של Low-Carb So Simple ניצחו בזכות הנמסות הכי דמוית שורטברד ואפייה של 10 דקות בלי מיקסר; החמאה הוחלפה בשמן קוקוס מזוכך כדי שהעוגייה תישאר פרווה, וגרסת החמאה נשמרה כווריאציה חלבית.",
@@ -1266,7 +1266,7 @@
                           "sugarG":  0.4,
                           "sodiumMg":  22
                       },
-        "ketoVariant":  "Drizzle the cooled cookies with melted 85% dark chocolate (check pareve label) for a Nutella-like flavor at about 0.5 g net carbs more.",
+        "ketoVariant":  "Drizzle the cooled cookies with melted 85% dark chocolate for a Nutella-like flavor at about 0.5 g net carbs more.",
         "lowCarbVariant":  "Butter version (dairy): swap the coconut oil for salted butter for the original melt-in-the-mouth richness.",
         "tips":  "To make hazelnut flour at home, roast whole hazelnuts 8 minutes at 180°C, rub off the skins in a towel, cool, and pulse briefly - stop before it turns to butter.",
         "sources":  [
