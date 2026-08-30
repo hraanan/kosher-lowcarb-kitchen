@@ -130,6 +130,7 @@ header.site{
 .badge.dairy{background:var(--dairy-bg);color:var(--dairy)}
 .badge.pareve{background:var(--pareve-bg);color:var(--pareve)}
 .badge.meat{background:var(--meat-bg);color:var(--meat)}
+.badge.gf{background:var(--panel-2);color:var(--ink-soft)}
 .badge.keto{background:var(--keto-bg);color:var(--keto)}
 .badge.lowcarb{background:var(--accent-soft);color:var(--accent)}
 .badge .dot{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
@@ -368,10 +369,12 @@ COMMUNITY.photos = COMMUNITY.photos || [];
 
 const RECIPES = /*__DATA__*/[];
 /* normalize ingredient entries: tolerate plain-string entries from data batches */
+const GLUTEN_RE = /soy sauce|(?<!buck)wheat|barley|bulgur|semolina|couscous|breadcrumb|panko|\boats\b|oat fiber|seitan|malt/i;
 for(const r of RECIPES){
   for(const k of ["ingredients","ingredientsHe"]){
     if(Array.isArray(r[k])) r[k] = r[k].map(x => typeof x === "string" ? {amount:"", item:x} : x);
   }
+  r._gf = !(r.ingredients||[]).some(i => GLUTEN_RE.test(String(i.item)));
 }
 
 /* ---------- i18n ---------- */
@@ -391,7 +394,7 @@ const T = {
     tagline:"{n} simple keto & low-carb recipes · every one kosher · Israeli-pantry friendly",
     search:"Search recipes or ingredients…",
     all:"All", kosher:"Kosher", diet:"Diet",
-    dairy:"Dairy", pareve:"Pareve", meat:"Meat", keto:"Keto", lowcarb:"Low-carb",
+    dairy:"Dairy", pareve:"Pareve", meat:"Meat", keto:"Keto", lowcarb:"Low-carb", glutenFree:"Gluten-free",
     ketoFull:"Keto · ≤10g net", lowcarbFull:"Low-carb · 10–20g net",
     netCarbs:"net carbs", perServing:"per serving",
     recipes:"recipes", noResults:"No recipes match — try clearing a filter.",
@@ -436,7 +439,7 @@ const T = {
     tagline:"{n} מתכונים פשוטים בסגנון קיטו ודל-פחמימות · הכול כשר · מותאם לסופר הישראלי",
     search:"חיפוש מתכון או מרכיב…",
     all:"הכול", kosher:"כשרות", diet:"תזונה",
-    dairy:"חלבי", pareve:"פרווה", meat:"בשרי", keto:"קיטו", lowcarb:"דל-פחמימות",
+    dairy:"חלבי", pareve:"פרווה", meat:"בשרי", keto:"קיטו", lowcarb:"דל-פחמימות", glutenFree:"ללא גלוטן",
     ketoFull:"קיטו · עד 10 ג׳ נטו", lowcarbFull:"דל-פחמימות · 10–20 ג׳ נטו",
     netCarbs:"פחמימות נטו", perServing:"למנה",
     recipes:"מתכונים", noResults:"אין מתכונים מתאימים — נסו לנקות סינון.",
@@ -481,7 +484,7 @@ const T = {
 /* ---------- state ---------- */
 let lang = "en";
 try{ const s = localStorage.getItem("klk-lang"); if(s==="he"||s==="en") lang=s; }catch(e){}
-let filters = {cat:"all", kosher:"all", q:""};
+let filters = {cat:"all", kosher:"all", gf:false, q:""};
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -568,7 +571,8 @@ function badges(r, full){
   const d = r.dietTags==="keto"
     ? `<span class="badge keto">${full?t("ketoFull"):t("keto")}</span>`
     : `<span class="badge lowcarb">${full?t("lowcarbFull"):t("lowcarb")}</span>`;
-  return k + d;
+  const gf = (full && r._gf) ? `<span class="badge gf">🌾✕ ${t("glutenFree")}</span>` : "";
+  return k + d + gf;
 }
 
 /* ---------- list view ---------- */
@@ -577,6 +581,7 @@ function applyFilters(){
   return RECIPES.filter(r=>{
     if(filters.cat!=="all" && r.category!==filters.cat) return false;
     if(filters.kosher!=="all" && r.kosherType!==filters.kosher) return false;
+    if(filters.gf && !r._gf) return false;
     if(q){
       const hay = (rName(r)+" "+r.name+" "+(r.nameHe||"")+" "+(rIngs(r)||[]).map(i=>i.item).join(" ")).toLowerCase();
       if(!hay.includes(q)) return false;
@@ -1260,6 +1265,7 @@ function renderControls(){
   kRow.innerHTML = `<span class="chip-label">${t("kosher")}</span>`;
   for(const [val,lbl] of [["all",t("all")],["meat",t("meat")],["dairy",t("dairy")],["pareve",t("pareve")]])
     kRow.appendChild(chip(lbl, filters.kosher===val, ()=>{filters.kosher=val;renderControls();renderList();}));
+  kRow.appendChild(chip("🌾✕ " + t("glutenFree"), filters.gf, ()=>{filters.gf=!filters.gf;renderControls();renderList();}));
 
 }
 
