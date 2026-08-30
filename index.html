@@ -86,43 +86,58 @@ button{font:inherit;cursor:pointer}
 
 /* ---------- header ---------- */
 header.site{
-  padding-block:26px 14px;
+  padding-block:30px 20px;
   border-block-end:1px solid var(--line);
-  background:var(--panel);
+  background:linear-gradient(180deg, var(--accent-soft), var(--panel) 85%);
 }
-.site-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.site h1{font-size:clamp(26px,4.5vw,38px);font-weight:700}
-.site h1 .leaf{color:var(--accent)}
-.tagline{color:var(--ink-soft);margin-block:4px 0;font-size:14.5px}
+.site-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:16px}
+.brand-mark svg{height:58px;width:58px;display:block;filter:drop-shadow(0 2px 3px rgba(35,40,25,.15))}
+.bm-body{fill:var(--pareve-bg);stroke:var(--accent);stroke-width:2.5}
+.bm-pit{fill:var(--keto);stroke:var(--ink);stroke-width:0}
+.bm-leaf{fill:var(--accent)}
+.site h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:.01em}
+.tagline{color:var(--ink-soft);margin-block:5px 0;font-size:14.5px;max-width:52ch}
 .header-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .ghost-btn{
-  background:transparent;border:1px solid var(--line);color:var(--ink);
-  border-radius:8px;padding:7px 13px;font-weight:500;font-size:14px;
+  background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  border-radius:999px;padding:8px 16px;font-weight:500;font-size:14px;
+  transition:border-color .12s ease,color .12s ease,transform .12s ease;
 }
-.ghost-btn:hover{border-color:var(--accent);color:var(--accent)}
+.ghost-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
 .solid-btn{
   background:var(--accent);color:var(--accent-ink);border:1px solid var(--accent);
-  border-radius:8px;padding:7px 14px;font-weight:700;font-size:14px;
+  border-radius:999px;padding:8px 17px;font-weight:700;font-size:14px;
+  transition:transform .12s ease,box-shadow .12s ease;
 }
+.solid-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
 
 /* ---------- controls ---------- */
-.controls{padding-block:16px;display:flex;flex-direction:column;gap:12px}
+.controls{padding-block:16px 14px;display:flex;flex-direction:column;gap:11px;background:var(--ground)}
+@media (min-width:720px){
+  .controls{position:sticky;inset-block-start:0;z-index:20;border-block-end:1px solid var(--line);margin-block-end:6px}
+}
 .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .search-row input[type=search]{
   flex:1;min-width:220px;
   background:var(--panel);border:1px solid var(--line);color:var(--ink);
-  border-radius:10px;padding:10px 14px;font:inherit;
+  border-radius:999px;padding:10px 18px;font:inherit;
 }
 .search-row input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
 .chip-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .chip-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:700;margin-inline-end:2px}
 .chip{
   border:1px solid var(--line);background:var(--panel);color:var(--ink);
-  border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;
+  border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;white-space:nowrap;
+  transition:border-color .12s ease;
 }
 .chip:hover{border-color:var(--accent)}
 .chip.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
 .cat-row{display:flex;gap:8px;flex-wrap:wrap}
+@media (max-width:719px){
+  .cat-row{flex-wrap:nowrap;overflow-x:auto;padding-block-end:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .cat-row::-webkit-scrollbar{display:none}
+}
 .count-note{color:var(--ink-soft);font-size:13.5px}
 
 /* ---------- badges ---------- */
@@ -154,12 +169,21 @@ header.site{
 /* ---------- cards ---------- */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;padding-block:6px 40px}
 .card{
-  background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
   padding:16px 16px 14px;display:flex;flex-direction:column;gap:9px;
   text-align:start;color:var(--ink);box-shadow:var(--shadow);
-  transition:transform .12s ease,border-color .12s ease;
+  transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease;
 }
-.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 3px 6px rgba(35,40,25,.1),0 12px 28px rgba(35,40,25,.12)}
+/* category-tinted illustration grounds */
+.illus.cat-dairy-vegetarian-mains{background:var(--dairy-bg)}
+.illus.cat-meat-mains{background:var(--meat-bg)}
+.illus.cat-legumes-grains{background:var(--pareve-bg)}
+.illus.cat-snacks{background:var(--keto-bg)}
+.illus.cat-baking-savory{background:var(--panel-2)}
+.illus.cat-baking-sweet{background:var(--keto-bg)}
+.illus.cat-desserts-dairy{background:var(--dairy-bg)}
+.illus.cat-desserts-pareve{background:var(--pareve-bg)}
 .card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .card h3{font-size:19px;font-weight:600}
 .card-ings{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -168,17 +192,19 @@ header.site{
 .card .carbs{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
 .card .carbs small{font-family:'Karla','Heebo',sans-serif;font-size:11px;font-weight:500;color:var(--ink-soft);display:block;letter-spacing:.05em;text-transform:uppercase}
 .card .time{color:var(--ink-soft);font-size:13px;text-align:end}
-.section-head{display:flex;align-items:baseline;gap:10px;margin-block:18px 10px}
-.section-head h2{font-size:22px}
-.section-head .n{color:var(--ink-soft);font-size:14px}
+.section-head{display:flex;align-items:center;gap:12px;margin-block:26px 12px}
+.section-head h2{font-size:23px;display:flex;align-items:center;gap:11px}
+.section-head h2::before{content:"";width:11px;height:11px;background:var(--accent);border-radius:0 50% 50% 50%;transform:rotate(45deg);flex:none}
+.section-head .n{color:var(--ink-soft);font-size:14px;font-variant-numeric:tabular-nums}
+.section-head::after{content:"";flex:1;height:1px;background:var(--line)}
 .empty{color:var(--ink-soft);padding-block:40px;text-align:center}
 
 /* ---------- recipe view ---------- */
 .recipe-view{padding-block:18px 60px}
 .back-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-block-end:14px}
 article.recipe{
-  background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  padding:clamp(18px,4vw,34px);box-shadow:var(--shadow);
+  background:var(--panel);border:1px solid var(--line);border-radius:18px;
+  padding:clamp(18px,4vw,36px);box-shadow:var(--shadow);
 }
 .recipe .badges{display:flex;gap:7px;flex-wrap:wrap;margin-block-end:10px}
 .recipe h2{font-size:clamp(24px,4vw,32px);font-weight:700}
@@ -310,7 +336,9 @@ article.recipe{
 }
 
 /* footer */
-footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;color:var(--ink-soft);font-size:13px}
+footer.site{border-block-start:1px solid var(--line);padding-block:26px 40px;color:var(--ink-soft);font-size:13px;text-align:center;background:linear-gradient(0deg, var(--accent-soft), var(--ground) 90%)}
+footer.site .wrap{max-width:62ch}
+.toast{box-shadow:0 6px 24px rgba(0,0,0,.25)}
 
 @media (prefers-reduced-motion: reduce){
   *{transition:none !important;animation:none !important}
@@ -320,9 +348,18 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
 <header class="site">
   <div class="wrap">
     <div class="site-top">
-      <div>
-        <h1 id="bookTitle"><span class="leaf">●</span> Kosher Low-Carb Kitchen</h1>
-        <p class="tagline" id="tagline">120+ simple keto &amp; low-carb recipes · every one kosher · Israeli-pantry friendly</p>
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <path class="bm-body" d="M32 6 C43 6 49 15 49 24 A17 20 0 0 1 15 24 C15 15 21 6 32 6 Z" transform="rotate(8 32 32)"/>
+            <circle class="bm-pit" cx="31" cy="38" r="8.5" transform="rotate(8 32 32)"/>
+            <path class="bm-leaf" d="M46 8 Q56 2 60 10 Q54 18 46 14 Q44 10 46 8 Z"/>
+          </svg>
+        </div>
+        <div>
+          <h1 id="bookTitle">קיטוש</h1>
+          <p class="tagline" id="tagline"></p>
+        </div>
       </div>
       <div class="header-actions">
         <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
@@ -576,7 +613,7 @@ function illusFor(r){
   let key = "cloche";
   for(const [re,k] of ILLUS_RULES){ if(re.test(hay)){ key = k; break; } }
   if(key==="bowl" && /avocado|guacamole/.test(hay)) key = "avocado";
-  return `<div class="illus" aria-hidden="true"><svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">${ICONS[key]||ICONS.cloche}</svg></div>`;
+  return `<div class="illus cat-${esc(r.category)}" aria-hidden="true"><svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">${ICONS[key]||ICONS.cloche}</svg></div>`;
 }
 
 /* ---------- badges ---------- */
@@ -1450,7 +1487,7 @@ function applyLang(){
   document.documentElement.setAttribute("dir", lang==="he"?"rtl":"ltr");
   document.documentElement.setAttribute("lang", lang);
   document.title = t("title");
-  $("bookTitle").innerHTML = `<span class="leaf">●</span> ${t("title")}`;
+  $("bookTitle").textContent = t("title");
   $("tagline").textContent = t("tagline").replace("{n}", RECIPES.length);
   $("searchBox").placeholder = t("search");
   $("langBtn").textContent = lang==="he" ? "English" : "עברית";
