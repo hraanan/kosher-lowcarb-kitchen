@@ -417,7 +417,7 @@ const T = {
     formName:"Recipe name", formYourName:"Your name", formCategory:"Category", formKosher:"Kosher type",
     formIngs:"Ingredients — one per line, with amounts", formSteps:"Instructions — one step per line", formNotes:"Notes (optional)",
     submit:"Add to the book", cancel:"Cancel", fillAll:"Please fill the recipe name, ingredients and instructions.",
-    thanks:"Added! Everyone can see it now.",
+    thanks:"Sent! It will appear in the book after approval.",
     readOnlyNote:"Rating didn't save — you need edit access to this page (ask Hagai).",
     conflictNote:"Someone else just updated the book — it will refresh.",
     reqBtn:"🙋 Request a recipe", reqTitle:"Request a recipe",
@@ -430,6 +430,10 @@ const T = {
     orPhoto:"Too much typing? Snap a photo of the recipe (a cookbook page or a handwritten card) — it will be read, checked for carbs, and added for you.",
     orPhotoBtn:"📷 Photograph a recipe instead",
     photoRecipeSent:"Photo received! The recipe will be transcribed, carb-checked, and added after approval.",
+    adminTitle:"Admin", pendingPhotos:"Photos awaiting approval", pendingSubs:"Recipes awaiting approval",
+    pendingReqs:"Open requests", approve:"Approve", reject:"Reject", markAdded:"Mark added",
+    adminKeyPrompt:"Admin key:", noPending:"Nothing waiting — all clear ✨", adminBadKey:"Update failed — wrong key?",
+    photoOfRecipe:"Recipe photo (to transcribe)",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -462,7 +466,7 @@ const T = {
     formName:"שם המתכון", formYourName:"השם שלכם", formCategory:"קטגוריה", formKosher:"כשרות",
     formIngs:"מרכיבים — אחד בכל שורה, כולל כמויות", formSteps:"אופן ההכנה — שלב בכל שורה", formNotes:"הערות (לא חובה)",
     submit:"הוספה לספר", cancel:"ביטול", fillAll:"נא למלא שם מתכון, מרכיבים ואופן הכנה.",
-    thanks:"נוסף! כולם יכולים לראות עכשיו.",
+    thanks:"נשלח! המתכון יופיע בספר אחרי אישור.",
     readOnlyNote:"הדירוג לא נשמר — צריך הרשאת עריכה לדף (בקשו מחגי).",
     conflictNote:"מישהו אחר עדכן הרגע את הספר — הדף יתרענן.",
     reqBtn:"🙋 בקשת מתכון", reqTitle:"בקשת מתכון",
@@ -475,6 +479,10 @@ const T = {
     orPhoto:"בא לכם בקלות? צלמו את המתכון (עמוד מספר או פתק בכתב יד) — הוא יפוענח, ייבדק ברמת הפחמימות ויתווסף עבורכם.",
     orPhotoBtn:"📷 צילום מתכון במקום הקלדה",
     photoRecipeSent:"התמונה התקבלה! המתכון יפוענח, יותאם ויתווסף אחרי אישור.",
+    adminTitle:"ניהול", pendingPhotos:"תמונות ממתינות לאישור", pendingSubs:"מתכונים ממתינים לאישור",
+    pendingReqs:"בקשות פתוחות", approve:"אישור", reject:"דחייה", markAdded:"סמן כנוסף",
+    adminKeyPrompt:"מפתח ניהול:", noPending:"אין ממתינים — הכול נקי ✨", adminBadKey:"העדכון נכשל — מפתח שגוי?",
+    photoOfRecipe:"צילום מתכון (לפענוח)",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -755,8 +763,10 @@ async function dbLoad(){
     const d = await r.json();
     const parse = v => { if(typeof v === "string" && v.charAt(0) === "["){ try{ return JSON.parse(v); }catch(e){} } return Array.isArray(v) ? v : String(v||"").split("\n").filter(Boolean); };
     (d.submissions||[]).forEach(s => { s.ingredients = parse(s.ingredients); s.instructions = parse(s.instructions); });
-    COMMUNITY.photos = (d.photos||[]).filter(p => String(p.status||"").trim().toLowerCase() === "approved");
-    return [d.ratings||[], d.submissions||[], d.requests||[]];
+    COMMUNITY.photosAll = d.photos||[];
+    COMMUNITY.photos = COMMUNITY.photosAll.filter(p => String(p.status||"").trim().toLowerCase() === "approved");
+    COMMUNITY.submissionsAll = d.submissions||[];
+    return [d.ratings||[], (d.submissions||[]).filter(s => { const st = String(s.status||"").trim().toLowerCase(); return st === "" || st === "approved"; }), d.requests||[]];
   }
   const q = p => fetch(SUPA.url + "/rest/v1/" + p, {headers:{apikey:SUPA.key, "Authorization":"Bearer "+SUPA.key}}).then(r=>{ if(!r.ok) throw new Error("db "+r.status); return r.json(); });
   return Promise.all([
@@ -796,7 +806,7 @@ async function loadCommunity(){
     }
     COMMUNITY.ratings = agg;
     COMMUNITY.submissions = subs.map(s => ({name:s.name, by:s.by_name, category:s.category, kosherType:s.kosher, ingredients:s.ingredients, instructions:s.instructions, notes:s.notes, date:String(s.created_at||"").slice(0,10)}));
-    COMMUNITY.requests = reqs.map(q => ({dish:q.dish, by:q.by_name, notes:q.notes, status:q.status, recipeId:q.recipe_id, date:String(q.created_at||"").slice(0,10)}));
+    COMMUNITY.requests = reqs.map(q => ({dish:q.dish, by:q.by_name, notes:q.notes, status:q.status, recipeId:q.recipe_id, date:String(q.created_at||"").slice(0,10), createdAt:q.created_at}));
     liveMode = true;
     document.body.classList.add("can-community");
     $("addBtn").hidden = false;
@@ -986,10 +996,8 @@ function showAddForm(){
         name: sub.name, by_name: sub.by, category: sub.category, kosher: sub.kosherType,
         ingredients: sub.ingredients, instructions: sub.instructions, notes: sub.notes
       });
-      COMMUNITY.submissions.push(sub);
       location.hash = "";
       toast(t("thanks"));
-      renderList();
     }catch(err){ $("fSubmit").disabled = false; toast(t("saveErr")); }
   };
   window.scrollTo(0,0);
@@ -1048,6 +1056,80 @@ function showRequestForm(){
       renderList();
     }catch(err){ $("qSubmit").disabled = false; toast(t("saveErr")); }
   };
+  window.scrollTo(0,0);
+}
+
+/* ---------- admin mode ---------- */
+function adminKey(){ try{ return localStorage.getItem("klk-admin") || ""; }catch(e){ return ""; } }
+
+async function adminSet(table, createdAt, set){
+  const r = await fetch(SUPA.url, {method:"POST", body: JSON.stringify({action:"update", key:adminKey(), table, created_at:createdAt, set})});
+  const d = await r.json();
+  if(!d.ok){
+    if(d.error === "bad key"){ try{ localStorage.removeItem("klk-admin"); }catch(e){} }
+    throw new Error(d.error || "update failed");
+  }
+}
+
+function adminItemHTML(table, createdAt, inner, buttons){
+  const btns = buttons.map(b=>`<button class="${b[2]||"ghost-btn"}" data-adm="${table}" data-ca="${esc(createdAt)}" data-set='${esc(JSON.stringify(b[1]))}'>${b[0]}</button>`).join(" ");
+  return `<div class="req-item" style="align-items:center">${inner}<span style="margin-inline-start:auto;display:flex;gap:6px">${btns}</span></div>`;
+}
+
+function showAdmin(){
+  if(!liveMode){ toast("…"); location.hash = ""; return; }
+  if(!adminKey()){
+    const k = (prompt(t("adminKeyPrompt")) || "").trim();
+    if(!k){ location.hash = ""; return; }
+    try{ localStorage.setItem("klk-admin", k); }catch(e){}
+  }
+  $("listView").hidden = true; $("recipeView").hidden = true; $("controls").hidden = true;
+  const v = $("pantryView");
+  v.hidden = false;
+  const pend = s => String(s.status||"").trim().toLowerCase() === "pending";
+  let html = `<div class="back-row no-print"><button class="ghost-btn" id="admBackBtn">${t("back")}</button></div>
+    <div class="pantry-head"><h2>🔑 ${t("adminTitle")}</h2></div>`;
+  const photos = (COMMUNITY.photosAll||[]).filter(pend);
+  html += `<div class="section-head"><h2>${t("pendingPhotos")}</h2><span class="n">${photos.length}</span></div><div class="req-list">`;
+  for(const p of photos){
+    const kind = p.recipe_id === "__submission__" ? t("photoOfRecipe") : (RECIPES.find(r=>r.id===p.recipe_id) ? rName(RECIPES.find(r=>r.id===p.recipe_id)) : p.recipe_id);
+    html += adminItemHTML("photos", p.created_at,
+      `<img src="${esc(p.url)}" alt="" style="height:64px;border-radius:8px" loading="lazy"><b>${esc(kind)}</b><span class="req-by">${t("by")} ${esc(p.by_name||"?")}</span>`,
+      [[t("approve"), {status:"approved"}, "solid-btn"], [t("reject"), {status:"rejected"}]]);
+  }
+  html += photos.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
+  const subs = (COMMUNITY.submissionsAll||[]).filter(pend);
+  html += `<div class="section-head"><h2>${t("pendingSubs")}</h2><span class="n">${subs.length}</span></div><div class="req-list">`;
+  for(const s of subs){
+    html += adminItemHTML("submissions", s.created_at,
+      `<b>${esc(s.name)}</b><span class="req-by">${t("by")} ${esc(s.by_name||"?")} · ${esc((s.ingredients||[]).slice(0,4).join(", "))}</span>`,
+      [[t("approve"), {status:"approved"}, "solid-btn"], [t("reject"), {status:"rejected"}]]);
+  }
+  html += subs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
+  const reqs = (COMMUNITY.requests||[]).filter(pend);
+  html += `<div class="section-head"><h2>${t("pendingReqs")}</h2><span class="n">${reqs.length}</span></div><div class="req-list">`;
+  for(const q of reqs){
+    html += adminItemHTML("requests", q.createdAt,
+      `<b>${esc(q.dish)}</b><span class="req-by">${t("by")} ${esc(q.by||"?")}${q.notes?` · ${esc(q.notes)}`:""}</span>`,
+      [[t("markAdded"), {status:"added"}, "solid-btn"], [t("reject"), {status:"rejected"}]]);
+  }
+  html += reqs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
+  v.innerHTML = html;
+  $("admBackBtn").onclick = ()=>{ location.hash = ""; };
+  v.querySelectorAll("button[data-adm]").forEach(b=>{
+    b.onclick = async ()=>{
+      b.disabled = true;
+      try{
+        await adminSet(b.dataset.adm, b.dataset.ca, JSON.parse(b.dataset.set));
+        toast("✓");
+        await loadCommunity();
+        if(location.hash === "#admin") showAdmin();
+      }catch(err){
+        b.disabled = false;
+        toast(t("adminBadKey"));
+      }
+    };
+  });
   window.scrollTo(0,0);
 }
 
@@ -1298,6 +1380,7 @@ function route(){
   if(h.startsWith("#r/")) showRecipe(decodeURIComponent(h.slice(3)));
   else if(h==="#pantry") showPantry();
   else if(h==="#guides") showGuides();
+  else if(h==="#admin") showAdmin();
   else if(h==="#add") showAddForm();
   else if(h==="#req") showRequestForm();
   else if(h.startsWith("#f/")) showFamily(parseInt(h.slice(3),10));

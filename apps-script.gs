@@ -2,9 +2,12 @@
 // Paste into Extensions > Apps Script of a Google Sheet, then Deploy > New deployment > Web app
 // Execute as: Me · Who has access: Anyone
 
+// Admin key: change this to your own secret password (also entered once on the site's #admin page)
+var ADMIN_KEY = 'CHANGE-ME';
+
 var SHEETS = {
   ratings: ['recipe_id', 'stars', 'voter', 'created_at'],
-  submissions: ['name', 'by_name', 'category', 'kosher', 'ingredients', 'instructions', 'notes', 'created_at'],
+  submissions: ['name', 'by_name', 'category', 'kosher', 'ingredients', 'instructions', 'notes', 'status', 'created_at'],
   requests: ['dish', 'by_name', 'notes', 'status', 'recipe_id', 'created_at'],
   photos: ['recipe_id', 'url', 'file_id', 'by_name', 'status', 'created_at']
 };
@@ -12,7 +15,12 @@ var SHEETS = {
 function getSheet(name) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sh = ss.getSheetByName(name);
-  if (!sh) { sh = ss.insertSheet(name); sh.appendRow(SHEETS[name]); }
+  if (!sh) { sh = ss.insertSheet(name); sh.appendRow(SHEETS[name]); return sh; }
+  // migrate: add any missing header columns
+  var head = sh.getRange(1, 1, 1, Math.max(1, sh.getLastColumn())).getValues()[0];
+  SHEETS[name].forEach(function (col) {
+    if (head.indexOf(col) < 0) { sh.getRange(1, sh.getLastColumn() + 1).setValue(col); head.push(col); }
+  });
   return sh;
 }
 
@@ -36,6 +44,9 @@ function doPost(e) {
 
   // update an existing row (matched by created_at) — used for approving photos / marking requests as added
   if (body.action === 'update') {
+    if (body.key !== ADMIN_KEY) {
+      return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad key' })).setMimeType(ContentService.MimeType.JSON);
+    }
     if (!SHEETS[body.table]) {
       return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad table' })).setMimeType(ContentService.MimeType.JSON);
     }
