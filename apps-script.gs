@@ -33,6 +33,29 @@ function doGet() {
 
 function doPost(e) {
   var body = JSON.parse(e.postData.contents);
+
+  // update an existing row (matched by created_at) — used for approving photos / marking requests as added
+  if (body.action === 'update') {
+    if (!SHEETS[body.table]) {
+      return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad table' })).setMimeType(ContentService.MimeType.JSON);
+    }
+    var shU = getSheet(body.table);
+    var data = shU.getDataRange().getValues();
+    var headU = data[0];
+    var cA = headU.indexOf('created_at');
+    var want = new Date(body.created_at).getTime();
+    for (var i = 1; i < data.length; i++) {
+      if (new Date(data[i][cA]).getTime() === want) {
+        for (var key in (body.set || {})) {
+          var col = headU.indexOf(key);
+          if (col >= 0) shU.getRange(i + 1, col + 1).setValue(body.set[key]);
+        }
+        return ContentService.createTextOutput(JSON.stringify({ ok: true })).setMimeType(ContentService.MimeType.JSON);
+      }
+    }
+    return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'not found' })).setMimeType(ContentService.MimeType.JSON);
+  }
+
   var name = body.table;
   if (!SHEETS[name]) {
     return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad table' })).setMimeType(ContentService.MimeType.JSON);
