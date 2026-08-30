@@ -1,578 +1,1245 @@
-[
-  {
-    "id": "classic-baked-keto-cheesecake",
-    "name": "Classic Baked Keto Cheesecake",
-    "nameHe": "עוגת גבינה אפויה קלאסית קיטו",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 20,
-    "cookTimeMin": 55,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "1 1/2 cups / 170 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "4 tbsp / 56 g", "item": "butter, melted"},
-      {"amount": "2 tbsp / 20 g", "item": "powdered erythritol-monk fruit sweetener (blitz granular in a blender)", "israelNote": "erythritol blends: health-food stores"},
-      {"amount": "900 g / 32 oz", "item": "full-fat cream cheese, at room temperature", "israelNote": "gvinat shamenet (Napoleon/Ski), well drained"},
-      {"amount": "1 cup / 130 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "3", "item": "large eggs, at room temperature"},
-      {"amount": "1 tbsp / 15 ml", "item": "fresh lemon juice"},
-      {"amount": "2 tsp / 10 ml", "item": "vanilla extract"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 1/2 כוסות / 170 גרם", "item": "קמח שקדים מולבן"},
-      {"amount": "4 כפות / 56 גרם", "item": "חמאה מומסת"},
-      {"amount": "2 כפות / 20 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)", "israelNote": "תערובות אריתריטול: חנויות טבע"},
-      {"amount": "900 גרם", "item": "גבינת שמנת שמנה, בטמפרטורת החדר", "israelNote": "גבינת שמנת (נפוליאון/סקי), מסוננת היטב"},
-      {"amount": "1 כוס / 130 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון"},
-      {"amount": "3", "item": "ביצים גדולות, בטמפרטורת החדר"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון סחוט טרי"},
-      {"amount": "2 כפיות / 10 מ\"ל", "item": "תמצית וניל"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line the bottom of a 23 cm (9 inch) springform pan with baking paper.",
-      "Stir the almond flour, melted butter and 2 tbsp sweetener into a damp sand texture. Press evenly into the pan bottom and bake 10 minutes, until the edges just turn golden. Cool while you make the filling.",
-      "Beat the cream cheese and 1 cup powdered sweetener on low-medium speed until smooth. Low speed matters — extra air causes cracks.",
-      "Beat in the eggs one at a time, then the lemon juice and vanilla, mixing only until combined.",
-      "Pour the filling over the crust and smooth the top. Bake 45–55 minutes, until the edges are set but the center still jiggles slightly when nudged.",
-      "Turn off the oven, crack the door open and let the cake sit 15 minutes (gentler cooling means fewer cracks).",
-      "Cool completely on the counter, then refrigerate at least 4 hours, preferably overnight, before releasing from the pan and slicing."
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים את תחתית תבנית קפיצית בקוטר 23 ס\"מ בנייר אפייה.",
-      "מערבבים את קמח השקדים, החמאה המומסת ו-2 כפות ממתיק למרקם של חול לח. מהדקים בשכבה אחידה לתחתית התבנית ואופים 10 דקות, עד שהשוליים רק מתחילים להזהיב. מצננים בזמן שמכינים את המלית.",
-      "מקציפים את גבינת השמנת עם כוס הממתיק הטחון במהירות נמוכה-בינונית עד למרקם חלק. המהירות הנמוכה חשובה — עודף אוויר גורם לסדקים.",
-      "מוסיפים את הביצים אחת-אחת תוך כדי ערבול, ואז את מיץ הלימון והווניל, ומערבבים רק עד לאיחוד.",
-      "יוצקים את המלית על הבסיס ומיישרים את החלק העליון. אופים 45–55 דקות, עד שהשוליים יציבים אך המרכז עדיין רוטט מעט כשמזיזים את התבנית.",
-      "מכבים את התנור, פותחים מעט את הדלת ומשאירים את העוגה בפנים 15 דקות (צינון עדין = פחות סדקים).",
-      "מצננים לחלוטין על השיש, ואז מעבירים למקרר ל-4 שעות לפחות, עדיף ללילה שלם, לפני שמחלצים מהתבנית ופורסים."
-    ],
-    "nutrition": {"calories": 390, "fatG": 37, "satFatG": 17.5, "proteinG": 9, "carbsG": 6.3, "fiberG": 1.6, "netCarbsG": 4.7, "sugarG": 2.6, "sodiumMg": 280},
-    "tips": "If the Israeli tub-style gvinat shamenet is softer than brick cream cheese, drain it in a cloth-lined sieve for an hour first, or the cake may need 5–10 extra minutes to set.",
-    "tipsHe": "גבינת שמנת ישראלית בגביע רכה יותר מגבינת שמנת אמריקאית בבלוק — מומלץ לסנן אותה שעה מראש במסננת מרופדת בבד, אחרת העוגה עשויה להזדקק ל-5–10 דקות אפייה נוספות כדי להתייצב.",
-    "lowCarbVariant": "Serve slices with 2–3 fresh strawberries (adds about 2 g net carbs).",
-    "lowCarbVariantHe": "מגישים כל פרוסה עם 2–3 תותים טריים (תוספת של כ-2 גרם פחמימות נטו).",
-    "sources": [
-      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/recipes/low-carb-cheesecake-keto-gluten-free-sugar-free/"},
-      {"creator": "Low Carb with Jennifer (Jennifer Banz)", "url": "https://jenniferbanz.com/the-best-keto-cheesecake"},
-      {"creator": "Texanerin Baking", "url": "https://www.texanerin.com/keto-cheesecake/"}
-    ],
-    "comparedVersions": "Compared Wholesome Yum, Jennifer Banz and Texanerin: all use the same cream cheese + eggs + powdered sweetener core, so I took Wholesome Yum's proportions (scaled to 12 slices), Banz's no-water-bath approach for simplicity, and the shared low-speed-mixing and jiggly-center cues that prevent cracking.",
-    "comparedVersionsHe": "השוויתי בין Wholesome Yum, ג'ניפר באנז ו-Texanerin: כולם מבוססים על אותו בסיס של גבינת שמנת + ביצים + ממתיק טחון, ולכן לקחתי את הפרופורציות של Wholesome Yum (מותאמות ל-12 פרוסות), את הגישה ללא אמבט מים של באנז לפשטות, ואת הסימנים המשותפים — ערבול במהירות נמוכה ומרכז רוטט — שמונעים סדקים."
-  },
-  {
-    "id": "no-bake-cheesecake-cups",
-    "name": "No-Bake Cheesecake Cups",
-    "nameHe": "כוסות עוגת גבינה ללא אפייה",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 6,
-    "prepTimeMin": 20,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "3/4 cup / 84 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "2 tbsp / 28 g", "item": "butter"},
-      {"amount": "1 tbsp / 10 g", "item": "powdered erythritol-monk fruit sweetener, plus 1/2 cup / 65 g for the filling"},
-      {"amount": "1/2 tsp", "item": "ground cinnamon"},
-      {"amount": "340 g / 12 oz", "item": "full-fat cream cheese, softened", "israelNote": "gvinat shamenet (Napoleon/Ski)"},
-      {"amount": "3/4 cup / 180 ml", "item": "cold heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1 tbsp / 15 ml", "item": "fresh lemon juice"},
-      {"amount": "1 tsp / 5 ml", "item": "vanilla extract"},
-      {"amount": "1/2 cup / 60 g", "item": "raspberries or sliced strawberries, for topping"}
-    ],
-    "ingredientsHe": [
-      {"amount": "3/4 כוס / 84 גרם", "item": "קמח שקדים מולבן"},
-      {"amount": "2 כפות / 28 גרם", "item": "חמאה"},
-      {"amount": "1 כף / 10 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון, ועוד 1/2 כוס / 65 גרם למלית"},
-      {"amount": "1/2 כפית", "item": "קינמון טחון"},
-      {"amount": "340 גרם", "item": "גבינת שמנת שמנה, מרוככת", "israelNote": "גבינת שמנת (נפוליאון/סקי)"},
-      {"amount": "3/4 כוס / 180 מ\"ל", "item": "שמנת מתוקה 38% קרה"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון סחוט טרי"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "תמצית וניל"},
-      {"amount": "1/2 כוס / 60 גרם", "item": "פטל או תותים פרוסים, לקישוט"}
-    ],
-    "instructions": [
-      "Toast the almond flour with the butter, 1 tbsp sweetener and the cinnamon in a dry pan over medium heat, stirring, 3–5 minutes until golden and fragrant. Cool — this is the 'crumble crust'.",
-      "Beat the cream cheese with 1/2 cup powdered sweetener, the lemon juice and vanilla until completely smooth.",
-      "In a separate bowl whip the cold cream to stiff peaks, then fold it into the cream cheese mixture in two additions.",
-      "Divide the crumble between 6 small glasses or jars, reserving a spoonful for garnish.",
-      "Pipe or spoon the filling over the crumble layers.",
-      "Chill at least 1 hour, then top with berries and the reserved crumble before serving."
-    ],
-    "instructionsHe": [
-      "קולים את קמח השקדים עם החמאה, כף הממתיק והקינמון במחבת יבשה על אש בינונית, תוך ערבוב, 3–5 דקות עד שהתערובת מזהיבה וריחנית. מצננים — זהו 'בסיס הקראמבל'.",
-      "מקציפים את גבינת השמנת עם 1/2 כוס ממתיק טחון, מיץ הלימון והווניל עד למרקם חלק לגמרי.",
-      "בקערה נפרדת מקציפים את השמנת הקרה לקצפת יציבה, ומקפלים אותה לתערובת הגבינה בשתי פעמים.",
-      "מחלקים את הקראמבל בין 6 כוסות או צנצנות קטנות, ושומרים כף אחת לקישוט.",
-      "מזלפים או מניחים בכף את המלית מעל שכבות הקראמבל.",
-      "מקררים שעה לפחות, ולפני ההגשה מעטרים בפירות יער ובקראמבל ששמרנו."
-    ],
-    "nutrition": {"calories": 425, "fatG": 41, "satFatG": 21, "proteinG": 7.5, "carbsG": 8.7, "fiberG": 2.8, "netCarbsG": 5.9, "sugarG": 3.2, "sodiumMg": 210},
-    "tips": "Use powdered sweetener only — granular stays gritty in a no-bake filling. The jars keep 4 days covered in the fridge, so they are great to make ahead.",
-    "tipsHe": "משתמשים רק בממתיק טחון — ממתיק גרגירי נשאר גרגירי במלית ללא אפייה. הצנצנות נשמרות 4 ימים מכוסות במקרר, כך שהן מצוינות להכנה מראש.",
-    "sources": [
-      {"creator": "Sugar-Free Mom (Brenda Bennett)", "url": "https://www.sugarfreemom.com/recipes/easy-sugar-free-low-carb-keto-lemon-cheesecake-jars/"},
-      {"creator": "Fittoserve Group", "url": "https://www.fittoservegroup.com/keto-no-bake-cheesecake/"},
-      {"creator": "Keen for Keto", "url": "https://keenforketo.com/no-bake-keto-mini-cheesecake-cups/"}
-    ],
-    "comparedVersions": "Compared Sugar-Free Mom's jars, Fittoserve's no-bake cheesecake and Keen for Keto's cups. Kept the whipped-cream-folded filling all three share (lighter than cream-cheese-only), and swapped their food-processor nut crusts for a quicker pan-toasted almond flour crumble with fewer ingredients.",
-    "comparedVersionsHe": "השוויתי בין הצנצנות של Sugar-Free Mom, עוגת הגבינה ללא אפייה של Fittoserve והכוסות של Keen for Keto. שמרתי על מלית הקצפת המקופלת המשותפת לשלושתם (קלילה יותר מגבינת שמנת בלבד), והחלפתי את בסיסי האגוזים במעבד מזון בקראמבל קמח שקדים קלוי במחבת — מהיר יותר ועם פחות מרכיבים."
-  },
-  {
-    "id": "whipped-cream-chocolate-mousse",
-    "name": "Chocolate Mousse (Whipped Cream Based)",
-    "nameHe": "מוס שוקולד על בסיס קצפת",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 1/2 cups / 360 ml", "item": "cold heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "3 tbsp / 16 g", "item": "unsweetened cocoa powder, sifted"},
-      {"amount": "1/3 cup / 43 g", "item": "powdered erythritol-monk fruit sweetener (blitz granular in a blender)"},
-      {"amount": "1 tsp / 5 ml", "item": "vanilla extract"},
-      {"amount": "1 pinch", "item": "fine salt"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 1/2 כוסות / 360 מ\"ל", "item": "שמנת מתוקה 38% קרה"},
-      {"amount": "3 כפות / 16 גרם", "item": "אבקת קקאו ללא סוכר, מנופה"},
-      {"amount": "1/3 כוס / 43 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "תמצית וניל"},
-      {"amount": "קורט", "item": "מלח דק"}
-    ],
-    "instructions": [
-      "Chill the mixing bowl and beaters in the freezer for 10 minutes — cold equipment whips faster and higher.",
-      "Put the cream, sifted cocoa, powdered sweetener, vanilla and salt in the bowl together. Whipping everything from the start avoids the over-churned, buttery texture you get when cocoa is beaten into already-stiff cream.",
-      "Beat on medium speed until the mousse holds firm peaks, 2–3 minutes. Stop as soon as it is thick — over-beating turns it grainy.",
-      "Spoon or pipe into 4 glasses and serve, or chill up to 24 hours; it firms slightly in the fridge."
-    ],
-    "instructionsHe": [
-      "מקררים את קערת הערבול ואת הווים במקפיא 10 דקות — כלים קרים מקציפים מהר יותר ולנפח גבוה יותר.",
-      "שמים בקערה יחד את השמנת, הקקאו המנופה, הממתיק הטחון, הווניל והמלח. הקצפה של הכול מההתחלה מונעת את המרקם החמאתי והמעובד שנוצר כשמקציפים קקאו לתוך קצפת שכבר יציבה.",
-      "מקציפים במהירות בינונית עד שהמוס מחזיק פסגות יציבות, 2–3 דקות. עוצרים ברגע שהוא מסמיך — הקצפת יתר הופכת אותו לגרגירי.",
-      "מעבירים בכף או מזלפים ל-4 כוסות ומגישים, או מקררים עד 24 שעות; המוס מתייצב מעט במקרר."
-    ],
-    "nutrition": {"calories": 320, "fatG": 33.5, "satFatG": 21, "proteinG": 2.6, "carbsG": 4.8, "fiberG": 1.3, "netCarbsG": 3.5, "sugarG": 2.5, "sodiumMg": 60},
-    "tips": "Powdered sweetener is essential — granular erythritol stays crunchy in cold cream. Top with a little grated dark chocolate (dairy or pareve both fine here).",
-    "tipsHe": "ממתיק טחון הוא חובה — אריתריטול גרגירי נשאר פריך בשמנת קרה. מקשטים במעט שוקולד מריר מגורר (חלבי או פרווה — שניהם מתאימים כאן).",
-    "lowCarbVariant": "Fold in 50 g melted 85% dark chocolate for a richer, denser mousse (about +2 g net carbs per serving).",
-    "lowCarbVariantHe": "מקפלים פנימה 50 גרם שוקולד מריר 85% מומס למוס עשיר וסמיך יותר (תוספת של כ-2 גרם פחמימות נטו למנה).",
-    "sources": [
-      {"creator": "The Big Man's World (Arman Liew)", "url": "https://thebigmansworld.com/keto-chocolate-mousse/"},
-      {"creator": "Chocolate Covered Katie", "url": "https://chocolatecoveredkatie.com/keto-chocolate-mousse-recipe/"},
-      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/chocolate-mousse-recipe/"}
-    ],
-    "comparedVersions": "Compared 3-ingredient whipped versions (Big Man's World, Chocolate Covered Katie) against egg- and cream-cheese-based mousses. The whipped-cream version won on simplicity and texture; the key technique difference — whipping cocoa in from the start rather than at stiff peaks — came from comparing failure notes across the recipes.",
-    "comparedVersionsHe": "השוויתי גרסאות קצפת מ-3 מרכיבים (Big Man's World, Chocolate Covered Katie) מול מוסים על בסיס ביצים וגבינת שמנת. גרסת הקצפת ניצחה בפשטות ובמרקם; ההבדל הטכני המרכזי — הקצפת הקקאו מההתחלה במקום הוספתו לקצפת יציבה — עלה מהשוואת הערות הכישלון בין המתכונים."
-  },
-  {
-    "id": "vanilla-panna-cotta-agar",
-    "name": "Vanilla Panna Cotta (Agar-Agar)",
-    "nameHe": "פנקוטה וניל (על בסיס אגר-אגר)",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 10,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 240 ml", "item": "unsweetened almond milk"},
-      {"amount": "1 tsp / 2 g", "item": "agar-agar powder", "israelNote": "agar-agar: health-food stores"},
-      {"amount": "1 1/2 cups / 360 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1/3 cup / 43 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "2 tsp / 10 ml", "item": "vanilla extract, or seeds of 1/2 vanilla pod"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 כוס / 240 מ\"ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "1 כפית / 2 גרם", "item": "אבקת אגר-אגר", "israelNote": "אגר-אגר: חנויות טבע"},
-      {"amount": "1 1/2 כוסות / 360 מ\"ל", "item": "שמנת מתוקה 38%"},
-      {"amount": "1/3 כוס / 43 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון"},
-      {"amount": "2 כפיות / 10 מ\"ל", "item": "תמצית וניל, או גרגירים מ-1/2 מקל וניל"}
-    ],
-    "instructions": [
-      "Whisk the agar powder into the cold almond milk in a saucepan and let it sit 5 minutes.",
-      "Bring to a boil, then simmer 2–3 minutes, whisking constantly — unlike gelatin, agar must actually boil to activate, or the panna cotta will not set.",
-      "Lower the heat, whisk in the cream and sweetener, and warm gently 1–2 minutes until the sweetener dissolves. Do not boil the cream.",
-      "Off the heat, stir in the vanilla.",
-      "Pour into 4 ramekins or glasses, cool 15 minutes on the counter, then refrigerate at least 2 hours — agar sets faster and firmer than gelatin.",
-      "Serve in the glass, or dip ramekins briefly in hot water and invert onto plates."
-    ],
-    "instructionsHe": [
-      "מערבבים בעזרת מטרפה את אבקת האגר לתוך משקה השקדים הקר בסיר ומניחים ל-5 דקות.",
-      "מביאים לרתיחה, ואז מבשלים ברתיחה עדינה 2–3 דקות תוך טריפה מתמדת — בניגוד לג'לטין, אגר חייב ממש לרתוח כדי להיות פעיל, אחרת הפנקוטה לא תתייצב.",
-      "מנמיכים את האש, טורפים פנימה את השמנת והממתיק, ומחממים בעדינות 1–2 דקות עד שהממתיק נמס. לא מרתיחים את השמנת.",
-      "מחוץ לאש מערבבים פנימה את הווניל.",
-      "יוצקים ל-4 רמקינים או כוסות, מצננים 15 דקות על השיש ואז מקררים לפחות שעתיים — אגר מתייצב מהר ומוצק יותר מג'לטין.",
-      "מגישים בכוס, או טובלים את הרמקינים לרגע במים חמים והופכים על צלחות."
-    ],
-    "nutrition": {"calories": 320, "fatG": 33.7, "satFatG": 21, "proteinG": 2.6, "carbsG": 2.7, "fiberG": 0.2, "netCarbsG": 2.5, "sugarG": 2.4, "sodiumMg": 75},
-    "tips": "Agar gives a slightly firmer set than gelatin; if you prefer a softer wobble, use a scant 3/4 tsp. Kosher gelatin (fish or bovine with hechsher) can replace it: use 2 tsp, bloomed in the cold almond milk and dissolved with gentle heat only.",
-    "tipsHe": "אגר נותן מרקם מעט מוצק יותר מג'לטין; אם מעדיפים ריטוט רך יותר, משתמשים ב-3/4 כפית גדושה פחות. אפשר להחליף בג'לטין כשר (מדגים או בקר עם הכשר): 2 כפיות, מושרות במשקה השקדים הקר וממיסים בחימום עדין בלבד.",
-    "lowCarbVariant": "Top with 2 tbsp warmed raspberries lightly mashed with sweetener as a quick coulis (about +2 g net carbs).",
-    "lowCarbVariantHe": "מעטרים ב-2 כפות פטל מחומם ומעוך קלות עם ממתיק כקולי מהיר (תוספת של כ-2 גרם פחמימות נטו).",
-    "sources": [
-      {"creator": "Diet Doctor", "url": "https://www.dietdoctor.com/recipes/keto-vanilla-pannacotta"},
-      {"creator": "Sugar-Free Mom (Brenda Bennett)", "url": "https://www.sugarfreemom.com/recipes/keto-panna-cotta/"},
-      {"creator": "My Keto Kitchen", "url": "https://www.myketokitchen.com/keto-recipes/keto-vanilla-panna-cotta/"}
-    ],
-    "comparedVersions": "Compared Diet Doctor, Sugar-Free Mom and My Keto Kitchen — all gelatin-based with a cream + almond-milk base to keep carbs down. I kept that base and their cream-to-milk ratio but converted the set to agar-agar for kosher preference, using the standard 1 tsp agar per ~600 ml liquid with a true boil to activate.",
-    "comparedVersionsHe": "השוויתי בין Diet Doctor, Sugar-Free Mom ו-My Keto Kitchen — כולם על בסיס ג'לטין עם שמנת ומשקה שקדים לצמצום הפחמימות. שמרתי על הבסיס ועל יחס השמנת-חלב שלהם, אבל המרתי את ההקרשה לאגר-אגר מטעמי כשרות, לפי היחס המקובל של כפית אגר לכ-600 מ\"ל נוזל, עם רתיחה אמיתית להפעלה."
-  },
-  {
-    "id": "keto-tiramisu",
-    "name": "Keto Tiramisu",
-    "nameHe": "טירמיסו קיטו",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 30,
-    "cookTimeMin": 18,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "1 1/2 cups / 150 g", "item": "blanched almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/3 cup / 43 g", "item": "granular erythritol-monk fruit sweetener, for the cake"},
-      {"amount": "2 tsp", "item": "baking powder"},
-      {"amount": "1/4 tsp", "item": "fine salt"},
-      {"amount": "2", "item": "large eggs"},
-      {"amount": "1/4 cup / 57 g", "item": "butter, melted"},
-      {"amount": "3 tbsp / 45 ml", "item": "water"},
-      {"amount": "1/2 cup / 120 ml", "item": "strong espresso or brewed coffee, cooled"},
-      {"amount": "1 tbsp / 15 ml", "item": "dark rum (optional)"},
-      {"amount": "450 g / 16 oz", "item": "mascarpone, softened", "israelNote": "mascarpone (Gad) or gvinat shamenet"},
-      {"amount": "2/3 cup / 85 g", "item": "powdered erythritol-monk fruit sweetener, for the filling"},
-      {"amount": "3/4 cup / 180 ml", "item": "cold heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1 tbsp / 5 g", "item": "unsweetened cocoa powder, for dusting"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 1/2 כוסות / 150 גרם", "item": "קמח שקדים מולבן"},
-      {"amount": "1/3 כוס / 43 גרם", "item": "ממתיק אריתריטול-פרי הנזירים גרגירי, לעוגה"},
-      {"amount": "2 כפיות", "item": "אבקת אפייה"},
-      {"amount": "1/4 כפית", "item": "מלח דק"},
-      {"amount": "2", "item": "ביצים גדולות"},
-      {"amount": "1/4 כוס / 57 גרם", "item": "חמאה מומסת"},
-      {"amount": "3 כפות / 45 מ\"ל", "item": "מים"},
-      {"amount": "1/2 כוס / 120 מ\"ל", "item": "אספרסו חזק או קפה מוכן, מצונן"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "רום כהה (לא חובה)"},
-      {"amount": "450 גרם", "item": "מסקרפונה מרוככת", "israelNote": "מסקרפונה (גד) או גבינת שמנת"},
-      {"amount": "2/3 כוס / 85 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון, למלית"},
-      {"amount": "3/4 כוס / 180 מ\"ל", "item": "שמנת מתוקה 38% קרה"},
-      {"amount": "1 כף / 5 גרם", "item": "אבקת קקאו ללא סוכר, לפיזור מעל"}
-    ],
-    "instructions": [
-      "Heat the oven to 165°C / 325°F. Line a large baking sheet with baking paper.",
-      "Whisk the almond flour, granular sweetener, baking powder and salt. Beat in the eggs, melted butter and water to a spreadable batter.",
-      "Spread the batter into a thin rectangle roughly 20 x 30 cm and bake 15–18 minutes until golden and springy. Cool, then cut into fingers sized to fit a 20 cm (8 inch) square dish in two layers.",
-      "Stir the coffee and rum together in a shallow bowl.",
-      "Beat the mascarpone with half the powdered sweetener until smooth. In another bowl whip the cream with the remaining sweetener to firm peaks, then fold it into the mascarpone.",
-      "Dip half the cake fingers briefly in the coffee — a quick dunk, they absorb fast — and arrange in the dish. Spread with half the mascarpone cream.",
-      "Repeat with the remaining fingers and cream.",
-      "Cover and refrigerate at least 4 hours (overnight is better), then dust generously with cocoa before serving."
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-165 מעלות. מרפדים תבנית אפייה גדולה בנייר אפייה.",
-      "מערבבים במטרפה את קמח השקדים, הממתיק הגרגירי, אבקת האפייה והמלח. מוסיפים את הביצים, החמאה המומסת והמים ומערבבים לבלילה הניתנת למריחה.",
-      "מורחים את הבלילה למלבן דק בגודל של כ-20x30 ס\"מ ואופים 15–18 דקות עד שהעוגה זהובה וקפיצית. מצננים, ואז חותכים לאצבעות בגודל שמתאים לתבנית מרובעת של 20 ס\"מ בשתי שכבות.",
-      "מערבבים את הקפה והרום בקערה שטוחה.",
-      "מקציפים את המסקרפונה עם מחצית הממתיק הטחון עד למרקם חלק. בקערה נוספת מקציפים את השמנת עם שארית הממתיק לקצפת יציבה, ומקפלים אותה לתוך המסקרפונה.",
-      "טובלים מחצית מאצבעות העוגה בקפה בטבילה קצרה — הן סופגות מהר — ומסדרים בתבנית. מורחים מעל מחצית מקרם המסקרפונה.",
-      "חוזרים על הפעולה עם שארית האצבעות והקרם.",
-      "מכסים ומקררים לפחות 4 שעות (לילה שלם עדיף), ולפני ההגשה מפזרים מעל שכבה נדיבה של קקאו."
-    ],
-    "nutrition": {"calories": 340, "fatG": 33.6, "satFatG": 18.5, "proteinG": 5.8, "carbsG": 5.4, "fiberG": 1.6, "netCarbsG": 3.8, "sugarG": 1.5, "sodiumMg": 130},
-    "ketoVariant": "Skip the rum and add 1/4 tsp rum extract to the coffee — zero carbs, same aroma.",
-    "ketoVariantHe": "מוותרים על הרום ומוסיפים לקפה 1/4 כפית תמצית רום — אפס פחמימות, אותו ארומה.",
-    "tips": "The sponge tastes best after a full night in the fridge, when the coffee and cream have fully softened it. Israeli mascarpone (Gad) is slightly looser than Italian — beat it gently or it can split.",
-    "tipsHe": "העוגה הכי טעימה אחרי לילה שלם במקרר, כשהקפה והקרם ריככו אותה לגמרי. מסקרפונה ישראלית (גד) רכה מעט מהאיטלקית — מקציפים אותה בעדינות כדי שלא תיפרד.",
-    "sources": [
-      {"creator": "All Day I Dream About Food (Carolyn Ketchum)", "url": "https://alldayidreamaboutfood.com/keto-tiramisu/"},
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/keto-tiramisu/"},
-      {"creator": "MyKetoPlate", "url": "https://myketoplate.com/keto-tiramisu/"}
-    ],
-    "comparedVersions": "Compared Carolyn Ketchum's sheet-cake method, Low Carb Spark and MyKetoPlate. Ketchum's thin sheet-pan sponge won for simplicity over piping individual ladyfingers; I dropped her whey protein powder (minor texture gain, extra specialty ingredient) and kept the shared whipped-cream-into-mascarpone filling and coffee-rum soak.",
-    "comparedVersionsHe": "השוויתי בין שיטת עוגת המשטח של קרולין קצ'ם, Low Carb Spark ו-MyKetoPlate. עוגת המשטח הדקה של קצ'ם ניצחה בפשטות לעומת זילוף אצבעות בודדות; ויתרתי על אבקת חלבון המי-גבינה שלה (שיפור מרקם קטן, מרכיב מיוחד נוסף) ושמרתי על המלית המשותפת של קצפת מקופלת במסקרפונה ועל טבילת הקפה-רום."
-  },
-  {
-    "id": "no-churn-vanilla-ice-cream",
-    "name": "No-Churn Vanilla Ice Cream",
-    "nameHe": "גלידת וניל ללא מכונת גלידה",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 6,
-    "prepTimeMin": 15,
-    "cookTimeMin": 35,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "3 tbsp / 42 g", "item": "butter"},
-      {"amount": "3 cups / 720 ml", "item": "heavy cream, divided (2 cups + 1 cup)", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1/3 cup / 43 g", "item": "powdered allulose or erythritol-monk fruit sweetener", "israelNote": "allulose is hard to find in Israel; use powdered erythritol blend and add the vodka"},
-      {"amount": "1 cup / 240 ml", "item": "unsweetened almond milk"},
-      {"amount": "2 tsp / 10 ml", "item": "vanilla extract, or 1 tsp extract + seeds of 1/2 vanilla pod"},
-      {"amount": "1 tbsp / 15 ml", "item": "vodka (optional, keeps it scoopable)"},
-      {"amount": "1 pinch", "item": "fine salt"}
-    ],
-    "ingredientsHe": [
-      {"amount": "3 כפות / 42 גרם", "item": "חמאה"},
-      {"amount": "3 כוסות / 720 מ\"ל", "item": "שמנת מתוקה 38%, מחולקת (2 כוסות + 1 כוס)"},
-      {"amount": "1/3 כוס / 43 גרם", "item": "אלולוז טחון או ממתיק אריתריטול-פרי הנזירים טחון", "israelNote": "אלולוז קשה להשגה בישראל; משתמשים בתערובת אריתריטול טחונה ומוסיפים את הוודקה"},
-      {"amount": "1 כוס / 240 מ\"ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "2 כפיות / 10 מ\"ל", "item": "תמצית וניל, או כפית תמצית + גרגירים מ-1/2 מקל וניל"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "וודקה (לא חובה, שומרת על מרקם רך)"},
-      {"amount": "קורט", "item": "מלח דק"}
-    ],
-    "instructions": [
-      "Melt the butter in a wide pan, add the sweetener and 2 cups of the cream, and simmer gently 30–40 minutes, stirring now and then, until reduced by about half. This homemade 'condensed milk' is what makes no-churn ice cream creamy instead of icy.",
-      "Cool the reduced cream to room temperature, then stir in the vanilla, salt and vodka if using.",
-      "Whisk in the almond milk and the remaining 1 cup cream until smooth.",
-      "Refrigerate the base at least 4 hours or overnight — a cold base freezes with smaller ice crystals.",
-      "Pour into a loaf pan, cover, and freeze. Stir thoroughly every 30 minutes for the first 2 hours, then every hour until scoopable, about 4–5 hours total.",
-      "If frozen solid overnight, let it stand 10–15 minutes at room temperature before scooping."
-    ],
-    "instructionsHe": [
-      "ממיסים את החמאה במחבת רחבה, מוסיפים את הממתיק ו-2 כוסות מהשמנת, ומבשלים ברתיחה עדינה 30–40 דקות תוך ערבוב מדי פעם, עד שהנוזל מצטמצם בכמחצית. 'החלב המרוכז' הביתי הזה הוא מה שהופך גלידה ללא מכונה לקרמית במקום קרחונית.",
-      "מצננים את השמנת המצומצמת לטמפרטורת החדר, ואז מערבבים פנימה את הווניל, המלח והוודקה אם משתמשים.",
-      "טורפים פנימה את משקה השקדים ואת כוס השמנת הנותרת עד למרקם חלק.",
-      "מקררים את הבסיס לפחות 4 שעות או לילה שלם — בסיס קר קופא עם גבישי קרח קטנים יותר.",
-      "יוצקים לתבנית אינגליש קייק, מכסים ומקפיאים. מערבבים היטב כל 30 דקות בשעתיים הראשונות, ואז כל שעה עד שהגלידה ניתנת לגריפה, כ-4–5 שעות בסך הכול.",
-      "אם הגלידה קפאה לגמרי במהלך הלילה, מוציאים ל-10–15 דקות בטמפרטורת החדר לפני הגריפה."
-    ],
-    "nutrition": {"calories": 467, "fatG": 49.3, "satFatG": 31, "proteinG": 3.4, "carbsG": 3.5, "fiberG": 0.2, "netCarbsG": 3.3, "sugarG": 3, "sodiumMg": 65},
-    "tips": "Sweetener choice matters most here: allulose keeps ice cream soft, erythritol alone freezes hard — the vodka compensates. It never tastes of alcohol.",
-    "tipsHe": "בחירת הממתיק היא הקריטית כאן: אלולוז שומר על גלידה רכה, אריתריטול לבדו קופא קשה — הוודקה מפצה על כך. לא מרגישים טעם של אלכוהול.",
-    "sources": [
-      {"creator": "Wholesome Yum (Maya Krampf)", "url": "https://www.wholesomeyum.com/recipes/sugar-free-low-carb-ice-cream-no-churn-4-ingredients/"},
-      {"creator": "KetoDiet Blog (Martina Slajerova)", "url": "https://ketodietapp.com/Blog/lchf/no-churn-vanilla-keto-ice-cream"},
-      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/keto-vanilla-ice-cream/"}
-    ],
-    "comparedVersions": "Compared Wholesome Yum's reduced-cream 'condensed milk' method, KetoDiet Blog's egg-based version and KetoFocus's vodka trick. The reduced-cream base won for creaminess without raw eggs or an ice cream machine; I added KetoFocus's optional vodka to fix the hard-freeze problem of erythritol, which matters in Israel where allulose is scarce.",
-    "comparedVersionsHe": "השוויתי בין שיטת 'החלב המרוכז' משמנת מצומצמת של Wholesome Yum, הגרסה על בסיס ביצים של KetoDiet Blog וטריק הוודקה של KetoFocus. בסיס השמנת המצומצמת ניצח בקרמיות ללא ביצים חיות וללא מכונת גלידה; הוספתי את הוודקה האופציונלית של KetoFocus כדי לפתור את בעיית הקיפאון הקשה של אריתריטול — חשוב בישראל, שבה אלולוז נדיר."
-  },
-  {
-    "id": "no-churn-chocolate-ice-cream",
-    "name": "Chocolate Ice Cream (No-Churn)",
-    "nameHe": "גלידת שוקולד ללא מכונת גלידה",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 20,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 240 ml", "item": "unsweetened almond milk"},
-      {"amount": "1/2 cup / 43 g", "item": "unsweetened cocoa powder"},
-      {"amount": "60 g / 2 oz", "item": "dark chocolate 85%, chopped", "israelNote": "dairy or pareve dark chocolate both fine in this dairy dessert"},
-      {"amount": "2/3 cup / 85 g", "item": "powdered erythritol-monk fruit sweetener (blitz granular in a blender)"},
-      {"amount": "2 cups / 480 ml", "item": "cold heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1 tsp / 5 ml", "item": "vanilla extract"},
-      {"amount": "1/4 tsp", "item": "fine salt"},
-      {"amount": "1 tbsp / 15 ml", "item": "vodka (optional, keeps it scoopable)"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 כוס / 240 מ\"ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "1/2 כוס / 43 גרם", "item": "אבקת קקאו ללא סוכר"},
-      {"amount": "60 גרם", "item": "שוקולד מריר 85%, קצוץ", "israelNote": "שוקולד מריר חלבי או פרווה — שניהם מתאימים בקינוח חלבי זה"},
-      {"amount": "2/3 כוס / 85 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"},
-      {"amount": "2 כוסות / 480 מ\"ל", "item": "שמנת מתוקה 38% קרה"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "תמצית וניל"},
-      {"amount": "1/4 כפית", "item": "מלח דק"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "וודקה (לא חובה, שומרת על מרקם רך)"}
-    ],
-    "instructions": [
-      "Warm the almond milk in a small saucepan until steaming, then whisk in the cocoa, chopped chocolate, sweetener and salt until glossy and completely smooth. Cool to room temperature and stir in the vanilla and vodka if using.",
-      "Whip the cold cream to soft peaks — soft, not stiff, so it folds without turning grainy.",
-      "Fold a third of the whipped cream into the chocolate mixture to loosen it, then fold that back into the remaining cream until no streaks remain.",
-      "Scrape into a loaf pan, press baking paper onto the surface, and freeze 4–6 hours.",
-      "For the smoothest texture, stir once or twice during the first 2 hours of freezing. Soften 10 minutes before scooping if frozen overnight."
-    ],
-    "instructionsHe": [
-      "מחממים את משקה השקדים בסיר קטן עד שעולים אדים, ואז טורפים פנימה את הקקאו, השוקולד הקצוץ, הממתיק והמלח עד לתערובת מבריקה וחלקה לגמרי. מצננים לטמפרטורת החדר ומערבבים פנימה את הווניל והוודקה אם משתמשים.",
-      "מקציפים את השמנת הקרה לקצפת רכה — רכה, לא יציבה, כדי שתתקפל בלי להפוך לגרגירית.",
-      "מקפלים שליש מהקצפת לתוך תערובת השוקולד כדי לרכך אותה, ואז מקפלים את התערובת חזרה לתוך שארית הקצפת עד שלא נותרים פסים.",
-      "מעבירים לתבנית אינגליש קייק, מצמידים נייר אפייה לפני השטח ומקפיאים 4–6 שעות.",
-      "למרקם הכי חלק, מערבבים פעם או פעמיים בשעתיים הראשונות של ההקפאה. אם הגלידה קפאה לילה שלם, מרככים 10 דקות לפני הגריפה."
-    ],
-    "nutrition": {"calories": 267, "fatG": 26.6, "satFatG": 16.5, "proteinG": 2.5, "carbsG": 5.3, "fiberG": 2.7, "netCarbsG": 2.6, "sugarG": 1.9, "sodiumMg": 90},
-    "tips": "Real melted chocolate plus cocoa gives a deeper flavor than cocoa alone and improves the texture — the cocoa butter keeps it from freezing rock hard.",
-    "tipsHe": "שוקולד מומס אמיתי בנוסף לקקאו נותן טעם עמוק יותר מקקאו לבדו ומשפר את המרקם — חמאת הקקאו מונעת מהגלידה לקפוא לאבן.",
-    "sources": [
-      {"creator": "Sugar Free Londoner (Katrin Nürnberger)", "url": "https://sugarfreelondoner.com/low-carb-keto-chocolate-ice-cream/"},
-      {"creator": "I Breathe I'm Hungry (Mellissa Sevigny)", "url": "https://www.ibreatheimhungry.com/no-churn-keto-chocolate-ice-cream/"},
-      {"creator": "gnom-gnom (Paola van der Hulst)", "url": "https://www.gnom-gnom.com/no-churn-keto-chocolate-ice-cream/"}
-    ],
-    "comparedVersions": "Compared IBIH's egg-white mousse method, gnom-gnom's cooked custard and Sugar Free Londoner's cream-based version. Chose an egg-free fold of chocolate paste into softly whipped cream: nearly as airy as the mousse method but with no raw eggs and half the steps, keeping IBIH's chocolate-plus-cocoa-butter idea via 85% chocolate.",
-    "comparedVersionsHe": "השוויתי בין שיטת מוס חלבוני הביצה של IBIH, הקסטרד המבושל של gnom-gnom והגרסה על בסיס שמנת של Sugar Free Londoner. בחרתי בקיפול ללא ביצים של משחת שוקולד לתוך קצפת רכה: אוורירי כמעט כמו שיטת המוס אבל בלי ביצים חיות ובחצי מהשלבים, תוך שמירה על רעיון השוקולד-וחמאת-הקקאו של IBIH באמצעות שוקולד 85%."
-  },
-  {
-    "id": "berry-parfait-whipped-cream",
-    "name": "Berry Parfait with Whipped Cream",
-    "nameHe": "פרפה פירות יער עם קצפת",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 1/2 cups / 360 ml", "item": "cold heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "3 tbsp / 25 g", "item": "powdered erythritol-monk fruit sweetener (blitz granular in a blender)"},
-      {"amount": "1 tsp / 5 ml", "item": "vanilla extract"},
-      {"amount": "200 g / 7 oz", "item": "mixed berries (strawberries, raspberries, blueberries)", "israelNote": "frozen berry mix works — thaw and drain first"},
-      {"amount": "1 tsp / 5 ml", "item": "lemon juice"},
-      {"amount": "4 tbsp / 28 g", "item": "chopped toasted pecans or almonds"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 1/2 כוסות / 360 מ\"ל", "item": "שמנת מתוקה 38% קרה"},
-      {"amount": "3 כפות / 25 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "תמצית וניל"},
-      {"amount": "200 גרם", "item": "פירות יער מעורבים (תות, פטל, אוכמניות)", "israelNote": "תערובת פירות יער קפואה מתאימה — מפשירים ומסננים קודם"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "מיץ לימון"},
-      {"amount": "4 כפות / 28 גרם", "item": "פקאנים או שקדים קלויים קצוצים"}
-    ],
-    "instructions": [
-      "Slice the strawberries and toss all the berries with the lemon juice and a teaspoon of the sweetener. Let stand 10 minutes so they release a little juice.",
-      "Whip the cold cream with the remaining powdered sweetener and vanilla to firm peaks.",
-      "In 4 glasses, layer a spoonful of berries, a layer of cream, and a sprinkle of nuts; repeat so each glass has two layers of each.",
-      "Finish with a few berries and nuts on top. Serve at once, or chill up to 4 hours."
-    ],
-    "instructionsHe": [
-      "פורסים את התותים ומערבבים את כל פירות היער עם מיץ הלימון וכפית מהממתיק. מניחים ל-10 דקות כדי שישחררו מעט מיץ.",
-      "מקציפים את השמנת הקרה עם שארית הממתיק הטחון והווניל לקצפת יציבה.",
-      "ב-4 כוסות מסדרים שכבות: כף פירות יער, שכבת קצפת ופיזור אגוזים; חוזרים כך שבכל כוס יהיו שתי שכבות מכל אחד.",
-      "מסיימים בכמה פירות יער ואגוזים מלמעלה. מגישים מיד, או מקררים עד 4 שעות."
-    ],
-    "nutrition": {"calories": 382, "fatG": 38.5, "satFatG": 21, "proteinG": 3, "carbsG": 9.5, "fiberG": 2.9, "netCarbsG": 6.6, "sugarG": 6, "sodiumMg": 35},
-    "ketoVariant": "Use only raspberries and strawberries (skip blueberries) to drop to about 5 g net carbs.",
-    "ketoVariantHe": "משתמשים רק בפטל ותות (מוותרים על האוכמניות) כדי לרדת לכ-5 גרם פחמימות נטו.",
-    "tips": "The 10-minute maceration with lemon and sweetener makes even winter berries taste like a sauce — no cooking needed.",
-    "tipsHe": "ההשריה של 10 דקות עם לימון וממתיק גורמת גם לפירות יער חורפיים לטעום כמו רוטב — בלי שום בישול.",
-    "sources": [
-      {"creator": "Low Carb Yum (Lisa MarcAurele)", "url": "https://lowcarbyum.com/mascarpone-cheese-mousse-berries/"},
-      {"creator": "Grumpy's Honeybunch", "url": "https://grumpyshoneybunch.com/keto-cheesecake-parfait/"},
-      {"creator": "All Day I Dream About Food (Carolyn Ketchum)", "url": "https://alldayidreamaboutfood.com/keto-mascarpone-mousse/"}
-    ],
-    "comparedVersions": "Compared mascarpone-mousse parfaits (Low Carb Yum, Carolyn Ketchum) with cheesecake-style parfaits (Grumpy's Honeybunch). Went with pure whipped cream per the category brief — fewest ingredients and lightest result — and borrowed the berry-maceration and nut-crunch layers that made the richer versions interesting.",
-    "comparedVersionsHe": "השוויתי פרפה על בסיס מוס מסקרפונה (Low Carb Yum, קרולין קצ'ם) עם פרפה בסגנון עוגת גבינה (Grumpy's Honeybunch). בחרתי בקצפת נקייה בהתאם להגדרת הקטגוריה — הכי מעט מרכיבים והתוצאה הקלילה ביותר — ושאלתי מהגרסאות העשירות את השריית פירות היער ואת שכבות הקראנץ' של האגוזים."
-  },
-  {
-    "id": "keto-malabi",
-    "name": "Keto Malabi (Rose Water Milk Pudding)",
-    "nameHe": "מלבי קיטו (עם מי ורדים)",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 10,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 240 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "2 cups / 480 ml", "item": "unsweetened almond milk"},
-      {"amount": "3 tbsp / 25 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1 1/2 tsp / 4.5 g", "item": "glucomannan (konjac) powder", "israelNote": "avkat konjac/glucomannan: health-food stores or iHerb; agar-agar works too (see tips)"},
-      {"amount": "1 1/2 tbsp / 22 ml", "item": "rose water", "israelNote": "mei vradim"},
-      {"amount": "2 tbsp / 16 g", "item": "chopped pistachios, for topping"},
-      {"amount": "1/4 cup / 30 g", "item": "raspberries, lightly mashed with 1 tsp sweetener, for topping (optional)"}
-    ],
-    "ingredientsHe": [
-      {"amount": "1 כוס / 240 מ\"ל", "item": "שמנת מתוקה 38%"},
-      {"amount": "2 כוסות / 480 מ\"ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "3 כפות / 25 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון"},
-      {"amount": "1 1/2 כפיות / 4.5 גרם", "item": "אבקת גלוקומנן (קונג'אק)", "israelNote": "אבקת קונג'אק/גלוקומנן: חנויות טבע או iHerb; גם אגר-אגר עובד (ראו טיפים)"},
-      {"amount": "1 1/2 כפות / 22 מ\"ל", "item": "מי ורדים"},
-      {"amount": "2 כפות / 16 גרם", "item": "פיסטוקים קצוצים, לקישוט"},
-      {"amount": "1/4 כוס / 30 גרם", "item": "פטל, מעוך קלות עם כפית ממתיק, לקישוט (לא חובה)"}
-    ],
-    "instructions": [
-      "Whisk the glucomannan thoroughly into the powdered sweetener in a small bowl — pre-mixing prevents lumps, since glucomannan clumps instantly in liquid.",
-      "Heat the cream, almond milk and rose water in a saucepan over medium heat until steaming.",
-      "Rain in the sweetener mixture while whisking constantly, and keep whisking at a bare simmer 3–5 minutes until the mixture is glossy and coats a spoon.",
-      "Pour into 4 small bowls or glasses and chill at least 2 hours — it sets to the soft, wobbly texture between pudding and jelly that malabi is known for.",
-      "Top with chopped pistachios, and the mashed sweetened raspberries standing in for the traditional red syrup."
-    ],
-    "instructionsHe": [
-      "מערבבים היטב את הגלוקומנן לתוך הממתיק הטחון בקערה קטנה — הערבוב המוקדם מונע גושים, כי גלוקומנן מתגבש מיד בנוזל.",
-      "מחממים את השמנת, משקה השקדים ומי הוורדים בסיר על אש בינונית עד שעולים אדים.",
-      "מוסיפים את תערובת הממתיק בזרם דק תוך טריפה מתמדת, וממשיכים לטרוף ברתיחה עדינה מאוד 3–5 דקות עד שהתערובת מבריקה ומצפה כף.",
-      "יוצקים ל-4 קעריות או כוסות קטנות ומקררים לפחות שעתיים — המלבי מתייצב למרקם הרך והרוטט שבין פודינג לג'לי, שמאפיין אותו.",
-      "מעטרים בפיסטוקים קצוצים ובפטל המעוך והממותק, שמחליף את הסירופ האדום המסורתי."
-    ],
-    "nutrition": {"calories": 250, "fatG": 25.3, "satFatG": 14, "proteinG": 2.5, "carbsG": 4.5, "fiberG": 1.8, "netCarbsG": 2.7, "sugarG": 1.6, "sodiumMg": 80},
-    "lowCarbVariant": "Use 1 cup whole milk in place of 1 cup of the almond milk for a more traditional milky flavor (about +3 g net carbs per serving).",
-    "lowCarbVariantHe": "מחליפים כוס אחת ממשקה השקדים בכוס חלב מלא לטעם חלבי מסורתי יותר (תוספת של כ-3 גרם פחמימות נטו למנה).",
-    "tips": "No glucomannan? Use 3/4 tsp agar-agar powder instead: boil it 2 minutes in the almond milk before adding cream — the set will be firmer, closer to panna cotta. Add rose water off the heat if you want a stronger floral note.",
-    "tipsHe": "אין גלוקומנן? משתמשים במקום ב-3/4 כפית אבקת אגר-אגר: מרתיחים אותה 2 דקות במשקה השקדים לפני הוספת השמנת — ההקרשה תהיה מוצקה יותר, קרובה לפנקוטה. מוסיפים את מי הוורדים מחוץ לאש אם רוצים ניחוח פרחוני חזק יותר.",
-    "sources": [
-      {"creator": "Tonya Cooks", "url": "https://tonyacooks.com/low-carb-malabi/"},
-      {"creator": "May I Have That Recipe", "url": "https://mayihavethatrecipe.com/malabi-recipe/"},
-      {"creator": "Queen Keto", "url": "https://queenketo.com/sugar-free-rosewater-vanilla-panna-cotta/"}
-    ],
-    "comparedVersions": "Compared Tonya Cooks' konjac-thickened low-carb malabi, a traditional cornstarch version (May I Have That Recipe) for reference texture, and Queen Keto's rosewater panna cotta. Kept Tonya's konjac technique but swapped her all-whole-milk base (about 6 g carbs per serving from lactose) for cream + almond milk, and added the classic pistachio-and-red-fruit topping.",
-    "comparedVersionsHe": "השוויתי בין המלבי דל הפחמימות מסמיך הקונג'אק של Tonya Cooks, גרסה מסורתית עם קורנפלור (May I Have That Recipe) כייחוס למרקם, ופנקוטת מי הוורדים של Queen Keto. שמרתי על טכניקת הקונג'אק של טוניה אבל החלפתי את בסיס החלב המלא שלה (כ-6 גרם פחמימות למנה מלקטוז) בשמנת + משקה שקדים, והוספתי את הציפוי הקלאסי של פיסטוקים ופרי אדום."
-  },
-  {
-    "id": "keto-creme-brulee",
-    "name": "Crème Brûlée",
-    "nameHe": "קרם ברולה",
-    "category": "desserts-dairy",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 40,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "4", "item": "large egg yolks"},
-      {"amount": "3 tbsp / 25 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1 cup / 240 ml", "item": "heavy cream", "israelNote": "shamenet metuka 38%"},
-      {"amount": "1 tsp / 5 ml", "item": "vanilla extract, or seeds of 1/2 vanilla pod"},
-      {"amount": "1 pinch", "item": "fine salt"},
-      {"amount": "4 tsp / 16 g", "item": "granulated allulose or erythritol, for the topping", "israelNote": "allulose caramelizes best but is hard to find in Israel; erythritol melts under the torch and hardens into a crackable crust"}
-    ],
-    "ingredientsHe": [
-      {"amount": "4", "item": "חלמונים מביצים גדולות"},
-      {"amount": "3 כפות / 25 גרם", "item": "ממתיק אריתריטול-פרי הנזירים טחון"},
-      {"amount": "1 כוס / 240 מ\"ל", "item": "שמנת מתוקה 38%"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "תמצית וניל, או גרגירים מ-1/2 מקל וניל"},
-      {"amount": "קורט", "item": "מלח דק"},
-      {"amount": "4 כפיות / 16 גרם", "item": "אלולוז או אריתריטול גרגירי, לציפוי", "israelNote": "אלולוז מתקרמל הכי טוב אבל קשה להשגה בישראל; אריתריטול נמס תחת הברנר ומתקשה לקרום פריך"}
-    ],
-    "instructions": [
-      "Heat the oven to 150°C / 300°F and put the kettle on for the water bath.",
-      "Whisk the yolks with the powdered sweetener and salt until pale.",
-      "Warm the cream until steaming (not boiling) and pour it into the yolks in a thin stream, whisking constantly. Stir in the vanilla.",
-      "Divide between 4 shallow ramekins set in a baking dish. Pour hot water into the dish to reach halfway up the ramekins.",
-      "Bake 35–40 minutes, until the custards are set at the edges but still tremble slightly in the center.",
-      "Cool to room temperature, then chill at least 3 hours or overnight.",
-      "Just before serving, sprinkle each custard with 1 tsp granulated sweetener and caramelize with a kitchen torch until deep golden (or 1–2 minutes under a very hot broiler, watching closely). Let the crust harden 1 minute, then serve."
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-150 מעלות ומרתיחים מים בקומקום לאמבט המים.",
-      "טורפים את החלמונים עם הממתיק הטחון והמלח עד שהתערובת מחווירה.",
-      "מחממים את השמנת עד שעולים אדים (לא מרתיחים) ויוצקים אותה לחלמונים בזרם דק תוך טריפה מתמדת. מערבבים פנימה את הווניל.",
-      "מחלקים בין 4 רמקינים שטוחים המונחים בתבנית אפייה. יוצקים מים חמים לתבנית עד מחצית גובה הרמקינים.",
-      "אופים 35–40 דקות, עד שהקרם יציב בשוליים אך עדיין רוטט מעט במרכז.",
-      "מצננים לטמפרטורת החדר, ואז מקררים לפחות 3 שעות או לילה שלם.",
-      "ממש לפני ההגשה מפזרים על כל קרם כפית ממתיק גרגירי ומקרמלים בברנר מטבח עד לזהוב עמוק (או 1–2 דקות מתחת לגריל לוהט בתנור, בהשגחה צמודה). נותנים לקרום להתקשות דקה אחת, ומגישים."
-    ],
-    "nutrition": {"calories": 260, "fatG": 26.5, "satFatG": 15, "proteinG": 3.2, "carbsG": 2.2, "fiberG": 0, "netCarbsG": 2.2, "sugarG": 1.9, "sodiumMg": 45},
-    "tips": "The water bath is not optional — it is what keeps the custard silky instead of scrambled. Torch the top only right before serving; a sweetener crust softens in the fridge.",
-    "tipsHe": "אמבט המים אינו אופציונלי — הוא מה ששומר על קרם משיי במקום ביצים מקושקשות. מקרמלים את הציפוי רק ממש לפני ההגשה; קרום ממתיק מתרכך במקרר.",
-    "sources": [
-      {"creator": "Joy Filled Eats", "url": "https://joyfilledeats.com/keto-creme-brulee/"},
-      {"creator": "Stem and Spoon", "url": "https://stemandspoon.com/keto-creme-brulee/"},
-      {"creator": "My Sweet Keto", "url": "https://www.mysweetketo.com/ultimate-keto-creme-brulee/"}
-    ],
-    "comparedVersions": "Compared Joy Filled Eats, Stem and Spoon and My Sweet Keto — the yolk-to-cream ratio (1 yolk per 1/4 cup cream) and 300°F water bath were consistent across all three, so I scaled that to 4 servings. Joy Filled Eats' finding that allulose browns best informed the topping note, with erythritol as the practical Israeli fallback.",
-    "comparedVersionsHe": "השוויתי בין Joy Filled Eats, Stem and Spoon ו-My Sweet Keto — יחס החלמונים לשמנת (חלמון לכל 1/4 כוס שמנת) ואמבט המים ב-150 מעלות היו עקביים בשלושתם, אז התאמתי את זה ל-4 מנות. הממצא של Joy Filled Eats שאלולוז משחים הכי טוב עיצב את הערת הציפוי, עם אריתריטול כחלופה המעשית בישראל."
-  }
+﻿[
+    {
+        "id":  "classic-baked-keto-cheesecake",
+        "name":  "Classic Baked Keto Cheesecake",
+        "nameHe":  "עוגת גבינה אפויה קלאסית קיטו",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  20,
+        "cookTimeMin":  55,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1 1/2 cups / 170 g",
+                                "item":  "blanched almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "4 tbsp / 56 g",
+                                "item":  "butter, melted"
+                            },
+                            {
+                                "amount":  "2 tbsp / 20 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend) (blitz granular in a blender)",
+                                "israelNote":  "erythritol blends: health-food stores"
+                            },
+                            {
+                                "amount":  "900 g / 32 oz",
+                                "item":  "full-fat cream cheese, at room temperature",
+                                "israelNote":  "gvinat shamenet (Napoleon/Ski), well drained"
+                            },
+                            {
+                                "amount":  "1 cup / 130 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "3",
+                                "item":  "large eggs, at room temperature"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "2 tsp / 10 ml",
+                                "item":  "vanilla extract"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 1/2 כוסות / 170 גרם",
+                                  "item":  "קמח שקדים מולבן"
+                              },
+                              {
+                                  "amount":  "4 כפות / 56 גרם",
+                                  "item":  "חמאה מומסת"
+                              },
+                              {
+                                  "amount":  "2 כפות / 20 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)",
+                                  "israelNote":  "תערובות אריתריטול: חנויות טבע"
+                              },
+                              {
+                                  "amount":  "900 גרם",
+                                  "item":  "גבינת שמנת שמנה, בטמפרטורת החדר",
+                                  "israelNote":  "גבינת שמנת (נפוליאון/סקי), מסוננת היטב"
+                              },
+                              {
+                                  "amount":  "1 כוס / 130 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון"
+                              },
+                              {
+                                  "amount":  "3",
+                                  "item":  "ביצים גדולות, בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "מיץ לימון סחוט טרי"
+                              },
+                              {
+                                  "amount":  "2 כפיות / 10 מ\"ל",
+                                  "item":  "תמצית וניל"
+                              }
+                          ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line the bottom of a 23 cm (9 inch) springform pan with baking paper.",
+                             "Stir the almond flour, melted butter and 2 tbsp sweetener into a damp sand texture. Press evenly into the pan bottom and bake 10 minutes, until the edges just turn golden. Cool while you make the filling.",
+                             "Beat the cream cheese and 1 cup powdered sweetener on low-medium speed until smooth. Low speed matters — extra air causes cracks.",
+                             "Beat in the eggs one at a time, then the lemon juice and vanilla, mixing only until combined.",
+                             "Pour the filling over the crust and smooth the top. Bake 45–55 minutes, until the edges are set but the center still jiggles slightly when nudged.",
+                             "Turn off the oven, crack the door open and let the cake sit 15 minutes (gentler cooling means fewer cracks).",
+                             "Cool completely on the counter, then refrigerate at least 4 hours, preferably overnight, before releasing from the pan and slicing."
+                         ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים את תחתית תבנית קפיצית בקוטר 23 ס\"מ בנייר אפייה.",
+                               "מערבבים את קמח השקדים, החמאה המומסת ו-2 כפות ממתיק למרקם של חול לח. מהדקים בשכבה אחידה לתחתית התבנית ואופים 10 דקות, עד שהשוליים רק מתחילים להזהיב. מצננים בזמן שמכינים את המלית.",
+                               "מקציפים את גבינת השמנת עם כוס הממתיק הטחון במהירות נמוכה-בינונית עד למרקם חלק. המהירות הנמוכה חשובה — עודף אוויר גורם לסדקים.",
+                               "מוסיפים את הביצים אחת-אחת תוך כדי ערבול, ואז את מיץ הלימון והווניל, ומערבבים רק עד לאיחוד.",
+                               "יוצקים את המלית על הבסיס ומיישרים את החלק העליון. אופים 45–55 דקות, עד שהשוליים יציבים אך המרכז עדיין רוטט מעט כשמזיזים את התבנית.",
+                               "מכבים את התנור, פותחים מעט את הדלת ומשאירים את העוגה בפנים 15 דקות (צינון עדין = פחות סדקים).",
+                               "מצננים לחלוטין על השיש, ואז מעבירים למקרר ל-4 שעות לפחות, עדיף ללילה שלם, לפני שמחלצים מהתבנית ופורסים."
+                           ],
+        "nutrition":  {
+                          "calories":  390,
+                          "fatG":  37,
+                          "satFatG":  17.5,
+                          "proteinG":  9,
+                          "carbsG":  6.3,
+                          "fiberG":  1.6,
+                          "netCarbsG":  4.7,
+                          "sugarG":  2.6,
+                          "sodiumMg":  280
+                      },
+        "tips":  "If the Israeli tub-style gvinat shamenet is softer than brick cream cheese, drain it in a cloth-lined sieve for an hour first, or the cake may need 5–10 extra minutes to set.",
+        "tipsHe":  "גבינת שמנת ישראלית בגביע רכה יותר מגבינת שמנת אמריקאית בבלוק — מומלץ לסנן אותה שעה מראש במסננת מרופדת בבד, אחרת העוגה עשויה להזדקק ל-5–10 דקות אפייה נוספות כדי להתייצב.",
+        "lowCarbVariant":  "Serve slices with 2–3 fresh strawberries (adds about 2 g net carbs).",
+        "lowCarbVariantHe":  "מגישים כל פרוסה עם 2–3 תותים טריים (תוספת של כ-2 גרם פחמימות נטו).",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/recipes/low-carb-cheesecake-keto-gluten-free-sugar-free/"
+                        },
+                        {
+                            "creator":  "Low Carb with Jennifer (Jennifer Banz)",
+                            "url":  "https://jenniferbanz.com/the-best-keto-cheesecake"
+                        },
+                        {
+                            "creator":  "Texanerin Baking",
+                            "url":  "https://www.texanerin.com/keto-cheesecake/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Wholesome Yum, Jennifer Banz and Texanerin: all use the same cream cheese + eggs + powdered sweetener core, so I took Wholesome Yum\u0027s proportions (scaled to 12 slices), Banz\u0027s no-water-bath approach for simplicity, and the shared low-speed-mixing and jiggly-center cues that prevent cracking.",
+        "comparedVersionsHe":  "השוויתי בין Wholesome Yum, ג\u0027ניפר באנז ו-Texanerin: כולם מבוססים על אותו בסיס של גבינת שמנת + ביצים + ממתיק טחון, ולכן לקחתי את הפרופורציות של Wholesome Yum (מותאמות ל-12 פרוסות), את הגישה ללא אמבט מים של באנז לפשטות, ואת הסימנים המשותפים — ערבול במהירות נמוכה ומרכז רוטט — שמונעים סדקים."
+    },
+    {
+        "id":  "no-bake-cheesecake-cups",
+        "name":  "No-Bake Cheesecake Cups",
+        "nameHe":  "כוסות עוגת גבינה ללא אפייה",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  20,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "3/4 cup / 84 g",
+                                "item":  "blanched almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "2 tbsp / 28 g",
+                                "item":  "butter"
+                            },
+                            {
+                                "amount":  "1 tbsp / 10 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend), plus 1/2 cup / 65 g for the filling"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cinnamon"
+                            },
+                            {
+                                "amount":  "340 g / 12 oz",
+                                "item":  "full-fat cream cheese, softened",
+                                "israelNote":  "gvinat shamenet (Napoleon/Ski)"
+                            },
+                            {
+                                "amount":  "3/4 cup / 180 ml",
+                                "item":  "cold heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/2 cup / 60 g",
+                                "item":  "raspberries or sliced strawberries, for topping"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "3/4 כוס / 84 גרם",
+                                  "item":  "קמח שקדים מולבן"
+                              },
+                              {
+                                  "amount":  "2 כפות / 28 גרם",
+                                  "item":  "חמאה"
+                              },
+                              {
+                                  "amount":  "1 כף / 10 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון, ועוד 1/2 כוס / 65 גרם למלית"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "קינמון טחון"
+                              },
+                              {
+                                  "amount":  "340 גרם",
+                                  "item":  "גבינת שמנת שמנה, מרוככת",
+                                  "israelNote":  "גבינת שמנת (נפוליאון/סקי)"
+                              },
+                              {
+                                  "amount":  "3/4 כוס / 180 מ\"ל",
+                                  "item":  "שמנת מתוקה 38% קרה"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "מיץ לימון סחוט טרי"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 60 גרם",
+                                  "item":  "פטל או תותים פרוסים, לקישוט"
+                              }
+                          ],
+        "instructions":  [
+                             "Toast the almond flour with the butter, 1 tbsp sweetener and the cinnamon in a dry pan over medium heat, stirring, 3–5 minutes until golden and fragrant. Cool — this is the \u0027crumble crust\u0027.",
+                             "Beat the cream cheese with 1/2 cup powdered sweetener, the lemon juice and vanilla until completely smooth.",
+                             "In a separate bowl whip the cold cream to stiff peaks, then fold it into the cream cheese mixture in two additions.",
+                             "Divide the crumble between 6 small glasses or jars, reserving a spoonful for garnish.",
+                             "Pipe or spoon the filling over the crumble layers.",
+                             "Chill at least 1 hour, then top with berries and the reserved crumble before serving."
+                         ],
+        "instructionsHe":  [
+                               "קולים את קמח השקדים עם החמאה, כף הממתיק והקינמון במחבת יבשה על אש בינונית, תוך ערבוב, 3–5 דקות עד שהתערובת מזהיבה וריחנית. מצננים — זהו \u0027בסיס הקראמבל\u0027.",
+                               "מקציפים את גבינת השמנת עם 1/2 כוס ממתיק טחון, מיץ הלימון והווניל עד למרקם חלק לגמרי.",
+                               "בקערה נפרדת מקציפים את השמנת הקרה לקצפת יציבה, ומקפלים אותה לתערובת הגבינה בשתי פעמים.",
+                               "מחלקים את הקראמבל בין 6 כוסות או צנצנות קטנות, ושומרים כף אחת לקישוט.",
+                               "מזלפים או מניחים בכף את המלית מעל שכבות הקראמבל.",
+                               "מקררים שעה לפחות, ולפני ההגשה מעטרים בפירות יער ובקראמבל ששמרנו."
+                           ],
+        "nutrition":  {
+                          "calories":  425,
+                          "fatG":  41,
+                          "satFatG":  21,
+                          "proteinG":  7.5,
+                          "carbsG":  8.7,
+                          "fiberG":  2.8,
+                          "netCarbsG":  5.9,
+                          "sugarG":  3.2,
+                          "sodiumMg":  210
+                      },
+        "tips":  "Use powdered sweetener only — granular stays gritty in a no-bake filling. The jars keep 4 days covered in the fridge, so they are great to make ahead.",
+        "tipsHe":  "משתמשים רק בממתיק טחון — ממתיק גרגירי נשאר גרגירי במלית ללא אפייה. הצנצנות נשמרות 4 ימים מכוסות במקרר, כך שהן מצוינות להכנה מראש.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar-Free Mom (Brenda Bennett)",
+                            "url":  "https://www.sugarfreemom.com/recipes/easy-sugar-free-low-carb-keto-lemon-cheesecake-jars/"
+                        },
+                        {
+                            "creator":  "Fittoserve Group",
+                            "url":  "https://www.fittoservegroup.com/keto-no-bake-cheesecake/"
+                        },
+                        {
+                            "creator":  "Keen for Keto",
+                            "url":  "https://keenforketo.com/no-bake-keto-mini-cheesecake-cups/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Sugar-Free Mom\u0027s jars, Fittoserve\u0027s no-bake cheesecake and Keen for Keto\u0027s cups. Kept the whipped-cream-folded filling all three share (lighter than cream-cheese-only), and swapped their food-processor nut crusts for a quicker pan-toasted almond flour crumble with fewer ingredients.",
+        "comparedVersionsHe":  "השוויתי בין הצנצנות של Sugar-Free Mom, עוגת הגבינה ללא אפייה של Fittoserve והכוסות של Keen for Keto. שמרתי על מלית הקצפת המקופלת המשותפת לשלושתם (קלילה יותר מגבינת שמנת בלבד), והחלפתי את בסיסי האגוזים במעבד מזון בקראמבל קמח שקדים קלוי במחבת — מהיר יותר ועם פחות מרכיבים."
+    },
+    {
+        "id":  "whipped-cream-chocolate-mousse",
+        "name":  "Chocolate Mousse (Whipped Cream Based)",
+        "nameHe":  "מוס שוקולד על בסיס קצפת",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 1/2 cups / 360 ml",
+                                "item":  "cold heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "3 tbsp / 16 g",
+                                "item":  "unsweetened cocoa powder, sifted"
+                            },
+                            {
+                                "amount":  "1/3 cup / 43 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend) (blitz granular in a blender)"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine salt"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 1/2 כוסות / 360 מ\"ל",
+                                  "item":  "שמנת מתוקה 38% קרה"
+                              },
+                              {
+                                  "amount":  "3 כפות / 16 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר, מנופה"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 43 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח דק"
+                              }
+                          ],
+        "instructions":  [
+                             "Chill the mixing bowl and beaters in the freezer for 10 minutes — cold equipment whips faster and higher.",
+                             "Put the cream, sifted cocoa, powdered sweetener, vanilla and salt in the bowl together. Whipping everything from the start avoids the over-churned, buttery texture you get when cocoa is beaten into already-stiff cream.",
+                             "Beat on medium speed until the mousse holds firm peaks, 2–3 minutes. Stop as soon as it is thick — over-beating turns it grainy.",
+                             "Spoon or pipe into 4 glasses and serve, or chill up to 24 hours; it firms slightly in the fridge."
+                         ],
+        "instructionsHe":  [
+                               "מקררים את קערת הערבול ואת הווים במקפיא 10 דקות — כלים קרים מקציפים מהר יותר ולנפח גבוה יותר.",
+                               "שמים בקערה יחד את השמנת, הקקאו המנופה, הממתיק הטחון, הווניל והמלח. הקצפה של הכול מההתחלה מונעת את המרקם החמאתי והמעובד שנוצר כשמקציפים קקאו לתוך קצפת שכבר יציבה.",
+                               "מקציפים במהירות בינונית עד שהמוס מחזיק פסגות יציבות, 2–3 דקות. עוצרים ברגע שהוא מסמיך — הקצפת יתר הופכת אותו לגרגירי.",
+                               "מעבירים בכף או מזלפים ל-4 כוסות ומגישים, או מקררים עד 24 שעות; המוס מתייצב מעט במקרר."
+                           ],
+        "nutrition":  {
+                          "calories":  320,
+                          "fatG":  33.5,
+                          "satFatG":  21,
+                          "proteinG":  2.6,
+                          "carbsG":  4.8,
+                          "fiberG":  1.3,
+                          "netCarbsG":  3.5,
+                          "sugarG":  2.5,
+                          "sodiumMg":  60
+                      },
+        "tips":  "Powdered sweetener is essential — granular erythritol stays crunchy in cold cream. Top with a little grated dark chocolate (dairy or pareve both fine here).",
+        "tipsHe":  "ממתיק טחון הוא חובה — אריתריטול גרגירי נשאר פריך בשמנת קרה. מקשטים במעט שוקולד מריר מגורר (חלבי או פרווה — שניהם מתאימים כאן).",
+        "lowCarbVariant":  "Fold in 50 g melted 85% dark chocolate for a richer, denser mousse (about +2 g net carbs per serving).",
+        "lowCarbVariantHe":  "מקפלים פנימה 50 גרם שוקולד מריר 85% מומס למוס עשיר וסמיך יותר (תוספת של כ-2 גרם פחמימות נטו למנה).",
+        "sources":  [
+                        {
+                            "creator":  "The Big Man\u0027s World (Arman Liew)",
+                            "url":  "https://thebigmansworld.com/keto-chocolate-mousse/"
+                        },
+                        {
+                            "creator":  "Chocolate Covered Katie",
+                            "url":  "https://chocolatecoveredkatie.com/keto-chocolate-mousse-recipe/"
+                        },
+                        {
+                            "creator":  "Healthy Recipes Blog",
+                            "url":  "https://healthyrecipesblogs.com/chocolate-mousse-recipe/"
+                        }
+                    ],
+        "comparedVersions":  "Compared 3-ingredient whipped versions (Big Man\u0027s World, Chocolate Covered Katie) against egg- and cream-cheese-based mousses. The whipped-cream version won on simplicity and texture; the key technique difference — whipping cocoa in from the start rather than at stiff peaks — came from comparing failure notes across the recipes.",
+        "comparedVersionsHe":  "השוויתי גרסאות קצפת מ-3 מרכיבים (Big Man\u0027s World, Chocolate Covered Katie) מול מוסים על בסיס ביצים וגבינת שמנת. גרסת הקצפת ניצחה בפשטות ובמרקם; ההבדל הטכני המרכזי — הקצפת הקקאו מההתחלה במקום הוספתו לקצפת יציבה — עלה מהשוואת הערות הכישלון בין המתכונים."
+    },
+    {
+        "id":  "vanilla-panna-cotta-agar",
+        "name":  "Vanilla Panna Cotta (Agar-Agar)",
+        "nameHe":  "פנקוטה וניל (על בסיס אגר-אגר)",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  10,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "unsweetened almond milk"
+                            },
+                            {
+                                "amount":  "1 tsp / 2 g",
+                                "item":  "agar-agar powder",
+                                "israelNote":  "agar-agar: health-food stores"
+                            },
+                            {
+                                "amount":  "1 1/2 cups / 360 ml",
+                                "item":  "heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1/3 cup / 43 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "2 tsp / 10 ml",
+                                "item":  "vanilla extract, or seeds of 1/2 vanilla pod"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "1 כפית / 2 גרם",
+                                  "item":  "אבקת אגר-אגר",
+                                  "israelNote":  "אגר-אגר: חנויות טבע"
+                              },
+                              {
+                                  "amount":  "1 1/2 כוסות / 360 מ\"ל",
+                                  "item":  "שמנת מתוקה 38%"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 43 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון"
+                              },
+                              {
+                                  "amount":  "2 כפיות / 10 מ\"ל",
+                                  "item":  "תמצית וניל, או גרגירים מ-1/2 מקל וניל"
+                              }
+                          ],
+        "instructions":  [
+                             "Whisk the agar powder into the cold almond milk in a saucepan and let it sit 5 minutes.",
+                             "Bring to a boil, then simmer 2–3 minutes, whisking constantly — unlike gelatin, agar must actually boil to activate, or the panna cotta will not set.",
+                             "Lower the heat, whisk in the cream and sweetener, and warm gently 1–2 minutes until the sweetener dissolves. Do not boil the cream.",
+                             "Off the heat, stir in the vanilla.",
+                             "Pour into 4 ramekins or glasses, cool 15 minutes on the counter, then refrigerate at least 2 hours — agar sets faster and firmer than gelatin.",
+                             "Serve in the glass, or dip ramekins briefly in hot water and invert onto plates."
+                         ],
+        "instructionsHe":  [
+                               "מערבבים בעזרת מטרפה את אבקת האגר לתוך משקה השקדים הקר בסיר ומניחים ל-5 דקות.",
+                               "מביאים לרתיחה, ואז מבשלים ברתיחה עדינה 2–3 דקות תוך טריפה מתמדת — בניגוד לג\u0027לטין, אגר חייב ממש לרתוח כדי להיות פעיל, אחרת הפנקוטה לא תתייצב.",
+                               "מנמיכים את האש, טורפים פנימה את השמנת והממתיק, ומחממים בעדינות 1–2 דקות עד שהממתיק נמס. לא מרתיחים את השמנת.",
+                               "מחוץ לאש מערבבים פנימה את הווניל.",
+                               "יוצקים ל-4 רמקינים או כוסות, מצננים 15 דקות על השיש ואז מקררים לפחות שעתיים — אגר מתייצב מהר ומוצק יותר מג\u0027לטין.",
+                               "מגישים בכוס, או טובלים את הרמקינים לרגע במים חמים והופכים על צלחות."
+                           ],
+        "nutrition":  {
+                          "calories":  320,
+                          "fatG":  33.7,
+                          "satFatG":  21,
+                          "proteinG":  2.6,
+                          "carbsG":  2.7,
+                          "fiberG":  0.2,
+                          "netCarbsG":  2.5,
+                          "sugarG":  2.4,
+                          "sodiumMg":  75
+                      },
+        "tips":  "Agar gives a slightly firmer set than gelatin; if you prefer a softer wobble, use a scant 3/4 tsp. Kosher gelatin (fish or bovine with hechsher) can replace it: use 2 tsp, bloomed in the cold almond milk and dissolved with gentle heat only.",
+        "tipsHe":  "אגר נותן מרקם מעט מוצק יותר מג\u0027לטין; אם מעדיפים ריטוט רך יותר, משתמשים ב-3/4 כפית גדושה פחות. אפשר להחליף בג\u0027לטין כשר (מדגים או בקר עם הכשר): 2 כפיות, מושרות במשקה השקדים הקר וממיסים בחימום עדין בלבד.",
+        "lowCarbVariant":  "Top with 2 tbsp warmed raspberries lightly mashed with sweetener as a quick coulis (about +2 g net carbs).",
+        "lowCarbVariantHe":  "מעטרים ב-2 כפות פטל מחומם ומעוך קלות עם ממתיק כקולי מהיר (תוספת של כ-2 גרם פחמימות נטו).",
+        "sources":  [
+                        {
+                            "creator":  "Diet Doctor",
+                            "url":  "https://www.dietdoctor.com/recipes/keto-vanilla-pannacotta"
+                        },
+                        {
+                            "creator":  "Sugar-Free Mom (Brenda Bennett)",
+                            "url":  "https://www.sugarfreemom.com/recipes/keto-panna-cotta/"
+                        },
+                        {
+                            "creator":  "My Keto Kitchen",
+                            "url":  "https://www.myketokitchen.com/keto-recipes/keto-vanilla-panna-cotta/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Diet Doctor, Sugar-Free Mom and My Keto Kitchen — all gelatin-based with a cream + almond-milk base to keep carbs down. I kept that base and their cream-to-milk ratio but converted the set to agar-agar for kosher preference, using the standard 1 tsp agar per ~600 ml liquid with a true boil to activate.",
+        "comparedVersionsHe":  "השוויתי בין Diet Doctor, Sugar-Free Mom ו-My Keto Kitchen — כולם על בסיס ג\u0027לטין עם שמנת ומשקה שקדים לצמצום הפחמימות. שמרתי על הבסיס ועל יחס השמנת-חלב שלהם, אבל המרתי את ההקרשה לאגר-אגר מטעמי כשרות, לפי היחס המקובל של כפית אגר לכ-600 מ\"ל נוזל, עם רתיחה אמיתית להפעלה."
+    },
+    {
+        "id":  "keto-tiramisu",
+        "name":  "Keto Tiramisu",
+        "nameHe":  "טירמיסו קיטו",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  30,
+        "cookTimeMin":  18,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1 1/2 cups / 150 g",
+                                "item":  "blanched almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/3 cup / 43 g",
+                                "item":  "granular allulose (or erythritol-monk fruit blend), for the cake"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "fine salt"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "large eggs"
+                            },
+                            {
+                                "amount":  "1/4 cup / 57 g",
+                                "item":  "butter, melted"
+                            },
+                            {
+                                "amount":  "3 tbsp / 45 ml",
+                                "item":  "water"
+                            },
+                            {
+                                "amount":  "1/2 cup / 120 ml",
+                                "item":  "strong espresso or brewed coffee, cooled"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "dark rum (optional)"
+                            },
+                            {
+                                "amount":  "450 g / 16 oz",
+                                "item":  "mascarpone, softened",
+                                "israelNote":  "mascarpone (Gad) or gvinat shamenet"
+                            },
+                            {
+                                "amount":  "2/3 cup / 85 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend), for the filling"
+                            },
+                            {
+                                "amount":  "3/4 cup / 180 ml",
+                                "item":  "cold heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1 tbsp / 5 g",
+                                "item":  "unsweetened cocoa powder, for dusting"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 1/2 כוסות / 150 גרם",
+                                  "item":  "קמח שקדים מולבן"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 43 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים גרגירי, לעוגה"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח דק"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים גדולות"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 57 גרם",
+                                  "item":  "חמאה מומסת"
+                              },
+                              {
+                                  "amount":  "3 כפות / 45 מ\"ל",
+                                  "item":  "מים"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 120 מ\"ל",
+                                  "item":  "אספרסו חזק או קפה מוכן, מצונן"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "רום כהה (לא חובה)"
+                              },
+                              {
+                                  "amount":  "450 גרם",
+                                  "item":  "מסקרפונה מרוככת",
+                                  "israelNote":  "מסקרפונה (גד) או גבינת שמנת"
+                              },
+                              {
+                                  "amount":  "2/3 כוס / 85 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון, למלית"
+                              },
+                              {
+                                  "amount":  "3/4 כוס / 180 מ\"ל",
+                                  "item":  "שמנת מתוקה 38% קרה"
+                              },
+                              {
+                                  "amount":  "1 כף / 5 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר, לפיזור מעל"
+                              }
+                          ],
+        "instructions":  [
+                             "Heat the oven to 165°C / 325°F. Line a large baking sheet with baking paper.",
+                             "Whisk the almond flour, granular sweetener, baking powder and salt. Beat in the eggs, melted butter and water to a spreadable batter.",
+                             "Spread the batter into a thin rectangle roughly 20 x 30 cm and bake 15–18 minutes until golden and springy. Cool, then cut into fingers sized to fit a 20 cm (8 inch) square dish in two layers.",
+                             "Stir the coffee and rum together in a shallow bowl.",
+                             "Beat the mascarpone with half the powdered sweetener until smooth. In another bowl whip the cream with the remaining sweetener to firm peaks, then fold it into the mascarpone.",
+                             "Dip half the cake fingers briefly in the coffee — a quick dunk, they absorb fast — and arrange in the dish. Spread with half the mascarpone cream.",
+                             "Repeat with the remaining fingers and cream.",
+                             "Cover and refrigerate at least 4 hours (overnight is better), then dust generously with cocoa before serving."
+                         ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-165 מעלות. מרפדים תבנית אפייה גדולה בנייר אפייה.",
+                               "מערבבים במטרפה את קמח השקדים, הממתיק הגרגירי, אבקת האפייה והמלח. מוסיפים את הביצים, החמאה המומסת והמים ומערבבים לבלילה הניתנת למריחה.",
+                               "מורחים את הבלילה למלבן דק בגודל של כ-20x30 ס\"מ ואופים 15–18 דקות עד שהעוגה זהובה וקפיצית. מצננים, ואז חותכים לאצבעות בגודל שמתאים לתבנית מרובעת של 20 ס\"מ בשתי שכבות.",
+                               "מערבבים את הקפה והרום בקערה שטוחה.",
+                               "מקציפים את המסקרפונה עם מחצית הממתיק הטחון עד למרקם חלק. בקערה נוספת מקציפים את השמנת עם שארית הממתיק לקצפת יציבה, ומקפלים אותה לתוך המסקרפונה.",
+                               "טובלים מחצית מאצבעות העוגה בקפה בטבילה קצרה — הן סופגות מהר — ומסדרים בתבנית. מורחים מעל מחצית מקרם המסקרפונה.",
+                               "חוזרים על הפעולה עם שארית האצבעות והקרם.",
+                               "מכסים ומקררים לפחות 4 שעות (לילה שלם עדיף), ולפני ההגשה מפזרים מעל שכבה נדיבה של קקאו."
+                           ],
+        "nutrition":  {
+                          "calories":  340,
+                          "fatG":  33.6,
+                          "satFatG":  18.5,
+                          "proteinG":  5.8,
+                          "carbsG":  5.4,
+                          "fiberG":  1.6,
+                          "netCarbsG":  3.8,
+                          "sugarG":  1.5,
+                          "sodiumMg":  130
+                      },
+        "ketoVariant":  "Skip the rum and add 1/4 tsp rum extract to the coffee — zero carbs, same aroma.",
+        "ketoVariantHe":  "מוותרים על הרום ומוסיפים לקפה 1/4 כפית תמצית רום — אפס פחמימות, אותו ארומה.",
+        "tips":  "The sponge tastes best after a full night in the fridge, when the coffee and cream have fully softened it. Israeli mascarpone (Gad) is slightly looser than Italian — beat it gently or it can split.",
+        "tipsHe":  "העוגה הכי טעימה אחרי לילה שלם במקרר, כשהקפה והקרם ריככו אותה לגמרי. מסקרפונה ישראלית (גד) רכה מעט מהאיטלקית — מקציפים אותה בעדינות כדי שלא תיפרד.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food (Carolyn Ketchum)",
+                            "url":  "https://alldayidreamaboutfood.com/keto-tiramisu/"
+                        },
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/keto-tiramisu/"
+                        },
+                        {
+                            "creator":  "MyKetoPlate",
+                            "url":  "https://myketoplate.com/keto-tiramisu/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Carolyn Ketchum\u0027s sheet-cake method, Low Carb Spark and MyKetoPlate. Ketchum\u0027s thin sheet-pan sponge won for simplicity over piping individual ladyfingers; I dropped her whey protein powder (minor texture gain, extra specialty ingredient) and kept the shared whipped-cream-into-mascarpone filling and coffee-rum soak.",
+        "comparedVersionsHe":  "השוויתי בין שיטת עוגת המשטח של קרולין קצ\u0027ם, Low Carb Spark ו-MyKetoPlate. עוגת המשטח הדקה של קצ\u0027ם ניצחה בפשטות לעומת זילוף אצבעות בודדות; ויתרתי על אבקת חלבון המי-גבינה שלה (שיפור מרקם קטן, מרכיב מיוחד נוסף) ושמרתי על המלית המשותפת של קצפת מקופלת במסקרפונה ועל טבילת הקפה-רום."
+    },
+    {
+        "id":  "no-churn-vanilla-ice-cream",
+        "name":  "No-Churn Vanilla Ice Cream",
+        "nameHe":  "גלידת וניל ללא מכונת גלידה",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  15,
+        "cookTimeMin":  35,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "3 tbsp / 42 g",
+                                "item":  "butter"
+                            },
+                            {
+                                "amount":  "3 cups / 720 ml",
+                                "item":  "heavy cream, divided (2 cups + 1 cup)",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1/3 cup / 43 g",
+                                "item":  "powdered allulose or erythritol-monk fruit sweetener",
+                                "israelNote":  "allulose is hard to find in Israel; use powdered erythritol blend and add the vodka"
+                            },
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "unsweetened almond milk"
+                            },
+                            {
+                                "amount":  "2 tsp / 10 ml",
+                                "item":  "vanilla extract, or 1 tsp extract + seeds of 1/2 vanilla pod"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "vodka (optional, keeps it scoopable)"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine salt"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "3 כפות / 42 גרם",
+                                  "item":  "חמאה"
+                              },
+                              {
+                                  "amount":  "3 כוסות / 720 מ\"ל",
+                                  "item":  "שמנת מתוקה 38%, מחולקת (2 כוסות + 1 כוס)"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 43 גרם",
+                                  "item":  "אלולוז טחון או ממתיק אריתריטול-פרי הנזירים טחון",
+                                  "israelNote":  "אלולוז קשה להשגה בישראל; משתמשים בתערובת אריתריטול טחונה ומוסיפים את הוודקה"
+                              },
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "2 כפיות / 10 מ\"ל",
+                                  "item":  "תמצית וניל, או כפית תמצית + גרגירים מ-1/2 מקל וניל"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "וודקה (לא חובה, שומרת על מרקם רך)"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח דק"
+                              }
+                          ],
+        "instructions":  [
+                             "Melt the butter in a wide pan, add the sweetener and 2 cups of the cream, and simmer gently 30–40 minutes, stirring now and then, until reduced by about half. This homemade \u0027condensed milk\u0027 is what makes no-churn ice cream creamy instead of icy.",
+                             "Cool the reduced cream to room temperature, then stir in the vanilla, salt and vodka if using.",
+                             "Whisk in the almond milk and the remaining 1 cup cream until smooth.",
+                             "Refrigerate the base at least 4 hours or overnight — a cold base freezes with smaller ice crystals.",
+                             "Pour into a loaf pan, cover, and freeze. Stir thoroughly every 30 minutes for the first 2 hours, then every hour until scoopable, about 4–5 hours total.",
+                             "If frozen solid overnight, let it stand 10–15 minutes at room temperature before scooping."
+                         ],
+        "instructionsHe":  [
+                               "ממיסים את החמאה במחבת רחבה, מוסיפים את הממתיק ו-2 כוסות מהשמנת, ומבשלים ברתיחה עדינה 30–40 דקות תוך ערבוב מדי פעם, עד שהנוזל מצטמצם בכמחצית. \u0027החלב המרוכז\u0027 הביתי הזה הוא מה שהופך גלידה ללא מכונה לקרמית במקום קרחונית.",
+                               "מצננים את השמנת המצומצמת לטמפרטורת החדר, ואז מערבבים פנימה את הווניל, המלח והוודקה אם משתמשים.",
+                               "טורפים פנימה את משקה השקדים ואת כוס השמנת הנותרת עד למרקם חלק.",
+                               "מקררים את הבסיס לפחות 4 שעות או לילה שלם — בסיס קר קופא עם גבישי קרח קטנים יותר.",
+                               "יוצקים לתבנית אינגליש קייק, מכסים ומקפיאים. מערבבים היטב כל 30 דקות בשעתיים הראשונות, ואז כל שעה עד שהגלידה ניתנת לגריפה, כ-4–5 שעות בסך הכול.",
+                               "אם הגלידה קפאה לגמרי במהלך הלילה, מוציאים ל-10–15 דקות בטמפרטורת החדר לפני הגריפה."
+                           ],
+        "nutrition":  {
+                          "calories":  467,
+                          "fatG":  49.3,
+                          "satFatG":  31,
+                          "proteinG":  3.4,
+                          "carbsG":  3.5,
+                          "fiberG":  0.2,
+                          "netCarbsG":  3.3,
+                          "sugarG":  3,
+                          "sodiumMg":  65
+                      },
+        "tips":  "Sweetener choice matters most here: allulose keeps ice cream soft, erythritol alone freezes hard — the vodka compensates. It never tastes of alcohol.",
+        "tipsHe":  "בחירת הממתיק היא הקריטית כאן: אלולוז שומר על גלידה רכה, אריתריטול לבדו קופא קשה — הוודקה מפצה על כך. לא מרגישים טעם של אלכוהול.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum (Maya Krampf)",
+                            "url":  "https://www.wholesomeyum.com/recipes/sugar-free-low-carb-ice-cream-no-churn-4-ingredients/"
+                        },
+                        {
+                            "creator":  "KetoDiet Blog (Martina Slajerova)",
+                            "url":  "https://ketodietapp.com/Blog/lchf/no-churn-vanilla-keto-ice-cream"
+                        },
+                        {
+                            "creator":  "KetoFocus",
+                            "url":  "https://www.ketofocus.com/recipes/keto-vanilla-ice-cream/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Wholesome Yum\u0027s reduced-cream \u0027condensed milk\u0027 method, KetoDiet Blog\u0027s egg-based version and KetoFocus\u0027s vodka trick. The reduced-cream base won for creaminess without raw eggs or an ice cream machine; I added KetoFocus\u0027s optional vodka to fix the hard-freeze problem of erythritol, which matters in Israel where allulose is scarce.",
+        "comparedVersionsHe":  "השוויתי בין שיטת \u0027החלב המרוכז\u0027 משמנת מצומצמת של Wholesome Yum, הגרסה על בסיס ביצים של KetoDiet Blog וטריק הוודקה של KetoFocus. בסיס השמנת המצומצמת ניצח בקרמיות ללא ביצים חיות וללא מכונת גלידה; הוספתי את הוודקה האופציונלית של KetoFocus כדי לפתור את בעיית הקיפאון הקשה של אריתריטול — חשוב בישראל, שבה אלולוז נדיר."
+    },
+    {
+        "id":  "no-churn-chocolate-ice-cream",
+        "name":  "Chocolate Ice Cream (No-Churn)",
+        "nameHe":  "גלידת שוקולד ללא מכונת גלידה",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  20,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "unsweetened almond milk"
+                            },
+                            {
+                                "amount":  "1/2 cup / 43 g",
+                                "item":  "unsweetened cocoa powder"
+                            },
+                            {
+                                "amount":  "60 g / 2 oz",
+                                "item":  "dark chocolate 85%, chopped",
+                                "israelNote":  "dairy or pareve dark chocolate both fine in this dairy dessert"
+                            },
+                            {
+                                "amount":  "2/3 cup / 85 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend) (blitz granular in a blender)"
+                            },
+                            {
+                                "amount":  "2 cups / 480 ml",
+                                "item":  "cold heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "fine salt"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "vodka (optional, keeps it scoopable)"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 43 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר"
+                              },
+                              {
+                                  "amount":  "60 גרם",
+                                  "item":  "שוקולד מריר 85%, קצוץ",
+                                  "israelNote":  "שוקולד מריר חלבי או פרווה — שניהם מתאימים בקינוח חלבי זה"
+                              },
+                              {
+                                  "amount":  "2/3 כוס / 85 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"
+                              },
+                              {
+                                  "amount":  "2 כוסות / 480 מ\"ל",
+                                  "item":  "שמנת מתוקה 38% קרה"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח דק"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "וודקה (לא חובה, שומרת על מרקם רך)"
+                              }
+                          ],
+        "instructions":  [
+                             "Warm the almond milk in a small saucepan until steaming, then whisk in the cocoa, chopped chocolate, sweetener and salt until glossy and completely smooth. Cool to room temperature and stir in the vanilla and vodka if using.",
+                             "Whip the cold cream to soft peaks — soft, not stiff, so it folds without turning grainy.",
+                             "Fold a third of the whipped cream into the chocolate mixture to loosen it, then fold that back into the remaining cream until no streaks remain.",
+                             "Scrape into a loaf pan, press baking paper onto the surface, and freeze 4–6 hours.",
+                             "For the smoothest texture, stir once or twice during the first 2 hours of freezing. Soften 10 minutes before scooping if frozen overnight."
+                         ],
+        "instructionsHe":  [
+                               "מחממים את משקה השקדים בסיר קטן עד שעולים אדים, ואז טורפים פנימה את הקקאו, השוקולד הקצוץ, הממתיק והמלח עד לתערובת מבריקה וחלקה לגמרי. מצננים לטמפרטורת החדר ומערבבים פנימה את הווניל והוודקה אם משתמשים.",
+                               "מקציפים את השמנת הקרה לקצפת רכה — רכה, לא יציבה, כדי שתתקפל בלי להפוך לגרגירית.",
+                               "מקפלים שליש מהקצפת לתוך תערובת השוקולד כדי לרכך אותה, ואז מקפלים את התערובת חזרה לתוך שארית הקצפת עד שלא נותרים פסים.",
+                               "מעבירים לתבנית אינגליש קייק, מצמידים נייר אפייה לפני השטח ומקפיאים 4–6 שעות.",
+                               "למרקם הכי חלק, מערבבים פעם או פעמיים בשעתיים הראשונות של ההקפאה. אם הגלידה קפאה לילה שלם, מרככים 10 דקות לפני הגריפה."
+                           ],
+        "nutrition":  {
+                          "calories":  267,
+                          "fatG":  26.6,
+                          "satFatG":  16.5,
+                          "proteinG":  2.5,
+                          "carbsG":  5.3,
+                          "fiberG":  2.7,
+                          "netCarbsG":  2.6,
+                          "sugarG":  1.9,
+                          "sodiumMg":  90
+                      },
+        "tips":  "Real melted chocolate plus cocoa gives a deeper flavor than cocoa alone and improves the texture — the cocoa butter keeps it from freezing rock hard.",
+        "tipsHe":  "שוקולד מומס אמיתי בנוסף לקקאו נותן טעם עמוק יותר מקקאו לבדו ומשפר את המרקם — חמאת הקקאו מונעת מהגלידה לקפוא לאבן.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner (Katrin Nürnberger)",
+                            "url":  "https://sugarfreelondoner.com/low-carb-keto-chocolate-ice-cream/"
+                        },
+                        {
+                            "creator":  "I Breathe I\u0027m Hungry (Mellissa Sevigny)",
+                            "url":  "https://www.ibreatheimhungry.com/no-churn-keto-chocolate-ice-cream/"
+                        },
+                        {
+                            "creator":  "gnom-gnom (Paola van der Hulst)",
+                            "url":  "https://www.gnom-gnom.com/no-churn-keto-chocolate-ice-cream/"
+                        }
+                    ],
+        "comparedVersions":  "Compared IBIH\u0027s egg-white mousse method, gnom-gnom\u0027s cooked custard and Sugar Free Londoner\u0027s cream-based version. Chose an egg-free fold of chocolate paste into softly whipped cream: nearly as airy as the mousse method but with no raw eggs and half the steps, keeping IBIH\u0027s chocolate-plus-cocoa-butter idea via 85% chocolate.",
+        "comparedVersionsHe":  "השוויתי בין שיטת מוס חלבוני הביצה של IBIH, הקסטרד המבושל של gnom-gnom והגרסה על בסיס שמנת של Sugar Free Londoner. בחרתי בקיפול ללא ביצים של משחת שוקולד לתוך קצפת רכה: אוורירי כמעט כמו שיטת המוס אבל בלי ביצים חיות ובחצי מהשלבים, תוך שמירה על רעיון השוקולד-וחמאת-הקקאו של IBIH באמצעות שוקולד 85%."
+    },
+    {
+        "id":  "berry-parfait-whipped-cream",
+        "name":  "Berry Parfait with Whipped Cream",
+        "nameHe":  "פרפה פירות יער עם קצפת",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 1/2 cups / 360 ml",
+                                "item":  "cold heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "3 tbsp / 25 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend) (blitz granular in a blender)"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "200 g / 7 oz",
+                                "item":  "mixed berries (strawberries, raspberries, blueberries)",
+                                "israelNote":  "frozen berry mix works — thaw and drain first"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "lemon juice"
+                            },
+                            {
+                                "amount":  "4 tbsp / 28 g",
+                                "item":  "chopped toasted pecans or almonds"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 1/2 כוסות / 360 מ\"ל",
+                                  "item":  "שמנת מתוקה 38% קרה"
+                              },
+                              {
+                                  "amount":  "3 כפות / 25 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון (טוחנים גרגירי בבלנדר)"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "200 גרם",
+                                  "item":  "פירות יער מעורבים (תות, פטל, אוכמניות)",
+                                  "israelNote":  "תערובת פירות יער קפואה מתאימה — מפשירים ומסננים קודם"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "מיץ לימון"
+                              },
+                              {
+                                  "amount":  "4 כפות / 28 גרם",
+                                  "item":  "פקאנים או שקדים קלויים קצוצים"
+                              }
+                          ],
+        "instructions":  [
+                             "Slice the strawberries and toss all the berries with the lemon juice and a teaspoon of the sweetener. Let stand 10 minutes so they release a little juice.",
+                             "Whip the cold cream with the remaining powdered sweetener and vanilla to firm peaks.",
+                             "In 4 glasses, layer a spoonful of berries, a layer of cream, and a sprinkle of nuts; repeat so each glass has two layers of each.",
+                             "Finish with a few berries and nuts on top. Serve at once, or chill up to 4 hours."
+                         ],
+        "instructionsHe":  [
+                               "פורסים את התותים ומערבבים את כל פירות היער עם מיץ הלימון וכפית מהממתיק. מניחים ל-10 דקות כדי שישחררו מעט מיץ.",
+                               "מקציפים את השמנת הקרה עם שארית הממתיק הטחון והווניל לקצפת יציבה.",
+                               "ב-4 כוסות מסדרים שכבות: כף פירות יער, שכבת קצפת ופיזור אגוזים; חוזרים כך שבכל כוס יהיו שתי שכבות מכל אחד.",
+                               "מסיימים בכמה פירות יער ואגוזים מלמעלה. מגישים מיד, או מקררים עד 4 שעות."
+                           ],
+        "nutrition":  {
+                          "calories":  382,
+                          "fatG":  38.5,
+                          "satFatG":  21,
+                          "proteinG":  3,
+                          "carbsG":  9.5,
+                          "fiberG":  2.9,
+                          "netCarbsG":  6.6,
+                          "sugarG":  6,
+                          "sodiumMg":  35
+                      },
+        "ketoVariant":  "Use only raspberries and strawberries (skip blueberries) to drop to about 5 g net carbs.",
+        "ketoVariantHe":  "משתמשים רק בפטל ותות (מוותרים על האוכמניות) כדי לרדת לכ-5 גרם פחמימות נטו.",
+        "tips":  "The 10-minute maceration with lemon and sweetener makes even winter berries taste like a sauce — no cooking needed.",
+        "tipsHe":  "ההשריה של 10 דקות עם לימון וממתיק גורמת גם לפירות יער חורפיים לטעום כמו רוטב — בלי שום בישול.",
+        "sources":  [
+                        {
+                            "creator":  "Low Carb Yum (Lisa MarcAurele)",
+                            "url":  "https://lowcarbyum.com/mascarpone-cheese-mousse-berries/"
+                        },
+                        {
+                            "creator":  "Grumpy\u0027s Honeybunch",
+                            "url":  "https://grumpyshoneybunch.com/keto-cheesecake-parfait/"
+                        },
+                        {
+                            "creator":  "All Day I Dream About Food (Carolyn Ketchum)",
+                            "url":  "https://alldayidreamaboutfood.com/keto-mascarpone-mousse/"
+                        }
+                    ],
+        "comparedVersions":  "Compared mascarpone-mousse parfaits (Low Carb Yum, Carolyn Ketchum) with cheesecake-style parfaits (Grumpy\u0027s Honeybunch). Went with pure whipped cream per the category brief — fewest ingredients and lightest result — and borrowed the berry-maceration and nut-crunch layers that made the richer versions interesting.",
+        "comparedVersionsHe":  "השוויתי פרפה על בסיס מוס מסקרפונה (Low Carb Yum, קרולין קצ\u0027ם) עם פרפה בסגנון עוגת גבינה (Grumpy\u0027s Honeybunch). בחרתי בקצפת נקייה בהתאם להגדרת הקטגוריה — הכי מעט מרכיבים והתוצאה הקלילה ביותר — ושאלתי מהגרסאות העשירות את השריית פירות היער ואת שכבות הקראנץ\u0027 של האגוזים."
+    },
+    {
+        "id":  "keto-malabi",
+        "name":  "Keto Malabi (Rose Water Milk Pudding)",
+        "nameHe":  "מלבי קיטו (עם מי ורדים)",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  10,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "2 cups / 480 ml",
+                                "item":  "unsweetened almond milk"
+                            },
+                            {
+                                "amount":  "3 tbsp / 25 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp / 4.5 g",
+                                "item":  "glucomannan (konjac) powder",
+                                "israelNote":  "avkat konjac/glucomannan: health-food stores or iHerb; agar-agar works too (see tips)"
+                            },
+                            {
+                                "amount":  "1 1/2 tbsp / 22 ml",
+                                "item":  "rose water",
+                                "israelNote":  "mei vradim"
+                            },
+                            {
+                                "amount":  "2 tbsp / 16 g",
+                                "item":  "chopped pistachios, for topping"
+                            },
+                            {
+                                "amount":  "1/4 cup / 30 g",
+                                "item":  "raspberries, lightly mashed with 1 tsp sweetener, for topping (optional)"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "שמנת מתוקה 38%"
+                              },
+                              {
+                                  "amount":  "2 כוסות / 480 מ\"ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "3 כפות / 25 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון"
+                              },
+                              {
+                                  "amount":  "1 1/2 כפיות / 4.5 גרם",
+                                  "item":  "אבקת גלוקומנן (קונג\u0027אק)",
+                                  "israelNote":  "אבקת קונג\u0027אק/גלוקומנן: חנויות טבע או iHerb; גם אגר-אגר עובד (ראו טיפים)"
+                              },
+                              {
+                                  "amount":  "1 1/2 כפות / 22 מ\"ל",
+                                  "item":  "מי ורדים"
+                              },
+                              {
+                                  "amount":  "2 כפות / 16 גרם",
+                                  "item":  "פיסטוקים קצוצים, לקישוט"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 30 גרם",
+                                  "item":  "פטל, מעוך קלות עם כפית ממתיק, לקישוט (לא חובה)"
+                              }
+                          ],
+        "instructions":  [
+                             "Whisk the glucomannan thoroughly into the powdered sweetener in a small bowl — pre-mixing prevents lumps, since glucomannan clumps instantly in liquid.",
+                             "Heat the cream, almond milk and rose water in a saucepan over medium heat until steaming.",
+                             "Rain in the sweetener mixture while whisking constantly, and keep whisking at a bare simmer 3–5 minutes until the mixture is glossy and coats a spoon.",
+                             "Pour into 4 small bowls or glasses and chill at least 2 hours — it sets to the soft, wobbly texture between pudding and jelly that malabi is known for.",
+                             "Top with chopped pistachios, and the mashed sweetened raspberries standing in for the traditional red syrup."
+                         ],
+        "instructionsHe":  [
+                               "מערבבים היטב את הגלוקומנן לתוך הממתיק הטחון בקערה קטנה — הערבוב המוקדם מונע גושים, כי גלוקומנן מתגבש מיד בנוזל.",
+                               "מחממים את השמנת, משקה השקדים ומי הוורדים בסיר על אש בינונית עד שעולים אדים.",
+                               "מוסיפים את תערובת הממתיק בזרם דק תוך טריפה מתמדת, וממשיכים לטרוף ברתיחה עדינה מאוד 3–5 דקות עד שהתערובת מבריקה ומצפה כף.",
+                               "יוצקים ל-4 קעריות או כוסות קטנות ומקררים לפחות שעתיים — המלבי מתייצב למרקם הרך והרוטט שבין פודינג לג\u0027לי, שמאפיין אותו.",
+                               "מעטרים בפיסטוקים קצוצים ובפטל המעוך והממותק, שמחליף את הסירופ האדום המסורתי."
+                           ],
+        "nutrition":  {
+                          "calories":  250,
+                          "fatG":  25.3,
+                          "satFatG":  14,
+                          "proteinG":  2.5,
+                          "carbsG":  4.5,
+                          "fiberG":  1.8,
+                          "netCarbsG":  2.7,
+                          "sugarG":  1.6,
+                          "sodiumMg":  80
+                      },
+        "lowCarbVariant":  "Use 1 cup whole milk in place of 1 cup of the almond milk for a more traditional milky flavor (about +3 g net carbs per serving).",
+        "lowCarbVariantHe":  "מחליפים כוס אחת ממשקה השקדים בכוס חלב מלא לטעם חלבי מסורתי יותר (תוספת של כ-3 גרם פחמימות נטו למנה).",
+        "tips":  "No glucomannan? Use 3/4 tsp agar-agar powder instead: boil it 2 minutes in the almond milk before adding cream — the set will be firmer, closer to panna cotta. Add rose water off the heat if you want a stronger floral note.",
+        "tipsHe":  "אין גלוקומנן? משתמשים במקום ב-3/4 כפית אבקת אגר-אגר: מרתיחים אותה 2 דקות במשקה השקדים לפני הוספת השמנת — ההקרשה תהיה מוצקה יותר, קרובה לפנקוטה. מוסיפים את מי הוורדים מחוץ לאש אם רוצים ניחוח פרחוני חזק יותר.",
+        "sources":  [
+                        {
+                            "creator":  "Tonya Cooks",
+                            "url":  "https://tonyacooks.com/low-carb-malabi/"
+                        },
+                        {
+                            "creator":  "May I Have That Recipe",
+                            "url":  "https://mayihavethatrecipe.com/malabi-recipe/"
+                        },
+                        {
+                            "creator":  "Queen Keto",
+                            "url":  "https://queenketo.com/sugar-free-rosewater-vanilla-panna-cotta/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Tonya Cooks\u0027 konjac-thickened low-carb malabi, a traditional cornstarch version (May I Have That Recipe) for reference texture, and Queen Keto\u0027s rosewater panna cotta. Kept Tonya\u0027s konjac technique but swapped her all-whole-milk base (about 6 g carbs per serving from lactose) for cream + almond milk, and added the classic pistachio-and-red-fruit topping.",
+        "comparedVersionsHe":  "השוויתי בין המלבי דל הפחמימות מסמיך הקונג\u0027אק של Tonya Cooks, גרסה מסורתית עם קורנפלור (May I Have That Recipe) כייחוס למרקם, ופנקוטת מי הוורדים של Queen Keto. שמרתי על טכניקת הקונג\u0027אק של טוניה אבל החלפתי את בסיס החלב המלא שלה (כ-6 גרם פחמימות למנה מלקטוז) בשמנת + משקה שקדים, והוספתי את הציפוי הקלאסי של פיסטוקים ופרי אדום."
+    },
+    {
+        "id":  "keto-creme-brulee",
+        "name":  "Crème Brûlée",
+        "nameHe":  "קרם ברולה",
+        "category":  "desserts-dairy",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  40,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "4",
+                                "item":  "large egg yolks"
+                            },
+                            {
+                                "amount":  "3 tbsp / 25 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "heavy cream",
+                                "israelNote":  "shamenet metuka 38%"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "vanilla extract, or seeds of 1/2 vanilla pod"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine salt"
+                            },
+                            {
+                                "amount":  "4 tsp / 16 g",
+                                "item":  "granulated allulose or erythritol, for the topping",
+                                "israelNote":  "allulose caramelizes best but is hard to find in Israel; erythritol melts under the torch and hardens into a crackable crust"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "4",
+                                  "item":  "חלמונים מביצים גדולות"
+                              },
+                              {
+                                  "amount":  "3 כפות / 25 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזירים טחון"
+                              },
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "שמנת מתוקה 38%"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "תמצית וניל, או גרגירים מ-1/2 מקל וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח דק"
+                              },
+                              {
+                                  "amount":  "4 כפיות / 16 גרם",
+                                  "item":  "אלולוז או אריתריטול גרגירי, לציפוי",
+                                  "israelNote":  "אלולוז מתקרמל הכי טוב אבל קשה להשגה בישראל; אריתריטול נמס תחת הברנר ומתקשה לקרום פריך"
+                              }
+                          ],
+        "instructions":  [
+                             "Heat the oven to 150°C / 300°F and put the kettle on for the water bath.",
+                             "Whisk the yolks with the powdered sweetener and salt until pale.",
+                             "Warm the cream until steaming (not boiling) and pour it into the yolks in a thin stream, whisking constantly. Stir in the vanilla.",
+                             "Divide between 4 shallow ramekins set in a baking dish. Pour hot water into the dish to reach halfway up the ramekins.",
+                             "Bake 35–40 minutes, until the custards are set at the edges but still tremble slightly in the center.",
+                             "Cool to room temperature, then chill at least 3 hours or overnight.",
+                             "Just before serving, sprinkle each custard with 1 tsp granulated sweetener and caramelize with a kitchen torch until deep golden (or 1–2 minutes under a very hot broiler, watching closely). Let the crust harden 1 minute, then serve."
+                         ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-150 מעלות ומרתיחים מים בקומקום לאמבט המים.",
+                               "טורפים את החלמונים עם הממתיק הטחון והמלח עד שהתערובת מחווירה.",
+                               "מחממים את השמנת עד שעולים אדים (לא מרתיחים) ויוצקים אותה לחלמונים בזרם דק תוך טריפה מתמדת. מערבבים פנימה את הווניל.",
+                               "מחלקים בין 4 רמקינים שטוחים המונחים בתבנית אפייה. יוצקים מים חמים לתבנית עד מחצית גובה הרמקינים.",
+                               "אופים 35–40 דקות, עד שהקרם יציב בשוליים אך עדיין רוטט מעט במרכז.",
+                               "מצננים לטמפרטורת החדר, ואז מקררים לפחות 3 שעות או לילה שלם.",
+                               "ממש לפני ההגשה מפזרים על כל קרם כפית ממתיק גרגירי ומקרמלים בברנר מטבח עד לזהוב עמוק (או 1–2 דקות מתחת לגריל לוהט בתנור, בהשגחה צמודה). נותנים לקרום להתקשות דקה אחת, ומגישים."
+                           ],
+        "nutrition":  {
+                          "calories":  260,
+                          "fatG":  26.5,
+                          "satFatG":  15,
+                          "proteinG":  3.2,
+                          "carbsG":  2.2,
+                          "fiberG":  0,
+                          "netCarbsG":  2.2,
+                          "sugarG":  1.9,
+                          "sodiumMg":  45
+                      },
+        "tips":  "The water bath is not optional — it is what keeps the custard silky instead of scrambled. Torch the top only right before serving; a sweetener crust softens in the fridge.",
+        "tipsHe":  "אמבט המים אינו אופציונלי — הוא מה ששומר על קרם משיי במקום ביצים מקושקשות. מקרמלים את הציפוי רק ממש לפני ההגשה; קרום ממתיק מתרכך במקרר.",
+        "sources":  [
+                        {
+                            "creator":  "Joy Filled Eats",
+                            "url":  "https://joyfilledeats.com/keto-creme-brulee/"
+                        },
+                        {
+                            "creator":  "Stem and Spoon",
+                            "url":  "https://stemandspoon.com/keto-creme-brulee/"
+                        },
+                        {
+                            "creator":  "My Sweet Keto",
+                            "url":  "https://www.mysweetketo.com/ultimate-keto-creme-brulee/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Joy Filled Eats, Stem and Spoon and My Sweet Keto — the yolk-to-cream ratio (1 yolk per 1/4 cup cream) and 300°F water bath were consistent across all three, so I scaled that to 4 servings. Joy Filled Eats\u0027 finding that allulose browns best informed the topping note, with erythritol as the practical Israeli fallback.",
+        "comparedVersionsHe":  "השוויתי בין Joy Filled Eats, Stem and Spoon ו-My Sweet Keto — יחס החלמונים לשמנת (חלמון לכל 1/4 כוס שמנת) ואמבט המים ב-150 מעלות היו עקביים בשלושתם, אז התאמתי את זה ל-4 מנות. הממצא של Joy Filled Eats שאלולוז משחים הכי טוב עיצב את הערת הציפוי, עם אריתריטול כחלופה המעשית בישראל."
+    }
 ]

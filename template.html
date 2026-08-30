@@ -263,6 +263,13 @@ article.recipe{
 .photo-strip figure{margin:0}
 .photo-strip img{max-height:190px;max-width:100%;border-radius:10px;display:block;background:var(--panel-2)}
 .photo-strip figcaption{font-size:11.5px;color:var(--ink-soft);text-align:center;padding-block-start:3px}
+.guide-wrap{overflow-x:auto;margin-block-end:8px}
+.gtable{width:100%;border-collapse:collapse;font-size:13.5px;min-width:620px}
+.gtable th{text-align:start;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);padding:8px 10px;border-block-end:2px solid var(--line)}
+.gtable td{padding:9px 10px;border-block-end:1px solid var(--line);vertical-align:top}
+.gtable td:first-child{font-weight:700;white-space:nowrap}
+.gtable tr.warn td{color:var(--meat)}
+.gtable tr.star td{background:var(--accent-soft)}
 .req-list{display:flex;flex-direction:column;gap:8px;padding-block:2px 30px}
 .req-item{display:flex;gap:10px;align-items:baseline;padding:9px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;flex-wrap:wrap}
 .req-item b{font-size:15px}
@@ -315,6 +322,7 @@ footer.site{border-block-start:1px solid var(--line);padding-block:20px 34px;col
       <div class="header-actions">
         <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
         <button class="ghost-btn no-print" id="pantryBtn">🧺 Ingredients</button>
+        <button class="ghost-btn no-print" id="guidesBtn">📖 Guides</button>
         <button class="ghost-btn no-print" id="printBookBtn">🖨 Print book</button>
         <button class="ghost-btn no-print" id="reqBtn" hidden>🙋 Request a recipe</button>
         <button class="solid-btn no-print" id="addBtn" hidden>➕ Add a recipe</button>
@@ -395,7 +403,7 @@ const T = {
     nutrition:"Nutrition Facts", calories:"Calories", fat:"Fat", satFat:"of which saturated",
     protein:"Protein", carbs:"Carbs", fiber:"Fiber", net:"Net carbs", sugar:"Sugar", sodium:"Sodium",
     adapted:"Adapted from", why:"Why this version:",
-    pantryBtn:"🧺 Ingredients", pantryTitle:"The Pantry",
+    pantryBtn:"🧺 Ingredients", guidesBtn:"📖 Guides", pantryTitle:"The Pantry",
     pantrySub:"Every ingredient used in the book. Click one to see the recipes that use it.",
     usedIn:"recipes",
     sec_meat:"Meat & Poultry", sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
@@ -440,7 +448,7 @@ const T = {
     nutrition:"ערכים תזונתיים", calories:"קלוריות", fat:"שומן", satFat:"מתוכו רווי",
     protein:"חלבון", carbs:"פחמימות", fiber:"סיבים", net:"פחמימות נטו", sugar:"סוכר", sodium:"נתרן",
     adapted:"בהשראת", why:"למה הגרסה הזו:",
-    pantryBtn:"🧺 מצרכים", pantryTitle:"המצרכים",
+    pantryBtn:"🧺 מצרכים", guidesBtn:"📖 מדריכים", pantryTitle:"המצרכים",
     pantrySub:"כל המצרכים שבספר. לחיצה על מצרך תציג את המתכונים שבהם הוא מופיע.",
     usedIn:"מתכונים",
     sec_meat:"בשר ועוף", sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
@@ -1038,6 +1046,96 @@ function showRequestForm(){
   window.scrollTo(0,0);
 }
 
+/* ---------- guides: flours & sweeteners ---------- */
+const GUIDES = {
+ en: {
+  title:"Kitchen Guides",
+  sub:"The two cheat-sheets behind every recipe in this book.",
+  sweetTitle:"🍯 Sweeteners Guide",
+  sweetIntro:"The book is written allulose-first — it behaves closest to real sugar. Erythritol blends work in every recipe as a 1:1 swap for allulose amounts... with the quirks below.",
+  sweetHead:["Sweetener","Sweetness vs sugar","Carb impact","Behavior","Best for"],
+  sweetRows:[
+   ["star","Allulose ⭐","~70% — use 1⅓ cups per 1 cup sugar","~0, excluded from net carbs","Browns and caramelizes like sugar, stays scoopable frozen, never turns gritty. iHerb / health stores.","Everything — especially ice cream, lemon curd, meringue, caramel. The book's default."],
+   ["","Erythritol","~70%","0, excluded","Cooling mouthfeel; recrystallizes when chilled (gritty cheesecake/ice cream); won't brown. Supermarkets.","Dry bakes: cookies, cakes, crusts."],
+   ["","Monk fruit–erythritol blend","1:1 like sugar","0, excluded","Same chilling quirk as erythritol; easiest mental math.","General baking, 1:1 swaps."],
+   ["","Stevia","×200–300 (drops/powder)","0","Bitter at high doses — best as a booster with other sweeteners.","Drinks, yogurt, reinforcing blends."],
+   ["","Xylitol","~100%","Partial — GI 7–13, count ~half","☠️ Extremely toxic to dogs. Absorbs moisture.","Chewy bakes; avoid if you have a dog."],
+   ["warn","Maltitol ⚠️","~90%","HIGH — GI ~35, spikes blood sugar","Hides in most store-bought 'sugar-free' sweets and chocolates.","Avoid. Check labels."]
+  ],
+  sweetTip:"Powdered sweetener = blitz the granular kind in a blender for 20 seconds. Conversions: 1 cup sugar ≈ 1 cup monk-fruit blend ≈ 1⅓ cups allulose ≈ 1 cup erythritol + 10 stevia drops.",
+  flourTitle:"🌾 Flours Guide",
+  flourIntro:"Low-carb flours are not interchangeable 1:1 — each behaves differently. These are the ones the book uses.",
+  flourHead:["Flour","Net carbs /100g","Character","Swap rule","Best for"],
+  flourRows:[
+   ["star","Almond flour (kemach shkedim)","~7 g","Neutral, moist, rich; the workhorse.","The book's base — never swap 1:1 with wheat in yeast doughs.","Cookies, cakes, crusts, schnitzel coating."],
+   ["","Coconut flour","~18 g (used in tiny amounts)","Extremely absorbent, faintly sweet.","Use ¼ the almond amount + 1 extra egg per 30 g.","Tortillas, pancakes, sponge cakes."],
+   ["","Psyllium husk","~0 (pure fiber)","Makes dough elastic and chewy; needs water and a rest.","2–3 tbsp per loaf; some brands tint bread purplish — harmless.","Breads, pita, laffa, baguettes. SuperPharm/health stores."],
+   ["","Ground flax","~2 g","Nutty; binds ('flax egg' = 1 tbsp + 3 tbsp water).","Can replace up to 25% of almond flour.","Crackers, rye-style bread."],
+   ["","Ground sesame","~5 g","Toasty and savory; grind at home.","1:1 for almond flour in savory bakes.","Crackers, crusts — the nut-free option."],
+   ["","Lupin flour (turmus)","~10 g","High-protein, slightly bitter.","Blend up to 30% with almond flour.","Pasta, breads. iHerb/health stores."],
+   ["","Oat fiber","0","Pure fiber with a 'wheaty' dryness.","1–2 tbsp per loaf.","Bread-like crumb. iHerb."]
+  ],
+  flourTip:"Golden rule: almond → coconut is never 1:1. Divide by 4 and add an egg — or better, find a recipe built for the flour you have."
+ },
+ he: {
+  title:"מדריכי מטבח",
+  sub:"שני דפי-העזר שמאחורי כל מתכון בספר.",
+  sweetTitle:"🍯 מדריך ממתיקים",
+  sweetIntro:"הספר כתוב אלולוז-תחילה — זה הממתיק שמתנהג הכי קרוב לסוכר אמיתי. תערובות אריתריטול עובדות בכל מתכון בהחלפה 1:1 לכמויות האלולוז — עם המוזרויות שבטבלה.",
+  sweetHead:["ממתיק","מתיקות מול סוכר","השפעה פחמימתית","התנהגות","הכי מתאים ל"],
+  sweetRows:[
+   ["star","אלולוז ⭐","כ-70% — 1⅓ כוס לכל כוס סוכר","כמעט 0, לא נספר בנטו","משחים ומקרמל כמו סוכר, נשאר רך בהקפאה, לא מתגבש לעולם. iHerb / חנויות טבע.","הכול — במיוחד גלידות, קרם לימון, מרנג וקרמל. ברירת המחדל של הספר."],
+   ["","אריתריטול","כ-70%","0, לא נספר","תחושת קרירות בפה; מתגבש בקירור (עוגת גבינה/גלידה חוליות); לא משחים. בסופרים.","אפייה יבשה: עוגיות, עוגות, קלתיות."],
+   ["","תערובת מונק פרוט-אריתריטול","1:1 כמו סוכר","0, לא נספר","אותה בעיית התגבשות; הכי קל בחישוב.","אפייה כללית, החלפות 1:1."],
+   ["","סטיביה","פי 200–300 (טיפות/אבקה)","0","מרירה במינון גבוה — הכי טוב כתגבור לממתיקים אחרים.","שתייה, יוגורט, חיזוק תערובות."],
+   ["","קסיליטול","כ-100%","חלקית — ערך גליקמי 7–13, לספור כחצי","☠️ רעיל מאוד לכלבים. סופח לחות.","מאפים לעיסים; להימנע אם יש כלב בבית."],
+   ["warn","מלטיטול ⚠️","כ-90%","גבוהה — ערך גליקמי ~35, מקפיץ סוכר","מסתתר ברוב הממתקים והשוקולדים 'ללא סוכר' מהחנות.","להימנע. לקרוא תוויות."]
+  ],
+  sweetTip:"ממתיק אבקה = טוחנים את הגרגירי בבלנדר 20 שניות. המרות: כוס סוכר ≈ כוס תערובת מונק פרוט ≈ 1⅓ כוס אלולוז ≈ כוס אריתריטול + 10 טיפות סטיביה.",
+  flourTitle:"🌾 מדריך קמחים",
+  flourIntro:"קמחים דלי-פחמימה אינם ברי-החלפה 1:1 — לכל אחד התנהגות משלו. אלה הקמחים שהספר משתמש בהם.",
+  flourHead:["קמח","פחמימות נטו ל-100 גרם","אופי","כלל החלפה","הכי מתאים ל"],
+  flourRows:[
+   ["star","קמח שקדים","כ-7 גרם","ניטרלי, לח ועשיר; סוס העבודה.","הבסיס של הספר — לעולם לא 1:1 מול קמח חיטה בבצקי שמרים.","עוגיות, עוגות, קלתיות, ציפוי שניצל."],
+   ["","קמח קוקוס","כ-18 גרם (משתמשים במעט)","סופג במיוחד, מתקתק קלות.","רבע מכמות השקדים + ביצה נוספת לכל 30 גרם.","טורטיות, פנקייקים, עוגות ספוג."],
+   ["","פסיליום","כמעט 0 (סיבים)","הופך בצק לגמיש ולעיס; דורש מים ומנוחה.","2–3 כפות לכיכר; יש מותגים שצובעים סגלגל — לא מזיק.","לחמים, פיתות, לאפות, באגטים. סופר-פארם/חנויות טבע."],
+   ["","פשתן טחון","כ-2 גרם","אגוזי; קושר ('ביצת פשתן' = כף + 3 כפות מים).","יכול להחליף עד 25% מקמח השקדים.","קרקרים, לחם בסגנון שיפון."],
+   ["","שומשום טחון","כ-5 גרם","קלוי ומלוח באופי; טוחנים בבית.","1:1 מול קמח שקדים במאפים מלוחים.","קרקרים וציפויים — האופציה ללא אגוזים."],
+   ["","קמח תורמוס (לופין)","כ-10 גרם","עשיר בחלבון, מעט מריר.","עד 30% בתערובת עם קמח שקדים.","פסטה ולחמים. iHerb/חנויות טבע."],
+   ["","סיבי שיבולת שועל","0","סיבים טהורים עם יובש 'חיטתי'.","1–2 כפות לכיכר.","פירורית של לחם אמיתי. iHerb."]
+  ],
+  flourTip:"כלל הזהב: שקדים ← קוקוס זה אף פעם לא 1:1. מחלקים ב-4 ומוסיפים ביצה — או עדיף, מחפשים מתכון שנבנה לקמח שיש לכם."
+ }
+};
+
+function guidesHTML(){
+  const g = GUIDES[lang] || GUIDES.en;
+  const table = (head, rows) => `<div class="guide-wrap"><table class="gtable"><thead><tr>${head.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${
+    rows.map(r=>`<tr class="${r[0]}">${r.slice(1).map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")
+  }</tbody></table></div>`;
+  return `<div class="back-row no-print"><button class="ghost-btn" id="guidesBackBtn">${t("back")}</button></div>
+    <div class="pantry-head"><h2>${esc(g.title)}</h2><p class="pantry-sub">${esc(g.sub)}</p></div>
+    <div class="section-head"><h2>${esc(g.sweetTitle)}</h2></div>
+    <p class="pantry-sub">${esc(g.sweetIntro)}</p>
+    ${table(g.sweetHead, g.sweetRows)}
+    <div class="variant-box">${esc(g.sweetTip)}</div>
+    <div class="section-head" style="margin-block-start:34px"><h2>${esc(g.flourTitle)}</h2></div>
+    <p class="pantry-sub">${esc(g.flourIntro)}</p>
+    ${table(g.flourHead, g.flourRows)}
+    <div class="variant-box">${esc(g.flourTip)}</div>`;
+}
+
+function showGuides(){
+  $("listView").hidden = true;
+  $("recipeView").hidden = true;
+  $("controls").hidden = true;
+  const v = $("pantryView");
+  v.hidden = false;
+  v.innerHTML = guidesHTML();
+  $("guidesBackBtn").onclick = ()=>{ location.hash=""; };
+  window.scrollTo(0,0);
+}
+
 /* ---------- pantry ---------- */
 const PANTRY_RULES = [
  ["sec_sweet", /erythritol|stevia|monk|allulose|sweetener|sukrin/],
@@ -1175,6 +1273,7 @@ function applyLang(){
   $("searchBox").placeholder = t("search");
   $("langBtn").textContent = lang==="he" ? "English" : "עברית";
   $("pantryBtn").textContent = t("pantryBtn");
+  $("guidesBtn").textContent = t("guidesBtn");
   $("printBookBtn").textContent = t("printBook");
   $("addBtn").textContent = t("addRecipe");
   $("reqBtn").textContent = t("reqBtn");
@@ -1188,6 +1287,7 @@ function route(){
   const h = location.hash;
   if(h.startsWith("#r/")) showRecipe(decodeURIComponent(h.slice(3)));
   else if(h==="#pantry") showPantry();
+  else if(h==="#guides") showGuides();
   else if(h==="#add") showAddForm();
   else if(h==="#req") showRequestForm();
   else if(h.startsWith("#f/")) showFamily(parseInt(h.slice(3),10));
@@ -1214,6 +1314,7 @@ document.addEventListener("click", e=>{
   }
 });
 $("pantryBtn").onclick = ()=>{ location.hash = "pantry"; };
+$("guidesBtn").onclick = ()=>{ location.hash = "guides"; };
 $("addBtn").onclick = ()=>{ location.hash = "add"; };
 $("reqBtn").onclick = ()=>{ location.hash = "req"; };
 $("searchBox").addEventListener("input", e=>{ filters.q = e.target.value; renderList(); });

@@ -1,656 +1,1437 @@
-[
-  {
-    "id": "israeli-tahini-cookies",
-    "nameHe": "עוגיות טחינה",
-    "ingredientsHe": [
-      {"amount": "1/2 כוס / 120 גרם", "item": "טחינה גולמית נוזלית, מעורבבת היטב", "israelNote": "טחינה גולמית איכותית, למשל הר ברכה או אחוה"},
-      {"amount": "1/4 כוס / 50 גרם", "item": "ממתיק אריתריטול מגורען", "israelNote": "למשל סוכרזית זירו או לקנטו מ-iHerb"},
-      {"amount": "2 כפות / 16 גרם", "item": "פשתן טחון", "israelNote": "נמכר במדפי הבריאות בסופרים"},
-      {"amount": "2 כפות / 16 גרם", "item": "קמח קוקוס"},
-      {"amount": "1", "item": "ביצה גדולה בטמפרטורת החדר"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/2 כפית", "item": "אבקת אפייה"},
-      {"amount": "1 כף", "item": "שומשום, לפיזור מעל (לא חובה)"},
-      {"amount": "קורט", "item": "מלח ים בפתיתים (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
-      "מערבבים היטב את הטחינה בצנצנת עד לקבלת מרקם נוזלי וחלק, ואז מודדים ממנה לקערת ערבוב.",
-      "מוסיפים את הממתיק, הפשתן, קמח הקוקוס, הביצה, הווניל ואבקת האפייה. מערבבים במזלג עד שנוצר בצק רך וחלק.",
-      "מגלגלים ל-16 כדורים קטנים (כ-19 גרם כל אחד) ומניחים על התבנית במרווחים.",
-      "משטחים כל כדור לעיגול בקוטר 5 ס״מ בכף היד או במזלג; מפזרים שומשום ומעט מלח בפתיתים.",
-      "אופים 12-15 דקות עד שהשוליים מזהיבים.",
-      "מצננים לגמרי על התבנית - העוגיות מתייצבות ונעשות פריכות רק אחרי צינון מלא."
-    ],
-    "lowCarbVariantHe": "מקפלים פנימה 2 כפות שוקולד צ'יפס ללא סוכר או שוקולד מריר 85% קצוץ (לבדוק סימון פרווה) לגרסת טחינה-שוקולד, תוספת של כ-0.3 גרם פחמימות נטו לעוגייה.",
-    "tipsHe": "הבצק עובד רק עם טחינה נוזלית - אם הטחינה שלכם סמיכה ויבשה מתחתית הצנצנת, מחממים אותה מעט ומערבבים לפני המדידה.",
-    "comparedVersionsHe": "הושוותה גרסת הקערה האחת עם פשתן וקמח קוקוס של Sugar Free Londoner מול גרסאות קמח שקדים וחמאה של Life Made Sweeter ו-Stem and Spoon. היחס של Sugar Free Londoner ניצח בזכות היותו פרווה וללא אגוזים באופן טבעי, קערה אחת, רק 1.3 גרם פחמימות נטו והמרקם הפריך ביותר; פיזור השומשום נוסף למראה הישראלי הקלאסי.",
-    "name": "Israeli Tahini Cookies",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 16,
-    "prepTimeMin": 10,
-    "cookTimeMin": 14,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1/2 cup / 120 g", "item": "runny tahini, well stirred", "israelNote": "raw tahini (Har Bracha or Achva)"},
-      {"amount": "1/4 cup / 50 g", "item": "granulated erythritol-monk fruit blend", "israelNote": "Sucrazit Zero or iHerb Lakanto"},
-      {"amount": "2 tbsp / 16 g", "item": "ground flaxseed", "israelNote": "pishtan tachun, sold in health sections"},
-      {"amount": "2 tbsp / 16 g", "item": "coconut flour", "israelNote": "kemach kokos"},
-      {"amount": "1", "item": "large egg, room temperature"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/2 tsp", "item": "baking powder"},
-      {"amount": "1 tbsp", "item": "sesame seeds, for topping (optional)"},
-      {"amount": "pinch", "item": "flaked sea salt (optional)"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line a baking sheet with parchment.",
-      "Stir the tahini well in its jar so you get a runny, oily-smooth spoonful, then measure it into a mixing bowl.",
-      "Add the sweetener, flaxseed, coconut flour, egg, vanilla, and baking powder. Mix with a fork until a soft, smooth dough forms.",
-      "Roll into 16 small balls (about 19 g each) and place on the sheet with space between them.",
-      "Flatten each ball into a 5 cm round with your palm or a fork; sprinkle with sesame seeds and a little flaked salt.",
-      "Bake 12-15 minutes until the edges turn golden.",
-      "Cool completely on the tray - they firm up and turn crisp only once fully cool."
-    ],
-    "nutrition": {"calories": 62, "fatG": 5.2, "satFatG": 0.7, "proteinG": 2.2, "carbsG": 2.8, "fiberG": 1.5, "netCarbsG": 1.3, "sugarG": 0.1, "sodiumMg": 28},
-    "lowCarbVariant": "Fold in 2 tbsp sugar-free or 85% dark chocolate chips (check pareve label) for a tahini-chocolate version, about 0.3 g net carbs more per cookie.",
-    "tips": "The dough works only with runny tahini - if yours is thick and dry from the bottom of the jar, warm it slightly and stir before measuring.",
-    "sources": [
-      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/keto-tahini-cookies/"},
-      {"creator": "Life Made Sweeter", "url": "https://lifemadesweeter.com/tahini-cookies/"},
-      {"creator": "Stem and Spoon", "url": "https://stemandspoon.com/coconut-chocolate-chip-tahini-cookies-keto-low-carb-gf/"}
-    ],
-    "comparedVersions": "Compared Sugar Free Londoner's one-bowl flax-coconut flour version against almond-flour-plus-butter versions from Life Made Sweeter and Stem and Spoon. The Sugar Free Londoner ratio won for being naturally pareve and nut-free, one bowl, only 1.3 g net carbs, and the crispest texture; sesame topping added for the classic Israeli look."
-  },
-  {
-    "id": "flourless-almond-orange-cake",
-    "nameHe": "עוגת שקדים ותפוזים ללא קמח",
-    "ingredientsHe": [
-      {"amount": "2", "item": "תפוזים שלמים, לא מצופים בשעווה, שטופים", "israelNote": "תפוזים קטנים עם קליפה דקה עובדים הכי טוב; להימנע מתפוזי נאבל גדולים מאוד כדי לשמור על פחמימות נמוכות"},
-      {"amount": "2 1/2 כוסות / 250 גרם", "item": "קמח שקדים"},
-      {"amount": "5", "item": "ביצים בינוניות, מופרדות"},
-      {"amount": "1/2 כוס / 100 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "1 כפית", "item": "אבקת אפייה"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/2 כפית", "item": "הל טחון (לא חובה)", "israelNote": "זמין בכל חנויות התבלינים"},
-      {"amount": "2 כפות / 15 גרם", "item": "שקדים פרוסים, לפיזור מעל"}
-    ],
-    "instructionsHe": [
-      "מניחים את התפוזים השלמים בסיר, מכסים במים ומבשלים בבעבוע עדין שעה עד שהם רכים לגמרי (זה מסלק את מרירות הקליפה). מסננים ומצננים מעט.",
-      "מחממים תנור ל-180 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ או תבנית קפיצית בקוטר 20 ס״מ בנייר אפייה.",
-      "חוצים את התפוזים, מוציאים גרעינים אם יש, וטוחנים אותם - כולל הקליפה - למחית חלקה.",
-      "טורפים את החלמונים עם הממתיק עד להבהרה, ואז מערבבים פנימה את מחית התפוזים, הווניל וההל.",
-      "מוסיפים את קמח השקדים ואבקת האפייה ומערבבים עד לאיחוד.",
-      "בקערה נקייה מקציפים את החלבונים לקצף יציב ומקפלים אותם בעדינות לבלילה בשתי פעמים.",
-      "יוצקים לתבנית, מפזרים שקדים פרוסים ואופים כ-50 דקות עד שקיסם יוצא נקי; מכסים בנייר אלומיניום אם החלק העליון משחים מהר מדי.",
-      "מצננים לגמרי בתבנית לפני החיתוך - העוגה עדינה כשהיא חמה."
-    ],
-    "ketoVariantHe": "משתמשים בתפוז אחד ועוד כפית תמצית תפוז במקום 2 תפוזים כדי לרדת לכ-2.5 גרם פחמימות נטו לפרוסה.",
-    "tipsHe": "מבשלים את התפוזים יום מראש - אחרי שהם מבושלים וטחונים, העוגה מוכנה תוך 15 דקות.",
-    "comparedVersionsHe": "הושוותה השיטה הקלאסית של תפוז שלם מבושל (Sugar Free Londoner‏, Spinach Tiger) מול קיצור הדרך ללא בישול של Thinlicious. גרסת התפוז המבושל ניצחה בעומק הטעם ובלחות; טכניקת החלבונים המוקצפים של Sugar Free Londoner נותנת את הפירור הקליל ביותר, וממתיק מגורען מדוד מחליף את טיפות הסטיביה שלה לרכישה קלה יותר בישראל. פרווה וללא חלב באופן טבעי.",
-    "name": "Flourless Almond-Orange Cake",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 20,
-    "cookTimeMin": 110,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "2", "item": "whole oranges, unwaxed, washed", "israelNote": "small thin-skinned oranges work best; avoid very large navels to keep carbs down"},
-      {"amount": "2.5 cups / 250 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "5", "item": "medium eggs, separated"},
-      {"amount": "1/2 cup / 100 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "1 tsp", "item": "baking powder"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/2 tsp", "item": "ground cardamom (optional)", "israelNote": "hel - widely available in spice shops"},
-      {"amount": "2 tbsp / 15 g", "item": "flaked almonds, for topping"}
-    ],
-    "instructions": [
-      "Put the whole oranges in a pot, cover with water, and simmer for 1 hour until completely soft (this removes the peel's bitterness). Drain and cool slightly.",
-      "Heat the oven to 180°C / 350°F and line a 23x13 cm (9x5 in) loaf pan or 20 cm springform with parchment.",
-      "Cut the oranges open, remove any seeds, and puree them - peel and all - to a smooth pulp.",
-      "Whisk the egg yolks with the sweetener until pale, then stir in the orange pulp, vanilla, and cardamom.",
-      "Mix in the almond flour and baking powder until combined.",
-      "In a clean bowl, beat the egg whites to stiff peaks and fold them gently into the batter in two additions.",
-      "Pour into the pan, scatter with flaked almonds, and bake about 50 minutes until a skewer comes out clean; tent with foil if the top browns too fast.",
-      "Cool fully in the pan before slicing - the cake is delicate while warm."
-    ],
-    "nutrition": {"calories": 180, "fatG": 13.4, "satFatG": 1.5, "proteinG": 7.4, "carbsG": 6.4, "fiberG": 2.7, "netCarbsG": 3.7, "sugarG": 2.6, "sodiumMg": 62},
-    "ketoVariant": "Use 1 orange plus 1 tsp orange extract instead of 2 oranges to drop to roughly 2.5 g net carbs per slice.",
-    "tips": "Boil the oranges a day ahead - once they are cooked and pureed, the cake comes together in 15 minutes.",
-    "sources": [
-      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/orange-almond-breakfast-cake/"},
-      {"creator": "Thinlicious", "url": "https://thinlicious.com/almond-and-orange-flourless-cake/"},
-      {"creator": "Spinach Tiger", "url": "https://spinachtiger.com/italian-orange-almond-cake-with-whole-oranges-gluten-free-low-carb-paleo/"}
-    ],
-    "comparedVersions": "Compared the classic boiled-whole-orange method (Sugar Free Londoner, Spinach Tiger) with Thinlicious's no-boil shortcut. The boiled-orange version won on flavor depth and moisture; Sugar Free Londoner's beaten-egg-white technique gives the lightest crumb, and a measured granulated sweetener replaces her stevia drops for easier Israeli sourcing. Naturally pareve and dairy-free."
-  },
-  {
-    "id": "chocolate-zucchini-bread",
-    "nameHe": "עוגת שוקולד וקישואים",
-    "ingredientsHe": [
-      {"amount": "2 כוסות / 250 גרם", "item": "קישואים מגוררים (כ-2 בינוניים)", "israelNote": "הקישוא הישראלי הבהיר עובד מצוין"},
-      {"amount": "3", "item": "ביצים גדולות בטמפרטורת החדר"},
-      {"amount": "2/3 כוס / 130 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "1 1/2 כוסות / 150 גרם", "item": "קמח שקדים"},
-      {"amount": "1/4 כוס / 25 גרם", "item": "אבקת קקאו ללא סוכר"},
-      {"amount": "1/4 כוס / 60 מ״ל", "item": "שמן קוקוס מומס"},
-      {"amount": "1/4 כוס / 60 מ״ל", "item": "קרם קוקוס", "israelNote": "החלק הסמיך של חלב קוקוס משימורים"},
-      {"amount": "1 1/2 כפיות", "item": "אבקת אפייה"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/4 כפית", "item": "מלח"},
-      {"amount": "1/3 כוס / 60 גרם", "item": "שוקולד צ'יפס מריר 60% ומעלה (לא חובה)", "israelNote": "לבדוק סימון פרווה; גם שוקולד מריר 85% קצוץ עובד"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
-      "עוטפים את הקישואים המגוררים במגבת מטבח נקייה וסוחטים חזק - אמורות לצאת כמה כפות נוזלים ולהישאר כ-1 כוס דחוסה.",
-      "טורפים בקערה גדולה את הביצים עם הממתיק עד לקבלת קצף קל, ואז טורפים פנימה את שמן הקוקוס המומס, קרם הקוקוס והווניל.",
-      "מוסיפים את קמח השקדים, הקקאו, אבקת האפייה והמלח ומערבבים לבלילה חלקה וסמיכה.",
-      "מקפלים פנימה את הקישואים הסחוטים ואת רוב השוקולד צ'יפס.",
-      "מעבירים לתבנית, מפזרים מעל את שאר השוקולד צ'יפס ואופים 50-55 דקות עד שקיסם יוצא עם פירורים לחים בלבד.",
-      "מצננים בתבנית לפחות 30 דקות לפני החיתוך - העוגה מתייצבת תוך כדי הצינון."
-    ],
-    "lowCarbVariantHe": "גרסה חלבית: מחליפים את שמן הקוקוס בחמאה מומסת ואת קרם הקוקוס בשמנת מתוקה (העוגה הופכת לחלבית בהתאם).",
-    "tipsHe": "סחיטת הקישואים היא השלב הקריטי - מדלגים עליה והעוגה יוצאת דביקה.",
-    "comparedVersionsHe": "הושוו העוגה בקערה אחת של Low Carb Spark, הגרסה של Sweet As Honey וגרסת סווירל חמאת השקדים של Stem and Spoon. היחסים של Low Carb Spark ניצחו בפשטות (קערה אחת, בלי שלב סווירל) ובלחות; אפשרות שמן הקוקוס וקרם הקוקוס נבחרה על פני חמאה ושמנת כדי שהעוגה תישאר פרווה ותוכל לבוא אחרי ארוחה בשרית.",
-    "name": "Chocolate Zucchini Bread",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 15,
-    "cookTimeMin": 55,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 cups / 250 g", "item": "shredded zucchini (about 2 medium)", "israelNote": "kishu - the light-green Israeli variety works well"},
-      {"amount": "3", "item": "large eggs, room temperature"},
-      {"amount": "2/3 cup / 130 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "1.5 cups / 150 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/4 cup / 25 g", "item": "unsweetened cocoa powder"},
-      {"amount": "1/4 cup / 60 ml", "item": "melted coconut oil"},
-      {"amount": "1/4 cup / 60 ml", "item": "coconut cream", "israelNote": "the thick part of canned coconut milk"},
-      {"amount": "1.5 tsp", "item": "baking powder"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/4 tsp", "item": "salt"},
-      {"amount": "1/3 cup / 60 g", "item": "dark chocolate chips, 60%+ (optional)", "israelNote": "check pareve label; chopped 85% dark chocolate works"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line a 23x13 cm (9x5 in) loaf pan with parchment.",
-      "Wrap the shredded zucchini in a clean kitchen towel and squeeze hard - you should press out several tablespoons of liquid and end with about 1 cup packed.",
-      "In a large bowl, whisk the eggs with the sweetener until frothy, then whisk in the melted coconut oil, coconut cream, and vanilla.",
-      "Stir in the almond flour, cocoa, baking powder, and salt until you have a smooth, thick batter.",
-      "Fold in the squeezed zucchini and most of the chocolate chips.",
-      "Scrape into the pan, scatter the remaining chips on top, and bake 50-55 minutes until a skewer comes out with only moist crumbs.",
-      "Cool in the pan at least 30 minutes before slicing - it sets as it cools."
-    ],
-    "nutrition": {"calories": 152, "fatG": 13.3, "satFatG": 5.8, "proteinG": 4.4, "carbsG": 5.6, "fiberG": 2.4, "netCarbsG": 3.2, "sugarG": 1.3, "sodiumMg": 92},
-    "lowCarbVariant": "Dairy version: swap coconut oil for melted butter and coconut cream for heavy cream (makes it dairy, kosherType changes accordingly).",
-    "tips": "Squeezing the zucchini is the make-or-break step - skip it and the loaf turns gummy.",
-    "sources": [
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/keto-chocolate-zucchini-bread/"},
-      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/keto-chocolate-zucchini-bread/"},
-      {"creator": "Stem and Spoon", "url": "https://stemandspoon.com/keto-chocolate-zucchini-bread-with-almond-butter-swirl/"}
-    ],
-    "comparedVersions": "Compared Low Carb Spark's one-bowl loaf, Sweet As Honey's version, and Stem and Spoon's almond-butter-swirl variation. Low Carb Spark's ratios won for simplicity (one bowl, no swirl step) and moisture; the coconut oil + coconut cream option was chosen over butter/heavy cream so the loaf stays pareve and can follow a meat meal."
-  },
-  {
-    "id": "snickerdoodle-cookies",
-    "nameHe": "עוגיות סניקרדודל",
-    "ingredientsHe": [
-      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים"},
-      {"amount": "2 כפות / 16 גרם", "item": "קמח קוקוס"},
-      {"amount": "1/2 כוס / 113 גרם", "item": "חמאה רכה"},
-      {"amount": "1/3 כוס / 65 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "1", "item": "ביצה גדולה בטמפרטורת החדר"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1 כפית", "item": "קרם טרטר", "israelNote": "נמכר כ'קרם אוף טרטר' בחנויות אפייה; כפית מיץ לימון היא תחליף סביר"},
-      {"amount": "1/2 כפית", "item": "סודה לשתייה"},
-      {"amount": "1/4 כפית", "item": "מלח"},
-      {"amount": "2 כפות + 2 כפיות", "item": "ממתיק מגורען + קינמון, לציפוי"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-170 מעלות ומרפדים שתי תבניות אפייה בנייר אפייה.",
-      "מקציפים את החמאה הרכה עם הממתיק 2-3 דקות עד לקבלת תערובת בהירה ואוורירית, ואז מקציפים פנימה את הביצה והווניל.",
-      "מוסיפים את קמח השקדים, קמח הקוקוס, קרם הטרטר, הסודה לשתייה והמלח ומערבבים עד שנוצר בצק רך.",
-      "מערבבים בקערית את ממתיק הציפוי עם הקינמון.",
-      "מגלגלים את הבצק ל-20 כדורים (כ-2.5 ס״מ) ומגלגלים כל אחד בנדיבות בתערובת הקינמון.",
-      "מניחים על התבניות ומשטחים לעובי של כ-1.5 ס״מ, במרווח של 5 ס״מ בין העוגיות.",
-      "אופים 10-12 דקות עד להזהבה קלה בשוליים - הן ייראו לא אפויות במרכז.",
-      "מצננים על התבנית 10 דקות; הן מתייצבות תוך כדי הצינון."
-    ],
-    "ketoVariantHe": "החלפה לפרווה: שמן קוקוס מזוכך (מוצק, לא מומס) במקום החמאה - המרקם מעט פירורי יותר אבל הטעם נשמר.",
-    "tipsHe": "קרם הטרטר הוא מה שנותן את החמיצות האופיינית - לא מדלגים עליו. מגלגלים את הכדורים בציפוי הקינמון פעמיים לקראסט עבה יותר.",
-    "comparedVersionsHe": "הושוו All Day I Dream About Food (מוסיפה אבקת קולגן), Gnom-Gnom (מוסיפה קסנטן גאם) ו-Low Carb Maven. סונתזה דרך האמצע: גוף קמח השקדים והקוקוס הפשוט של ADIDAF בלי הקולגן המיוחד, טכניקת הקצפת החמאה וכמות קרם הטרטר של Gnom-Gnom, ואפייה מתונה ב-170 מעלות בין שני הקצוות שלהם. פחות מ-2 גרם פחמימות נטו עם רשימת מזווה של 10 מרכיבים.",
-    "name": "Snickerdoodle Cookies",
-    "category": "baking-sweet",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 20,
-    "prepTimeMin": 15,
-    "cookTimeMin": 12,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 cups / 200 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "2 tbsp / 16 g", "item": "coconut flour"},
-      {"amount": "1/2 cup / 113 g", "item": "butter, softened"},
-      {"amount": "1/3 cup / 65 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "1", "item": "large egg, room temperature"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1 tsp", "item": "cream of tartar", "israelNote": "sold as 'cream of tartar' in baking shops; 1 tsp lemon juice is a workable substitute"},
-      {"amount": "1/2 tsp", "item": "baking soda"},
-      {"amount": "1/4 tsp", "item": "salt"},
-      {"amount": "2 tbsp + 2 tsp", "item": "granulated sweetener + cinnamon, for coating"}
-    ],
-    "instructions": [
-      "Heat the oven to 170°C / 340°F and line two baking sheets with parchment.",
-      "Beat the softened butter with the sweetener for 2-3 minutes until light and fluffy, then beat in the egg and vanilla.",
-      "Mix in the almond flour, coconut flour, cream of tartar, baking soda, and salt until a soft dough forms.",
-      "Stir the coating sweetener and cinnamon together in a small bowl.",
-      "Roll the dough into 20 balls (about 2.5 cm) and roll each generously in the cinnamon mixture.",
-      "Place on the sheets and flatten to about 1.5 cm thick, leaving 5 cm between cookies.",
-      "Bake 10-12 minutes until just golden at the edges - they will look underdone in the center.",
-      "Cool on the tray 10 minutes; they firm up as they cool."
-    ],
-    "nutrition": {"calories": 108, "fatG": 10.1, "satFatG": 3.5, "proteinG": 2.9, "carbsG": 3.0, "fiberG": 1.4, "netCarbsG": 1.6, "sugarG": 0.4, "sodiumMg": 78},
-    "ketoVariant": "Pareve swap: use refined coconut oil (solid, not melted) instead of butter - texture is slightly more crumbly but flavor holds.",
-    "tips": "Cream of tartar is what gives the trademark tang - don't skip it. Roll the balls in the cinnamon coating twice for a thicker crust.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/perfect-keto-snickerdoodles/"},
-      {"creator": "Gnom-Gnom", "url": "https://www.gnom-gnom.com/keto-snickerdoodle-cookies/"},
-      {"creator": "Low Carb Maven", "url": "https://www.lowcarbmaven.com/keto-snickerdoodle-cookies/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food (adds collagen powder), Gnom-Gnom (adds xanthan gum), and Low Carb Maven. Synthesized the middle path: ADIDAF's simple almond+coconut flour body without the specialty collagen, Gnom-Gnom's well-creamed butter technique and cream of tartar amount, and a moderate 170°C bake between their two extremes. Under 2 g net carbs with a 10-ingredient pantry list."
-  },
-  {
-    "id": "butter-shortbread-cookies",
-    "nameHe": "עוגיות חמאה פריכות",
-    "ingredientsHe": [
-      {"amount": "2 כוסות / 200 גרם", "item": "קמח שקדים טחון דק", "israelNote": "להשתמש בטחינה הדקה ביותר שמוצאים"},
-      {"amount": "6 כפות / 85 גרם", "item": "חמאה מומסת"},
-      {"amount": "1/4 כוס / 40 גרם", "item": "ממתיק אריתריטול אבקה", "israelNote": "טוחנים ממתיק מגורען במטחנת תבלינים לאבקה"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/8 כפית", "item": "מלח"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-160 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
-      "טורפים את החמאה המומסת עם ממתיק האבקה, הווניל והמלח.",
-      "מוסיפים את קמח השקדים, מערבבים ואז לשים קצרות בידיים עד שנוצר בצק חלק.",
-      "מחלקים ל-12 חלקים, מגלגלים לכדורים ומשטחים על התבנית לעיגולים בקוטר 5 ס״מ ובעובי כ-6 מ״מ.",
-      "דוקרים כל עוגייה כמה פעמים במזלג למראה השורטברד הקלאסי.",
-      "אופים 12-15 דקות עד שהשוליים מזהיבים ועולה ריח נהדר.",
-      "מצננים לגמרי על התבנית - הן שבירות כשהן חמות ונשברות בפריכות אחרי הצינון."
-    ],
-    "ketoVariantHe": "טובלים חצי מכל עוגייה מצוננת בשוקולד מריר 85% מומס - תוספת של כ-1 גרם פחמימות נטו.",
-    "lowCarbVariantHe": "החלפה לפרווה: שמן קוקוס מזוכך במקום החמאה; מוסיפים עוד 1/4 כפית וניל לפיצוי על טעם החמאה.",
-    "tipsHe": "מכיוון שהעוגיות כמעט כולן חמאה ושקדים, שומרים אותן במקרר - הן נשמרות שבועיים וטעימות הכי הרבה צוננות או בטמפרטורת חדר קרירה.",
-    "comparedVersionsHe": "הושוו שיטת 5 המרכיבים עם החמאה המומסת של Healthy Recipes Blog‏, Cast Iron Keto והגרסה של The Big Man's World. היחס של Healthy Recipes Blog ‏(200 גרם קמח שקדים : 85 גרם חמאה) ניצח - בלי קירור, בלי מערוך, 5 מרכיבים - עם אריתריטול אבקה במקום סטיביה גליצריט שקשה להשיג בישראל.",
-    "name": "Butter Shortbread Cookies",
-    "category": "baking-sweet",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 10,
-    "cookTimeMin": 15,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 cups / 200 g", "item": "fine blanched almond flour", "israelNote": "kemach shkedim - use the finest grind you can find"},
-      {"amount": "6 tbsp / 85 g", "item": "butter, melted"},
-      {"amount": "1/4 cup / 40 g", "item": "powdered erythritol-monk fruit blend", "israelNote": "blitz granulated sweetener in a spice grinder to powder it"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/8 tsp", "item": "salt"}
-    ],
-    "instructions": [
-      "Heat the oven to 160°C / 325°F and line a baking sheet with parchment.",
-      "Whisk the melted butter with the powdered sweetener, vanilla, and salt.",
-      "Add the almond flour and mix, then knead briefly with your hands until a smooth dough forms.",
-      "Divide into 12 pieces, roll into balls, and flatten on the sheet into 5 cm rounds about 6 mm thick.",
-      "Prick each cookie a few times with a fork for the classic shortbread look.",
-      "Bake 12-15 minutes until golden at the edges and fragrant.",
-      "Cool on the tray completely - they are fragile hot and snap crisp once cool."
-    ],
-    "nutrition": {"calories": 149, "fatG": 14.2, "satFatG": 3.8, "proteinG": 4.0, "carbsG": 4.0, "fiberG": 2.0, "netCarbsG": 2.0, "sugarG": 0.7, "sodiumMg": 38},
-    "ketoVariant": "Dip half of each cooled cookie in melted 85% dark chocolate for about 1 g net carbs more.",
-    "lowCarbVariant": "Pareve swap: refined coconut oil replaces butter; add an extra 1/4 tsp vanilla to compensate for the lost butter flavor.",
-    "tips": "Because these are nearly all butter and almonds, store them in the fridge - they keep 2 weeks and taste best chilled or at cool room temperature.",
-    "sources": [
-      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/almond-flour-shortbread-cookies/"},
-      {"creator": "Cast Iron Keto", "url": "https://www.castironketo.net/blog/almond-flour-shortbread-cookies/"},
-      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-shortbread-cookies/"}
-    ],
-    "comparedVersions": "Compared Healthy Recipes Blog's 5-ingredient melted-butter method, Cast Iron Keto, and The Big Man's World's version. The Healthy Recipes Blog ratio (200 g almond flour : 85 g butter) won - no chilling, no rolling pin, 5 ingredients - with powdered erythritol swapped in for her stevia glycerite, which is hard to find in Israel."
-  },
-  {
-    "id": "double-chocolate-muffins",
-    "nameHe": "מאפינס שוקולד כפול",
-    "ingredientsHe": [
-      {"amount": "3", "item": "ביצים גדולות"},
-      {"amount": "1/2 כוס / 120 מ״ל", "item": "משקה שקדים ללא סוכר", "israelNote": "משקה שקדים לא ממותק, למשל אלפרו או בלו דיאמונד"},
-      {"amount": "1 כוס / 100 גרם", "item": "קמח שקדים"},
-      {"amount": "1/4 כוס / 28 גרם", "item": "קמח קוקוס"},
-      {"amount": "1/4 כוס / 25 גרם", "item": "אבקת קקאו ללא סוכר"},
-      {"amount": "1/3 כוס / 65 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "1/4 כוס / 60 מ״ל", "item": "שמן אבוקדו או שמן זית עדין"},
-      {"amount": "2 כפיות", "item": "אבקת אפייה"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/4 כפית", "item": "מלח"},
-      {"amount": "1/3 כוס / 60 גרם", "item": "שוקולד צ'יפס ללא סוכר או שוקולד מריר 85%", "israelNote": "שוקולד מריר 85% קצוץ עובד; לבדוק סימון פרווה"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-165 מעלות ומרפדים 9 שקעי מאפינס במנג'טים.",
-      "מבלנדרים את הביצים, משקה השקדים והווניל בבלנדר (או טורפים היטב ביד) עד לקבלת קצף קל.",
-      "מוסיפים את קמח השקדים, קמח הקוקוס, הקקאו, הממתיק, אבקת האפייה והמלח; מבלנדרים עד לבלילה חלקה.",
-      "מוסיפים את השמן ומבלנדרים רק עד לאיחוד.",
-      "מערבבים פנימה ביד את רוב השוקולד צ'יפס.",
-      "מחלקים את הבלילה בין השקעים, מפזרים מעל את שאר השוקולד צ'יפס ואופים 22-25 דקות עד שהחלק העליון יציב ומוצק למגע.",
-      "מצננים בתבנית 10 דקות - הפירור מסיים להתייצב תוך כדי הצינון."
-    ],
-    "ketoVariantHe": "מוסיפים 1/2 כפית אספרסו נמס למרכיבים היבשים - בלי טעם של קפה, רק שוקולד עמוק יותר.",
-    "tipsHe": "שמן נוזלי (לא שמן קוקוס) שומר על בלילת הבלנדר נוזלית; מנג'טים הם חובה כי בלילות קקאו נדבקות.",
-    "comparedVersionsHe": "הושוו מאפיני הבלנדר של All Day I Dream About Food, הגרסה על בסיס חמאה של Low Carb Spark והגרסה של Gnom-Gnom. ADIDAF ניצחה גם בפשטות (הכול בבלנדר) וגם בגמישות הכשרות - הבסיס שלה משמן וממשקה שקדים פרווה באופן טבעי, בניגוד לגרסאות החמאה והשמנת החמוצה - עם הממתיק שהוגדל מעט לכיוון הרמה של Low Carb Spark למאפין מתוק כמו שצריך.",
-    "name": "Double Chocolate Muffins",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 9,
-    "prepTimeMin": 10,
-    "cookTimeMin": 25,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "3", "item": "large eggs"},
-      {"amount": "1/2 cup / 120 ml", "item": "unsweetened almond milk", "israelNote": "mashkeh shkedim lo mumtak (Alpro/Blue Diamond)"},
-      {"amount": "1 cup / 100 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/4 cup / 28 g", "item": "coconut flour"},
-      {"amount": "1/4 cup / 25 g", "item": "unsweetened cocoa powder"},
-      {"amount": "1/3 cup / 65 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "1/4 cup / 60 ml", "item": "avocado oil or light olive oil"},
-      {"amount": "2 tsp", "item": "baking powder"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/4 tsp", "item": "salt"},
-      {"amount": "1/3 cup / 60 g", "item": "sugar-free or 85% dark chocolate chips", "israelNote": "chopped 85% dark chocolate works; check pareve label"}
-    ],
-    "instructions": [
-      "Heat the oven to 165°C / 325°F and line 9 muffin cups with paper liners.",
-      "Blend the eggs, almond milk, and vanilla in a blender (or whisk well by hand) until frothy.",
-      "Add the almond flour, coconut flour, cocoa, sweetener, baking powder, and salt; blend until smooth.",
-      "Add the oil and blend just until combined.",
-      "Stir in most of the chocolate chips by hand.",
-      "Divide the batter among the cups, top with the remaining chips, and bake 22-25 minutes until the tops are set and firm to the touch.",
-      "Cool in the pan 10 minutes - the crumb finishes setting as they cool."
-    ],
-    "nutrition": {"calories": 204, "fatG": 17.2, "satFatG": 3.9, "proteinG": 6.3, "carbsG": 9.3, "fiberG": 4.5, "netCarbsG": 4.8, "sugarG": 0.9, "sodiumMg": 190},
-    "ketoVariant": "Add 1/2 tsp instant espresso powder to the dry ingredients - no coffee taste, just deeper chocolate.",
-    "tips": "Liquid oil (not coconut oil) keeps the blender batter pourable; paper liners are essential because cocoa batters stick.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/low-carb-double-chocolate-blender-muffins/"},
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/keto-double-chocolate-muffins/"},
-      {"creator": "Gnom-Gnom", "url": "https://www.gnom-gnom.com/paleo-keto-double-chocolate-muffins/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food's blender muffins, Low Carb Spark's butter-based version, and Gnom-Gnom's. ADIDAF won on both simplicity (everything in a blender) and kosher flexibility - her oil-and-almond-milk base is naturally pareve, unlike the butter/sour-cream versions - with the sweetener nudged up slightly toward Low Carb Spark's level for a properly sweet muffin."
-  },
-  {
-    "id": "marble-cake",
-    "nameHe": "עוגת שיש",
-    "ingredientsHe": [
-      {"amount": "5", "item": "ביצים גדולות בטמפרטורת החדר"},
-      {"amount": "2/3 כוס / 120 גרם", "item": "ממתיק אריתריטול אבקה"},
-      {"amount": "1/2 כוס / 114 גרם", "item": "חמאה, מומסת ומצוננת"},
-      {"amount": "1/4 כוס / 60 גרם", "item": "יוגורט טבעי או שמנת מתוקה"},
-      {"amount": "1/4 כוס / 60 מ״ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "2 1/4 כוסות / 225 גרם", "item": "קמח שקדים"},
-      {"amount": "1/4 כוס / 30 גרם", "item": "קמח קוקוס"},
-      {"amount": "2 כפות / 12 גרם", "item": "אבקת קקאו ללא סוכר"},
-      {"amount": "2 כפיות", "item": "אבקת אפייה"},
-      {"amount": "2 כפיות", "item": "תמצית וניל"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-180 מעלות (160 בטורבו) ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
-      "טורפים את הביצים עם ממתיק האבקה 2-3 דקות עד לתערובת בהירה ומוקצפת.",
-      "טורפים פנימה את החמאה המומסת, היוגורט, משקה השקדים והווניל.",
-      "מוסיפים את קמח השקדים, קמח הקוקוס ואבקת האפייה ומערבבים לבלילה חלקה וסמיכה.",
-      "מעבירים שליש מהבלילה לקערה שנייה ומערבבים פנימה את הקקאו (מדללים במעט משקה שקדים אם סמיך מאוד).",
-      "מניחים את שתי הבלילות בתבנית בכפות לסירוגין, טופחים עם התבנית על השיש ליישור, ואז מעבירים סכין בתנועת S לרוחב ופעם אחת לאורך ליצירת דוגמת השיש.",
-      "אופים 55-60 דקות עד להזהבה עמוקה ועד שקיסם יוצא נקי; מכסים בנייר אלומיניום אחרי 40 דקות אם משחים מהר.",
-      "מצננים בתבנית 15 דקות, ואז מסיימים לצנן על רשת לפני החיתוך."
-    ],
-    "lowCarbVariantHe": "החלפה לפרווה: שמן קוקוס מזוכך מומס במקום החמאה ויוגורט על בסיס קוקוס במקום היוגורט החלבי - הפירור נשאר לח והעוגה יכולה לבוא אחרי ארוחה בשרית.",
-    "tipsHe": "מערבלים רק פעמיים - ערבול יתר מערבב את הבלילות לצבע אחיד ובוצי.",
-    "comparedVersionsHe": "הושוו עוגות השיש של Sugar Free Londoner‏, Low Carb Spark ו-Peace Love and Low Carb. היחסים של Sugar Free Londoner ניצחו: שילוב היוגורט ומשקה השקדים נותן את הפירור הלח ביותר מבין השלוש, חלוקת הקקאו לשליש מהבלילה נותנת את הסווירל הברור ביותר, וטכניקת הסכין שלה מפורשת וניתנת לשחזור. עם 2.6 גרם פחמימות נטו היא גם הדלה ביותר בפחמימות מהגרסאות שהושוו.",
-    "name": "Marble Cake",
-    "category": "baking-sweet",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 20,
-    "cookTimeMin": 60,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "5", "item": "large eggs, room temperature"},
-      {"amount": "2/3 cup / 120 g", "item": "powdered erythritol-monk fruit blend"},
-      {"amount": "1/2 cup / 114 g", "item": "butter, melted and cooled"},
-      {"amount": "1/4 cup / 60 g", "item": "plain yogurt or heavy cream"},
-      {"amount": "1/4 cup / 60 ml", "item": "unsweetened almond milk", "israelNote": "mashkeh shkedim lo mumtak"},
-      {"amount": "2.25 cups / 225 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/4 cup / 30 g", "item": "coconut flour"},
-      {"amount": "2 tbsp / 12 g", "item": "unsweetened cocoa powder"},
-      {"amount": "2 tsp", "item": "baking powder"},
-      {"amount": "2 tsp", "item": "vanilla extract"}
-    ],
-    "instructions": [
-      "Heat the oven to 180°C / 350°F (160°C fan) and line a 23x13 cm (9x5 in) loaf pan with parchment.",
-      "Whisk the eggs with the powdered sweetener until pale and frothy, 2-3 minutes.",
-      "Whisk in the melted butter, yogurt, almond milk, and vanilla.",
-      "Stir in the almond flour, coconut flour, and baking powder until you have a smooth, thick batter.",
-      "Transfer one third of the batter to a second bowl and stir in the cocoa powder (loosen with a splash of almond milk if very thick).",
-      "Spoon the two batters into the pan in alternating dollops, tap the pan on the counter to level, then drag a knife through in an S-motion sideways and once lengthwise to marble.",
-      "Bake 55-60 minutes until deep golden and a skewer comes out clean; tent with foil after 40 minutes if browning fast.",
-      "Cool in the pan 15 minutes, then finish cooling on a rack before slicing."
-    ],
-    "nutrition": {"calories": 175, "fatG": 14.9, "satFatG": 5.2, "proteinG": 6.1, "carbsG": 3.9, "fiberG": 2.0, "netCarbsG": 2.6, "sugarG": 0.7, "sodiumMg": 140},
-    "lowCarbVariant": "Pareve swap: melted refined coconut oil for the butter and coconut-based yogurt for the dairy yogurt - the crumb stays moist and the cake can follow a meat meal.",
-    "tips": "Swirl only twice - over-marbling blends the batters into a muddy single color.",
-    "sources": [
-      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/keto-marble-cake/"},
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/keto-marble-cake/"},
-      {"creator": "Peace Love and Low Carb", "url": "https://peaceloveandlowcarb.com/keto-chocolate-vanilla-marble-pound-cake/"}
-    ],
-    "comparedVersions": "Compared Sugar Free Londoner, Low Carb Spark, and Peace Love and Low Carb marble pound cakes. Sugar Free Londoner's ratios won: the yogurt plus almond-milk combination gives the moistest crumb of the three, her cocoa-to-one-third-of-batter split gives the clearest swirl, and her knife-swirl technique is explicit and repeatable. At 2.6 g net carbs it is also the lowest-carb of the versions compared."
-  },
-  {
-    "id": "thumbprint-cookies-chia-berry-jam",
-    "nameHe": "עוגיות טביעת אצבע עם ריבת צ'יה ופטל",
-    "ingredientsHe": [
-      {"amount": "2 1/4 כוסות / 250 גרם", "item": "קמח שקדים"},
-      {"amount": "1/2 כוס / 90 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "1/2 כוס / 110 גרם", "item": "שמן קוקוס מזוכך, רך אך לא מומס"},
-      {"amount": "1", "item": "ביצה גדולה"},
-      {"amount": "1/2 כפית", "item": "תמצית וניל או תמצית שקדים"},
-      {"amount": "1/2 כפית", "item": "אבקת אפייה"},
-      {"amount": "1/4 כפית", "item": "מלח"},
-      {"amount": "1 1/2 כוסות / 180 גרם", "item": "פטל, טרי או קפוא (לריבה)", "israelNote": "פטל קפוא ממדף המקפיאים עובד מצוין"},
-      {"amount": "2 כפות / 20 גרם", "item": "זרעי צ'יה (לריבה)", "israelNote": "במדפי הבריאות בסופרים"},
-      {"amount": "3 כפות / 35 גרם", "item": "ממתיק מגורען + 3 כפות מים (לריבה)"}
-    ],
-    "instructionsHe": [
-      "מכינים קודם את הריבה: מבשלים את הפטל, 3 כפות הממתיק והמים בסיר קטן 5 דקות תוך מעיכת הפירות. מערבבים פנימה את זרעי הצ'יה ומבשלים עוד 8-10 דקות עד להסמכה. מצננים לגמרי (היא מסמיכה עוד).",
-      "מחממים תנור ל-165 מעלות ומרפדים שתי תבניות אפייה בנייר אפייה.",
-      "מקציפים את שמן הקוקוס עם 1/2 כוס הממתיק עד לקבלת קרם, ואז מקציפים פנימה את הביצה והתמצית.",
-      "מוסיפים את קמח השקדים, אבקת האפייה והמלח ומערבבים לבצק רך. אם דביק, מקררים 20 דקות.",
-      "מגלגלים ל-24 כדורים קטנים, מניחים על התבניות, משטחים מעט ולוחצים גומה עמוקה במרכז כל אחד עם האגודל.",
-      "אופים 12-15 דקות עד להזהבה בשוליים; אם הגומות תפחו, לוחצים אותן שוב בעדינות עם כפית מיד ביציאה מהתנור.",
-      "מצננים את העוגיות, ואז ממלאים כל גומה בכ-1 כפית מריבת הצ'יה המצוננת.",
-      "שומרים במקרר; הריבה שומרת על העוגיות טריות כ-5 ימים."
-    ],
-    "lowCarbVariantHe": "גרסת חמאה (חלבית): מחליפים את שמן הקוקוס בחמאה רכה לטעם שורטברד עשיר וקלאסי יותר.",
-    "tipsHe": "ריבת צ'יה שנשארה נשמרת חודש במקרר ומצוינת גם כתוספת ליוגורט או לפנקייק קיטו.",
-    "comparedVersionsHe": "הושוו בצק החמאה עם ריבת הג'לטין של All Day I Dream About Food, בצק שמן הקוקוס ללא חלב של The Roasted Root ושיטת ריבת הצ'יה של The Harvest Skillet. סונתזו יחסי הבצק הבדוקים של ADIDAF ‏(250 גרם קמח : 110 גרם שומן : ביצה) בגרסה פרווה עם שמן קוקוס לפי The Roasted Root, בשילוב ריבת הצ'יה של The Harvest Skillet - צ'יה לא דורשת השריית ג'לטין, מוסיפה סיבים ושומרת על העוגייה כולה פרווה.",
-    "name": "Thumbprint Cookies with Chia Berry Jam",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 24,
-    "prepTimeMin": 25,
-    "cookTimeMin": 15,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "2.25 cups / 250 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/2 cup / 90 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "1/2 cup / 110 g", "item": "refined coconut oil, softened but not melted"},
-      {"amount": "1", "item": "large egg"},
-      {"amount": "1/2 tsp", "item": "vanilla or almond extract"},
-      {"amount": "1/2 tsp", "item": "baking powder"},
-      {"amount": "1/4 tsp", "item": "salt"},
-      {"amount": "1.5 cups / 180 g", "item": "raspberries, fresh or frozen (for the jam)", "israelNote": "frozen petel from the freezer section works perfectly"},
-      {"amount": "2 tbsp / 20 g", "item": "chia seeds (for the jam)", "israelNote": "zirei chia, health-food aisle"},
-      {"amount": "3 tbsp / 35 g", "item": "granulated sweetener + 3 tbsp water (for the jam)"}
-    ],
-    "instructions": [
-      "Make the jam first: simmer the raspberries, 3 tbsp sweetener, and water in a small pot for 5 minutes, mashing the berries. Stir in the chia seeds and simmer 8-10 minutes more until thick. Cool completely (it thickens further).",
-      "Heat the oven to 165°C / 325°F and line two baking sheets with parchment.",
-      "Beat the coconut oil with the 1/2 cup sweetener until creamy, then beat in the egg and extract.",
-      "Mix in the almond flour, baking powder, and salt to form a soft dough. If sticky, chill 20 minutes.",
-      "Roll into 24 small balls, place on the sheets, flatten slightly, and press a deep well into each center with your thumb.",
-      "Bake 12-15 minutes until golden at the edges; if the wells puffed up, re-press them gently with a teaspoon right out of the oven.",
-      "Cool the cookies, then spoon about 1 tsp of the cooled chia jam into each well.",
-      "Store in the fridge; the jam keeps the cookies fresh for about 5 days."
-    ],
-    "nutrition": {"calories": 114, "fatG": 10.3, "satFatG": 4.2, "proteinG": 2.9, "carbsG": 4.0, "fiberG": 1.9, "netCarbsG": 2.1, "sugarG": 0.9, "sodiumMg": 42},
-    "lowCarbVariant": "Butter version (dairy): swap the coconut oil for softened butter for a richer, more classic shortbread flavor.",
-    "tips": "Leftover chia jam keeps a month in the fridge and doubles as a topping for yogurt or keto pancakes.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/low-carb-raspberry-almond-thumbprints/"},
-      {"creator": "The Roasted Root", "url": "https://www.theroastedroot.net/keto-raspberry-thumbprint-cookies-vegan/"},
-      {"creator": "The Harvest Skillet", "url": "https://www.theharvestskillet.com/raspberry-thumbprint-cookies/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food's butter dough with gelatin jam, The Roasted Root's dairy-free coconut-oil dough, and The Harvest Skillet's chia-jam method. Synthesized ADIDAF's proven dough ratios (250 g flour : 110 g fat : 1 egg) made pareve with coconut oil per The Roasted Root, paired with the Harvest Skillet chia jam - chia needs no gelatin bloom, adds fiber, and keeps the whole cookie pareve."
-  },
-  {
-    "id": "hazelnut-cookies",
-    "nameHe": "עוגיות אגוזי לוז",
-    "ingredientsHe": [
-      {"amount": "3/4 כוס / 85 גרם", "item": "קמח אגוזי לוז (אגוזי לוז טחונים דק)", "israelNote": "אפשר לטחון אגוזי לוז קלויים וקלופים במעבד מזון עד לטחינה דקה"},
-      {"amount": "1/2 כוס / 50 גרם", "item": "קמח שקדים"},
-      {"amount": "1/3 כוס / 55 גרם", "item": "ממתיק אריתריטול אבקה"},
-      {"amount": "6 כפות / 85 גרם", "item": "שמן קוקוס מזוכך, רך"},
-      {"amount": "1/2 כפית", "item": "תמצית וניל"},
-      {"amount": "1/8 כפית", "item": "מלח"},
-      {"amount": "14", "item": "אגוזי לוז קלויים שלמים, לקישוט (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
-      "שמים בקערה את קמח אגוזי הלוז, קמח השקדים, ממתיק האבקה, שמן הקוקוס, הווניל והמלח.",
-      "מערבבים, ואז לשים בידיים עד שהבצק חלק ובלי כיסים יבשים.",
-      "מגלגלים ל-14 כדורים בגודל אגוז מלך, מניחים על התבנית ומשטחים בעדינות באצבעות לחות.",
-      "לוחצים אגוז לוז שלם למרכז כל עוגייה.",
-      "אופים 8-10 דקות עד שהשוליים מזהיבים - משגיחים מקרוב, אגוזי לוז משחימים מהר.",
-      "מצננים לגמרי על התבנית לפני ההרמה; הן שבירות מאוד כשהן חמות ופריכות אחרי הצינון."
-    ],
-    "ketoVariantHe": "מזלפים על העוגיות המצוננות שוקולד מריר 85% מומס (לבדוק סימון פרווה) לטעם בסגנון נוטלה, תוספת של כ-0.5 גרם פחמימות נטו.",
-    "lowCarbVariantHe": "גרסת חמאה (חלבית): מחליפים את שמן הקוקוס בחמאה מלוחה לעשירות הנמסה-בפה המקורית.",
-    "tipsHe": "להכנת קמח אגוזי לוז בבית: קולים אגוזי לוז שלמים 8 דקות ב-180 מעלות, משפשפים את הקליפות במגבת, מצננים וטוחנים בפולסים קצרים - עוצרים לפני שזה הופך לממרח.",
-    "comparedVersionsHe": "הושוו עוגיות החמאה מ-5 מרכיבים של Low-Carb So Simple, עוגיות ה'ברוטי מה בוני' האיטלקיות על בסיס חלבונים של Low Carb Yum וגרסת 3 המרכיבים של LikeHotKeto. היחסים של Low-Carb So Simple ניצחו בזכות הנמסות הכי דמוית שורטברד ואפייה של 10 דקות בלי מיקסר; החמאה הוחלפה בשמן קוקוס מזוכך כדי שהעוגייה תישאר פרווה, וגרסת החמאה נשמרה כווריאציה חלבית.",
-    "name": "Hazelnut Cookies",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 14,
-    "prepTimeMin": 15,
-    "cookTimeMin": 10,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "3/4 cup / 85 g", "item": "hazelnut flour (finely ground hazelnuts)", "israelNote": "kemach egozei luz - or grind roasted peeled hazelnuts in a food processor until fine"},
-      {"amount": "1/2 cup / 50 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/3 cup / 55 g", "item": "powdered erythritol-monk fruit blend"},
-      {"amount": "6 tbsp / 85 g", "item": "refined coconut oil, softened"},
-      {"amount": "1/2 tsp", "item": "vanilla extract"},
-      {"amount": "1/8 tsp", "item": "salt"},
-      {"amount": "14", "item": "whole roasted hazelnuts, for topping (optional)"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line a baking sheet with parchment.",
-      "Put the hazelnut flour, almond flour, powdered sweetener, coconut oil, vanilla, and salt in a bowl.",
-      "Mix, then knead with your hands until the dough is smooth with no dry pockets.",
-      "Roll into 14 walnut-sized balls, place on the sheet, and flatten gently with damp fingertips.",
-      "Press a whole hazelnut into the center of each cookie.",
-      "Bake 8-10 minutes until the edges are golden - watch closely, hazelnut browns fast.",
-      "Cool completely on the tray before lifting; they are very fragile while warm and crisp once cool."
-    ],
-    "nutrition": {"calories": 118, "fatG": 11.8, "satFatG": 5.3, "proteinG": 1.9, "carbsG": 1.9, "fiberG": 1.1, "netCarbsG": 0.8, "sugarG": 0.4, "sodiumMg": 22},
-    "ketoVariant": "Drizzle the cooled cookies with melted 85% dark chocolate (check pareve label) for a Nutella-like flavor at about 0.5 g net carbs more.",
-    "lowCarbVariant": "Butter version (dairy): swap the coconut oil for salted butter for the original melt-in-the-mouth richness.",
-    "tips": "To make hazelnut flour at home, roast whole hazelnuts 8 minutes at 180°C, rub off the skins in a towel, cool, and pulse briefly - stop before it turns to butter.",
-    "sources": [
-      {"creator": "Low-Carb So Simple", "url": "https://www.lowcarbsosimple.com/low-carb-hazelnut-butter-cookies/"},
-      {"creator": "Low Carb Yum", "url": "https://lowcarbyum.com/hazelnut-keto-cookies-gluten-free/"},
-      {"creator": "LikeHotKeto", "url": "https://likehotketo.com/keto-hazelnut-cookies"}
-    ],
-    "comparedVersions": "Compared Low-Carb So Simple's 5-ingredient butter cookies, Low Carb Yum's Italian brutti ma buoni (egg-white based), and LikeHotKeto's 3-ingredient version. Low-Carb So Simple's ratios won for the most shortbread-like melt and a 10-minute bake with no mixer; the butter was swapped for refined coconut oil so the cookie stays pareve, with the butter version kept as a dairy variant."
-  },
-  {
-    "id": "poppy-seed-cake",
-    "nameHe": "עוגת פרג",
-    "ingredientsHe": [
-      {"amount": "2 1/2 כוסות / 250 גרם", "item": "קמח שקדים"},
-      {"amount": "1/3 כוס / 45 גרם", "item": "פרג טחון", "israelNote": "קונים טחון טרי בחנויות תבלינים, או טוחנים פרג שלם במטחנת תבלינים"},
-      {"amount": "2/3 כוס / 130 גרם", "item": "ממתיק אריתריטול מגורען"},
-      {"amount": "4", "item": "ביצים גדולות בטמפרטורת החדר"},
-      {"amount": "1/3 כוס / 80 מ״ל", "item": "שמן זית עדין או שמן אבוקדו"},
-      {"amount": "1/4 כוס / 60 מ״ל", "item": "משקה שקדים ללא סוכר"},
-      {"amount": "2 כפיות", "item": "אבקת אפייה"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1 כף", "item": "גרידת לימון (לא חובה אבל קלאסי)"},
-      {"amount": "1/4 כפית", "item": "מלח"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
-      "טורפים את הביצים עם הממתיק 2 דקות עד לתערובת בהירה ומעט סמיכה.",
-      "טורפים פנימה את השמן, משקה השקדים, הווניל וגרידת הלימון.",
-      "מוסיפים את קמח השקדים, הפרג הטחון, אבקת האפייה והמלח ומערבבים עד לאיחוד - הבלילה תהיה סמיכה אך נוחה לעבודה בכף.",
-      "מעבירים לתבנית ומיישרים את החלק העליון.",
-      "אופים 45-50 דקות עד להזהבה ועד שקיסם יוצא נקי; מכסים בנייר אלומיניום אם החלק העליון מתכהה מוקדם.",
-      "מצננים בתבנית 20 דקות, ואז על רשת. לפני ההגשה אפשר לפזר מעט ממתיק אבקה."
-    ],
-    "ketoVariantHe": "זיגוג: טורפים 1/3 כוס ממתיק אבקה עם 1-2 כפות מיץ לימון ומזלפים על העוגה המצוננת, תוספת של כ-0.5 גרם פחמימות נטו לפרוסה.",
-    "tipsHe": "פרג טחון משחרר הרבה יותר טעם מפרג שלם - הבחירה הישראלית המסורתית. גם פרג שלם עובד, אבל אם אפשר טוחנים אותו קצרות.",
-    "comparedVersionsHe": "הושוו עוגת הבאנדט עם החמאה של All Day I Dream About Food (עם אבקת חלבון מי גבינה), עוגת הפאונד של Fittoserve והגרסה של My Keto Kitchen. סונתזה עוגה על בסיס שמן במסורת עוגת הפרג הישראלית: מבנה הקמח והביצים של ADIDAF בלי אבקת החלבון המיוחדת, שמן במקום חמאה כדי שתישאר פרווה אחרי ארוחה בשרית, ופי שלושה פרג מהרגיל - טחון - לנקודות הפרג הצפופות ולטעם האותנטי.",
-    "name": "Poppy Seed Cake (Israeli Style)",
-    "category": "baking-sweet",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 15,
-    "cookTimeMin": 50,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2.5 cups / 250 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/3 cup / 45 g", "item": "ground poppy seeds", "israelNote": "pereg tachun - buy freshly ground at spice shops, or grind whole seeds in a spice grinder"},
-      {"amount": "2/3 cup / 130 g", "item": "granulated erythritol-monk fruit blend"},
-      {"amount": "4", "item": "large eggs, room temperature"},
-      {"amount": "1/3 cup / 80 ml", "item": "light olive oil or avocado oil"},
-      {"amount": "1/4 cup / 60 ml", "item": "unsweetened almond milk", "israelNote": "mashkeh shkedim lo mumtak"},
-      {"amount": "2 tsp", "item": "baking powder"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1 tbsp", "item": "lemon zest (optional but classic)"},
-      {"amount": "1/4 tsp", "item": "salt"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line a 23x13 cm (9x5 in) loaf pan with parchment.",
-      "Whisk the eggs with the sweetener for 2 minutes until pale and slightly thickened.",
-      "Whisk in the oil, almond milk, vanilla, and lemon zest.",
-      "Stir in the almond flour, ground poppy seeds, baking powder, and salt until evenly combined - the batter will be thick but spoonable.",
-      "Scrape into the pan and smooth the top.",
-      "Bake 45-50 minutes until golden and a skewer comes out clean; tent with foil if the top darkens early.",
-      "Cool in the pan 20 minutes, then on a rack. Dust with a little powdered sweetener before serving if you like."
-    ],
-    "nutrition": {"calories": 219, "fatG": 19.8, "satFatG": 2.3, "proteinG": 7.3, "carbsG": 6.0, "fiberG": 3.0, "netCarbsG": 3.0, "sugarG": 0.9, "sodiumMg": 135},
-    "ketoVariant": "Glaze: whisk 1/3 cup powdered sweetener with 1-2 tbsp lemon juice and drizzle over the cooled cake, about 0.5 g net carbs more per slice.",
-    "tips": "Ground poppy (pereg tachun) releases far more flavor than whole seeds - the traditional Israeli choice. Whole seeds still work but grind them briefly if you can.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/lemon-poppyseed-bundt-cake-low-carb-and-gluten-free/"},
-      {"creator": "Fittoserve Group", "url": "https://www.fittoservegroup.com/keto-poppy-seed-pound-cake/"},
-      {"creator": "My Keto Kitchen", "url": "https://www.myketokitchen.com/keto-recipes/keto-lemon-poppy-seed-loaf/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food's butter bundt (with whey protein), Fittoserve's pound cake, and My Keto Kitchen's loaf. Synthesized an oil-based loaf in the Israeli ugat pereg tradition: ADIDAF's flour-to-egg structure without the specialty protein powder, oil instead of butter to keep it pareve after meat meals, and triple the usual poppy amount using ground pereg for the authentic dense speckle and flavor."
-  }
+﻿[
+    {
+        "id":  "israeli-tahini-cookies",
+        "nameHe":  "עוגיות טחינה",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1/2 כוס / 120 גרם",
+                                  "item":  "טחינה גולמית נוזלית, מעורבבת היטב",
+                                  "israelNote":  "טחינה גולמית איכותית, למשל הר ברכה או אחוה"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 50 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען",
+                                  "israelNote":  "למשל סוכרזית זירו או לקנטו מ-iHerb"
+                              },
+                              {
+                                  "amount":  "2 כפות / 16 גרם",
+                                  "item":  "פשתן טחון",
+                                  "israelNote":  "נמכר במדפי הבריאות בסופרים"
+                              },
+                              {
+                                  "amount":  "2 כפות / 16 גרם",
+                                  "item":  "קמח קוקוס"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "ביצה גדולה בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "שומשום, לפיזור מעל (לא חובה)"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים בפתיתים (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+                               "מערבבים היטב את הטחינה בצנצנת עד לקבלת מרקם נוזלי וחלק, ואז מודדים ממנה לקערת ערבוב.",
+                               "מוסיפים את הממתיק, הפשתן, קמח הקוקוס, הביצה, הווניל ואבקת האפייה. מערבבים במזלג עד שנוצר בצק רך וחלק.",
+                               "מגלגלים ל-16 כדורים קטנים (כ-19 גרם כל אחד) ומניחים על התבנית במרווחים.",
+                               "משטחים כל כדור לעיגול בקוטר 5 ס״מ בכף היד או במזלג; מפזרים שומשום ומעט מלח בפתיתים.",
+                               "אופים 12-15 דקות עד שהשוליים מזהיבים.",
+                               "מצננים לגמרי על התבנית - העוגיות מתייצבות ונעשות פריכות רק אחרי צינון מלא."
+                           ],
+        "lowCarbVariantHe":  "מקפלים פנימה 2 כפות שוקולד צ\u0027יפס ללא סוכר או שוקולד מריר 85% קצוץ (לבדוק סימון פרווה) לגרסת טחינה-שוקולד, תוספת של כ-0.3 גרם פחמימות נטו לעוגייה.",
+        "tipsHe":  "הבצק עובד רק עם טחינה נוזלית - אם הטחינה שלכם סמיכה ויבשה מתחתית הצנצנת, מחממים אותה מעט ומערבבים לפני המדידה.",
+        "comparedVersionsHe":  "הושוותה גרסת הקערה האחת עם פשתן וקמח קוקוס של Sugar Free Londoner מול גרסאות קמח שקדים וחמאה של Life Made Sweeter ו-Stem and Spoon. היחס של Sugar Free Londoner ניצח בזכות היותו פרווה וללא אגוזים באופן טבעי, קערה אחת, רק 1.3 גרם פחמימות נטו והמרקם הפריך ביותר; פיזור השומשום נוסף למראה הישראלי הקלאסי.",
+        "name":  "Israeli Tahini Cookies",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  16,
+        "prepTimeMin":  10,
+        "cookTimeMin":  14,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1/2 cup / 120 g",
+                                "item":  "runny tahini, well stirred",
+                                "israelNote":  "raw tahini (Har Bracha or Achva)"
+                            },
+                            {
+                                "amount":  "1/4 cup / 50 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)",
+                                "israelNote":  "Sucrazit Zero or iHerb Lakanto"
+                            },
+                            {
+                                "amount":  "2 tbsp / 16 g",
+                                "item":  "ground flaxseed",
+                                "israelNote":  "pishtan tachun, sold in health sections"
+                            },
+                            {
+                                "amount":  "2 tbsp / 16 g",
+                                "item":  "coconut flour",
+                                "israelNote":  "kemach kokos"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "large egg, room temperature"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "sesame seeds, for topping (optional)"
+                            },
+                            {
+                                "amount":  "pinch",
+                                "item":  "flaked sea salt (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line a baking sheet with parchment.",
+                             "Stir the tahini well in its jar so you get a runny, oily-smooth spoonful, then measure it into a mixing bowl.",
+                             "Add the sweetener, flaxseed, coconut flour, egg, vanilla, and baking powder. Mix with a fork until a soft, smooth dough forms.",
+                             "Roll into 16 small balls (about 19 g each) and place on the sheet with space between them.",
+                             "Flatten each ball into a 5 cm round with your palm or a fork; sprinkle with sesame seeds and a little flaked salt.",
+                             "Bake 12-15 minutes until the edges turn golden.",
+                             "Cool completely on the tray - they firm up and turn crisp only once fully cool."
+                         ],
+        "nutrition":  {
+                          "calories":  62,
+                          "fatG":  5.2,
+                          "satFatG":  0.7,
+                          "proteinG":  2.2,
+                          "carbsG":  2.8,
+                          "fiberG":  1.5,
+                          "netCarbsG":  1.3,
+                          "sugarG":  0.1,
+                          "sodiumMg":  28
+                      },
+        "lowCarbVariant":  "Fold in 2 tbsp sugar-free or 85% dark chocolate chips (check pareve label) for a tahini-chocolate version, about 0.3 g net carbs more per cookie.",
+        "tips":  "The dough works only with runny tahini - if yours is thick and dry from the bottom of the jar, warm it slightly and stir before measuring.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/keto-tahini-cookies/"
+                        },
+                        {
+                            "creator":  "Life Made Sweeter",
+                            "url":  "https://lifemadesweeter.com/tahini-cookies/"
+                        },
+                        {
+                            "creator":  "Stem and Spoon",
+                            "url":  "https://stemandspoon.com/coconut-chocolate-chip-tahini-cookies-keto-low-carb-gf/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Sugar Free Londoner\u0027s one-bowl flax-coconut flour version against almond-flour-plus-butter versions from Life Made Sweeter and Stem and Spoon. The Sugar Free Londoner ratio won for being naturally pareve and nut-free, one bowl, only 1.3 g net carbs, and the crispest texture; sesame topping added for the classic Israeli look."
+    },
+    {
+        "id":  "flourless-almond-orange-cake",
+        "nameHe":  "עוגת שקדים ותפוזים ללא קמח",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2",
+                                  "item":  "תפוזים שלמים, לא מצופים בשעווה, שטופים",
+                                  "israelNote":  "תפוזים קטנים עם קליפה דקה עובדים הכי טוב; להימנע מתפוזי נאבל גדולים מאוד כדי לשמור על פחמימות נמוכות"
+                              },
+                              {
+                                  "amount":  "2 1/2 כוסות / 250 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "5",
+                                  "item":  "ביצים בינוניות, מופרדות"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 100 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "הל טחון (לא חובה)",
+                                  "israelNote":  "זמין בכל חנויות התבלינים"
+                              },
+                              {
+                                  "amount":  "2 כפות / 15 גרם",
+                                  "item":  "שקדים פרוסים, לפיזור מעל"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מניחים את התפוזים השלמים בסיר, מכסים במים ומבשלים בבעבוע עדין שעה עד שהם רכים לגמרי (זה מסלק את מרירות הקליפה). מסננים ומצננים מעט.",
+                               "מחממים תנור ל-180 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ או תבנית קפיצית בקוטר 20 ס״מ בנייר אפייה.",
+                               "חוצים את התפוזים, מוציאים גרעינים אם יש, וטוחנים אותם - כולל הקליפה - למחית חלקה.",
+                               "טורפים את החלמונים עם הממתיק עד להבהרה, ואז מערבבים פנימה את מחית התפוזים, הווניל וההל.",
+                               "מוסיפים את קמח השקדים ואבקת האפייה ומערבבים עד לאיחוד.",
+                               "בקערה נקייה מקציפים את החלבונים לקצף יציב ומקפלים אותם בעדינות לבלילה בשתי פעמים.",
+                               "יוצקים לתבנית, מפזרים שקדים פרוסים ואופים כ-50 דקות עד שקיסם יוצא נקי; מכסים בנייר אלומיניום אם החלק העליון משחים מהר מדי.",
+                               "מצננים לגמרי בתבנית לפני החיתוך - העוגה עדינה כשהיא חמה."
+                           ],
+        "ketoVariantHe":  "משתמשים בתפוז אחד ועוד כפית תמצית תפוז במקום 2 תפוזים כדי לרדת לכ-2.5 גרם פחמימות נטו לפרוסה.",
+        "tipsHe":  "מבשלים את התפוזים יום מראש - אחרי שהם מבושלים וטחונים, העוגה מוכנה תוך 15 דקות.",
+        "comparedVersionsHe":  "הושוותה השיטה הקלאסית של תפוז שלם מבושל (Sugar Free Londoner‏, Spinach Tiger) מול קיצור הדרך ללא בישול של Thinlicious. גרסת התפוז המבושל ניצחה בעומק הטעם ובלחות; טכניקת החלבונים המוקצפים של Sugar Free Londoner נותנת את הפירור הקליל ביותר, וממתיק מגורען מדוד מחליף את טיפות הסטיביה שלה לרכישה קלה יותר בישראל. פרווה וללא חלב באופן טבעי.",
+        "name":  "Flourless Almond-Orange Cake",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  20,
+        "cookTimeMin":  110,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "2",
+                                "item":  "whole oranges, unwaxed, washed",
+                                "israelNote":  "small thin-skinned oranges work best; avoid very large navels to keep carbs down"
+                            },
+                            {
+                                "amount":  "2.5 cups / 250 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "5",
+                                "item":  "medium eggs, separated"
+                            },
+                            {
+                                "amount":  "1/2 cup / 100 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cardamom (optional)",
+                                "israelNote":  "hel - widely available in spice shops"
+                            },
+                            {
+                                "amount":  "2 tbsp / 15 g",
+                                "item":  "flaked almonds, for topping"
+                            }
+                        ],
+        "instructions":  [
+                             "Put the whole oranges in a pot, cover with water, and simmer for 1 hour until completely soft (this removes the peel\u0027s bitterness). Drain and cool slightly.",
+                             "Heat the oven to 180°C / 350°F and line a 23x13 cm (9x5 in) loaf pan or 20 cm springform with parchment.",
+                             "Cut the oranges open, remove any seeds, and puree them - peel and all - to a smooth pulp.",
+                             "Whisk the egg yolks with the sweetener until pale, then stir in the orange pulp, vanilla, and cardamom.",
+                             "Mix in the almond flour and baking powder until combined.",
+                             "In a clean bowl, beat the egg whites to stiff peaks and fold them gently into the batter in two additions.",
+                             "Pour into the pan, scatter with flaked almonds, and bake about 50 minutes until a skewer comes out clean; tent with foil if the top browns too fast.",
+                             "Cool fully in the pan before slicing - the cake is delicate while warm."
+                         ],
+        "nutrition":  {
+                          "calories":  180,
+                          "fatG":  13.4,
+                          "satFatG":  1.5,
+                          "proteinG":  7.4,
+                          "carbsG":  6.4,
+                          "fiberG":  2.7,
+                          "netCarbsG":  3.7,
+                          "sugarG":  2.6,
+                          "sodiumMg":  62
+                      },
+        "ketoVariant":  "Use 1 orange plus 1 tsp orange extract instead of 2 oranges to drop to roughly 2.5 g net carbs per slice.",
+        "tips":  "Boil the oranges a day ahead - once they are cooked and pureed, the cake comes together in 15 minutes.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/orange-almond-breakfast-cake/"
+                        },
+                        {
+                            "creator":  "Thinlicious",
+                            "url":  "https://thinlicious.com/almond-and-orange-flourless-cake/"
+                        },
+                        {
+                            "creator":  "Spinach Tiger",
+                            "url":  "https://spinachtiger.com/italian-orange-almond-cake-with-whole-oranges-gluten-free-low-carb-paleo/"
+                        }
+                    ],
+        "comparedVersions":  "Compared the classic boiled-whole-orange method (Sugar Free Londoner, Spinach Tiger) with Thinlicious\u0027s no-boil shortcut. The boiled-orange version won on flavor depth and moisture; Sugar Free Londoner\u0027s beaten-egg-white technique gives the lightest crumb, and a measured granulated sweetener replaces her stevia drops for easier Israeli sourcing. Naturally pareve and dairy-free."
+    },
+    {
+        "id":  "chocolate-zucchini-bread",
+        "nameHe":  "עוגת שוקולד וקישואים",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 כוסות / 250 גרם",
+                                  "item":  "קישואים מגוררים (כ-2 בינוניים)",
+                                  "israelNote":  "הקישוא הישראלי הבהיר עובד מצוין"
+                              },
+                              {
+                                  "amount":  "3",
+                                  "item":  "ביצים גדולות בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "2/3 כוס / 130 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "1 1/2 כוסות / 150 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 25 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 מ״ל",
+                                  "item":  "שמן קוקוס מומס"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 מ״ל",
+                                  "item":  "קרם קוקוס",
+                                  "israelNote":  "החלק הסמיך של חלב קוקוס משימורים"
+                              },
+                              {
+                                  "amount":  "1 1/2 כפיות",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 60 גרם",
+                                  "item":  "שוקולד צ\u0027יפס מריר 60% ומעלה (לא חובה)",
+                                  "israelNote":  "לבדוק סימון פרווה; גם שוקולד מריר 85% קצוץ עובד"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
+                               "עוטפים את הקישואים המגוררים במגבת מטבח נקייה וסוחטים חזק - אמורות לצאת כמה כפות נוזלים ולהישאר כ-1 כוס דחוסה.",
+                               "טורפים בקערה גדולה את הביצים עם הממתיק עד לקבלת קצף קל, ואז טורפים פנימה את שמן הקוקוס המומס, קרם הקוקוס והווניל.",
+                               "מוסיפים את קמח השקדים, הקקאו, אבקת האפייה והמלח ומערבבים לבלילה חלקה וסמיכה.",
+                               "מקפלים פנימה את הקישואים הסחוטים ואת רוב השוקולד צ\u0027יפס.",
+                               "מעבירים לתבנית, מפזרים מעל את שאר השוקולד צ\u0027יפס ואופים 50-55 דקות עד שקיסם יוצא עם פירורים לחים בלבד.",
+                               "מצננים בתבנית לפחות 30 דקות לפני החיתוך - העוגה מתייצבת תוך כדי הצינון."
+                           ],
+        "lowCarbVariantHe":  "גרסה חלבית: מחליפים את שמן הקוקוס בחמאה מומסת ואת קרם הקוקוס בשמנת מתוקה (העוגה הופכת לחלבית בהתאם).",
+        "tipsHe":  "סחיטת הקישואים היא השלב הקריטי - מדלגים עליה והעוגה יוצאת דביקה.",
+        "comparedVersionsHe":  "הושוו העוגה בקערה אחת של Low Carb Spark, הגרסה של Sweet As Honey וגרסת סווירל חמאת השקדים של Stem and Spoon. היחסים של Low Carb Spark ניצחו בפשטות (קערה אחת, בלי שלב סווירל) ובלחות; אפשרות שמן הקוקוס וקרם הקוקוס נבחרה על פני חמאה ושמנת כדי שהעוגה תישאר פרווה ותוכל לבוא אחרי ארוחה בשרית.",
+        "name":  "Chocolate Zucchini Bread",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  15,
+        "cookTimeMin":  55,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cups / 250 g",
+                                "item":  "shredded zucchini (about 2 medium)",
+                                "israelNote":  "kishu - the light-green Israeli variety works well"
+                            },
+                            {
+                                "amount":  "3",
+                                "item":  "large eggs, room temperature"
+                            },
+                            {
+                                "amount":  "2/3 cup / 130 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1.5 cups / 150 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/4 cup / 25 g",
+                                "item":  "unsweetened cocoa powder"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 ml",
+                                "item":  "melted coconut oil"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 ml",
+                                "item":  "coconut cream",
+                                "israelNote":  "the thick part of canned coconut milk"
+                            },
+                            {
+                                "amount":  "1.5 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/3 cup / 60 g",
+                                "item":  "dark chocolate chips, 60%+ (optional)",
+                                "israelNote":  "check pareve label; chopped 85% dark chocolate works"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line a 23x13 cm (9x5 in) loaf pan with parchment.",
+                             "Wrap the shredded zucchini in a clean kitchen towel and squeeze hard - you should press out several tablespoons of liquid and end with about 1 cup packed.",
+                             "In a large bowl, whisk the eggs with the sweetener until frothy, then whisk in the melted coconut oil, coconut cream, and vanilla.",
+                             "Stir in the almond flour, cocoa, baking powder, and salt until you have a smooth, thick batter.",
+                             "Fold in the squeezed zucchini and most of the chocolate chips.",
+                             "Scrape into the pan, scatter the remaining chips on top, and bake 50-55 minutes until a skewer comes out with only moist crumbs.",
+                             "Cool in the pan at least 30 minutes before slicing - it sets as it cools."
+                         ],
+        "nutrition":  {
+                          "calories":  152,
+                          "fatG":  13.3,
+                          "satFatG":  5.8,
+                          "proteinG":  4.4,
+                          "carbsG":  5.6,
+                          "fiberG":  2.4,
+                          "netCarbsG":  3.2,
+                          "sugarG":  1.3,
+                          "sodiumMg":  92
+                      },
+        "lowCarbVariant":  "Dairy version: swap coconut oil for melted butter and coconut cream for heavy cream (makes it dairy, kosherType changes accordingly).",
+        "tips":  "Squeezing the zucchini is the make-or-break step - skip it and the loaf turns gummy.",
+        "sources":  [
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/keto-chocolate-zucchini-bread/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/keto-chocolate-zucchini-bread/"
+                        },
+                        {
+                            "creator":  "Stem and Spoon",
+                            "url":  "https://stemandspoon.com/keto-chocolate-zucchini-bread-with-almond-butter-swirl/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Low Carb Spark\u0027s one-bowl loaf, Sweet As Honey\u0027s version, and Stem and Spoon\u0027s almond-butter-swirl variation. Low Carb Spark\u0027s ratios won for simplicity (one bowl, no swirl step) and moisture; the coconut oil + coconut cream option was chosen over butter/heavy cream so the loaf stays pareve and can follow a meat meal."
+    },
+    {
+        "id":  "snickerdoodle-cookies",
+        "nameHe":  "עוגיות סניקרדודל",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 כוסות / 200 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "2 כפות / 16 גרם",
+                                  "item":  "קמח קוקוס"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 113 גרם",
+                                  "item":  "חמאה רכה"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 65 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "ביצה גדולה בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "קרם טרטר",
+                                  "israelNote":  "נמכר כ\u0027קרם אוף טרטר\u0027 בחנויות אפייה; כפית מיץ לימון היא תחליף סביר"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "סודה לשתייה"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח"
+                              },
+                              {
+                                  "amount":  "2 כפות + 2 כפיות",
+                                  "item":  "ממתיק מגורען + קינמון, לציפוי"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-170 מעלות ומרפדים שתי תבניות אפייה בנייר אפייה.",
+                               "מקציפים את החמאה הרכה עם הממתיק 2-3 דקות עד לקבלת תערובת בהירה ואוורירית, ואז מקציפים פנימה את הביצה והווניל.",
+                               "מוסיפים את קמח השקדים, קמח הקוקוס, קרם הטרטר, הסודה לשתייה והמלח ומערבבים עד שנוצר בצק רך.",
+                               "מערבבים בקערית את ממתיק הציפוי עם הקינמון.",
+                               "מגלגלים את הבצק ל-20 כדורים (כ-2.5 ס״מ) ומגלגלים כל אחד בנדיבות בתערובת הקינמון.",
+                               "מניחים על התבניות ומשטחים לעובי של כ-1.5 ס״מ, במרווח של 5 ס״מ בין העוגיות.",
+                               "אופים 10-12 דקות עד להזהבה קלה בשוליים - הן ייראו לא אפויות במרכז.",
+                               "מצננים על התבנית 10 דקות; הן מתייצבות תוך כדי הצינון."
+                           ],
+        "ketoVariantHe":  "החלפה לפרווה: שמן קוקוס מזוכך (מוצק, לא מומס) במקום החמאה - המרקם מעט פירורי יותר אבל הטעם נשמר.",
+        "tipsHe":  "קרם הטרטר הוא מה שנותן את החמיצות האופיינית - לא מדלגים עליו. מגלגלים את הכדורים בציפוי הקינמון פעמיים לקראסט עבה יותר.",
+        "comparedVersionsHe":  "הושוו All Day I Dream About Food (מוסיפה אבקת קולגן), Gnom-Gnom (מוסיפה קסנטן גאם) ו-Low Carb Maven. סונתזה דרך האמצע: גוף קמח השקדים והקוקוס הפשוט של ADIDAF בלי הקולגן המיוחד, טכניקת הקצפת החמאה וכמות קרם הטרטר של Gnom-Gnom, ואפייה מתונה ב-170 מעלות בין שני הקצוות שלהם. פחות מ-2 גרם פחמימות נטו עם רשימת מזווה של 10 מרכיבים.",
+        "name":  "Snickerdoodle Cookies",
+        "category":  "baking-sweet",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  20,
+        "prepTimeMin":  15,
+        "cookTimeMin":  12,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cups / 200 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "2 tbsp / 16 g",
+                                "item":  "coconut flour"
+                            },
+                            {
+                                "amount":  "1/2 cup / 113 g",
+                                "item":  "butter, softened"
+                            },
+                            {
+                                "amount":  "1/3 cup / 65 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "large egg, room temperature"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "cream of tartar",
+                                "israelNote":  "sold as \u0027cream of tartar\u0027 in baking shops; 1 tsp lemon juice is a workable substitute"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "baking soda"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "2 tbsp + 2 tsp",
+                                "item":  "granulated sweetener + cinnamon, for coating"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 170°C / 340°F and line two baking sheets with parchment.",
+                             "Beat the softened butter with the sweetener for 2-3 minutes until light and fluffy, then beat in the egg and vanilla.",
+                             "Mix in the almond flour, coconut flour, cream of tartar, baking soda, and salt until a soft dough forms.",
+                             "Stir the coating sweetener and cinnamon together in a small bowl.",
+                             "Roll the dough into 20 balls (about 2.5 cm) and roll each generously in the cinnamon mixture.",
+                             "Place on the sheets and flatten to about 1.5 cm thick, leaving 5 cm between cookies.",
+                             "Bake 10-12 minutes until just golden at the edges - they will look underdone in the center.",
+                             "Cool on the tray 10 minutes; they firm up as they cool."
+                         ],
+        "nutrition":  {
+                          "calories":  108,
+                          "fatG":  10.1,
+                          "satFatG":  3.5,
+                          "proteinG":  2.9,
+                          "carbsG":  3.0,
+                          "fiberG":  1.4,
+                          "netCarbsG":  1.6,
+                          "sugarG":  0.4,
+                          "sodiumMg":  78
+                      },
+        "ketoVariant":  "Pareve swap: use refined coconut oil (solid, not melted) instead of butter - texture is slightly more crumbly but flavor holds.",
+        "tips":  "Cream of tartar is what gives the trademark tang - don\u0027t skip it. Roll the balls in the cinnamon coating twice for a thicker crust.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/perfect-keto-snickerdoodles/"
+                        },
+                        {
+                            "creator":  "Gnom-Gnom",
+                            "url":  "https://www.gnom-gnom.com/keto-snickerdoodle-cookies/"
+                        },
+                        {
+                            "creator":  "Low Carb Maven",
+                            "url":  "https://www.lowcarbmaven.com/keto-snickerdoodle-cookies/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food (adds collagen powder), Gnom-Gnom (adds xanthan gum), and Low Carb Maven. Synthesized the middle path: ADIDAF\u0027s simple almond+coconut flour body without the specialty collagen, Gnom-Gnom\u0027s well-creamed butter technique and cream of tartar amount, and a moderate 170°C bake between their two extremes. Under 2 g net carbs with a 10-ingredient pantry list."
+    },
+    {
+        "id":  "butter-shortbread-cookies",
+        "nameHe":  "עוגיות חמאה פריכות",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 כוסות / 200 גרם",
+                                  "item":  "קמח שקדים טחון דק",
+                                  "israelNote":  "להשתמש בטחינה הדקה ביותר שמוצאים"
+                              },
+                              {
+                                  "amount":  "6 כפות / 85 גרם",
+                                  "item":  "חמאה מומסת"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 40 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) אבקה",
+                                  "israelNote":  "טוחנים ממתיק מגורען במטחנת תבלינים לאבקה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/8 כפית",
+                                  "item":  "מלח"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-160 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+                               "טורפים את החמאה המומסת עם ממתיק האבקה, הווניל והמלח.",
+                               "מוסיפים את קמח השקדים, מערבבים ואז לשים קצרות בידיים עד שנוצר בצק חלק.",
+                               "מחלקים ל-12 חלקים, מגלגלים לכדורים ומשטחים על התבנית לעיגולים בקוטר 5 ס״מ ובעובי כ-6 מ״מ.",
+                               "דוקרים כל עוגייה כמה פעמים במזלג למראה השורטברד הקלאסי.",
+                               "אופים 12-15 דקות עד שהשוליים מזהיבים ועולה ריח נהדר.",
+                               "מצננים לגמרי על התבנית - הן שבירות כשהן חמות ונשברות בפריכות אחרי הצינון."
+                           ],
+        "ketoVariantHe":  "טובלים חצי מכל עוגייה מצוננת בשוקולד מריר 85% מומס - תוספת של כ-1 גרם פחמימות נטו.",
+        "lowCarbVariantHe":  "החלפה לפרווה: שמן קוקוס מזוכך במקום החמאה; מוסיפים עוד 1/4 כפית וניל לפיצוי על טעם החמאה.",
+        "tipsHe":  "מכיוון שהעוגיות כמעט כולן חמאה ושקדים, שומרים אותן במקרר - הן נשמרות שבועיים וטעימות הכי הרבה צוננות או בטמפרטורת חדר קרירה.",
+        "comparedVersionsHe":  "הושוו שיטת 5 המרכיבים עם החמאה המומסת של Healthy Recipes Blog‏, Cast Iron Keto והגרסה של The Big Man\u0027s World. היחס של Healthy Recipes Blog ‏(200 גרם קמח שקדים : 85 גרם חמאה) ניצח - בלי קירור, בלי מערוך, 5 מרכיבים - עם אריתריטול אבקה במקום סטיביה גליצריט שקשה להשיג בישראל.",
+        "name":  "Butter Shortbread Cookies",
+        "category":  "baking-sweet",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  10,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cups / 200 g",
+                                "item":  "fine blanched almond flour",
+                                "israelNote":  "kemach shkedim - use the finest grind you can find"
+                            },
+                            {
+                                "amount":  "6 tbsp / 85 g",
+                                "item":  "butter, melted"
+                            },
+                            {
+                                "amount":  "1/4 cup / 40 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)",
+                                "israelNote":  "blitz granulated sweetener in a spice grinder to powder it"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/8 tsp",
+                                "item":  "salt"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 160°C / 325°F and line a baking sheet with parchment.",
+                             "Whisk the melted butter with the powdered sweetener, vanilla, and salt.",
+                             "Add the almond flour and mix, then knead briefly with your hands until a smooth dough forms.",
+                             "Divide into 12 pieces, roll into balls, and flatten on the sheet into 5 cm rounds about 6 mm thick.",
+                             "Prick each cookie a few times with a fork for the classic shortbread look.",
+                             "Bake 12-15 minutes until golden at the edges and fragrant.",
+                             "Cool on the tray completely - they are fragile hot and snap crisp once cool."
+                         ],
+        "nutrition":  {
+                          "calories":  149,
+                          "fatG":  14.2,
+                          "satFatG":  3.8,
+                          "proteinG":  4.0,
+                          "carbsG":  4.0,
+                          "fiberG":  2.0,
+                          "netCarbsG":  2.0,
+                          "sugarG":  0.7,
+                          "sodiumMg":  38
+                      },
+        "ketoVariant":  "Dip half of each cooled cookie in melted 85% dark chocolate for about 1 g net carbs more.",
+        "lowCarbVariant":  "Pareve swap: refined coconut oil replaces butter; add an extra 1/4 tsp vanilla to compensate for the lost butter flavor.",
+        "tips":  "Because these are nearly all butter and almonds, store them in the fridge - they keep 2 weeks and taste best chilled or at cool room temperature.",
+        "sources":  [
+                        {
+                            "creator":  "Healthy Recipes Blog",
+                            "url":  "https://healthyrecipesblogs.com/almond-flour-shortbread-cookies/"
+                        },
+                        {
+                            "creator":  "Cast Iron Keto",
+                            "url":  "https://www.castironketo.net/blog/almond-flour-shortbread-cookies/"
+                        },
+                        {
+                            "creator":  "The Big Man\u0027s World",
+                            "url":  "https://thebigmansworld.com/keto-shortbread-cookies/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Healthy Recipes Blog\u0027s 5-ingredient melted-butter method, Cast Iron Keto, and The Big Man\u0027s World\u0027s version. The Healthy Recipes Blog ratio (200 g almond flour : 85 g butter) won - no chilling, no rolling pin, 5 ingredients - with powdered erythritol swapped in for her stevia glycerite, which is hard to find in Israel."
+    },
+    {
+        "id":  "double-chocolate-muffins",
+        "nameHe":  "מאפינס שוקולד כפול",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "3",
+                                  "item":  "ביצים גדולות"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 120 מ״ל",
+                                  "item":  "משקה שקדים ללא סוכר",
+                                  "israelNote":  "משקה שקדים לא ממותק, למשל אלפרו או בלו דיאמונד"
+                              },
+                              {
+                                  "amount":  "1 כוס / 100 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 28 גרם",
+                                  "item":  "קמח קוקוס"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 25 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 65 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 מ״ל",
+                                  "item":  "שמן אבוקדו או שמן זית עדין"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 60 גרם",
+                                  "item":  "שוקולד צ\u0027יפס ללא סוכר או שוקולד מריר 85%",
+                                  "israelNote":  "שוקולד מריר 85% קצוץ עובד; לבדוק סימון פרווה"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-165 מעלות ומרפדים 9 שקעי מאפינס במנג\u0027טים.",
+                               "מבלנדרים את הביצים, משקה השקדים והווניל בבלנדר (או טורפים היטב ביד) עד לקבלת קצף קל.",
+                               "מוסיפים את קמח השקדים, קמח הקוקוס, הקקאו, הממתיק, אבקת האפייה והמלח; מבלנדרים עד לבלילה חלקה.",
+                               "מוסיפים את השמן ומבלנדרים רק עד לאיחוד.",
+                               "מערבבים פנימה ביד את רוב השוקולד צ\u0027יפס.",
+                               "מחלקים את הבלילה בין השקעים, מפזרים מעל את שאר השוקולד צ\u0027יפס ואופים 22-25 דקות עד שהחלק העליון יציב ומוצק למגע.",
+                               "מצננים בתבנית 10 דקות - הפירור מסיים להתייצב תוך כדי הצינון."
+                           ],
+        "ketoVariantHe":  "מוסיפים 1/2 כפית אספרסו נמס למרכיבים היבשים - בלי טעם של קפה, רק שוקולד עמוק יותר.",
+        "tipsHe":  "שמן נוזלי (לא שמן קוקוס) שומר על בלילת הבלנדר נוזלית; מנג\u0027טים הם חובה כי בלילות קקאו נדבקות.",
+        "comparedVersionsHe":  "הושוו מאפיני הבלנדר של All Day I Dream About Food, הגרסה על בסיס חמאה של Low Carb Spark והגרסה של Gnom-Gnom. ADIDAF ניצחה גם בפשטות (הכול בבלנדר) וגם בגמישות הכשרות - הבסיס שלה משמן וממשקה שקדים פרווה באופן טבעי, בניגוד לגרסאות החמאה והשמנת החמוצה - עם הממתיק שהוגדל מעט לכיוון הרמה של Low Carb Spark למאפין מתוק כמו שצריך.",
+        "name":  "Double Chocolate Muffins",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  9,
+        "prepTimeMin":  10,
+        "cookTimeMin":  25,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "3",
+                                "item":  "large eggs"
+                            },
+                            {
+                                "amount":  "1/2 cup / 120 ml",
+                                "item":  "unsweetened almond milk",
+                                "israelNote":  "mashkeh shkedim lo mumtak (Alpro/Blue Diamond)"
+                            },
+                            {
+                                "amount":  "1 cup / 100 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/4 cup / 28 g",
+                                "item":  "coconut flour"
+                            },
+                            {
+                                "amount":  "1/4 cup / 25 g",
+                                "item":  "unsweetened cocoa powder"
+                            },
+                            {
+                                "amount":  "1/3 cup / 65 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 ml",
+                                "item":  "avocado oil or light olive oil"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1/3 cup / 60 g",
+                                "item":  "sugar-free or 85% dark chocolate chips",
+                                "israelNote":  "chopped 85% dark chocolate works; check pareve label"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 165°C / 325°F and line 9 muffin cups with paper liners.",
+                             "Blend the eggs, almond milk, and vanilla in a blender (or whisk well by hand) until frothy.",
+                             "Add the almond flour, coconut flour, cocoa, sweetener, baking powder, and salt; blend until smooth.",
+                             "Add the oil and blend just until combined.",
+                             "Stir in most of the chocolate chips by hand.",
+                             "Divide the batter among the cups, top with the remaining chips, and bake 22-25 minutes until the tops are set and firm to the touch.",
+                             "Cool in the pan 10 minutes - the crumb finishes setting as they cool."
+                         ],
+        "nutrition":  {
+                          "calories":  204,
+                          "fatG":  17.2,
+                          "satFatG":  3.9,
+                          "proteinG":  6.3,
+                          "carbsG":  9.3,
+                          "fiberG":  4.5,
+                          "netCarbsG":  4.8,
+                          "sugarG":  0.9,
+                          "sodiumMg":  190
+                      },
+        "ketoVariant":  "Add 1/2 tsp instant espresso powder to the dry ingredients - no coffee taste, just deeper chocolate.",
+        "tips":  "Liquid oil (not coconut oil) keeps the blender batter pourable; paper liners are essential because cocoa batters stick.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/low-carb-double-chocolate-blender-muffins/"
+                        },
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/keto-double-chocolate-muffins/"
+                        },
+                        {
+                            "creator":  "Gnom-Gnom",
+                            "url":  "https://www.gnom-gnom.com/paleo-keto-double-chocolate-muffins/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food\u0027s blender muffins, Low Carb Spark\u0027s butter-based version, and Gnom-Gnom\u0027s. ADIDAF won on both simplicity (everything in a blender) and kosher flexibility - her oil-and-almond-milk base is naturally pareve, unlike the butter/sour-cream versions - with the sweetener nudged up slightly toward Low Carb Spark\u0027s level for a properly sweet muffin."
+    },
+    {
+        "id":  "marble-cake",
+        "nameHe":  "עוגת שיש",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "5",
+                                  "item":  "ביצים גדולות בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "2/3 כוס / 120 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) אבקה"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 114 גרם",
+                                  "item":  "חמאה, מומסת ומצוננת"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 גרם",
+                                  "item":  "יוגורט טבעי או שמנת מתוקה"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 מ״ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "2 1/4 כוסות / 225 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 30 גרם",
+                                  "item":  "קמח קוקוס"
+                              },
+                              {
+                                  "amount":  "2 כפות / 12 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "תמצית וניל"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-180 מעלות (160 בטורבו) ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
+                               "טורפים את הביצים עם ממתיק האבקה 2-3 דקות עד לתערובת בהירה ומוקצפת.",
+                               "טורפים פנימה את החמאה המומסת, היוגורט, משקה השקדים והווניל.",
+                               "מוסיפים את קמח השקדים, קמח הקוקוס ואבקת האפייה ומערבבים לבלילה חלקה וסמיכה.",
+                               "מעבירים שליש מהבלילה לקערה שנייה ומערבבים פנימה את הקקאו (מדללים במעט משקה שקדים אם סמיך מאוד).",
+                               "מניחים את שתי הבלילות בתבנית בכפות לסירוגין, טופחים עם התבנית על השיש ליישור, ואז מעבירים סכין בתנועת S לרוחב ופעם אחת לאורך ליצירת דוגמת השיש.",
+                               "אופים 55-60 דקות עד להזהבה עמוקה ועד שקיסם יוצא נקי; מכסים בנייר אלומיניום אחרי 40 דקות אם משחים מהר.",
+                               "מצננים בתבנית 15 דקות, ואז מסיימים לצנן על רשת לפני החיתוך."
+                           ],
+        "lowCarbVariantHe":  "החלפה לפרווה: שמן קוקוס מזוכך מומס במקום החמאה ויוגורט על בסיס קוקוס במקום היוגורט החלבי - הפירור נשאר לח והעוגה יכולה לבוא אחרי ארוחה בשרית.",
+        "tipsHe":  "מערבלים רק פעמיים - ערבול יתר מערבב את הבלילות לצבע אחיד ובוצי.",
+        "comparedVersionsHe":  "הושוו עוגות השיש של Sugar Free Londoner‏, Low Carb Spark ו-Peace Love and Low Carb. היחסים של Sugar Free Londoner ניצחו: שילוב היוגורט ומשקה השקדים נותן את הפירור הלח ביותר מבין השלוש, חלוקת הקקאו לשליש מהבלילה נותנת את הסווירל הברור ביותר, וטכניקת הסכין שלה מפורשת וניתנת לשחזור. עם 2.6 גרם פחמימות נטו היא גם הדלה ביותר בפחמימות מהגרסאות שהושוו.",
+        "name":  "Marble Cake",
+        "category":  "baking-sweet",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  20,
+        "cookTimeMin":  60,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "5",
+                                "item":  "large eggs, room temperature"
+                            },
+                            {
+                                "amount":  "2/3 cup / 120 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 114 g",
+                                "item":  "butter, melted and cooled"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 g",
+                                "item":  "plain yogurt or heavy cream"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 ml",
+                                "item":  "unsweetened almond milk",
+                                "israelNote":  "mashkeh shkedim lo mumtak"
+                            },
+                            {
+                                "amount":  "2.25 cups / 225 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/4 cup / 30 g",
+                                "item":  "coconut flour"
+                            },
+                            {
+                                "amount":  "2 tbsp / 12 g",
+                                "item":  "unsweetened cocoa powder"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "vanilla extract"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 180°C / 350°F (160°C fan) and line a 23x13 cm (9x5 in) loaf pan with parchment.",
+                             "Whisk the eggs with the powdered sweetener until pale and frothy, 2-3 minutes.",
+                             "Whisk in the melted butter, yogurt, almond milk, and vanilla.",
+                             "Stir in the almond flour, coconut flour, and baking powder until you have a smooth, thick batter.",
+                             "Transfer one third of the batter to a second bowl and stir in the cocoa powder (loosen with a splash of almond milk if very thick).",
+                             "Spoon the two batters into the pan in alternating dollops, tap the pan on the counter to level, then drag a knife through in an S-motion sideways and once lengthwise to marble.",
+                             "Bake 55-60 minutes until deep golden and a skewer comes out clean; tent with foil after 40 minutes if browning fast.",
+                             "Cool in the pan 15 minutes, then finish cooling on a rack before slicing."
+                         ],
+        "nutrition":  {
+                          "calories":  175,
+                          "fatG":  14.9,
+                          "satFatG":  5.2,
+                          "proteinG":  6.1,
+                          "carbsG":  3.9,
+                          "fiberG":  2.0,
+                          "netCarbsG":  2.6,
+                          "sugarG":  0.7,
+                          "sodiumMg":  140
+                      },
+        "lowCarbVariant":  "Pareve swap: melted refined coconut oil for the butter and coconut-based yogurt for the dairy yogurt - the crumb stays moist and the cake can follow a meat meal.",
+        "tips":  "Swirl only twice - over-marbling blends the batters into a muddy single color.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/keto-marble-cake/"
+                        },
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/keto-marble-cake/"
+                        },
+                        {
+                            "creator":  "Peace Love and Low Carb",
+                            "url":  "https://peaceloveandlowcarb.com/keto-chocolate-vanilla-marble-pound-cake/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Sugar Free Londoner, Low Carb Spark, and Peace Love and Low Carb marble pound cakes. Sugar Free Londoner\u0027s ratios won: the yogurt plus almond-milk combination gives the moistest crumb of the three, her cocoa-to-one-third-of-batter split gives the clearest swirl, and her knife-swirl technique is explicit and repeatable. At 2.6 g net carbs it is also the lowest-carb of the versions compared."
+    },
+    {
+        "id":  "thumbprint-cookies-chia-berry-jam",
+        "nameHe":  "עוגיות טביעת אצבע עם ריבת צ\u0027יה ופטל",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 1/4 כוסות / 250 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 90 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 110 גרם",
+                                  "item":  "שמן קוקוס מזוכך, רך אך לא מומס"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "ביצה גדולה"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "תמצית וניל או תמצית שקדים"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח"
+                              },
+                              {
+                                  "amount":  "1 1/2 כוסות / 180 גרם",
+                                  "item":  "פטל, טרי או קפוא (לריבה)",
+                                  "israelNote":  "פטל קפוא ממדף המקפיאים עובד מצוין"
+                              },
+                              {
+                                  "amount":  "2 כפות / 20 גרם",
+                                  "item":  "זרעי צ\u0027יה (לריבה)",
+                                  "israelNote":  "במדפי הבריאות בסופרים"
+                              },
+                              {
+                                  "amount":  "3 כפות / 35 גרם",
+                                  "item":  "ממתיק מגורען + 3 כפות מים (לריבה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מכינים קודם את הריבה: מבשלים את הפטל, 3 כפות הממתיק והמים בסיר קטן 5 דקות תוך מעיכת הפירות. מערבבים פנימה את זרעי הצ\u0027יה ומבשלים עוד 8-10 דקות עד להסמכה. מצננים לגמרי (היא מסמיכה עוד).",
+                               "מחממים תנור ל-165 מעלות ומרפדים שתי תבניות אפייה בנייר אפייה.",
+                               "מקציפים את שמן הקוקוס עם 1/2 כוס הממתיק עד לקבלת קרם, ואז מקציפים פנימה את הביצה והתמצית.",
+                               "מוסיפים את קמח השקדים, אבקת האפייה והמלח ומערבבים לבצק רך. אם דביק, מקררים 20 דקות.",
+                               "מגלגלים ל-24 כדורים קטנים, מניחים על התבניות, משטחים מעט ולוחצים גומה עמוקה במרכז כל אחד עם האגודל.",
+                               "אופים 12-15 דקות עד להזהבה בשוליים; אם הגומות תפחו, לוחצים אותן שוב בעדינות עם כפית מיד ביציאה מהתנור.",
+                               "מצננים את העוגיות, ואז ממלאים כל גומה בכ-1 כפית מריבת הצ\u0027יה המצוננת.",
+                               "שומרים במקרר; הריבה שומרת על העוגיות טריות כ-5 ימים."
+                           ],
+        "lowCarbVariantHe":  "גרסת חמאה (חלבית): מחליפים את שמן הקוקוס בחמאה רכה לטעם שורטברד עשיר וקלאסי יותר.",
+        "tipsHe":  "ריבת צ\u0027יה שנשארה נשמרת חודש במקרר ומצוינת גם כתוספת ליוגורט או לפנקייק קיטו.",
+        "comparedVersionsHe":  "הושוו בצק החמאה עם ריבת הג\u0027לטין של All Day I Dream About Food, בצק שמן הקוקוס ללא חלב של The Roasted Root ושיטת ריבת הצ\u0027יה של The Harvest Skillet. סונתזו יחסי הבצק הבדוקים של ADIDAF ‏(250 גרם קמח : 110 גרם שומן : ביצה) בגרסה פרווה עם שמן קוקוס לפי The Roasted Root, בשילוב ריבת הצ\u0027יה של The Harvest Skillet - צ\u0027יה לא דורשת השריית ג\u0027לטין, מוסיפה סיבים ושומרת על העוגייה כולה פרווה.",
+        "name":  "Thumbprint Cookies with Chia Berry Jam",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  24,
+        "prepTimeMin":  25,
+        "cookTimeMin":  15,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "2.25 cups / 250 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/2 cup / 90 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 110 g",
+                                "item":  "refined coconut oil, softened but not melted"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "large egg"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "vanilla or almond extract"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "1.5 cups / 180 g",
+                                "item":  "raspberries, fresh or frozen (for the jam)",
+                                "israelNote":  "frozen petel from the freezer section works perfectly"
+                            },
+                            {
+                                "amount":  "2 tbsp / 20 g",
+                                "item":  "chia seeds (for the jam)",
+                                "israelNote":  "zirei chia, health-food aisle"
+                            },
+                            {
+                                "amount":  "3 tbsp / 35 g",
+                                "item":  "granulated sweetener + 3 tbsp water (for the jam)"
+                            }
+                        ],
+        "instructions":  [
+                             "Make the jam first: simmer the raspberries, 3 tbsp sweetener, and water in a small pot for 5 minutes, mashing the berries. Stir in the chia seeds and simmer 8-10 minutes more until thick. Cool completely (it thickens further).",
+                             "Heat the oven to 165°C / 325°F and line two baking sheets with parchment.",
+                             "Beat the coconut oil with the 1/2 cup sweetener until creamy, then beat in the egg and extract.",
+                             "Mix in the almond flour, baking powder, and salt to form a soft dough. If sticky, chill 20 minutes.",
+                             "Roll into 24 small balls, place on the sheets, flatten slightly, and press a deep well into each center with your thumb.",
+                             "Bake 12-15 minutes until golden at the edges; if the wells puffed up, re-press them gently with a teaspoon right out of the oven.",
+                             "Cool the cookies, then spoon about 1 tsp of the cooled chia jam into each well.",
+                             "Store in the fridge; the jam keeps the cookies fresh for about 5 days."
+                         ],
+        "nutrition":  {
+                          "calories":  114,
+                          "fatG":  10.3,
+                          "satFatG":  4.2,
+                          "proteinG":  2.9,
+                          "carbsG":  4.0,
+                          "fiberG":  1.9,
+                          "netCarbsG":  2.1,
+                          "sugarG":  0.9,
+                          "sodiumMg":  42
+                      },
+        "lowCarbVariant":  "Butter version (dairy): swap the coconut oil for softened butter for a richer, more classic shortbread flavor.",
+        "tips":  "Leftover chia jam keeps a month in the fridge and doubles as a topping for yogurt or keto pancakes.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/low-carb-raspberry-almond-thumbprints/"
+                        },
+                        {
+                            "creator":  "The Roasted Root",
+                            "url":  "https://www.theroastedroot.net/keto-raspberry-thumbprint-cookies-vegan/"
+                        },
+                        {
+                            "creator":  "The Harvest Skillet",
+                            "url":  "https://www.theharvestskillet.com/raspberry-thumbprint-cookies/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food\u0027s butter dough with gelatin jam, The Roasted Root\u0027s dairy-free coconut-oil dough, and The Harvest Skillet\u0027s chia-jam method. Synthesized ADIDAF\u0027s proven dough ratios (250 g flour : 110 g fat : 1 egg) made pareve with coconut oil per The Roasted Root, paired with the Harvest Skillet chia jam - chia needs no gelatin bloom, adds fiber, and keeps the whole cookie pareve."
+    },
+    {
+        "id":  "hazelnut-cookies",
+        "nameHe":  "עוגיות אגוזי לוז",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "3/4 כוס / 85 גרם",
+                                  "item":  "קמח אגוזי לוז (אגוזי לוז טחונים דק)",
+                                  "israelNote":  "אפשר לטחון אגוזי לוז קלויים וקלופים במעבד מזון עד לטחינה דקה"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 50 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 55 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) אבקה"
+                              },
+                              {
+                                  "amount":  "6 כפות / 85 גרם",
+                                  "item":  "שמן קוקוס מזוכך, רך"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/8 כפית",
+                                  "item":  "מלח"
+                              },
+                              {
+                                  "amount":  "14",
+                                  "item":  "אגוזי לוז קלויים שלמים, לקישוט (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים תבנית אפייה בנייר אפייה.",
+                               "שמים בקערה את קמח אגוזי הלוז, קמח השקדים, ממתיק האבקה, שמן הקוקוס, הווניל והמלח.",
+                               "מערבבים, ואז לשים בידיים עד שהבצק חלק ובלי כיסים יבשים.",
+                               "מגלגלים ל-14 כדורים בגודל אגוז מלך, מניחים על התבנית ומשטחים בעדינות באצבעות לחות.",
+                               "לוחצים אגוז לוז שלם למרכז כל עוגייה.",
+                               "אופים 8-10 דקות עד שהשוליים מזהיבים - משגיחים מקרוב, אגוזי לוז משחימים מהר.",
+                               "מצננים לגמרי על התבנית לפני ההרמה; הן שבירות מאוד כשהן חמות ופריכות אחרי הצינון."
+                           ],
+        "ketoVariantHe":  "מזלפים על העוגיות המצוננות שוקולד מריר 85% מומס (לבדוק סימון פרווה) לטעם בסגנון נוטלה, תוספת של כ-0.5 גרם פחמימות נטו.",
+        "lowCarbVariantHe":  "גרסת חמאה (חלבית): מחליפים את שמן הקוקוס בחמאה מלוחה לעשירות הנמסה-בפה המקורית.",
+        "tipsHe":  "להכנת קמח אגוזי לוז בבית: קולים אגוזי לוז שלמים 8 דקות ב-180 מעלות, משפשפים את הקליפות במגבת, מצננים וטוחנים בפולסים קצרים - עוצרים לפני שזה הופך לממרח.",
+        "comparedVersionsHe":  "הושוו עוגיות החמאה מ-5 מרכיבים של Low-Carb So Simple, עוגיות ה\u0027ברוטי מה בוני\u0027 האיטלקיות על בסיס חלבונים של Low Carb Yum וגרסת 3 המרכיבים של LikeHotKeto. היחסים של Low-Carb So Simple ניצחו בזכות הנמסות הכי דמוית שורטברד ואפייה של 10 דקות בלי מיקסר; החמאה הוחלפה בשמן קוקוס מזוכך כדי שהעוגייה תישאר פרווה, וגרסת החמאה נשמרה כווריאציה חלבית.",
+        "name":  "Hazelnut Cookies",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  14,
+        "prepTimeMin":  15,
+        "cookTimeMin":  10,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "3/4 cup / 85 g",
+                                "item":  "hazelnut flour (finely ground hazelnuts)",
+                                "israelNote":  "kemach egozei luz - or grind roasted peeled hazelnuts in a food processor until fine"
+                            },
+                            {
+                                "amount":  "1/2 cup / 50 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/3 cup / 55 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "6 tbsp / 85 g",
+                                "item":  "refined coconut oil, softened"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/8 tsp",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "14",
+                                "item":  "whole roasted hazelnuts, for topping (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line a baking sheet with parchment.",
+                             "Put the hazelnut flour, almond flour, powdered sweetener, coconut oil, vanilla, and salt in a bowl.",
+                             "Mix, then knead with your hands until the dough is smooth with no dry pockets.",
+                             "Roll into 14 walnut-sized balls, place on the sheet, and flatten gently with damp fingertips.",
+                             "Press a whole hazelnut into the center of each cookie.",
+                             "Bake 8-10 minutes until the edges are golden - watch closely, hazelnut browns fast.",
+                             "Cool completely on the tray before lifting; they are very fragile while warm and crisp once cool."
+                         ],
+        "nutrition":  {
+                          "calories":  118,
+                          "fatG":  11.8,
+                          "satFatG":  5.3,
+                          "proteinG":  1.9,
+                          "carbsG":  1.9,
+                          "fiberG":  1.1,
+                          "netCarbsG":  0.8,
+                          "sugarG":  0.4,
+                          "sodiumMg":  22
+                      },
+        "ketoVariant":  "Drizzle the cooled cookies with melted 85% dark chocolate (check pareve label) for a Nutella-like flavor at about 0.5 g net carbs more.",
+        "lowCarbVariant":  "Butter version (dairy): swap the coconut oil for salted butter for the original melt-in-the-mouth richness.",
+        "tips":  "To make hazelnut flour at home, roast whole hazelnuts 8 minutes at 180°C, rub off the skins in a towel, cool, and pulse briefly - stop before it turns to butter.",
+        "sources":  [
+                        {
+                            "creator":  "Low-Carb So Simple",
+                            "url":  "https://www.lowcarbsosimple.com/low-carb-hazelnut-butter-cookies/"
+                        },
+                        {
+                            "creator":  "Low Carb Yum",
+                            "url":  "https://lowcarbyum.com/hazelnut-keto-cookies-gluten-free/"
+                        },
+                        {
+                            "creator":  "LikeHotKeto",
+                            "url":  "https://likehotketo.com/keto-hazelnut-cookies"
+                        }
+                    ],
+        "comparedVersions":  "Compared Low-Carb So Simple\u0027s 5-ingredient butter cookies, Low Carb Yum\u0027s Italian brutti ma buoni (egg-white based), and LikeHotKeto\u0027s 3-ingredient version. Low-Carb So Simple\u0027s ratios won for the most shortbread-like melt and a 10-minute bake with no mixer; the butter was swapped for refined coconut oil so the cookie stays pareve, with the butter version kept as a dairy variant."
+    },
+    {
+        "id":  "poppy-seed-cake",
+        "nameHe":  "עוגת פרג",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 1/2 כוסות / 250 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 45 גרם",
+                                  "item":  "פרג טחון",
+                                  "israelNote":  "קונים טחון טרי בחנויות תבלינים, או טוחנים פרג שלם במטחנת תבלינים"
+                              },
+                              {
+                                  "amount":  "2/3 כוס / 130 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול) מגורען"
+                              },
+                              {
+                                  "amount":  "4",
+                                  "item":  "ביצים גדולות בטמפרטורת החדר"
+                              },
+                              {
+                                  "amount":  "1/3 כוס / 80 מ״ל",
+                                  "item":  "שמן זית עדין או שמן אבוקדו"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 60 מ״ל",
+                                  "item":  "משקה שקדים ללא סוכר"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "אבקת אפייה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "גרידת לימון (לא חובה אבל קלאסי)"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים תבנית אינגליש קייק 23x13 ס״מ בנייר אפייה.",
+                               "טורפים את הביצים עם הממתיק 2 דקות עד לתערובת בהירה ומעט סמיכה.",
+                               "טורפים פנימה את השמן, משקה השקדים, הווניל וגרידת הלימון.",
+                               "מוסיפים את קמח השקדים, הפרג הטחון, אבקת האפייה והמלח ומערבבים עד לאיחוד - הבלילה תהיה סמיכה אך נוחה לעבודה בכף.",
+                               "מעבירים לתבנית ומיישרים את החלק העליון.",
+                               "אופים 45-50 דקות עד להזהבה ועד שקיסם יוצא נקי; מכסים בנייר אלומיניום אם החלק העליון מתכהה מוקדם.",
+                               "מצננים בתבנית 20 דקות, ואז על רשת. לפני ההגשה אפשר לפזר מעט ממתיק אבקה."
+                           ],
+        "ketoVariantHe":  "זיגוג: טורפים 1/3 כוס ממתיק אבקה עם 1-2 כפות מיץ לימון ומזלפים על העוגה המצוננת, תוספת של כ-0.5 גרם פחמימות נטו לפרוסה.",
+        "tipsHe":  "פרג טחון משחרר הרבה יותר טעם מפרג שלם - הבחירה הישראלית המסורתית. גם פרג שלם עובד, אבל אם אפשר טוחנים אותו קצרות.",
+        "comparedVersionsHe":  "הושוו עוגת הבאנדט עם החמאה של All Day I Dream About Food (עם אבקת חלבון מי גבינה), עוגת הפאונד של Fittoserve והגרסה של My Keto Kitchen. סונתזה עוגה על בסיס שמן במסורת עוגת הפרג הישראלית: מבנה הקמח והביצים של ADIDAF בלי אבקת החלבון המיוחדת, שמן במקום חמאה כדי שתישאר פרווה אחרי ארוחה בשרית, ופי שלושה פרג מהרגיל - טחון - לנקודות הפרג הצפופות ולטעם האותנטי.",
+        "name":  "Poppy Seed Cake (Israeli Style)",
+        "category":  "baking-sweet",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  15,
+        "cookTimeMin":  50,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2.5 cups / 250 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/3 cup / 45 g",
+                                "item":  "ground poppy seeds",
+                                "israelNote":  "pereg tachun - buy freshly ground at spice shops, or grind whole seeds in a spice grinder"
+                            },
+                            {
+                                "amount":  "2/3 cup / 130 g",
+                                "item":  "granulated allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "4",
+                                "item":  "large eggs, room temperature"
+                            },
+                            {
+                                "amount":  "1/3 cup / 80 ml",
+                                "item":  "light olive oil or avocado oil"
+                            },
+                            {
+                                "amount":  "1/4 cup / 60 ml",
+                                "item":  "unsweetened almond milk",
+                                "israelNote":  "mashkeh shkedim lo mumtak"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "baking powder"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "lemon zest (optional but classic)"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "salt"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line a 23x13 cm (9x5 in) loaf pan with parchment.",
+                             "Whisk the eggs with the sweetener for 2 minutes until pale and slightly thickened.",
+                             "Whisk in the oil, almond milk, vanilla, and lemon zest.",
+                             "Stir in the almond flour, ground poppy seeds, baking powder, and salt until evenly combined - the batter will be thick but spoonable.",
+                             "Scrape into the pan and smooth the top.",
+                             "Bake 45-50 minutes until golden and a skewer comes out clean; tent with foil if the top darkens early.",
+                             "Cool in the pan 20 minutes, then on a rack. Dust with a little powdered sweetener before serving if you like."
+                         ],
+        "nutrition":  {
+                          "calories":  219,
+                          "fatG":  19.8,
+                          "satFatG":  2.3,
+                          "proteinG":  7.3,
+                          "carbsG":  6.0,
+                          "fiberG":  3.0,
+                          "netCarbsG":  3.0,
+                          "sugarG":  0.9,
+                          "sodiumMg":  135
+                      },
+        "ketoVariant":  "Glaze: whisk 1/3 cup powdered sweetener with 1-2 tbsp lemon juice and drizzle over the cooled cake, about 0.5 g net carbs more per slice.",
+        "tips":  "Ground poppy (pereg tachun) releases far more flavor than whole seeds - the traditional Israeli choice. Whole seeds still work but grind them briefly if you can.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/lemon-poppyseed-bundt-cake-low-carb-and-gluten-free/"
+                        },
+                        {
+                            "creator":  "Fittoserve Group",
+                            "url":  "https://www.fittoservegroup.com/keto-poppy-seed-pound-cake/"
+                        },
+                        {
+                            "creator":  "My Keto Kitchen",
+                            "url":  "https://www.myketokitchen.com/keto-recipes/keto-lemon-poppy-seed-loaf/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food\u0027s butter bundt (with whey protein), Fittoserve\u0027s pound cake, and My Keto Kitchen\u0027s loaf. Synthesized an oil-based loaf in the Israeli ugat pereg tradition: ADIDAF\u0027s flour-to-egg structure without the specialty protein powder, oil instead of butter to keep it pareve after meat meals, and triple the usual poppy amount using ground pereg for the authentic dense speckle and flavor."
+    }
 ]

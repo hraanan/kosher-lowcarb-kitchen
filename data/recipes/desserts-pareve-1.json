@@ -1,544 +1,1113 @@
-[
-  {
-    "id": "chocolate-avocado-mousse",
-    "name": "Chocolate Avocado Mousse",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 6,
-    "prepTimeMin": 10,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 large / 350 g flesh", "item": "ripe avocados (soft but not brown)"},
-      {"amount": "1/2 cup / 50 g", "item": "unsweetened cocoa powder"},
-      {"amount": "1/2 cup / 120 ml", "item": "coconut cream", "israelNote": "kremet kokos 22%+ (supermarket Asian shelf)"},
-      {"amount": "1/2 cup / 60 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1/2 tsp", "item": "ground cinnamon (optional)"},
-      {"amount": "1 pinch", "item": "fine sea salt"}
-    ],
-    "instructions": [
-      "Halve and pit the avocados and scoop the flesh into a food processor.",
-      "Add the cocoa powder, coconut cream, powdered sweetener, vanilla, cinnamon and salt.",
-      "Blend 1-2 minutes, scraping down the sides once or twice, until completely silky with no green flecks.",
-      "Taste and adjust: a little more sweetener if bitter, a splash more coconut cream if too thick.",
-      "Divide between 6 small glasses and chill at least 30 minutes before serving."
-    ],
-    "nutrition": {"calories": 157, "fatG": 14.0, "satFatG": 5.5, "proteinG": 2.8, "carbsG": 10.5, "fiberG": 6.7, "netCarbsG": 3.8, "sugarG": 0.8, "sodiumMg": 55},
-    "tips": "Serve well chilled and within 24 hours - the strong cocoa hides the avocado completely, but the color dulls on day two.",
-    "sources": [
-      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/chocolate-avocado-mousse/"},
-      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/keto-avocado-chocolate-mousse/"},
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/chocolate-avocado-mousse/"}
-    ],
-    "comparedVersions": "Compared Sugar Free Londoner, Sweet As Honey and Low Carb Spark. Sugar Free Londoner's ratio won: coconut cream instead of melted chocolate keeps it pareve-simple and one-bowl, and its high cocoa-to-avocado ratio fully masks the avocado flavor while staying under 4 g net carbs.",
-    "nameHe": "מוס שוקולד אבוקדו",
-    "ingredientsHe": [
-      {"amount": "2 גדולים / 350 גרם", "item": "אבוקדו בשל (רך אך לא חום)"},
-      {"amount": "1/2 כוס / 50 גרם", "item": "אבקת קקאו ללא סוכר"},
-      {"amount": "1/2 כוס / 120 מ\"ל", "item": "קרם קוקוס", "israelNote": "קרם קוקוס 22% שומן ומעלה (במדף האסייתי בסופר)"},
-      {"amount": "1/2 כוס / 60 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "1/2 כפית", "item": "קינמון טחון (לא חובה)"},
-      {"amount": "קורט", "item": "מלח ים דק"}
-    ],
-    "instructionsHe": [
-      "חוצים את האבוקדו, מוציאים את הגלעין ומעבירים את בשר הפרי למעבד מזון.",
-      "מוסיפים את אבקת הקקאו, קרם הקוקוס, הממתיק האבקתי, הווניל, הקינמון והמלח.",
-      "מעבדים 1-2 דקות, תוך ניקוי הדפנות פעם-פעמיים, עד לקבלת מרקם משיי לחלוטין בלי שאריות ירוקות.",
-      "טועמים ומתקנים: עוד קצת ממתיק אם מריר מדי, עוד מעט קרם קוקוס אם סמיך מדי.",
-      "מחלקים ל-6 כוסות קטנות ומקררים לפחות 30 דקות לפני ההגשה."
-    ],
-    "tipsHe": "מגישים קר היטב ובתוך 24 שעות - הקקאו החזק מסווה את האבוקדו לחלוטין, אבל הצבע מתעמעם ביום השני.",
-    "comparedVersionsHe": "השווינו את Sugar Free Londoner, Sweet As Honey ו-Low Carb Spark. היחס של Sugar Free Londoner ניצח: קרם קוקוס במקום שוקולד מומס שומר על המתכון פרווה ופשוט בקערה אחת, ויחס הקקאו-אבוקדו הגבוה מסווה לגמרי את טעם האבוקדו ונשאר מתחת ל-4 גרם פחמימות נטו."
-  },
-  {
-    "id": "coconut-panna-cotta-agar",
-    "name": "Coconut Cream Panna Cotta (Agar-Agar)",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 can / 400 ml", "item": "full-fat canned coconut milk", "israelNote": "kremet kokos 17-22% (supermarket Asian shelf) - use the can, not carton drink"},
-      {"amount": "1/2 tsp", "item": "agar-agar powder", "israelNote": "agar-agar: health-food stores"},
-      {"amount": "3 tbsp / 24 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1 tsp", "item": "vanilla extract (or seeds of 1/2 vanilla pod)"},
-      {"amount": "1 pinch", "item": "fine sea salt"},
-      {"amount": "1/4 cup / 40 g", "item": "fresh raspberries, for serving (optional)"}
-    ],
-    "instructions": [
-      "Shake the can well, then whisk the coconut milk, agar-agar powder, sweetener and salt in a small saucepan.",
-      "Bring to a boil over medium heat, stirring now and then, then lower the heat and simmer 3-4 minutes, stirring constantly - agar must boil fully to activate.",
-      "Off the heat, stir in the vanilla.",
-      "Pour into 4 ramekins or glasses and let cool 15 minutes on the counter (agar begins setting near room temperature).",
-      "Refrigerate at least 2 hours until fully set.",
-      "Serve in the glass, or dip the ramekin base briefly in hot water and invert onto a plate; top with a few raspberries."
-    ],
-    "nutrition": {"calories": 190, "fatG": 18.5, "satFatG": 16.4, "proteinG": 1.8, "carbsG": 3.5, "fiberG": 0.6, "netCarbsG": 2.9, "sugarG": 1.9, "sodiumMg": 30},
-    "tips": "Do not swap agar for gelatin here - gelatin sets slowly and lets the coconut milk separate into layers, while agar sets fast and even. Use exactly 1/2 tsp; more makes it rubbery.",
-    "sources": [
-      {"creator": "Dani's Cookings", "url": "https://daniscookings.com/keto-carrot-cake-with-coconut-panna-cotta/"},
-      {"creator": "Detoxinista", "url": "https://detoxinista.com/easy-coconut-panna-cotta-dairy-free-paleo/"},
-      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-panna-cotta/"}
-    ],
-    "comparedVersions": "Compared Dani's Cookings (agar), Detoxinista and The Big Man's World (both gelatin-based). The agar technique won for kosher reasons and because it sets faster and prevents the coconut milk splitting; amounts follow Dani's tested 400 ml : ~1/2 tsp agar ratio, slightly increased for a firmer standalone set.",
-    "nameHe": "פנקוטה קרם קוקוס (אגר-אגר)",
-    "ingredientsHe": [
-      {"amount": "1 פחית / 400 מ\"ל", "item": "חלב קוקוס שומני בפחית", "israelNote": "קרם קוקוס 17%-22% שומן (במדף האסייתי בסופר) - להשתמש בפחית, לא במשקה קוקוס בקרטון"},
-      {"amount": "1/2 כפית", "item": "אבקת אגר-אגר", "israelNote": "אגר-אגר: בחנויות טבע"},
-      {"amount": "3 כפות / 24 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי"},
-      {"amount": "1 כפית", "item": "תמצית וניל (או גרגרים מ-1/2 מקל וניל)"},
-      {"amount": "קורט", "item": "מלח ים דק"},
-      {"amount": "1/4 כוס / 40 גרם", "item": "פטל טרי להגשה (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מנערים היטב את הפחית, ואז טורפים בסיר קטן את חלב הקוקוס, אבקת האגר-אגר, הממתיק והמלח.",
-      "מביאים לרתיחה על אש בינונית תוך ערבוב מדי פעם, מנמיכים את האש ומבשלים 3-4 דקות בערבוב מתמיד - האגר חייב לרתוח היטב כדי להתייצב.",
-      "מורידים מהאש ומערבבים פנימה את הווניל.",
-      "מוזגים ל-4 רמקינים או כוסות ומצננים 15 דקות על השיש (אגר מתחיל להתייצב כבר קרוב לטמפרטורת החדר).",
-      "מכניסים למקרר לפחות שעתיים עד להתייצבות מלאה.",
-      "מגישים בכוס, או טובלים את תחתית הרמקין לרגע במים חמים והופכים על צלחת; מעטרים בכמה גרגרי פטל."
-    ],
-    "tipsHe": "לא מחליפים כאן את האגר בג'לטין - ג'לטין מתייצב לאט ומאפשר לחלב הקוקוס להיפרד לשכבות, בעוד אגר מתייצב מהר ובאופן אחיד. מקפידים על 1/2 כפית בדיוק; יותר מזה ייתן מרקם גומי.",
-    "comparedVersionsHe": "השווינו את Dani's Cookings (אגר) מול Detoxinista ו-The Big Man's World (שתיהן על בסיס ג'לטין). טכניקת האגר ניצחה משיקולי כשרות ומפני שהיא מתייצבת מהר יותר ומונעת היפרדות של חלב הקוקוס; הכמויות לפי היחס הבדוק של Dani - 400 מ\"ל לכ-1/2 כפית אגר, בהגדלה קלה לקבלת התייצבות מוצקה יותר."
-  },
-  {
-    "id": "almond-milk-chia-pudding-vanilla",
-    "name": "Vanilla Almond Milk Chia Pudding",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 5,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 cups / 480 ml", "item": "unsweetened almond milk", "israelNote": "mishkei shkedim unsweetened (lo mamutak)"},
-      {"amount": "1/2 cup / 80 g", "item": "chia seeds", "israelNote": "chia seeds (health shelf)"},
-      {"amount": "3 tbsp / 24 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1 pinch", "item": "fine sea salt"},
-      {"amount": "1/2 cup / 70 g", "item": "fresh berries, for topping (optional)"}
-    ],
-    "instructions": [
-      "Whisk the almond milk, sweetener, vanilla and salt in a bowl or large jar until the sweetener dissolves.",
-      "Stir in the chia seeds.",
-      "Wait 10 minutes, then stir or shake again thoroughly to break up any clumps - this second stir is what prevents a lumpy pudding.",
-      "Cover and refrigerate at least 2 hours, preferably overnight, until thick and spoonable.",
-      "Stir once more, divide into glasses and top with a few berries."
-    ],
-    "nutrition": {"calories": 118, "fatG": 7.5, "satFatG": 0.8, "proteinG": 4.0, "carbsG": 9.0, "fiberG": 7.2, "netCarbsG": 1.8, "sugarG": 0.3, "sodiumMg": 95},
-    "ketoVariant": "For a chocolate version, whisk in 2 tbsp cocoa powder with the milk (adds about 1 g net carbs per serving).",
-    "tips": "Keeps 5 days covered in the fridge - make a batch on Sunday for the whole week.",
-    "sources": [
-      {"creator": "Sugar Free Londoner", "url": "https://sugarfreelondoner.com/keto-chia-pudding/"},
-      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/low-carb-chia-seed-pudding-almond-milk/"},
-      {"creator": "MyKetoPlate", "url": "https://myketoplate.com/vanilla-keto-chia-pudding/"}
-    ],
-    "comparedVersions": "Compared Sugar Free Londoner, Sweet As Honey and MyKetoPlate. All agree on the 1:6 chia-to-milk ratio by volume (1/4 cup chia per cup milk); this version keeps that ratio, skips the yogurt some add (not pareve), and adopts the double-stir technique that every top version uses to avoid clumping.",
-    "nameHe": "פודינג צ'יה וניל על משקה שקדים",
-    "ingredientsHe": [
-      {"amount": "2 כוסות / 480 מ\"ל", "item": "משקה שקדים ללא סוכר", "israelNote": "לוודא על האריזה 'ללא תוספת סוכר'"},
-      {"amount": "1/2 כוס / 80 גרם", "item": "זרעי צ'יה", "israelNote": "במדף הטבע בסופר"},
-      {"amount": "3 כפות / 24 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "קורט", "item": "מלח ים דק"},
-      {"amount": "1/2 כוס / 70 גרם", "item": "פירות יער טריים לקישוט (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "טורפים בקערה או בצנצנת גדולה את משקה השקדים, הממתיק, הווניל והמלח עד שהממתיק נמס.",
-      "מערבבים פנימה את זרעי הצ'יה.",
-      "ממתינים 10 דקות ואז מערבבים או מנערים שוב ביסודיות כדי לפרק גושים - הערבוב השני הוא שמונע פודינג גושי.",
-      "מכסים ומקררים לפחות שעתיים, רצוי לילה שלם, עד למרקם סמיך שנאכל בכפית.",
-      "מערבבים פעם נוספת, מחלקים לכוסות ומעטרים בכמה פירות יער."
-    ],
-    "ketoVariantHe": "לגרסה שוקולדית טורפים פנימה 2 כפות אבקת קקאו יחד עם המשקה (מוסיף כ-1 גרם פחמימות נטו למנה).",
-    "tipsHe": "נשמר 5 ימים מכוסה במקרר - מכינים כמות ביום ראשון לכל השבוע.",
-    "comparedVersionsHe": "השווינו את Sugar Free Londoner, Sweet As Honey ו-MyKetoPlate. כולם מסכימים על יחס נפח של 1:6 צ'יה למשקה (1/4 כוס צ'יה לכל כוס משקה); הגרסה הזו שומרת על היחס, מוותרת על היוגורט שחלקם מוסיפים (לא פרווה) ומאמצת את טכניקת הערבוב הכפול שכל הגרסאות המובילות משתמשות בה נגד גושים."
-  },
-  {
-    "id": "dark-chocolate-almond-sea-salt-bark",
-    "name": "Dark Chocolate Bark with Almonds & Sea Salt",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 10,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "200 g / 7 oz", "item": "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)", "israelNote": "look for 'parve' certification on 85% bars (e.g. Splendid/Carmit parve lines)"},
-      {"amount": "1 cup / 140 g", "item": "raw almonds"},
-      {"amount": "1 tsp", "item": "coconut oil"},
-      {"amount": "1/2 tsp", "item": "flaky sea salt"}
-    ],
-    "instructions": [
-      "Toast the almonds in a dry pan over medium heat 4-5 minutes, stirring, until fragrant; let cool and roughly chop half of them.",
-      "Line a baking sheet with parchment paper.",
-      "Melt the chocolate with the coconut oil in a heatproof bowl set over barely simmering water (or in 30-second microwave bursts), stirring until just smooth - remove while a few bits remain and stir them in, which keeps the bark glossy and snappy.",
-      "Stir in the chopped almonds, then spread the mixture about 1/2 cm thick on the parchment.",
-      "Scatter the whole almonds on top, press lightly, and sprinkle with the flaky salt.",
-      "Refrigerate 30 minutes until hard, then break into 12 rough shards. Store in the fridge."
-    ],
-    "nutrition": {"calories": 168, "fatG": 13.6, "satFatG": 5.2, "proteinG": 4.5, "carbsG": 5.7, "fiberG": 3.3, "netCarbsG": 2.4, "sugarG": 1.7, "sodiumMg": 55},
-    "ketoVariant": "Use pareve-certified sugar-free dark chocolate (stevia/erythritol-sweetened) to drop sugar to near zero and net carbs to about 1.5 g per shard.",
-    "tips": "The near-melt technique (removing from heat at ~60% melted) is a lazy temper - the bark sets firm and doesn't bloom white streaks.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/dark-chocolate-sea-salt-almond-bark-low-carb-and-gluten-free/"},
-      {"creator": "Low Carb Yum", "url": "https://lowcarbyum.com/dark-chocolate-almond-bark-sea-salt/"},
-      {"creator": "My Keto Kitchen", "url": "https://www.myketokitchen.com/keto-recipes/keto-chocolate-sea-salt-bark/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food, Low Carb Yum and My Keto Kitchen. Skipped versions built from cocoa butter plus cocoa powder (more ingredients, graininess risk) in favor of melting a good pareve bar; kept ADIDAF's toasted-almond step and My Keto Kitchen's partial-melt trick, which together give the best flavor for a 4-ingredient recipe.",
-    "nameHe": "שברי שוקולד מריר עם שקדים ומלח ים",
-    "ingredientsHe": [
-      {"amount": "200 גרם", "item": "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)", "israelNote": "מחפשים סימון 'פרווה' על חפיסות 85% (למשל סדרות הפרווה של ספלנדיד/כרמית)"},
-      {"amount": "1 כוס / 140 גרם", "item": "שקדים טבעיים"},
-      {"amount": "1 כפית", "item": "שמן קוקוס"},
-      {"amount": "1/2 כפית", "item": "מלח ים בפתיתים (מלח אטלנטי גס)"}
-    ],
-    "instructionsHe": [
-      "קולים את השקדים במחבת יבשה על אש בינונית 4-5 דקות תוך ערבוב, עד שמריחים את הניחוח; מצננים וקוצצים גס את מחציתם.",
-      "מרפדים תבנית בנייר אפייה.",
-      "ממיסים את השוקולד עם שמן הקוקוס בקערה חסינת חום מעל סיר עם מים רותחים בעדינות (או בפולסים של 30 שניות במיקרוגל), ומערבבים עד שהוא כמעט חלק - מסירים מהחום כשעוד נותרו כמה חתיכות ומערבבים אותן פנימה; כך השוקולד נשאר מבריק ופריך.",
-      "מערבבים פנימה את השקדים הקצוצים ומורחים את התערובת בעובי של כ-1/2 ס\"מ על נייר האפייה.",
-      "מפזרים מעל את השקדים השלמים, לוחצים קלות ומפזרים את פתיתי המלח.",
-      "מקררים 30 דקות עד להתקשות, ואז שוברים ל-12 שברים גסים. שומרים במקרר."
-    ],
-    "ketoVariantHe": "משתמשים בשוקולד מריר ללא סוכר בכשרות פרווה (ממותק בסטיביה/אריתריטול) כדי להוריד את הסוכר כמעט לאפס ואת הפחמימות נטו לכ-1.5 גרם לשבר.",
-    "tipsHe": "טכניקת ההמסה החלקית (הסרה מהחום כשכ-60% מומס) היא טמפרור עצלנים - השוקולד מתייצב קשה ולא מפתח פסים לבנים.",
-    "comparedVersionsHe": "השווינו את All Day I Dream About Food, Low Carb Yum ו-My Keto Kitchen. ויתרנו על גרסאות שנבנות מחמאת קקאו ואבקת קקאו (יותר רכיבים, סיכון לגרגיריות) לטובת המסה של חפיסה פרווה טובה; שמרנו על שלב קליית השקדים של ADIDAF ועל טריק ההמסה החלקית של My Keto Kitchen, שיחד נותנים את הטעם הטוב ביותר למתכון של 4 רכיבים."
-  },
-  {
-    "id": "coconut-milk-vanilla-ice-cream",
-    "name": "Coconut Milk Vanilla Ice Cream",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 10,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 cans / 800 ml", "item": "full-fat canned coconut milk, refrigerated overnight", "israelNote": "kremet kokos 17-22% (supermarket Asian shelf)"},
-      {"amount": "3/4 cup / 150 g", "item": "allulose or erythritol-monk fruit sweetener (allulose stays softest)"},
-      {"amount": "2 tsp", "item": "vanilla extract"},
-      {"amount": "1/4 tsp", "item": "fine sea salt"},
-      {"amount": "1 tbsp", "item": "vodka (optional - keeps it scoopable, flavor-neutral)"}
-    ],
-    "instructions": [
-      "Chill a loaf pan or freezer container in the freezer.",
-      "Blend the coconut milk, sweetener, vanilla, salt and vodka (if using) 30-60 seconds until completely smooth.",
-      "If you have an ice cream maker, churn per its instructions for the creamiest result; otherwise pour into the chilled pan.",
-      "For the no-churn route, freeze and whisk vigorously every 45 minutes for the first 2 hours to break up ice crystals.",
-      "Freeze at least 3 hours until firm.",
-      "Before serving, let stand 10-15 minutes at room temperature so it scoops cleanly."
-    ],
-    "nutrition": {"calories": 197, "fatG": 21.3, "satFatG": 18.9, "proteinG": 2.0, "carbsG": 2.9, "fiberG": 0, "netCarbsG": 2.9, "sugarG": 2.0, "sodiumMg": 90},
-    "tips": "Erythritol blends freeze harder than allulose - if that is what you have, the vodka and the 15-minute counter rest become essential.",
-    "sources": [
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/coconut-milk-ice-cream/"},
-      {"creator": "gnom-gnom", "url": "https://www.gnom-gnom.com/keto-vanilla-ice-cream/"},
-      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/dairy-free-ice-cream/"}
-    ],
-    "comparedVersions": "Compared Low Carb Spark (blend-and-freeze), gnom-gnom (custard base with eggs) and KetoFocus. Chose Low Carb Spark's egg-free base for simplicity and safety, added the alcohol trick and allulose preference from gnom-gnom/KetoFocus, which are the two levers that actually determine scoopability in dairy-free ice cream.",
-    "nameHe": "גלידת וניל על בסיס חלב קוקוס",
-    "ingredientsHe": [
-      {"amount": "2 פחיות / 800 מ\"ל", "item": "חלב קוקוס שומני בפחית, לאחר לילה במקרר", "israelNote": "קרם קוקוס 17%-22% שומן (במדף האסייתי בסופר)"},
-      {"amount": "3/4 כוס / 150 גרם", "item": "אלולוז או ממתיק אריתריטול-פרי הנזיר (אלולוז נשאר הכי רך)", "israelNote": "אלולוז: iHerb או חנויות טבע"},
-      {"amount": "2 כפיות", "item": "תמצית וניל"},
-      {"amount": "1/4 כפית", "item": "מלח ים דק"},
-      {"amount": "1 כף", "item": "וודקה (לא חובה - שומרת על מרקם רך לגריפה, ניטרלית בטעם)"}
-    ],
-    "instructionsHe": [
-      "מקפיאים מראש תבנית אינגליש קייק או קופסה למקפיא.",
-      "מבלנדרים את חלב הקוקוס, הממתיק, הווניל, המלח והוודקה (אם משתמשים) 30-60 שניות עד לקבלת תערובת חלקה לגמרי.",
-      "אם יש מכונת גלידה, מערבלים לפי ההוראות לתוצאה הכי קרמית; אחרת מוזגים לתבנית הקרה.",
-      "במסלול ללא מכונה, מקפיאים וטורפים נמרצות כל 45 דקות בשעתיים הראשונות כדי לפרק גבישי קרח.",
-      "מקפיאים לפחות 3 שעות עד שהגלידה יציבה.",
-      "לפני ההגשה משאירים 10-15 דקות בטמפרטורת החדר כדי שהגלידה תיגרף בקלות."
-    ],
-    "tipsHe": "תערובות אריתריטול קופאות קשה יותר מאלולוז - אם זה מה שיש לכם, הוודקה וההמתנה של 15 דקות על השיש הופכות לחיוניות.",
-    "comparedVersionsHe": "השווינו את Low Carb Spark (בלנדר והקפאה), gnom-gnom (בסיס קרם ביצים) ו-KetoFocus. בחרנו בבסיס ללא ביצים של Low Carb Spark בשביל הפשטות והבטיחות, והוספנו את טריק האלכוהול ואת ההעדפה לאלולוז מ-gnom-gnom ו-KetoFocus - שני הגורמים שבאמת קובעים את רכות הגריפה בגלידה ללא חלב."
-  },
-  {
-    "id": "mixed-berry-sorbet",
-    "name": "Mixed Berry Sorbet",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 15,
-    "cookTimeMin": 5,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "2 cups / 250 g", "item": "raspberries, fresh or frozen"},
-      {"amount": "1 cup / 150 g", "item": "strawberries, fresh or frozen"},
-      {"amount": "3/4 cup / 150 g", "item": "allulose (strongly preferred - erythritol freezes rock hard)", "israelNote": "allulose: iHerb or health-food stores; or use erythritol and accept a firmer texture"},
-      {"amount": "2 cups / 480 ml", "item": "water"},
-      {"amount": "2 tbsp / 30 ml", "item": "fresh lemon juice"},
-      {"amount": "1 tbsp", "item": "vodka (optional, for scoopability)"}
-    ],
-    "instructions": [
-      "Simmer 1 cup of the water with the allulose 3-4 minutes until fully dissolved and slightly syrupy; cool.",
-      "Blend the berries with the remaining water until smooth.",
-      "Press the puree through a fine sieve to remove the raspberry seeds - this is the step that makes it taste professional.",
-      "Stir in the syrup, lemon juice and vodka; chill the mixture 2 hours.",
-      "Churn in an ice cream maker to soft-serve stage, or freeze in a shallow pan and blitz the frozen chunks in a food processor until smooth.",
-      "Freeze 2-3 hours more for a scoopable texture."
-    ],
-    "nutrition": {"calories": 38, "fatG": 0.2, "satFatG": 0, "proteinG": 0.5, "carbsG": 5.5, "fiberG": 1.8, "netCarbsG": 3.7, "sugarG": 2.6, "sodiumMg": 3},
-    "tips": "Berries are the highest-carb part - keeping the portion to 2/3 cup keeps this genuinely keto at under 4 g net carbs.",
-    "sources": [
-      {"creator": "All Day I Dream About Food", "url": "https://alldayidreamaboutfood.com/sugar-free-keto-raspberry-sorbet/"},
-      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/strawberry-sorbet/"},
-      {"creator": "Wholesome Yum", "url": "https://www.wholesomeyum.com/sugar-free-sorbet/"}
-    ],
-    "comparedVersions": "Compared All Day I Dream About Food, KetoFocus and Wholesome Yum. ADIDAF's tested finding that only allulose gives a scoopable sorbet (erythritol freezes solid) drove the sweetener choice; kept her syrup + strain method and added the freeze-then-food-processor fallback from KetoFocus for people without an ice cream maker.",
-    "nameHe": "סורבה פירות יער",
-    "ingredientsHe": [
-      {"amount": "2 כוסות / 250 גרם", "item": "פטל, טרי או קפוא"},
-      {"amount": "1 כוס / 150 גרם", "item": "תותים, טריים או קפואים"},
-      {"amount": "3/4 כוס / 150 גרם", "item": "אלולוז (מומלץ מאוד - אריתריטול קופא קשה כמו אבן)", "israelNote": "אלולוז: iHerb או חנויות טבע; אפשר אריתריטול ולהשלים עם מרקם מוצק יותר"},
-      {"amount": "2 כוסות / 480 מ\"ל", "item": "מים"},
-      {"amount": "2 כפות / 30 מ\"ל", "item": "מיץ לימון סחוט טרי"},
-      {"amount": "1 כף", "item": "וודקה (לא חובה, למרקם רך לגריפה)"}
-    ],
-    "instructionsHe": [
-      "מרתיחים בעדינות כוס אחת מהמים עם האלולוז 3-4 דקות עד להמסה מלאה ולמרקם סירופי קל; מצננים.",
-      "מבלנדרים את פירות היער עם שאר המים עד למחית חלקה.",
-      "מעבירים את המחית דרך מסננת דקה כדי להיפטר מגרעיני הפטל - זה השלב שגורם לסורבה לטעום מקצועי.",
-      "מערבבים פנימה את הסירופ, מיץ הלימון והוודקה; מקררים את התערובת שעתיים.",
-      "מערבלים במכונת גלידה עד למרקם גלידה אמריקאית רכה, או מקפיאים בתבנית שטוחה ומרסקים את הגושים הקפואים במעבד מזון עד לקבלת מרקם חלק.",
-      "מקפיאים 2-3 שעות נוספות למרקם שנגרף יפה בכף גלידה."
-    ],
-    "tipsHe": "פירות היער הם החלק העשיר ביותר בפחמימות - הקפדה על מנה של 2/3 כוס שומרת על הקינוח קטוגני באמת, מתחת ל-4 גרם פחמימות נטו.",
-    "comparedVersionsHe": "השווינו את All Day I Dream About Food, KetoFocus ו-Wholesome Yum. הממצא הבדוק של ADIDAF שרק אלולוז נותן סורבה שנגרף (אריתריטול קופא למוצק) הכריע את בחירת הממתיק; שמרנו על שיטת הסירופ והסינון שלה והוספנו את מסלול ההקפאה ומעבד המזון של KetoFocus למי שאין מכונת גלידה."
-  },
-  {
-    "id": "chocolate-coconut-ganache-truffles",
-    "name": "Chocolate Truffles (Coconut Cream Ganache)",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 20,
-    "cookTimeMin": 5,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "200 g / 7 oz", "item": "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate, finely chopped (check pareve label)", "israelNote": "check for 'parve' certification - most chocolate chips contain milk solids"},
-      {"amount": "100 ml / 7 tbsp", "item": "coconut cream (thick part of a chilled can)", "israelNote": "kremet kokos 22%+ (supermarket Asian shelf)"},
-      {"amount": "2 tbsp / 16 g", "item": "powdered erythritol-monk fruit sweetener (skip if using sugar-free chocolate)"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1 pinch", "item": "fine sea salt"},
-      {"amount": "3 tbsp / 18 g", "item": "unsweetened cocoa powder, for rolling"}
-    ],
-    "instructions": [
-      "Put the finely chopped chocolate in a heatproof bowl.",
-      "Heat the coconut cream with the sweetener in a small pot until it steams and bubbles form at the edge - do not boil.",
-      "Pour the hot cream over the chocolate, let it sit undisturbed 4 minutes, then stir from the center outward until glossy and smooth; stir in the vanilla and salt.",
-      "Cover and refrigerate 2-3 hours until firm enough to scoop.",
-      "Scoop teaspoon-sized portions and roll quickly into balls with cool hands (makes about 16).",
-      "Roll each truffle in cocoa powder and keep refrigerated up to a week."
-    ],
-    "nutrition": {"calories": 195, "fatG": 16.2, "satFatG": 11.0, "proteinG": 3.4, "carbsG": 5.4, "fiberG": 3.1, "netCarbsG": 2.3, "sugarG": 1.9, "sodiumMg": 15},
-    "lowCarbVariant": "Roll in finely chopped toasted almonds or shredded coconut instead of cocoa for variety (adds ~0.5 g net carbs).",
-    "tips": "The classic 2:1 chocolate-to-cream ratio is what makes these roll cleanly - resist adding extra coconut cream.",
-    "sources": [
-      {"creator": "Wholesome Yum", "url": "https://www.wholesomeyum.com/keto-truffles/"},
-      {"creator": "Cassidy's Craveable Creations", "url": "https://cassidyscraveablecreations.com/dairy-free-chocolate-truffles/"},
-      {"creator": "Life Made Sweeter", "url": "https://lifemadesweeter.com/keto-chocolate-truffles/"}
-    ],
-    "comparedVersions": "Compared Wholesome Yum (dairy ganache with noted coconut swap), Cassidy's dairy-free truffles and Life Made Sweeter's coconut-cream method. Kept Wholesome Yum's 2:1 chocolate-to-cream ratio (the firmness sweet spot), used coconut cream and no butter per Cassidy's tested dairy-free version, and Life Made Sweeter's pour-rest-stir ganache technique.",
-    "nameHe": "טראפלס שוקולד (גנאש קרם קוקוס)",
-    "ingredientsHe": [
-      {"amount": "200 גרם", "item": "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב, קצוץ דק (לבדוק סימון פרווה)", "israelNote": "לבדוק סימון 'פרווה' - רוב שבבי השוקולד מכילים רכיבי חלב"},
-      {"amount": "100 מ\"ל / 7 כפות", "item": "קרם קוקוס (החלק הסמיך מפחית מקוררת)", "israelNote": "קרם קוקוס 22% שומן ומעלה (במדף האסייתי בסופר)"},
-      {"amount": "2 כפות / 16 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי (מדלגים אם משתמשים בשוקולד ללא סוכר)"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "קורט", "item": "מלח ים דק"},
-      {"amount": "3 כפות / 18 גרם", "item": "אבקת קקאו ללא סוכר, לגלגול"}
-    ],
-    "instructionsHe": [
-      "שמים את השוקולד הקצוץ דק בקערה חסינת חום.",
-      "מחממים בסיר קטן את קרם הקוקוס עם הממתיק עד שעולים אדים ונוצרות בועות בשוליים - לא מרתיחים.",
-      "מוזגים את הקרם החם על השוקולד, מניחים ללא ערבוב 4 דקות, ואז מערבבים מהמרכז החוצה עד לקבלת גנאש מבריק וחלק; מערבבים פנימה את הווניל והמלח.",
-      "מכסים ומקררים 2-3 שעות עד שהגנאש יציב מספיק לגריפה.",
-      "גורפים כמויות בגודל כפית ומגלגלים במהירות לכדורים בידיים קרות (יוצאים כ-16).",
-      "מגלגלים כל טראפל באבקת קקאו ושומרים במקרר עד שבוע."
-    ],
-    "lowCarbVariantHe": "לגיוון מגלגלים בשקדים קלויים קצוצים דק או בקוקוס טחון במקום קקאו (מוסיף כ-0.5 גרם פחמימות נטו).",
-    "tipsHe": "יחס השוקולד-קרם הקלאסי של 2:1 הוא מה שמאפשר גלגול נקי - להתאפק ולא להוסיף קרם קוקוס.",
-    "comparedVersionsHe": "השווינו את Wholesome Yum (גנאש חלבי עם הערת החלפה לקוקוס), הטראפלס ללא חלב של Cassidy's ואת שיטת קרם הקוקוס של Life Made Sweeter. שמרנו על יחס 2:1 שוקולד לקרם של Wholesome Yum (נקודת המתיקות של המוצקות), השתמשנו בקרם קוקוס בלי חמאה לפי הגרסה הבדוקה ללא חלב של Cassidy's, ובטכניקת מזיגה-המתנה-ערבוב של Life Made Sweeter."
-  },
-  {
-    "id": "tahini-halva-fudge-bites",
-    "name": "Tahini Halva-Style Fudge Bites",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 16,
-    "prepTimeMin": 10,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 240 g", "item": "raw tahini (100% sesame), well stirred", "israelNote": "raw tahini (Har Bracha/Achva)"},
-      {"amount": "1/2 cup / 60 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "2 tbsp / 28 g", "item": "coconut oil"},
-      {"amount": "1 tbsp / 7 g", "item": "coconut flour", "israelNote": "kemach kokos (health shelf)"},
-      {"amount": "1 tsp", "item": "vanilla extract"},
-      {"amount": "1 pinch", "item": "fine sea salt"},
-      {"amount": "1 tbsp", "item": "sesame seeds or crushed pistachios, for topping (optional)"}
-    ],
-    "instructions": [
-      "Line a small container (about 15 x 10 cm) with parchment paper.",
-      "Gently warm the coconut oil until just melted.",
-      "Stir the tahini, melted coconut oil, powdered sweetener, coconut flour, vanilla and salt into a thick, uniform paste - powdered (not granulated) sweetener is essential for the classic halva texture.",
-      "Press the mixture evenly into the lined container and scatter the sesame seeds or pistachios on top, pressing lightly.",
-      "Refrigerate at least 4 hours (overnight is better - the texture firms and turns pleasantly crumbly-fudgy).",
-      "Cut into 16 squares and store in the fridge up to a week."
-    ],
-    "nutrition": {"calories": 108, "fatG": 9.9, "satFatG": 2.6, "proteinG": 2.7, "carbsG": 3.8, "fiberG": 1.7, "netCarbsG": 2.1, "sugarG": 0.1, "sodiumMg": 20},
-    "ketoVariant": "Swirl in 1 tbsp melted pareve dark chocolate before chilling for a marbled halva look.",
-    "tips": "Very Israeli and very forgiving - if your tahini is runny, add coconut flour a teaspoon at a time until the paste holds its shape.",
-    "sources": [
-      {"creator": "Queen Keto", "url": "https://queenketo.com/sugar-free-dairy-free-low-carb-halva/"},
-      {"creator": "Low-Carb, So Simple", "url": "https://www.lowcarbsosimple.com/5-ingredient-sugar-free-keto-halva/"},
-      {"creator": "Meat Free Keto", "url": "https://meatfreeketo.com/sugar-free-low-carb-halvah-cups/"}
-    ],
-    "comparedVersions": "Compared Queen Keto (dairy-free, cooked syrup), Low-Carb So Simple (uses whey protein - dairy, rejected for pareve) and Meat Free Keto's vegan halva cups. Synthesized a no-cook version: Queen Keto's tahini + coconut flour base for authentic texture without her fussy hot-syrup step, with coconut oil replacing the dairy binders of the other versions.",
-    "nameHe": "קוביות פאדג' טחינה בסגנון חלבה",
-    "ingredientsHe": [
-      {"amount": "1 כוס / 240 גרם", "item": "טחינה גולמית (100% שומשום), מעורבבת היטב", "israelNote": "טחינה גולמית איכותית (הר ברכה/אחוה)"},
-      {"amount": "1/2 כוס / 60 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי"},
-      {"amount": "2 כפות / 28 גרם", "item": "שמן קוקוס"},
-      {"amount": "1 כף / 7 גרם", "item": "קמח קוקוס", "israelNote": "במדף הטבע בסופר"},
-      {"amount": "1 כפית", "item": "תמצית וניל"},
-      {"amount": "קורט", "item": "מלח ים דק"},
-      {"amount": "1 כף", "item": "שומשום או פיסטוקים כתושים, לפיזור מעל (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מרפדים קופסה קטנה (כ-15x10 ס\"מ) בנייר אפייה.",
-      "מחממים בעדינות את שמן הקוקוס עד שהוא בדיוק נמס.",
-      "מערבבים את הטחינה, שמן הקוקוס המומס, הממתיק האבקתי, קמח הקוקוס, הווניל והמלח למשחה סמיכה ואחידה - ממתיק אבקתי (לא גבישי) הכרחי למרקם החלבה הקלאסי.",
-      "מהדקים את התערובת בשכבה אחידה בקופסה המרופדת, מפזרים מעל שומשום או פיסטוקים ולוחצים קלות.",
-      "מקררים לפחות 4 שעות (עדיף לילה - המרקם מתייצב והופך פירורי-פאדג'י נעים).",
-      "חותכים ל-16 קוביות ושומרים במקרר עד שבוע."
-    ],
-    "ketoVariantHe": "לפני הקירור מערבלים פנימה בתנועת שיש 1 כף שוקולד מריר פרווה מומס למראה חלבה מנומרת.",
-    "tipsHe": "ישראלי מאוד וסלחני מאוד - אם הטחינה שלכם נוזלית, מוסיפים קמח קוקוס כפית אחר כפית עד שהמשחה שומרת על צורתה.",
-    "comparedVersionsHe": "השווינו את Queen Keto (ללא חלב, סירופ מבושל), Low-Carb So Simple (משתמשים בחלבון מי גבינה - חלבי, נפסל לפרווה) ואת כוסיות החלבה הטבעוניות של Meat Free Keto. הרכבנו גרסה ללא בישול: בסיס הטחינה וקמח הקוקוס של Queen Keto למרקם אותנטי בלי שלב הסירופ החם המסורבל, עם שמן קוקוס שמחליף את הקושרים החלביים של הגרסאות האחרות."
-  },
-  {
-    "id": "lemon-coconut-energy-balls",
-    "name": "Lemon Coconut Energy Balls",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 12,
-    "prepTimeMin": 15,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 100 g", "item": "almond flour", "israelNote": "kemach shkedim (health shelf)"},
-      {"amount": "1 cup / 80 g", "item": "unsweetened shredded coconut, plus 1/4 cup / 20 g for rolling", "israelNote": "kokos tachun lo mamutak - check label for no added sugar"},
-      {"amount": "3 tbsp / 40 g", "item": "coconut oil, melted"},
-      {"amount": "3 tbsp / 24 g", "item": "powdered erythritol-monk fruit sweetener"},
-      {"amount": "1", "item": "lemon - all the zest plus 2 tbsp / 30 ml juice"},
-      {"amount": "1/2 tsp", "item": "vanilla extract"},
-      {"amount": "1 pinch", "item": "fine sea salt"}
-    ],
-    "instructions": [
-      "Stir the almond flour, 1 cup shredded coconut, sweetener and salt together in a bowl.",
-      "Add the melted coconut oil, lemon zest, lemon juice and vanilla; mix into a dough that holds together when squeezed.",
-      "Taste and adjust - more zest for punch, more sweetener if too tart.",
-      "If the dough is too soft to roll, chill 15 minutes.",
-      "Roll into 12 balls, then roll each in the reserved shredded coconut.",
-      "Chill 30 minutes to set; store in the fridge up to a week or freeze."
-    ],
-    "nutrition": {"calories": 134, "fatG": 12.9, "satFatG": 7.9, "proteinG": 2.4, "carbsG": 3.9, "fiberG": 2.3, "netCarbsG": 1.6, "sugarG": 0.7, "sodiumMg": 15},
-    "tips": "The lemon zest carries most of the flavor - do not skip it, and zest before juicing.",
-    "sources": [
-      {"creator": "Family on Keto", "url": "https://familyonketo.com/no-bake-lemon-keto-energy-balls/"},
-      {"creator": "Pretty Pies", "url": "https://prettypies.com/low-carb-lemon-bites/"},
-      {"creator": "The Conscious Plant Kitchen", "url": "https://www.theconsciousplantkitchen.com/lemon-energy-balls/"}
-    ],
-    "comparedVersions": "Compared Family on Keto (uses cream cheese - dairy, rejected), Pretty Pies (dairy-free) and The Conscious Plant Kitchen (vegan). Kept Family on Keto's proven 1:1 almond flour to coconut base but bound it with coconut oil per the two dairy-free versions, so the balls stay pareve and firm up cleanly in the fridge.",
-    "nameHe": "כדורי אנרגיה לימון וקוקוס",
-    "ingredientsHe": [
-      {"amount": "1 כוס / 100 גרם", "item": "קמח שקדים", "israelNote": "במדף הטבע בסופר"},
-      {"amount": "1 כוס / 80 גרם", "item": "קוקוס טחון ללא סוכר, ועוד 1/4 כוס / 20 גרם לגלגול", "israelNote": "לבדוק על התווית שאין תוספת סוכר"},
-      {"amount": "3 כפות / 40 גרם", "item": "שמן קוקוס, מומס"},
-      {"amount": "3 כפות / 24 גרם", "item": "ממתיק אריתריטול-פרי הנזיר אבקתי"},
-      {"amount": "1", "item": "לימון - כל הגרידה ועוד 2 כפות / 30 מ\"ל מיץ"},
-      {"amount": "1/2 כפית", "item": "תמצית וניל"},
-      {"amount": "קורט", "item": "מלח ים דק"}
-    ],
-    "instructionsHe": [
-      "מערבבים בקערה את קמח השקדים, כוס הקוקוס הטחון, הממתיק והמלח.",
-      "מוסיפים את שמן הקוקוס המומס, גרידת הלימון, מיץ הלימון והווניל; מערבבים לבצק שמתגבש כשלוחצים עליו.",
-      "טועמים ומתקנים - עוד גרידה לחמיצות רעננה, עוד ממתיק אם חמוץ מדי.",
-      "אם הבצק רך מדי לגלגול, מקררים 15 דקות.",
-      "מגלגלים ל-12 כדורים, ואז מגלגלים כל כדור בקוקוס הטחון ששמרנו בצד.",
-      "מקררים 30 דקות להתייצבות; שומרים במקרר עד שבוע או מקפיאים."
-    ],
-    "tipsHe": "גרידת הלימון נושאת את רוב הטעם - לא מדלגים עליה, ומגרדים לפני הסחיטה.",
-    "comparedVersionsHe": "השווינו את Family on Keto (משתמשים בגבינת שמנת - חלבי, נפסל), Pretty Pies (ללא חלב) ו-The Conscious Plant Kitchen (טבעוני). שמרנו על בסיס ה-1:1 המוכח של קמח שקדים וקוקוס מ-Family on Keto אבל קשרנו אותו בשמן קוקוס לפי שתי הגרסאות ללא החלב, כך שהכדורים נשארים פרווה ומתייצבים יפה במקרר."
-  },
-  {
-    "id": "chocolate-dipped-strawberries-pareve",
-    "name": "Chocolate-Dipped Strawberries (Pareve)",
-    "category": "desserts-pareve",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 6,
-    "prepTimeMin": 15,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "450 g / 1 lb", "item": "fresh strawberries (about 20 medium), with stems if possible"},
-      {"amount": "120 g / 4 oz", "item": "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)", "israelNote": "look for 'parve' certification on the wrapper"},
-      {"amount": "1 tsp", "item": "coconut oil"},
-      {"amount": "1 tbsp", "item": "chopped toasted almonds or shredded coconut, for sprinkling (optional)"}
-    ],
-    "instructions": [
-      "Wash the strawberries and dry them completely with paper towels - any moisture makes the chocolate seize and slide off.",
-      "Line a tray with parchment paper.",
-      "Melt the chocolate with the coconut oil in 30-second microwave bursts (or over barely simmering water), stirring between bursts until just smooth.",
-      "Hold each berry by the stem and dip to cover about two-thirds, letting excess drip back into the bowl.",
-      "Place on the parchment and sprinkle with almonds or coconut while wet, if using.",
-      "Chill 15-20 minutes until the chocolate sets; best eaten the same day."
-    ],
-    "nutrition": {"calories": 148, "fatG": 10.2, "satFatG": 6.3, "proteinG": 3.0, "carbsG": 9.7, "fiberG": 3.7, "netCarbsG": 6.0, "sugarG": 5.1, "sodiumMg": 8},
-    "ketoVariant": "Use pareve sugar-free dark chocolate to cut net carbs to about 4.5 g per serving (the rest is the fruit itself).",
-    "tips": "Room-temperature berries hold chocolate better than fridge-cold ones, which sweat.",
-    "sources": [
-      {"creator": "The Big Man's World", "url": "https://thebigmansworld.com/keto-chocolate-covered-strawberries/"},
-      {"creator": "Sugar-Free Mom", "url": "https://www.sugarfreemom.com/recipes/chocolate-covered-strawberries-dairy-free-refined-sugar-free/"},
-      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/keto-chocolate-covered-strawberries/"}
-    ],
-    "comparedVersions": "Compared The Big Man's World, Sugar-Free Mom (explicitly dairy-free) and KetoFocus. All converge on the same 2-ingredient method; this version adds the coconut oil thinning and the bone-dry-berries rule that both TBMW and KetoFocus flag as the difference between success and failure, with pareve chocolate substituted for the milk-containing chips most versions use.",
-    "nameHe": "תותים מצופים שוקולד (פרווה)",
-    "ingredientsHe": [
-      {"amount": "450 גרם", "item": "תותים טריים (כ-20 בינוניים), רצוי עם העלים"},
-      {"amount": "120 גרם", "item": "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)", "israelNote": "מחפשים סימון 'פרווה' על העטיפה"},
-      {"amount": "1 כפית", "item": "שמן קוקוס"},
-      {"amount": "1 כף", "item": "שקדים קלויים קצוצים או קוקוס טחון, לפיזור (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "שוטפים את התותים ומייבשים אותם לגמרי בנייר סופג - כל לחות תגרום לשוקולד להתגבש ולהחליק מהתות.",
-      "מרפדים מגש בנייר אפייה.",
-      "ממיסים את השוקולד עם שמן הקוקוס בפולסים של 30 שניות במיקרוגל (או מעל סיר עם מים רותחים בעדינות), תוך ערבוב בין פולס לפולס, עד שהוא בדיוק חלק.",
-      "אוחזים כל תות בעלים וטובלים כשני שלישים ממנו, נותנים לעודף לטפטף חזרה לקערה.",
-      "מניחים על נייר האפייה ומפזרים שקדים או קוקוס בעוד השוקולד רטוב, אם משתמשים.",
-      "מקררים 15-20 דקות עד שהשוקולד מתייצב; הכי טעים ביום ההכנה."
-    ],
-    "ketoVariantHe": "משתמשים בשוקולד מריר פרווה ללא סוכר כדי לרדת לכ-4.5 גרם פחמימות נטו למנה (השאר מגיע מהפרי עצמו).",
-    "tipsHe": "תותים בטמפרטורת החדר מחזיקים שוקולד טוב יותר מתותים קרים מהמקרר, שמזיעים.",
-    "comparedVersionsHe": "השווינו את The Big Man's World, Sugar-Free Mom (ללא חלב במוצהר) ו-KetoFocus. כולם מתכנסים לאותה שיטה של 2 רכיבים; הגרסה הזו מוסיפה את דילול השוקולד בשמן קוקוס ואת כלל התותים היבשים לגמרי, ששני האתרים מציינים כהבדל בין הצלחה לכישלון, עם שוקולד פרווה במקום השבבים מכילי החלב שברוב הגרסאות."
-  }
+﻿[
+    {
+        "id":  "chocolate-avocado-mousse",
+        "name":  "Chocolate Avocado Mousse",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  10,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 large / 350 g flesh",
+                                "item":  "ripe avocados (soft but not brown)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 50 g",
+                                "item":  "unsweetened cocoa powder"
+                            },
+                            {
+                                "amount":  "1/2 cup / 120 ml",
+                                "item":  "coconut cream",
+                                "israelNote":  "kremet kokos 22%+ (supermarket Asian shelf)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 60 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cinnamon (optional)"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            }
+                        ],
+        "instructions":  [
+                             "Halve and pit the avocados and scoop the flesh into a food processor.",
+                             "Add the cocoa powder, coconut cream, powdered sweetener, vanilla, cinnamon and salt.",
+                             "Blend 1-2 minutes, scraping down the sides once or twice, until completely silky with no green flecks.",
+                             "Taste and adjust: a little more sweetener if bitter, a splash more coconut cream if too thick.",
+                             "Divide between 6 small glasses and chill at least 30 minutes before serving."
+                         ],
+        "nutrition":  {
+                          "calories":  157,
+                          "fatG":  14.0,
+                          "satFatG":  5.5,
+                          "proteinG":  2.8,
+                          "carbsG":  10.5,
+                          "fiberG":  6.7,
+                          "netCarbsG":  3.8,
+                          "sugarG":  0.8,
+                          "sodiumMg":  55
+                      },
+        "tips":  "Serve well chilled and within 24 hours - the strong cocoa hides the avocado completely, but the color dulls on day two.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/chocolate-avocado-mousse/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/keto-avocado-chocolate-mousse/"
+                        },
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/chocolate-avocado-mousse/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Sugar Free Londoner, Sweet As Honey and Low Carb Spark. Sugar Free Londoner\u0027s ratio won: coconut cream instead of melted chocolate keeps it pareve-simple and one-bowl, and its high cocoa-to-avocado ratio fully masks the avocado flavor while staying under 4 g net carbs.",
+        "nameHe":  "מוס שוקולד אבוקדו",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 גדולים / 350 גרם",
+                                  "item":  "אבוקדו בשל (רך אך לא חום)"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 50 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 120 מ\"ל",
+                                  "item":  "קרם קוקוס",
+                                  "israelNote":  "קרם קוקוס 22% שומן ומעלה (במדף האסייתי בסופר)"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 60 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "קינמון טחון (לא חובה)"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "חוצים את האבוקדו, מוציאים את הגלעין ומעבירים את בשר הפרי למעבד מזון.",
+                               "מוסיפים את אבקת הקקאו, קרם הקוקוס, הממתיק האבקתי, הווניל, הקינמון והמלח.",
+                               "מעבדים 1-2 דקות, תוך ניקוי הדפנות פעם-פעמיים, עד לקבלת מרקם משיי לחלוטין בלי שאריות ירוקות.",
+                               "טועמים ומתקנים: עוד קצת ממתיק אם מריר מדי, עוד מעט קרם קוקוס אם סמיך מדי.",
+                               "מחלקים ל-6 כוסות קטנות ומקררים לפחות 30 דקות לפני ההגשה."
+                           ],
+        "tipsHe":  "מגישים קר היטב ובתוך 24 שעות - הקקאו החזק מסווה את האבוקדו לחלוטין, אבל הצבע מתעמעם ביום השני.",
+        "comparedVersionsHe":  "השווינו את Sugar Free Londoner, Sweet As Honey ו-Low Carb Spark. היחס של Sugar Free Londoner ניצח: קרם קוקוס במקום שוקולד מומס שומר על המתכון פרווה ופשוט בקערה אחת, ויחס הקקאו-אבוקדו הגבוה מסווה לגמרי את טעם האבוקדו ונשאר מתחת ל-4 גרם פחמימות נטו."
+    },
+    {
+        "id":  "coconut-panna-cotta-agar",
+        "name":  "Coconut Cream Panna Cotta (Agar-Agar)",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 can / 400 ml",
+                                "item":  "full-fat canned coconut milk",
+                                "israelNote":  "kremet kokos 17-22% (supermarket Asian shelf) - use the can, not carton drink"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "agar-agar powder",
+                                "israelNote":  "agar-agar: health-food stores"
+                            },
+                            {
+                                "amount":  "3 tbsp / 24 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract (or seeds of 1/2 vanilla pod)"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            },
+                            {
+                                "amount":  "1/4 cup / 40 g",
+                                "item":  "fresh raspberries, for serving (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Shake the can well, then whisk the coconut milk, agar-agar powder, sweetener and salt in a small saucepan.",
+                             "Bring to a boil over medium heat, stirring now and then, then lower the heat and simmer 3-4 minutes, stirring constantly - agar must boil fully to activate.",
+                             "Off the heat, stir in the vanilla.",
+                             "Pour into 4 ramekins or glasses and let cool 15 minutes on the counter (agar begins setting near room temperature).",
+                             "Refrigerate at least 2 hours until fully set.",
+                             "Serve in the glass, or dip the ramekin base briefly in hot water and invert onto a plate; top with a few raspberries."
+                         ],
+        "nutrition":  {
+                          "calories":  190,
+                          "fatG":  18.5,
+                          "satFatG":  16.4,
+                          "proteinG":  1.8,
+                          "carbsG":  3.5,
+                          "fiberG":  0.6,
+                          "netCarbsG":  2.9,
+                          "sugarG":  1.9,
+                          "sodiumMg":  30
+                      },
+        "tips":  "Do not swap agar for gelatin here - gelatin sets slowly and lets the coconut milk separate into layers, while agar sets fast and even. Use exactly 1/2 tsp; more makes it rubbery.",
+        "sources":  [
+                        {
+                            "creator":  "Dani\u0027s Cookings",
+                            "url":  "https://daniscookings.com/keto-carrot-cake-with-coconut-panna-cotta/"
+                        },
+                        {
+                            "creator":  "Detoxinista",
+                            "url":  "https://detoxinista.com/easy-coconut-panna-cotta-dairy-free-paleo/"
+                        },
+                        {
+                            "creator":  "The Big Man\u0027s World",
+                            "url":  "https://thebigmansworld.com/keto-panna-cotta/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Dani\u0027s Cookings (agar), Detoxinista and The Big Man\u0027s World (both gelatin-based). The agar technique won for kosher reasons and because it sets faster and prevents the coconut milk splitting; amounts follow Dani\u0027s tested 400 ml : ~1/2 tsp agar ratio, slightly increased for a firmer standalone set.",
+        "nameHe":  "פנקוטה קרם קוקוס (אגר-אגר)",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 פחית / 400 מ\"ל",
+                                  "item":  "חלב קוקוס שומני בפחית",
+                                  "israelNote":  "קרם קוקוס 17%-22% שומן (במדף האסייתי בסופר) - להשתמש בפחית, לא במשקה קוקוס בקרטון"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אבקת אגר-אגר",
+                                  "israelNote":  "אגר-אגר: בחנויות טבע"
+                              },
+                              {
+                                  "amount":  "3 כפות / 24 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל (או גרגרים מ-1/2 מקל וניל)"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 40 גרם",
+                                  "item":  "פטל טרי להגשה (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מנערים היטב את הפחית, ואז טורפים בסיר קטן את חלב הקוקוס, אבקת האגר-אגר, הממתיק והמלח.",
+                               "מביאים לרתיחה על אש בינונית תוך ערבוב מדי פעם, מנמיכים את האש ומבשלים 3-4 דקות בערבוב מתמיד - האגר חייב לרתוח היטב כדי להתייצב.",
+                               "מורידים מהאש ומערבבים פנימה את הווניל.",
+                               "מוזגים ל-4 רמקינים או כוסות ומצננים 15 דקות על השיש (אגר מתחיל להתייצב כבר קרוב לטמפרטורת החדר).",
+                               "מכניסים למקרר לפחות שעתיים עד להתייצבות מלאה.",
+                               "מגישים בכוס, או טובלים את תחתית הרמקין לרגע במים חמים והופכים על צלחת; מעטרים בכמה גרגרי פטל."
+                           ],
+        "tipsHe":  "לא מחליפים כאן את האגר בג\u0027לטין - ג\u0027לטין מתייצב לאט ומאפשר לחלב הקוקוס להיפרד לשכבות, בעוד אגר מתייצב מהר ובאופן אחיד. מקפידים על 1/2 כפית בדיוק; יותר מזה ייתן מרקם גומי.",
+        "comparedVersionsHe":  "השווינו את Dani\u0027s Cookings (אגר) מול Detoxinista ו-The Big Man\u0027s World (שתיהן על בסיס ג\u0027לטין). טכניקת האגר ניצחה משיקולי כשרות ומפני שהיא מתייצבת מהר יותר ומונעת היפרדות של חלב הקוקוס; הכמויות לפי היחס הבדוק של Dani - 400 מ\"ל לכ-1/2 כפית אגר, בהגדלה קלה לקבלת התייצבות מוצקה יותר."
+    },
+    {
+        "id":  "almond-milk-chia-pudding-vanilla",
+        "name":  "Vanilla Almond Milk Chia Pudding",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  5,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cups / 480 ml",
+                                "item":  "unsweetened almond milk",
+                                "israelNote":  "mishkei shkedim unsweetened (lo mamutak)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 80 g",
+                                "item":  "chia seeds",
+                                "israelNote":  "chia seeds (health shelf)"
+                            },
+                            {
+                                "amount":  "3 tbsp / 24 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            },
+                            {
+                                "amount":  "1/2 cup / 70 g",
+                                "item":  "fresh berries, for topping (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Whisk the almond milk, sweetener, vanilla and salt in a bowl or large jar until the sweetener dissolves.",
+                             "Stir in the chia seeds.",
+                             "Wait 10 minutes, then stir or shake again thoroughly to break up any clumps - this second stir is what prevents a lumpy pudding.",
+                             "Cover and refrigerate at least 2 hours, preferably overnight, until thick and spoonable.",
+                             "Stir once more, divide into glasses and top with a few berries."
+                         ],
+        "nutrition":  {
+                          "calories":  118,
+                          "fatG":  7.5,
+                          "satFatG":  0.8,
+                          "proteinG":  4.0,
+                          "carbsG":  9.0,
+                          "fiberG":  7.2,
+                          "netCarbsG":  1.8,
+                          "sugarG":  0.3,
+                          "sodiumMg":  95
+                      },
+        "ketoVariant":  "For a chocolate version, whisk in 2 tbsp cocoa powder with the milk (adds about 1 g net carbs per serving).",
+        "tips":  "Keeps 5 days covered in the fridge - make a batch on Sunday for the whole week.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar Free Londoner",
+                            "url":  "https://sugarfreelondoner.com/keto-chia-pudding/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/low-carb-chia-seed-pudding-almond-milk/"
+                        },
+                        {
+                            "creator":  "MyKetoPlate",
+                            "url":  "https://myketoplate.com/vanilla-keto-chia-pudding/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Sugar Free Londoner, Sweet As Honey and MyKetoPlate. All agree on the 1:6 chia-to-milk ratio by volume (1/4 cup chia per cup milk); this version keeps that ratio, skips the yogurt some add (not pareve), and adopts the double-stir technique that every top version uses to avoid clumping.",
+        "nameHe":  "פודינג צ\u0027יה וניל על משקה שקדים",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 כוסות / 480 מ\"ל",
+                                  "item":  "משקה שקדים ללא סוכר",
+                                  "israelNote":  "לוודא על האריזה \u0027ללא תוספת סוכר\u0027"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 80 גרם",
+                                  "item":  "זרעי צ\u0027יה",
+                                  "israelNote":  "במדף הטבע בסופר"
+                              },
+                              {
+                                  "amount":  "3 כפות / 24 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 70 גרם",
+                                  "item":  "פירות יער טריים לקישוט (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "טורפים בקערה או בצנצנת גדולה את משקה השקדים, הממתיק, הווניל והמלח עד שהממתיק נמס.",
+                               "מערבבים פנימה את זרעי הצ\u0027יה.",
+                               "ממתינים 10 דקות ואז מערבבים או מנערים שוב ביסודיות כדי לפרק גושים - הערבוב השני הוא שמונע פודינג גושי.",
+                               "מכסים ומקררים לפחות שעתיים, רצוי לילה שלם, עד למרקם סמיך שנאכל בכפית.",
+                               "מערבבים פעם נוספת, מחלקים לכוסות ומעטרים בכמה פירות יער."
+                           ],
+        "ketoVariantHe":  "לגרסה שוקולדית טורפים פנימה 2 כפות אבקת קקאו יחד עם המשקה (מוסיף כ-1 גרם פחמימות נטו למנה).",
+        "tipsHe":  "נשמר 5 ימים מכוסה במקרר - מכינים כמות ביום ראשון לכל השבוע.",
+        "comparedVersionsHe":  "השווינו את Sugar Free Londoner, Sweet As Honey ו-MyKetoPlate. כולם מסכימים על יחס נפח של 1:6 צ\u0027יה למשקה (1/4 כוס צ\u0027יה לכל כוס משקה); הגרסה הזו שומרת על היחס, מוותרת על היוגורט שחלקם מוסיפים (לא פרווה) ומאמצת את טכניקת הערבוב הכפול שכל הגרסאות המובילות משתמשות בה נגד גושים."
+    },
+    {
+        "id":  "dark-chocolate-almond-sea-salt-bark",
+        "name":  "Dark Chocolate Bark with Almonds \u0026 Sea Salt",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  10,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "200 g / 7 oz",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)",
+                                "israelNote":  "look for \u0027parve\u0027 certification on 85% bars (e.g. Splendid/Carmit parve lines)"
+                            },
+                            {
+                                "amount":  "1 cup / 140 g",
+                                "item":  "raw almonds"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "coconut oil"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "flaky sea salt"
+                            }
+                        ],
+        "instructions":  [
+                             "Toast the almonds in a dry pan over medium heat 4-5 minutes, stirring, until fragrant; let cool and roughly chop half of them.",
+                             "Line a baking sheet with parchment paper.",
+                             "Melt the chocolate with the coconut oil in a heatproof bowl set over barely simmering water (or in 30-second microwave bursts), stirring until just smooth - remove while a few bits remain and stir them in, which keeps the bark glossy and snappy.",
+                             "Stir in the chopped almonds, then spread the mixture about 1/2 cm thick on the parchment.",
+                             "Scatter the whole almonds on top, press lightly, and sprinkle with the flaky salt.",
+                             "Refrigerate 30 minutes until hard, then break into 12 rough shards. Store in the fridge."
+                         ],
+        "nutrition":  {
+                          "calories":  168,
+                          "fatG":  13.6,
+                          "satFatG":  5.2,
+                          "proteinG":  4.5,
+                          "carbsG":  5.7,
+                          "fiberG":  3.3,
+                          "netCarbsG":  2.4,
+                          "sugarG":  1.7,
+                          "sodiumMg":  55
+                      },
+        "ketoVariant":  "Use pareve-certified sugar-free dark chocolate (stevia/erythritol-sweetened) to drop sugar to near zero and net carbs to about 1.5 g per shard.",
+        "tips":  "The near-melt technique (removing from heat at ~60% melted) is a lazy temper - the bark sets firm and doesn\u0027t bloom white streaks.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/dark-chocolate-sea-salt-almond-bark-low-carb-and-gluten-free/"
+                        },
+                        {
+                            "creator":  "Low Carb Yum",
+                            "url":  "https://lowcarbyum.com/dark-chocolate-almond-bark-sea-salt/"
+                        },
+                        {
+                            "creator":  "My Keto Kitchen",
+                            "url":  "https://www.myketokitchen.com/keto-recipes/keto-chocolate-sea-salt-bark/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food, Low Carb Yum and My Keto Kitchen. Skipped versions built from cocoa butter plus cocoa powder (more ingredients, graininess risk) in favor of melting a good pareve bar; kept ADIDAF\u0027s toasted-almond step and My Keto Kitchen\u0027s partial-melt trick, which together give the best flavor for a 4-ingredient recipe.",
+        "nameHe":  "שברי שוקולד מריר עם שקדים ומלח ים",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "200 גרם",
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)",
+                                  "israelNote":  "מחפשים סימון \u0027פרווה\u0027 על חפיסות 85% (למשל סדרות הפרווה של ספלנדיד/כרמית)"
+                              },
+                              {
+                                  "amount":  "1 כוס / 140 גרם",
+                                  "item":  "שקדים טבעיים"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "שמן קוקוס"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "מלח ים בפתיתים (מלח אטלנטי גס)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "קולים את השקדים במחבת יבשה על אש בינונית 4-5 דקות תוך ערבוב, עד שמריחים את הניחוח; מצננים וקוצצים גס את מחציתם.",
+                               "מרפדים תבנית בנייר אפייה.",
+                               "ממיסים את השוקולד עם שמן הקוקוס בקערה חסינת חום מעל סיר עם מים רותחים בעדינות (או בפולסים של 30 שניות במיקרוגל), ומערבבים עד שהוא כמעט חלק - מסירים מהחום כשעוד נותרו כמה חתיכות ומערבבים אותן פנימה; כך השוקולד נשאר מבריק ופריך.",
+                               "מערבבים פנימה את השקדים הקצוצים ומורחים את התערובת בעובי של כ-1/2 ס\"מ על נייר האפייה.",
+                               "מפזרים מעל את השקדים השלמים, לוחצים קלות ומפזרים את פתיתי המלח.",
+                               "מקררים 30 דקות עד להתקשות, ואז שוברים ל-12 שברים גסים. שומרים במקרר."
+                           ],
+        "ketoVariantHe":  "משתמשים בשוקולד מריר ללא סוכר בכשרות פרווה (ממותק בסטיביה/אריתריטול) כדי להוריד את הסוכר כמעט לאפס ואת הפחמימות נטו לכ-1.5 גרם לשבר.",
+        "tipsHe":  "טכניקת ההמסה החלקית (הסרה מהחום כשכ-60% מומס) היא טמפרור עצלנים - השוקולד מתייצב קשה ולא מפתח פסים לבנים.",
+        "comparedVersionsHe":  "השווינו את All Day I Dream About Food, Low Carb Yum ו-My Keto Kitchen. ויתרנו על גרסאות שנבנות מחמאת קקאו ואבקת קקאו (יותר רכיבים, סיכון לגרגיריות) לטובת המסה של חפיסה פרווה טובה; שמרנו על שלב קליית השקדים של ADIDAF ועל טריק ההמסה החלקית של My Keto Kitchen, שיחד נותנים את הטעם הטוב ביותר למתכון של 4 רכיבים."
+    },
+    {
+        "id":  "coconut-milk-vanilla-ice-cream",
+        "name":  "Coconut Milk Vanilla Ice Cream",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  10,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cans / 800 ml",
+                                "item":  "full-fat canned coconut milk, refrigerated overnight",
+                                "israelNote":  "kremet kokos 17-22% (supermarket Asian shelf)"
+                            },
+                            {
+                                "amount":  "3/4 cup / 150 g",
+                                "item":  "allulose or erythritol-monk fruit sweetener (allulose stays softest)"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "fine sea salt"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "vodka (optional - keeps it scoopable, flavor-neutral)"
+                            }
+                        ],
+        "instructions":  [
+                             "Chill a loaf pan or freezer container in the freezer.",
+                             "Blend the coconut milk, sweetener, vanilla, salt and vodka (if using) 30-60 seconds until completely smooth.",
+                             "If you have an ice cream maker, churn per its instructions for the creamiest result; otherwise pour into the chilled pan.",
+                             "For the no-churn route, freeze and whisk vigorously every 45 minutes for the first 2 hours to break up ice crystals.",
+                             "Freeze at least 3 hours until firm.",
+                             "Before serving, let stand 10-15 minutes at room temperature so it scoops cleanly."
+                         ],
+        "nutrition":  {
+                          "calories":  197,
+                          "fatG":  21.3,
+                          "satFatG":  18.9,
+                          "proteinG":  2.0,
+                          "carbsG":  2.9,
+                          "fiberG":  0,
+                          "netCarbsG":  2.9,
+                          "sugarG":  2.0,
+                          "sodiumMg":  90
+                      },
+        "tips":  "Erythritol blends freeze harder than allulose - if that is what you have, the vodka and the 15-minute counter rest become essential.",
+        "sources":  [
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/coconut-milk-ice-cream/"
+                        },
+                        {
+                            "creator":  "gnom-gnom",
+                            "url":  "https://www.gnom-gnom.com/keto-vanilla-ice-cream/"
+                        },
+                        {
+                            "creator":  "KetoFocus",
+                            "url":  "https://www.ketofocus.com/recipes/dairy-free-ice-cream/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Low Carb Spark (blend-and-freeze), gnom-gnom (custard base with eggs) and KetoFocus. Chose Low Carb Spark\u0027s egg-free base for simplicity and safety, added the alcohol trick and allulose preference from gnom-gnom/KetoFocus, which are the two levers that actually determine scoopability in dairy-free ice cream.",
+        "nameHe":  "גלידת וניל על בסיס חלב קוקוס",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 פחיות / 800 מ\"ל",
+                                  "item":  "חלב קוקוס שומני בפחית, לאחר לילה במקרר",
+                                  "israelNote":  "קרם קוקוס 17%-22% שומן (במדף האסייתי בסופר)"
+                              },
+                              {
+                                  "amount":  "3/4 כוס / 150 גרם",
+                                  "item":  "אלולוז או ממתיק אריתריטול-פרי הנזיר (אלולוז נשאר הכי רך)",
+                                  "israelNote":  "אלולוז: iHerb או חנויות טבע"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח ים דק"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "וודקה (לא חובה - שומרת על מרקם רך לגריפה, ניטרלית בטעם)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מקפיאים מראש תבנית אינגליש קייק או קופסה למקפיא.",
+                               "מבלנדרים את חלב הקוקוס, הממתיק, הווניל, המלח והוודקה (אם משתמשים) 30-60 שניות עד לקבלת תערובת חלקה לגמרי.",
+                               "אם יש מכונת גלידה, מערבלים לפי ההוראות לתוצאה הכי קרמית; אחרת מוזגים לתבנית הקרה.",
+                               "במסלול ללא מכונה, מקפיאים וטורפים נמרצות כל 45 דקות בשעתיים הראשונות כדי לפרק גבישי קרח.",
+                               "מקפיאים לפחות 3 שעות עד שהגלידה יציבה.",
+                               "לפני ההגשה משאירים 10-15 דקות בטמפרטורת החדר כדי שהגלידה תיגרף בקלות."
+                           ],
+        "tipsHe":  "תערובות אריתריטול קופאות קשה יותר מאלולוז - אם זה מה שיש לכם, הוודקה וההמתנה של 15 דקות על השיש הופכות לחיוניות.",
+        "comparedVersionsHe":  "השווינו את Low Carb Spark (בלנדר והקפאה), gnom-gnom (בסיס קרם ביצים) ו-KetoFocus. בחרנו בבסיס ללא ביצים של Low Carb Spark בשביל הפשטות והבטיחות, והוספנו את טריק האלכוהול ואת ההעדפה לאלולוז מ-gnom-gnom ו-KetoFocus - שני הגורמים שבאמת קובעים את רכות הגריפה בגלידה ללא חלב."
+    },
+    {
+        "id":  "mixed-berry-sorbet",
+        "name":  "Mixed Berry Sorbet",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  15,
+        "cookTimeMin":  5,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "2 cups / 250 g",
+                                "item":  "raspberries, fresh or frozen"
+                            },
+                            {
+                                "amount":  "1 cup / 150 g",
+                                "item":  "strawberries, fresh or frozen"
+                            },
+                            {
+                                "amount":  "3/4 cup / 150 g",
+                                "item":  "allulose (strongly preferred - erythritol freezes rock hard)",
+                                "israelNote":  "allulose: iHerb or health-food stores; or use erythritol and accept a firmer texture"
+                            },
+                            {
+                                "amount":  "2 cups / 480 ml",
+                                "item":  "water"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "vodka (optional, for scoopability)"
+                            }
+                        ],
+        "instructions":  [
+                             "Simmer 1 cup of the water with the allulose 3-4 minutes until fully dissolved and slightly syrupy; cool.",
+                             "Blend the berries with the remaining water until smooth.",
+                             "Press the puree through a fine sieve to remove the raspberry seeds - this is the step that makes it taste professional.",
+                             "Stir in the syrup, lemon juice and vodka; chill the mixture 2 hours.",
+                             "Churn in an ice cream maker to soft-serve stage, or freeze in a shallow pan and blitz the frozen chunks in a food processor until smooth.",
+                             "Freeze 2-3 hours more for a scoopable texture."
+                         ],
+        "nutrition":  {
+                          "calories":  38,
+                          "fatG":  0.2,
+                          "satFatG":  0,
+                          "proteinG":  0.5,
+                          "carbsG":  5.5,
+                          "fiberG":  1.8,
+                          "netCarbsG":  3.7,
+                          "sugarG":  2.6,
+                          "sodiumMg":  3
+                      },
+        "tips":  "Berries are the highest-carb part - keeping the portion to 2/3 cup keeps this genuinely keto at under 4 g net carbs.",
+        "sources":  [
+                        {
+                            "creator":  "All Day I Dream About Food",
+                            "url":  "https://alldayidreamaboutfood.com/sugar-free-keto-raspberry-sorbet/"
+                        },
+                        {
+                            "creator":  "KetoFocus",
+                            "url":  "https://www.ketofocus.com/recipes/strawberry-sorbet/"
+                        },
+                        {
+                            "creator":  "Wholesome Yum",
+                            "url":  "https://www.wholesomeyum.com/sugar-free-sorbet/"
+                        }
+                    ],
+        "comparedVersions":  "Compared All Day I Dream About Food, KetoFocus and Wholesome Yum. ADIDAF\u0027s tested finding that only allulose gives a scoopable sorbet (erythritol freezes solid) drove the sweetener choice; kept her syrup + strain method and added the freeze-then-food-processor fallback from KetoFocus for people without an ice cream maker.",
+        "nameHe":  "סורבה פירות יער",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 כוסות / 250 גרם",
+                                  "item":  "פטל, טרי או קפוא"
+                              },
+                              {
+                                  "amount":  "1 כוס / 150 גרם",
+                                  "item":  "תותים, טריים או קפואים"
+                              },
+                              {
+                                  "amount":  "3/4 כוס / 150 גרם",
+                                  "item":  "אלולוז (מומלץ מאוד - אריתריטול קופא קשה כמו אבן)",
+                                  "israelNote":  "אלולוז: iHerb או חנויות טבע; אפשר אריתריטול ולהשלים עם מרקם מוצק יותר"
+                              },
+                              {
+                                  "amount":  "2 כוסות / 480 מ\"ל",
+                                  "item":  "מים"
+                              },
+                              {
+                                  "amount":  "2 כפות / 30 מ\"ל",
+                                  "item":  "מיץ לימון סחוט טרי"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "וודקה (לא חובה, למרקם רך לגריפה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מרתיחים בעדינות כוס אחת מהמים עם האלולוז 3-4 דקות עד להמסה מלאה ולמרקם סירופי קל; מצננים.",
+                               "מבלנדרים את פירות היער עם שאר המים עד למחית חלקה.",
+                               "מעבירים את המחית דרך מסננת דקה כדי להיפטר מגרעיני הפטל - זה השלב שגורם לסורבה לטעום מקצועי.",
+                               "מערבבים פנימה את הסירופ, מיץ הלימון והוודקה; מקררים את התערובת שעתיים.",
+                               "מערבלים במכונת גלידה עד למרקם גלידה אמריקאית רכה, או מקפיאים בתבנית שטוחה ומרסקים את הגושים הקפואים במעבד מזון עד לקבלת מרקם חלק.",
+                               "מקפיאים 2-3 שעות נוספות למרקם שנגרף יפה בכף גלידה."
+                           ],
+        "tipsHe":  "פירות היער הם החלק העשיר ביותר בפחמימות - הקפדה על מנה של 2/3 כוס שומרת על הקינוח קטוגני באמת, מתחת ל-4 גרם פחמימות נטו.",
+        "comparedVersionsHe":  "השווינו את All Day I Dream About Food, KetoFocus ו-Wholesome Yum. הממצא הבדוק של ADIDAF שרק אלולוז נותן סורבה שנגרף (אריתריטול קופא למוצק) הכריע את בחירת הממתיק; שמרנו על שיטת הסירופ והסינון שלה והוספנו את מסלול ההקפאה ומעבד המזון של KetoFocus למי שאין מכונת גלידה."
+    },
+    {
+        "id":  "chocolate-coconut-ganache-truffles",
+        "name":  "Chocolate Truffles (Coconut Cream Ganache)",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  20,
+        "cookTimeMin":  5,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "200 g / 7 oz",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate, finely chopped (check pareve label)",
+                                "israelNote":  "check for \u0027parve\u0027 certification - most chocolate chips contain milk solids"
+                            },
+                            {
+                                "amount":  "100 ml / 7 tbsp",
+                                "item":  "coconut cream (thick part of a chilled can)",
+                                "israelNote":  "kremet kokos 22%+ (supermarket Asian shelf)"
+                            },
+                            {
+                                "amount":  "2 tbsp / 16 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend) (skip if using sugar-free chocolate)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            },
+                            {
+                                "amount":  "3 tbsp / 18 g",
+                                "item":  "unsweetened cocoa powder, for rolling"
+                            }
+                        ],
+        "instructions":  [
+                             "Put the finely chopped chocolate in a heatproof bowl.",
+                             "Heat the coconut cream with the sweetener in a small pot until it steams and bubbles form at the edge - do not boil.",
+                             "Pour the hot cream over the chocolate, let it sit undisturbed 4 minutes, then stir from the center outward until glossy and smooth; stir in the vanilla and salt.",
+                             "Cover and refrigerate 2-3 hours until firm enough to scoop.",
+                             "Scoop teaspoon-sized portions and roll quickly into balls with cool hands (makes about 16).",
+                             "Roll each truffle in cocoa powder and keep refrigerated up to a week."
+                         ],
+        "nutrition":  {
+                          "calories":  195,
+                          "fatG":  16.2,
+                          "satFatG":  11.0,
+                          "proteinG":  3.4,
+                          "carbsG":  5.4,
+                          "fiberG":  3.1,
+                          "netCarbsG":  2.3,
+                          "sugarG":  1.9,
+                          "sodiumMg":  15
+                      },
+        "lowCarbVariant":  "Roll in finely chopped toasted almonds or shredded coconut instead of cocoa for variety (adds ~0.5 g net carbs).",
+        "tips":  "The classic 2:1 chocolate-to-cream ratio is what makes these roll cleanly - resist adding extra coconut cream.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum",
+                            "url":  "https://www.wholesomeyum.com/keto-truffles/"
+                        },
+                        {
+                            "creator":  "Cassidy\u0027s Craveable Creations",
+                            "url":  "https://cassidyscraveablecreations.com/dairy-free-chocolate-truffles/"
+                        },
+                        {
+                            "creator":  "Life Made Sweeter",
+                            "url":  "https://lifemadesweeter.com/keto-chocolate-truffles/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Wholesome Yum (dairy ganache with noted coconut swap), Cassidy\u0027s dairy-free truffles and Life Made Sweeter\u0027s coconut-cream method. Kept Wholesome Yum\u0027s 2:1 chocolate-to-cream ratio (the firmness sweet spot), used coconut cream and no butter per Cassidy\u0027s tested dairy-free version, and Life Made Sweeter\u0027s pour-rest-stir ganache technique.",
+        "nameHe":  "טראפלס שוקולד (גנאש קרם קוקוס)",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "200 גרם",
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב, קצוץ דק (לבדוק סימון פרווה)",
+                                  "israelNote":  "לבדוק סימון \u0027פרווה\u0027 - רוב שבבי השוקולד מכילים רכיבי חלב"
+                              },
+                              {
+                                  "amount":  "100 מ\"ל / 7 כפות",
+                                  "item":  "קרם קוקוס (החלק הסמיך מפחית מקוררת)",
+                                  "israelNote":  "קרם קוקוס 22% שומן ומעלה (במדף האסייתי בסופר)"
+                              },
+                              {
+                                  "amount":  "2 כפות / 16 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי (מדלגים אם משתמשים בשוקולד ללא סוכר)"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              },
+                              {
+                                  "amount":  "3 כפות / 18 גרם",
+                                  "item":  "אבקת קקאו ללא סוכר, לגלגול"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "שמים את השוקולד הקצוץ דק בקערה חסינת חום.",
+                               "מחממים בסיר קטן את קרם הקוקוס עם הממתיק עד שעולים אדים ונוצרות בועות בשוליים - לא מרתיחים.",
+                               "מוזגים את הקרם החם על השוקולד, מניחים ללא ערבוב 4 דקות, ואז מערבבים מהמרכז החוצה עד לקבלת גנאש מבריק וחלק; מערבבים פנימה את הווניל והמלח.",
+                               "מכסים ומקררים 2-3 שעות עד שהגנאש יציב מספיק לגריפה.",
+                               "גורפים כמויות בגודל כפית ומגלגלים במהירות לכדורים בידיים קרות (יוצאים כ-16).",
+                               "מגלגלים כל טראפל באבקת קקאו ושומרים במקרר עד שבוע."
+                           ],
+        "lowCarbVariantHe":  "לגיוון מגלגלים בשקדים קלויים קצוצים דק או בקוקוס טחון במקום קקאו (מוסיף כ-0.5 גרם פחמימות נטו).",
+        "tipsHe":  "יחס השוקולד-קרם הקלאסי של 2:1 הוא מה שמאפשר גלגול נקי - להתאפק ולא להוסיף קרם קוקוס.",
+        "comparedVersionsHe":  "השווינו את Wholesome Yum (גנאש חלבי עם הערת החלפה לקוקוס), הטראפלס ללא חלב של Cassidy\u0027s ואת שיטת קרם הקוקוס של Life Made Sweeter. שמרנו על יחס 2:1 שוקולד לקרם של Wholesome Yum (נקודת המתיקות של המוצקות), השתמשנו בקרם קוקוס בלי חמאה לפי הגרסה הבדוקה ללא חלב של Cassidy\u0027s, ובטכניקת מזיגה-המתנה-ערבוב של Life Made Sweeter."
+    },
+    {
+        "id":  "tahini-halva-fudge-bites",
+        "name":  "Tahini Halva-Style Fudge Bites",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  16,
+        "prepTimeMin":  10,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 240 g",
+                                "item":  "raw tahini (100% sesame), well stirred",
+                                "israelNote":  "raw tahini (Har Bracha/Achva)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 60 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "2 tbsp / 28 g",
+                                "item":  "coconut oil"
+                            },
+                            {
+                                "amount":  "1 tbsp / 7 g",
+                                "item":  "coconut flour",
+                                "israelNote":  "kemach kokos (health shelf)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "sesame seeds or crushed pistachios, for topping (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Line a small container (about 15 x 10 cm) with parchment paper.",
+                             "Gently warm the coconut oil until just melted.",
+                             "Stir the tahini, melted coconut oil, powdered sweetener, coconut flour, vanilla and salt into a thick, uniform paste - powdered (not granulated) sweetener is essential for the classic halva texture.",
+                             "Press the mixture evenly into the lined container and scatter the sesame seeds or pistachios on top, pressing lightly.",
+                             "Refrigerate at least 4 hours (overnight is better - the texture firms and turns pleasantly crumbly-fudgy).",
+                             "Cut into 16 squares and store in the fridge up to a week."
+                         ],
+        "nutrition":  {
+                          "calories":  108,
+                          "fatG":  9.9,
+                          "satFatG":  2.6,
+                          "proteinG":  2.7,
+                          "carbsG":  3.8,
+                          "fiberG":  1.7,
+                          "netCarbsG":  2.1,
+                          "sugarG":  0.1,
+                          "sodiumMg":  20
+                      },
+        "ketoVariant":  "Swirl in 1 tbsp melted pareve dark chocolate before chilling for a marbled halva look.",
+        "tips":  "Very Israeli and very forgiving - if your tahini is runny, add coconut flour a teaspoon at a time until the paste holds its shape.",
+        "sources":  [
+                        {
+                            "creator":  "Queen Keto",
+                            "url":  "https://queenketo.com/sugar-free-dairy-free-low-carb-halva/"
+                        },
+                        {
+                            "creator":  "Low-Carb, So Simple",
+                            "url":  "https://www.lowcarbsosimple.com/5-ingredient-sugar-free-keto-halva/"
+                        },
+                        {
+                            "creator":  "Meat Free Keto",
+                            "url":  "https://meatfreeketo.com/sugar-free-low-carb-halvah-cups/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Queen Keto (dairy-free, cooked syrup), Low-Carb So Simple (uses whey protein - dairy, rejected for pareve) and Meat Free Keto\u0027s vegan halva cups. Synthesized a no-cook version: Queen Keto\u0027s tahini + coconut flour base for authentic texture without her fussy hot-syrup step, with coconut oil replacing the dairy binders of the other versions.",
+        "nameHe":  "קוביות פאדג\u0027 טחינה בסגנון חלבה",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 240 גרם",
+                                  "item":  "טחינה גולמית (100% שומשום), מעורבבת היטב",
+                                  "israelNote":  "טחינה גולמית איכותית (הר ברכה/אחוה)"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 60 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי"
+                              },
+                              {
+                                  "amount":  "2 כפות / 28 גרם",
+                                  "item":  "שמן קוקוס"
+                              },
+                              {
+                                  "amount":  "1 כף / 7 גרם",
+                                  "item":  "קמח קוקוס",
+                                  "israelNote":  "במדף הטבע בסופר"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "שומשום או פיסטוקים כתושים, לפיזור מעל (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מרפדים קופסה קטנה (כ-15x10 ס\"מ) בנייר אפייה.",
+                               "מחממים בעדינות את שמן הקוקוס עד שהוא בדיוק נמס.",
+                               "מערבבים את הטחינה, שמן הקוקוס המומס, הממתיק האבקתי, קמח הקוקוס, הווניל והמלח למשחה סמיכה ואחידה - ממתיק אבקתי (לא גבישי) הכרחי למרקם החלבה הקלאסי.",
+                               "מהדקים את התערובת בשכבה אחידה בקופסה המרופדת, מפזרים מעל שומשום או פיסטוקים ולוחצים קלות.",
+                               "מקררים לפחות 4 שעות (עדיף לילה - המרקם מתייצב והופך פירורי-פאדג\u0027י נעים).",
+                               "חותכים ל-16 קוביות ושומרים במקרר עד שבוע."
+                           ],
+        "ketoVariantHe":  "לפני הקירור מערבלים פנימה בתנועת שיש 1 כף שוקולד מריר פרווה מומס למראה חלבה מנומרת.",
+        "tipsHe":  "ישראלי מאוד וסלחני מאוד - אם הטחינה שלכם נוזלית, מוסיפים קמח קוקוס כפית אחר כפית עד שהמשחה שומרת על צורתה.",
+        "comparedVersionsHe":  "השווינו את Queen Keto (ללא חלב, סירופ מבושל), Low-Carb So Simple (משתמשים בחלבון מי גבינה - חלבי, נפסל לפרווה) ואת כוסיות החלבה הטבעוניות של Meat Free Keto. הרכבנו גרסה ללא בישול: בסיס הטחינה וקמח הקוקוס של Queen Keto למרקם אותנטי בלי שלב הסירופ החם המסורבל, עם שמן קוקוס שמחליף את הקושרים החלביים של הגרסאות האחרות."
+    },
+    {
+        "id":  "lemon-coconut-energy-balls",
+        "name":  "Lemon Coconut Energy Balls",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  12,
+        "prepTimeMin":  15,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 100 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim (health shelf)"
+                            },
+                            {
+                                "amount":  "1 cup / 80 g",
+                                "item":  "unsweetened shredded coconut, plus 1/4 cup / 20 g for rolling",
+                                "israelNote":  "kokos tachun lo mamutak - check label for no added sugar"
+                            },
+                            {
+                                "amount":  "3 tbsp / 40 g",
+                                "item":  "coconut oil, melted"
+                            },
+                            {
+                                "amount":  "3 tbsp / 24 g",
+                                "item":  "powdered allulose (or erythritol-monk fruit blend)"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "lemon - all the zest plus 2 tbsp / 30 ml juice"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "fine sea salt"
+                            }
+                        ],
+        "instructions":  [
+                             "Stir the almond flour, 1 cup shredded coconut, sweetener and salt together in a bowl.",
+                             "Add the melted coconut oil, lemon zest, lemon juice and vanilla; mix into a dough that holds together when squeezed.",
+                             "Taste and adjust - more zest for punch, more sweetener if too tart.",
+                             "If the dough is too soft to roll, chill 15 minutes.",
+                             "Roll into 12 balls, then roll each in the reserved shredded coconut.",
+                             "Chill 30 minutes to set; store in the fridge up to a week or freeze."
+                         ],
+        "nutrition":  {
+                          "calories":  134,
+                          "fatG":  12.9,
+                          "satFatG":  7.9,
+                          "proteinG":  2.4,
+                          "carbsG":  3.9,
+                          "fiberG":  2.3,
+                          "netCarbsG":  1.6,
+                          "sugarG":  0.7,
+                          "sodiumMg":  15
+                      },
+        "tips":  "The lemon zest carries most of the flavor - do not skip it, and zest before juicing.",
+        "sources":  [
+                        {
+                            "creator":  "Family on Keto",
+                            "url":  "https://familyonketo.com/no-bake-lemon-keto-energy-balls/"
+                        },
+                        {
+                            "creator":  "Pretty Pies",
+                            "url":  "https://prettypies.com/low-carb-lemon-bites/"
+                        },
+                        {
+                            "creator":  "The Conscious Plant Kitchen",
+                            "url":  "https://www.theconsciousplantkitchen.com/lemon-energy-balls/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Family on Keto (uses cream cheese - dairy, rejected), Pretty Pies (dairy-free) and The Conscious Plant Kitchen (vegan). Kept Family on Keto\u0027s proven 1:1 almond flour to coconut base but bound it with coconut oil per the two dairy-free versions, so the balls stay pareve and firm up cleanly in the fridge.",
+        "nameHe":  "כדורי אנרגיה לימון וקוקוס",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 100 גרם",
+                                  "item":  "קמח שקדים",
+                                  "israelNote":  "במדף הטבע בסופר"
+                              },
+                              {
+                                  "amount":  "1 כוס / 80 גרם",
+                                  "item":  "קוקוס טחון ללא סוכר, ועוד 1/4 כוס / 20 גרם לגלגול",
+                                  "israelNote":  "לבדוק על התווית שאין תוספת סוכר"
+                              },
+                              {
+                                  "amount":  "3 כפות / 40 גרם",
+                                  "item":  "שמן קוקוס, מומס"
+                              },
+                              {
+                                  "amount":  "3 כפות / 24 גרם",
+                                  "item":  "ממתיק אלולוז (או אריתריטול)-פרי הנזיר אבקתי"
+                              },
+                              {
+                                  "amount":  "1",
+                                  "item":  "לימון - כל הגרידה ועוד 2 כפות / 30 מ\"ל מיץ"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "תמצית וניל"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "מלח ים דק"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מערבבים בקערה את קמח השקדים, כוס הקוקוס הטחון, הממתיק והמלח.",
+                               "מוסיפים את שמן הקוקוס המומס, גרידת הלימון, מיץ הלימון והווניל; מערבבים לבצק שמתגבש כשלוחצים עליו.",
+                               "טועמים ומתקנים - עוד גרידה לחמיצות רעננה, עוד ממתיק אם חמוץ מדי.",
+                               "אם הבצק רך מדי לגלגול, מקררים 15 דקות.",
+                               "מגלגלים ל-12 כדורים, ואז מגלגלים כל כדור בקוקוס הטחון ששמרנו בצד.",
+                               "מקררים 30 דקות להתייצבות; שומרים במקרר עד שבוע או מקפיאים."
+                           ],
+        "tipsHe":  "גרידת הלימון נושאת את רוב הטעם - לא מדלגים עליה, ומגרדים לפני הסחיטה.",
+        "comparedVersionsHe":  "השווינו את Family on Keto (משתמשים בגבינת שמנת - חלבי, נפסל), Pretty Pies (ללא חלב) ו-The Conscious Plant Kitchen (טבעוני). שמרנו על בסיס ה-1:1 המוכח של קמח שקדים וקוקוס מ-Family on Keto אבל קשרנו אותו בשמן קוקוס לפי שתי הגרסאות ללא החלב, כך שהכדורים נשארים פרווה ומתייצבים יפה במקרר."
+    },
+    {
+        "id":  "chocolate-dipped-strawberries-pareve",
+        "name":  "Chocolate-Dipped Strawberries (Pareve)",
+        "category":  "desserts-pareve",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  15,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "450 g / 1 lb",
+                                "item":  "fresh strawberries (about 20 medium), with stems if possible"
+                            },
+                            {
+                                "amount":  "120 g / 4 oz",
+                                "item":  "pareve dark chocolate 85% or dairy-free sugar-free dark chocolate (check pareve label - most chocolate chips contain milk solids)",
+                                "israelNote":  "look for \u0027parve\u0027 certification on the wrapper"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "coconut oil"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "chopped toasted almonds or shredded coconut, for sprinkling (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Wash the strawberries and dry them completely with paper towels - any moisture makes the chocolate seize and slide off.",
+                             "Line a tray with parchment paper.",
+                             "Melt the chocolate with the coconut oil in 30-second microwave bursts (or over barely simmering water), stirring between bursts until just smooth.",
+                             "Hold each berry by the stem and dip to cover about two-thirds, letting excess drip back into the bowl.",
+                             "Place on the parchment and sprinkle with almonds or coconut while wet, if using.",
+                             "Chill 15-20 minutes until the chocolate sets; best eaten the same day."
+                         ],
+        "nutrition":  {
+                          "calories":  148,
+                          "fatG":  10.2,
+                          "satFatG":  6.3,
+                          "proteinG":  3.0,
+                          "carbsG":  9.7,
+                          "fiberG":  3.7,
+                          "netCarbsG":  6.0,
+                          "sugarG":  5.1,
+                          "sodiumMg":  8
+                      },
+        "ketoVariant":  "Use pareve sugar-free dark chocolate to cut net carbs to about 4.5 g per serving (the rest is the fruit itself).",
+        "tips":  "Room-temperature berries hold chocolate better than fridge-cold ones, which sweat.",
+        "sources":  [
+                        {
+                            "creator":  "The Big Man\u0027s World",
+                            "url":  "https://thebigmansworld.com/keto-chocolate-covered-strawberries/"
+                        },
+                        {
+                            "creator":  "Sugar-Free Mom",
+                            "url":  "https://www.sugarfreemom.com/recipes/chocolate-covered-strawberries-dairy-free-refined-sugar-free/"
+                        },
+                        {
+                            "creator":  "KetoFocus",
+                            "url":  "https://www.ketofocus.com/recipes/keto-chocolate-covered-strawberries/"
+                        }
+                    ],
+        "comparedVersions":  "Compared The Big Man\u0027s World, Sugar-Free Mom (explicitly dairy-free) and KetoFocus. All converge on the same 2-ingredient method; this version adds the coconut oil thinning and the bone-dry-berries rule that both TBMW and KetoFocus flag as the difference between success and failure, with pareve chocolate substituted for the milk-containing chips most versions use.",
+        "nameHe":  "תותים מצופים שוקולד (פרווה)",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "450 גרם",
+                                  "item":  "תותים טריים (כ-20 בינוניים), רצוי עם העלים"
+                              },
+                              {
+                                  "amount":  "120 גרם",
+                                  "item":  "שוקולד מריר 85% פרווה או שוקולד מריר ללא סוכר וללא חלב (לבדוק סימון פרווה - רוב שבבי השוקולד מכילים רכיבי חלב)",
+                                  "israelNote":  "מחפשים סימון \u0027פרווה\u0027 על העטיפה"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "שמן קוקוס"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "שקדים קלויים קצוצים או קוקוס טחון, לפיזור (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "שוטפים את התותים ומייבשים אותם לגמרי בנייר סופג - כל לחות תגרום לשוקולד להתגבש ולהחליק מהתות.",
+                               "מרפדים מגש בנייר אפייה.",
+                               "ממיסים את השוקולד עם שמן הקוקוס בפולסים של 30 שניות במיקרוגל (או מעל סיר עם מים רותחים בעדינות), תוך ערבוב בין פולס לפולס, עד שהוא בדיוק חלק.",
+                               "אוחזים כל תות בעלים וטובלים כשני שלישים ממנו, נותנים לעודף לטפטף חזרה לקערה.",
+                               "מניחים על נייר האפייה ומפזרים שקדים או קוקוס בעוד השוקולד רטוב, אם משתמשים.",
+                               "מקררים 15-20 דקות עד שהשוקולד מתייצב; הכי טעים ביום ההכנה."
+                           ],
+        "ketoVariantHe":  "משתמשים בשוקולד מריר פרווה ללא סוכר כדי לרדת לכ-4.5 גרם פחמימות נטו למנה (השאר מגיע מהפרי עצמו).",
+        "tipsHe":  "תותים בטמפרטורת החדר מחזיקים שוקולד טוב יותר מתותים קרים מהמקרר, שמזיעים.",
+        "comparedVersionsHe":  "השווינו את The Big Man\u0027s World, Sugar-Free Mom (ללא חלב במוצהר) ו-KetoFocus. כולם מתכנסים לאותה שיטה של 2 רכיבים; הגרסה הזו מוסיפה את דילול השוקולד בשמן קוקוס ואת כלל התותים היבשים לגמרי, ששני האתרים מציינים כהבדל בין הצלחה לכישלון, עם שוקולד פרווה במקום השבבים מכילי החלב שברוב הגרסאות."
+    }
 ]

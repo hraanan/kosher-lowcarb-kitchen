@@ -1,714 +1,1115 @@
-[
-  {
-    "id": "red-lentil-soup-cumin-lemon",
-    "name": "Middle Eastern Red Lentil Soup with Cumin and Lemon",
-    "nameHe": "מרק עדשים אדומות מזרח־תיכוני עם כמון ולימון",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 30,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "1 tbsp", "item": "olive oil" },
-      { "amount": "1 medium", "item": "onion, finely chopped" },
-      { "amount": "1 medium", "item": "carrot, diced small" },
-      { "amount": "3 cloves", "item": "garlic, minced" },
-      { "amount": "1 1/2 tsp", "item": "ground cumin" },
-      { "amount": "1/2 tsp", "item": "turmeric" },
-      { "amount": "1/2 cup / 100 g", "item": "dry red lentils, rinsed (25 g per serving - the portion cap that keeps this low carb)", "israelNote": "עדשים אדומות" },
-      { "amount": "1 tbsp", "item": "tomato paste" },
-      { "amount": "5 cups / 1.2 L", "item": "water or vegetable stock" },
-      { "amount": "to taste", "item": "salt, black pepper, juice of 1 lemon, chopped parsley" }
-    ],
-    "ingredientsHe": [
-      "כף שמן זית",
-      "בצל בינוני קצוץ דק",
-      "גזר בינוני חתוך לקוביות קטנות",
-      "3 שיני שום כתושות",
-      "כפית וחצי כמון טחון",
-      "חצי כפית כורכום",
-      "חצי כוס / 100 גרם עדשים אדומות שטופות (25 גרם למנה - זו מגבלת הכמות ששומרת על המרק דל־פחמימות)",
-      "כף רסק עגבניות",
-      "5 כוסות / 1.2 ליטר מים או ציר ירקות",
-      "מלח, פלפל שחור, מיץ מלימון שלם ופטרוזיליה קצוצה - לפי הטעם"
-    ],
-    "instructions": [
-      "Heat the olive oil in a soup pot over medium heat. Saute the onion and carrot for about 5 minutes, until softened.",
-      "Add the garlic, cumin and turmeric and stir for 1 minute until fragrant.",
-      "Stir in the lentils, tomato paste and water or stock. Bring to a boil.",
-      "Reduce the heat, cover partially and simmer 20-25 minutes, until the lentils have completely collapsed and thickened the soup.",
-      "Blend briefly with an immersion blender for a creamier texture, or leave rustic. Season with salt and pepper.",
-      "Off the heat, stir in the lemon juice. Serve topped with parsley and extra lemon wedges."
-    ],
-    "instructionsHe": [
-      "חממו את שמן הזית בסיר מרק על אש בינונית. טגנו את הבצל והגזר כ־5 דקות עד שהם מתרככים.",
-      "הוסיפו את השום, הכמון והכורכום וערבבו דקה אחת עד שעולה ריח.",
-      "הוסיפו את העדשים, רסק העגבניות והמים או הציר. הביאו לרתיחה.",
-      "הנמיכו את האש, כסו חלקית ובשלו 20-25 דקות, עד שהעדשים מתפרקות לגמרי והמרק מסמיך.",
-      "טחנו קצרות עם בלנדר מוט למרקם קטיפתי, או השאירו כפרי. תבלו במלח ופלפל.",
-      "מחוץ לאש הוסיפו את מיץ הלימון. הגישו עם פטרוזיליה ופלחי לימון."
-    ],
-    "nutrition": {
-      "calories": 175,
-      "fatG": 8,
-      "satFatG": 1.1,
-      "proteinG": 7,
-      "carbsG": 19,
-      "fiberG": 4,
-      "netCarbsG": 15,
-      "sugarG": 3,
-      "sodiumMg": 620
+﻿[
+    {
+        "id":  "red-lentil-soup-cumin-lemon",
+        "name":  "Middle Eastern Red Lentil Soup with Cumin and Lemon",
+        "nameHe":  "מרק עדשים אדומות מזרח־תיכוני עם כמון ולימון",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  30,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 medium",
+                                "item":  "onion, finely chopped"
+                            },
+                            {
+                                "amount":  "1 medium",
+                                "item":  "carrot, diced small"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "turmeric"
+                            },
+                            {
+                                "amount":  "1/2 cup / 100 g",
+                                "item":  "dry red lentils, rinsed (25 g per serving - the portion cap that keeps this low carb)",
+                                "israelNote":  "עדשים אדומות"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "tomato paste"
+                            },
+                            {
+                                "amount":  "5 cups / 1.2 L",
+                                "item":  "water or vegetable stock"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt, black pepper, juice of 1 lemon, chopped parsley"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "כף שמן זית",
+                              "בצל בינוני קצוץ דק",
+                              "גזר בינוני חתוך לקוביות קטנות",
+                              "3 שיני שום כתושות",
+                              "כפית וחצי כמון טחון",
+                              "חצי כפית כורכום",
+                              "חצי כוס / 100 גרם עדשים אדומות שטופות (25 גרם למנה - זו מגבלת הכמות ששומרת על המרק דל־פחמימות)",
+                              "כף רסק עגבניות",
+                              "5 כוסות / 1.2 ליטר מים או ציר ירקות",
+                              "מלח, פלפל שחור, מיץ מלימון שלם ופטרוזיליה קצוצה - לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Heat the olive oil in a soup pot over medium heat. Saute the onion and carrot for about 5 minutes, until softened.",
+                             "Add the garlic, cumin and turmeric and stir for 1 minute until fragrant.",
+                             "Stir in the lentils, tomato paste and water or stock. Bring to a boil.",
+                             "Reduce the heat, cover partially and simmer 20-25 minutes, until the lentils have completely collapsed and thickened the soup.",
+                             "Blend briefly with an immersion blender for a creamier texture, or leave rustic. Season with salt and pepper.",
+                             "Off the heat, stir in the lemon juice. Serve topped with parsley and extra lemon wedges."
+                         ],
+        "instructionsHe":  [
+                               "חממו את שמן הזית בסיר מרק על אש בינונית. טגנו את הבצל והגזר כ־5 דקות עד שהם מתרככים.",
+                               "הוסיפו את השום, הכמון והכורכום וערבבו דקה אחת עד שעולה ריח.",
+                               "הוסיפו את העדשים, רסק העגבניות והמים או הציר. הביאו לרתיחה.",
+                               "הנמיכו את האש, כסו חלקית ובשלו 20-25 דקות, עד שהעדשים מתפרקות לגמרי והמרק מסמיך.",
+                               "טחנו קצרות עם בלנדר מוט למרקם קטיפתי, או השאירו כפרי. תבלו במלח ופלפל.",
+                               "מחוץ לאש הוסיפו את מיץ הלימון. הגישו עם פטרוזיליה ופלחי לימון."
+                           ],
+        "nutrition":  {
+                          "calories":  175,
+                          "fatG":  8,
+                          "satFatG":  1.1,
+                          "proteinG":  7,
+                          "carbsG":  19,
+                          "fiberG":  4,
+                          "netCarbsG":  15,
+                          "sugarG":  3,
+                          "sodiumMg":  620
+                      },
+        "ketoVariant":  "Use only 1/4 cup / 50 g lentils and add 1 diced zucchini for body - about 9 g net carbs per serving.",
+        "ketoVariantHe":  "השתמשו רק ברבע כוס / 50 גרם עדשים והוסיפו קישוא קצוץ לנפח - כ־9 גרם פחמימות נטו למנה.",
+        "tips":  "Classic recipes use double the lentils; here the whole pot gets just 1/2 cup so each bowl carries only about 25 g dry lentils. The cumin-lemon finish keeps it tasting rich anyway.",
+        "tipsHe":  "במתכונים קלאסיים יש כמות כפולה של עדשים; כאן כל הסיר מקבל רק חצי כוס, כך שכל קערה מכילה רק כ־25 גרם עדשים יבשות. הכמון והלימון שומרים על טעם עשיר בכל מקרה.",
+        "sources":  [
+                        {
+                            "creator":  "Healthy Fitness Meals",
+                            "url":  "https://healthyfitnessmeals.com/red-lentil-soup/"
+                        },
+                        {
+                            "creator":  "Cooking LSL",
+                            "url":  "https://cookinglsl.com/middle-eastern-lentil-soup-recipe/"
+                        },
+                        {
+                            "creator":  "Love and Lemons",
+                            "url":  "https://www.loveandlemons.com/red-lentil-soup/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Healthy Fitness Meals, Cooking LSL and Love and Lemons: all agree on the cumin-turmeric-lemon backbone; this version halves the usual lentil quantity and thickens by full collapse plus a quick blend instead of more legumes.",
+        "comparedVersionsHe":  "הושוו הגרסאות של Healthy Fitness Meals, Cooking LSL ו־Love and Lemons: כולן מסכימות על בסיס הכמון-כורכום-לימון; הגרסה הזו מקטינה את כמות העדשים בחצי ומסמיכה על ידי בישול ממושך וטחינה קצרה במקום עוד קטניות."
     },
-    "ketoVariant": "Use only 1/4 cup / 50 g lentils and add 1 diced zucchini for body - about 9 g net carbs per serving.",
-    "ketoVariantHe": "השתמשו רק ברבע כוס / 50 גרם עדשים והוסיפו קישוא קצוץ לנפח - כ־9 גרם פחמימות נטו למנה.",
-    "tips": "Classic recipes use double the lentils; here the whole pot gets just 1/2 cup so each bowl carries only about 25 g dry lentils. The cumin-lemon finish keeps it tasting rich anyway.",
-    "tipsHe": "במתכונים קלאסיים יש כמות כפולה של עדשים; כאן כל הסיר מקבל רק חצי כוס, כך שכל קערה מכילה רק כ־25 גרם עדשים יבשות. הכמון והלימון שומרים על טעם עשיר בכל מקרה.",
-    "sources": [
-      { "creator": "Healthy Fitness Meals", "url": "https://healthyfitnessmeals.com/red-lentil-soup/" },
-      { "creator": "Cooking LSL", "url": "https://cookinglsl.com/middle-eastern-lentil-soup-recipe/" },
-      { "creator": "Love and Lemons", "url": "https://www.loveandlemons.com/red-lentil-soup/" }
-    ],
-    "comparedVersions": "Compared Healthy Fitness Meals, Cooking LSL and Love and Lemons: all agree on the cumin-turmeric-lemon backbone; this version halves the usual lentil quantity and thickens by full collapse plus a quick blend instead of more legumes.",
-    "comparedVersionsHe": "הושוו הגרסאות של Healthy Fitness Meals, Cooking LSL ו־Love and Lemons: כולן מסכימות על בסיס הכמון-כורכום-לימון; הגרסה הזו מקטינה את כמות העדשים בחצי ומסמיכה על ידי בישול ממושך וטחינה קצרה במקום עוד קטניות."
-  },
-  {
-    "id": "majadra-lowcarb-cauliflower",
-    "name": "Low-Carb Majadra: Lentils, Cauliflower Rice and Crispy Onions",
-    "nameHe": "מג'דרה דלת פחמימות: עדשים, אורז כרובית ובצל מטוגן פריך",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 40,
-    "difficulty": "medium",
-    "ingredients": [
-      { "amount": "1/2 cup / 100 g", "item": "dry brown or green lentils, rinsed (25 g per serving)", "israelNote": "עדשים ירוקות או חומות" },
-      { "amount": "3 tbsp", "item": "olive oil, divided" },
-      { "amount": "2 large", "item": "onions, halved and thinly sliced" },
-      { "amount": "1 medium head (about 500 g)", "item": "cauliflower, grated into rice, or frozen cauliflower rice", "israelNote": "אורז כרובית קפוא זמין בכל סופר" },
-      { "amount": "1 1/2 tsp", "item": "ground cumin" },
-      { "amount": "1/2 tsp", "item": "ground allspice" },
-      { "amount": "to taste", "item": "salt and black pepper" }
-    ],
-    "ingredientsHe": [
-      "חצי כוס / 100 גרם עדשים ירוקות או חומות שטופות (25 גרם למנה)",
-      "3 כפות שמן זית, בחלוקה",
-      "2 בצלים גדולים חצויים ופרוסים דק",
-      "ראש כרובית בינוני (כ־500 גרם) מגורר לאורז, או אורז כרובית קפוא",
-      "כפית וחצי כמון טחון",
-      "חצי כפית פלפל אנגלי טחון",
-      "מלח ופלפל שחור לפי הטעם"
-    ],
-    "instructions": [
-      "Cover the lentils with plenty of water, bring to a boil and simmer 18-20 minutes until tender but not mushy. Drain.",
-      "Meanwhile, heat 2 tbsp of the oil in a wide pan over medium-high heat. Fry the onion slices, stirring occasionally, 15-20 minutes until deeply browned and crisp at the edges. Remove half for topping.",
-      "Push the remaining onions to the side, add the last tbsp of oil and the cauliflower rice, and saute 5-6 minutes until just tender, not soggy.",
-      "Stir in the drained lentils, cumin, allspice, salt and pepper. Cook 2-3 minutes so the flavors meld.",
-      "Taste and adjust seasoning - majadra should be well salted and peppery.",
-      "Serve topped with the reserved crispy onions."
-    ],
-    "instructionsHe": [
-      "כסו את העדשים בהרבה מים, הביאו לרתיחה ובשלו 18-20 דקות עד שהן רכות אך לא מתפרקות. סננו.",
-      "בינתיים חממו 2 כפות שמן במחבת רחבה על אש בינונית-גבוהה. טגנו את פרוסות הבצל תוך ערבוב מדי פעם 15-20 דקות עד שהן חומות עמוק ופריכות בקצוות. הוציאו חצי בצד לתוספת מעל.",
-      "הזיזו את הבצל שנשאר לצד המחבת, הוסיפו את כף השמן הנותרת ואת אורז הכרובית, וטגנו 5-6 דקות עד שהוא רך אך לא דייסתי.",
-      "הוסיפו את העדשים המסוננות, הכמון, הפלפל האנגלי, מלח ופלפל. בשלו 2-3 דקות לאיחוד הטעמים.",
-      "טעמו ותקנו תיבול - מג'דרה צריכה להיות מתובלת היטב במלח ופלפל.",
-      "הגישו עם הבצל הפריך ששמרתם מעל."
-    ],
-    "nutrition": {
-      "calories": 235,
-      "fatG": 11,
-      "satFatG": 1.5,
-      "proteinG": 8,
-      "carbsG": 23,
-      "fiberG": 9,
-      "netCarbsG": 14,
-      "sugarG": 5,
-      "sodiumMg": 490
+    {
+        "id":  "majadra-lowcarb-cauliflower",
+        "name":  "Low-Carb Majadra: Lentils, Cauliflower Rice and Crispy Onions",
+        "nameHe":  "מג\u0027דרה דלת פחמימות: עדשים, אורז כרובית ובצל מטוגן פריך",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  40,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1/2 cup / 100 g",
+                                "item":  "dry brown or green lentils, rinsed (25 g per serving)",
+                                "israelNote":  "עדשים ירוקות או חומות"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "olive oil, divided"
+                            },
+                            {
+                                "amount":  "2 large",
+                                "item":  "onions, halved and thinly sliced"
+                            },
+                            {
+                                "amount":  "1 medium head (about 500 g)",
+                                "item":  "cauliflower, grated into rice, or frozen cauliflower rice",
+                                "israelNote":  "אורז כרובית קפוא זמין בכל סופר"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground allspice"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt and black pepper"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "חצי כוס / 100 גרם עדשים ירוקות או חומות שטופות (25 גרם למנה)",
+                              "3 כפות שמן זית, בחלוקה",
+                              "2 בצלים גדולים חצויים ופרוסים דק",
+                              "ראש כרובית בינוני (כ־500 גרם) מגורר לאורז, או אורז כרובית קפוא",
+                              "כפית וחצי כמון טחון",
+                              "חצי כפית פלפל אנגלי טחון",
+                              "מלח ופלפל שחור לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Cover the lentils with plenty of water, bring to a boil and simmer 18-20 minutes until tender but not mushy. Drain.",
+                             "Meanwhile, heat 2 tbsp of the oil in a wide pan over medium-high heat. Fry the onion slices, stirring occasionally, 15-20 minutes until deeply browned and crisp at the edges. Remove half for topping.",
+                             "Push the remaining onions to the side, add the last tbsp of oil and the cauliflower rice, and saute 5-6 minutes until just tender, not soggy.",
+                             "Stir in the drained lentils, cumin, allspice, salt and pepper. Cook 2-3 minutes so the flavors meld.",
+                             "Taste and adjust seasoning - majadra should be well salted and peppery.",
+                             "Serve topped with the reserved crispy onions."
+                         ],
+        "instructionsHe":  [
+                               "כסו את העדשים בהרבה מים, הביאו לרתיחה ובשלו 18-20 דקות עד שהן רכות אך לא מתפרקות. סננו.",
+                               "בינתיים חממו 2 כפות שמן במחבת רחבה על אש בינונית-גבוהה. טגנו את פרוסות הבצל תוך ערבוב מדי פעם 15-20 דקות עד שהן חומות עמוק ופריכות בקצוות. הוציאו חצי בצד לתוספת מעל.",
+                               "הזיזו את הבצל שנשאר לצד המחבת, הוסיפו את כף השמן הנותרת ואת אורז הכרובית, וטגנו 5-6 דקות עד שהוא רך אך לא דייסתי.",
+                               "הוסיפו את העדשים המסוננות, הכמון, הפלפל האנגלי, מלח ופלפל. בשלו 2-3 דקות לאיחוד הטעמים.",
+                               "טעמו ותקנו תיבול - מג\u0027דרה צריכה להיות מתובלת היטב במלח ופלפל.",
+                               "הגישו עם הבצל הפריך ששמרתם מעל."
+                           ],
+        "nutrition":  {
+                          "calories":  235,
+                          "fatG":  11,
+                          "satFatG":  1.5,
+                          "proteinG":  8,
+                          "carbsG":  23,
+                          "fiberG":  9,
+                          "netCarbsG":  14,
+                          "sugarG":  5,
+                          "sodiumMg":  490
+                      },
+        "ketoVariant":  "Halve the lentils to 1/4 cup / 50 g and use one whole large cauliflower - about 9 g net carbs per serving.",
+        "ketoVariantHe":  "הפחיתו את העדשים לרבע כוס / 50 גרם והשתמשו בכרובית גדולה שלמה - כ־9 גרם פחמימות נטו למנה.",
+        "tips":  "Traditional majadra uses a full cup each of rice and lentils; swapping the rice for cauliflower and capping lentils at 25 g dry per serving roughly halves the carbs while keeping the cumin-and-burnt-onion character.",
+        "tipsHe":  "מג\u0027דרה מסורתית מכילה כוס שלמה של אורז וכוס עדשים; החלפת האורז בכרובית והגבלת העדשים ל־25 גרם יבשות למנה חוצות בערך את הפחמימות ושומרות על אופי הכמון והבצל המושחם.",
+        "sources":  [
+                        {
+                            "creator":  "Eating Bird Food",
+                            "url":  "https://www.eatingbirdfood.com/mujadara/"
+                        },
+                        {
+                            "creator":  "The Mediterranean Dish",
+                            "url":  "https://www.themediterraneandish.com/mujadara-lentils-and-rice-with-crispy-onions/"
+                        },
+                        {
+                            "creator":  "Minimalist Baker",
+                            "url":  "https://minimalistbaker.com/curried-cauliflower-rice-with-lentils-crispy-shallot-mujadara-inspired/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Eating Bird Food\u0027s cauliflower-rice mujadara, The Mediterranean Dish\u0027s classic and Minimalist Baker\u0027s mujadara-inspired skillet: kept the classic deep-browned onions from The Mediterranean Dish, the cauliflower swap from Eating Bird Food, and a smaller lentil portion than all three.",
+        "comparedVersionsHe":  "הושוו מג\u0027דרת אורז הכרובית של Eating Bird Food, הקלאסיקה של The Mediterranean Dish והמחבת בהשראת מג\u0027דרה של Minimalist Baker: נשמר הבצל המושחם העמוק מהקלאסיקה, החלפת הכרובית מ־Eating Bird Food, ומנת עדשים קטנה משלושתן."
     },
-    "ketoVariant": "Halve the lentils to 1/4 cup / 50 g and use one whole large cauliflower - about 9 g net carbs per serving.",
-    "ketoVariantHe": "הפחיתו את העדשים לרבע כוס / 50 גרם והשתמשו בכרובית גדולה שלמה - כ־9 גרם פחמימות נטו למנה.",
-    "tips": "Traditional majadra uses a full cup each of rice and lentils; swapping the rice for cauliflower and capping lentils at 25 g dry per serving roughly halves the carbs while keeping the cumin-and-burnt-onion character.",
-    "tipsHe": "מג'דרה מסורתית מכילה כוס שלמה של אורז וכוס עדשים; החלפת האורז בכרובית והגבלת העדשים ל־25 גרם יבשות למנה חוצות בערך את הפחמימות ושומרות על אופי הכמון והבצל המושחם.",
-    "sources": [
-      { "creator": "Eating Bird Food", "url": "https://www.eatingbirdfood.com/mujadara/" },
-      { "creator": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/mujadara-lentils-and-rice-with-crispy-onions/" },
-      { "creator": "Minimalist Baker", "url": "https://minimalistbaker.com/curried-cauliflower-rice-with-lentils-crispy-shallot-mujadara-inspired/" }
-    ],
-    "comparedVersions": "Compared Eating Bird Food's cauliflower-rice mujadara, The Mediterranean Dish's classic and Minimalist Baker's mujadara-inspired skillet: kept the classic deep-browned onions from The Mediterranean Dish, the cauliflower swap from Eating Bird Food, and a smaller lentil portion than all three.",
-    "comparedVersionsHe": "הושוו מג'דרת אורז הכרובית של Eating Bird Food, הקלאסיקה של The Mediterranean Dish והמחבת בהשראת מג'דרה של Minimalist Baker: נשמר הבצל המושחם העמוק מהקלאסיקה, החלפת הכרובית מ־Eating Bird Food, ומנת עדשים קטנה משלושתן."
-  },
-  {
-    "id": "baked-lentil-cauliflower-falafel",
-    "name": "Baked Lentil-Cauliflower Falafel with Tahini Drizzle",
-    "nameHe": "פלאפל עדשים וכרובית אפוי עם זילוף טחינה",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 20,
-    "cookTimeMin": 35,
-    "difficulty": "medium",
-    "ingredients": [
-      { "amount": "1/2 cup / 100 g", "item": "dry red lentils (25 g per serving; makes 4 falafel per person)", "israelNote": "עדשים אדומות" },
-      { "amount": "200 g", "item": "cauliflower florets, grated or pulsed into rice" },
-      { "amount": "1/2 small", "item": "onion, roughly chopped" },
-      { "amount": "3 cloves", "item": "garlic" },
-      { "amount": "1 cup packed", "item": "parsley and cilantro leaves" },
-      { "amount": "1", "item": "egg (or 1 flax egg for vegan)" },
-      { "amount": "2 tbsp", "item": "coconut flour", "israelNote": "קמח קוקוס - בחנויות טבע ורשתות" },
-      { "amount": "1 tsp each", "item": "ground cumin and coriander, plus salt and pepper" },
-      { "amount": "3 tbsp", "item": "raw tahini + juice of 1/2 lemon + cold water, for the drizzle", "israelNote": "טחינה גולמית" }
-    ],
-    "ingredientsHe": [
-      "חצי כוס / 100 גרם עדשים אדומות (25 גרם למנה; יוצא 4 כדורים לאדם)",
-      "200 גרם פרחי כרובית מגוררים או קצוצים במעבד לאורז",
-      "חצי בצל קטן קצוץ גס",
-      "3 שיני שום",
-      "כוס דחוסה של עלי פטרוזיליה וכוסברה",
-      "ביצה (או ביצת פשתן לטבעונים)",
-      "2 כפות קמח קוקוס",
-      "כפית כמון טחון וכפית כוסברה טחונה, מלח ופלפל",
-      "3 כפות טחינה גולמית + מיץ מחצי לימון + מים קרים, לזילוף"
-    ],
-    "instructions": [
-      "Simmer the red lentils in water for just 8-10 minutes until tender but still holding shape. Drain very well and cool slightly.",
-      "Preheat the oven to 200C / 390F and line a baking sheet with parchment.",
-      "In a food processor, pulse the onion, garlic and herbs until finely chopped. Add the lentils, cauliflower, egg, coconut flour, spices, salt and pepper and pulse to a thick, cohesive mash - not a puree.",
-      "Form 16 small balls with damp hands, flatten slightly and arrange on the sheet. Brush or spray lightly with oil.",
-      "Bake 25-30 minutes, flipping halfway, until browned and crisp outside.",
-      "Whisk the tahini with lemon juice, a pinch of salt and enough cold water to make a pourable sauce. Drizzle over the falafel and serve with chopped vegetables."
-    ],
-    "instructionsHe": [
-      "בשלו את העדשים האדומות במים 8-10 דקות בלבד עד שהן רכות אך שומרות על צורה. סננו היטב מאוד וצננו מעט.",
-      "חממו תנור ל־200 מעלות ורפדו תבנית בנייר אפייה.",
-      "במעבד מזון קצצו את הבצל, השום והעשבים עד שהם קצוצים דק. הוסיפו את העדשים, הכרובית, הביצה, קמח הקוקוס, התבלינים, המלח והפלפל ועבדו בפולסים לעיסה סמיכה ומגובשת - לא מחית.",
-      "צרו 16 כדורים קטנים בידיים לחות, שטחו מעט וסדרו על התבנית. מברישים או מרססים מעט שמן.",
-      "אפו 25-30 דקות, הפכו באמצע, עד שהפלאפל שחום ופריך מבחוץ.",
-      "ערבבו את הטחינה עם מיץ הלימון, קורט מלח ומספיק מים קרים לרוטב נוזלי. זלפו על הפלאפל והגישו עם ירקות קצוצים."
-    ],
-    "nutrition": {
-      "calories": 230,
-      "fatG": 10,
-      "satFatG": 2,
-      "proteinG": 10,
-      "carbsG": 23,
-      "fiberG": 7,
-      "netCarbsG": 16,
-      "sugarG": 3,
-      "sodiumMg": 460
+    {
+        "id":  "baked-lentil-cauliflower-falafel",
+        "name":  "Baked Lentil-Cauliflower Falafel with Tahini Drizzle",
+        "nameHe":  "פלאפל עדשים וכרובית אפוי עם זילוף טחינה",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  35,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1/2 cup / 100 g",
+                                "item":  "dry red lentils (25 g per serving; makes 4 falafel per person)",
+                                "israelNote":  "עדשים אדומות"
+                            },
+                            {
+                                "amount":  "200 g",
+                                "item":  "cauliflower florets, grated or pulsed into rice"
+                            },
+                            {
+                                "amount":  "1/2 small",
+                                "item":  "onion, roughly chopped"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic"
+                            },
+                            {
+                                "amount":  "1 cup packed",
+                                "item":  "parsley and cilantro leaves"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "egg (or 1 flax egg for vegan)"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "coconut flour",
+                                "israelNote":  "קמח קוקוס - בחנויות טבע ורשתות"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "ground cumin and coriander, plus salt and pepper"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "raw tahini + juice of 1/2 lemon + cold water, for the drizzle",
+                                "israelNote":  "טחינה גולמית"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "חצי כוס / 100 גרם עדשים אדומות (25 גרם למנה; יוצא 4 כדורים לאדם)",
+                              "200 גרם פרחי כרובית מגוררים או קצוצים במעבד לאורז",
+                              "חצי בצל קטן קצוץ גס",
+                              "3 שיני שום",
+                              "כוס דחוסה של עלי פטרוזיליה וכוסברה",
+                              "ביצה (או ביצת פשתן לטבעונים)",
+                              "2 כפות קמח קוקוס",
+                              "כפית כמון טחון וכפית כוסברה טחונה, מלח ופלפל",
+                              "3 כפות טחינה גולמית + מיץ מחצי לימון + מים קרים, לזילוף"
+                          ],
+        "instructions":  [
+                             "Simmer the red lentils in water for just 8-10 minutes until tender but still holding shape. Drain very well and cool slightly.",
+                             "Preheat the oven to 200C / 390F and line a baking sheet with parchment.",
+                             "In a food processor, pulse the onion, garlic and herbs until finely chopped. Add the lentils, cauliflower, egg, coconut flour, spices, salt and pepper and pulse to a thick, cohesive mash - not a puree.",
+                             "Form 16 small balls with damp hands, flatten slightly and arrange on the sheet. Brush or spray lightly with oil.",
+                             "Bake 25-30 minutes, flipping halfway, until browned and crisp outside.",
+                             "Whisk the tahini with lemon juice, a pinch of salt and enough cold water to make a pourable sauce. Drizzle over the falafel and serve with chopped vegetables."
+                         ],
+        "instructionsHe":  [
+                               "בשלו את העדשים האדומות במים 8-10 דקות בלבד עד שהן רכות אך שומרות על צורה. סננו היטב מאוד וצננו מעט.",
+                               "חממו תנור ל־200 מעלות ורפדו תבנית בנייר אפייה.",
+                               "במעבד מזון קצצו את הבצל, השום והעשבים עד שהם קצוצים דק. הוסיפו את העדשים, הכרובית, הביצה, קמח הקוקוס, התבלינים, המלח והפלפל ועבדו בפולסים לעיסה סמיכה ומגובשת - לא מחית.",
+                               "צרו 16 כדורים קטנים בידיים לחות, שטחו מעט וסדרו על התבנית. מברישים או מרססים מעט שמן.",
+                               "אפו 25-30 דקות, הפכו באמצע, עד שהפלאפל שחום ופריך מבחוץ.",
+                               "ערבבו את הטחינה עם מיץ הלימון, קורט מלח ומספיק מים קרים לרוטב נוזלי. זלפו על הפלאפל והגישו עם ירקות קצוצים."
+                           ],
+        "nutrition":  {
+                          "calories":  230,
+                          "fatG":  10,
+                          "satFatG":  2,
+                          "proteinG":  10,
+                          "carbsG":  23,
+                          "fiberG":  7,
+                          "netCarbsG":  16,
+                          "sugarG":  3,
+                          "sodiumMg":  460
+                      },
+        "lowCarbVariant":  "Serve over salad leaves with extra tahini instead of in a pita - a pita alone adds about 30 g net carbs.",
+        "lowCarbVariantHe":  "הגישו על עלי סלט עם עוד טחינה במקום בפיתה - פיתה לבדה מוסיפה כ־30 גרם פחמימות נטו.",
+        "tips":  "Drain the lentils thoroughly - excess water is the main reason baked falafel fall apart. The coconut flour absorbs moisture and adds fiber without meaningful carbs.",
+        "tipsHe":  "סננו את העדשים ביסודיות - עודף מים הוא הסיבה העיקרית לפלאפל אפוי שמתפרק. קמח הקוקוס סופח לחות ומוסיף סיבים כמעט בלי פחמימות.",
+        "sources":  [
+                        {
+                            "creator":  "Slender Kitchen",
+                            "url":  "https://www.slenderkitchen.com/recipe/baked-lentil-falafel"
+                        },
+                        {
+                            "creator":  "Darn Good Veggies",
+                            "url":  "https://www.darngoodveggies.com/30-minute-baked-lentil-falafel/"
+                        },
+                        {
+                            "creator":  "Vegan Richa",
+                            "url":  "https://www.veganricha.com/lentil-split-pea-falafel-bowl-with/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Slender Kitchen, Darn Good Veggies and Vegan Richa: all bake instead of fry and process cooked lentils with fresh herbs; this version stretches the lentils with cauliflower rice and coconut flour to cut carbs per ball by roughly a third.",
+        "comparedVersionsHe":  "הושוו Slender Kitchen, Darn Good Veggies ו־Vegan Richa: כולם אופים במקום לטגן ומעבדים עדשים מבושלות עם עשבי תיבול טריים; הגרסה הזו ממתחת את העדשים עם אורז כרובית וקמח קוקוס וחותכת כשליש מהפחמימות בכל כדור."
     },
-    "lowCarbVariant": "Serve over salad leaves with extra tahini instead of in a pita - a pita alone adds about 30 g net carbs.",
-    "lowCarbVariantHe": "הגישו על עלי סלט עם עוד טחינה במקום בפיתה - פיתה לבדה מוסיפה כ־30 גרם פחמימות נטו.",
-    "tips": "Drain the lentils thoroughly - excess water is the main reason baked falafel fall apart. The coconut flour absorbs moisture and adds fiber without meaningful carbs.",
-    "tipsHe": "סננו את העדשים ביסודיות - עודף מים הוא הסיבה העיקרית לפלאפל אפוי שמתפרק. קמח הקוקוס סופח לחות ומוסיף סיבים כמעט בלי פחמימות.",
-    "sources": [
-      { "creator": "Slender Kitchen", "url": "https://www.slenderkitchen.com/recipe/baked-lentil-falafel" },
-      { "creator": "Darn Good Veggies", "url": "https://www.darngoodveggies.com/30-minute-baked-lentil-falafel/" },
-      { "creator": "Vegan Richa", "url": "https://www.veganricha.com/lentil-split-pea-falafel-bowl-with/" }
-    ],
-    "comparedVersions": "Compared Slender Kitchen, Darn Good Veggies and Vegan Richa: all bake instead of fry and process cooked lentils with fresh herbs; this version stretches the lentils with cauliflower rice and coconut flour to cut carbs per ball by roughly a third.",
-    "comparedVersionsHe": "הושוו Slender Kitchen, Darn Good Veggies ו־Vegan Richa: כולם אופים במקום לטגן ומעבדים עדשים מבושלות עם עשבי תיבול טריים; הגרסה הזו ממתחת את העדשים עם אורז כרובית וקמח קוקוס וחותכת כשליש מהפחמימות בכל כדור."
-  },
-  {
-    "id": "quinoa-stuffed-peppers-tomato-herb",
-    "name": "Tomato-Herb Quinoa Stuffed Peppers",
-    "nameHe": "פלפלים ממולאים בקינואה, עגבניות ועשבי תיבול",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 20,
-    "cookTimeMin": 45,
-    "difficulty": "medium",
-    "ingredients": [
-      { "amount": "4 large", "item": "bell peppers, tops cut off and seeded" },
-      { "amount": "1/3 cup / 60 g", "item": "dry quinoa, rinsed (15 g per serving)", "israelNote": "קינואה" },
-      { "amount": "1 tbsp", "item": "olive oil" },
-      { "amount": "1 small", "item": "onion, finely chopped" },
-      { "amount": "2 cloves", "item": "garlic, minced" },
-      { "amount": "200 g", "item": "mushrooms or zucchini, finely chopped" },
-      { "amount": "200 g", "item": "crushed tomatoes", "israelNote": "עגבניות מרוסקות (חצי קופסה)" },
-      { "amount": "1 tsp each", "item": "dried oregano and dried basil" },
-      { "amount": "to taste", "item": "salt, black pepper, chopped fresh parsley" }
-    ],
-    "ingredientsHe": [
-      "4 פלפלים גדולים, חתוכים בחלקם העליון ומנוקים מגרעינים",
-      "שליש כוס / 60 גרם קינואה שטופה (15 גרם למנה)",
-      "כף שמן זית",
-      "בצל קטן קצוץ דק",
-      "2 שיני שום כתושות",
-      "200 גרם פטריות או קישואים קצוצים דק",
-      "200 גרם עגבניות מרוסקות (חצי קופסה)",
-      "כפית אורגנו יבש וכפית בזיליקום יבש",
-      "מלח, פלפל שחור ופטרוזיליה טרייה קצוצה - לפי הטעם"
-    ],
-    "instructions": [
-      "Cook the quinoa in 2/3 cup lightly salted water: bring to a boil, cover, simmer 13 minutes, then rest 5 minutes and fluff.",
-      "Preheat the oven to 190C / 375F. Stand the peppers in a snug baking dish (trim bases flat if needed).",
-      "Heat the oil in a pan and saute the onion 4 minutes. Add the garlic and mushrooms or zucchini and cook 5 minutes until the moisture evaporates.",
-      "Stir in the crushed tomatoes, oregano, basil, salt and pepper; simmer 3 minutes. Fold in the cooked quinoa and parsley.",
-      "Fill the peppers with the quinoa mixture. Pour 1/2 cup water into the dish, cover with foil and bake 30 minutes.",
-      "Uncover and bake 10 more minutes until the peppers are tender and lightly charred at the edges. Serve warm."
-    ],
-    "instructionsHe": [
-      "בשלו את הקינואה בשני שליש כוס מים עם מעט מלח: הביאו לרתיחה, כסו, בשלו 13 דקות על אש נמוכה, השאירו 5 דקות מכוסה ואווררו במזלג.",
-      "חממו תנור ל־190 מעלות. העמידו את הפלפלים בתבנית צפופה (חתכו מעט את הבסיס אם צריך לייצוב).",
-      "חממו את השמן במחבת וטגנו את הבצל 4 דקות. הוסיפו את השום והפטריות או הקישואים ובשלו 5 דקות עד שהנוזלים מתאדים.",
-      "הוסיפו את העגבניות המרוסקות, האורגנו, הבזיליקום, מלח ופלפל; בשלו 3 דקות. הוסיפו את הקינואה המבושלת והפטרוזיליה וערבבו.",
-      "מלאו את הפלפלים בתערובת הקינואה. מזגו חצי כוס מים לתבנית, כסו בנייר אלומיניום ואפו 30 דקות.",
-      "הסירו את הכיסוי ואפו 10 דקות נוספות עד שהפלפלים רכים ומעט חרוכים בקצוות. הגישו חם."
-    ],
-    "nutrition": {
-      "calories": 190,
-      "fatG": 7,
-      "satFatG": 1,
-      "proteinG": 6,
-      "carbsG": 23,
-      "fiberG": 6,
-      "netCarbsG": 17,
-      "sugarG": 9,
-      "sodiumMg": 420
+    {
+        "id":  "quinoa-stuffed-peppers-tomato-herb",
+        "name":  "Tomato-Herb Quinoa Stuffed Peppers",
+        "nameHe":  "פלפלים ממולאים בקינואה, עגבניות ועשבי תיבול",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  45,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "4 large",
+                                "item":  "bell peppers, tops cut off and seeded"
+                            },
+                            {
+                                "amount":  "1/3 cup / 60 g",
+                                "item":  "dry quinoa, rinsed (15 g per serving)",
+                                "israelNote":  "קינואה"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 small",
+                                "item":  "onion, finely chopped"
+                            },
+                            {
+                                "amount":  "2 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "200 g",
+                                "item":  "mushrooms or zucchini, finely chopped"
+                            },
+                            {
+                                "amount":  "200 g",
+                                "item":  "crushed tomatoes",
+                                "israelNote":  "עגבניות מרוסקות (חצי קופסה)"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "dried oregano and dried basil"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt, black pepper, chopped fresh parsley"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "4 פלפלים גדולים, חתוכים בחלקם העליון ומנוקים מגרעינים",
+                              "שליש כוס / 60 גרם קינואה שטופה (15 גרם למנה)",
+                              "כף שמן זית",
+                              "בצל קטן קצוץ דק",
+                              "2 שיני שום כתושות",
+                              "200 גרם פטריות או קישואים קצוצים דק",
+                              "200 גרם עגבניות מרוסקות (חצי קופסה)",
+                              "כפית אורגנו יבש וכפית בזיליקום יבש",
+                              "מלח, פלפל שחור ופטרוזיליה טרייה קצוצה - לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Cook the quinoa in 2/3 cup lightly salted water: bring to a boil, cover, simmer 13 minutes, then rest 5 minutes and fluff.",
+                             "Preheat the oven to 190C / 375F. Stand the peppers in a snug baking dish (trim bases flat if needed).",
+                             "Heat the oil in a pan and saute the onion 4 minutes. Add the garlic and mushrooms or zucchini and cook 5 minutes until the moisture evaporates.",
+                             "Stir in the crushed tomatoes, oregano, basil, salt and pepper; simmer 3 minutes. Fold in the cooked quinoa and parsley.",
+                             "Fill the peppers with the quinoa mixture. Pour 1/2 cup water into the dish, cover with foil and bake 30 minutes.",
+                             "Uncover and bake 10 more minutes until the peppers are tender and lightly charred at the edges. Serve warm."
+                         ],
+        "instructionsHe":  [
+                               "בשלו את הקינואה בשני שליש כוס מים עם מעט מלח: הביאו לרתיחה, כסו, בשלו 13 דקות על אש נמוכה, השאירו 5 דקות מכוסה ואווררו במזלג.",
+                               "חממו תנור ל־190 מעלות. העמידו את הפלפלים בתבנית צפופה (חתכו מעט את הבסיס אם צריך לייצוב).",
+                               "חממו את השמן במחבת וטגנו את הבצל 4 דקות. הוסיפו את השום והפטריות או הקישואים ובשלו 5 דקות עד שהנוזלים מתאדים.",
+                               "הוסיפו את העגבניות המרוסקות, האורגנו, הבזיליקום, מלח ופלפל; בשלו 3 דקות. הוסיפו את הקינואה המבושלת והפטרוזיליה וערבבו.",
+                               "מלאו את הפלפלים בתערובת הקינואה. מזגו חצי כוס מים לתבנית, כסו בנייר אלומיניום ואפו 30 דקות.",
+                               "הסירו את הכיסוי ואפו 10 דקות נוספות עד שהפלפלים רכים ומעט חרוכים בקצוות. הגישו חם."
+                           ],
+        "nutrition":  {
+                          "calories":  190,
+                          "fatG":  7,
+                          "satFatG":  1,
+                          "proteinG":  6,
+                          "carbsG":  23,
+                          "fiberG":  6,
+                          "netCarbsG":  17,
+                          "sugarG":  9,
+                          "sodiumMg":  420
+                      },
+        "ketoVariant":  "Replace the quinoa entirely with 200 g cauliflower rice sauteed with the vegetables - about 10 g net carbs per pepper.",
+        "ketoVariantHe":  "החליפו את הקינואה כולה ב־200 גרם אורז כרובית מוקפץ עם הירקות - כ־10 גרם פחמימות נטו לפלפל.",
+        "tips":  "Most stuffed-pepper recipes use a full cup of dry quinoa plus beans and corn; here mushrooms carry the bulk so each pepper holds only 15 g dry quinoa. A crumble of feta on top is a nice optional dairy garnish.",
+        "tipsHe":  "רוב מתכוני הפלפלים הממולאים משתמשים בכוס שלמה של קינואה יבשה בתוספת שעועית ותירס; כאן הפטריות נותנות את הנפח וכל פלפל מכיל רק 15 גרם קינואה יבשה. פירורי גבינה בולגרית מעל הם תוספת חלבית אופציונלית נחמדה.",
+        "sources":  [
+                        {
+                            "creator":  "Choosing Chia",
+                            "url":  "https://choosingchia.com/quinoa-stuffed-peppers/"
+                        },
+                        {
+                            "creator":  "FeelGoodFoodie",
+                            "url":  "https://feelgoodfoodie.net/recipe/vegetarian-quinoa-stuffed-peppers/"
+                        },
+                        {
+                            "creator":  "Well Plated",
+                            "url":  "https://www.wellplated.com/vegan-stuffed-peppers/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Choosing Chia, FeelGoodFoodie and Well Plated: dropped their beans, corn and cheese topping, kept the tomato-herb filling and covered-then-uncovered bake, and shrank the quinoa to a strict 15 g dry per pepper.",
+        "comparedVersionsHe":  "הושוו Choosing Chia,‏ FeelGoodFoodie ו־Well Plated: הושמטו השעועית, התירס וציפוי הגבינה, נשמרו מלית העגבניות-עשבים והאפייה מכוסה ואז מגולה, והקינואה צומצמה ל־15 גרם יבשה לפלפל בדיוק."
     },
-    "ketoVariant": "Replace the quinoa entirely with 200 g cauliflower rice sauteed with the vegetables - about 10 g net carbs per pepper.",
-    "ketoVariantHe": "החליפו את הקינואה כולה ב־200 גרם אורז כרובית מוקפץ עם הירקות - כ־10 גרם פחמימות נטו לפלפל.",
-    "tips": "Most stuffed-pepper recipes use a full cup of dry quinoa plus beans and corn; here mushrooms carry the bulk so each pepper holds only 15 g dry quinoa. A crumble of feta on top is a nice optional dairy garnish.",
-    "tipsHe": "רוב מתכוני הפלפלים הממולאים משתמשים בכוס שלמה של קינואה יבשה בתוספת שעועית ותירס; כאן הפטריות נותנות את הנפח וכל פלפל מכיל רק 15 גרם קינואה יבשה. פירורי גבינה בולגרית מעל הם תוספת חלבית אופציונלית נחמדה.",
-    "sources": [
-      { "creator": "Choosing Chia", "url": "https://choosingchia.com/quinoa-stuffed-peppers/" },
-      { "creator": "FeelGoodFoodie", "url": "https://feelgoodfoodie.net/recipe/vegetarian-quinoa-stuffed-peppers/" },
-      { "creator": "Well Plated", "url": "https://www.wellplated.com/vegan-stuffed-peppers/" }
-    ],
-    "comparedVersions": "Compared Choosing Chia, FeelGoodFoodie and Well Plated: dropped their beans, corn and cheese topping, kept the tomato-herb filling and covered-then-uncovered bake, and shrank the quinoa to a strict 15 g dry per pepper.",
-    "comparedVersionsHe": "הושוו Choosing Chia,‏ FeelGoodFoodie ו־Well Plated: הושמטו השעועית, התירס וציפוי הגבינה, נשמרו מלית העגבניות-עשבים והאפייה מכוסה ואז מגולה, והקינואה צומצמה ל־15 גרם יבשה לפלפל בדיוק."
-  },
-  {
-    "id": "lentil-bolognese-zucchini-noodles",
-    "name": "Lentil Bolognese over Zucchini Noodles",
-    "nameHe": "בולונז עדשים על אטריות קישואים",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 35,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "1 tbsp", "item": "olive oil" },
-      { "amount": "1 medium", "item": "onion, finely chopped" },
-      { "amount": "1 small", "item": "carrot, finely diced" },
-      { "amount": "3 cloves", "item": "garlic, minced" },
-      { "amount": "1/2 cup / 100 g", "item": "dry brown or green lentils, rinsed (25 g per serving)", "israelNote": "עדשים ירוקות או חומות" },
-      { "amount": "1 can (400 g)", "item": "crushed tomatoes", "israelNote": "עגבניות מרוסקות" },
-      { "amount": "1 tsp each", "item": "dried oregano, dried basil and sweet paprika" },
-      { "amount": "1 1/2 cups", "item": "water" },
-      { "amount": "3 medium (about 600 g)", "item": "zucchini, spiralized or peeled into ribbons" },
-      { "amount": "to taste", "item": "salt and black pepper" }
-    ],
-    "ingredientsHe": [
-      "כף שמן זית",
-      "בצל בינוני קצוץ דק",
-      "גזר קטן חתוך לקוביות קטנות",
-      "3 שיני שום כתושות",
-      "חצי כוס / 100 גרם עדשים ירוקות או חומות שטופות (25 גרם למנה)",
-      "קופסה (400 גרם) עגבניות מרוסקות",
-      "כפית אורגנו יבש, כפית בזיליקום יבש וכפית פפריקה מתוקה",
-      "כוס וחצי מים",
-      "3 קישואים בינוניים (כ־600 גרם) מגולגלים לספירלה או מקולפים לרצועות",
-      "מלח ופלפל שחור לפי הטעם"
-    ],
-    "instructions": [
-      "Heat the oil in a wide pot over medium heat. Saute the onion and carrot 5 minutes, then add the garlic for 1 minute.",
-      "Add the lentils, crushed tomatoes, herbs, paprika and water. Bring to a boil.",
-      "Reduce the heat and simmer uncovered 25-30 minutes, stirring occasionally, until the lentils are tender and the sauce is thick like a meat ragu. Season generously.",
-      "Meanwhile, salt the zucchini noodles lightly and let them sit 10 minutes, then pat dry.",
-      "In a separate pan, saute the zucchini noodles over high heat for just 1-2 minutes - they should stay al dente.",
-      "Divide the noodles among bowls and top with the hot lentil bolognese."
-    ],
-    "instructionsHe": [
-      "חממו את השמן בסיר רחב על אש בינונית. טגנו את הבצל והגזר 5 דקות, ואז הוסיפו את השום לדקה.",
-      "הוסיפו את העדשים, העגבניות המרוסקות, עשבי התיבול, הפפריקה והמים. הביאו לרתיחה.",
-      "הנמיכו את האש ובשלו ללא מכסה 25-30 דקות תוך ערבוב מדי פעם, עד שהעדשים רכות והרוטב סמיך כמו ראגו בשר. תבלו בנדיבות.",
-      "בינתיים המליחו קלות את אטריות הקישואים והניחו להן 10 דקות, ואז ייבשו בנייר סופג.",
-      "במחבת נפרדת הקפיצו את אטריות הקישואים על אש גבוהה 1-2 דקות בלבד - שיישארו נגיסים.",
-      "חלקו את האטריות לקערות והניחו מעל את בולונז העדשים החם."
-    ],
-    "nutrition": {
-      "calories": 210,
-      "fatG": 6,
-      "satFatG": 0.9,
-      "proteinG": 10,
-      "carbsG": 28,
-      "fiberG": 10,
-      "netCarbsG": 18,
-      "sugarG": 10,
-      "sodiumMg": 520
+    {
+        "id":  "lentil-bolognese-zucchini-noodles",
+        "name":  "Lentil Bolognese over Zucchini Noodles",
+        "nameHe":  "בולונז עדשים על אטריות קישואים",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  35,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 medium",
+                                "item":  "onion, finely chopped"
+                            },
+                            {
+                                "amount":  "1 small",
+                                "item":  "carrot, finely diced"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, minced"
+                            },
+                            {
+                                "amount":  "1/2 cup / 100 g",
+                                "item":  "dry brown or green lentils, rinsed (25 g per serving)",
+                                "israelNote":  "עדשים ירוקות או חומות"
+                            },
+                            {
+                                "amount":  "1 can (400 g)",
+                                "item":  "crushed tomatoes",
+                                "israelNote":  "עגבניות מרוסקות"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "dried oregano, dried basil and sweet paprika"
+                            },
+                            {
+                                "amount":  "1 1/2 cups",
+                                "item":  "water"
+                            },
+                            {
+                                "amount":  "3 medium (about 600 g)",
+                                "item":  "zucchini, spiralized or peeled into ribbons"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt and black pepper"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "כף שמן זית",
+                              "בצל בינוני קצוץ דק",
+                              "גזר קטן חתוך לקוביות קטנות",
+                              "3 שיני שום כתושות",
+                              "חצי כוס / 100 גרם עדשים ירוקות או חומות שטופות (25 גרם למנה)",
+                              "קופסה (400 גרם) עגבניות מרוסקות",
+                              "כפית אורגנו יבש, כפית בזיליקום יבש וכפית פפריקה מתוקה",
+                              "כוס וחצי מים",
+                              "3 קישואים בינוניים (כ־600 גרם) מגולגלים לספירלה או מקולפים לרצועות",
+                              "מלח ופלפל שחור לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Heat the oil in a wide pot over medium heat. Saute the onion and carrot 5 minutes, then add the garlic for 1 minute.",
+                             "Add the lentils, crushed tomatoes, herbs, paprika and water. Bring to a boil.",
+                             "Reduce the heat and simmer uncovered 25-30 minutes, stirring occasionally, until the lentils are tender and the sauce is thick like a meat ragu. Season generously.",
+                             "Meanwhile, salt the zucchini noodles lightly and let them sit 10 minutes, then pat dry.",
+                             "In a separate pan, saute the zucchini noodles over high heat for just 1-2 minutes - they should stay al dente.",
+                             "Divide the noodles among bowls and top with the hot lentil bolognese."
+                         ],
+        "instructionsHe":  [
+                               "חממו את השמן בסיר רחב על אש בינונית. טגנו את הבצל והגזר 5 דקות, ואז הוסיפו את השום לדקה.",
+                               "הוסיפו את העדשים, העגבניות המרוסקות, עשבי התיבול, הפפריקה והמים. הביאו לרתיחה.",
+                               "הנמיכו את האש ובשלו ללא מכסה 25-30 דקות תוך ערבוב מדי פעם, עד שהעדשים רכות והרוטב סמיך כמו ראגו בשר. תבלו בנדיבות.",
+                               "בינתיים המליחו קלות את אטריות הקישואים והניחו להן 10 דקות, ואז ייבשו בנייר סופג.",
+                               "במחבת נפרדת הקפיצו את אטריות הקישואים על אש גבוהה 1-2 דקות בלבד - שיישארו נגיסים.",
+                               "חלקו את האטריות לקערות והניחו מעל את בולונז העדשים החם."
+                           ],
+        "nutrition":  {
+                          "calories":  210,
+                          "fatG":  6,
+                          "satFatG":  0.9,
+                          "proteinG":  10,
+                          "carbsG":  28,
+                          "fiberG":  10,
+                          "netCarbsG":  18,
+                          "sugarG":  10,
+                          "sodiumMg":  520
+                      },
+        "ketoVariant":  "Halve the lentils and add 200 g finely chopped mushrooms to the soffritto - about 12 g net carbs per serving.",
+        "ketoVariantHe":  "חצו את כמות העדשים והוסיפו 200 גרם פטריות קצוצות דק לבסיס - כ־12 גרם פחמימות נטו למנה.",
+        "tips":  "Salting and drying the zucchini first prevents a watery plate. The sauce freezes well - make a double batch of the bolognese alone.",
+        "tipsHe":  "המלחה וייבוש של הקישואים מראש מונעים צלחת מימית. הרוטב מצוין להקפאה - הכינו כמות כפולה של הבולונז לבדו.",
+        "sources":  [
+                        {
+                            "creator":  "Minimalist Baker",
+                            "url":  "https://minimalistbaker.com/zucchini-pasta-with-lentil-bolognese/"
+                        },
+                        {
+                            "creator":  "The Stingy Vegan",
+                            "url":  "https://thestingyvegan.com/smoky-lentil-bolognese-zucchini-pasta/"
+                        },
+                        {
+                            "creator":  "Co+op Grocery",
+                            "url":  "https://www.grocery.coop/recipes/lentil-bolognese-zucchini-noodles/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Minimalist Baker, The Stingy Vegan and Co+op: took the one-pot simmer-from-dry method and the barely-cooked zoodles they all share, added The Stingy Vegan\u0027s paprika note, and fixed the lentil portion at 25 g dry per serving.",
+        "comparedVersionsHe":  "הושוו Minimalist Baker,‏ The Stingy Vegan ו־Co+op: נלקחו שיטת הבישול בסיר אחד מעדשים יבשות ואטריות הקישואים המוקפצות בקצרה המשותפות לכולם, נוספה נגיעת הפפריקה של The Stingy Vegan, ומנת העדשים קובעה על 25 גרם יבשות למנה."
     },
-    "ketoVariant": "Halve the lentils and add 200 g finely chopped mushrooms to the soffritto - about 12 g net carbs per serving.",
-    "ketoVariantHe": "חצו את כמות העדשים והוסיפו 200 גרם פטריות קצוצות דק לבסיס - כ־12 גרם פחמימות נטו למנה.",
-    "tips": "Salting and drying the zucchini first prevents a watery plate. The sauce freezes well - make a double batch of the bolognese alone.",
-    "tipsHe": "המלחה וייבוש של הקישואים מראש מונעים צלחת מימית. הרוטב מצוין להקפאה - הכינו כמות כפולה של הבולונז לבדו.",
-    "sources": [
-      { "creator": "Minimalist Baker", "url": "https://minimalistbaker.com/zucchini-pasta-with-lentil-bolognese/" },
-      { "creator": "The Stingy Vegan", "url": "https://thestingyvegan.com/smoky-lentil-bolognese-zucchini-pasta/" },
-      { "creator": "Co+op Grocery", "url": "https://www.grocery.coop/recipes/lentil-bolognese-zucchini-noodles/" }
-    ],
-    "comparedVersions": "Compared Minimalist Baker, The Stingy Vegan and Co+op: took the one-pot simmer-from-dry method and the barely-cooked zoodles they all share, added The Stingy Vegan's paprika note, and fixed the lentil portion at 25 g dry per serving.",
-    "comparedVersionsHe": "הושוו Minimalist Baker,‏ The Stingy Vegan ו־Co+op: נלקחו שיטת הבישול בסיר אחד מעדשים יבשות ואטריות הקישואים המוקפצות בקצרה המשותפות לכולם, נוספה נגיעת הפפריקה של The Stingy Vegan, ומנת העדשים קובעה על 25 גרם יבשות למנה."
-  },
-  {
-    "id": "green-bean-tomato-braise-loubia",
-    "name": "Green Bean and Tomato Braise (Loubia / Fasolakia Style)",
-    "nameHe": "לוביא - תבשיל שעועית ירוקה ברוטב עגבניות",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["keto"],
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 40,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "4 tbsp", "item": "olive oil" },
-      { "amount": "1 medium", "item": "onion, chopped" },
-      { "amount": "4 cloves", "item": "garlic, sliced" },
-      { "amount": "500 g", "item": "green beans, trimmed (fresh or frozen)", "israelNote": "שעועית ירוקה - גם קפואה מצוינת" },
-      { "amount": "3 ripe (about 250 g)", "item": "tomatoes, grated" },
-      { "amount": "1 tbsp", "item": "tomato paste" },
-      { "amount": "1 tsp", "item": "sweet paprika" },
-      { "amount": "1/2 tsp", "item": "ground cumin" },
-      { "amount": "to taste", "item": "salt, black pepper, chopped parsley, lemon wedge" }
-    ],
-    "ingredientsHe": [
-      "4 כפות שמן זית",
-      "בצל בינוני קצוץ",
-      "4 שיני שום פרוסות",
-      "500 גרם שעועית ירוקה נקייה (טרייה או קפואה)",
-      "3 עגבניות בשלות (כ־250 גרם) מגוררות",
-      "כף רסק עגבניות",
-      "כפית פפריקה מתוקה",
-      "חצי כפית כמון טחון",
-      "מלח, פלפל שחור, פטרוזיליה קצוצה ופלח לימון - לפי הטעם"
-    ],
-    "instructions": [
-      "Heat the olive oil in a wide pot over medium heat. Cook the onion 8-10 minutes until soft and golden, then add the garlic for 30 seconds.",
-      "Stir in the tomato paste, paprika and cumin and fry 1 minute to deepen the flavor.",
-      "Add the green beans, grated tomatoes, salt, pepper and about 1/2 cup water - just enough to almost cover.",
-      "Bring to a boil, then reduce the heat, cover and braise gently 30-35 minutes until the beans are silky and completely tender, not squeaky.",
-      "Uncover for the last 5 minutes to reduce the sauce until it coats the beans.",
-      "Serve warm or at room temperature with parsley and a squeeze of lemon."
-    ],
-    "instructionsHe": [
-      "חממו את שמן הזית בסיר רחב על אש בינונית. בשלו את הבצל 8-10 דקות עד שהוא רך וזהוב, ואז הוסיפו את השום ל־30 שניות.",
-      "הוסיפו את רסק העגבניות, הפפריקה והכמון וטגנו דקה להעמקת הטעם.",
-      "הוסיפו את השעועית, העגבניות המגוררות, מלח, פלפל וכחצי כוס מים - רק כדי כמעט לכסות.",
-      "הביאו לרתיחה, הנמיכו את האש, כסו ובשלו בעדינות 30-35 דקות עד שהשעועית משיית ורכה לגמרי, לא חורקת בשיניים.",
-      "הסירו את המכסה ב־5 הדקות האחרונות לצמצום הרוטב עד שהוא עוטף את השעועית.",
-      "הגישו חם או בטמפרטורת החדר עם פטרוזיליה וסחיטת לימון."
-    ],
-    "nutrition": {
-      "calories": 190,
-      "fatG": 14,
-      "satFatG": 2,
-      "proteinG": 3,
-      "carbsG": 15,
-      "fiberG": 6,
-      "netCarbsG": 9,
-      "sugarG": 7,
-      "sodiumMg": 480
+    {
+        "id":  "green-bean-tomato-braise-loubia",
+        "name":  "Green Bean and Tomato Braise (Loubia / Fasolakia Style)",
+        "nameHe":  "לוביא - תבשיל שעועית ירוקה ברוטב עגבניות",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "keto"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  40,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "4 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 medium",
+                                "item":  "onion, chopped"
+                            },
+                            {
+                                "amount":  "4 cloves",
+                                "item":  "garlic, sliced"
+                            },
+                            {
+                                "amount":  "500 g",
+                                "item":  "green beans, trimmed (fresh or frozen)",
+                                "israelNote":  "שעועית ירוקה - גם קפואה מצוינת"
+                            },
+                            {
+                                "amount":  "3 ripe (about 250 g)",
+                                "item":  "tomatoes, grated"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "tomato paste"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sweet paprika"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt, black pepper, chopped parsley, lemon wedge"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "4 כפות שמן זית",
+                              "בצל בינוני קצוץ",
+                              "4 שיני שום פרוסות",
+                              "500 גרם שעועית ירוקה נקייה (טרייה או קפואה)",
+                              "3 עגבניות בשלות (כ־250 גרם) מגוררות",
+                              "כף רסק עגבניות",
+                              "כפית פפריקה מתוקה",
+                              "חצי כפית כמון טחון",
+                              "מלח, פלפל שחור, פטרוזיליה קצוצה ופלח לימון - לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Heat the olive oil in a wide pot over medium heat. Cook the onion 8-10 minutes until soft and golden, then add the garlic for 30 seconds.",
+                             "Stir in the tomato paste, paprika and cumin and fry 1 minute to deepen the flavor.",
+                             "Add the green beans, grated tomatoes, salt, pepper and about 1/2 cup water - just enough to almost cover.",
+                             "Bring to a boil, then reduce the heat, cover and braise gently 30-35 minutes until the beans are silky and completely tender, not squeaky.",
+                             "Uncover for the last 5 minutes to reduce the sauce until it coats the beans.",
+                             "Serve warm or at room temperature with parsley and a squeeze of lemon."
+                         ],
+        "instructionsHe":  [
+                               "חממו את שמן הזית בסיר רחב על אש בינונית. בשלו את הבצל 8-10 דקות עד שהוא רך וזהוב, ואז הוסיפו את השום ל־30 שניות.",
+                               "הוסיפו את רסק העגבניות, הפפריקה והכמון וטגנו דקה להעמקת הטעם.",
+                               "הוסיפו את השעועית, העגבניות המגוררות, מלח, פלפל וכחצי כוס מים - רק כדי כמעט לכסות.",
+                               "הביאו לרתיחה, הנמיכו את האש, כסו ובשלו בעדינות 30-35 דקות עד שהשעועית משיית ורכה לגמרי, לא חורקת בשיניים.",
+                               "הסירו את המכסה ב־5 הדקות האחרונות לצמצום הרוטב עד שהוא עוטף את השעועית.",
+                               "הגישו חם או בטמפרטורת החדר עם פטרוזיליה וסחיטת לימון."
+                           ],
+        "nutrition":  {
+                          "calories":  190,
+                          "fatG":  14,
+                          "satFatG":  2,
+                          "proteinG":  3,
+                          "carbsG":  15,
+                          "fiberG":  6,
+                          "netCarbsG":  9,
+                          "sugarG":  7,
+                          "sodiumMg":  480
+                      },
+        "tips":  "This is the naturally lowest-carb dish in the category - green beans are a pod, not a mature legume seed. The generous olive oil is authentic (Greek lathera style) and is what makes the beans velvety; do not skimp.",
+        "tipsHe":  "זהו התבשיל דל הפחמימות באופן טבעי בקטגוריה - שעועית ירוקה היא תרמיל, לא זרע קטנייה בשל. שמן הזית הנדיב הוא אותנטי (סגנון לאדרה יווני) והוא שהופך את השעועית לקטיפתית; אל תקמצו.",
+        "sources":  [
+                        {
+                            "creator":  "The Mediterranean Dish",
+                            "url":  "https://www.themediterraneandish.com/greek-green-beans-fasolakia/"
+                        },
+                        {
+                            "creator":  "Olive Tomato",
+                            "url":  "https://www.olivetomato.com/greek-style-green-beans-fasolakia-lathera/"
+                        },
+                        {
+                            "creator":  "Dimitras Dishes",
+                            "url":  "https://www.dimitrasdishes.com/fasolakia-braised-green-beans/"
+                        }
+                    ],
+        "comparedVersions":  "Compared The Mediterranean Dish, Olive Tomato and Dimitras Dishes: all braise the beans in tomato and plenty of olive oil until fully tender; this version drops their potatoes, uses grated fresh tomatoes, and adds the paprika-cumin seasoning of Middle Eastern loubia.",
+        "comparedVersionsHe":  "הושוו The Mediterranean Dish,‏ Olive Tomato ו־Dimitras Dishes: כולם מבשלים את השעועית בעגבניות והרבה שמן זית עד רכות מלאה; הגרסה הזו מוותרת על תפוחי האדמה שלהם, משתמשת בעגבניות טריות מגוררות ומוסיפה את תיבול הפפריקה-כמון של לוביא מזרח־תיכונית."
     },
-    "tips": "This is the naturally lowest-carb dish in the category - green beans are a pod, not a mature legume seed. The generous olive oil is authentic (Greek lathera style) and is what makes the beans velvety; do not skimp.",
-    "tipsHe": "זהו התבשיל דל הפחמימות באופן טבעי בקטגוריה - שעועית ירוקה היא תרמיל, לא זרע קטנייה בשל. שמן הזית הנדיב הוא אותנטי (סגנון לאדרה יווני) והוא שהופך את השעועית לקטיפתית; אל תקמצו.",
-    "sources": [
-      { "creator": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/greek-green-beans-fasolakia/" },
-      { "creator": "Olive Tomato", "url": "https://www.olivetomato.com/greek-style-green-beans-fasolakia-lathera/" },
-      { "creator": "Dimitras Dishes", "url": "https://www.dimitrasdishes.com/fasolakia-braised-green-beans/" }
-    ],
-    "comparedVersions": "Compared The Mediterranean Dish, Olive Tomato and Dimitras Dishes: all braise the beans in tomato and plenty of olive oil until fully tender; this version drops their potatoes, uses grated fresh tomatoes, and adds the paprika-cumin seasoning of Middle Eastern loubia.",
-    "comparedVersionsHe": "הושוו The Mediterranean Dish,‏ Olive Tomato ו־Dimitras Dishes: כולם מבשלים את השעועית בעגבניות והרבה שמן זית עד רכות מלאה; הגרסה הזו מוותרת על תפוחי האדמה שלהם, משתמשת בעגבניות טריות מגוררות ומוסיפה את תיבול הפפריקה-כמון של לוביא מזרח־תיכונית."
-  },
-  {
-    "id": "kasha-mushrooms-caramelized-onions",
-    "name": "Buckwheat Kasha with Mushrooms and Caramelized Onions",
-    "nameHe": "כוסמת עם פטריות ובצל מקורמל",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 40,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "1/2 cup / 90 g", "item": "toasted buckwheat groats (kasha) - about 22 g per serving", "israelNote": "כוסמת קלויה" },
-      { "amount": "1", "item": "egg, beaten (classic coating; optional for vegans)" },
-      { "amount": "1 cup / 240 ml", "item": "boiling water or vegetable stock" },
-      { "amount": "3 tbsp", "item": "olive oil, divided" },
-      { "amount": "2 large", "item": "onions, halved and sliced" },
-      { "amount": "250 g", "item": "mushrooms, sliced", "israelNote": "פטריות שמפיניון או פורטובלו" },
-      { "amount": "1 tsp", "item": "fresh thyme leaves or 1/2 tsp dried" },
-      { "amount": "to taste", "item": "salt and black pepper" }
-    ],
-    "ingredientsHe": [
-      "חצי כוס / 90 גרם כוסמת קלויה - כ־22 גרם למנה",
-      "ביצה טרופה (הציפוי הקלאסי; אפשר לוותר לטבעונים)",
-      "כוס / 240 מ\"ל מים רותחים או ציר ירקות",
-      "3 כפות שמן זית, בחלוקה",
-      "2 בצלים גדולים חצויים ופרוסים",
-      "250 גרם פטריות פרוסות",
-      "כפית עלי טימין טריים או חצי כפית יבש",
-      "מלח ופלפל שחור לפי הטעם"
-    ],
-    "instructions": [
-      "Heat 2 tbsp oil in a wide pan over medium heat. Cook the onions with a pinch of salt, stirring now and then, 20-25 minutes until deeply golden and sweet.",
-      "Push the onions aside, raise the heat, add the mushrooms and thyme and saute 6-8 minutes until browned. Season and transfer everything to a bowl.",
-      "In a dry saucepan, stir the buckwheat with the beaten egg over medium heat 2-3 minutes until the grains are dry and separate - this keeps them fluffy.",
-      "Add the remaining 1 tbsp oil, the boiling water or stock and 1/2 tsp salt. Cover and simmer on low 10-12 minutes until the liquid is absorbed.",
-      "Let the kasha rest 5 minutes off the heat, then fluff with a fork.",
-      "Fold in the mushrooms and onions, taste for salt and pepper, and serve hot."
-    ],
-    "instructionsHe": [
-      "חממו 2 כפות שמן במחבת רחבה על אש בינונית. בשלו את הבצל עם קורט מלח, תוך ערבוב מדי פעם, 20-25 דקות עד שהוא זהוב עמוק ומתוק.",
-      "הזיזו את הבצל לצד, הגבירו את האש, הוסיפו את הפטריות והטימין וטגנו 6-8 דקות עד להשחמה. תבלו והעבירו הכול לקערה.",
-      "בסיר יבש ערבבו את הכוסמת עם הביצה הטרופה על אש בינונית 2-3 דקות עד שהגרגירים יבשים ונפרדים - כך הם נשארים אווריריים.",
-      "הוסיפו את כף השמן הנותרת, המים הרותחים או הציר וחצי כפית מלח. כסו ובשלו על אש נמוכה 10-12 דקות עד שהנוזלים נספגים.",
-      "השאירו את הכוסמת 5 דקות מחוץ לאש, ואז אווררו במזלג.",
-      "ערבבו פנימה את הפטריות והבצל, טעמו ותקנו מלח ופלפל, והגישו חם."
-    ],
-    "nutrition": {
-      "calories": 215,
-      "fatG": 12,
-      "satFatG": 2,
-      "proteinG": 7,
-      "carbsG": 22,
-      "fiberG": 4,
-      "netCarbsG": 18,
-      "sugarG": 4,
-      "sodiumMg": 450
+    {
+        "id":  "kasha-mushrooms-caramelized-onions",
+        "name":  "Buckwheat Kasha with Mushrooms and Caramelized Onions",
+        "nameHe":  "כוסמת עם פטריות ובצל מקורמל",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  40,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1/2 cup / 90 g",
+                                "item":  "toasted buckwheat groats (kasha) - about 22 g per serving",
+                                "israelNote":  "כוסמת קלויה"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "egg, beaten (classic coating; optional for vegans)"
+                            },
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "boiling water or vegetable stock"
+                            },
+                            {
+                                "amount":  "3 tbsp",
+                                "item":  "olive oil, divided"
+                            },
+                            {
+                                "amount":  "2 large",
+                                "item":  "onions, halved and sliced"
+                            },
+                            {
+                                "amount":  "250 g",
+                                "item":  "mushrooms, sliced",
+                                "israelNote":  "פטריות שמפיניון או פורטובלו"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "fresh thyme leaves or 1/2 tsp dried"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt and black pepper"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "חצי כוס / 90 גרם כוסמת קלויה - כ־22 גרם למנה",
+                              "ביצה טרופה (הציפוי הקלאסי; אפשר לוותר לטבעונים)",
+                              "כוס / 240 מ\"ל מים רותחים או ציר ירקות",
+                              "3 כפות שמן זית, בחלוקה",
+                              "2 בצלים גדולים חצויים ופרוסים",
+                              "250 גרם פטריות פרוסות",
+                              "כפית עלי טימין טריים או חצי כפית יבש",
+                              "מלח ופלפל שחור לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Heat 2 tbsp oil in a wide pan over medium heat. Cook the onions with a pinch of salt, stirring now and then, 20-25 minutes until deeply golden and sweet.",
+                             "Push the onions aside, raise the heat, add the mushrooms and thyme and saute 6-8 minutes until browned. Season and transfer everything to a bowl.",
+                             "In a dry saucepan, stir the buckwheat with the beaten egg over medium heat 2-3 minutes until the grains are dry and separate - this keeps them fluffy.",
+                             "Add the remaining 1 tbsp oil, the boiling water or stock and 1/2 tsp salt. Cover and simmer on low 10-12 minutes until the liquid is absorbed.",
+                             "Let the kasha rest 5 minutes off the heat, then fluff with a fork.",
+                             "Fold in the mushrooms and onions, taste for salt and pepper, and serve hot."
+                         ],
+        "instructionsHe":  [
+                               "חממו 2 כפות שמן במחבת רחבה על אש בינונית. בשלו את הבצל עם קורט מלח, תוך ערבוב מדי פעם, 20-25 דקות עד שהוא זהוב עמוק ומתוק.",
+                               "הזיזו את הבצל לצד, הגבירו את האש, הוסיפו את הפטריות והטימין וטגנו 6-8 דקות עד להשחמה. תבלו והעבירו הכול לקערה.",
+                               "בסיר יבש ערבבו את הכוסמת עם הביצה הטרופה על אש בינונית 2-3 דקות עד שהגרגירים יבשים ונפרדים - כך הם נשארים אווריריים.",
+                               "הוסיפו את כף השמן הנותרת, המים הרותחים או הציר וחצי כפית מלח. כסו ובשלו על אש נמוכה 10-12 דקות עד שהנוזלים נספגים.",
+                               "השאירו את הכוסמת 5 דקות מחוץ לאש, ואז אווררו במזלג.",
+                               "ערבבו פנימה את הפטריות והבצל, טעמו ותקנו מלח ופלפל, והגישו חם."
+                           ],
+        "nutrition":  {
+                          "calories":  215,
+                          "fatG":  12,
+                          "satFatG":  2,
+                          "proteinG":  7,
+                          "carbsG":  22,
+                          "fiberG":  4,
+                          "netCarbsG":  18,
+                          "sugarG":  4,
+                          "sodiumMg":  450
+                      },
+        "ketoVariant":  "Use only 1/4 cup / 45 g kasha and double the mushrooms - about 10 g net carbs per serving.",
+        "ketoVariantHe":  "השתמשו רק ברבע כוס / 45 גרם כוסמת והכפילו את הפטריות - כ־10 גרם פחמימות נטו למנה.",
+        "tips":  "This is kasha varnishkes without the pasta - the mushrooms and onions replace the bow ties. 22 g dry buckwheat per serving is the ceiling that keeps it under 20 g net. Butter instead of oil is delicious but makes it dairy.",
+        "tipsHe":  "זו קאשה ורנישקעס בלי הפסטה - הפטריות והבצל מחליפים את עניבות הפרפר. 22 גרם כוסמת יבשה למנה היא התקרה ששומרת מתחת ל־20 גרם נטו. חמאה במקום שמן טעימה מאוד אבל הופכת את המנה לחלבית.",
+        "sources":  [
+                        {
+                            "creator":  "Babaganosh",
+                            "url":  "https://www.babaganosh.org/buckwheat-kasha-with-mushrooms/"
+                        },
+                        {
+                            "creator":  "At the Immigrant\u0027s Table",
+                            "url":  "https://immigrantstable.com/kasha-with-caramelized-mushrooms-and-onions/"
+                        },
+                        {
+                            "creator":  "Whole Foods Market",
+                            "url":  "https://www.wholefoodsmarket.com/recipes/kasha-varnishkes-caramelized-onions-and-mushrooms"
+                        }
+                    ],
+        "comparedVersions":  "Compared Babaganosh, At the Immigrant\u0027s Table and Whole Foods\u0027 kasha varnishkes: kept the egg-coating trick and slow-caramelized onions common to the traditional versions, dropped the pasta entirely, and halved the typical grain quantity.",
+        "comparedVersionsHe":  "הושוו Babaganosh,‏ At the Immigrant\u0027s Table וקאשה ורנישקעס של Whole Foods: נשמרו טריק ציפוי הביצה והבצל המקורמל לאט מהגרסאות המסורתיות, הפסטה הושמטה לגמרי, וכמות הדגן הרגילה נחצתה."
     },
-    "ketoVariant": "Use only 1/4 cup / 45 g kasha and double the mushrooms - about 10 g net carbs per serving.",
-    "ketoVariantHe": "השתמשו רק ברבע כוס / 45 גרם כוסמת והכפילו את הפטריות - כ־10 גרם פחמימות נטו למנה.",
-    "tips": "This is kasha varnishkes without the pasta - the mushrooms and onions replace the bow ties. 22 g dry buckwheat per serving is the ceiling that keeps it under 20 g net. Butter instead of oil is delicious but makes it dairy.",
-    "tipsHe": "זו קאשה ורנישקעס בלי הפסטה - הפטריות והבצל מחליפים את עניבות הפרפר. 22 גרם כוסמת יבשה למנה היא התקרה ששומרת מתחת ל־20 גרם נטו. חמאה במקום שמן טעימה מאוד אבל הופכת את המנה לחלבית.",
-    "sources": [
-      { "creator": "Babaganosh", "url": "https://www.babaganosh.org/buckwheat-kasha-with-mushrooms/" },
-      { "creator": "At the Immigrant's Table", "url": "https://immigrantstable.com/kasha-with-caramelized-mushrooms-and-onions/" },
-      { "creator": "Whole Foods Market", "url": "https://www.wholefoodsmarket.com/recipes/kasha-varnishkes-caramelized-onions-and-mushrooms" }
-    ],
-    "comparedVersions": "Compared Babaganosh, At the Immigrant's Table and Whole Foods' kasha varnishkes: kept the egg-coating trick and slow-caramelized onions common to the traditional versions, dropped the pasta entirely, and halved the typical grain quantity.",
-    "comparedVersionsHe": "הושוו Babaganosh,‏ At the Immigrant's Table וקאשה ורנישקעס של Whole Foods: נשמרו טריק ציפוי הביצה והבצל המקורמל לאט מהגרסאות המסורתיות, הפסטה הושמטה לגמרי, וכמות הדגן הרגילה נחצתה."
-  },
-  {
-    "id": "quinoa-breakfast-porridge",
-    "name": "Warm Quinoa Breakfast Porridge with Cinnamon, Nuts and Berries",
-    "nameHe": "דייסת קינואה חמה עם קינמון, אגוזים ופירות יער",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 2,
-    "prepTimeMin": 5,
-    "cookTimeMin": 20,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "1/4 cup / 45 g", "item": "dry quinoa, rinsed well (22 g per serving)", "israelNote": "קינואה" },
-      { "amount": "1 1/2 cups / 360 ml", "item": "unsweetened almond milk, plus more for serving", "israelNote": "משקה שקדים ללא סוכר" },
-      { "amount": "1/2 tsp", "item": "ground cinnamon" },
-      { "amount": "1/2 tsp", "item": "vanilla extract" },
-      { "amount": "1 pinch", "item": "salt" },
-      { "amount": "2 tbsp", "item": "chopped walnuts or almonds, toasted" },
-      { "amount": "1/2 cup / 70 g", "item": "fresh raspberries or sliced strawberries", "israelNote": "פטל או תות שדה - גם קפואים" },
-      { "amount": "optional", "item": "stevia or erythritol to sweeten" }
-    ],
-    "ingredientsHe": [
-      "רבע כוס / 45 גרם קינואה שטופה היטב (22 גרם למנה)",
-      "כוס וחצי / 360 מ\"ל משקה שקדים ללא סוכר, ועוד להגשה",
-      "חצי כפית קינמון טחון",
-      "חצי כפית תמצית וניל",
-      "קורט מלח",
-      "2 כפות אגוזי מלך או שקדים קצוצים וקלויים",
-      "חצי כוס / 70 גרם פטל טרי או תותים פרוסים - גם קפואים",
-      "אופציונלי: סטיביה או אריתריטול להמתקה"
-    ],
-    "instructions": [
-      "Combine the quinoa, almond milk, cinnamon, vanilla and salt in a small saucepan and bring to a gentle boil.",
-      "Reduce the heat to low, cover and simmer 15-18 minutes, stirring once or twice, until the quinoa is tender and the porridge is creamy.",
-      "Meanwhile, toast the nuts in a dry pan 2-3 minutes until fragrant.",
-      "Let the porridge rest 3 minutes off the heat - it thickens as it sits. Sweeten to taste if you like.",
-      "Divide between bowls, splash with a little warm almond milk, and top with the berries and toasted nuts."
-    ],
-    "instructionsHe": [
-      "שימו את הקינואה, משקה השקדים, הקינמון, הווניל והמלח בסיר קטן והביאו לרתיחה עדינה.",
-      "הנמיכו לאש נמוכה, כסו ובשלו 15-18 דקות, תוך ערבוב פעם או פעמיים, עד שהקינואה רכה והדייסה קרמית.",
-      "בינתיים קלו את האגוזים במחבת יבשה 2-3 דקות עד שעולה ריח.",
-      "השאירו את הדייסה 3 דקות מחוץ לאש - היא מסמיכה בעמידה. המתיקו לפי הטעם אם תרצו.",
-      "חלקו לקערות, מזגו מעט משקה שקדים חם מעל, ופזרו את פירות היער והאגוזים הקלויים."
-    ],
-    "nutrition": {
-      "calories": 195,
-      "fatG": 8,
-      "satFatG": 0.8,
-      "proteinG": 6,
-      "carbsG": 21,
-      "fiberG": 5,
-      "netCarbsG": 16,
-      "sugarG": 3,
-      "sodiumMg": 200
+    {
+        "id":  "quinoa-breakfast-porridge",
+        "name":  "Warm Quinoa Breakfast Porridge with Cinnamon, Nuts and Berries",
+        "nameHe":  "דייסת קינואה חמה עם קינמון, אגוזים ופירות יער",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  2,
+        "prepTimeMin":  5,
+        "cookTimeMin":  20,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1/4 cup / 45 g",
+                                "item":  "dry quinoa, rinsed well (22 g per serving)",
+                                "israelNote":  "קינואה"
+                            },
+                            {
+                                "amount":  "1 1/2 cups / 360 ml",
+                                "item":  "unsweetened almond milk, plus more for serving",
+                                "israelNote":  "משקה שקדים ללא סוכר"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "ground cinnamon"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "vanilla extract"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "salt"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "chopped walnuts or almonds, toasted"
+                            },
+                            {
+                                "amount":  "1/2 cup / 70 g",
+                                "item":  "fresh raspberries or sliced strawberries",
+                                "israelNote":  "פטל או תות שדה - גם קפואים"
+                            },
+                            {
+                                "amount":  "optional",
+                                "item":  "stevia or allulose (or erythritol) to sweeten"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "רבע כוס / 45 גרם קינואה שטופה היטב (22 גרם למנה)",
+                              "כוס וחצי / 360 מ\"ל משקה שקדים ללא סוכר, ועוד להגשה",
+                              "חצי כפית קינמון טחון",
+                              "חצי כפית תמצית וניל",
+                              "קורט מלח",
+                              "2 כפות אגוזי מלך או שקדים קצוצים וקלויים",
+                              "חצי כוס / 70 גרם פטל טרי או תותים פרוסים - גם קפואים",
+                              "אופציונלי: סטיביה או אריתריטול להמתקה"
+                          ],
+        "instructions":  [
+                             "Combine the quinoa, almond milk, cinnamon, vanilla and salt in a small saucepan and bring to a gentle boil.",
+                             "Reduce the heat to low, cover and simmer 15-18 minutes, stirring once or twice, until the quinoa is tender and the porridge is creamy.",
+                             "Meanwhile, toast the nuts in a dry pan 2-3 minutes until fragrant.",
+                             "Let the porridge rest 3 minutes off the heat - it thickens as it sits. Sweeten to taste if you like.",
+                             "Divide between bowls, splash with a little warm almond milk, and top with the berries and toasted nuts."
+                         ],
+        "instructionsHe":  [
+                               "שימו את הקינואה, משקה השקדים, הקינמון, הווניל והמלח בסיר קטן והביאו לרתיחה עדינה.",
+                               "הנמיכו לאש נמוכה, כסו ובשלו 15-18 דקות, תוך ערבוב פעם או פעמיים, עד שהקינואה רכה והדייסה קרמית.",
+                               "בינתיים קלו את האגוזים במחבת יבשה 2-3 דקות עד שעולה ריח.",
+                               "השאירו את הדייסה 3 דקות מחוץ לאש - היא מסמיכה בעמידה. המתיקו לפי הטעם אם תרצו.",
+                               "חלקו לקערות, מזגו מעט משקה שקדים חם מעל, ופזרו את פירות היער והאגוזים הקלויים."
+                           ],
+        "nutrition":  {
+                          "calories":  195,
+                          "fatG":  8,
+                          "satFatG":  0.8,
+                          "proteinG":  6,
+                          "carbsG":  21,
+                          "fiberG":  5,
+                          "netCarbsG":  16,
+                          "sugarG":  3,
+                          "sodiumMg":  200
+                      },
+        "ketoVariant":  "Swap half the quinoa for 2 tbsp chia seeds stirred in at the end - about 10 g net carbs and even creamier.",
+        "ketoVariantHe":  "החליפו חצי מהקינואה ב־2 כפות זרעי צ\u0027יה שמערבבים בסוף - כ־10 גרם פחמימות נטו ואף קרמי יותר.",
+        "tips":  "Rinsing the quinoa removes its bitter saponin coating. Berries are the lowest-carb fruit choice; a chopped date would double the sugar.",
+        "tipsHe":  "שטיפת הקינואה מסירה את ציפוי הסאפונין המריר. פירות יער הם בחירת הפרי דלת הפחמימות ביותר; תמר קצוץ היה מכפיל את הסוכר.",
+        "sources":  [
+                        {
+                            "creator":  "Love and Lemons",
+                            "url":  "https://www.loveandlemons.com/cinnamon-quinoa-breakfast-bowl/"
+                        },
+                        {
+                            "creator":  "101 Cookbooks",
+                            "url":  "https://www.101cookbooks.com/archives/warm-and-nutty-cinnamon-quinoa-recipe.html"
+                        },
+                        {
+                            "creator":  "Detoxinista",
+                            "url":  "https://detoxinista.com/quinoa-breakfast-porridge/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Love and Lemons, 101 Cookbooks and Detoxinista: all simmer quinoa in milk with cinnamon and top with nuts and fruit; this version cuts the grain to 22 g dry per bowl, uses unsweetened almond milk, and skips the maple syrup in favor of optional zero-carb sweetener.",
+        "comparedVersionsHe":  "הושוו Love and Lemons,‏ 101 Cookbooks ו־Detoxinista: כולם מבשלים קינואה בחלב עם קינמון ומעטרים באגוזים ופרי; הגרסה הזו מצמצמת את הדגן ל־22 גרם יבש לקערה, משתמשת במשקה שקדים לא ממותק ומוותרת על מייפל לטובת ממתיק ללא פחמימות."
     },
-    "ketoVariant": "Swap half the quinoa for 2 tbsp chia seeds stirred in at the end - about 10 g net carbs and even creamier.",
-    "ketoVariantHe": "החליפו חצי מהקינואה ב־2 כפות זרעי צ'יה שמערבבים בסוף - כ־10 גרם פחמימות נטו ואף קרמי יותר.",
-    "tips": "Rinsing the quinoa removes its bitter saponin coating. Berries are the lowest-carb fruit choice; a chopped date would double the sugar.",
-    "tipsHe": "שטיפת הקינואה מסירה את ציפוי הסאפונין המריר. פירות יער הם בחירת הפרי דלת הפחמימות ביותר; תמר קצוץ היה מכפיל את הסוכר.",
-    "sources": [
-      { "creator": "Love and Lemons", "url": "https://www.loveandlemons.com/cinnamon-quinoa-breakfast-bowl/" },
-      { "creator": "101 Cookbooks", "url": "https://www.101cookbooks.com/archives/warm-and-nutty-cinnamon-quinoa-recipe.html" },
-      { "creator": "Detoxinista", "url": "https://detoxinista.com/quinoa-breakfast-porridge/" }
-    ],
-    "comparedVersions": "Compared Love and Lemons, 101 Cookbooks and Detoxinista: all simmer quinoa in milk with cinnamon and top with nuts and fruit; this version cuts the grain to 22 g dry per bowl, uses unsweetened almond milk, and skips the maple syrup in favor of optional zero-carb sweetener.",
-    "comparedVersionsHe": "הושוו Love and Lemons,‏ 101 Cookbooks ו־Detoxinista: כולם מבשלים קינואה בחלב עם קינמון ומעטרים באגוזים ופרי; הגרסה הזו מצמצמת את הדגן ל־22 גרם יבש לקערה, משתמשת במשקה שקדים לא ממותק ומוותרת על מייפל לטובת ממתיק ללא פחמימות."
-  },
-  {
-    "id": "edamame-tofu-sesame-bowl",
-    "name": "Edamame and Tofu Power Bowl with Sesame Dressing",
-    "nameHe": "קערת אדממה וטופו עם רוטב שומשום",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["keto"],
-    "servings": 2,
-    "prepTimeMin": 15,
-    "cookTimeMin": 15,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "300 g", "item": "firm tofu, pressed and cubed", "israelNote": "טופו קשה" },
-      { "amount": "1 cup / 150 g", "item": "frozen shelled edamame (75 g per serving)", "israelNote": "אדממה קפואה מקולפת" },
-      { "amount": "1 tbsp", "item": "oil, for frying the tofu" },
-      { "amount": "2 cups", "item": "shredded cabbage or crisp lettuce" },
-      { "amount": "1", "item": "cucumber, sliced" },
-      { "amount": "2", "item": "scallions, sliced, plus 1 tsp toasted sesame seeds" },
-      { "amount": "2 tbsp", "item": "raw tahini", "israelNote": "טחינה גולמית" },
-      { "amount": "2 tbsp", "item": "soy sauce" },
-      { "amount": "1 tbsp", "item": "rice vinegar or lemon juice" },
-      { "amount": "1 tsp each", "item": "toasted sesame oil and grated fresh ginger" }
-    ],
-    "ingredientsHe": [
-      "300 גרם טופו קשה, סחוט וחתוך לקוביות",
-      "כוס / 150 גרם אדממה קפואה מקולפת (75 גרם למנה)",
-      "כף שמן לטיגון הטופו",
-      "2 כוסות כרוב מגורר או חסה פריכה",
-      "מלפפון פרוס",
-      "2 בצלים ירוקים פרוסים + כפית שומשום קלוי",
-      "2 כפות טחינה גולמית",
-      "2 כפות רוטב סויה",
-      "כף חומץ אורז או מיץ לימון",
-      "כפית שמן שומשום כהה וכפית ג'ינג'ר טרי מגורר"
-    ],
-    "instructions": [
-      "Boil the edamame in salted water 4-5 minutes, drain and set aside.",
-      "Pat the tofu cubes very dry. Heat the oil in a nonstick pan over medium-high heat and fry the tofu 8-10 minutes, turning, until golden on several sides.",
-      "Whisk the tahini, soy sauce, vinegar, sesame oil and ginger with 2-3 tbsp cold water until smooth and pourable.",
-      "Arrange the cabbage or lettuce and cucumber in two bowls.",
-      "Top with the warm tofu and edamame, pour the sesame dressing over, and finish with scallions and sesame seeds."
-    ],
-    "instructionsHe": [
-      "בשלו את האדממה במים רותחים עם מלח 4-5 דקות, סננו והניחו בצד.",
-      "ייבשו היטב את קוביות הטופו. חממו את השמן במחבת שאינה נדבקת על אש בינונית-גבוהה וטגנו את הטופו 8-10 דקות תוך היפוך, עד שהוא זהוב מכמה צדדים.",
-      "ערבבו בהקצפה את הטחינה, הסויה, החומץ, שמן השומשום והג'ינג'ר עם 2-3 כפות מים קרים עד לרוטב חלק ונוזלי.",
-      "סדרו את הכרוב או החסה והמלפפון בשתי קערות.",
-      "הניחו מעל את הטופו החם והאדממה, מזגו את רוטב השומשום, וסיימו בבצל ירוק ושומשום."
-    ],
-    "nutrition": {
-      "calories": 390,
-      "fatG": 25,
-      "satFatG": 3.5,
-      "proteinG": 28,
-      "carbsG": 15,
-      "fiberG": 6,
-      "netCarbsG": 9,
-      "sugarG": 4,
-      "sodiumMg": 950
+    {
+        "id":  "edamame-tofu-sesame-bowl",
+        "name":  "Edamame and Tofu Power Bowl with Sesame Dressing",
+        "nameHe":  "קערת אדממה וטופו עם רוטב שומשום",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "keto"
+                     ],
+        "servings":  2,
+        "prepTimeMin":  15,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "300 g",
+                                "item":  "firm tofu, pressed and cubed",
+                                "israelNote":  "טופו קשה"
+                            },
+                            {
+                                "amount":  "1 cup / 150 g",
+                                "item":  "frozen shelled edamame (75 g per serving)",
+                                "israelNote":  "אדממה קפואה מקולפת"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "oil, for frying the tofu"
+                            },
+                            {
+                                "amount":  "2 cups",
+                                "item":  "shredded cabbage or crisp lettuce"
+                            },
+                            {
+                                "amount":  "1",
+                                "item":  "cucumber, sliced"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "scallions, sliced, plus 1 tsp toasted sesame seeds"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "raw tahini",
+                                "israelNote":  "טחינה גולמית"
+                            },
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "soy sauce"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "rice vinegar or lemon juice"
+                            },
+                            {
+                                "amount":  "1 tsp each",
+                                "item":  "toasted sesame oil and grated fresh ginger"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "300 גרם טופו קשה, סחוט וחתוך לקוביות",
+                              "כוס / 150 גרם אדממה קפואה מקולפת (75 גרם למנה)",
+                              "כף שמן לטיגון הטופו",
+                              "2 כוסות כרוב מגורר או חסה פריכה",
+                              "מלפפון פרוס",
+                              "2 בצלים ירוקים פרוסים + כפית שומשום קלוי",
+                              "2 כפות טחינה גולמית",
+                              "2 כפות רוטב סויה",
+                              "כף חומץ אורז או מיץ לימון",
+                              "כפית שמן שומשום כהה וכפית ג\u0027ינג\u0027ר טרי מגורר"
+                          ],
+        "instructions":  [
+                             "Boil the edamame in salted water 4-5 minutes, drain and set aside.",
+                             "Pat the tofu cubes very dry. Heat the oil in a nonstick pan over medium-high heat and fry the tofu 8-10 minutes, turning, until golden on several sides.",
+                             "Whisk the tahini, soy sauce, vinegar, sesame oil and ginger with 2-3 tbsp cold water until smooth and pourable.",
+                             "Arrange the cabbage or lettuce and cucumber in two bowls.",
+                             "Top with the warm tofu and edamame, pour the sesame dressing over, and finish with scallions and sesame seeds."
+                         ],
+        "instructionsHe":  [
+                               "בשלו את האדממה במים רותחים עם מלח 4-5 דקות, סננו והניחו בצד.",
+                               "ייבשו היטב את קוביות הטופו. חממו את השמן במחבת שאינה נדבקת על אש בינונית-גבוהה וטגנו את הטופו 8-10 דקות תוך היפוך, עד שהוא זהוב מכמה צדדים.",
+                               "ערבבו בהקצפה את הטחינה, הסויה, החומץ, שמן השומשום והג\u0027ינג\u0027ר עם 2-3 כפות מים קרים עד לרוטב חלק ונוזלי.",
+                               "סדרו את הכרוב או החסה והמלפפון בשתי קערות.",
+                               "הניחו מעל את הטופו החם והאדממה, מזגו את רוטב השומשום, וסיימו בבצל ירוק ושומשום."
+                           ],
+        "nutrition":  {
+                          "calories":  390,
+                          "fatG":  25,
+                          "satFatG":  3.5,
+                          "proteinG":  28,
+                          "carbsG":  15,
+                          "fiberG":  6,
+                          "netCarbsG":  9,
+                          "sugarG":  4,
+                          "sodiumMg":  950
+                      },
+        "tips":  "Edamame is the lowest-net-carb legume there is (about 3.7 g net per 100 g), so this bowl is genuinely keto and still delivers 28 g protein. Press the tofu well - dry tofu browns, wet tofu steams.",
+        "tipsHe":  "אדממה היא הקטנייה עם הפחמימות נטו הנמוכות ביותר (כ־3.7 גרם נטו ל־100 גרם), כך שהקערה הזו קטוגנית באמת ועדיין מספקת 28 גרם חלבון. סחטו את הטופו היטב - טופו יבש משחים, טופו רטוב מתאדה.",
+        "sources":  [
+                        {
+                            "creator":  "Slender Kitchen",
+                            "url":  "https://www.slenderkitchen.com/recipe/pan-fried-tofu-with-edamame"
+                        },
+                        {
+                            "creator":  "Moon and Spoon and Yum",
+                            "url":  "https://moonandspoonandyum.com/tofu-edamame-salad/"
+                        },
+                        {
+                            "creator":  "Diet Doctor",
+                            "url":  "https://www.dietdoctor.com/recipes/low-carb-garlic-and-sesame-tofu-bowl"
+                        }
+                    ],
+        "comparedVersions":  "Compared Slender Kitchen, Moon and Spoon and Yum and Diet Doctor: took the pan-fried sesame tofu technique, the ginger-sesame dressing, and Diet Doctor\u0027s no-rice low-carb base, using a measured 75 g edamame portion instead of grains.",
+        "comparedVersionsHe":  "הושוו Slender Kitchen,‏ Moon and Spoon and Yum ו־Diet Doctor: נלקחו טכניקת טיגון הטופו בשומשום, רוטב הג\u0027ינג\u0027ר-שומשום והבסיס דל הפחמימות ללא אורז של Diet Doctor, עם מנת אדממה מדודה של 75 גרם במקום דגנים."
     },
-    "tips": "Edamame is the lowest-net-carb legume there is (about 3.7 g net per 100 g), so this bowl is genuinely keto and still delivers 28 g protein. Press the tofu well - dry tofu browns, wet tofu steams.",
-    "tipsHe": "אדממה היא הקטנייה עם הפחמימות נטו הנמוכות ביותר (כ־3.7 גרם נטו ל־100 גרם), כך שהקערה הזו קטוגנית באמת ועדיין מספקת 28 גרם חלבון. סחטו את הטופו היטב - טופו יבש משחים, טופו רטוב מתאדה.",
-    "sources": [
-      { "creator": "Slender Kitchen", "url": "https://www.slenderkitchen.com/recipe/pan-fried-tofu-with-edamame" },
-      { "creator": "Moon and Spoon and Yum", "url": "https://moonandspoonandyum.com/tofu-edamame-salad/" },
-      { "creator": "Diet Doctor", "url": "https://www.dietdoctor.com/recipes/low-carb-garlic-and-sesame-tofu-bowl" }
-    ],
-    "comparedVersions": "Compared Slender Kitchen, Moon and Spoon and Yum and Diet Doctor: took the pan-fried sesame tofu technique, the ginger-sesame dressing, and Diet Doctor's no-rice low-carb base, using a measured 75 g edamame portion instead of grains.",
-    "comparedVersionsHe": "הושוו Slender Kitchen,‏ Moon and Spoon and Yum ו־Diet Doctor: נלקחו טכניקת טיגון הטופו בשומשום, רוטב הג'ינג'ר-שומשום והבסיס דל הפחמימות ללא אורז של Diet Doctor, עם מנת אדממה מדודה של 75 גרם במקום דגנים."
-  },
-  {
-    "id": "chickpea-spinach-stew-paprika",
-    "name": "Chickpea and Spinach Stew with Paprika and Garlic",
-    "nameHe": "תבשיל גרגירי חומוס ותרד עם פפריקה ושום",
-    "category": "legumes-grains",
-    "kosherType": "pareve",
-    "dietTags": ["lowcarb"],
-    "servings": 4,
-    "prepTimeMin": 10,
-    "cookTimeMin": 25,
-    "difficulty": "easy",
-    "ingredients": [
-      { "amount": "2 tbsp", "item": "olive oil" },
-      { "amount": "1 medium", "item": "onion, chopped" },
-      { "amount": "4 cloves", "item": "garlic, sliced" },
-      { "amount": "1 1/2 tsp", "item": "smoked paprika (plus a pinch of hot paprika if you like)" },
-      { "amount": "1 tsp", "item": "ground cumin" },
-      { "amount": "1 1/2 cups / 240 g", "item": "canned chickpeas, drained and rinsed (60 g per serving - about half a large can)", "israelNote": "גרגירי חומוס (שימורים)" },
-      { "amount": "2 ripe", "item": "tomatoes, grated, plus 1 tbsp tomato paste" },
-      { "amount": "300 g", "item": "fresh spinach, roughly chopped", "israelNote": "תרד טרי - גם קפוא ומסונן עובד" },
-      { "amount": "1 cup", "item": "water" },
-      { "amount": "to taste", "item": "salt, black pepper, 1 tsp wine vinegar" }
-    ],
-    "ingredientsHe": [
-      "2 כפות שמן זית",
-      "בצל בינוני קצוץ",
-      "4 שיני שום פרוסות",
-      "כפית וחצי פפריקה מעושנת (ועוד קורט פפריקה חריפה למי שאוהב)",
-      "כפית כמון טחון",
-      "כוס וחצי / 240 גרם גרגירי חומוס משימורים, מסוננים ושטופים (60 גרם למנה - כחצי קופסה גדולה)",
-      "2 עגבניות בשלות מגוררות + כף רסק עגבניות",
-      "300 גרם תרד טרי קצוץ גס - גם קפוא ומסונן עובד",
-      "כוס מים",
-      "מלח, פלפל שחור וכפית חומץ יין - לפי הטעם"
-    ],
-    "instructions": [
-      "Heat the olive oil in a wide pot over medium heat and cook the onion 5-6 minutes until soft and golden.",
-      "Add the garlic and cook 1 minute, then stir in the smoked paprika, cumin and tomato paste and fry 30 seconds - do not let the paprika burn.",
-      "Add the grated tomatoes and simmer 3-4 minutes until slightly thickened.",
-      "Add the chickpeas and water, season with salt and pepper, and simmer uncovered 10 minutes. Lightly mash a few chickpeas against the pot to thicken the sauce.",
-      "Pile in the spinach in batches, stirring until wilted, and cook 3-4 more minutes.",
-      "Finish with the vinegar, taste for seasoning, and serve hot."
-    ],
-    "instructionsHe": [
-      "חממו את שמן הזית בסיר רחב על אש בינונית ובשלו את הבצל 5-6 דקות עד שהוא רך וזהוב.",
-      "הוסיפו את השום ובשלו דקה, ואז הוסיפו את הפפריקה המעושנת, הכמון ורסק העגבניות וטגנו 30 שניות - אל תיתנו לפפריקה להישרף.",
-      "הוסיפו את העגבניות המגוררות ובשלו 3-4 דקות עד להסמכה קלה.",
-      "הוסיפו את גרגירי החומוס והמים, תבלו במלח ופלפל ובשלו ללא מכסה 10 דקות. מעכו קלות כמה גרגירים אל דופן הסיר להסמכת הרוטב.",
-      "הוסיפו את התרד בהדרגה תוך ערבוב עד שהוא קמל, ובשלו עוד 3-4 דקות.",
-      "סיימו בחומץ, טעמו ותקנו תיבול, והגישו חם."
-    ],
-    "nutrition": {
-      "calories": 220,
-      "fatG": 10,
-      "satFatG": 1.4,
-      "proteinG": 8,
-      "carbsG": 25,
-      "fiberG": 8,
-      "netCarbsG": 17,
-      "sugarG": 5,
-      "sodiumMg": 560
-    },
-    "ketoVariant": "Halve the chickpeas to 120 g total and add 200 g sliced mushrooms with the onion - about 11 g net carbs per serving.",
-    "ketoVariantHe": "חצו את גרגירי החומוס ל־120 גרם בסך הכול והוסיפו 200 גרם פטריות פרוסות עם הבצל - כ־11 גרם פחמימות נטו למנה.",
-    "tips": "Chickpeas are the carb-heaviest legume in this collection, so the 60 g per-serving cap does the work: a typical espinacas con garbanzos serves double. The smoked paprika and vinegar make the small portion taste substantial.",
-    "tipsHe": "גרגירי חומוס הם הקטנייה העשירה ביותר בפחמימות באוסף הזה, ולכן מגבלת 60 הגרם למנה עושה את העבודה: מנה טיפוסית של אספינקס קון גרבנזוס מכילה כפול. הפפריקה המעושנת והחומץ גורמים למנה הקטנה להרגיש משמעותית.",
-    "sources": [
-      { "creator": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/spanish-chickpea-stew-espinacas-con-garbanzos/" },
-      { "creator": "Milk Street (Christopher Kimball)", "url": "https://www.177milkstreet.com/recipes/braised-chickpeas-and-spinach-with-smoked-paprika-and-garlic-guisat-de-cigrons" },
-      { "creator": "Nik Sharma", "url": "https://niksharmacooks.com/andalusian-style-chickpea-and-spinach-stew/" }
-    ],
-    "comparedVersions": "Compared The Mediterranean Dish, Milk Street and Nik Sharma: all build on smoked paprika, garlic and olive oil; this version skips the traditional bread-almond picada, keeps Milk Street's vinegar finish, and caps chickpeas at 60 g per serving.",
-    "comparedVersionsHe": "הושוו The Mediterranean Dish,‏ Milk Street וניק שארמה: כולם בנויים על פפריקה מעושנת, שום ושמן זית; הגרסה הזו מוותרת על הפיקדה המסורתית של לחם ושקדים, שומרת על סיומת החומץ של Milk Street ומגבילה את גרגירי החומוס ל־60 גרם למנה."
+    {
+        "id":  "chickpea-spinach-stew-paprika",
+        "name":  "Chickpea and Spinach Stew with Paprika and Garlic",
+        "nameHe":  "תבשיל גרגירי חומוס ותרד עם פפריקה ושום",
+        "category":  "legumes-grains",
+        "kosherType":  "pareve",
+        "dietTags":  [
+                         "lowcarb"
+                     ],
+        "servings":  4,
+        "prepTimeMin":  10,
+        "cookTimeMin":  25,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 tbsp",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 medium",
+                                "item":  "onion, chopped"
+                            },
+                            {
+                                "amount":  "4 cloves",
+                                "item":  "garlic, sliced"
+                            },
+                            {
+                                "amount":  "1 1/2 tsp",
+                                "item":  "smoked paprika (plus a pinch of hot paprika if you like)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "ground cumin"
+                            },
+                            {
+                                "amount":  "1 1/2 cups / 240 g",
+                                "item":  "canned chickpeas, drained and rinsed (60 g per serving - about half a large can)",
+                                "israelNote":  "גרגירי חומוס (שימורים)"
+                            },
+                            {
+                                "amount":  "2 ripe",
+                                "item":  "tomatoes, grated, plus 1 tbsp tomato paste"
+                            },
+                            {
+                                "amount":  "300 g",
+                                "item":  "fresh spinach, roughly chopped",
+                                "israelNote":  "תרד טרי - גם קפוא ומסונן עובד"
+                            },
+                            {
+                                "amount":  "1 cup",
+                                "item":  "water"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt, black pepper, 1 tsp wine vinegar"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              "2 כפות שמן זית",
+                              "בצל בינוני קצוץ",
+                              "4 שיני שום פרוסות",
+                              "כפית וחצי פפריקה מעושנת (ועוד קורט פפריקה חריפה למי שאוהב)",
+                              "כפית כמון טחון",
+                              "כוס וחצי / 240 גרם גרגירי חומוס משימורים, מסוננים ושטופים (60 גרם למנה - כחצי קופסה גדולה)",
+                              "2 עגבניות בשלות מגוררות + כף רסק עגבניות",
+                              "300 גרם תרד טרי קצוץ גס - גם קפוא ומסונן עובד",
+                              "כוס מים",
+                              "מלח, פלפל שחור וכפית חומץ יין - לפי הטעם"
+                          ],
+        "instructions":  [
+                             "Heat the olive oil in a wide pot over medium heat and cook the onion 5-6 minutes until soft and golden.",
+                             "Add the garlic and cook 1 minute, then stir in the smoked paprika, cumin and tomato paste and fry 30 seconds - do not let the paprika burn.",
+                             "Add the grated tomatoes and simmer 3-4 minutes until slightly thickened.",
+                             "Add the chickpeas and water, season with salt and pepper, and simmer uncovered 10 minutes. Lightly mash a few chickpeas against the pot to thicken the sauce.",
+                             "Pile in the spinach in batches, stirring until wilted, and cook 3-4 more minutes.",
+                             "Finish with the vinegar, taste for seasoning, and serve hot."
+                         ],
+        "instructionsHe":  [
+                               "חממו את שמן הזית בסיר רחב על אש בינונית ובשלו את הבצל 5-6 דקות עד שהוא רך וזהוב.",
+                               "הוסיפו את השום ובשלו דקה, ואז הוסיפו את הפפריקה המעושנת, הכמון ורסק העגבניות וטגנו 30 שניות - אל תיתנו לפפריקה להישרף.",
+                               "הוסיפו את העגבניות המגוררות ובשלו 3-4 דקות עד להסמכה קלה.",
+                               "הוסיפו את גרגירי החומוס והמים, תבלו במלח ופלפל ובשלו ללא מכסה 10 דקות. מעכו קלות כמה גרגירים אל דופן הסיר להסמכת הרוטב.",
+                               "הוסיפו את התרד בהדרגה תוך ערבוב עד שהוא קמל, ובשלו עוד 3-4 דקות.",
+                               "סיימו בחומץ, טעמו ותקנו תיבול, והגישו חם."
+                           ],
+        "nutrition":  {
+                          "calories":  220,
+                          "fatG":  10,
+                          "satFatG":  1.4,
+                          "proteinG":  8,
+                          "carbsG":  25,
+                          "fiberG":  8,
+                          "netCarbsG":  17,
+                          "sugarG":  5,
+                          "sodiumMg":  560
+                      },
+        "ketoVariant":  "Halve the chickpeas to 120 g total and add 200 g sliced mushrooms with the onion - about 11 g net carbs per serving.",
+        "ketoVariantHe":  "חצו את גרגירי החומוס ל־120 גרם בסך הכול והוסיפו 200 גרם פטריות פרוסות עם הבצל - כ־11 גרם פחמימות נטו למנה.",
+        "tips":  "Chickpeas are the carb-heaviest legume in this collection, so the 60 g per-serving cap does the work: a typical espinacas con garbanzos serves double. The smoked paprika and vinegar make the small portion taste substantial.",
+        "tipsHe":  "גרגירי חומוס הם הקטנייה העשירה ביותר בפחמימות באוסף הזה, ולכן מגבלת 60 הגרם למנה עושה את העבודה: מנה טיפוסית של אספינקס קון גרבנזוס מכילה כפול. הפפריקה המעושנת והחומץ גורמים למנה הקטנה להרגיש משמעותית.",
+        "sources":  [
+                        {
+                            "creator":  "The Mediterranean Dish",
+                            "url":  "https://www.themediterraneandish.com/spanish-chickpea-stew-espinacas-con-garbanzos/"
+                        },
+                        {
+                            "creator":  "Milk Street (Christopher Kimball)",
+                            "url":  "https://www.177milkstreet.com/recipes/braised-chickpeas-and-spinach-with-smoked-paprika-and-garlic-guisat-de-cigrons"
+                        },
+                        {
+                            "creator":  "Nik Sharma",
+                            "url":  "https://niksharmacooks.com/andalusian-style-chickpea-and-spinach-stew/"
+                        }
+                    ],
+        "comparedVersions":  "Compared The Mediterranean Dish, Milk Street and Nik Sharma: all build on smoked paprika, garlic and olive oil; this version skips the traditional bread-almond picada, keeps Milk Street\u0027s vinegar finish, and caps chickpeas at 60 g per serving.",
+        "comparedVersionsHe":  "הושוו The Mediterranean Dish,‏ Milk Street וניק שארמה: כולם בנויים על פפריקה מעושנת, שום ושמן זית; הגרסה הזו מוותרת על הפיקדה המסורתית של לחם ושקדים, שומרת על סיומת החומץ של Milk Street ומגבילה את גרגירי החומוס ל־60 גרם למנה."
     }
 ]
