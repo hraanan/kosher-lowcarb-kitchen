@@ -24,23 +24,48 @@ function getSheet(name) {
   return sh;
 }
 
+function rowsOf(name) {
+  var sh = getSheet(name);
+  var rows = sh.getDataRange().getValues();
+  var head = rows.shift() || SHEETS[name];
+  return rows.map(function (r) {
+    var o = {};
+    head.forEach(function (h, i) { o[h] = r[i]; });
+    return o;
+  });
+}
+
+function isApproved(row) {
+  var s = String(row.status || '').trim().toLowerCase();
+  return s === 'approved' || s === '';
+}
+
 function doGet() {
   var out = {};
   for (var name in SHEETS) {
-    var sh = getSheet(name);
-    var rows = sh.getDataRange().getValues();
-    var head = rows.shift() || SHEETS[name];
-    out[name] = rows.map(function (r) {
-      var o = {};
-      head.forEach(function (h, i) { o[h] = r[i]; });
-      return o;
-    });
+    var rows = rowsOf(name);
+    // pending photos & recipe submissions are admin-only — the public feed carries approved items
+    if (name === 'photos' || name === 'submissions') rows = rows.filter(isApproved);
+    out[name] = rows;
   }
   return ContentService.createTextOutput(JSON.stringify(out)).setMimeType(ContentService.MimeType.JSON);
 }
 
 function doPost(e) {
   var body = JSON.parse(e.postData.contents);
+
+  // admin-only: list pending photos & submissions
+  if (body.action === 'pending') {
+    if (body.key !== ADMIN_KEY) {
+      return ContentService.createTextOutput(JSON.stringify({ ok: false, error: 'bad key' })).setMimeType(ContentService.MimeType.JSON);
+    }
+    var pend = function (row) { return String(row.status || '').trim().toLowerCase() === 'pending'; };
+    return ContentService.createTextOutput(JSON.stringify({
+      ok: true,
+      photos: rowsOf('photos').filter(pend),
+      submissions: rowsOf('submissions').filter(pend)
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
 
   // update an existing row (matched by created_at) — used for approving photos / marking requests as added
   if (body.action === 'update') {
