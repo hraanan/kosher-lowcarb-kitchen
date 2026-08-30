@@ -86,31 +86,46 @@ button{font:inherit;cursor:pointer}
 
 /* ---------- header ---------- */
 header.site{
-  padding-block:30px 20px;
-  border-block-end:1px solid var(--line);
-  background:linear-gradient(180deg, var(--accent-soft), var(--panel) 85%);
+  padding-block:26px 0;
+  background:var(--ground);
 }
-.site-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:16px}
-.brand-mark svg{height:58px;width:58px;display:block;filter:drop-shadow(0 2px 3px rgba(35,40,25,.15))}
+.site-top{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand-mark svg{height:48px;width:48px;display:block}
 .bm-body{fill:var(--pareve-bg);stroke:var(--accent);stroke-width:2.5}
-.bm-pit{fill:var(--keto);stroke:var(--ink);stroke-width:0}
+.bm-pit{fill:var(--keto)}
 .bm-leaf{fill:var(--accent)}
-.site h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:.01em}
-.tagline{color:var(--ink-soft);margin-block:5px 0;font-size:14.5px;max-width:52ch}
-.header-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.site h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:.01em}
+.tagline{color:var(--ink-soft);margin-block:10px 0;font-size:15px;max-width:56ch}
+.header-actions{display:flex;gap:6px;align-items:center}
 .ghost-btn{
-  background:var(--panel);border:1px solid var(--line);color:var(--ink);
-  border-radius:999px;padding:8px 16px;font-weight:500;font-size:14px;
-  transition:border-color .12s ease,color .12s ease,transform .12s ease;
+  background:transparent;border:none;color:var(--ink-soft);
+  border-radius:999px;padding:8px 14px;font-weight:600;font-size:14px;
+  transition:background .12s ease,color .12s ease;
 }
-.ghost-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+.ghost-btn:hover{background:var(--panel-2);color:var(--ink)}
 .solid-btn{
-  background:var(--accent);color:var(--accent-ink);border:1px solid var(--accent);
-  border-radius:999px;padding:8px 17px;font-weight:700;font-size:14px;
+  background:var(--accent);color:var(--accent-ink);border:none;
+  border-radius:999px;padding:10px 20px;font-weight:700;font-size:14.5px;
   transition:transform .12s ease,box-shadow .12s ease;
 }
 .solid-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.tonal-btn{
+  background:var(--accent-soft);color:var(--accent);border:none;
+  border-radius:999px;padding:10px 20px;font-weight:700;font-size:14.5px;
+  transition:transform .12s ease;
+}
+.tonal-btn:hover{transform:translateY(-1px)}
+.hero-ctas{display:flex;gap:10px;margin-block-start:16px;flex-wrap:wrap}
+.tabs{display:flex;gap:2px;margin-block-start:22px;border-block-end:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{
+  background:none;border:none;padding:11px 18px;font:inherit;font-weight:700;font-size:15px;
+  color:var(--ink-soft);border-block-end:2.5px solid transparent;margin-block-end:-1px;
+  cursor:pointer;white-space:nowrap;transition:color .12s ease;
+}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--accent);border-color:var(--accent)}
 
 /* ---------- controls ---------- */
 .controls{padding-block:16px 14px;display:flex;flex-direction:column;gap:11px;background:var(--ground)}
@@ -120,19 +135,19 @@ header.site{
 .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .search-row input[type=search]{
   flex:1;min-width:220px;
-  background:var(--panel);border:1px solid var(--line);color:var(--ink);
-  border-radius:999px;padding:10px 18px;font:inherit;
+  background:var(--panel);border:none;color:var(--ink);
+  border-radius:12px;padding:11px 18px;font:inherit;box-shadow:var(--shadow);
 }
-.search-row input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
-.chip-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.chip-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:700;margin-inline-end:2px}
+.search-row input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px}
+.chip-row{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.chip-label{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:700;margin-inline-end:2px}
 .chip{
-  border:1px solid var(--line);background:var(--panel);color:var(--ink);
-  border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;white-space:nowrap;
-  transition:border-color .12s ease;
+  border:none;background:var(--panel-2);color:var(--ink);
+  border-radius:999px;padding:7px 15px;font-size:13.5px;font-weight:600;white-space:nowrap;
+  transition:background .12s ease,color .12s ease;
 }
-.chip:hover{border-color:var(--accent)}
-.chip.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.chip:hover{background:var(--accent-soft);color:var(--accent)}
+.chip.on{background:var(--accent);color:var(--accent-ink)}
 .cat-row{display:flex;gap:8px;flex-wrap:wrap}
 @media (max-width:719px){
   .cat-row{flex-wrap:nowrap;overflow-x:auto;padding-block-end:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
@@ -167,14 +182,17 @@ header.site{
 .illus .k{fill:var(--keto)}
 
 /* ---------- cards ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;padding-block:6px 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px;padding-block:6px 44px}
 .card{
-  background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  padding:16px 16px 14px;display:flex;flex-direction:column;gap:9px;
-  text-align:start;color:var(--ink);box-shadow:var(--shadow);
-  transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease;
+  background:var(--panel);border:none;border-radius:16px;
+  padding:0 0 15px;display:flex;flex-direction:column;gap:9px;
+  text-align:start;color:var(--ink);box-shadow:var(--shadow);overflow:hidden;
+  transition:transform .15s ease,box-shadow .15s ease;
 }
-.card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 3px 6px rgba(35,40,25,.1),0 12px 28px rgba(35,40,25,.12)}
+.card:hover{transform:translateY(-3px);box-shadow:0 3px 6px rgba(35,40,25,.1),0 14px 30px rgba(35,40,25,.14)}
+.card > .badges,.card > h3,.card > .card-stars,.card > .card-ings,.card > .meta{margin-inline:16px}
+.card .illus{border-radius:0;padding:12px 0;margin-block-end:2px}
+.card .illus svg{height:78px}
 /* category-tinted illustration grounds */
 .illus.cat-dairy-vegetarian-mains{background:var(--dairy-bg)}
 .illus.cat-meat-mains{background:var(--meat-bg)}
@@ -188,8 +206,8 @@ header.site{
 .card h3{font-size:19px;font-weight:600}
 .card-ings{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .card .badges{display:flex;gap:6px;flex-wrap:wrap}
-.card .meta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-block-start:auto;padding-block-start:6px;border-block-start:1px dashed var(--line)}
-.card .carbs{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.card .meta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-block-start:auto;padding-block-start:8px;border-block-start:1px solid var(--line)}
+.card .carbs{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
 .card .carbs small{font-family:'Karla','Heebo',sans-serif;font-size:11px;font-weight:500;color:var(--ink-soft);display:block;letter-spacing:.05em;text-transform:uppercase}
 .card .time{color:var(--ink-soft);font-size:13px;text-align:end}
 .section-head{display:flex;align-items:center;gap:12px;margin-block:26px 12px}
@@ -285,7 +303,7 @@ article.recipe{
 .form-actions{display:flex;gap:10px}
 .fam-by{font-size:12.5px;color:var(--ink-soft)}
 .card .illus.photo{padding:0;overflow:hidden}
-.card .illus.photo img{width:100%;height:104px;object-fit:cover;display:block}
+.card .illus.photo img{width:100%;height:112px;object-fit:cover;display:block}
 .photo-strip{display:flex;gap:10px;flex-wrap:wrap;margin-block:6px 14px}
 .photo-strip figure{margin:0}
 .photo-strip img{max-height:190px;max-width:100%;border-radius:10px;display:block;background:var(--panel-2)}
@@ -336,7 +354,7 @@ article.recipe{
 }
 
 /* footer */
-footer.site{border-block-start:1px solid var(--line);padding-block:26px 40px;color:var(--ink-soft);font-size:13px;text-align:center;background:linear-gradient(0deg, var(--accent-soft), var(--ground) 90%)}
+footer.site{border-block-start:1px solid var(--line);padding-block:28px 44px;color:var(--ink-soft);font-size:13px;text-align:center;background:var(--ground)}
 footer.site .wrap{max-width:62ch}
 .toast{box-shadow:0 6px 24px rgba(0,0,0,.25)}
 
@@ -356,20 +374,23 @@ footer.site .wrap{max-width:62ch}
             <path class="bm-leaf" d="M46 8 Q56 2 60 10 Q54 18 46 14 Q44 10 46 8 Z"/>
           </svg>
         </div>
-        <div>
-          <h1 id="bookTitle">קיטוש</h1>
-          <p class="tagline" id="tagline"></p>
-        </div>
+        <h1 id="bookTitle">קיטוש</h1>
       </div>
       <div class="header-actions">
         <button class="ghost-btn" id="langBtn" aria-label="Switch language">עברית</button>
-        <button class="ghost-btn no-print" id="pantryBtn">🧺 Ingredients</button>
-        <button class="ghost-btn no-print" id="guidesBtn">📖 Guides</button>
-        <button class="ghost-btn no-print" id="printBookBtn">🖨 Print book</button>
-        <button class="ghost-btn no-print" id="reqBtn" hidden>🙋 Request a recipe</button>
-        <button class="solid-btn no-print" id="addBtn" hidden>➕ Add a recipe</button>
+        <button class="ghost-btn no-print" id="printBookBtn">🖨</button>
       </div>
     </div>
+    <p class="tagline" id="tagline"></p>
+    <div class="hero-ctas no-print">
+      <button class="solid-btn" id="addBtn" hidden>➕ Add a recipe</button>
+      <button class="tonal-btn" id="reqBtn" hidden>🙋 Request a recipe</button>
+    </div>
+    <nav class="tabs no-print" aria-label="Sections">
+      <button class="tab on" id="navRecipesBtn">Recipes</button>
+      <button class="tab" id="navPantryBtn">Ingredients</button>
+      <button class="tab" id="navGuidesBtn">Guides</button>
+    </nav>
   </div>
 </header>
 
@@ -448,6 +469,7 @@ const T = {
     protein:"Protein", carbs:"Carbs", fiber:"Fiber", net:"Net carbs", sugar:"Sugar", sodium:"Sodium",
     adapted:"Adapted from", why:"Why this version:",
     pantryBtn:"🧺 Ingredients", guidesBtn:"📖 Guides", pantryTitle:"The Pantry",
+    navRecipes:"Recipes", navPantry:"Ingredients", navGuides:"Guides",
     pantrySub:"Every ingredient used in the book. Click one to see the recipes that use it.",
     usedIn:"recipes",
     sec_meat:"Meat & Poultry", sec_sweet:"Sweeteners", sec_flour:"Flours & Baking", sec_choc:"Chocolate",
@@ -500,6 +522,7 @@ const T = {
     protein:"חלבון", carbs:"פחמימות", fiber:"סיבים", net:"פחמימות נטו", sugar:"סוכר", sodium:"נתרן",
     adapted:"בהשראת", why:"למה הגרסה הזו:",
     pantryBtn:"🧺 מצרכים", guidesBtn:"📖 מדריכים", pantryTitle:"המצרכים",
+    navRecipes:"מתכונים", navPantry:"מצרכים", navGuides:"מדריכים",
     pantrySub:"כל המצרכים שבספר. לחיצה על מצרך תציג את המתכונים שבהם הוא מופיע.",
     usedIn:"מתכונים",
     sec_meat:"בשר ועוף", sec_sweet:"ממתיקים", sec_flour:"קמחים ואפייה", sec_choc:"שוקולד",
@@ -664,7 +687,7 @@ function cardHTML(r){
   }
   return `<button class="card" data-id="${esc(r.id)}" aria-label="${esc(rName(r))}">
     ${visual}
-    <div class="badges">${badges(r,false)}</div>
+    <div class="badges">${kosherBadge(r.kosherType)}</div>
     <h3>${esc(rName(r))}</h3>
     ${starsRow}
     <p class="card-ings">${esc(ingLine)}</p>
@@ -1491,9 +1514,10 @@ function applyLang(){
   $("tagline").textContent = t("tagline").replace("{n}", RECIPES.length);
   $("searchBox").placeholder = t("search");
   $("langBtn").textContent = lang==="he" ? "English" : "עברית";
-  $("pantryBtn").textContent = t("pantryBtn");
-  $("guidesBtn").textContent = t("guidesBtn");
-  $("printBookBtn").textContent = t("printBook");
+  $("navRecipesBtn").textContent = t("navRecipes");
+  $("navPantryBtn").textContent = t("navPantry");
+  $("navGuidesBtn").textContent = t("navGuides");
+  $("printBookBtn").title = t("printBook");
   $("addBtn").textContent = t("addRecipe");
   $("reqBtn").textContent = t("reqBtn");
   $("footerNote").textContent = t("footer");
@@ -1512,6 +1536,11 @@ function route(){
   else if(h==="#req") showRequestForm();
   else if(h.startsWith("#f/")) showFamily(parseInt(h.slice(3),10));
   else showList();
+  const tabOf = h==="#pantry" ? "navPantryBtn" : h==="#guides" ? "navGuidesBtn" : "navRecipesBtn";
+  for(const id of ["navRecipesBtn","navPantryBtn","navGuidesBtn"]){
+    const el = $(id);
+    if(el) el.classList.toggle("on", id === tabOf);
+  }
 }
 window.addEventListener("hashchange", route);
 
@@ -1533,8 +1562,9 @@ document.addEventListener("click", e=>{
     window.scrollTo(0,0);
   }
 });
-$("pantryBtn").onclick = ()=>{ location.hash = "pantry"; };
-$("guidesBtn").onclick = ()=>{ location.hash = "guides"; };
+$("navRecipesBtn").onclick = ()=>{ location.hash = ""; };
+$("navPantryBtn").onclick = ()=>{ location.hash = "pantry"; };
+$("navGuidesBtn").onclick = ()=>{ location.hash = "guides"; };
 $("addBtn").onclick = ()=>{ location.hash = "add"; };
 $("reqBtn").onclick = ()=>{ location.hash = "req"; };
 $("searchBox").addEventListener("input", e=>{ filters.q = e.target.value; renderList(); });
