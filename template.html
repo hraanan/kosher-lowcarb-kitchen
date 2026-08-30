@@ -264,6 +264,10 @@ article.recipe{
 .photo-strip figure{margin:0}
 .photo-strip img{max-height:190px;max-width:100%;border-radius:10px;display:block;background:var(--panel-2)}
 .photo-strip figcaption{font-size:11.5px;color:var(--ink-soft);text-align:center;padding-block-start:3px}
+.comments-list{display:flex;flex-direction:column;gap:8px;margin-block:10px 14px;max-width:560px}
+.comment{padding:10px 14px;background:var(--panel-2);border-radius:10px}
+.comment .c-by{font-size:12px;color:var(--ink-soft);font-weight:700}
+.comment p{margin:4px 0 0;font-size:14.5px}
 .guide-wrap{overflow-x:auto;margin-block-end:8px}
 .gtable{width:100%;border-collapse:collapse;font-size:13.5px;min-width:620px}
 .gtable th{text-align:start;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);padding:8px 10px;border-block-end:2px solid var(--line)}
@@ -434,6 +438,8 @@ const T = {
     pendingReqs:"Open requests", approve:"Approve", reject:"Reject", markAdded:"Mark added",
     adminKeyPrompt:"Admin key:", noPending:"Nothing waiting — all clear ✨", adminBadKey:"Update failed — wrong key?",
     photoOfRecipe:"Recipe photo (to transcribe)",
+    comments:"Comments", writeComment:"Made it? Tips, tweaks, how it came out…", send:"Post comment",
+    commentSent:"Posted!", recentComments:"Recent comments", hide:"Hide",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -483,6 +489,8 @@ const T = {
     pendingReqs:"בקשות פתוחות", approve:"אישור", reject:"דחייה", markAdded:"סמן כנוסף",
     adminKeyPrompt:"מפתח ניהול:", noPending:"אין ממתינים — הכול נקי ✨", adminBadKey:"העדכון נכשל — מפתח שגוי?",
     photoOfRecipe:"צילום מתכון (לפענוח)",
+    comments:"תגובות", writeComment:"הכנתם? טיפים, שינויים, איך יצא…", send:"פרסום תגובה",
+    commentSent:"פורסם!", recentComments:"תגובות אחרונות", hide:"הסתרה",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -705,6 +713,7 @@ function recipeHTML(r){
     </div>
     ${rateBoxHTML(r.id)}
     ${document.body.classList.contains("can-community") ? `<div style="margin-block-start:10px"><button class="ghost-btn no-print" id="photoBtn">${t("photoBtn")}</button></div>` : ""}
+    ${commentsHTML(r.id)}
     <div class="src-row">
       ${srcs?`${t("adapted")}: ${srcs}`:""}
       ${rOpt(r,"comparedVersions")?`<div class="why">${t("why")} ${esc(rOpt(r,"comparedVersions"))}</div>`:""}
@@ -725,6 +734,7 @@ function showRecipe(id){
   $("printOneBtn").onclick = ()=>printRecipes([r], false);
   const pb = $("photoBtn");
   if(pb) pb.onclick = ()=>pickPhoto(r.id);
+  wireComments(r.id);
   window.scrollTo(0,0);
 }
 
@@ -738,6 +748,7 @@ function showList(){
 
 /* ---------- community: shared ratings & family recipes (Supabase) ---------- */
 let liveMode = false;
+let commentsEnabled = false;
 
 function toast(msg){
   const el = $("toast");
@@ -764,6 +775,8 @@ async function dbLoad(){
     const parse = v => { if(typeof v === "string" && v.charAt(0) === "["){ try{ return JSON.parse(v); }catch(e){} } return Array.isArray(v) ? v : String(v||"").split("\n").filter(Boolean); };
     (d.submissions||[]).forEach(s => { s.ingredients = parse(s.ingredients); s.instructions = parse(s.instructions); });
     COMMUNITY.photos = (d.photos||[]).filter(p => String(p.status||"").trim().toLowerCase() !== "rejected");
+    commentsEnabled = Array.isArray(d.comments);
+    COMMUNITY.comments = (d.comments||[]).filter(c => String(c.status||"").trim().toLowerCase() !== "rejected");
     return [d.ratings||[], (d.submissions||[]).filter(s => String(s.status||"").trim().toLowerCase() !== "rejected"), d.requests||[]];
   }
   const q = p => fetch(SUPA.url + "/rest/v1/" + p, {headers:{apikey:SUPA.key, "Authorization":"Bearer "+SUPA.key}}).then(r=>{ if(!r.ok) throw new Error("db "+r.status); return r.json(); });
@@ -845,6 +858,49 @@ async function rate(id, stars){
     if(b2) b2.outerHTML = rateBoxHTML(id);
     toast(t("saveErr"));
   }
+}
+
+/* comments on recipes */
+function userName(){
+  let by = "";
+  try{ by = localStorage.getItem("klk-name") || ""; }catch(e){}
+  if(!by){
+    by = (prompt(t("formYourName")) || "").trim();
+    try{ if(by) localStorage.setItem("klk-name", by); }catch(e){}
+  }
+  return by;
+}
+
+function commentsHTML(id){
+  if(!commentsEnabled || !liveMode) return "";
+  const list = (COMMUNITY.comments||[]).filter(c => c.recipe_id === id);
+  return `<div class="comments-block" id="commentsBlock">
+    <h4 style="margin-block-start:22px">💬 ${t("comments")}${list.length?` (${list.length})`:""}</h4>
+    <div class="comments-list">${list.map(c =>
+      `<div class="comment"><span class="c-by">${esc(c.by_name||"?")} · ${esc(String(c.created_at||"").slice(0,10))}</span><p>${esc(c.text)}</p></div>`
+    ).join("")}</div>
+    <div class="form-grid" style="max-width:560px">
+      <textarea id="cText" placeholder="${t("writeComment")}" style="min-height:64px"></textarea>
+      <div class="form-actions"><button class="ghost-btn" id="cSend">${t("send")}</button></div>
+    </div>
+  </div>`;
+}
+
+function wireComments(recipeId){
+  const btn = $("cSend");
+  if(!btn) return;
+  btn.onclick = async ()=>{
+    const text = $("cText").value.trim();
+    if(!text) return;
+    const by = userName();
+    btn.disabled = true;
+    try{
+      await dbInsert("comments", {recipe_id: recipeId, by_name: by, text});
+      COMMUNITY.comments.push({recipe_id: recipeId, by_name: by, text, created_at: new Date().toISOString()});
+      showRecipe(recipeId);
+      toast(t("commentSent"));
+    }catch(err){ btn.disabled = false; toast(t("saveErr")); }
+  };
 }
 
 /* photos of dishes the family made (approved by Hagai in the Sheet) */
@@ -1134,6 +1190,17 @@ async function showAdmin(){
       [[t("markAdded"), {status:"added"}, "solid-btn"], [t("reject"), {status:"rejected"}]]);
   }
   html += reqs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
+  if(commentsEnabled){
+    const cs = (COMMUNITY.comments||[]).slice(-20).reverse();
+    html += `<div class="section-head"><h2>${t("recentComments")}</h2><span class="n">${cs.length}</span></div><div class="req-list">`;
+    for(const c of cs){
+      const rn = RECIPES.find(r=>r.id===c.recipe_id);
+      html += adminItemHTML("comments", c.created_at,
+        `<b>${esc(rn?rName(rn):c.recipe_id)}</b><span class="req-by">${esc(c.by_name||"?")}: ${esc(String(c.text).slice(0,80))}</span>`,
+        [[t("hide"), {status:"rejected"}]]);
+    }
+    html += cs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
+  }
   v.innerHTML = html;
   $("admBackBtn").onclick = ()=>{ location.hash = ""; };
   v.querySelectorAll("button[data-adm]").forEach(b=>{

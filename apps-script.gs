@@ -9,7 +9,8 @@ var SHEETS = {
   ratings: ['recipe_id', 'stars', 'voter', 'created_at'],
   submissions: ['name', 'by_name', 'category', 'kosher', 'ingredients', 'instructions', 'notes', 'status', 'created_at'],
   requests: ['dish', 'by_name', 'notes', 'status', 'recipe_id', 'created_at'],
-  photos: ['recipe_id', 'url', 'file_id', 'by_name', 'status', 'created_at']
+  photos: ['recipe_id', 'url', 'file_id', 'by_name', 'status', 'created_at'],
+  comments: ['recipe_id', 'by_name', 'text', 'status', 'created_at']
 };
 
 function getSheet(name) {
@@ -46,6 +47,7 @@ function doGet() {
     var rows = rowsOf(name);
     // pending photos & recipe submissions are admin-only — the public feed carries approved items
     if (name === 'photos' || name === 'submissions') rows = rows.filter(isApproved);
+    if (name === 'comments') rows = rows.filter(function (row) { return String(row.status || '').trim().toLowerCase() !== 'rejected'; });
     out[name] = rows;
   }
   return ContentService.createTextOutput(JSON.stringify(out)).setMimeType(ContentService.MimeType.JSON);
