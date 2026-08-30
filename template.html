@@ -359,6 +359,12 @@ COMMUNITY.requests = COMMUNITY.requests || [];
 COMMUNITY.photos = COMMUNITY.photos || [];
 
 const RECIPES = /*__DATA__*/[];
+/* normalize ingredient entries: tolerate plain-string entries from data batches */
+for(const r of RECIPES){
+  for(const k of ["ingredients","ingredientsHe"]){
+    if(Array.isArray(r[k])) r[k] = r[k].map(x => typeof x === "string" ? {amount:"", item:x} : x);
+  }
+}
 
 /* ---------- i18n ---------- */
 const CATS = [
@@ -410,6 +416,9 @@ const T = {
     reqFill:"Please write which recipe you'd like.",
     saveErr:"Couldn't save — check your internet connection and try again.",
     photoBtn:"📷 I made it — add a photo", photoSent:"Photo sent! It will appear after approval.",
+    orPhoto:"Too much typing? Snap a photo of the recipe (a cookbook page or a handwritten card) — it will be read, checked for carbs, and added for you.",
+    orPhotoBtn:"📷 Photograph a recipe instead",
+    photoRecipeSent:"Photo received! The recipe will be transcribed, carb-checked, and added after approval.",
     bookSub:"Simple keto & low-carb recipes · all kosher · dairy and pareve marked",
     contents:"Contents",
     footer:"Personal cookbook · recipes adapted from the credited creators · nutrition values are estimates per serving · net carbs = carbs − fiber − sugar alcohols."
@@ -452,6 +461,9 @@ const T = {
     reqFill:"נא לכתוב איזה מתכון תרצו.",
     saveErr:"השמירה נכשלה — בדקו את חיבור האינטרנט ונסו שוב.",
     photoBtn:"📷 הכנתי! הוספת תמונה", photoSent:"התמונה נשלחה! תופיע אחרי אישור.",
+    orPhoto:"בא לכם בקלות? צלמו את המתכון (עמוד מספר או פתק בכתב יד) — הוא יפוענח, ייבדק ברמת הפחמימות ויתווסף עבורכם.",
+    orPhotoBtn:"📷 צילום מתכון במקום הקלדה",
+    photoRecipeSent:"התמונה התקבלה! המתכון יפוענח, יותאם ויתווסף אחרי אישור.",
     bookSub:"מתכונים פשוטים דלי-פחמימות · הכול כשר · מסומן חלבי/פרווה",
     contents:"תוכן העניינים",
     footer:"ספר מתכונים אישי · המתכונים בהשראת היוצרים המקושרים · הערכים התזונתיים הם הערכה למנה · פחמימות נטו = פחמימות פחות סיבים ורב-כהלים."
@@ -908,6 +920,10 @@ function showAddForm(){
   <div class="back-row no-print"><button class="ghost-btn" id="backBtn">${t("back")}</button></div>
   <article class="recipe">
     <h2>${t("addRecipe").replace("➕ ","")}</h2>
+    <div class="variant-box" style="margin-block:14px 4px">
+      ${t("orPhoto")}<br>
+      <button class="ghost-btn" id="recipePhotoBtn" style="margin-block-start:8px">${t("orPhotoBtn")}</button>
+    </div>
     <div class="form-grid">
       <div><label for="fName">${t("formName")}</label><input id="fName" type="text"></div>
       <div><label for="fBy">${t("formYourName")}</label><input id="fBy" type="text"></div>
@@ -923,6 +939,25 @@ function showAddForm(){
     </div>
   </article>`;
   $("backBtn").onclick = $("fCancel").onclick = ()=>{ location.hash=""; };
+  $("recipePhotoBtn").onclick = ()=>{
+    const inp = document.createElement("input");
+    inp.type = "file"; inp.accept = "image/*";
+    inp.onchange = async ()=>{
+      const f = inp.files[0];
+      if(!f) return;
+      let by = "";
+      try{ by = localStorage.getItem("klk-name") || ""; }catch(e){}
+      if(!by){ by = (prompt(t("formYourName")) || "").trim(); try{ if(by) localStorage.setItem("klk-name", by); }catch(e){} }
+      toast("⏳ …");
+      try{
+        const dataUrl = await resizeImage(f, 1600, 0.85);
+        await dbInsert("photos", {recipe_id:"__submission__", by_name:by, image:dataUrl});
+        location.hash = "";
+        toast(t("photoRecipeSent"));
+      }catch(err){ toast(t("saveErr")); }
+    };
+    inp.click();
+  };
   $("fSubmit").onclick = async ()=>{
     const lines = id => $(id).value.split("\n").map(x=>x.trim()).filter(Boolean);
     const name = $("fName").value.trim(), ings = lines("fIngs"), steps = lines("fSteps");
