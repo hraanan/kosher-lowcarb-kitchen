@@ -485,7 +485,7 @@ const T = {
     conflictNote:"Someone else just updated the book — it will refresh.",
     reqBtn:"🙋 Request a recipe", reqTitle:"Request a recipe",
     reqDish:"What recipe would you like in the book?", reqNotes:"Anything specific? (optional)",
-    reqSection:"Recipe Requests", reqPending:"waiting for the chef 👨‍🍳", reqAdded:"added ✓",
+    reqSection:"Recipe Requests", reqPending:"waiting for the chef 👨‍🍳", reqAdded:"added ✓", reqExists:"already in the book ✓", markExists:"Already exists",
     reqThanks:"Request sent! It will be researched and added to the book.",
     reqFill:"Please write which recipe you'd like.",
     saveErr:"Couldn't save — check your internet connection and try again.",
@@ -538,7 +538,7 @@ const T = {
     conflictNote:"מישהו אחר עדכן הרגע את הספר — הדף יתרענן.",
     reqBtn:"🙋 בקשת מתכון", reqTitle:"בקשת מתכון",
     reqDish:"איזה מתכון תרצו שיתווסף לספר?", reqNotes:"משהו ספציפי? (לא חובה)",
-    reqSection:"בקשות מתכונים", reqPending:"ממתין לשף 👨‍🍳", reqAdded:"נוסף ✓",
+    reqSection:"בקשות מתכונים", reqPending:"ממתין לשף 👨‍🍳", reqAdded:"נוסף ✓", reqExists:"קיים כבר ✓", markExists:"קיים כבר",
     reqThanks:"הבקשה נשלחה! המתכון ייחקר ויתווסף לספר.",
     reqFill:"נא לכתוב איזה מתכון תרצו.",
     saveErr:"השמירה נכשלה — בדקו את חיבור האינטרנט ונסו שוב.",
@@ -1123,14 +1123,16 @@ function showAddForm(){
 function requestsSectionHTML(){
   if(!COMMUNITY.requests.length) return "";
   const items = COMMUNITY.requests.map(q=>{
-    const added = q.status==="added";
-    const dish = added && q.recipeId
+    const st = String(q.status||"").trim().toLowerCase();
+    const done = st==="added" || st==="exists";
+    const dish = done && q.recipeId
       ? `<b><a href="#r/${encodeURIComponent(q.recipeId)}" style="color:inherit">${esc(q.dish)}</a></b>`
       : `<b>${esc(q.dish)}</b>`;
+    const label = st==="added" ? t("reqAdded") : st==="exists" ? t("reqExists") : t("reqPending");
     return `<div class="req-item">${dish}
       ${q.notes?`<span class="req-by">— ${esc(q.notes)}</span>`:""}
       <span class="req-by">${t("by")} ${esc(q.by||"?")} · ${esc(q.date||"")}</span>
-      <span class="req-status ${added?"added":""}">${added?t("reqAdded"):t("reqPending")}</span>
+      <span class="req-status ${done?"added":""}">${label}</span>
     </div>`;
   }).join("");
   return `<div class="section-head"><h2>🙋 ${t("reqSection")}</h2><span class="n">${COMMUNITY.requests.length}</span></div>
@@ -1249,7 +1251,7 @@ async function showAdmin(){
   for(const q of reqs){
     html += adminItemHTML("requests", q.createdAt,
       `<b>${esc(q.dish)}</b><span class="req-by">${t("by")} ${esc(q.by||"?")}${q.notes?` · ${esc(q.notes)}`:""}</span>`,
-      [[t("markAdded"), {status:"added"}, "solid-btn"], [t("reject"), {status:"rejected"}]]);
+      [[t("markAdded"), {status:"added"}, "solid-btn"], [t("markExists"), {status:"exists"}], [t("reject"), {status:"rejected"}]]);
   }
   html += reqs.length ? "</div>" : `<p class="pantry-sub">${t("noPending")}</p></div>`;
   if(commentsEnabled){
