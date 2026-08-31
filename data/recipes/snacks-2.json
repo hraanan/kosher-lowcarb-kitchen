@@ -1,572 +1,1315 @@
-[
-  {
-    "id": "tuna-avocado-boats",
-    "name": "Tuna-Stuffed Avocado Boats",
-    "category": "snacks",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 2,
-    "prepTimeMin": 10,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 large / 200 g flesh", "item": "ripe avocado"},
-      {"amount": "1 can / 140 g", "item": "tuna in olive oil, well drained", "israelNote": "ton bahar zayit (Starkist/Wili Food)"},
-      {"amount": "2 tbsp / 30 g", "item": "mayonnaise"},
-      {"amount": "2 tbsp / 20 g", "item": "red onion, finely chopped"},
-      {"amount": "1 tbsp / 15 ml", "item": "fresh lemon juice"},
-      {"amount": "1 tbsp", "item": "chopped fresh parsley"},
-      {"amount": "to taste", "item": "salt and black pepper"}
-    ],
-    "instructions": [
-      "Drain the tuna very well, pressing it against the can with a fork so the filling stays firm and not watery.",
-      "In a bowl, flake the tuna and mix it with the mayonnaise, red onion, lemon juice, parsley, salt and pepper.",
-      "Halve the avocado lengthwise and remove the pit. Scoop out about a spoonful of flesh from each half to widen the hollow.",
-      "Dice the scooped-out avocado and fold it gently into the tuna mixture.",
-      "Pile the tuna salad into the two avocado halves, grind black pepper on top and serve immediately with a wedge of lemon."
-    ],
-    "nutrition": {"calories": 345, "fatG": 29.0, "satFatG": 4.6, "proteinG": 15.5, "carbsG": 10.0, "fiberG": 6.9, "netCarbsG": 3.1, "sugarG": 1.5, "sodiumMg": 380},
-    "lowCarbVariant": "Top with halved cherry tomatoes for freshness (adds about 1 g net carbs).",
-    "tips": "Squeeze lemon juice over any exposed avocado to keep it green; eat the same day.",
-    "sources": [
-      {"creator": "Downshiftology", "url": "https://downshiftology.com/recipes/tuna-stuffed-avocados/"},
-      {"creator": "KetoVale", "url": "https://www.ketovale.com/tuna-avocado-boats/"},
-      {"creator": "Tastes Lovely", "url": "https://www.tasteslovely.com/paleo-tuna-avocado-boats/"}
-    ],
-    "comparedVersions": "Compared three creators on filling binder (mayo vs. mashed avocado) and add-ins. Kept the classic mayo version for creaminess but borrowed Downshiftology's trick of folding the scooped avocado back into the salad, which stretches the filling and adds fiber without extra ingredients.",
-    "nameHe": "סירות אבוקדו במילוי טונה",
-    "ingredientsHe": [
-      {"amount": "1 גדול / 200 גרם בשר הפרי", "item": "אבוקדו בשל"},
-      {"amount": "1 פחית / 140 גרם", "item": "טונה בשמן זית, מסוננת היטב", "israelNote": "סטארקיסט / ויליפוד"},
-      {"amount": "2 כפות / 30 גרם", "item": "מיונז"},
-      {"amount": "2 כפות / 20 גרם", "item": "בצל סגול קצוץ דק"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "מיץ לימון טרי"},
-      {"amount": "1 כף", "item": "פטרוזיליה טרייה קצוצה"},
-      {"amount": "לפי הטעם", "item": "מלח ופלפל שחור"}
-    ],
-    "instructionsHe": [
-      "מסננים את הטונה היטב ולוחצים עליה עם מזלג כנגד דפנות הפחית, כדי שהמילוי יישאר יציב ולא מימי.",
-      "בקערה, מפוררים את הטונה ומערבבים עם המיונז, הבצל הסגול, מיץ הלימון, הפטרוזיליה, מלח ופלפל.",
-      "חוצים את האבוקדו לאורכו ומוציאים את הגלעין. מוציאים בכף מעט מבשר הפרי מכל חצי כדי להרחיב את השקע.",
-      "קוצצים את האבוקדו שהוצאתם לקוביות ומקפלים בעדינות לתוך תערובת הטונה.",
-      "ממלאים את שני חצאי האבוקדו בסלט הטונה, טוחנים מעל פלפל שחור ומגישים מיד עם פלח לימון."
-    ],
-    "lowCarbVariantHe": "מוסיפים מעל עגבניות שרי חצויות לרעננות (מוסיף כ-1 גרם פחמימות נטו).",
-    "tipsHe": "סוחטים מיץ לימון על האבוקדו החשוף כדי שיישאר ירוק; מומלץ לאכול באותו יום.",
-    "comparedVersionsHe": "השווינו שלושה מתכונים בשאלת הבסיס למילוי (מיונז לעומת אבוקדו מעוך) והתוספות. שמרנו על גרסת המיונז הקלאסית לקרמיות, אבל אימצנו מ-Downshiftology את הטריק של קיפול האבוקדו שהוצא חזרה לסלט - זה מגדיל את המילוי ומוסיף סיבים בלי מרכיבים נוספים."
-  },
-  {
-    "id": "cottage-cheese-power-bowl",
-    "name": "Savory Cottage Cheese Power Bowl",
-    "category": "snacks",
-    "kosherType": "dairy",
-    "dietTags": "lowcarb",
-    "servings": 1,
-    "prepTimeMin": 8,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 225 g", "item": "cottage cheese 5%", "israelNote": "gvinat cottage 5% (Tnuva/Tara)"},
-      {"amount": "1/2 cup / 75 g", "item": "cherry tomatoes, halved"},
-      {"amount": "1 small / 100 g", "item": "cucumber, diced", "israelNote": "melafefon (Israeli cucumber)"},
-      {"amount": "1 tbsp / 15 ml", "item": "extra-virgin olive oil"},
-      {"amount": "1 tbsp / 8 g", "item": "roasted pumpkin seeds", "israelNote": "garinei dla'at"},
-      {"amount": "1 tsp", "item": "za'atar or everything-bagel seasoning", "israelNote": "za'atar blend"},
-      {"amount": "1 tsp / 5 ml", "item": "fresh lemon juice"},
-      {"amount": "to taste", "item": "salt and black pepper"}
-    ],
-    "instructions": [
-      "Spoon the cottage cheese into a shallow bowl and spread it out slightly with the back of the spoon.",
-      "Toss the cherry tomatoes and cucumber with the lemon juice, a pinch of salt and pepper.",
-      "Pile the vegetables over the cottage cheese.",
-      "Drizzle the olive oil over everything, then scatter the pumpkin seeds and za'atar on top. Eat right away while the seeds are crunchy."
-    ],
-    "nutrition": {"calories": 410, "fatG": 29.5, "satFatG": 9.0, "proteinG": 28.0, "carbsG": 13.4, "fiberG": 1.9, "netCarbsG": 11.5, "sugarG": 9.7, "sodiumMg": 720},
-    "ketoVariant": "Skip the tomatoes and use 3/4 cup cottage cheese to bring net carbs to about 7 g.",
-    "tips": "Works as a light lunch too; add olives or a chopped hard-boiled egg for more staying power.",
-    "sources": [
-      {"creator": "Stephanie Kay Nutrition", "url": "https://kaynutrition.com/savory-cottage-cheese-bowl/"},
-      {"creator": "Eat the Gains", "url": "https://eatthegains.com/cottage-cheese-bowl/"},
-      {"creator": "Skinnytaste", "url": "https://www.skinnytaste.com/greek-cottage-cheese-bowl/"}
-    ],
-    "comparedVersions": "Compared Greek-style (olives, oregano, vinegar) against simpler tomato-cucumber bowls. Chose the simpler build with olive oil, seeds and za'atar: fewer ingredients, more crunch, and it maps perfectly onto standard Israeli supermarket items.",
-    "nameHe": "קערת קוטג' מלוחה ומזינה",
-    "ingredientsHe": [
-      {"amount": "1 כוס / 225 גרם", "item": "קוטג' 5%", "israelNote": "תנובה / טרה"},
-      {"amount": "1/2 כוס / 75 גרם", "item": "עגבניות שרי חצויות"},
-      {"amount": "1 קטן / 100 גרם", "item": "מלפפון חתוך לקוביות"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית כתית מעולה"},
-      {"amount": "1 כף / 8 גרם", "item": "גרעיני דלעת קלויים"},
-      {"amount": "1 כפית", "item": "זעתר או תערובת תיבול אבריתינג בייגל"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "מיץ לימון טרי"},
-      {"amount": "לפי הטעם", "item": "מלח ופלפל שחור"}
-    ],
-    "instructionsHe": [
-      "מעבירים את הקוטג' לקערה רדודה ומשטחים מעט בגב הכף.",
-      "מערבבים את עגבניות השרי והמלפפון עם מיץ הלימון, קורט מלח ופלפל.",
-      "מניחים את הירקות מעל הקוטג'.",
-      "מזלפים את שמן הזית מעל הכול, מפזרים את גרעיני הדלעת והזעתר ואוכלים מיד כשהגרעינים עוד פריכים."
-    ],
-    "ketoVariantHe": "מוותרים על העגבניות ומשתמשים ב-3/4 כוס קוטג' כדי לרדת לכ-7 גרם פחמימות נטו.",
-    "tipsHe": "עובד מצוין גם כארוחת צהריים קלה; מוסיפים זיתים או ביצה קשה קצוצה לתחושת שובע ממושכת.",
-    "comparedVersionsHe": "השווינו גרסה יוונית (זיתים, אורגנו, חומץ) מול קערות פשוטות של עגבניות ומלפפון. בחרנו בגרסה הפשוטה עם שמן זית, גרעינים וזעתר: פחות מרכיבים, יותר קראנץ', והכול זמין בכל סופר ישראלי."
-  },
-  {
-    "id": "roasted-spiced-pumpkin-seeds",
-    "name": "Smoky Roasted Pumpkin Seeds",
-    "category": "snacks",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 5,
-    "cookTimeMin": 15,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1 cup / 130 g", "item": "raw shelled pumpkin seeds (pepitas)", "israelNote": "garinei dla'at kelufim"},
-      {"amount": "1 tbsp / 15 ml", "item": "olive oil"},
-      {"amount": "1 tsp", "item": "smoked paprika", "israelNote": "paprika me'ushenet"},
-      {"amount": "1/2 tsp", "item": "garlic powder"},
-      {"amount": "1/2 tsp", "item": "fine salt"},
-      {"amount": "1/4 tsp", "item": "cayenne pepper (optional)"}
-    ],
-    "instructions": [
-      "Heat the oven to 175°C / 350°F and line a baking tray with baking paper.",
-      "In a bowl, toss the pumpkin seeds with the olive oil until every seed is coated.",
-      "Add the smoked paprika, garlic powder, salt and cayenne and toss again.",
-      "Spread the seeds in a single layer on the tray.",
-      "Roast 12-15 minutes, stirring once halfway, until golden and fragrant. A few seeds may pop - that is normal.",
-      "Cool completely on the tray; they crisp up as they cool. Store airtight up to 2 weeks."
-    ],
-    "nutrition": {"calories": 211, "fatG": 19.1, "satFatG": 3.3, "proteinG": 9.8, "carbsG": 3.7, "fiberG": 2.1, "netCarbsG": 1.6, "sugarG": 0.5, "sodiumMg": 290},
-    "ketoVariant": "Already keto; for a curry version swap the paprika and cayenne for 1 tsp curry powder.",
-    "tips": "Watch closely after minute 12 - seeds go from golden to burnt fast.",
-    "sources": [
-      {"creator": "Healthy Recipes Blog", "url": "https://healthyrecipesblogs.com/roasted-pumpkin-seeds/"},
-      {"creator": "My Life Cookbook", "url": "https://mylifecookbook.com/low-carb-pumpkin-seeds-roasted-everything-spice/"},
-      {"creator": "WickedStuffed", "url": "https://www.wickedstuffed.com/keto-holiday-recipes/roasted-pumpkin-seeds/"}
-    ],
-    "comparedVersions": "Compared butter-roasted, everything-spice and smoked-paprika versions. The olive oil + smoked paprika profile won: it is pareve (pairs with any meal), uses pantry spices, and the moderate 175°C oven from Healthy Recipes Blog gave the most reliable even roast.",
-    "nameHe": "גרעיני דלעת קלויים בפפריקה מעושנת",
-    "ingredientsHe": [
-      {"amount": "1 כוס / 130 גרם", "item": "גרעיני דלעת קלופים לא קלויים", "israelNote": "חנויות פיצוחים / מדף הבריאות בסופר"},
-      {"amount": "1 כף / 15 מ\"ל", "item": "שמן זית"},
-      {"amount": "1 כפית", "item": "פפריקה מעושנת"},
-      {"amount": "1/2 כפית", "item": "אבקת שום"},
-      {"amount": "1/2 כפית", "item": "מלח דק"},
-      {"amount": "1/4 כפית", "item": "פלפל קאיין (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-175 מעלות ומרפדים תבנית בנייר אפייה.",
-      "בקערה, מערבבים את גרעיני הדלעת עם שמן הזית עד שכל גרעין מצופה.",
-      "מוסיפים את הפפריקה המעושנת, אבקת השום, המלח והקאיין ומערבבים שוב.",
-      "מפזרים את הגרעינים בשכבה אחת על התבנית.",
-      "קולים 12-15 דקות תוך ערבוב פעם אחת באמצע, עד שהגרעינים זהובים וריחניים. כמה גרעינים עשויים לקפוץ - זה תקין.",
-      "מצננים לגמרי על התבנית; הם נעשים פריכים תוך כדי הצינון. נשמרים בכלי אטום עד שבועיים."
-    ],
-    "ketoVariantHe": "כבר קיטו; לגרסת קארי מחליפים את הפפריקה והקאיין בכפית אבקת קארי.",
-    "tipsHe": "משגיחים היטב אחרי הדקה ה-12 - הגרעינים עוברים מזהוב לשרוף מהר מאוד.",
-    "comparedVersionsHe": "השווינו קלייה בחמאה, תיבול אבריתינג ופפריקה מעושנת. הפרופיל של שמן זית ופפריקה מעושנת ניצח: הוא פרווה (מתאים לכל ארוחה), משתמש בתבלינים מהמזווה, והתנור המתון של 175 מעלות נתן את הקלייה האחידה והאמינה ביותר."
-  },
-  {
-    "id": "smoked-salmon-cucumber-rolls",
-    "name": "Smoked Salmon Cucumber Rolls",
-    "category": "snacks",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 20,
-    "cookTimeMin": 0,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "1 large / 300 g", "item": "long seedless cucumber", "israelNote": "melafefon arokh; or use the widest Israeli cucumbers you can find"},
-      {"amount": "100 g", "item": "smoked salmon slices", "israelNote": "salmon me'ushan (fish - pareve, but dish is dairy from the cheese)"},
-      {"amount": "100 g", "item": "cream cheese, softened", "israelNote": "gvinat shamenet (Napoleon/Ski)"},
-      {"amount": "1 tbsp", "item": "chopped fresh dill", "israelNote": "shamir"},
-      {"amount": "1 tsp / 5 ml", "item": "fresh lemon juice"},
-      {"amount": "1/2 tsp", "item": "grated lemon zest"},
-      {"amount": "to taste", "item": "black pepper"},
-      {"amount": "1 tbsp (optional)", "item": "capers, drained"}
-    ],
-    "instructions": [
-      "Stir the cream cheese with the dill, lemon juice, zest and black pepper until smooth.",
-      "Using a vegetable peeler, shave the cucumber lengthwise into thin wide ribbons; discard the first seedy strips. You need about 16 good ribbons.",
-      "Pat the ribbons completely dry with paper towels - this keeps the rolls from sliding apart.",
-      "Spread a thin layer of the cheese mixture along each ribbon.",
-      "Lay a strip of smoked salmon over the cheese, then roll the ribbon up snugly from one end.",
-      "Stand the rolls seam-side down on a plate, top each with a caper if using, and chill until serving."
-    ],
-    "nutrition": {"calories": 130, "fatG": 9.8, "satFatG": 5.3, "proteinG": 6.4, "carbsG": 4.3, "fiberG": 0.5, "netCarbsG": 3.8, "sugarG": 2.2, "sodiumMg": 300},
-    "ketoVariant": "Already keto; add more salmon and cheese per roll for a fattier bite.",
-    "tips": "A mandoline gives more even ribbons than a peeler; secure loose rolls with a toothpick.",
-    "sources": [
-      {"creator": "Simply Home Cooked", "url": "https://simplyhomecooked.com/smoked-salmon-cucumber-rolls/"},
-      {"creator": "The Endless Meal", "url": "https://www.theendlessmeal.com/mini-cucumber-smoked-salmon-appetizer-bites/"},
-      {"creator": "Appetizer Addiction", "url": "https://www.appetizeraddiction.com/smoked-salmon-cucumber-rolls/"}
-    ],
-    "comparedVersions": "Compared fillings across three versions: horseradish + heavy cream, Greek yogurt blends, and plain lemon-dill cream cheese. The lemon-dill version won for simplicity (no specialty ingredients) while keeping the flavor everyone praised; drying the cucumber ribbons was the technique all top versions agreed on.",
-    "nameHe": "גלילות מלפפון וסלמון מעושן",
-    "ingredientsHe": [
-      {"amount": "1 גדול / 300 גרם", "item": "מלפפון ארוך ללא גרעינים", "israelNote": "או המלפפונים הישראליים הרחבים ביותר שתמצאו"},
-      {"amount": "100 גרם", "item": "פרוסות סלמון מעושן", "israelNote": "הדג עצמו פרווה, אבל המנה חלבית בגלל הגבינה"},
-      {"amount": "100 גרם", "item": "גבינת שמנת מרוככת", "israelNote": "נפוליאון / סקי"},
-      {"amount": "1 כף", "item": "שמיר טרי קצוץ"},
-      {"amount": "1 כפית / 5 מ\"ל", "item": "מיץ לימון טרי"},
-      {"amount": "1/2 כפית", "item": "גרידת לימון"},
-      {"amount": "לפי הטעם", "item": "פלפל שחור"},
-      {"amount": "1 כף (לא חובה)", "item": "צלפים מסוננים"}
-    ],
-    "instructionsHe": [
-      "מערבבים את גבינת השמנת עם השמיר, מיץ הלימון, הגרידה והפלפל השחור עד לקבלת תערובת חלקה.",
-      "בעזרת קולפן ירקות, פורסים את המלפפון לאורכו לרצועות דקות ורחבות; זורקים את הרצועות הראשונות המלאות בגרעינים. צריך בערך 16 רצועות טובות.",
-      "מייבשים את הרצועות היטב במגבת נייר - זה מה שמונע מהגלילות להחליק ולהיפתח.",
-      "מורחים שכבה דקה של תערובת הגבינה לאורך כל רצועה.",
-      "מניחים רצועת סלמון מעושן על הגבינה ומגלגלים את הרצועה בהידוק מקצה אחד.",
-      "מעמידים את הגלילות עם התפר כלפי מטה על צלחת, מניחים צלף על כל אחת אם רוצים ומצננים עד ההגשה."
-    ],
-    "ketoVariantHe": "כבר קיטו; מוסיפים יותר סלמון וגבינה בכל גלילה לביס שומני יותר.",
-    "tipsHe": "מנדולינה נותנת רצועות אחידות יותר מקולפן; גלילות רופפות אפשר לנעוץ בקיסם.",
-    "comparedVersionsHe": "השווינו מילויים בשלוש גרסאות: חזרת עם שמנת מתוקה, תערובות יוגורט יווני, וגבינת שמנת עם לימון ושמיר. גרסת הלימון-שמיר ניצחה בזכות הפשטות (בלי מרכיבים מיוחדים) עם הטעם שכולם שיבחו; ייבוש רצועות המלפפון הוא הטכניקה שכל הגרסאות המובילות הסכימו עליה."
-  },
-  {
-    "id": "quick-pickled-vegetables",
-    "name": "Quick Pickled Cucumbers & Cauliflower",
-    "category": "snacks",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 15,
-    "cookTimeMin": 5,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "2 / 200 g", "item": "Israeli cucumbers, sliced into spears or coins", "israelNote": "melafefonim"},
-      {"amount": "2 cups / 200 g", "item": "small cauliflower florets", "israelNote": "kruvit"},
-      {"amount": "1 cup / 240 ml", "item": "white vinegar (5%)", "israelNote": "chometz sinteti 5%"},
-      {"amount": "1 cup / 240 ml", "item": "water"},
-      {"amount": "1 tbsp / 18 g", "item": "coarse salt", "israelNote": "melach gas"},
-      {"amount": "3 cloves", "item": "garlic, lightly crushed"},
-      {"amount": "3-4 sprigs", "item": "fresh dill", "israelNote": "shamir"},
-      {"amount": "1 tsp", "item": "black peppercorns"},
-      {"amount": "1/2 tsp", "item": "mustard seeds or chili flakes (optional)"}
-    ],
-    "instructions": [
-      "Pack the cucumber slices, cauliflower florets, garlic, dill, peppercorns and mustard seeds into a clean 1-liter jar, leaving about 1 cm of space at the top.",
-      "Bring the vinegar, water and salt to a boil in a small pot, stirring until the salt dissolves.",
-      "Pour the hot brine over the vegetables until fully submerged.",
-      "Let the open jar cool to room temperature, then seal and refrigerate.",
-      "Wait at least 24 hours before eating (48 hours is better for the cauliflower). Keeps 3-4 weeks refrigerated."
-    ],
-    "nutrition": {"calories": 12, "fatG": 0.1, "satFatG": 0.0, "proteinG": 0.6, "carbsG": 2.3, "fiberG": 0.9, "netCarbsG": 1.4, "sugarG": 1.0, "sodiumMg": 400},
-    "ketoVariant": "Already essentially zero-carb; add sliced jalapeño for spicy pickles.",
-    "tips": "No sugar and no sweetener needed - garlic and dill carry the flavor. Use the leftover brine once more for a second batch of cucumbers.",
-    "sources": [
-      {"creator": "Sugar-Free Mom", "url": "https://www.sugarfreemom.com/recipes/how-to-make-easy-sugar-free-quick-pickled-vegetables/comment-page-1/"},
-      {"creator": "Mary's Nest", "url": "https://marysnest.com/no-sugar-quick-pickles-master-recipe-for-pickling-any-vegetable/"},
-      {"creator": "That Low Carb Life", "url": "https://thatlowcarblife.com/pickled-cauliflower/"}
-    ],
-    "comparedVersions": "Compared brine ratios and simmer times across a no-sugar master recipe, a sugar-free vegetable pickle and a dedicated cauliflower pickle. Settled on the common 1:1 vinegar-to-water ratio with a plain boil (no 10-minute simmer - unnecessary), which every version agrees produces crisp, tangy results in 24-48 hours.",
-    "nameHe": "חמוצים מהירים: מלפפונים וכרובית",
-    "ingredientsHe": [
-      {"amount": "2 / 200 גרם", "item": "מלפפונים ישראליים פרוסים לרצועות או למטבעות"},
-      {"amount": "2 כוסות / 200 גרם", "item": "פרחי כרובית קטנים"},
-      {"amount": "1 כוס / 240 מ\"ל", "item": "חומץ לבן 5%", "israelNote": "חומץ סינתטי 5%"},
-      {"amount": "1 כוס / 240 מ\"ל", "item": "מים"},
-      {"amount": "1 כף / 18 גרם", "item": "מלח גס"},
-      {"amount": "3 שיניים", "item": "שום מעוך קלות"},
-      {"amount": "3-4 ענפים", "item": "שמיר טרי"},
-      {"amount": "1 כפית", "item": "גרגירי פלפל שחור"},
-      {"amount": "1/2 כפית", "item": "זרעי חרדל או פתיתי צ'ילי (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "דוחסים את פרוסות המלפפון, פרחי הכרובית, השום, השמיר, גרגירי הפלפל וזרעי החרדל לצנצנת נקייה של 1 ליטר, ומשאירים כ-1 ס\"מ רווח למעלה.",
-      "מרתיחים את החומץ, המים והמלח בסיר קטן תוך ערבוב עד שהמלח נמס.",
-      "מוזגים את מי המלח החמים על הירקות עד שהם מכוסים לגמרי.",
-      "מניחים לצנצנת הפתוחה להצטנן לטמפרטורת החדר, ואז סוגרים ומעבירים למקרר.",
-      "ממתינים לפחות 24 שעות לפני האכילה (48 שעות עדיף לכרובית). נשמר 3-4 שבועות במקרר."
-    ],
-    "ketoVariantHe": "כבר כמעט אפס פחמימות; מוסיפים פרוסות חלפיניו לחמוצים חריפים.",
-    "tipsHe": "לא צריך סוכר ולא ממתיק - השום והשמיר עושים את העבודה. אפשר להשתמש במי המלח שנשארו פעם נוספת למנה שנייה של מלפפונים.",
-    "comparedVersionsHe": "השווינו יחסי תמיסה וזמני בישול בין מתכון-אב ללא סוכר, מתכון ירקות כבושים ללא סוכר ומתכון ייעודי לכרובית כבושה. בחרנו ביחס המקובל של 1:1 חומץ למים עם הרתחה פשוטה (בלי בישול של 10 דקות - מיותר), שלפי כל הגרסאות נותן תוצאה פריכה וחמצמצה תוך 24-48 שעות."
-  },
-  {
-    "id": "labneh-balls-zaatar",
-    "name": "Labneh Balls in Olive Oil & Za'atar",
-    "category": "snacks",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 6,
-    "prepTimeMin": 15,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "500 g", "item": "thick labneh (or strain 1 kg full-fat yogurt with 1 tsp salt for 24-48 hours)", "israelNote": "labaneh (widely available ready-made; buy the thickest one)"},
-      {"amount": "2 tbsp / 15 g", "item": "za'atar", "israelNote": "za'atar blend"},
-      {"amount": "about 1 cup / 240 ml", "item": "extra-virgin olive oil (to cover)"},
-      {"amount": "1/4 tsp", "item": "chili flakes (optional)"},
-      {"amount": "1 tsp", "item": "sumac (optional)", "israelNote": "sumak"}
-    ],
-    "instructions": [
-      "If your labneh is soft, let it drain in a cheesecloth-lined sieve in the fridge for a few hours until it holds its shape; ready-made thick labaneh can be used as is.",
-      "With lightly oiled hands, roll the labneh into 12 walnut-sized balls and set them on a plate lined with baking paper.",
-      "Chill the balls for 30 minutes so they firm up.",
-      "Spread the za'atar on a small plate and roll each ball in it to coat.",
-      "Place the balls in a clean jar, add the chili flakes and sumac if using, and pour in olive oil until fully covered.",
-      "Rest at least a few hours before serving. Keeps about a month in the fridge; bring to room temperature before serving so the oil liquefies."
-    ],
-    "nutrition": {"calories": 180, "fatG": 13.4, "satFatG": 5.8, "proteinG": 6.6, "carbsG": 4.8, "fiberG": 0.6, "netCarbsG": 4.2, "sugarG": 3.5, "sodiumMg": 380},
-    "ketoVariant": "Already keto; serve with cucumber spears instead of bread.",
-    "tips": "Do not discard the leftover oil - it becomes za'atar-infused and is excellent over salads or eggs.",
-    "sources": [
-      {"creator": "At the Immigrant's Table", "url": "https://immigrantstable.com/homemade-labaneh-balls/"},
-      {"creator": "Simply Lebanese", "url": "https://www.simplyleb.com/recipe/labneh-balls/"},
-      {"creator": "May I Have That Recipe", "url": "https://mayihavethatrecipe.com/labneh-balls-recipe/"}
-    ],
-    "comparedVersions": "Compared from-scratch versions (straining yogurt 24-48 hours) with coating options of herbs, sumac, pistachios and za'atar. For Israel the winning simplification is starting from store-bought labaneh - identical result, zero waiting - with the za'atar coating that all three creators feature.",
-    "nameHe": "כדורי לאבנה בשמן זית וזעתר",
-    "ingredientsHe": [
-      {"amount": "500 גרם", "item": "לאבנה סמיכה (או מסננים 1 ק\"ג יוגורט שמן עם כפית מלח במשך 24-48 שעות)", "israelNote": "זמינה מוכנה בכל סופר; קונים את הסמיכה ביותר"},
-      {"amount": "2 כפות / 15 גרם", "item": "זעתר"},
-      {"amount": "כ-1 כוס / 240 מ\"ל", "item": "שמן זית כתית מעולה (לכיסוי)"},
-      {"amount": "1/4 כפית", "item": "פתיתי צ'ילי (לא חובה)"},
-      {"amount": "1 כפית", "item": "סומק (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "אם הלאבנה רכה, מסננים אותה כמה שעות במקרר במסננת מרופדת בבד גבינה עד שהיא שומרת על צורתה; לאבנה קנויה וסמיכה אפשר לקחת כמו שהיא.",
-      "בידיים משומנות קלות, מגלגלים מהלאבנה 12 כדורים בגודל אגוז מלך ומניחים על צלחת מרופדת בנייר אפייה.",
-      "מצננים את הכדורים 30 דקות במקרר כדי שיתייצבו.",
-      "מפזרים את הזעתר על צלחת קטנה ומגלגלים בו כל כדור לציפוי.",
-      "מניחים את הכדורים בצנצנת נקייה, מוסיפים את פתיתי הצ'ילי והסומק אם רוצים, ומוזגים שמן זית עד כיסוי מלא.",
-      "ממתינים לפחות כמה שעות לפני ההגשה. נשמר כחודש במקרר; מוציאים לטמפרטורת החדר לפני ההגשה כדי שהשמן יחזור לנוזלי."
-    ],
-    "ketoVariantHe": "כבר קיטו; מגישים עם רצועות מלפפון במקום לחם.",
-    "tipsHe": "לא לזרוק את השמן שנשאר - הוא הופך לשמן זעתר משובח, מצוין לסלטים או לביצים.",
-    "comparedVersionsHe": "השווינו הכנה ביתית מאפס (סינון יוגורט 24-48 שעות) עם אפשרויות ציפוי של עשבי תיבול, סומק, פיסטוקים וזעתר. בישראל הפישוט המנצח הוא להתחיל מלאבנה קנויה - תוצאה זהה, אפס המתנה - עם ציפוי הזעתר שמופיע אצל כל שלושת היוצרים."
-  },
-  {
-    "id": "almond-crusted-cheese-sticks",
-    "name": "Baked Almond-Crusted Cheese Sticks",
-    "category": "snacks",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 6,
-    "difficulty": "medium",
-    "ingredients": [
-      {"amount": "8 sticks / 224 g", "item": "mozzarella string cheese", "israelNote": "makelot mozzarella / gvinat mozzarella cut into thick sticks"},
-      {"amount": "1/2 cup / 56 g", "item": "almond flour", "israelNote": "kemach shkedim"},
-      {"amount": "1/4 cup / 25 g", "item": "finely grated parmesan", "israelNote": "gvinat parmezan megureded"},
-      {"amount": "2", "item": "eggs, beaten"},
-      {"amount": "1 tsp", "item": "dried oregano or Italian herb mix"},
-      {"amount": "1/2 tsp", "item": "garlic powder"},
-      {"amount": "1/2 tsp", "item": "sweet paprika"}
-    ],
-    "instructions": [
-      "Cut each cheese stick in half to make 16 short pieces.",
-      "Mix the almond flour, parmesan, oregano, garlic powder and paprika in one shallow bowl; beat the eggs in another.",
-      "Dip each cheese piece in egg, then in the almond mixture. Repeat the dip for a second coat - double coating is what keeps the cheese sealed in.",
-      "Arrange on a lined tray and freeze for at least 1 hour. Do not skip this or the cheese will leak before the crust sets.",
-      "Heat the oven to 200°C / 400°F (or an air fryer to 190°C).",
-      "Bake the frozen sticks 5-6 minutes, flipping once, just until golden and barely starting to soften. In the air fryer: about 5 minutes.",
-      "Rest 2 minutes and serve warm, with warm sugar-free tomato sauce for dipping if you like."
-    ],
-    "nutrition": {"calories": 300, "fatG": 23.0, "satFatG": 9.3, "proteinG": 22.0, "carbsG": 5.3, "fiberG": 1.6, "netCarbsG": 3.7, "sugarG": 1.0, "sodiumMg": 480},
-    "ketoVariant": "Already keto.",
-    "tips": "Coat and freeze a double batch; bake straight from the freezer whenever a craving hits.",
-    "sources": [
-      {"creator": "Wholesome Yum", "url": "https://www.wholesomeyum.com/recipes/gluten-free-low-carb-mozzarella-sticks/"},
-      {"creator": "That Low Carb Life", "url": "https://thatlowcarblife.com/keto-mozzarella-sticks/"},
-      {"creator": "KetoFocus", "url": "https://www.ketofocus.com/recipes/keto-mozzarella-sticks/"}
-    ],
-    "comparedVersions": "Compared coatings: Wholesome Yum's almond flour + crushed pork rinds is not kosher, so this version uses That Low Carb Life's almond flour + parmesan approach instead. Kept the two techniques every version agreed on - double dredging and a mandatory 1-hour freeze - which are what prevent cheese blowouts in a hot oven.",
-    "nameHe": "מקלות גבינה אפויים בציפוי שקדים",
-    "ingredientsHe": [
-      {"amount": "8 מקלות / 224 גרם", "item": "מקלות גבינת מוצרלה", "israelNote": "או גוש מוצרלה חתוך למקלות עבים"},
-      {"amount": "1/2 כוס / 56 גרם", "item": "קמח שקדים"},
-      {"amount": "1/4 כוס / 25 גרם", "item": "פרמזן מגורר דק"},
-      {"amount": "2", "item": "ביצים טרופות"},
-      {"amount": "1 כפית", "item": "אורגנו יבש או תערובת עשבי תיבול איטלקית"},
-      {"amount": "1/2 כפית", "item": "אבקת שום"},
-      {"amount": "1/2 כפית", "item": "פפריקה מתוקה"}
-    ],
-    "instructionsHe": [
-      "חותכים כל מקל גבינה לשניים לקבלת 16 מקלות קצרים.",
-      "מערבבים בקערה רדודה אחת את קמח השקדים, הפרמזן, האורגנו, אבקת השום והפפריקה; טורפים את הביצים בקערה שנייה.",
-      "טובלים כל חתיכת גבינה בביצה ואז בתערובת השקדים. חוזרים על הטבילה לציפוי שני - הציפוי הכפול הוא מה ששומר על הגבינה אטומה בפנים.",
-      "מסדרים על תבנית מרופדת ומקפיאים לפחות שעה. לא מדלגים על השלב הזה, אחרת הגבינה תדלוף לפני שהציפוי יתייצב.",
-      "מחממים תנור ל-200 מעלות (או מטגן אוויר ל-190 מעלות).",
-      "אופים את המקלות הקפואים 5-6 דקות עם הפיכה אחת, רק עד שהם זהובים ומתחילים להתרכך. במטגן אוויר: כ-5 דקות.",
-      "ממתינים 2 דקות ומגישים חם, עם רוטב עגבניות חם ללא סוכר לטבילה אם רוצים."
-    ],
-    "ketoVariantHe": "כבר קיטו.",
-    "tipsHe": "מצפים ומקפיאים מנה כפולה; אופים ישר מהמקפיא בכל פעם שמתחשק.",
-    "comparedVersionsHe": "השווינו ציפויים: הציפוי של Wholesome Yum מבוסס על קמח שקדים עם פצפוצי עור חזיר ואינו כשר, ולכן כאן נבחרה הגישה של That Low Carb Life עם קמח שקדים ופרמזן. שמרנו על שתי הטכניקות שכל הגרסאות מסכימות עליהן - ציפוי כפול והקפאה חובה של שעה - שהן מה שמונע מהגבינה להתפרץ בתנור חם."
-  },
-  {
-    "id": "keto-trail-mix",
-    "name": "Keto Trail Mix with Dark Chocolate",
-    "category": "snacks",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 8,
-    "prepTimeMin": 5,
-    "cookTimeMin": 8,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "1/2 cup / 70 g", "item": "raw almonds", "israelNote": "shkedim tiv'iyim"},
-      {"amount": "1/2 cup / 50 g", "item": "pecan halves", "israelNote": "pekanim"},
-      {"amount": "1/2 cup / 50 g", "item": "walnut halves", "israelNote": "egozei melech"},
-      {"amount": "1/2 cup / 65 g", "item": "shelled pumpkin seeds", "israelNote": "garinei dla'at kelufim"},
-      {"amount": "1/4 cup / 35 g", "item": "sunflower seeds", "israelNote": "garinei chamania kelufim"},
-      {"amount": "3/4 cup / 45 g", "item": "unsweetened coconut chips", "israelNote": "shvavei kokos lo mumtakim (health-food aisle)"},
-      {"amount": "50 g", "item": "85% dark chocolate, chopped into chunks", "israelNote": "shokolad marir 85% (e.g. Splendid 85%)"},
-      {"amount": "1/4 tsp", "item": "flaky salt (optional)"}
-    ],
-    "instructions": [
-      "Heat the oven to 160°C / 325°F.",
-      "Spread the almonds, pecans, walnuts, pumpkin seeds and sunflower seeds on a baking tray and toast 6-8 minutes, until fragrant.",
-      "Add the coconut chips for the last 2-3 minutes only - they brown much faster than the nuts.",
-      "Cool the tray completely. Warm nuts will melt the chocolate, so be patient.",
-      "Toss the cooled nuts and coconut with the chocolate chunks and flaky salt.",
-      "Store airtight at room temperature up to a month; portion 1/3-cup servings into small bags for grab-and-go."
-    ],
-    "nutrition": {"calories": 280, "fatG": 25.7, "satFatG": 7.0, "proteinG": 8.0, "carbsG": 8.1, "fiberG": 4.7, "netCarbsG": 3.4, "sugarG": 1.6, "sodiumMg": 75},
-    "ketoVariant": "Already keto; use 90% chocolate or sugar-free chips to cut another gram of sugar.",
-    "lowCarbVariant": "Add 2 tbsp unsweetened dried cranberries for a fruitier mix (about +2 g net carbs per serving).",
-    "tips": "Measure portions - trail mix is easy to overeat and the calories add up fast.",
-    "sources": [
-      {"creator": "Tastes Lovely", "url": "https://www.tasteslovely.com/whole30-keto-nuts-coconut-trail-mix/"},
-      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/healthy-trail-mix/"},
-      {"creator": "Wholly Tasteful", "url": "https://www.whollytasteful.com/low-carb-trail-mix/"}
-    ],
-    "comparedVersions": "Compared no-toast mixes against toasted versions and different chocolate choices (sugar-free chips vs. 85% bars). Toasting won decisively for flavor, and a chopped 85% pareve bar beat specialty sugar-free chips for Israeli availability; skipped dried cranberries from the base mix to keep it firmly keto.",
-    "nameHe": "תערובת שבילים קיטו עם שוקולד מריר",
-    "ingredientsHe": [
-      {"amount": "1/2 כוס / 70 גרם", "item": "שקדים טבעיים"},
-      {"amount": "1/2 כוס / 50 גרם", "item": "חצאי פקאן"},
-      {"amount": "1/2 כוס / 50 גרם", "item": "חצאי אגוזי מלך"},
-      {"amount": "1/2 כוס / 65 גרם", "item": "גרעיני דלעת קלופים"},
-      {"amount": "1/4 כוס / 35 גרם", "item": "גרעיני חמנייה קלופים"},
-      {"amount": "3/4 כוס / 45 גרם", "item": "שבבי קוקוס לא ממותקים", "israelNote": "מדף הבריאות / חנויות טבע"},
-      {"amount": "50 גרם", "item": "שוקולד מריר 85% קצוץ לחתיכות", "israelNote": "(למשל ספלנדיד 85%)"},
-      {"amount": "1/4 כפית", "item": "מלח בפתיתים (לא חובה)"}
-    ],
-    "instructionsHe": [
-      "מחממים תנור ל-160 מעלות.",
-      "מפזרים את השקדים, הפקאנים, אגוזי המלך, גרעיני הדלעת וגרעיני החמנייה על תבנית וקולים 6-8 דקות, עד שהם ריחניים.",
-      "מוסיפים את שבבי הקוקוס רק ב-2-3 הדקות האחרונות - הם משחימים הרבה יותר מהר מהאגוזים.",
-      "מצננים את התבנית לגמרי. אגוזים חמים ימיסו את השוקולד, אז מתאזרים בסבלנות.",
-      "מערבבים את האגוזים והקוקוס המצוננים עם חתיכות השוקולד והמלח.",
-      "נשמר בכלי אטום בטמפרטורת החדר עד חודש; מחלקים מנות של 1/3 כוס לשקיות קטנות לנשנוש בדרכים."
-    ],
-    "ketoVariantHe": "כבר קיטו; שוקולד 90% או שבבי שוקולד ללא סוכר יחסכו עוד גרם סוכר.",
-    "lowCarbVariantHe": "מוסיפים 2 כפות חמוציות מיובשות לא ממותקות לתערובת פירותית יותר (כ-2 גרם פחמימות נטו נוספות למנה).",
-    "tipsHe": "שוקלים מנות - קל מאוד לאכול יותר מדי תערובת שבילים והקלוריות מצטברות מהר.",
-    "comparedVersionsHe": "השווינו תערובות ללא קלייה מול גרסאות קלויות, ובחירות שוקולד שונות (שבבים ללא סוכר מול חטיפי 85%). הקלייה ניצחה באופן חד-משמעי בטעם, וחטיף 85% פרווה קצוץ עדיף על שבבים ללא סוכר מבחינת זמינות בישראל; השמטנו את החמוציות מהתערובת הבסיסית כדי להישאר קיטו לגמרי."
-  },
-  {
-    "id": "celery-almond-butter-boats",
-    "name": "Celery Boats with Almond Butter",
-    "category": "snacks",
-    "kosherType": "pareve",
-    "dietTags": "keto",
-    "servings": 2,
-    "prepTimeMin": 8,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "4 stalks / 160 g", "item": "celery", "israelNote": "selery amerikai (stalk celery, not root)"},
-      {"amount": "4 tbsp / 64 g", "item": "natural almond butter (100% almonds, no added sugar)", "israelNote": "chemat shkedim tiv'it (health-food aisle)"},
-      {"amount": "1 tbsp / 12 g", "item": "chia or hemp seeds", "israelNote": "zir'ei chia"},
-      {"amount": "1 pinch", "item": "cinnamon or flaky salt"},
-      {"amount": "1 tbsp (optional)", "item": "sugar-free or 85% dark chocolate chips", "israelNote": ""}
-    ],
-    "instructions": [
-      "Wash the celery, trim the ends and pull off any tough outer strings with a peeler.",
-      "Cut each stalk into 2-3 hand-length boats and pat dry.",
-      "Stir the almond butter well (natural brands separate) and spread it into the groove of each boat.",
-      "Sprinkle with chia seeds, a pinch of cinnamon or flaky salt, and the chocolate chips if using. Serve immediately."
-    ],
-    "nutrition": {"calories": 233, "fatG": 19.5, "satFatG": 1.6, "proteinG": 7.5, "carbsG": 10.1, "fiberG": 6.0, "netCarbsG": 4.1, "sugarG": 2.5, "sodiumMg": 105},
-    "ketoVariant": "Already keto.",
-    "lowCarbVariant": "Scatter a few unsweetened dried cranberries on top for classic 'ants on a log' (about +2 g net carbs).",
-    "tips": "Chill the assembled boats 10 minutes if you want the almond butter to set firm.",
-    "sources": [
-      {"creator": "Sweet As Honey", "url": "https://www.sweetashoney.co/ants-on-a-log/"},
-      {"creator": "Ketogenic.com", "url": "https://ketogenic.com/recipes/keto-ants-on-a-log/"},
-      {"creator": "Carb Manager", "url": "https://www.carbmanager.com/recipe-detail/ug:3817117d-5aca-52df-5e03-803b651f9ecb/celery-almond-butter"}
-    ],
-    "comparedVersions": "Compared fillings (peanut butter, cream cheese, almond butter) and 'ant' toppings across keto versions of ants on a log. Almond butter with chia seeds won: pareve, no added sugar, more fiber than raisin-topped originals, and the chia adds the classic dotted look without the carbs.",
-    "nameHe": "סירות סלרי עם חמאת שקדים",
-    "ingredientsHe": [
-      {"amount": "4 גבעולים / 160 גרם", "item": "סלרי", "israelNote": "סלרי אמריקאי (גבעולים, לא שורש)"},
-      {"amount": "4 כפות / 64 גרם", "item": "חמאת שקדים טבעית (100% שקדים, ללא סוכר מוסף)", "israelNote": "מדף הבריאות / חנויות טבע"},
-      {"amount": "1 כף / 12 גרם", "item": "זרעי צ'יה או המפ"},
-      {"amount": "קורט", "item": "קינמון או מלח בפתיתים"},
-      {"amount": "1 כף (לא חובה)", "item": "שבבי שוקולד ללא סוכר או מריר 85%", "israelNote": ""}
-    ],
-    "instructionsHe": [
-      "שוטפים את הסלרי, חותכים את הקצוות ומושכים סיבים קשים מהצד החיצוני בעזרת קולפן.",
-      "חותכים כל גבעול ל-2-3 'סירות' באורך כף יד ומייבשים.",
-      "מערבבים היטב את חמאת השקדים (במותגים טבעיים השמן נפרד) ומורחים אותה בשקע של כל סירה.",
-      "מפזרים זרעי צ'יה, קורט קינמון או מלח בפתיתים, ושבבי שוקולד אם רוצים. מגישים מיד."
-    ],
-    "ketoVariantHe": "כבר קיטו.",
-    "lowCarbVariantHe": "מפזרים מעל כמה חמוציות מיובשות לא ממותקות לגרסה הקלאסית של 'נמלים על בול עץ' (כ-2 גרם פחמימות נטו נוספות).",
-    "tipsHe": "מצננים את הסירות המוכנות 10 דקות אם רוצים שחמאת השקדים תתייצב.",
-    "comparedVersionsHe": "השווינו מילויים (חמאת בוטנים, גבינת שמנת, חמאת שקדים) ותוספות בגרסאות קיטו של 'נמלים על בול עץ'. חמאת שקדים עם זרעי צ'יה ניצחה: פרווה, ללא סוכר מוסף, יותר סיבים מהמקור עם הצימוקים, והצ'יה נותנת את מראה הנקודות הקלאסי בלי הפחמימות."
-  },
-  {
-    "id": "everything-bagel-pepper-poppers",
-    "name": "Everything-Bagel Cream Cheese Pepper Poppers",
-    "category": "snacks",
-    "kosherType": "dairy",
-    "dietTags": "keto",
-    "servings": 4,
-    "prepTimeMin": 15,
-    "cookTimeMin": 0,
-    "difficulty": "easy",
-    "ingredients": [
-      {"amount": "8 / 240 g", "item": "mini sweet peppers", "israelNote": "pilpelonim metukim (sold in bags)"},
-      {"amount": "150 g", "item": "cream cheese, softened", "israelNote": "gvinat shamenet (Napoleon/Ski)"},
-      {"amount": "1/2 cup / 50 g", "item": "shredded yellow cheese", "israelNote": "gvina tzehuba megureded (Emek/cheddar style)"},
-      {"amount": "2 tsp", "item": "everything-bagel seasoning", "israelNote": "make your own: equal parts sesame, black sesame, dried garlic granules, dried onion granules + coarse salt"},
-      {"amount": "1 tbsp (optional)", "item": "chopped chives or green onion"}
-    ],
-    "instructions": [
-      "Halve the mini peppers lengthwise through the stem and scrape out the seeds and membranes.",
-      "In a bowl, mix the softened cream cheese with the shredded cheese, half the everything seasoning and the chives.",
-      "Spoon or pipe the filling into the pepper halves, smoothing the tops.",
-      "Sprinkle the remaining seasoning generously over the filling.",
-      "Serve chilled, or refrigerate in an airtight container up to 4 days."
-    ],
-    "nutrition": {"calories": 205, "fatG": 17.6, "satFatG": 10.0, "proteinG": 5.7, "carbsG": 6.2, "fiberG": 1.4, "netCarbsG": 4.8, "sugarG": 4.2, "sodiumMg": 330},
-    "ketoVariant": "Already keto.",
-    "lowCarbVariant": "For a warm version, bake the filled peppers 8-10 minutes at 190°C until the cheese melts (counts as cookTime).",
-    "tips": "Soften the cream cheese fully before mixing or the filling will be lumpy; a small spoon or a zip bag with a corner cut makes filling fast.",
-    "sources": [
-      {"creator": "Low Carb Spark", "url": "https://www.lowcarbspark.com/cream-cheese-stuffed-mini-peppers/"},
-      {"creator": "Keto Cooking Christian", "url": "https://ketocookingchristian.com/everything-bagel-stuffed-mini-peppers/"},
-      {"creator": "Wellness by Kay", "url": "https://wellnessbykay.com/cream-cheese-stuffed-peppers/"}
-    ],
-    "comparedVersions": "Compared cold no-bake versions with baked ones and fillings with and without shredded cheese. The no-bake build with a little shredded yellow cheese won for texture and zero cooking; since packaged everything-bagel seasoning is hard to find in Israel, the recipe includes a 30-second DIY blend.",
-    "nameHe": "פלפלונים ממולאים בגבינת שמנת בתיבול אבריתינג בייגל",
-    "ingredientsHe": [
-      {"amount": "8 / 240 גרם", "item": "פלפלונים מתוקים", "israelNote": "נמכרים בשקיות"},
-      {"amount": "150 גרם", "item": "גבינת שמנת מרוככת", "israelNote": "נפוליאון / סקי"},
-      {"amount": "1/2 כוס / 50 גרם", "item": "גבינה צהובה מגוררת", "israelNote": "עמק / בסגנון צ'דר"},
-      {"amount": "2 כפיות", "item": "תערובת תיבול אבריתינג בייגל", "israelNote": "מכינים לבד: חלקים שווים שומשום, שומשום שחור, גרגירי שום מיובש וגרגירי בצל מיובש + מלח גס"},
-      {"amount": "1 כף (לא חובה)", "item": "עירית או בצל ירוק קצוצים"}
-    ],
-    "instructionsHe": [
-      "חוצים את הפלפלונים לאורכם דרך הגבעול ומגרדים החוצה את הגרעינים והקרומים.",
-      "בקערה, מערבבים את גבינת השמנת המרוככת עם הגבינה המגוררת, מחצית מתערובת התיבול והעירית.",
-      "ממלאים את חצאי הפלפלונים בכף או בשקית זילוף ומחליקים את פני המילוי.",
-      "מפזרים בנדיבות את שאר התיבול על המילוי.",
-      "מגישים צונן, או שומרים במקרר בכלי אטום עד 4 ימים."
-    ],
-    "ketoVariantHe": "כבר קיטו.",
-    "lowCarbVariantHe": "לגרסה חמה אופים את הפלפלונים הממולאים 8-10 דקות ב-190 מעלות עד שהגבינה נמסה.",
-    "tipsHe": "מרככים את גבינת השמנת לגמרי לפני הערבוב, אחרת המילוי יצא גושי; כפית קטנה או שקית עם פינה גזורה הופכות את המילוי למהיר.",
-    "comparedVersionsHe": "השווינו גרסאות קרות ללא אפייה מול אפויות, ומילויים עם ובלי גבינה מגוררת. הגרסה ללא אפייה עם מעט גבינה צהובה מגוררת ניצחה במרקם ובאפס בישול; מכיוון שתערובת אבריתינג בייגל קנויה קשה להשגה בישראל, המתכון כולל תערובת ביתית של 30 שניות."
-  }
+﻿[
+    {
+        "id":  "tuna-avocado-boats",
+        "name":  "Tuna-Stuffed Avocado Boats",
+        "category":  "snacks",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  2,
+        "prepTimeMin":  10,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 large / 200 g flesh",
+                                "item":  "ripe avocado"
+                            },
+                            {
+                                "amount":  "1 can / 140 g",
+                                "item":  "tuna in olive oil, well drained",
+                                "israelNote":  "ton bahar zayit (Starkist/Wili Food)"
+                            },
+                            {
+                                "amount":  "2 tbsp / 30 g",
+                                "item":  "mayonnaise"
+                            },
+                            {
+                                "amount":  "2 tbsp / 20 g",
+                                "item":  "red onion, finely chopped"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "chopped fresh parsley"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt and black pepper"
+                            }
+                        ],
+        "instructions":  [
+                             "Drain the tuna very well, pressing it against the can with a fork so the filling stays firm and not watery.",
+                             "In a bowl, flake the tuna and mix it with the mayonnaise, red onion, lemon juice, parsley, salt and pepper.",
+                             "Halve the avocado lengthwise and remove the pit. Scoop out about a spoonful of flesh from each half to widen the hollow.",
+                             "Dice the scooped-out avocado and fold it gently into the tuna mixture.",
+                             "Pile the tuna salad into the two avocado halves, grind black pepper on top and serve immediately with a wedge of lemon."
+                         ],
+        "nutrition":  {
+                          "calories":  345,
+                          "fatG":  29.0,
+                          "satFatG":  4.6,
+                          "proteinG":  15.5,
+                          "carbsG":  10.0,
+                          "fiberG":  6.9,
+                          "netCarbsG":  3.1,
+                          "sugarG":  1.5,
+                          "sodiumMg":  380
+                      },
+        "lowCarbVariant":  "Top with halved cherry tomatoes for freshness (adds about 1 g net carbs).",
+        "tips":  "Squeeze lemon juice over any exposed avocado to keep it green; eat the same day.",
+        "sources":  [
+                        {
+                            "creator":  "Downshiftology",
+                            "url":  "https://downshiftology.com/recipes/tuna-stuffed-avocados/"
+                        },
+                        {
+                            "creator":  "KetoVale",
+                            "url":  "https://www.ketovale.com/tuna-avocado-boats/"
+                        },
+                        {
+                            "creator":  "Tastes Lovely",
+                            "url":  "https://www.tasteslovely.com/paleo-tuna-avocado-boats/"
+                        }
+                    ],
+        "comparedVersions":  "Compared three creators on filling binder (mayo vs. mashed avocado) and add-ins. Kept the classic mayo version for creaminess but borrowed Downshiftology\u0027s trick of folding the scooped avocado back into the salad, which stretches the filling and adds fiber without extra ingredients.",
+        "nameHe":  "סירות אבוקדו במילוי טונה",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 גדול / 200 גרם בשר הפרי",
+                                  "item":  "אבוקדו בשל"
+                              },
+                              {
+                                  "amount":  "1 פחית / 140 גרם",
+                                  "item":  "טונה בשמן זית, מסוננת היטב",
+                                  "israelNote":  "סטארקיסט / ויליפוד"
+                              },
+                              {
+                                  "amount":  "2 כפות / 30 גרם",
+                                  "item":  "מיונז"
+                              },
+                              {
+                                  "amount":  "2 כפות / 20 גרם",
+                                  "item":  "בצל סגול קצוץ דק"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "מיץ לימון טרי"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "פטרוזיליה טרייה קצוצה"
+                              },
+                              {
+                                  "amount":  "לפי הטעם",
+                                  "item":  "מלח ופלפל שחור"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מסננים את הטונה היטב ולוחצים עליה עם מזלג כנגד דפנות הפחית, כדי שהמילוי יישאר יציב ולא מימי.",
+                               "בקערה, מפוררים את הטונה ומערבבים עם המיונז, הבצל הסגול, מיץ הלימון, הפטרוזיליה, מלח ופלפל.",
+                               "חוצים את האבוקדו לאורכו ומוציאים את הגלעין. מוציאים בכף מעט מבשר הפרי מכל חצי כדי להרחיב את השקע.",
+                               "קוצצים את האבוקדו שהוצאתם לקוביות ומקפלים בעדינות לתוך תערובת הטונה.",
+                               "ממלאים את שני חצאי האבוקדו בסלט הטונה, טוחנים מעל פלפל שחור ומגישים מיד עם פלח לימון."
+                           ],
+        "lowCarbVariantHe":  "מוסיפים מעל עגבניות שרי חצויות לרעננות (מוסיף כ-1 גרם פחמימות נטו).",
+        "tipsHe":  "סוחטים מיץ לימון על האבוקדו החשוף כדי שיישאר ירוק; מומלץ לאכול באותו יום.",
+        "comparedVersionsHe":  "השווינו שלושה מתכונים בשאלת הבסיס למילוי (מיונז לעומת אבוקדו מעוך) והתוספות. שמרנו על גרסת המיונז הקלאסית לקרמיות, אבל אימצנו מ-Downshiftology את הטריק של קיפול האבוקדו שהוצא חזרה לסלט - זה מגדיל את המילוי ומוסיף סיבים בלי מרכיבים נוספים."
+    },
+    {
+        "id":  "cottage-cheese-power-bowl",
+        "name":  "Savory Cottage Cheese Power Bowl",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "lowcarb",
+        "servings":  1,
+        "prepTimeMin":  8,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 225 g",
+                                "item":  "cottage cheese 5%",
+                                "israelNote":  "gvinat cottage 5% (Tnuva/Tara)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 75 g",
+                                "item":  "cherry tomatoes, halved"
+                            },
+                            {
+                                "amount":  "1 small / 100 g",
+                                "item":  "cucumber, diced",
+                                "israelNote":  "melafefon (Israeli cucumber)"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "extra-virgin olive oil"
+                            },
+                            {
+                                "amount":  "1 tbsp / 8 g",
+                                "item":  "roasted pumpkin seeds",
+                                "israelNote":  "garinei dla\u0027at"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "za\u0027atar or everything-bagel seasoning",
+                                "israelNote":  "za\u0027atar blend"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "salt and black pepper"
+                            }
+                        ],
+        "instructions":  [
+                             "Spoon the cottage cheese into a shallow bowl and spread it out slightly with the back of the spoon.",
+                             "Toss the cherry tomatoes and cucumber with the lemon juice, a pinch of salt and pepper.",
+                             "Pile the vegetables over the cottage cheese.",
+                             "Drizzle the olive oil over everything, then scatter the pumpkin seeds and za\u0027atar on top. Eat right away while the seeds are crunchy."
+                         ],
+        "nutrition":  {
+                          "calories":  410,
+                          "fatG":  29.5,
+                          "satFatG":  9.0,
+                          "proteinG":  28.0,
+                          "carbsG":  13.4,
+                          "fiberG":  1.9,
+                          "netCarbsG":  11.5,
+                          "sugarG":  9.7,
+                          "sodiumMg":  720
+                      },
+        "ketoVariant":  "Skip the tomatoes and use 3/4 cup cottage cheese to bring net carbs to about 7 g.",
+        "tips":  "Works as a light lunch too; add olives or a chopped hard-boiled egg for more staying power.",
+        "sources":  [
+                        {
+                            "creator":  "Stephanie Kay Nutrition",
+                            "url":  "https://kaynutrition.com/savory-cottage-cheese-bowl/"
+                        },
+                        {
+                            "creator":  "Eat the Gains",
+                            "url":  "https://eatthegains.com/cottage-cheese-bowl/"
+                        },
+                        {
+                            "creator":  "Skinnytaste",
+                            "url":  "https://www.skinnytaste.com/greek-cottage-cheese-bowl/"
+                        }
+                    ],
+        "comparedVersions":  "Compared Greek-style (olives, oregano, vinegar) against simpler tomato-cucumber bowls. Chose the simpler build with olive oil, seeds and za\u0027atar: fewer ingredients, more crunch, and it maps perfectly onto standard Israeli supermarket items.",
+        "nameHe":  "קערת קוטג\u0027 מלוחה ומזינה",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 225 גרם",
+                                  "item":  "קוטג\u0027 5%",
+                                  "israelNote":  "תנובה / טרה"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 75 גרם",
+                                  "item":  "עגבניות שרי חצויות"
+                              },
+                              {
+                                  "amount":  "1 קטן / 100 גרם",
+                                  "item":  "מלפפון חתוך לקוביות"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "שמן זית כתית מעולה"
+                              },
+                              {
+                                  "amount":  "1 כף / 8 גרם",
+                                  "item":  "גרעיני דלעת קלויים"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "זעתר או תערובת תיבול אבריתינג בייגל"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "מיץ לימון טרי"
+                              },
+                              {
+                                  "amount":  "לפי הטעם",
+                                  "item":  "מלח ופלפל שחור"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מעבירים את הקוטג\u0027 לקערה רדודה ומשטחים מעט בגב הכף.",
+                               "מערבבים את עגבניות השרי והמלפפון עם מיץ הלימון, קורט מלח ופלפל.",
+                               "מניחים את הירקות מעל הקוטג\u0027.",
+                               "מזלפים את שמן הזית מעל הכול, מפזרים את גרעיני הדלעת והזעתר ואוכלים מיד כשהגרעינים עוד פריכים."
+                           ],
+        "ketoVariantHe":  "מוותרים על העגבניות ומשתמשים ב-3/4 כוס קוטג\u0027 כדי לרדת לכ-7 גרם פחמימות נטו.",
+        "tipsHe":  "עובד מצוין גם כארוחת צהריים קלה; מוסיפים זיתים או ביצה קשה קצוצה לתחושת שובע ממושכת.",
+        "comparedVersionsHe":  "השווינו גרסה יוונית (זיתים, אורגנו, חומץ) מול קערות פשוטות של עגבניות ומלפפון. בחרנו בגרסה הפשוטה עם שמן זית, גרעינים וזעתר: פחות מרכיבים, יותר קראנץ\u0027, והכול זמין בכל סופר ישראלי."
+    },
+    {
+        "id":  "roasted-spiced-pumpkin-seeds",
+        "name":  "Smoky Roasted Pumpkin Seeds",
+        "category":  "snacks",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  5,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 130 g",
+                                "item":  "raw shelled pumpkin seeds (pepitas)",
+                                "israelNote":  "garinei dla\u0027at kelufim"
+                            },
+                            {
+                                "amount":  "1 tbsp / 15 ml",
+                                "item":  "olive oil"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "smoked paprika",
+                                "israelNote":  "paprika me\u0027ushenet"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "garlic powder"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "fine salt"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "cayenne pepper (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 175°C / 350°F and line a baking tray with baking paper.",
+                             "In a bowl, toss the pumpkin seeds with the olive oil until every seed is coated.",
+                             "Add the smoked paprika, garlic powder, salt and cayenne and toss again.",
+                             "Spread the seeds in a single layer on the tray.",
+                             "Roast 12-15 minutes, stirring once halfway, until golden and fragrant. A few seeds may pop - that is normal.",
+                             "Cool completely on the tray; they crisp up as they cool. Store airtight up to 2 weeks."
+                         ],
+        "nutrition":  {
+                          "calories":  211,
+                          "fatG":  19.1,
+                          "satFatG":  3.3,
+                          "proteinG":  9.8,
+                          "carbsG":  3.7,
+                          "fiberG":  2.1,
+                          "netCarbsG":  1.6,
+                          "sugarG":  0.5,
+                          "sodiumMg":  290
+                      },
+        "ketoVariant":  "Already keto; for a curry version swap the paprika and cayenne for 1 tsp curry powder.",
+        "tips":  "Watch closely after minute 12 - seeds go from golden to burnt fast.",
+        "sources":  [
+                        {
+                            "creator":  "Healthy Recipes Blog",
+                            "url":  "https://healthyrecipesblogs.com/roasted-pumpkin-seeds/"
+                        },
+                        {
+                            "creator":  "My Life Cookbook",
+                            "url":  "https://mylifecookbook.com/low-carb-pumpkin-seeds-roasted-everything-spice/"
+                        },
+                        {
+                            "creator":  "WickedStuffed",
+                            "url":  "https://www.wickedstuffed.com/keto-holiday-recipes/roasted-pumpkin-seeds/"
+                        }
+                    ],
+        "comparedVersions":  "Compared butter-roasted, everything-spice and smoked-paprika versions. The olive oil + smoked paprika profile won: it is pareve (pairs with any meal), uses pantry spices, and the moderate 175°C oven from Healthy Recipes Blog gave the most reliable even roast.",
+        "nameHe":  "גרעיני דלעת קלויים בפפריקה מעושנת",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 130 גרם",
+                                  "item":  "גרעיני דלעת קלופים לא קלויים",
+                                  "israelNote":  "חנויות פיצוחים / מדף הבריאות בסופר"
+                              },
+                              {
+                                  "amount":  "1 כף / 15 מ\"ל",
+                                  "item":  "שמן זית"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "פפריקה מעושנת"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אבקת שום"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "מלח דק"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "פלפל קאיין (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-175 מעלות ומרפדים תבנית בנייר אפייה.",
+                               "בקערה, מערבבים את גרעיני הדלעת עם שמן הזית עד שכל גרעין מצופה.",
+                               "מוסיפים את הפפריקה המעושנת, אבקת השום, המלח והקאיין ומערבבים שוב.",
+                               "מפזרים את הגרעינים בשכבה אחת על התבנית.",
+                               "קולים 12-15 דקות תוך ערבוב פעם אחת באמצע, עד שהגרעינים זהובים וריחניים. כמה גרעינים עשויים לקפוץ - זה תקין.",
+                               "מצננים לגמרי על התבנית; הם נעשים פריכים תוך כדי הצינון. נשמרים בכלי אטום עד שבועיים."
+                           ],
+        "ketoVariantHe":  "כבר קיטו; לגרסת קארי מחליפים את הפפריקה והקאיין בכפית אבקת קארי.",
+        "tipsHe":  "משגיחים היטב אחרי הדקה ה-12 - הגרעינים עוברים מזהוב לשרוף מהר מאוד.",
+        "comparedVersionsHe":  "השווינו קלייה בחמאה, תיבול אבריתינג ופפריקה מעושנת. הפרופיל של שמן זית ופפריקה מעושנת ניצח: הוא פרווה (מתאים לכל ארוחה), משתמש בתבלינים מהמזווה, והתנור המתון של 175 מעלות נתן את הקלייה האחידה והאמינה ביותר."
+    },
+    {
+        "id":  "smoked-salmon-cucumber-rolls",
+        "name":  "Smoked Salmon Cucumber Rolls",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  20,
+        "cookTimeMin":  0,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "1 large / 300 g",
+                                "item":  "long seedless cucumber",
+                                "israelNote":  "melafefon arokh; or use the widest Israeli cucumbers you can find"
+                            },
+                            {
+                                "amount":  "100 g",
+                                "item":  "smoked salmon slices",
+                                "israelNote":  "salmon me\u0027ushan (fish - pareve, but dish is dairy from the cheese)"
+                            },
+                            {
+                                "amount":  "100 g",
+                                "item":  "cream cheese, softened",
+                                "israelNote":  "gvinat shamenet (Napoleon/Ski)"
+                            },
+                            {
+                                "amount":  "1 tbsp",
+                                "item":  "chopped fresh dill",
+                                "israelNote":  "shamir"
+                            },
+                            {
+                                "amount":  "1 tsp / 5 ml",
+                                "item":  "fresh lemon juice"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "grated lemon zest"
+                            },
+                            {
+                                "amount":  "to taste",
+                                "item":  "black pepper"
+                            },
+                            {
+                                "amount":  "1 tbsp (optional)",
+                                "item":  "capers, drained"
+                            }
+                        ],
+        "instructions":  [
+                             "Stir the cream cheese with the dill, lemon juice, zest and black pepper until smooth.",
+                             "Using a vegetable peeler, shave the cucumber lengthwise into thin wide ribbons; discard the first seedy strips. You need about 16 good ribbons.",
+                             "Pat the ribbons completely dry with paper towels - this keeps the rolls from sliding apart.",
+                             "Spread a thin layer of the cheese mixture along each ribbon.",
+                             "Lay a strip of smoked salmon over the cheese, then roll the ribbon up snugly from one end.",
+                             "Stand the rolls seam-side down on a plate, top each with a caper if using, and chill until serving."
+                         ],
+        "nutrition":  {
+                          "calories":  130,
+                          "fatG":  9.8,
+                          "satFatG":  5.3,
+                          "proteinG":  6.4,
+                          "carbsG":  4.3,
+                          "fiberG":  0.5,
+                          "netCarbsG":  3.8,
+                          "sugarG":  2.2,
+                          "sodiumMg":  300
+                      },
+        "ketoVariant":  "Already keto; add more salmon and cheese per roll for a fattier bite.",
+        "tips":  "A mandoline gives more even ribbons than a peeler; secure loose rolls with a toothpick.",
+        "sources":  [
+                        {
+                            "creator":  "Simply Home Cooked",
+                            "url":  "https://simplyhomecooked.com/smoked-salmon-cucumber-rolls/"
+                        },
+                        {
+                            "creator":  "The Endless Meal",
+                            "url":  "https://www.theendlessmeal.com/mini-cucumber-smoked-salmon-appetizer-bites/"
+                        },
+                        {
+                            "creator":  "Appetizer Addiction",
+                            "url":  "https://www.appetizeraddiction.com/smoked-salmon-cucumber-rolls/"
+                        }
+                    ],
+        "comparedVersions":  "Compared fillings across three versions: horseradish + heavy cream, Greek yogurt blends, and plain lemon-dill cream cheese. The lemon-dill version won for simplicity (no specialty ingredients) while keeping the flavor everyone praised; drying the cucumber ribbons was the technique all top versions agreed on.",
+        "nameHe":  "גלילות מלפפון וסלמון מעושן",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 גדול / 300 גרם",
+                                  "item":  "מלפפון ארוך ללא גרעינים",
+                                  "israelNote":  "או המלפפונים הישראליים הרחבים ביותר שתמצאו"
+                              },
+                              {
+                                  "amount":  "100 גרם",
+                                  "item":  "פרוסות סלמון מעושן",
+                                  "israelNote":  "הדג עצמו פרווה, אבל המנה חלבית בגלל הגבינה"
+                              },
+                              {
+                                  "amount":  "100 גרם",
+                                  "item":  "גבינת שמנת מרוככת",
+                                  "israelNote":  "נפוליאון / סקי"
+                              },
+                              {
+                                  "amount":  "1 כף",
+                                  "item":  "שמיר טרי קצוץ"
+                              },
+                              {
+                                  "amount":  "1 כפית / 5 מ\"ל",
+                                  "item":  "מיץ לימון טרי"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "גרידת לימון"
+                              },
+                              {
+                                  "amount":  "לפי הטעם",
+                                  "item":  "פלפל שחור"
+                              },
+                              {
+                                  "amount":  "1 כף (לא חובה)",
+                                  "item":  "צלפים מסוננים"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מערבבים את גבינת השמנת עם השמיר, מיץ הלימון, הגרידה והפלפל השחור עד לקבלת תערובת חלקה.",
+                               "בעזרת קולפן ירקות, פורסים את המלפפון לאורכו לרצועות דקות ורחבות; זורקים את הרצועות הראשונות המלאות בגרעינים. צריך בערך 16 רצועות טובות.",
+                               "מייבשים את הרצועות היטב במגבת נייר - זה מה שמונע מהגלילות להחליק ולהיפתח.",
+                               "מורחים שכבה דקה של תערובת הגבינה לאורך כל רצועה.",
+                               "מניחים רצועת סלמון מעושן על הגבינה ומגלגלים את הרצועה בהידוק מקצה אחד.",
+                               "מעמידים את הגלילות עם התפר כלפי מטה על צלחת, מניחים צלף על כל אחת אם רוצים ומצננים עד ההגשה."
+                           ],
+        "ketoVariantHe":  "כבר קיטו; מוסיפים יותר סלמון וגבינה בכל גלילה לביס שומני יותר.",
+        "tipsHe":  "מנדולינה נותנת רצועות אחידות יותר מקולפן; גלילות רופפות אפשר לנעוץ בקיסם.",
+        "comparedVersionsHe":  "השווינו מילויים בשלוש גרסאות: חזרת עם שמנת מתוקה, תערובות יוגורט יווני, וגבינת שמנת עם לימון ושמיר. גרסת הלימון-שמיר ניצחה בזכות הפשטות (בלי מרכיבים מיוחדים) עם הטעם שכולם שיבחו; ייבוש רצועות המלפפון הוא הטכניקה שכל הגרסאות המובילות הסכימו עליה."
+    },
+    {
+        "id":  "quick-pickled-vegetables",
+        "name":  "Quick Pickled Cucumbers \u0026 Cauliflower",
+        "category":  "snacks",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  15,
+        "cookTimeMin":  5,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "2 / 200 g",
+                                "item":  "Israeli cucumbers, sliced into spears or coins",
+                                "israelNote":  "melafefonim"
+                            },
+                            {
+                                "amount":  "2 cups / 200 g",
+                                "item":  "small cauliflower florets",
+                                "israelNote":  "kruvit"
+                            },
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "white vinegar (5%)",
+                                "israelNote":  "chometz sinteti 5%"
+                            },
+                            {
+                                "amount":  "1 cup / 240 ml",
+                                "item":  "water"
+                            },
+                            {
+                                "amount":  "1 tbsp / 18 g",
+                                "item":  "coarse salt",
+                                "israelNote":  "melach gas"
+                            },
+                            {
+                                "amount":  "3 cloves",
+                                "item":  "garlic, lightly crushed"
+                            },
+                            {
+                                "amount":  "3-4 sprigs",
+                                "item":  "fresh dill",
+                                "israelNote":  "shamir"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "black peppercorns"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "mustard seeds or chili flakes (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Pack the cucumber slices, cauliflower florets, garlic, dill, peppercorns and mustard seeds into a clean 1-liter jar, leaving about 1 cm of space at the top.",
+                             "Bring the vinegar, water and salt to a boil in a small pot, stirring until the salt dissolves.",
+                             "Pour the hot brine over the vegetables until fully submerged.",
+                             "Let the open jar cool to room temperature, then seal and refrigerate.",
+                             "Wait at least 24 hours before eating (48 hours is better for the cauliflower). Keeps 3-4 weeks refrigerated."
+                         ],
+        "nutrition":  {
+                          "calories":  12,
+                          "fatG":  0.1,
+                          "satFatG":  0.0,
+                          "proteinG":  0.6,
+                          "carbsG":  2.3,
+                          "fiberG":  0.9,
+                          "netCarbsG":  1.4,
+                          "sugarG":  1.0,
+                          "sodiumMg":  400
+                      },
+        "ketoVariant":  "Already essentially zero-carb; add sliced jalapeño for spicy pickles.",
+        "tips":  "No sugar and no sweetener needed - garlic and dill carry the flavor. Use the leftover brine once more for a second batch of cucumbers.",
+        "sources":  [
+                        {
+                            "creator":  "Sugar-Free Mom",
+                            "url":  "https://www.sugarfreemom.com/recipes/how-to-make-easy-sugar-free-quick-pickled-vegetables/comment-page-1/"
+                        },
+                        {
+                            "creator":  "Mary\u0027s Nest",
+                            "url":  "https://marysnest.com/no-sugar-quick-pickles-master-recipe-for-pickling-any-vegetable/"
+                        },
+                        {
+                            "creator":  "That Low Carb Life",
+                            "url":  "https://thatlowcarblife.com/pickled-cauliflower/"
+                        }
+                    ],
+        "comparedVersions":  "Compared brine ratios and simmer times across a no-sugar master recipe, a sugar-free vegetable pickle and a dedicated cauliflower pickle. Settled on the common 1:1 vinegar-to-water ratio with a plain boil (no 10-minute simmer - unnecessary), which every version agrees produces crisp, tangy results in 24-48 hours.",
+        "nameHe":  "חמוצים מהירים: מלפפונים וכרובית",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "2 / 200 גרם",
+                                  "item":  "מלפפונים ישראליים פרוסים לרצועות או למטבעות"
+                              },
+                              {
+                                  "amount":  "2 כוסות / 200 גרם",
+                                  "item":  "פרחי כרובית קטנים"
+                              },
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "חומץ לבן 5%",
+                                  "israelNote":  "חומץ סינתטי 5%"
+                              },
+                              {
+                                  "amount":  "1 כוס / 240 מ\"ל",
+                                  "item":  "מים"
+                              },
+                              {
+                                  "amount":  "1 כף / 18 גרם",
+                                  "item":  "מלח גס"
+                              },
+                              {
+                                  "amount":  "3 שיניים",
+                                  "item":  "שום מעוך קלות"
+                              },
+                              {
+                                  "amount":  "3-4 ענפים",
+                                  "item":  "שמיר טרי"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "גרגירי פלפל שחור"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "זרעי חרדל או פתיתי צ\u0027ילי (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "דוחסים את פרוסות המלפפון, פרחי הכרובית, השום, השמיר, גרגירי הפלפל וזרעי החרדל לצנצנת נקייה של 1 ליטר, ומשאירים כ-1 ס\"מ רווח למעלה.",
+                               "מרתיחים את החומץ, המים והמלח בסיר קטן תוך ערבוב עד שהמלח נמס.",
+                               "מוזגים את מי המלח החמים על הירקות עד שהם מכוסים לגמרי.",
+                               "מניחים לצנצנת הפתוחה להצטנן לטמפרטורת החדר, ואז סוגרים ומעבירים למקרר.",
+                               "ממתינים לפחות 24 שעות לפני האכילה (48 שעות עדיף לכרובית). נשמר 3-4 שבועות במקרר."
+                           ],
+        "ketoVariantHe":  "כבר כמעט אפס פחמימות; מוסיפים פרוסות חלפיניו לחמוצים חריפים.",
+        "tipsHe":  "לא צריך סוכר ולא ממתיק - השום והשמיר עושים את העבודה. אפשר להשתמש במי המלח שנשארו פעם נוספת למנה שנייה של מלפפונים.",
+        "comparedVersionsHe":  "השווינו יחסי תמיסה וזמני בישול בין מתכון-אב ללא סוכר, מתכון ירקות כבושים ללא סוכר ומתכון ייעודי לכרובית כבושה. בחרנו ביחס המקובל של 1:1 חומץ למים עם הרתחה פשוטה (בלי בישול של 10 דקות - מיותר), שלפי כל הגרסאות נותן תוצאה פריכה וחמצמצה תוך 24-48 שעות."
+    },
+    {
+        "id":  "labneh-balls-zaatar",
+        "name":  "Labneh Balls in Olive Oil \u0026 Za\u0027atar",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  6,
+        "prepTimeMin":  15,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "500 g",
+                                "item":  "thick labneh (or strain 1 kg full-fat yogurt with 1 tsp salt for 24-48 hours)",
+                                "israelNote":  "labaneh (widely available ready-made; buy the thickest one)"
+                            },
+                            {
+                                "amount":  "2 tbsp / 15 g",
+                                "item":  "za\u0027atar",
+                                "israelNote":  "za\u0027atar blend"
+                            },
+                            {
+                                "amount":  "about 1 cup / 240 ml",
+                                "item":  "extra-virgin olive oil (to cover)"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "chili flakes (optional)"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "sumac (optional)",
+                                "israelNote":  "sumak"
+                            }
+                        ],
+        "instructions":  [
+                             "If your labneh is soft, let it drain in a cheesecloth-lined sieve in the fridge for a few hours until it holds its shape; ready-made thick labaneh can be used as is.",
+                             "With lightly oiled hands, roll the labneh into 12 walnut-sized balls and set them on a plate lined with baking paper.",
+                             "Chill the balls for 30 minutes so they firm up.",
+                             "Spread the za\u0027atar on a small plate and roll each ball in it to coat.",
+                             "Place the balls in a clean jar, add the chili flakes and sumac if using, and pour in olive oil until fully covered.",
+                             "Rest at least a few hours before serving. Keeps about a month in the fridge; bring to room temperature before serving so the oil liquefies."
+                         ],
+        "nutrition":  {
+                          "calories":  180,
+                          "fatG":  13.4,
+                          "satFatG":  5.8,
+                          "proteinG":  6.6,
+                          "carbsG":  4.8,
+                          "fiberG":  0.6,
+                          "netCarbsG":  4.2,
+                          "sugarG":  3.5,
+                          "sodiumMg":  380
+                      },
+        "ketoVariant":  "Already keto; serve with cucumber spears instead of bread.",
+        "tips":  "Do not discard the leftover oil - it becomes za\u0027atar-infused and is excellent over salads or eggs.",
+        "sources":  [
+                        {
+                            "creator":  "At the Immigrant\u0027s Table",
+                            "url":  "https://immigrantstable.com/homemade-labaneh-balls/"
+                        },
+                        {
+                            "creator":  "Simply Lebanese",
+                            "url":  "https://www.simplyleb.com/recipe/labneh-balls/"
+                        },
+                        {
+                            "creator":  "May I Have That Recipe",
+                            "url":  "https://mayihavethatrecipe.com/labneh-balls-recipe/"
+                        }
+                    ],
+        "comparedVersions":  "Compared from-scratch versions (straining yogurt 24-48 hours) with coating options of herbs, sumac, pistachios and za\u0027atar. For Israel the winning simplification is starting from store-bought labaneh - identical result, zero waiting - with the za\u0027atar coating that all three creators feature.",
+        "nameHe":  "כדורי לאבנה בשמן זית וזעתר",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "500 גרם",
+                                  "item":  "לאבנה סמיכה (או מסננים 1 ק\"ג יוגורט שמן עם כפית מלח במשך 24-48 שעות)",
+                                  "israelNote":  "זמינה מוכנה בכל סופר; קונים את הסמיכה ביותר"
+                              },
+                              {
+                                  "amount":  "2 כפות / 15 גרם",
+                                  "item":  "זעתר"
+                              },
+                              {
+                                  "amount":  "כ-1 כוס / 240 מ\"ל",
+                                  "item":  "שמן זית כתית מעולה (לכיסוי)"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "פתיתי צ\u0027ילי (לא חובה)"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "סומק (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "אם הלאבנה רכה, מסננים אותה כמה שעות במקרר במסננת מרופדת בבד גבינה עד שהיא שומרת על צורתה; לאבנה קנויה וסמיכה אפשר לקחת כמו שהיא.",
+                               "בידיים משומנות קלות, מגלגלים מהלאבנה 12 כדורים בגודל אגוז מלך ומניחים על צלחת מרופדת בנייר אפייה.",
+                               "מצננים את הכדורים 30 דקות במקרר כדי שיתייצבו.",
+                               "מפזרים את הזעתר על צלחת קטנה ומגלגלים בו כל כדור לציפוי.",
+                               "מניחים את הכדורים בצנצנת נקייה, מוסיפים את פתיתי הצ\u0027ילי והסומק אם רוצים, ומוזגים שמן זית עד כיסוי מלא.",
+                               "ממתינים לפחות כמה שעות לפני ההגשה. נשמר כחודש במקרר; מוציאים לטמפרטורת החדר לפני ההגשה כדי שהשמן יחזור לנוזלי."
+                           ],
+        "ketoVariantHe":  "כבר קיטו; מגישים עם רצועות מלפפון במקום לחם.",
+        "tipsHe":  "לא לזרוק את השמן שנשאר - הוא הופך לשמן זעתר משובח, מצוין לסלטים או לביצים.",
+        "comparedVersionsHe":  "השווינו הכנה ביתית מאפס (סינון יוגורט 24-48 שעות) עם אפשרויות ציפוי של עשבי תיבול, סומק, פיסטוקים וזעתר. בישראל הפישוט המנצח הוא להתחיל מלאבנה קנויה - תוצאה זהה, אפס המתנה - עם ציפוי הזעתר שמופיע אצל כל שלושת היוצרים."
+    },
+    {
+        "id":  "almond-crusted-cheese-sticks",
+        "name":  "Baked Almond-Crusted Cheese Sticks",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  6,
+        "difficulty":  "medium",
+        "ingredients":  [
+                            {
+                                "amount":  "8 sticks / 224 g",
+                                "item":  "mozzarella string cheese",
+                                "israelNote":  "makelot mozzarella / gvinat mozzarella cut into thick sticks"
+                            },
+                            {
+                                "amount":  "1/2 cup / 56 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/4 cup / 25 g",
+                                "item":  "finely grated parmesan",
+                                "israelNote":  "gvinat parmezan megureded"
+                            },
+                            {
+                                "amount":  "2",
+                                "item":  "eggs, beaten"
+                            },
+                            {
+                                "amount":  "1 tsp",
+                                "item":  "dried oregano or Italian herb mix"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "garlic powder"
+                            },
+                            {
+                                "amount":  "1/2 tsp",
+                                "item":  "sweet paprika"
+                            }
+                        ],
+        "instructions":  [
+                             "Cut each cheese stick in half to make 16 short pieces.",
+                             "Mix the almond flour, parmesan, oregano, garlic powder and paprika in one shallow bowl; beat the eggs in another.",
+                             "Dip each cheese piece in egg, then in the almond mixture. Repeat the dip for a second coat - double coating is what keeps the cheese sealed in.",
+                             "Arrange on a lined tray and freeze for at least 1 hour. Do not skip this or the cheese will leak before the crust sets.",
+                             "Heat the oven to 200°C / 400°F (or an air fryer to 190°C).",
+                             "Bake the frozen sticks 5-6 minutes, flipping once, just until golden and barely starting to soften. In the air fryer: about 5 minutes.",
+                             "Rest 2 minutes and serve warm, with warm sugar-free tomato sauce for dipping if you like."
+                         ],
+        "nutrition":  {
+                          "calories":  300,
+                          "fatG":  23.0,
+                          "satFatG":  9.3,
+                          "proteinG":  22.0,
+                          "carbsG":  5.3,
+                          "fiberG":  1.6,
+                          "netCarbsG":  3.7,
+                          "sugarG":  1.0,
+                          "sodiumMg":  480
+                      },
+        "ketoVariant":  "Already keto.",
+        "tips":  "Coat and freeze a double batch; bake straight from the freezer whenever a craving hits.",
+        "sources":  [
+                        {
+                            "creator":  "Wholesome Yum",
+                            "url":  "https://www.wholesomeyum.com/recipes/gluten-free-low-carb-mozzarella-sticks/"
+                        },
+                        {
+                            "creator":  "That Low Carb Life",
+                            "url":  "https://thatlowcarblife.com/keto-mozzarella-sticks/"
+                        },
+                        {
+                            "creator":  "KetoFocus",
+                            "url":  "https://www.ketofocus.com/recipes/keto-mozzarella-sticks/"
+                        }
+                    ],
+        "comparedVersions":  "Compared coatings: Wholesome Yum\u0027s almond flour + crushed pork rinds is not kosher, so this version uses That Low Carb Life\u0027s almond flour + parmesan approach instead. Kept the two techniques every version agreed on - double dredging and a mandatory 1-hour freeze - which are what prevent cheese blowouts in a hot oven.",
+        "nameHe":  "מקלות גבינה אפויים בציפוי שקדים",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "8 מקלות / 224 גרם",
+                                  "item":  "מקלות גבינת מוצרלה",
+                                  "israelNote":  "או גוש מוצרלה חתוך למקלות עבים"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 56 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 25 גרם",
+                                  "item":  "פרמזן מגורר דק"
+                              },
+                              {
+                                  "amount":  "2",
+                                  "item":  "ביצים טרופות"
+                              },
+                              {
+                                  "amount":  "1 כפית",
+                                  "item":  "אורגנו יבש או תערובת עשבי תיבול איטלקית"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "אבקת שום"
+                              },
+                              {
+                                  "amount":  "1/2 כפית",
+                                  "item":  "פפריקה מתוקה"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "חותכים כל מקל גבינה לשניים לקבלת 16 מקלות קצרים.",
+                               "מערבבים בקערה רדודה אחת את קמח השקדים, הפרמזן, האורגנו, אבקת השום והפפריקה; טורפים את הביצים בקערה שנייה.",
+                               "טובלים כל חתיכת גבינה בביצה ואז בתערובת השקדים. חוזרים על הטבילה לציפוי שני - הציפוי הכפול הוא מה ששומר על הגבינה אטומה בפנים.",
+                               "מסדרים על תבנית מרופדת ומקפיאים לפחות שעה. לא מדלגים על השלב הזה, אחרת הגבינה תדלוף לפני שהציפוי יתייצב.",
+                               "מחממים תנור ל-200 מעלות (או מטגן אוויר ל-190 מעלות).",
+                               "אופים את המקלות הקפואים 5-6 דקות עם הפיכה אחת, רק עד שהם זהובים ומתחילים להתרכך. במטגן אוויר: כ-5 דקות.",
+                               "ממתינים 2 דקות ומגישים חם, עם רוטב עגבניות חם ללא סוכר לטבילה אם רוצים."
+                           ],
+        "ketoVariantHe":  "כבר קיטו.",
+        "tipsHe":  "מצפים ומקפיאים מנה כפולה; אופים ישר מהמקפיא בכל פעם שמתחשק.",
+        "comparedVersionsHe":  "השווינו ציפויים: הציפוי של Wholesome Yum מבוסס על קמח שקדים עם פצפוצי עור חזיר ואינו כשר, ולכן כאן נבחרה הגישה של That Low Carb Life עם קמח שקדים ופרמזן. שמרנו על שתי הטכניקות שכל הגרסאות מסכימות עליהן - ציפוי כפול והקפאה חובה של שעה - שהן מה שמונע מהגבינה להתפרץ בתנור חם."
+    },
+    {
+        "id":  "keto-trail-mix",
+        "name":  "Keto Trail Mix with Dark Chocolate",
+        "category":  "snacks",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  8,
+        "prepTimeMin":  5,
+        "cookTimeMin":  8,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1/2 cup / 70 g",
+                                "item":  "raw almonds",
+                                "israelNote":  "shkedim tiv\u0027iyim"
+                            },
+                            {
+                                "amount":  "1/2 cup / 50 g",
+                                "item":  "pecan halves",
+                                "israelNote":  "pekanim"
+                            },
+                            {
+                                "amount":  "1/2 cup / 50 g",
+                                "item":  "walnut halves",
+                                "israelNote":  "egozei melech"
+                            },
+                            {
+                                "amount":  "1/2 cup / 65 g",
+                                "item":  "shelled pumpkin seeds",
+                                "israelNote":  "garinei dla\u0027at kelufim"
+                            },
+                            {
+                                "amount":  "1/4 cup / 35 g",
+                                "item":  "sunflower seeds",
+                                "israelNote":  "garinei chamania kelufim"
+                            },
+                            {
+                                "amount":  "3/4 cup / 45 g",
+                                "item":  "unsweetened coconut chips",
+                                "israelNote":  "shvavei kokos lo mumtakim (health-food aisle)"
+                            },
+                            {
+                                "amount":  "50 g",
+                                "item":  "85% dark chocolate, chopped into chunks",
+                                "israelNote":  "shokolad marir 85% (e.g. Splendid 85%)"
+                            },
+                            {
+                                "amount":  "1/4 tsp",
+                                "item":  "flaky salt (optional)"
+                            }
+                        ],
+        "instructions":  [
+                             "Heat the oven to 160°C / 325°F.",
+                             "Spread the almonds, pecans, walnuts, pumpkin seeds and sunflower seeds on a baking tray and toast 6-8 minutes, until fragrant.",
+                             "Add the coconut chips for the last 2-3 minutes only - they brown much faster than the nuts.",
+                             "Cool the tray completely. Warm nuts will melt the chocolate, so be patient.",
+                             "Toss the cooled nuts and coconut with the chocolate chunks and flaky salt.",
+                             "Store airtight at room temperature up to a month; portion 1/3-cup servings into small bags for grab-and-go."
+                         ],
+        "nutrition":  {
+                          "calories":  280,
+                          "fatG":  25.7,
+                          "satFatG":  7.0,
+                          "proteinG":  8.0,
+                          "carbsG":  8.1,
+                          "fiberG":  4.7,
+                          "netCarbsG":  3.4,
+                          "sugarG":  1.6,
+                          "sodiumMg":  75
+                      },
+        "ketoVariant":  "Already keto; use 90% chocolate or sugar-free chips to cut another gram of sugar.",
+        "lowCarbVariant":  "Add 2 tbsp unsweetened dried cranberries for a fruitier mix (about +2 g net carbs per serving).",
+        "tips":  "Measure portions - trail mix is easy to overeat and the calories add up fast.",
+        "sources":  [
+                        {
+                            "creator":  "Tastes Lovely",
+                            "url":  "https://www.tasteslovely.com/whole30-keto-nuts-coconut-trail-mix/"
+                        },
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/healthy-trail-mix/"
+                        },
+                        {
+                            "creator":  "Wholly Tasteful",
+                            "url":  "https://www.whollytasteful.com/low-carb-trail-mix/"
+                        }
+                    ],
+        "comparedVersions":  "Compared no-toast mixes against toasted versions and different chocolate choices (sugar-free chips vs. 85% bars). Toasting won decisively for flavor, and a chopped 85% pareve bar beat specialty sugar-free chips for Israeli availability; skipped dried cranberries from the base mix to keep it firmly keto.",
+        "nameHe":  "תערובת שבילים קיטו עם שוקולד מריר",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1/2 כוס / 70 גרם",
+                                  "item":  "שקדים טבעיים"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 50 גרם",
+                                  "item":  "חצאי פקאן"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 50 גרם",
+                                  "item":  "חצאי אגוזי מלך"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 65 גרם",
+                                  "item":  "גרעיני דלעת קלופים"
+                              },
+                              {
+                                  "amount":  "1/4 כוס / 35 גרם",
+                                  "item":  "גרעיני חמנייה קלופים"
+                              },
+                              {
+                                  "amount":  "3/4 כוס / 45 גרם",
+                                  "item":  "שבבי קוקוס לא ממותקים",
+                                  "israelNote":  "מדף הבריאות / חנויות טבע"
+                              },
+                              {
+                                  "amount":  "50 גרם",
+                                  "item":  "שוקולד מריר 85% קצוץ לחתיכות",
+                                  "israelNote":  "(למשל ספלנדיד 85%)"
+                              },
+                              {
+                                  "amount":  "1/4 כפית",
+                                  "item":  "מלח בפתיתים (לא חובה)"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-160 מעלות.",
+                               "מפזרים את השקדים, הפקאנים, אגוזי המלך, גרעיני הדלעת וגרעיני החמנייה על תבנית וקולים 6-8 דקות, עד שהם ריחניים.",
+                               "מוסיפים את שבבי הקוקוס רק ב-2-3 הדקות האחרונות - הם משחימים הרבה יותר מהר מהאגוזים.",
+                               "מצננים את התבנית לגמרי. אגוזים חמים ימיסו את השוקולד, אז מתאזרים בסבלנות.",
+                               "מערבבים את האגוזים והקוקוס המצוננים עם חתיכות השוקולד והמלח.",
+                               "נשמר בכלי אטום בטמפרטורת החדר עד חודש; מחלקים מנות של 1/3 כוס לשקיות קטנות לנשנוש בדרכים."
+                           ],
+        "ketoVariantHe":  "כבר קיטו; שוקולד 90% או שבבי שוקולד ללא סוכר יחסכו עוד גרם סוכר.",
+        "lowCarbVariantHe":  "מוסיפים 2 כפות חמוציות מיובשות לא ממותקות לתערובת פירותית יותר (כ-2 גרם פחמימות נטו נוספות למנה).",
+        "tipsHe":  "שוקלים מנות - קל מאוד לאכול יותר מדי תערובת שבילים והקלוריות מצטברות מהר.",
+        "comparedVersionsHe":  "השווינו תערובות ללא קלייה מול גרסאות קלויות, ובחירות שוקולד שונות (שבבים ללא סוכר מול חטיפי 85%). הקלייה ניצחה באופן חד-משמעי בטעם, וחטיף 85% פרווה קצוץ עדיף על שבבים ללא סוכר מבחינת זמינות בישראל; השמטנו את החמוציות מהתערובת הבסיסית כדי להישאר קיטו לגמרי."
+    },
+    {
+        "id":  "celery-almond-butter-boats",
+        "name":  "Celery Boats with Almond Butter",
+        "category":  "snacks",
+        "kosherType":  "pareve",
+        "dietTags":  "keto",
+        "servings":  2,
+        "prepTimeMin":  8,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "4 stalks / 160 g",
+                                "item":  "celery",
+                                "israelNote":  "selery amerikai (stalk celery, not root)"
+                            },
+                            {
+                                "amount":  "4 tbsp / 64 g",
+                                "item":  "natural almond butter (100% almonds, no added sugar)",
+                                "israelNote":  "chemat shkedim tiv\u0027it (health-food aisle)"
+                            },
+                            {
+                                "amount":  "1 tbsp / 12 g",
+                                "item":  "chia or hemp seeds",
+                                "israelNote":  "zir\u0027ei chia"
+                            },
+                            {
+                                "amount":  "1 pinch",
+                                "item":  "cinnamon or flaky salt"
+                            },
+                            {
+                                "amount":  "1 tbsp (optional)",
+                                "item":  "sugar-free or 85% dark chocolate chips",
+                                "israelNote":  ""
+                            }
+                        ],
+        "instructions":  [
+                             "Wash the celery, trim the ends and pull off any tough outer strings with a peeler.",
+                             "Cut each stalk into 2-3 hand-length boats and pat dry.",
+                             "Stir the almond butter well (natural brands separate) and spread it into the groove of each boat.",
+                             "Sprinkle with chia seeds, a pinch of cinnamon or flaky salt, and the chocolate chips if using. Serve immediately."
+                         ],
+        "nutrition":  {
+                          "calories":  233,
+                          "fatG":  19.5,
+                          "satFatG":  1.6,
+                          "proteinG":  7.5,
+                          "carbsG":  10.1,
+                          "fiberG":  6.0,
+                          "netCarbsG":  4.1,
+                          "sugarG":  2.5,
+                          "sodiumMg":  105
+                      },
+        "ketoVariant":  "Already keto.",
+        "lowCarbVariant":  "Scatter a few unsweetened dried cranberries on top for classic \u0027ants on a log\u0027 (about +2 g net carbs).",
+        "tips":  "Chill the assembled boats 10 minutes if you want the almond butter to set firm.",
+        "sources":  [
+                        {
+                            "creator":  "Sweet As Honey",
+                            "url":  "https://www.sweetashoney.co/ants-on-a-log/"
+                        },
+                        {
+                            "creator":  "Ketogenic.com",
+                            "url":  "https://ketogenic.com/recipes/keto-ants-on-a-log/"
+                        },
+                        {
+                            "creator":  "Carb Manager",
+                            "url":  "https://www.carbmanager.com/recipe-detail/ug:3817117d-5aca-52df-5e03-803b651f9ecb/celery-almond-butter"
+                        }
+                    ],
+        "comparedVersions":  "Compared fillings (peanut butter, cream cheese, almond butter) and \u0027ant\u0027 toppings across keto versions of ants on a log. Almond butter with chia seeds won: pareve, no added sugar, more fiber than raisin-topped originals, and the chia adds the classic dotted look without the carbs.",
+        "nameHe":  "סירות סלרי עם חמאת שקדים",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "4 גבעולים / 160 גרם",
+                                  "item":  "סלרי",
+                                  "israelNote":  "סלרי אמריקאי (גבעולים, לא שורש)"
+                              },
+                              {
+                                  "amount":  "4 כפות / 64 גרם",
+                                  "item":  "חמאת שקדים טבעית (100% שקדים, ללא סוכר מוסף)",
+                                  "israelNote":  "מדף הבריאות / חנויות טבע"
+                              },
+                              {
+                                  "amount":  "1 כף / 12 גרם",
+                                  "item":  "זרעי צ\u0027יה או המפ"
+                              },
+                              {
+                                  "amount":  "קורט",
+                                  "item":  "קינמון או מלח בפתיתים"
+                              },
+                              {
+                                  "amount":  "1 כף (לא חובה)",
+                                  "item":  "שבבי שוקולד ללא סוכר או מריר 85%",
+                                  "israelNote":  ""
+                              }
+                          ],
+        "instructionsHe":  [
+                               "שוטפים את הסלרי, חותכים את הקצוות ומושכים סיבים קשים מהצד החיצוני בעזרת קולפן.",
+                               "חותכים כל גבעול ל-2-3 \u0027סירות\u0027 באורך כף יד ומייבשים.",
+                               "מערבבים היטב את חמאת השקדים (במותגים טבעיים השמן נפרד) ומורחים אותה בשקע של כל סירה.",
+                               "מפזרים זרעי צ\u0027יה, קורט קינמון או מלח בפתיתים, ושבבי שוקולד אם רוצים. מגישים מיד."
+                           ],
+        "ketoVariantHe":  "כבר קיטו.",
+        "lowCarbVariantHe":  "מפזרים מעל כמה חמוציות מיובשות לא ממותקות לגרסה הקלאסית של \u0027נמלים על בול עץ\u0027 (כ-2 גרם פחמימות נטו נוספות).",
+        "tipsHe":  "מצננים את הסירות המוכנות 10 דקות אם רוצים שחמאת השקדים תתייצב.",
+        "comparedVersionsHe":  "השווינו מילויים (חמאת בוטנים, גבינת שמנת, חמאת שקדים) ותוספות בגרסאות קיטו של \u0027נמלים על בול עץ\u0027. חמאת שקדים עם זרעי צ\u0027יה ניצחה: פרווה, ללא סוכר מוסף, יותר סיבים מהמקור עם הצימוקים, והצ\u0027יה נותנת את מראה הנקודות הקלאסי בלי הפחמימות."
+    },
+    {
+        "id":  "everything-bagel-pepper-poppers",
+        "name":  "Everything-Bagel Cream Cheese Pepper Poppers",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  4,
+        "prepTimeMin":  15,
+        "cookTimeMin":  0,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "8 / 240 g",
+                                "item":  "mini sweet peppers",
+                                "israelNote":  "pilpelonim metukim (sold in bags)"
+                            },
+                            {
+                                "amount":  "150 g",
+                                "item":  "cream cheese, softened",
+                                "israelNote":  "gvinat shamenet (Napoleon/Ski)"
+                            },
+                            {
+                                "amount":  "1/2 cup / 50 g",
+                                "item":  "shredded yellow cheese",
+                                "israelNote":  "gvina tzehuba megureded (Emek/cheddar style)"
+                            },
+                            {
+                                "amount":  "2 tsp",
+                                "item":  "everything-bagel seasoning",
+                                "israelNote":  "make your own: equal parts sesame, black sesame, dried garlic granules, dried onion granules + coarse salt"
+                            },
+                            {
+                                "amount":  "1 tbsp (optional)",
+                                "item":  "chopped chives or green onion"
+                            }
+                        ],
+        "instructions":  [
+                             "Halve the mini peppers lengthwise through the stem and scrape out the seeds and membranes.",
+                             "In a bowl, mix the softened cream cheese with the shredded cheese, half the everything seasoning and the chives.",
+                             "Spoon or pipe the filling into the pepper halves, smoothing the tops.",
+                             "Sprinkle the remaining seasoning generously over the filling.",
+                             "Serve chilled, or refrigerate in an airtight container up to 4 days."
+                         ],
+        "nutrition":  {
+                          "calories":  205,
+                          "fatG":  17.6,
+                          "satFatG":  10.0,
+                          "proteinG":  5.7,
+                          "carbsG":  6.2,
+                          "fiberG":  1.4,
+                          "netCarbsG":  4.8,
+                          "sugarG":  4.2,
+                          "sodiumMg":  330
+                      },
+        "ketoVariant":  "Already keto.",
+        "lowCarbVariant":  "For a warm version, bake the filled peppers 8-10 minutes at 190°C until the cheese melts (counts as cookTime).",
+        "tips":  "Soften the cream cheese fully before mixing or the filling will be lumpy; a small spoon or a zip bag with a corner cut makes filling fast.",
+        "sources":  [
+                        {
+                            "creator":  "Low Carb Spark",
+                            "url":  "https://www.lowcarbspark.com/cream-cheese-stuffed-mini-peppers/"
+                        },
+                        {
+                            "creator":  "Keto Cooking Christian",
+                            "url":  "https://ketocookingchristian.com/everything-bagel-stuffed-mini-peppers/"
+                        },
+                        {
+                            "creator":  "Wellness by Kay",
+                            "url":  "https://wellnessbykay.com/cream-cheese-stuffed-peppers/"
+                        }
+                    ],
+        "comparedVersions":  "Compared cold no-bake versions with baked ones and fillings with and without shredded cheese. The no-bake build with a little shredded yellow cheese won for texture and zero cooking; since packaged everything-bagel seasoning is hard to find in Israel, the recipe includes a 30-second DIY blend.",
+        "nameHe":  "פלפלונים ממולאים בגבינת שמנת בתיבול אבריתינג בייגל",
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "8 / 240 גרם",
+                                  "item":  "פלפלונים מתוקים",
+                                  "israelNote":  "נמכרים בשקיות"
+                              },
+                              {
+                                  "amount":  "150 גרם",
+                                  "item":  "גבינת שמנת מרוככת",
+                                  "israelNote":  "נפוליאון / סקי"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 50 גרם",
+                                  "item":  "גבינה צהובה מגוררת",
+                                  "israelNote":  "עמק / בסגנון צ\u0027דר"
+                              },
+                              {
+                                  "amount":  "2 כפיות",
+                                  "item":  "תערובת תיבול אבריתינג בייגל",
+                                  "israelNote":  "מכינים לבד: חלקים שווים שומשום, שומשום שחור, גרגירי שום מיובש וגרגירי בצל מיובש + מלח גס"
+                              },
+                              {
+                                  "amount":  "1 כף (לא חובה)",
+                                  "item":  "עירית או בצל ירוק קצוצים"
+                              }
+                          ],
+        "instructionsHe":  [
+                               "חוצים את הפלפלונים לאורכם דרך הגבעול ומגרדים החוצה את הגרעינים והקרומים.",
+                               "בקערה, מערבבים את גבינת השמנת המרוככת עם הגבינה המגוררת, מחצית מתערובת התיבול והעירית.",
+                               "ממלאים את חצאי הפלפלונים בכף או בשקית זילוף ומחליקים את פני המילוי.",
+                               "מפזרים בנדיבות את שאר התיבול על המילוי.",
+                               "מגישים צונן, או שומרים במקרר בכלי אטום עד 4 ימים."
+                           ],
+        "ketoVariantHe":  "כבר קיטו.",
+        "lowCarbVariantHe":  "לגרסה חמה אופים את הפלפלונים הממולאים 8-10 דקות ב-190 מעלות עד שהגבינה נמסה.",
+        "tipsHe":  "מרככים את גבינת השמנת לגמרי לפני הערבוב, אחרת המילוי יצא גושי; כפית קטנה או שקית עם פינה גזורה הופכות את המילוי למהיר.",
+        "comparedVersionsHe":  "השווינו גרסאות קרות ללא אפייה מול אפויות, ומילויים עם ובלי גבינה מגוררת. הגרסה ללא אפייה עם מעט גבינה צהובה מגוררת ניצחה במרקם ובאפס בישול; מכיוון שתערובת אבריתינג בייגל קנויה קשה להשגה בישראל, המתכון כולל תערובת ביתית של 30 שניות."
+    },
+    {
+        "id":  "blueberry-health-balls",
+        "name":  "Blueberry Health Balls",
+        "nameHe":  "כדורי בריאות אוכמניות",
+        "category":  "snacks",
+        "kosherType":  "dairy",
+        "dietTags":  "keto",
+        "servings":  7,
+        "prepTimeMin":  10,
+        "cookTimeMin":  15,
+        "difficulty":  "easy",
+        "ingredients":  [
+                            {
+                                "amount":  "1 cup / 96 g",
+                                "item":  "almond flour",
+                                "israelNote":  "kemach shkedim"
+                            },
+                            {
+                                "amount":  "1/2 cup / 120 g",
+                                "item":  "Greek yogurt",
+                                "israelNote":  "yogurt Yevani 5-10%"
+                            },
+                            {
+                                "amount":  "1/2 cup / 75 g",
+                                "item":  "fresh blueberries"
+                            },
+                            {
+                                "amount":  "4 tbsp / 60 ml",
+                                "item":  "allulose syrup (or 3 tbsp granulated allulose dissolved in 1 tbsp warm water)",
+                                "israelNote":  "replaces the honey/maple of the original"
+                            },
+                            {
+                                "amount":  "30 g",
+                                "item":  "sugar-free dark chocolate 85%+, melted, for drizzling"
+                            }
+                        ],
+        "ingredientsHe":  [
+                              {
+                                  "amount":  "1 כוס / 96 גרם",
+                                  "item":  "קמח שקדים"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 120 גרם",
+                                  "item":  "יוגורט יווני",
+                                  "israelNote":  "5–10% שומן"
+                              },
+                              {
+                                  "amount":  "1/2 כוס / 75 גרם",
+                                  "item":  "אוכמניות טריות"
+                              },
+                              {
+                                  "amount":  "4 כפות / 60 מ\"ל",
+                                  "item":  "סירופ אלולוז (או 3 כפות אלולוז גרגירי מומס בכף מים חמים)",
+                                  "israelNote":  "מחליף את הדבש/מייפל מהמקור"
+                              },
+                              {
+                                  "amount":  "30 גרם",
+                                  "item":  "שוקולד מריר 85%+ ללא סוכר, מומס, לזיגוג"
+                              }
+                          ],
+        "instructions":  [
+                             "Heat the oven to 160°C (top-bottom heat) and line a tray with baking paper.",
+                             "Mix the almond flour, yogurt, blueberries and allulose syrup in a bowl into a thick, rollable batter — some berries will break and streak it purple, that\u0027s fine.",
+                             "Roll into small balls (about 14) with damp hands and set on the tray.",
+                             "Bake 15 minutes, until just set and lightly golden underneath.",
+                             "Cool completely, then drizzle with the melted chocolate and let it firm up."
+                         ],
+        "instructionsHe":  [
+                               "מחממים תנור ל-160 מעלות (חום עליון-תחתון) ומרפדים תבנית בנייר אפייה.",
+                               "מערבבים בקערה את קמח השקדים, היוגורט, האוכמניות וסירופ האלולוז לעיסה סמיכה שאפשר לגלגל — חלק מהאוכמניות יימעכו ויצבעו סגול, זה בסדר גמור.",
+                               "מגלגלים בידיים לחות כדורים קטנים (בערך 14) ומניחים על התבנית.",
+                               "אופים 15 דקות, עד שהכדורים מתייצבים ומזהיבים קלות מלמטה.",
+                               "מצננים היטב, מזגזגים שוקולד מומס מעל ונותנים לו להתייצב."
+                           ],
+        "nutrition":  {
+                          "calories":  133,
+                          "fatG":  10.6,
+                          "satFatG":  2.6,
+                          "proteinG":  4.5,
+                          "carbsG":  7.2,
+                          "fiberG":  2.4,
+                          "netCarbsG":  4.8,
+                          "sugarG":  1.9,
+                          "sodiumMg":  20
+                      },
+        "tips":  "A serving is 2 balls. They keep 4 days in the fridge in a sealed box — perfect next to coffee.",
+        "tipsHe":  "מנה = 2 כדורים. נשמרים 4 ימים במקרר בקופסה סגורה — מושלמים ליד הקפה.",
+        "comparedVersions":  "Family pick: adapted from a Facebook post by \u0027Pilpelet\u0027 that Hagai photographed and submitted. The original is genuinely almost low-carb; the one fix was swapping 3 tbsp honey/maple (~50 g sugar) for allulose syrup, and making the chocolate drizzle sugar-free — bringing a ball from ~6 g to ~2.4 g net carbs.",
+        "comparedVersionsHe":  "בחירה משפחתית: בהשראת פוסט של \u0027פלפלת\u0027 בפייסבוק שחגי צילם ושלח. המקור כמעט דל-פחמימות באמת; התיקון היחיד — החלפת 3 כפות דבש/מייפל (כ-50 גרם סוכר) בסירופ אלולוז, ושוקולד הזיגוג לגרסה ללא סוכר — מה שמוריד כדור מ-6 גרם לכ-2.4 גרם פחמימות נטו."
+    }
 ]
